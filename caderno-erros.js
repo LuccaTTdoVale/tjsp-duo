@@ -31,13 +31,6 @@ function reviewTarget(item){
  if(target)return {name:target.title,url:'./conteudo.html?lesson='+encodeURIComponent(target.id)};
  return {name:'Ver aulas de '+item.subject+' (sem aula exata cadastrada)',url:'./conteudo.html?materia='+encodeURIComponent(item.subject)};
 }
-function foldLessonErrors(m){
- return Object.entries(m||{}).filter(([,v])=>v&&v.question).map(([key,v])=>({
-   key:'lesson:'+key,source:'lesson',subject:v.subject||'Aulas',topic:v.topic||v.title||'Aula',lessonId:v.lessonId,
-   question:v.question,options:Array.isArray(v.options)?v.options:[],choice:v.choice,answer:v.answer,
-   explanation:v.explanation||'Revise a explicação da aula.',lastSeen:v.lastSeen||v.firstSeen||'',count:v.count||1
- }));
-}
 function foldExamErrors(docs,bank){
  const questionMap=new Map(bank.map(q=>[Number(q.i),q])),collected=new Map();
  const exams=docs.sort((a,b)=>String(a.createdAt||'').localeCompare(String(b.createdAt||'')));
@@ -61,8 +54,8 @@ function populateSummary(){
 function textOption(item,i){return i===null||i===undefined||!Array.isArray(item.options)?'Não informada':
    (String.fromCharCode(65+Number(i))+') '+String(item.options[i]??'(alternativa indisponível)'));
 }
-function renderEntries(){populateSummary();const q=clean($('searchMistake').value),src=$('sourceMistake').value,filter=$('statusMistake').value;
- const rows=entries.filter(e=>(src==='all'||e.source===src)&&
+function renderEntries(){populateSummary();const q=clean($('searchMistake').value),filter=$('statusMistake').value;
+ const rows=entries.filter(e=>
    (filter==='all'||(filter==='pending'?!isReviewed(e):isReviewed(e)))&&
    (!q||clean([e.subject,e.topic,e.question,e.explanation].join(' ')).includes(q)));
  if(!rows.length){$('mistakeList').innerHTML='<div class="noteEmpty">Nenhum erro encontrado neste filtro. Se você já respondeu simulados, confira se entrou na conta correta.</div>';return;}
@@ -71,7 +64,7 @@ function renderEntries(){populateSummary();const q=clean($('searchMistake').valu
    const choice=textOption(x,x.choice),answer=textOption(x,x.answer);
    const date=x.lastSeen?new Date(x.lastSeen).toLocaleDateString('pt-BR'):'Data indisponível';
    return `<article class="noteCard ${reviewedNow?'':'isPending'}" data-error="${esc(x.key)}">
-     <div class="noteMeta">${x.source==='lesson'?'📖 Questão da aula':'✎ Simulado'} · ${esc(x.subject)} / ${esc(x.topic)} · ${esc(date)} · ${x.count} ${x.count===1?'erro registrado':'erros registrados'}</div>
+     <div class="noteMeta">✎ Simulado · ${esc(x.subject)} / ${esc(x.topic)} · ${esc(date)} · ${x.count} ${x.count===1?'erro registrado':'erros registrados'}</div>
      <h3>${esc(x.question)}</h3>
      <div class="noteWrong"><strong>Onde você errou</strong><p>Você marcou: <b>${esc(choice)}</b></p></div>
      <div class="noteRight"><strong>Resposta correta: ${esc(answer)}</strong><p>Explicação: ${esc(x.explanation)}</p></div>
@@ -100,7 +93,7 @@ async function loadCurrentUser(user){activeUser=user;profileId=null;reviewed={};
    if(!profile.exists()||profile.data().uid!==user.uid)throw Error('Perfil inválido.');
    if(!lessonsResp.ok)throw Error('Falha ao carregar a lista de aulas.');
    lessons=await lessonsResp.json();topicTargets=practiceResp?.ok?(await practiceResp.json()).targets||{}:{};reviewed=profile.data().reviewedErrors||{};
-   const lessonEntries=foldLessonErrors(profile.data().lessonErrors);
+   // Questões de aulas não são contabilizadas aqui; o caderno é exclusivo para simulados.
    const examDocs=examsSnap.docs.map(d=>d.data());let examEntries=[];
    if(examDocs.length){
      status('Localizando as questões dos seus simulados...');
@@ -108,12 +101,12 @@ async function loadCurrentUser(user){activeUser=user;profileId=null;reviewed={};
      if(!bankResp.ok)throw Error('Arquivo banco-consulta.json não encontrado no GitHub.');
      examEntries=foldExamErrors(examDocs,await bankResp.json());
    }
-   entries=[...lessonEntries,...examEntries].sort((a,b)=>String(b.lastSeen||'').localeCompare(String(a.lastSeen||'')));
+   entries=examEntries.sort((a,b)=>String(b.lastSeen||'').localeCompare(String(a.lastSeen||'')));
    $('currentStudent').textContent=(profile.data().username||user.email||'Seu perfil')+' · Perfil '+profileId;
    status('');renderEntries();
  }catch(e){status('Não foi possível abrir seu Caderno: '+e.message+'. Verifique a conexão, a publicação dos arquivos e as permissões do Firebase.');
    $('mistakeList').innerHTML='<div class="noteEmpty">Não foi possível carregar todos os registros; nenhum erro foi excluído.</div>';
  }finally{isLoading=false;}
 }
-for(const id of ['searchMistake','sourceMistake','statusMistake'])$(id).addEventListener(id==='searchMistake'?'input':'change',()=>{if(!isLoading)renderEntries()});
+for(const id of ['searchMistake','statusMistake'])$(id).addEventListener(id==='searchMistake'?'input':'change',()=>{if(!isLoading)renderEntries()});
 onAuthStateChanged(auth,loadCurrentUser,error=>status('Erro ao autenticar: '+error.message));

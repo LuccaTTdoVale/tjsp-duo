@@ -1,5 +1,5 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js';
-import {getAuth,onAuthStateChanged,createUserWithEmailAndPassword,signInWithEmailAndPassword,signOut,deleteUser} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js';
+import {getAuth,onAuthStateChanged,createUserWithEmailAndPassword,signInWithEmailAndPassword,signOut,deleteUser,setPersistence,browserLocalPersistence} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js';
 import {getFirestore,doc,getDoc,setDoc,runTransaction,collection,getDocs,query,orderBy,limit,updateDoc} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js';
 import {firebaseConfig} from './firebase-config.js';
 try {
@@ -25,13 +25,14 @@ await updateDoc(doc(db,'profiles',String(p.id)),{answered,correct,wrong:answered
 window.duoFirebaseAPI=async function(path,payload){try{await ready;
 if(path==='/api/status'){if(!auth.currentUser)return {accounts:0,slots:5};const profiles=await userProfiles();return {accounts:profiles.length,slots:Math.max(0,5-profiles.length)}}
 if(path==='/api/register'){
+ await setPersistence(auth,browserLocalPersistence);
  const email=String(payload.username||'').trim().toLowerCase(),pass=String(payload.password||'');if(!email.includes('@'))throw new Error('Digite um e-mail válido.');
  // Nunca consulte perfis antes de autenticar: as regras bloqueiam leituras anônimas.
  const credential=await createUserWithEmailAndPassword(auth,email,pass);const uid=credential.user.uid;let chosen=null;
  for(const id of slots){try{await runTransaction(db,async tx=>{const ref=doc(db,'slots',id);const snap=await tx.get(ref);if(snap.exists())throw new Error('Ocupado');tx.set(ref,{uid});});chosen=id;break}catch(err){if(err.message!=='Ocupado')throw err}}
  if(!chosen){try{await deleteUser(credential.user)}catch(_){await signOut(auth)}throw new Error('As 5 vagas estão ocupadas.')}const username=email.split('@')[0].slice(0,32);await setDoc(doc(db,'profiles',chosen),{uid,username,goal:20,answered:0,correct:0,wrong:0,distinct:0,daily:{},streak:0,exams:0,subjectStats:{},topicStats:{}});return {user:{id:Number(chosen),uid,username,goal:20}};
 }
-if(path==='/api/login'){await signInWithEmailAndPassword(auth,String(payload.username||'').trim(),String(payload.password||''));return {user:await getUser()}}
+if(path==='/api/login'){await setPersistence(auth,browserLocalPersistence);await signInWithEmailAndPassword(auth,String(payload.username||'').trim(),String(payload.password||''));return {user:await getUser()}}
 if(path==='/api/logout'){await signOut(auth);return {ok:true}}
 if(path==='/api/me')return {user:await getUser()};
 if(path==='/api/summary')return await stats();
@@ -40,5 +41,6 @@ if(path==='/api/goal'){const p=await getUser(),goal=Number(payload.goal);if(!Num
 if(path==='/api/finish'){const p=await getUser(),responses=payload.responses;if(!Array.isArray(responses)||responses.length<1||responses.length>100)throw new Error('Quantidade inválida');const qmap=new Map(bank().map(q=>[q.i,q]));const used=new Set();let correct=0,answered=0;for(const [id,choice] of responses){if(!qmap.has(id)||used.has(id)||(choice!==null&&(!Number.isInteger(choice)||choice<0||choice>4)))throw new Error('Questão ou resposta inválida');used.add(id);if(choice!==null){answered++;if(choice===qmap.get(id).a)correct++}}const eid=String(payload.client_id||'').replace(/[^a-zA-Z0-9_-]/g,'_').slice(0,80);if(!eid)throw new Error('Identificador inválido');const ref=doc(db,'users',p.uid,'exams',eid);const existing=await getDoc(ref);if(existing.exists()){return {id:eid,correct:existing.data().correct,wrong:existing.data().failed,blanks:existing.data().blanks}}const now=new Date(),day=dayKey(now);await setDoc(ref,{createdAt:now.toISOString(),date:now.toLocaleString('pt-BR'),day,total:responses.length,correct,failed:answered-correct,blanks:responses.length-answered,elapsed:payload.elapsed||0,filter:payload.filter||{},responses:responses.map(([id,choice])=>({id,choice}))});await recalc(p);return {id:eid,correct,wrong:answered-correct,blanks:responses.length-answered}}
 throw new Error('Rota desconhecida '+path);
 }catch(e){throw error(e)}};
+window.duoAuthSignedIn=()=>Boolean(auth.currentUser);
 window.duoFirebaseResolve();
 }catch(e){window.duoFirebaseReject(e);console.error('Falha ao iniciar Firebase:',e)}

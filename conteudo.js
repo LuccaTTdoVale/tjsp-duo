@@ -1,13 +1,13 @@
 import {initializeApp,getApps,getApp} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js';
 import {getAuth,onAuthStateChanged} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js';
-import {getFirestore,doc,getDoc,updateDoc,runTransaction} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js';
+import {getFirestore,doc,getDoc,updateDoc} from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js';
 import {firebaseConfig} from './firebase-config.js';
 const $=id=>document.getElementById(id), escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const app=getApps().length?getApp():initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
 let lessons=[],progress={},profileId=null,active=null,currentUser=null;
 let practicePromise=null,lessonVisit=0;
 function getPracticeData(){
- if(!practicePromise)practicePromise=fetch('./questoes-aulas.json?v=3')
+ if(!practicePromise)practicePromise=fetch('./questoes-aulas.json?v=6')
    .then(r=>{if(!r.ok)throw Error('Banco de prática não encontrado');return r.json();})
    .catch(e=>{console.warn('Banco completo indisponível:',e);return {version:3,questions:{},lessons:{},custom:{}};});
  return practicePromise;
@@ -24,8 +24,9 @@ function getPool(l,data){
  const map=new Map();
  // Agrupar por enunciado evita duplicidade literal, mesmo com alternativas reordenadas.
  for(const q of [...bank,...custom,...authored]){
+   if(!q||!Array.isArray(q.options)||q.options.length<2||!Number.isInteger(Number(q.answer))||Number(q.answer)<0||Number(q.answer)>=q.options.length)continue;
    const sig=String(q.q||'').trim().toLocaleLowerCase('pt-BR').replace(/\s+/g,' ')+'|'+[...q.options].map(String).sort().join('|');
-   if(!sig||!Array.isArray(q.options)||q.options.length<2||!Number.isInteger(Number(q.answer))||Number(q.answer)<0||Number(q.answer)>=q.options.length)continue;
+   if(!sig)continue;
    if(!map.has(sig))map.set(sig,q);
  }
  return [...map.values()];
@@ -49,32 +50,32 @@ function pickPractice(l,data){
  return {picked:result,total:pool.length,left:Math.max(0,available.length-count)};
 }
 async function populatePractice(l,visit){
- const host=$('practiceHost');if(!host)return;
- const data=await getPracticeData();
- if(visit!==lessonVisit||active?.id!==l.id||$('lesson').classList.contains('hide'))return;
- const list=pickPractice(l,data.lessons?.[l.id]);
- if(!list.length){host.textContent='Não há questões de fixação disponíveis nesta aula.';return;}
- host.innerHTML=`<div class="practiceTop"><div><h3>🧠 Teste sua compreensão</h3><p class="dim">${total} questões distintas ligadas a esta aula · ${left} ainda não vistas neste ciclo · seleção renovada a cada entrada.</p></div><button class="btn secondary" type="button" id="newQuestions">↻ Outras questões</button></div>${list.map((q,i)=>`<div class="checkQuestion"><strong>${i+1}. ${escapeHtml(q.q)}</strong>${q.options.map((o,j)=>`<button type="button" class="checkOpt" data-i="${i}" data-choice="${j}" aria-pressed="false">${escapeHtml(String.fromCharCode(65+j)+') '+o)}</button>`).join('')}<p class="checkFeedback" id="checkFeedback${i}" aria-live="polite"></p></div>`).join('')}`;
- host.querySelector('#newQuestions')?.addEventListener('click',()=>populatePractice(l,visit));
- host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',async()=>{
-  const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=list[i];
-  const fb=$('checkFeedback'+i);if(!fb||btn.disabled)return;
-  const answer=q.answer,correct=chosen===answer;
-  const buttons=[...host.querySelectorAll('.checkOpt[data-i="'+i+'"]')];
-  buttons.forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true;});
-  const chosenText=String.fromCharCode(65+chosen)+') '+q.options[chosen];
-  const correctText=String.fromCharCode(65+answer)+') '+q.options[answer];
-  fb.replaceChildren();const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
-  const title=document.createElement('strong');title.textContent=correct?'✓ Você acertou!':'✕ Resposta incorreta — veja onde está o erro';box.append(title);
-  const p1=document.createElement('p');p1.textContent=correct?'Resposta: '+correctText:'Você marcou: '+chosenText+' | Resposta correta: '+correctText;box.append(p1);
-  const p2=document.createElement('p');const specific=Array.isArray(q.wrong)?q.wrong[chosen]:'';p2.textContent='Explicação: '+(!correct&&specific&&specific!==q.why?specific+' '+(q.why||''):q.why||'Revise a regra apresentada na aula e compare com as alternativas.');box.append(p2);
-  const status=document.createElement('small');status.className='feedbackSaved';if(!correct){status.textContent='Registrando erro no seu Caderno de Erros...';box.append(status);}fb.append(box);
-  if(!correct){
-   if(!currentUser||!profileId){status.textContent='Entre na sua conta para salvar este erro.';return;}
-   try{await saveLessonMistake(l,q.key,{...q,why:p2.textContent},chosen);status.textContent='✓ Erro salvo no Caderno de Erros.';}
-   catch(e){status.textContent='Erro de sincronização: '+e.message+' (você poderá refazer a questão).';}
-  }
- }));
+  const host=$('practiceHost');if(!host)return;
+  const data=await getPracticeData();
+  if(visit!==lessonVisit||active?.id!==l.id||$('lesson').classList.contains('hide'))return;
+  const {picked:list,total,left}=pickPractice(l,data);
+  if(!list.length){host.innerHTML='<h3>🧠 Teste sua compreensão</h3><p>Não há questões de fixação disponíveis nesta aula.</p>';return;}
+  host.innerHTML=`<div class="practiceTop"><div><h3>🧠 Teste sua compreensão</h3><p class="dim">${total} exercícios associados a esta aula · ${left} ainda não vistos no ciclo atual. Erros daqui são corrigidos imediatamente e não entram no Caderno de Erros.</p></div><button class="btn secondary" type="button" id="newQuestions">↻ Outras questões</button></div>${list.map((q,i)=>`<div class="checkQuestion"><strong>${i+1}. ${escapeHtml(q.q)}</strong>${q.options.map((o,j)=>`<button type="button" class="checkOpt" data-i="${i}" data-choice="${j}" aria-pressed="false">${escapeHtml(String.fromCharCode(65+j)+') '+o)}</button>`).join('')}<div class="checkFeedback" id="checkFeedback${i}" role="status" aria-live="polite"></div></div>`).join('')}`;
+  host.querySelector('#newQuestions')?.addEventListener('click',()=>populatePractice(l,visit));
+  host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',()=>{
+    const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=list[i];
+    const fb=host.querySelector('#checkFeedback'+i);if(!fb||btn.disabled)return;
+    const answer=Number(q.answer),correct=chosen===answer;
+    const buttons=[...host.querySelectorAll('.checkOpt[data-i="'+i+'"]')];
+    buttons.forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true;});
+    const optionText=n=>String.fromCharCode(65+n)+') '+q.options[n];
+    const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
+    const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta!':'✕ Resposta incorreta';box.append(heading);
+    const addLine=(label,detail)=>{const p=document.createElement('p');const bold=document.createElement('b');bold.textContent=label+' ';p.append(bold,document.createTextNode(detail));box.append(p);};
+    addLine('Sua resposta:',optionText(chosen));
+    if(!correct){
+      const specific=Array.isArray(q.wrong)?String(q.wrong[chosen]||'').trim():'';
+      addLine('Por que está errada:',specific||'Esta alternativa não corresponde à regra ou ao resultado exigido. Compare o valor escolhido com o cálculo ou conceito explicado a seguir.');
+    }
+    addLine('Alternativa correta:',optionText(answer));
+    addLine('Por que está correta:',String(q.why||'Confronte a alternativa com a regra e os exemplos explicados acima na aula.'));
+    fb.replaceChildren(box);
+  }));
 }
 
 async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
@@ -109,19 +110,6 @@ function cards(){
  const a=sortedLessons(lessons.filter(l=>l.subject===currentSubject&&topicFor(l)===currentTopic));area.innerHTML=a.map((l,i)=>`<button class="tile" data-id="${escapeHtml(l.id)}"><span class="chip">AULA ${i+1}</span><strong>${escapeHtml(l.title)}</strong><small>${escapeHtml(l.etapa||l.level||'Aula')} · ${progress[l.id]?'✓ Concluída':'○ Pendente'}</small><span class="tileArrow">Abrir aula →</span></button>`).join('');area.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>openLesson(b.dataset.id));
 }
 $('catalogBack').onclick=()=>{if(currentTopic)currentTopic=null;else currentSubject=null;cards();};
-async function saveLessonMistake(l,questionKey,q,chosen){
- if(!currentUser||!profileId)throw Error('Usuário sem perfil autenticado');
- const ref=doc(db,'profiles',String(profileId));
- const key=l.id+'__'+String(questionKey),now=new Date().toISOString();
- await runTransaction(db,async tx=>{
-   const snap=await tx.get(ref);const data=snap.data();
-   if(!snap.exists()||data.uid!==currentUser.uid)throw Error('Você não tem acesso a este perfil');
-   const errors={...(data.lessonErrors||{})};const old=errors[key]||{};
-   errors[key]={id:key,lessonId:l.id,subject:l.subject,topic:l.title,title:l.title,question:q.q,options:q.options,
-      choice:chosen,answer:q.answer,explanation:q.why,lastSeen:now,firstSeen:old.firstSeen||now,count:(old.count||0)+1};
-   tx.update(ref,{lessonErrors:errors});
- });
-}
 function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const visit=++lessonVisit;active=l;$('catalog').classList.add('hide');$('lesson').classList.remove('hide');$('crumb').textContent=l.subject+' · '+l.level;$('lessonTitle').textContent=l.title;$('objective').textContent=l.objective;$('status').textContent=progress[l.id]?'✓ Concluída':'○ Não concluída';$('complete').textContent=progress[l.id]?'↺ Desmarcar conclusão':'✓ Marcar como concluída';const section=l.sections.map(([h,p])=>`<section class="lesson-section"><h3>${escapeHtml(h)}</h3><p>${escapeHtml(p)}</p></section>`).join('');$('lessonBody').innerHTML=`<div class="visualCustom"><strong>📍 Ordem recomendada: ${l.ordemSugerida>=100?'Complementar':l.ordemSugerida}ª aula de ${escapeHtml(l.subject)}</strong><p>Como estudar: ${escapeHtml(l.conclusaoOrientada||'Leia, resolva exemplos e pratique.')}</p><small>Retome este assunto após 1, 7 e 21 dias. ${escapeHtml(l.etapa||'')}</small></div><div class="formula">${escapeHtml(l.formula)}</div><div class="diagram"><div><small>Conceito</small><br><strong>${escapeHtml(l.subject)}</strong></div><span style="font-size:26px;color:#b50913">➜</span><div><small>Objetivo da aula</small><br><strong style="font-size:14px">${escapeHtml(l.objective)}</strong></div></div>${section}<div class="example"><h3>🧩 Exemplo resolvido</h3><p>${escapeHtml(l.example)}</p></div><h3>⚠️ Erros comuns</h3><ul class="pitfallList">${l.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h3>📖 Referência e verificação</h3><p>${escapeHtml(l.source)}</p>${l.fonteOficialBase?`<p><a href="${escapeHtml(l.fonteOficialBase)}" rel="noopener noreferrer" target="_blank">Consultar fonte oficial para conferência de alterações</a></p>`:""}`;const visual=l.visual?.kind==='percent'?`<div class="visualCustom"><strong>${escapeHtml(l.visual.label)}</strong><div class="percentGrid">${Array.from({length:100},(_,i)=>`<span class="${i<l.visual.value?'filled':''}"></span>`).join('')}</div><small>As células coloridas representam ${l.visual.value} de cada 100 partes.</small></div>`:l.visual?.kind==='logic'?`<div class="visualCustom"><strong>Tabela-verdade: condicional P → Q</strong><table><tr><th>P</th><th>Q</th><th>P → Q</th></tr><tr><td>V</td><td>V</td><td>V</td></tr><tr><td>V</td><td>F</td><td>F</td></tr><tr><td>F</td><td>V</td><td>V</td></tr><tr><td>F</td><td>F</td><td>V</td></tr></table></div>`:l.visual?.kind==='ratio'?`<div class="visualCustom"><strong>Relação inversa — mais máquinas, menos tempo</strong><div class="diagram"><span>5 máquinas<br>8 horas</span><b>→</b><span>10 máquinas<br>4 horas</span></div></div>`:l.visual?.kind==='reading'?`<div class="visualCustom"><strong>Escada da compreensão</strong><div class="diagram"><span>Texto literal</span><b>→</b><span>Pistas do texto</span><b>→</b><span>Inferência sustentada</span></div></div>`:'';
 const steps=l.steps?.length?`<div class="example"><h3>🔎 Resolução comentada passo a passo</h3><ol>${l.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol></div>`:'';
 const refs=l.references?.length?`<div class="visualCustom"><h3>Fontes para aprofundar e conferir</h3><ul>${l.references.map(r=>{let url='';try{const u=new URL(r.url);if(u.protocol==='https:')url=u.href}catch{}return url?`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a></li>`:''}).join('')}</ul><small>Links de apoio; confira o conteúdo programático e as atualizações da legislação no edital oficial.</small></div>`:'';

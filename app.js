@@ -100,6 +100,24 @@ finish=async function(){
 const oldStart=start;
 start=function(){if(!authUser){alert('Faça login para começar.');return}oldStart();if(session&&!session.clientId){session.clientId='exam_'+session.started+'_'+authUser.id;persist()}};
 function dateLabel(iso){try{return new Date(iso+'T12:00:00-03:00').toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','')}catch(_){return iso.slice(5)}}
+function saoPauloWeekend(){
+ const weekday=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'America/Sao_Paulo'}).format(new Date());
+ return weekday==='Sat'||weekday==='Sun';
+}
+function configureExamMode(){
+ if($('subject'))$('subject').value='';
+ updateTopics();
+ if($('kind'))$('kind').value='all';
+ if($('custom'))$('custom').value='';
+ const sizes=$('sizes');if(sizes){sizes.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.n==='70'));}
+ updateAvailable();
+ const status=document.getElementById('weekendExamHint');
+ if(status)status.hidden=false;
+}
+function refreshWeekendRecommendation(){
+ const isWeekend=saoPauloWeekend();
+ for(const el of document.querySelectorAll('[data-weekend-recommendation]'))el.hidden=!isWeekend;
+}
 function paintDashboard(){if(!authUser||!sharedStats)return;const me=sharedStats.users.find(u=>u.id===authUser.id);if(!me)return;
   $('greeting').textContent='Olá, '+me.username+'! 👋';$('heroToday').textContent=me.today+'/'+me.goal;
   $('dashToday').textContent=fmt(me.today);$('dashTotal').textContent=fmt(me.answered);
@@ -153,17 +171,42 @@ async function loadShared(){
   loadNames();renderHistory();updateAvailable();
 }
 async function authSuccess(u){
-  authUser=u;currentProfile='p'+u.id;document.body.classList.add('logged');
-  if(!$('profile').querySelector('option[value=+currentProfile+]'))$('profile').add(new Option(u.username,currentProfile));
-  $('profile').value=currentProfile;$('nick').value=u.username;$('nick').readOnly=true;$('profile').disabled=true;
-  $('profile').closest('.fields').style.display='none';
+  authUser=u;currentProfile='p'+u.id;
+  document.body.classList.add('logged');
+  const study=$('profile');
+  if(!study.querySelector('option[value="'+currentProfile+'"]'))study.add(new Option(u.username,currentProfile));
+  study.value=currentProfile;$('nick').value=u.username;$('nick').readOnly=true;study.disabled=true;
+  study.closest('.fields').style.display='none';
   localStorage.setItem(nkey(currentProfile),u.username);
-  try{await loadShared();await openInitialPage();updateResume();document.getElementById('bootCover')?.remove()}catch(err){alert('Erro ao carregar estatísticas: '+err.message)}
+  let dataError=null;
+  try{await loadShared()}catch(err){dataError=err;console.warn('TJSP Duo: estatísticas indisponíveis temporariamente',err)}
+  try{await openInitialPage()}catch(err){console.error('Falha ao exibir página atual',err);}
+  updateResume();
+  document.getElementById('bootCover')?.remove();
+  if(dataError){
+    const hint=document.createElement('p');hint.className='notice';hint.style.cssText='margin:16px 0;color:#83121d;border:1px solid #b50913;background:#fff0f1;padding:12px;border-radius:12px';
+    hint.textContent='Sua sessão está ativa, mas as estatísticas não carregaram. Atualize a página ou verifique a conexão com o Firebase: '+dataError.message;
+    document.querySelector('main')?.prepend(hint);
+  }
 }
+let restoreTries=0;
 async function refreshAuth(){
-  try{const me=await api('/api/me');await authSuccess(me.user)}
-  catch(_){document.body.classList.remove('logged');authUser=null;try{const status=await api('/api/status');$('authSlots').textContent=status.slots?'TJSP DUO aceita até 5 estudantes. Cadastro com e-mail e senha.':'As 5 vagas estão ocupadas. Entre com sua conta.';setAuthMode(false)}catch(e){$('authSlots').textContent='Não foi possível conectar ao Firebase. Confira firebase-config.js e sua internet.'}}
-  finally{document.getElementById('bootCover')?.remove()}
+  try{const me=await api('/api/me');restoreTries=0;await authSuccess(me.user)}
+  catch(err){
+    if(typeof window.duoAuthSignedIn==='function'&&window.duoAuthSignedIn()&&restoreTries<2){
+      restoreTries++;
+      $('authSlots').textContent='Recuperando o perfil salvo no Firebase...';
+      setTimeout(refreshAuth,1000*restoreTries);
+      return;
+    }
+    document.body.classList.remove('logged');authUser=null;
+    if(typeof window.duoAuthSignedIn==='function'&&window.duoAuthSignedIn()){
+      $('authSlots').textContent='Sua sessão está salva, mas não foi possível carregar o perfil. Verifique a conexão e atualize a página. '+err.message;
+    }else{
+      try{const status=await api('/api/status');$('authSlots').textContent=status.slots?'TJSP DUO aceita até 5 estudantes. Cadastro com e-mail e senha.':'As 5 vagas estão ocupadas. Entre com sua conta.';setAuthMode(false)}
+      catch(e){$('authSlots').textContent='Falha na conexão com o Firebase. Atualize a página quando a internet retornar.';}
+    }
+  }finally{if(!(typeof window.duoAuthSignedIn==='function'&&window.duoAuthSignedIn()&&restoreTries>0&&restoreTries<3))document.getElementById('bootCover')?.remove()}
 }
 function setAuthMode(isRegister){registerMode=isRegister;$('authSubmit').textContent=registerMode?'Criar conta':'Entrar';$('authToggle').textContent=registerMode?'Já tenho conta — entrar':'Criar minha conta';$('authSubtitle').textContent=registerMode?'Crie seu acesso usando e-mail e senha.':'Entre para ver suas metas, questões e ranking.';$('authPass').setAttribute('autocomplete',registerMode?'new-password':'current-password');$('authError').textContent=''}
 $('authToggle').onclick=()=>setAuthMode(!registerMode);
@@ -186,8 +229,10 @@ refreshAuth();
 
 // Controla a tela inicial por página, após autenticação (sem flashes de login).
 async function openInitialPage(){
-  const page=document.body.dataset.page||'dashboard';
-  if(page==='ranking'){show('ranking');return}
+  refreshWeekendRecommendation();
+  if(new URLSearchParams(location.search).get('modo')==='prova'&&document.body.dataset.page==='questoes')configureExamMode();
+  const page=({'index.html':'dashboard','ranking.html':'ranking','estatisticas.html':'estatisticas','historico.html':'historico','questoes.html':'questoes','sobre.html':'sobre'})[location.pathname.split('/').pop()||'index.html']||document.body.dataset.page||'dashboard';
+  if(page==='ranking'){show('ranking');document.title='Ranking Top 5 • TJSP Duo';return}
   if(page==='estatisticas'){openProfile(authUser.id);return}
   if(page==='historico'){show('history');renderHistory();return}
   if(page==='questoes'){show('home');return}

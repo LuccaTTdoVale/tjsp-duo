@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><title>Caderno de Erros • TJSP Duo</title>
+<link rel="stylesheet" href="./duo-theme.css"><link rel="stylesheet" href="./duo-palette-v5.css?v=5"><link rel="stylesheet" href="./duo-errors.css?v=1">
+</head><body class="notebookPage">
+<main class="notebookContainer">
+<section class="notebookHeader"><span class="notebookKicker">APRENDA COM OS SEUS ERROS</span><h1>Meu Caderno de Erros</h1><p>Questões erradas nas aulas e nos simulados, com suas respostas, explicações e o caminho para revisar a aula relacionada. Cada conta vê somente seu próprio caderno.</p><span class="noteBadge" id="currentStudent">Verificando seu acesso...</span></section>
+<div class="noteSummary" aria-label="Estatísticas do Caderno"><div class="noteStat"><strong id="totalMistakes">—</strong><span>Questões com erro</span></div><div class="noteStat"><strong id="openMistakes">—</strong><span>Para revisar</span></div><div class="noteStat"><strong id="doneMistakes">—</strong><span>Revisadas</span></div></div>
+<div class="noteStatus" id="notebookStatus" role="status" aria-live="polite">Conectando ao Firebase e carregando seu caderno...</div>
+<div class="noteFilters"><label>Pesquisar erro ou assunto <input id="searchMistake" placeholder="Ex.: crase, porcentagem, intimação" autocomplete="off"></label><label>Origem<select id="sourceMistake"><option value="all">Aulas e simulados</option><option value="lesson">Aulas</option><option value="exam">Simulados</option></select></label><label>Revisão<select id="statusMistake"><option value="pending">Pendentes</option><option value="all">Todos</option><option value="reviewed">Já revisados</option></select></label></div>
+<div id="mistakeList" aria-live="polite"></div>
+<p class="notebookHelp">O caderno mostra erros de questões respondidas incorretamente. Questões deixadas em branco não entram automaticamente. Ao marcar um erro como revisado, ele continua no histórico; se você errá-lo de novo, retorna aos pendentes. O histórico dos simulados é lido dos registros salvos no Firebase.</p>
+</main>
+<script type="module" src="./caderno-erros.js"></script><script defer src="./duo-nav.js"></script>
+</body></html>

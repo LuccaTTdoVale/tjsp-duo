@@ -1,0 +1,54 @@
+/* TJSP DUO | Caderno de Erros • Paleta #fff #fafafa #17191f #b50913 */
+:root{--error-red:#b50913;--error-soft:#fff1f2;--error-edge:#df8b92;--ink:#17191f;--gray:#596171}
+#lessonBody .pitfallList{margin:12px 0 26px;padding-left:28px}
+#lessonBody .pitfallList li{font-weight:800!important;color:#17191f!important;opacity:1!important;line-height:1.65!important;padding:3px 0!important}
+#lessonBody .pitfallList li::marker{color:#b50913!important}
+#lessonBody .checkQuestion{border-bottom:1px solid #e3e6eb!important;padding:18px 0}
+#lessonBody .checkOpt{color:#17191f!important;background:#fff!important;border:1.5px solid #d9dce3!important;display:block!important;width:100%;text-align:left;font-weight:550;white-space:normal;line-height:1.55}
+#lessonBody .checkOpt:hover{border-color:#b50913!important;background:#fff6f7!important}
+#lessonBody .checkOpt.is-wrong{background:#fff0f1!important;border:2px solid #b50913!important;color:#920711!important;box-shadow:0 0 0 2px #b5091314!important;font-weight:750}
+#lessonBody .checkOpt.is-correct{background:#f3f3f4!important;border:2px solid #17191f!important;color:#17191f!important;font-weight:750}
+#lessonBody .checkOpt.was-answer{border-style:dashed!important;border-color:#787b83!important}
+#lessonBody .checkFeedback{margin:13px 0 20px!important;padding:0!important;min-height:0;color:#17191f!important}
+#lessonBody .checkFeedback:empty{display:none}
+#lessonBody .feedbackBox{padding:16px 18px!important;border-radius:12px!important;background:#f4f5f7!important;color:#17191f!important;border:1.5px solid #cfd2d9!important;line-height:1.7}
+#lessonBody .feedbackBox.incorrect{background:#fff0f1!important;border:2px solid #b50913!important;color:#751016!important}
+#lessonBody .feedbackBox strong{display:block;color:inherit!important;font-size:16px;margin-bottom:8px}
+#lessonBody .feedbackBox p{color:inherit!important;margin:5px 0!important}
+#lessonBody .feedbackBox .feedbackSaved{display:block;font-size:12px;font-weight:750;color:#910711!important;margin-top:12px}
+.tjspNotebookLink{display:inline-flex!important;align-items:center;gap:7px;border:1px solid #b50913!important;border-radius:11px;padding:10px 15px;text-decoration:none!important;font-weight:800;color:#b50913!important;background:#fff!important;margin:0 0 16px}
+.tjspNotebookLink:hover{background:#fff0f1!important}
+/* Página do Caderno de Erros */
+body.notebookPage{margin:0;background:#fafafa!important;color:#17191f!important;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+body.notebookPage *{box-sizing:border-box}
+.notebookContainer{max-width:1110px;margin:0 auto;padding:58px 22px 65px}
+.notebookHeader{border:1px solid #e3e6eb;border-radius:22px;background:white;padding:32px 35px;box-shadow:0 8px 24px #17191f08}
+.notebookKicker{color:#b50913;font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.notebookHeader h1{font-size:clamp(30px,5vw,42px);color:#17191f!important;margin:8px 0 10px;line-height:1.2}
+.notebookHeader p,.notebookHelp{color:#596171!important;font-size:14px;line-height:1.65}
+.noteBadge{display:inline-block;border-radius:999px;background:#fff1f2;color:#a4000d;padding:5px 12px;border:1px solid #efc4c9;font-weight:800;font-size:12px}
+.noteSummary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:20px 0}
+.noteStat{background:white;border:1px solid #e3e6eb;border-radius:16px;padding:18px 22px}
+.noteStat strong{display:block;font-size:27px;color:#b50913!important}.noteStat span{color:#596171;font-size:12px}
+.noteFilters{background:white;border:1px solid #e3e6eb;border-radius:17px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;padding:19px;margin-bottom:18px}
+.noteFilters label{font-size:12px;color:#17191f;font-weight:800;display:grid;gap:8px}
+.noteFilters input,.noteFilters select{width:100%;min-width:0;max-width:100%;padding:11px 12px;border:1px solid #d6dae2;border-radius:10px;background:#fff;color:#17191f}
+.noteCard{background:#fff;border:1px solid #e3e6eb;border-radius:18px;padding:24px;margin:14px 0;box-shadow:0 4px 18px #17191f0a}
+.noteCard.isPending{border-left:5px solid #b50913}
+.noteCard h3{font-size:18px;line-height:1.5;margin:9px 0;color:#17191f!important}
+.noteMeta{font-size:12px;color:#596171!important;font-weight:650}
+.noteWrong{margin:15px 0;padding:15px 18px;border-radius:12px;background:#fff1f2;border:1px solid #e9acb1;color:#751016}
+.noteWrong strong{display:block;font-size:13px;color:#a1000b!important;margin-bottom:5px}
+.noteWrong p{margin:5px 0;color:#751016!important;line-height:1.65}
+.noteRight{padding:15px 18px;border:1px solid #e3e6eb;border-radius:12px;background:#f8f8f9;margin-bottom:13px}
+.noteRight strong{display:block;margin-bottom:5px;color:#17191f!important}
+.noteRight p{margin:5px 0;line-height:1.6;color:#363b45!important}
+.noteActions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:18px}
+.noteBtn{border:1px solid #b50913!important;border-radius:10px;background:#b50913!important;color:white!important;padding:11px 14px;font:inherit;font-weight:800;font-size:13px;cursor:pointer;text-decoration:none!important}
+.noteBtn.secondary{background:#fff!important;color:#a4000d!important}
+.noteBtn:disabled{opacity:.5;cursor:wait}
+.noteStatus{border-radius:12px;background:#fff5f6;color:#8d101c;border:1px solid #f0bfc4;padding:16px 20px;margin:18px 0;line-height:1.65}
+.noteEmpty{background:#fff;border:1px solid #e3e6eb;padding:28px;border-radius:17px;color:#596171}
+.notebookPage .duoMenuBtn{top:14px;left:14px}
+.notebookPage .duoSide{font-family:inherit}
+@media(max-width:720px){.noteSummary{grid-template-columns:1fr 1fr 1fr;gap:8px}.noteStat{padding:13px}.noteStat strong{font-size:24px}.noteFilters{grid-template-columns:1fr}.notebookHeader{padding:25px 22px}.notebookContainer{padding:75px 12px 35px}.noteCard{padding:16px}}

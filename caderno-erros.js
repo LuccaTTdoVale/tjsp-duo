@@ -7,7 +7,7 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'
 const clean=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const app=getApps().length?getApp():initializeApp(firebaseConfig);
 const auth=getAuth(app),db=getFirestore(app);
-let activeUser=null,profileId=null,reviewed={},entries=[],lessons=[],isLoading=false;
+let activeUser=null,profileId=null,reviewed={},entries=[],lessons=[],isLoading=false,topicTargets={};
 const status=(txt)=>{$('notebookStatus').textContent=txt;$('notebookStatus').hidden=!txt;};
 async function profileForUser(uid){for(const id of ['1','2']){const sl=await getDoc(doc(db,'slots',id));if(sl.exists()&&sl.data().uid===uid)return id;}return null;}
 function lessonMatch(subject,topic){
@@ -24,9 +24,12 @@ function lessonMatch(subject,topic){
 }
 function reviewTarget(item){
  if(item.lessonId){const exact=lessons.find(l=>l.id===item.lessonId);if(exact)return {name:exact.title,url:'./conteudo.html?lesson='+encodeURIComponent(exact.id)};}
+ const mappedId=topicTargets[item.subject+'|'+item.topic];
+ const mapped=lessons.find(l=>l.id===mappedId);
+ if(mapped)return {name:mapped.title,url:'./conteudo.html?lesson='+encodeURIComponent(mapped.id)};
  const target=lessonMatch(item.subject,item.topic);
- return target?{name:target.title,url:'./conteudo.html?lesson='+encodeURIComponent(target.id)}:
- {name:'Abrir a matéria '+item.subject,url:'./conteudo.html?materia='+encodeURIComponent(item.subject)};
+ if(target)return {name:target.title,url:'./conteudo.html?lesson='+encodeURIComponent(target.id)};
+ return {name:'Ver aulas de '+item.subject+' (sem aula exata cadastrada)',url:'./conteudo.html?materia='+encodeURIComponent(item.subject)};
 }
 function foldLessonErrors(m){
  return Object.entries(m||{}).filter(([,v])=>v&&v.question).map(([key,v])=>({
@@ -91,12 +94,12 @@ async function loadCurrentUser(user){activeUser=user;profileId=null;reviewed={};
  try{
    profileId=await profileForUser(user.uid);if(!profileId)throw Error('Este usuário não possui um perfil vinculado.');
    const ref=doc(db,'profiles',profileId);
-   const [profile,examsSnap,lessonsResp]=await Promise.all([
-     getDoc(ref),getDocs(collection(db,'users',user.uid,'exams')),fetch('./aulas.json',{cache:'no-cache'})
+   const [profile,examsSnap,lessonsResp,practiceResp]=await Promise.all([
+     getDoc(ref),getDocs(collection(db,'users',user.uid,'exams')),fetch('./aulas.json',{cache:'no-cache'}),fetch('./questoes-aulas.json?v=2').catch(()=>null)
    ]);
    if(!profile.exists()||profile.data().uid!==user.uid)throw Error('Perfil inválido.');
    if(!lessonsResp.ok)throw Error('Falha ao carregar a lista de aulas.');
-   lessons=await lessonsResp.json();reviewed=profile.data().reviewedErrors||{};
+   lessons=await lessonsResp.json();topicTargets=practiceResp?.ok?(await practiceResp.json()).targets||{}:{};reviewed=profile.data().reviewedErrors||{};
    const lessonEntries=foldLessonErrors(profile.data().lessonErrors);
    const examDocs=examsSnap.docs.map(d=>d.data());let examEntries=[];
    if(examDocs.length){

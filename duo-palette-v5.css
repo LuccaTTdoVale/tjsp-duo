@@ -1,0 +1,32 @@
+/* TJSP Duo V5 — padrao visual exclusivo: branco, vermelho, preto e cinza */
+:root{color-scheme:light;--tj-red:#b50913;--tj-black:#17191f;--tj-gray:#667085;--tj-line:#e3e6eb;--tj-white:#fff;--tj-page:#fafafa;--accent:#b50913;--accent-strong:#93000a}
+html,body{background:#fafafa!important;background-image:none!important;color:#17191f!important}
+/* Todos os componentes, incluindo os criados por app.js */
+.hero,.heroart,.panel,.stat,.substat,.leader,.leaderRow,.leaderItem,.rankCard,.rankingCard,.rank-card,.ranking-card,.profileBox,.authCard,.qarea,.qhead,.qtop,.reviewitem,.option,.sourcecard,.palette,.goalEdit,.weekgraph,.kpi,.tile,.lesson-section,.example,.visualCustom,.formula,.diagram>div,.checkQuestion,.checkOpt,.notice,.smalltag,.subjects,.subject-card,.question-card,.result,.summary,.answer,.choice,.box,.card,.topic-card,.topic-item,.subjectrow,.topicRow,.practice,.scorecard,.progressCard,.weekBox,.exam-card,.examCard,.test-card,.feedback,.alert,.explanation{background-color:#fff!important;background-image:none!important;border-color:#e3e6eb!important;color:#17191f!important}
+/* Marcadores/labels antigos de verde ou azul */
+.hero h1 strong,.hero h1 em,.heroart .big,.brand strong,.brand b,.eyebrow,.kicker,.tileArrow,.chip,.leaderBig,.score,.accent,.highlight,.rankScore,.rankNumber,.statValue,.correctCount,.bigNum,.heroTitle span{color:#b50913!important}
+.heroart small,.helper,.dim,.muted,.qmeta,.meta,.stat span,.substat small,.tile small,.topicline,.description,.footer,footer,.reviewlabel,.leader small,.leader .meta,.leader p,.profileBox small,.historyMeta,.topicMeta,.progressLabel{color:#667085!important}
+.heroart,.tile,.stat,.option,.leader,.profileBox,.reviewitem,.checkOpt,.qhead,.qarea,.visualCustom{box-shadow:0 4px 18px rgba(30,30,30,.055)!important}
+/* Evita botoes azul-escuros e verde-agua */
+.btn,.btn.on,.btn.primary,.duoMenuBtn,.countchips button.on,.palette button.on,.pal button.on,.button.primary,button.primary,.primaryBtn,.saveBtn,.startBtn,.submitBtn{background:#b50913!important;color:#fff!important;border-color:#b50913!important}
+.btn.secondary,.btnoutline,.btnbare,.navlink,.leader button,.leader .btn,.profileBtn,.profileButton,.smallbtn,.countchips button:not(.on),.palette button:not(.on),.pal button:not(.on){background:#fff!important;color:#a5000b!important;border:1px solid #e3e6eb!important}
+.leader button:hover,.leader .btn:hover,.btn.secondary:hover,.btnoutline:hover,.btnbare:hover{background:#fff1f2!important;color:#a5000b!important}
+/* Avisos sem laranja, azul ou verde */
+.notice,.notice.warn,.alert,.feedback,.infoBox,.tip,.statusMsg,.warning,.statusBox{background:#fff4f5!important;border-color:#f1cbd0!important;color:#681920!important}
+.notice *, .alert *, .feedback *, .infoBox *, .tip *, .statusBox *{color:inherit!important}
+/* Navegacao, graus de acerto e progresso */
+.bar,.progress,.meter,.progressbar,.dayBar,.weekgraph,.subjectBar,.subjectProgress,.track,.ring{background:#eceef1!important;background-image:none!important;border-color:#e3e6eb!important}
+.bar>*,.progress>i,.progressbar>*,.meter>*,.dayBar>*,.subjectBar>*,.subjectProgress>*,.weekgraph .on,.track>*,.fill,.filled,.ring .value{background:#b50913!important;background-image:none!important}
+.option.correct,.option.ok,.reviewitem.ok,.choice.correct,.answer.correct,.is-correct{background:#fff2f3!important;border-color:#b50913!important;color:#17191f!important}
+.option.bad,.option.incorrect,.reviewitem.bad,.choice.incorrect,.answer.wrong{background:#f2f2f2!important;border-color:#747474!important;color:#17191f!important}
+/* Criados dinamicamente com estilos inline */
+[style*="color:#60dfc8"],[style*="color: #60dfc8"],[style*="color:#79e5ce"],[style*="color: #79e5ce"],[style*="color:#77dfc6"],[style*="color: #77dfc6"],[style*="color:#17653d"]{color:#b50913!important}
+[style*="background:#1d7569"],[style*="background:#203349"],[style*="background:#287d76"],[style*="background:#55d9bc"],[style*="background:#57dbba"]{background:#b50913!important}
+/* Sem fundos especiais ou gradiente em qualquer secao */
+body,main,.app,.wrap,.page,.layout,.top,.hero,.heroart,.panel,.stat,.tile,.duoSide,.duoSideHead{background-image:none!important}
+.top,.duoSide,.duoSideHead{background-color:#fff!important}
+.chip,.badge,.pill,.smalltag{background:#fff2f3!important;color:#a5000b!important;border-color:#f2cbd0!important}
+.percentGrid span.filled{background:#b50913!important}.percentGrid span:not(.filled){background:#e9ebef!important}
+.checkFeedback{color:#a5000b!important}
+:where(button,a,input,select,textarea):focus-visible{outline-color:#b50913!important}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}

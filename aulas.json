@@ -41,6 +41,14 @@
    [
     "9. Estratégia para a VUNESP",
     "Sublinhe a base e as palavras “em relação a”, “a mais”, “a menos”, “preço inicial” e “preço final”. Escolha entre três perguntas: quero a parte, o percentual ou o total? Use aproximação para descartar alternativas absurdas e faça uma checagem final."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Porcentagem: do conceito aos problemas” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Porcentagem: do conceito aos problemas” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Um material custa R$ 240 e recebe 15% de desconto. Desconto = 240 × 0,15 = R$ 36; preço final = R$ 204.",
@@ -98,7 +106,17 @@
    }
   ],
   "depth": "Aula aprofundada",
-  "reviewStatus": "aprofundada"
+  "reviewStatus": "aprofundada",
+  "ordemSugerida": 4,
+  "tempoEstimado": 42,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Aprofundada",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-regra-de-tres",
@@ -134,6 +152,14 @@
    [
     "7. Erros frequentes",
     "Misturar horas e minutos; tratar trabalhadores como relação direta com tempo; ignorar que produtividade pode mudar; multiplicar em cruz sem interpretar a tabela."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Razões, proporções e regra de três” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Razões, proporções e regra de três” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Quatro pessoas executam uma tarefa em 6 horas. Mantida a produtividade, 8 pessoas terminam em 3 horas: 4×6 = 8×3.",
@@ -176,7 +202,17 @@
    }
   ],
   "depth": "Aula aprofundada",
-  "reviewStatus": "aprofundada"
+  "reviewStatus": "aprofundada",
+  "ordemSugerida": 3,
+  "tempoEstimado": 31,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Aprofundada",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-equacao-1grau",
@@ -196,6 +232,14 @@
    [
     "Verificação",
     "Substitua a solução na equação original: ambos os lados precisam ter o mesmo valor."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Equação de primeiro grau” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Equação de primeiro grau” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "10x + 69 = 409 → 10x = 340 → x = 34. Conferência: 10×34+69=409.",
@@ -212,7 +256,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 6,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar equação de primeiro grau?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Português-interpretacao",
@@ -234,24 +301,40 @@
     "Inferir é concluir algo que decorre do texto, mesmo que não esteja escrito literalmente. A conclusão deve ser sustentada por pistas suficientes. Não confunda inferência com opinião pessoal, conhecimento externo ou suposição plausível."
    ],
    [
-    "4. Sentido de palavras no contexto",
-    "Uma palavra pode ter vários significados. Leia a frase anterior e a posterior antes de escolher um sinônimo. Uma substituição correta preserva sentido e adequação gramatical no contexto."
+    "Aprofundamento — Leitura em camadas",
+    "Primeira leitura: tema e propósito. Segunda: tese, argumentos e conectivos. Terceira: confronto de cada alternativa com trechos concretos. Toda conclusão deve ser sustentada por elementos do texto, não por opinião pessoal."
    ],
    [
-    "5. Coesão e referência",
-    "Pronomes, elipses e conectivos ligam partes do texto. Em “Ana revisou a matéria porque ela estava difícil”, “ela” retoma “matéria” no contexto. A questão pode pedir a referência de termos ou a relação lógica entre frases."
+    "Aprofundamento — Informação explícita",
+    "O texto afirma diretamente um dado: “A reunião começou às 9h.” A alternativa correta não precisa repetir as mesmas palavras, mas deve preservar tempo, sujeito e predicado."
    ],
    [
-    "6. Conectivos e relações de sentido",
-    "“Mas” normalmente indica oposição; “porque”, causa ou explicação; “portanto”, conclusão; “embora”, concessão. Essas relações dependem do contexto e não devem ser decoradas isoladamente."
+    "Aprofundamento — Inferência válida",
+    "O texto diz: “Apesar da chuva, a equipe chegou no horário.” É razoável inferir que a chuva poderia dificultar o deslocamento; não é válido concluir que todos vieram de automóvel."
    ],
    [
-    "7. Fato, opinião e tom",
-    "“O edital foi publicado” é afirmação verificável; “a prova será fácil” é avaliação. Ironia, crítica e humor podem mudar a intenção de uma frase sem mudar suas palavras."
+    "Aprofundamento — Tese e ponto de vista",
+    "Questões podem pedir o propósito do autor: informar, defender uma posição, criticar, persuadir ou narrar. Separe opinião do autor, dados apresentados e fala citada de terceiros."
    ],
    [
-    "8. Método de leitura para prova",
-    "Leia primeiro o comando, localize o parágrafo correspondente, identifique palavras absolutas como “sempre” e “nunca” nas alternativas, confronte cada opção com o texto e elimine acréscimos não autorizados."
+    "Aprofundamento — Conectivos e encadeamento",
+    "“Entretanto” indica oposição; “portanto”, conclusão; “embora”, concessão; “porque”, em contextos típicos, explicação ou causa. Analise a relação efetiva entre ideias, não apenas decore o rótulo."
+   ],
+   [
+    "Aprofundamento — Erros das alternativas",
+    "Desconfie de generalizações (“sempre”, “nunca”), inversões de causa e efeito, trocas de sujeitos e extrapolações. A alternativa pode ser verdadeira no mundo e falsa segundo o texto."
+   ],
+   [
+    "Aprofundamento — Roteiro prático",
+    "Leia o comando antes das alternativas, identifique o trecho pertinente, formule sua resposta mental e compare as opções. Ao errar, registre exatamente qual palavra da alternativa mudou o sentido."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Interpretação e inferência textual” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Interpretação e inferência textual” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Texto: “Embora chovesse, a prova ocorreu.” Correto inferir que a chuva não impediu a prova; não se pode inferir que choveu o dia inteiro.",
@@ -295,7 +378,17 @@
    }
   ],
   "depth": "Aula aprofundada",
-  "reviewStatus": "aprofundada"
+  "reviewStatus": "aprofundada",
+  "ordemSugerida": 1,
+  "tempoEstimado": 36,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Aprofundada (ampliada)",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-sintaxe",
@@ -319,6 +412,14 @@
    [
     "Adjuntos x complementos",
     "Adjunto adnominal caracteriza um substantivo; complemento nominal completa sentido de nome abstrato, adjetivo ou advérbio."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Sintaxe: sujeito, predicado e termos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Sintaxe: sujeito, predicado e termos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Chegaram os documentos.” Sujeito simples: “os documentos”. O verbo concorda com o núcleo “documentos”.",
@@ -335,7 +436,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 8,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar sintaxe: sujeito, predicado e termos?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Português-crase",
@@ -357,8 +481,36 @@
     "Em geral, antes de verbo, palavra masculina ou pronomes pessoais; há exceções contextualizadas."
    ],
    [
-    "Locuções",
-    "Locuções adverbiais femininas frequentemente recebem crase: à noite, às vezes, à direita."
+    "Aprofundamento — Conceito e diagnóstico",
+    "O acento grave marca a fusão entre preposição a e artigo feminino a/as, ou entre a preposição a e certos demonstrativos (aquele, aquela, aquilo). Não é um acento de pronúncia: é consequência da regência e da presença de elemento feminino compatível."
+   ],
+   [
+    "Aprofundamento — Método em quatro perguntas",
+    "1. O termo anterior pede preposição a? 2. O termo seguinte admite artigo a/as? 3. Não há regra impeditiva? 4. A substituição por masculino gera ao? Em “obedeceu à norma”, obedecer exige a, norma aceita a, e “obedeceu ao regulamento” confirma."
+   ],
+   [
+    "Aprofundamento — Quando não empregar",
+    "Em regra, não há crase antes de verbo (“a partir”), palavra masculina (“a prazo”), pronome pessoal (“a ela”) e artigo indefinido (“a uma pessoa”). Locuções femininas como “à tarde” e “às vezes” merecem estudo próprio. Nomes de lugar precisam de análise de artigo: “vou à Bahia”, mas “vou a Brasília”, em usos comuns."
+   ],
+   [
+    "Aprofundamento — Crase facultativa e casos específicos",
+    "Pode ser facultativa antes de possessivo feminino singular com artigo facultativo (“a/à minha colega”), e após até em certos contextos (“até a/à escola”). Com nomes próprios femininos, depende do uso do artigo e da variedade da linguagem; confirme contexto e padrão exigido pela banca."
+   ],
+   [
+    "Aprofundamento — Aplicação comparada",
+    "“Entregou a documentação à servidora”: o primeiro a é artigo de documentação, o segundo contém preposição exigida por entregar algo a alguém + artigo da servidora. “Entregou a documentação a ela”: o pronome pessoal dispensa artigo; não há crase."
+   ],
+   [
+    "Aprofundamento — Treino de decisão",
+    "Analise: “Compareceu à audiência”, “Começou a trabalhar”, “Referiu-se àquela norma”. Para cada uma, identifique a preposição regida, o determinante ou demonstrativo e a razão da grafia. Depois tente criar um contraexemplo sem crase."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Crase: quando ocorre e quando não ocorre” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Crase: quando ocorre e quando não ocorre” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Entreguei o documento à diretora.” O verbo pede preposição a e “diretora” admite artigo a.",
@@ -375,7 +527,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 12,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Aprofundada (ampliada)",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar crase: quando ocorre e quando não ocorre?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Raciocínio Lógico-proposicoes",
@@ -411,6 +586,14 @@
    [
     "7. Tradução e resolução",
     "Separe as proposições simples, defina símbolos, identifique conectivos, monte tabela com 2ⁿ linhas para n proposições e avalie as colunas gradualmente."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Proposições e conectivos lógicos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Proposições e conectivos lógicos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Se p = verdadeiro e q = falso, “p ∧ q” é falso; “p ∨ q” é verdadeiro; “p → q” é falso.",
@@ -449,7 +632,17 @@
    }
   ],
   "depth": "Aula aprofundada",
-  "reviewStatus": "aprofundada"
+  "reviewStatus": "aprofundada",
+  "ordemSugerida": 1,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Aprofundada",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-excel",
@@ -473,6 +666,14 @@
    [
     "Análise de erros",
     "#DIV/0! indica divisão por zero; #N/D é um valor não encontrado em determinadas funções."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Excel: referências, fórmulas e funções” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Excel: referências, fórmulas e funções” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Se A1=4, A2=6 e A3=10, =MÉDIA(A1:A3) resulta em 20/3 ≈ 6,67.",
@@ -489,7 +690,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 4,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar excel: referências, fórmulas e funções?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Direito Constitucional-direitos-fundamentais",
@@ -513,6 +737,14 @@
    [
     "Questões",
     "Atenção a expressões “sempre”, “nunca”, exceções e legitimidade dos remédios constitucionais."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Direitos fundamentais: leitura orientada” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Direitos fundamentais: leitura orientada” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Ao estudar o direito de petição, localize o dispositivo na Constituição, destaque quem pode exercê-lo e compare com o direito de obter certidões.",
@@ -533,7 +765,30 @@
     "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 2,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar direitos fundamentais: leitura orientada?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Direito Penal-crimes-administracao",
@@ -557,6 +812,14 @@
    [
     "Treino de enquadramento",
     "Para cada caso, localize a conduta e compare os elementos do tipo penal, sem decidir apenas pelo nome popular do crime."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Crimes contra a Administração Pública” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Crimes contra a Administração Pública” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Um enunciado menciona “oferecer vantagem a funcionário para praticar ato de ofício”. Compare o verbo “oferecer” com o art. 333 do CP, verificando todos os requisitos legais.",
@@ -573,7 +836,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 2,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar crimes contra a administração pública?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Direito Administrativo-improbidade",
@@ -597,6 +883,14 @@
    [
     "Prática",
     "Resolva casos identificando conduta, elemento subjetivo e previsão legal."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Improbidade administrativa: noções essenciais” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Improbidade administrativa: noções essenciais” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Uma falha formal sem elemento exigido pelo tipo não deve ser automaticamente classificada como improbidade. Verifique os requisitos da lei.",
@@ -613,7 +907,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 3,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar improbidade administrativa: noções essenciais?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Redação-dissertativa",
@@ -637,6 +954,14 @@
    [
     "Conclusão e revisão",
     "Retome a tese e feche o raciocínio. Revise concordância, pontuação, repetição vocabular e legibilidade."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Redação dissertativo-argumentativa” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Redação dissertativo-argumentativa” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Tema hipotético: acesso à Justiça digital. Tese: a digitalização amplia acesso, mas exige inclusão e proteção de dados. Desenvolva um argumento por parágrafo.",
@@ -654,7 +979,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 111,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar redação dissertativo-argumentativa?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Processo Civil-atos-processuais",
@@ -678,6 +1026,14 @@
    [
     "Treino",
     "Leia um artigo, anote hipótese, regra, exceção e exemplo; depois transforme em pergunta."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Atos processuais e prazos: mapa inicial” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Atos processuais e prazos: mapa inicial” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Citação integra o réu/executado/interessado à relação processual conforme o caso; intimação dá ciência de atos ou termos do processo.",
@@ -694,7 +1050,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 4,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar atos processuais e prazos: mapa inicial?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Processo Penal-citacao",
@@ -718,6 +1097,14 @@
    [
     "Exercícios",
     "Em cada situação, procure os requisitos e consequências previstos no texto vigente do CPP."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Citação e intimação no processo penal” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Citação e intimação no processo penal” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Caso hipotético: acusado não localizado. Antes de escolher a modalidade de citação, identifique as diligências e os requisitos legais do CPP.",
@@ -734,7 +1121,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 5,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar citação e intimação no processo penal?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Legislação Interna-normas-cgj",
@@ -758,6 +1168,14 @@
    [
     "Atualização",
     "Confronte alterações, comunicados e provimentos posteriores antes de memorizar artigos."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Normas da Corregedoria: como estudar” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Normas da Corregedoria: como estudar” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em norma sobre rotina cartorária, organize um quadro “quem faz / o que faz / quando / exceção” antes de responder questões.",
@@ -774,7 +1192,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 2,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar normas da corregedoria: como estudar?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Atualidades e Inclusão-lbi",
@@ -798,6 +1239,14 @@
    [
     "Atualidades",
     "Trate notícias recentes separadamente: fonte, data, acontecimento e repercussão; evite resumos sem referência."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Lei Brasileira de Inclusão: conceitos e direitos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Lei Brasileira de Inclusão: conceitos e direitos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Um órgão oferece atendimento apenas por meio inacessível. Analise o problema à luz dos conceitos de barreira e acessibilidade previstos na LBI.",
@@ -814,7 +1263,30 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "introducao"
+  "reviewStatus": "introducao",
+  "ordemSugerida": 1,
+  "tempoEstimado": 20,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
+  "check": [
+   {
+    "q": "Qual abordagem permite dominar lei brasileira de inclusão: conceitos e direitos?",
+    "options": [
+     "Memorizar uma resposta isolada sem compreender",
+     "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
+     "Apenas marcar o texto com caneta",
+     "Desconsiderar condições e exceções"
+    ],
+    "answer": 1,
+    "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+   }
+  ]
  },
  {
   "id": "Português-coes-o-e-coer-ncia",
@@ -847,6 +1319,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de coesão e coerência? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Coesão e coerência” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Coesão e coerência” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Compare “Estudou muito; portanto, melhorou” com “Estudou muito; contudo, melhorou”. A primeira relação é conclusão; a segunda pode soar contraditória sem contexto.",
@@ -887,7 +1367,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 2,
+  "tempoEstimado": 30,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-sin-nimos-ant-nimos-e-polissemia",
@@ -920,6 +1410,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de sinônimos, antônimos e polissemia? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Sinônimos, antônimos e polissemia” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Sinônimos, antônimos e polissemia” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em “a explicação ficou clara”, “compreensível” é mais adequado que “iluminada”.",
@@ -960,7 +1458,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-sentido-literal-e-figurado",
@@ -993,6 +1501,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de sentido literal e figurado? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Sentido literal e figurado” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Sentido literal e figurado” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em “o prazo corre”, não existe deslocamento físico; a expressão enfatiza passagem do tempo.",
@@ -1033,7 +1549,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-classes-de-palavras-i-nomes-e-determinantes",
@@ -1066,6 +1592,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de classes de palavras i: nomes e determinantes? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Classes de palavras I: nomes e determinantes” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Classes de palavras I: nomes e determinantes” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em “os dois novos servidores”, “os” é artigo, “dois” numeral, “novos” adjetivo e “servidores” substantivo.",
@@ -1106,7 +1640,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-classes-de-palavras-ii-verbos-e-adv-rbios",
@@ -1139,6 +1683,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de classes de palavras ii: verbos e advérbios? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Classes de palavras II: verbos e advérbios” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Classes de palavras II: verbos e advérbios” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Provavelmente entregará amanhã”: provavelmente exprime dúvida; entregará situa ação no futuro; amanhã indica tempo.",
@@ -1179,7 +1731,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 30,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-pronomes-e-referencia-o",
@@ -1212,6 +1774,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de pronomes e referenciação? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Pronomes e referenciação” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Pronomes e referenciação” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“A servidora que protocolou o documento”: “que” retoma “servidora” e introduz oração subordinada.",
@@ -1252,7 +1822,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 7,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-concord-ncia-verbal",
@@ -1285,6 +1865,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de concordância verbal? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Concordância verbal” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Concordância verbal” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Faz dois anos” usa “fazer” impessoal de tempo no singular.",
@@ -1325,7 +1913,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 9,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-concord-ncia-nominal",
@@ -1358,6 +1956,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de concordância nominal? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Concordância nominal” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Concordância nominal” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Seguem anexas as certidões”: “anexas” concorda com “certidões”.",
@@ -1398,7 +2004,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 10,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-reg-ncia-verbal-e-nominal",
@@ -1431,6 +2047,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de regência verbal e nominal? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Regência verbal e nominal” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Regência verbal e nominal” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“A equipe assistiu à sessão”: a preposição “a” exigida por assistir se une ao artigo “a”.",
@@ -1471,7 +2095,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 11,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-crase-uso-e-proibi-es",
@@ -1504,6 +2138,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de crase: uso e proibições? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Crase: uso e proibições” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Crase: uso e proibições” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Refiro-me à norma” contém preposição por regência e artigo diante de “norma”.",
@@ -1544,7 +2186,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 12,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-pontua-o-e-sentido",
@@ -1567,16 +2219,36 @@
     "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo."
    ],
    [
-    "4. Método de estudo para fixar",
-    "Releia o conceito em voz alta e explique-o com palavras próprias. Depois reproduza o exemplo sem consultar a solução. Faça uma ficha com as palavras-chave, um contraexemplo e uma dúvida que precise confirmar na fonte oficial."
+    "Aprofundamento — Estrutura da oração",
+    "Sujeito e verbo integram o núcleo da oração. Regra de segurança: não separar com vírgula sujeito e predicado, nem verbo e complemento sem motivo sintático de intercalação. “Os candidatos preparados chegaram cedo” não recebe vírgula entre candidatos e chegaram."
    ],
    [
-    "5. Como a VUNESP pode cobrar",
-    "Identifique o conceito central de pontuação e sentido, localize expressões que alteram seu significado e compare cada alternativa com a definição e o exemplo. Em itens de Direito, procure o verbo do dispositivo e as exceções; em exatas, cheque as unidades e as operações."
+    "Aprofundamento — Vocativo, aposto e intercalação",
+    "Vocativo chama o interlocutor: “Candidatos, confiram os documentos.” Aposto explicativo acrescenta informação: “A VUNESP, organizadora do concurso, divulgou o comunicado.” Ambos costumam ser isolados."
    ],
    [
-    "6. Verifique sua compreensão",
-    "Sem olhar acima, responda: qual é a regra principal de pontuação e sentido? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+    "Aprofundamento — Orações restritivas e explicativas",
+    "“Os servidores que estudaram passaram” restringe o grupo. “Os servidores, que estudaram, passaram” apresenta uma oração explicativa e pressupõe uma informação sobre o grupo inteiro. A vírgula altera o sentido."
+   ],
+   [
+    "Aprofundamento — Adjuntos e deslocamento",
+    "Adjuntos adverbiais deslocados podem ser isolados: “Durante a manhã, a equipe revisou os processos.” Quanto mais longo ou intercalado, maior a necessidade de sinalizar o deslocamento; evite regras absolutas baseadas em pausa."
+   ],
+   [
+    "Aprofundamento — Pontuação em enumerações e contraste",
+    "“Estudou português, matemática e lógica.” Ponto e vírgula pode separar unidades complexas; dois-pontos podem introduzir explicação ou lista. Vírgula antes de “mas” é usual entre orações: “Revisou a matéria, mas errou a questão”."
+   ],
+   [
+    "Aprofundamento — Checklist VUNESP",
+    "Localize sujeito, verbo, complementos, termos deslocados e orações subordinadas; só depois decida a vírgula. Compare se o sentido restringe ou explica. Não marque por “onde respiraria” na leitura."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Pontuação e sentido” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Pontuação e sentido” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo.",
@@ -1617,7 +2289,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 13,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Aprofundada (ampliada)",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Português-coloca-o-pronominal",
@@ -1650,6 +2332,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de colocação pronominal? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Colocação pronominal” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Colocação pronominal” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Compare “Não me informaram” e “Informaram-me”.",
@@ -1690,7 +2380,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 14,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-n-meros-reais-e-opera-es",
@@ -1723,6 +2423,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de números reais e operações? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Números reais e operações” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Números reais e operações” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“−3 + 2×5” resulta 7, pois multiplicação antecede soma.",
@@ -1763,7 +2471,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 1,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-divisibilidade-mmc-e-mdc",
@@ -1796,6 +2514,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de divisibilidade, mmc e mdc? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Divisibilidade, MMC e MDC” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Divisibilidade, MMC e MDC” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Para 12=2²×3 e 18=2×3², MMC=36 e MDC=6.",
@@ -1836,7 +2562,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 2,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-raz-es-e-propor-es",
@@ -1869,6 +2605,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de razões e proporções? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Razões e proporções” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Razões e proporções” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Se 3 cadernos custam R$ 18, preço unitário é 18/3=R$ 6.",
@@ -1909,7 +2653,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-m-dias-aritm-ticas-e-ponderadas",
@@ -1942,6 +2696,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de médias aritméticas e ponderadas? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Médias aritméticas e ponderadas” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Médias aritméticas e ponderadas” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Notas 6 com peso 2 e 9 com peso 3: (6×2+9×3)/5=7,8.",
@@ -1982,7 +2744,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-juros-simples",
@@ -2015,6 +2787,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de juros simples? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Juros simples” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Juros simples” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Capital R$ 1.000 a 2% ao mês durante 3 meses: J=1.000×0,02×3=R$ 60; M=R$ 1.060.",
@@ -2055,7 +2835,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 9,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-equa-o-do-primeiro-grau",
@@ -2088,6 +2878,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de equação do primeiro grau? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Equação do primeiro grau” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Equação do primeiro grau” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "4x+6=22 → 4x=16 → x=4. Verificação: 4×4+6=22.",
@@ -2128,7 +2926,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 133,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-equa-o-do-segundo-grau",
@@ -2161,6 +2969,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de equação do segundo grau? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Equação do segundo grau” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Equação do segundo grau” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "x²−5x+6=0: Δ=25−24=1; raízes (5±1)/2, isto é, 2 e 3.",
@@ -2201,7 +3017,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 8,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-sistemas-de-equa-es-lineares",
@@ -2234,6 +3060,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de sistemas de equações lineares? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Sistemas de equações lineares” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Sistemas de equações lineares” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "x+y=10 e x−y=2; somando, 2x=12, x=6 e y=4.",
@@ -2274,7 +3108,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 7,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-grandezas-e-unidades",
@@ -2307,6 +3151,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de grandezas e unidades? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Grandezas e unidades” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Grandezas e unidades” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "2,5 m² = 25.000 cm², porque (100 cm)²=10.000 cm².",
@@ -2347,7 +3199,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 10,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-geometria-plana",
@@ -2380,6 +3242,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de geometria plana? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Geometria plana” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Geometria plana” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Triângulo de base 10 cm e altura 6 cm: área 30 cm².",
@@ -2420,7 +3290,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 11,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Matemática-tabelas-e-gr-ficos",
@@ -2453,6 +3333,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de tabelas e gráficos? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Tabelas e gráficos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Tabelas e gráficos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Vendas 20→30 representam acréscimo de 10 unidades e aumento de 50% sobre 20.",
@@ -2493,7 +3381,17 @@
     "url": "https://pt.khanacademy.org/math"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 12,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Raciocínio Lógico-nega-o-de-proposi-es",
@@ -2526,6 +3424,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de negação de proposições? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Negação de proposições” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Negação de proposições” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Todos os processos foram distribuídos” nega-se com “Pelo menos um processo não foi distribuído”.",
@@ -2562,7 +3468,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 1,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Raciocínio Lógico-equival-ncias-e-condicional",
@@ -2595,6 +3511,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de equivalências e condicional? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Equivalências e condicional” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Equivalências e condicional” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Se chove, molha” equivale a “Se não molhou, não choveu” no esquema lógico dado.",
@@ -2631,7 +3555,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Raciocínio Lógico-argumentos-e-validade",
@@ -2664,6 +3598,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de argumentos e validade? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Argumentos e validade” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Argumentos e validade” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Se há protocolo, há número; há protocolo; logo, há número” tem forma válida.",
@@ -2700,7 +3642,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Raciocínio Lógico-sequ-ncias-e-padr-es",
@@ -2733,6 +3685,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de sequências e padrões? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Sequências e padrões” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Sequências e padrões” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "2, 5, 10, 17, 26 segue n²+1 para n=1,2,3,4,5.",
@@ -2769,7 +3729,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Raciocínio Lógico-diagramas-e-conjuntos",
@@ -2802,6 +3772,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de diagramas e conjuntos? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Diagramas e conjuntos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Diagramas e conjuntos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Se 18 estudam Português, 12 Matemática e 5 ambos, 25 estudam ao menos uma.",
@@ -2838,7 +3816,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 143,
+  "tempoEstimado": 26,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-windows-arquivos-e-pastas",
@@ -2871,6 +3859,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de windows: arquivos e pastas? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Windows: arquivos e pastas” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Windows: arquivos e pastas” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Um documento copiado de Documentos para Área de Trabalho passa a existir em dois locais.",
@@ -2911,7 +3907,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 1,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-word-edi-o-e-formata-o",
@@ -2944,6 +3950,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de word: edição e formatação? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Word: edição e formatação” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Word: edição e formatação” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Para padronizar 30 títulos, modificar o estilo Título 1 é mais eficiente que formatar um a um.",
@@ -2984,7 +3998,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-excel-refer-ncias-e-f-rmulas",
@@ -3017,6 +4041,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de excel: referências e fórmulas? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Excel: referências e fórmulas” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Excel: referências e fórmulas” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "=SE(C2>=7;\"Aprovado\";\"Rever\") devolve resultado conforme o teste lógico.",
@@ -3057,7 +4089,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-excel-filtros-gr-ficos-e-tabelas",
@@ -3090,6 +4132,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de excel: filtros, gráficos e tabelas? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Excel: filtros, gráficos e tabelas” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Excel: filtros, gráficos e tabelas” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Filtrar “Situação=Em andamento” reduz a visualização sem excluir demais registros.",
@@ -3130,7 +4180,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-navegadores-url-e-https",
@@ -3163,6 +4223,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de navegadores, url e https? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Navegadores, URL e HTTPS” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Navegadores, URL e HTTPS” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em https://exemplo.com/pasta, o domínio é exemplo.com, não “pasta”.",
@@ -3203,7 +4271,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 148,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-e-mail-e-seguran-a",
@@ -3236,6 +4314,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de e-mail e segurança? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “E-mail e segurança” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “E-mail e segurança” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Para enviar informativo a muitos contatos sem expor endereços, use CCO.",
@@ -3276,7 +4362,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 6,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-microsoft-teams",
@@ -3309,6 +4405,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de microsoft teams? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Microsoft Teams” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Microsoft Teams” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Uma equipe pode ter canal para um projeto, com arquivos e mensagens centralizados.",
@@ -3349,7 +4453,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 150,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Informática-onedrive-e-sincroniza-o",
@@ -3382,6 +4496,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de onedrive e sincronização? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “OneDrive e sincronização” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “OneDrive e sincronização” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Editar arquivo sincronizado no PC pode disponibilizar a versão mais recente no celular.",
@@ -3422,7 +4544,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 7,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Constitucional-direitos-e-garantias-fundamentais",
@@ -3455,6 +4587,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de direitos e garantias fundamentais? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Direitos e garantias fundamentais” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Direitos e garantias fundamentais” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Legalidade geral: ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei.",
@@ -3491,7 +4631,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Constitucional-direitos-sociais",
@@ -3524,6 +4674,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de direitos sociais? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Direitos sociais” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Direitos sociais” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Educação e saúde são exemplos de direitos sociais expressos na Constituição.",
@@ -3560,7 +4718,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 153,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Constitucional-nacionalidade",
@@ -3593,6 +4761,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de nacionalidade? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Nacionalidade” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Nacionalidade” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Uma pessoa nascida no Brasil pode ser brasileira nata, observadas as exceções constitucionais.",
@@ -3629,7 +4805,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 154,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Constitucional-administra-o-p-blica-constitucional",
@@ -3662,6 +4848,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de administração pública constitucional? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Administração pública constitucional” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Administração pública constitucional” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Impessoalidade impede usar publicidade institucional como promoção pessoal.",
@@ -3698,7 +4892,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Constitucional-organiza-o-do-poder-judici-rio",
@@ -3731,6 +4935,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de organização do poder judiciário? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Organização do Poder Judiciário” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Organização do Poder Judiciário” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "O TJSP julga matérias de competência da justiça estadual, não é órgão do Poder Executivo.",
@@ -3767,7 +4979,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Penal-f-p-blica-falsifica-o-de-documentos",
@@ -3800,6 +5022,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de fé pública: falsificação de documentos? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Fé pública: falsificação de documentos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Fé pública: falsificação de documentos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Alterar materialmente documento e declarar dado falso em documento autêntico são condutas que exigem enquadramentos distintos.",
@@ -3836,7 +5066,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 157,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Penal-falsidade-ideol-gica-e-uso-de-documento-falso",
@@ -3869,6 +5109,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de falsidade ideológica e uso de documento falso? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Falsidade ideológica e uso de documento falso” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Falsidade ideológica e uso de documento falso” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Documento formalmente verdadeiro com informação falsa não é necessariamente falsificação material.",
@@ -3905,7 +5153,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 158,
+  "tempoEstimado": 30,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Penal-peculato",
@@ -3938,6 +5196,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de peculato? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Peculato” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Peculato” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Servidor que desvia para proveito próprio valor sob sua posse em razão do cargo pode enquadrar-se em peculato-desvio, conforme os fatos.",
@@ -3974,7 +5240,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Penal-concuss-o-e-corrup-o-passiva",
@@ -4007,6 +5283,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de concussão e corrupção passiva? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Concussão e corrupção passiva” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Concussão e corrupção passiva” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“Exigir vantagem” e “solicitar vantagem” não são verbos intercambiáveis na tipificação.",
@@ -4043,7 +5327,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Penal-prevarica-o-e-advocacia-administrativa",
@@ -4076,6 +5370,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de prevaricação e advocacia administrativa? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Prevaricação e advocacia administrativa” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Prevaricação e advocacia administrativa” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Retardar um ato por falha operacional não prova, por si, intenção de satisfazer interesse pessoal.",
@@ -4112,7 +5414,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 161,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Penal-corrup-o-ativa-e-desobedi-ncia",
@@ -4145,6 +5457,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de corrupção ativa e desobediência? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Corrupção ativa e desobediência” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Corrupção ativa e desobediência” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Oferecer vantagem indevida é verbo da corrupção ativa; recebê-la é conduta típica possível na passiva.",
@@ -4181,7 +5501,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Penal-sujeitos-processuais-e-impedimentos",
@@ -4214,6 +5544,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de sujeitos processuais e impedimentos? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Sujeitos processuais e impedimentos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Sujeitos processuais e impedimentos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Juiz imparcial não pode atuar quando presente hipótese legal que comprometa sua atuação.",
@@ -4254,7 +5592,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 163,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Penal-cita-o-intima-o-e-notifica-es",
@@ -4287,6 +5635,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de citação, intimação e notificações? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Citação, intimação e notificações” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Citação, intimação e notificações” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "A localização do acusado e as diligências efetuadas importam na escolha da modalidade de citação.",
@@ -4327,7 +5683,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 5,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Penal-procedimentos-comum-e-especial",
@@ -4360,6 +5726,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de procedimentos comum e especial? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Procedimentos comum e especial” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Procedimentos comum e especial” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Conhecer a ordem de atos ajuda a eliminar alternativas que invertem fases do procedimento.",
@@ -4400,7 +5774,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 165,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Penal-provas-e-audi-ncia-criminal",
@@ -4433,6 +5817,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de provas e audiência criminal? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Provas e audiência criminal” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Provas e audiência criminal” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em audiência, a ordem dos atos importa e pode variar conforme procedimento.",
@@ -4473,7 +5865,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 166,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Penal-recursos-no-cpp",
@@ -4506,6 +5908,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de recursos no cpp? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Recursos no CPP” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Recursos no CPP” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Ao resolver questão, primeiro identifique a decisão impugnada, depois escolha o recurso previsto.",
@@ -4546,7 +5956,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 167,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Penal-juizados-especiais-criminais",
@@ -4579,6 +5999,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de juizados especiais criminais? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Juizados especiais criminais” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Juizados especiais criminais” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Transação penal não se confunde com sentença condenatória após instrução.",
@@ -4619,7 +6047,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 168,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Civil-impedimento-e-suspei-o-no-cpc",
@@ -4652,6 +6090,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de impedimento e suspeição no cpc? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Impedimento e suspeição no CPC” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Impedimento e suspeição no CPC” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Parentesco e interesses concretos podem exigir análise das hipóteses textuais.",
@@ -4688,7 +6134,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 169,
+  "tempoEstimado": 27,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Civil-tutela-provis-ria",
@@ -4721,6 +6177,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de tutela provisória? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Tutela provisória” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Tutela provisória” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Pedido urgente de preservação de bem difere de antecipação satisfativa de prestação.",
@@ -4757,7 +6221,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 170,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Civil-peti-o-inicial-e-resposta-do-r-u",
@@ -4790,6 +6264,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de petição inicial e resposta do réu? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Petição inicial e resposta do réu” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Petição inicial e resposta do réu” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "A contestação é oportunidade de defesa do réu; a revelia possui efeitos e exceções.",
@@ -4826,7 +6308,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 171,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Civil-provas-e-senten-a",
@@ -4859,6 +6351,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de provas e sentença? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Provas e sentença” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Provas e sentença” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Uma decisão que resolve o mérito deve apresentar fundamentação e dispositivo coerentes.",
@@ -4895,7 +6395,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 172,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Civil-recursos-c-veis",
@@ -4928,6 +6438,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de recursos cíveis? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Recursos cíveis” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Recursos cíveis” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Embargos de declaração visam vícios legalmente indicados, como omissão ou contradição.",
@@ -4964,7 +6482,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 7,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Processo Civil-juizados-especiais-c-veis-e-fazenda-p-blica",
@@ -4997,6 +6525,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de juizados especiais cíveis e fazenda pública? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Juizados especiais cíveis e Fazenda Pública” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Juizados especiais cíveis e Fazenda Pública” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "A competência do Juizado da Fazenda Pública depende de regras próprias, não apenas do valor da causa.",
@@ -5033,7 +6569,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 174,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Administrativo-servidores-p-blicos-de-sp-ingresso-e-deveres",
@@ -5066,6 +6612,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de servidores públicos de sp: ingresso e deveres? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Servidores públicos de SP: ingresso e deveres” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Servidores públicos de SP: ingresso e deveres” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Posse e exercício são etapas diferentes da vida funcional.",
@@ -5106,7 +6660,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 2,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Direito Administrativo-responsabilidade-e-disciplina-funcional",
@@ -5139,6 +6703,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de responsabilidade e disciplina funcional? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Responsabilidade e disciplina funcional” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Responsabilidade e disciplina funcional” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Infração disciplinar e crime não são sinônimos, embora possam coexistir.",
@@ -5179,7 +6751,17 @@
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 176,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Legislação Interna-estrutura-e-funcionamento-do-tjsp",
@@ -5212,6 +6794,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de estrutura e funcionamento do tjsp? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Estrutura e funcionamento do TJSP” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Estrutura e funcionamento do TJSP” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Uma norma interna pode atribuir rotinas diferentes a cartório, magistrado e corregedoria.",
@@ -5252,7 +6842,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 177,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Legislação Interna-normas-da-corregedoria-organiza-o-dos-servi-os",
@@ -5285,6 +6885,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de normas da corregedoria: organização dos serviços? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Normas da Corregedoria: organização dos serviços” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Normas da Corregedoria: organização dos serviços” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Em questões de rotina, a distinção entre juntada, conclusão, remessa e publicação pode ser decisiva.",
@@ -5325,7 +6933,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 1,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Legislação Interna-comunica-o-de-atos-e-movimenta-o-cartor-ria",
@@ -5358,6 +6976,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de comunicação de atos e movimentação cartorária? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Comunicação de atos e movimentação cartorária” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Comunicação de atos e movimentação cartorária” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Um expediente cartorário não substitui determinação judicial quando a lei exige decisão.",
@@ -5398,7 +7024,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 179,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Legislação Interna-resolu-es-e-regime-de-trabalho",
@@ -5431,6 +7067,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de resoluções e regime de trabalho? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Resoluções e regime de trabalho” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Resoluções e regime de trabalho” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Uma resolução institucional pode regular organização interna sem alterar direitos processuais previstos em lei.",
@@ -5471,7 +7115,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 180,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Atualidades e Inclusão-estatuto-da-pessoa-com-defici-ncia-princ-pios",
@@ -5504,6 +7158,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de estatuto da pessoa com deficiência: princípios? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Estatuto da Pessoa com Deficiência: princípios” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Estatuto da Pessoa com Deficiência: princípios” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Barreira atitudinal pode impedir participação mesmo sem obstáculo físico.",
@@ -5544,7 +7206,17 @@
     "url": "https://agenciabrasil.ebc.com.br/"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 181,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Atualidades e Inclusão-trabalho-e-inclus-o-da-pessoa-com-defici-ncia",
@@ -5577,6 +7249,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de trabalho e inclusão da pessoa com deficiência? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Trabalho e inclusão da pessoa com deficiência” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Trabalho e inclusão da pessoa com deficiência” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Processo seletivo não deve excluir candidato apenas por deficiência.",
@@ -5617,7 +7297,17 @@
     "url": "https://agenciabrasil.ebc.com.br/"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 1,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Atualidades e Inclusão-atualidades-leitura-cr-tica-de-not-cias",
@@ -5650,6 +7340,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de atualidades: leitura crítica de notícias? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Atualidades: leitura crítica de notícias” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Atualidades: leitura crítica de notícias” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Para notícia econômica, pergunte o que o indicador mede e qual a base de comparação.",
@@ -5690,7 +7388,17 @@
     "url": "https://agenciabrasil.ebc.com.br/"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Redação-estrutura-do-texto-dissertativo-argumentativo",
@@ -5723,6 +7431,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de estrutura do texto dissertativo-argumentativo? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Estrutura do texto dissertativo-argumentativo” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Estrutura do texto dissertativo-argumentativo” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Tema: inclusão digital. Tese: acesso a equipamentos e formação são condições complementares de participação.",
@@ -5759,7 +7475,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 1,
+  "tempoEstimado": 29,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Redação-planejamento-e-repert-rio",
@@ -5792,6 +7518,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de planejamento e repertório? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Planejamento e repertório” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Planejamento e repertório” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Argumento 1: infraestrutura insuficiente; argumento 2: letramento digital limitado; conclusão articula ambos.",
@@ -5828,7 +7562,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 3,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Redação-coes-o-e-progress-o-dos-par-grafos",
@@ -5861,6 +7605,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de coesão e progressão dos parágrafos? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Coesão e progressão dos parágrafos” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Coesão e progressão dos parágrafos” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "“O acesso é desigual. Além disso, a formação limitada reduz o aproveitamento das ferramentas.”",
@@ -5897,7 +7649,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 4,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Redação-revis-o-gramatical-e-clareza",
@@ -5930,6 +7692,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de revisão gramatical e clareza? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Revisão gramatical e clareza” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Revisão gramatical e clareza” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Troque “isso é ruim para todos” por descrição objetiva do efeito discutido.",
@@ -5966,7 +7736,17 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 6,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  },
  {
   "id": "Redação-treino-cronometrado-e-autoavalia-o",
@@ -5999,6 +7779,14 @@
    [
     "6. Verifique sua compreensão",
     "Sem olhar acima, responda: qual é a regra principal de treino cronometrado e autoavaliação? Como ela aparece no exemplo? Por que o erro comum mencionado abaixo está errado? Se não conseguir explicar, releia antes de marcar a aula como concluída."
+   ],
+   [
+    "7. Estude de modo ativo",
+    "Feche a explicação e tente ensinar “Treino cronometrado e autoavaliação” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+   ],
+   [
+    "8. Revisão programada",
+    "Revise “Treino cronometrado e autoavaliação” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
    ]
   ],
   "example": "Após corrigir, reescreva o parágrafo mais fraco preservando a ideia central.",
@@ -6035,6 +7823,16 @@
     "url": "https://www.vunesp.com.br/TJSP2607"
    }
   ],
-  "reviewStatus": "guia"
+  "reviewStatus": "guia",
+  "ordemSugerida": 7,
+  "tempoEstimado": 28,
+  "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+  "revisoesDias": [
+   1,
+   7,
+   21
+  ],
+  "etapa": "Guia em expansão",
+  "fonteEdital": "https://www.vunesp.com.br/TJSP2607"
  }
 ]

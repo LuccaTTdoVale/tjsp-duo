@@ -63,7 +63,14 @@ const oldShow=show;
 allTabs.push('dashboard','ranking','profilePage');
 show=function(section){oldShow(section);for(const t of ['Dashboard','Ranking','Profile'])$('tab'+t).classList.toggle('active',({'Dashboard':'dashboard','Ranking':'ranking','Profile':'profilePage'})[t]===section);if(section==='dashboard')paintDashboard();if(section==='ranking')paintRanking();if(section==='profilePage')paintProfile()};
 // A lista online pode ter apenas uma conta no primeiro acesso.
-loadNames=function(){for(const p of ['p1','p2']){const uid=Number(p.slice(1)),u=sharedStats?.users?.find(x=>x.id===uid);const name=u?.username||localStorage.getItem(nkey(p))||('Estudante '+uid);for(const sel of ['profile','profileHist']){const opt=$(sel).querySelector('option[value="'+p+'"]');if(opt)opt.textContent=name}}};
+loadNames=function(){
+  for(const uid of [1,2,3,4,5]){
+    const p='p'+uid,u=sharedStats?.users?.find(x=>x.id===uid);
+    const name=u?.username||localStorage.getItem(nkey(p))||('Estudante '+uid);
+    const opt=$('profile').querySelector('option[value="'+p+'"]');
+    if(opt)opt.textContent=name;
+  }
+};
 const originalHistoryFor=historyFor;
 historyFor=function(p){return sharedHistory[p]||[]};
 const originalFinish=finish;
@@ -104,10 +111,15 @@ function paintDashboard(){if(!authUser||!sharedStats)return;const me=sharedStats
   $('weekGraph').innerHTML=days.map(d=>'<div class="dayCol" title="'+d.key+': '+d.n+' questões"><b>'+d.n+'</b><div class="dayBar" style="height:'+Math.max(3,Math.round(95*d.n/max))+'px"></div><small>'+escapeHTML(dateLabel(d.key))+'</small></div>').join('');
   $('miniRank').innerHTML=leaderboard(false);
 }
-function leaderboard(showButtons=true){if(!sharedStats)return '';const users=[...sharedStats.users].sort((a,b)=>b.answered-a.answered||b.correct-a.correct||a.id-b.id);
-  return users.map((u,i)=>'<div class="leader"><div class="leaderPos">'+(i===0?'🥇':'🥈')+'</div><div class="leaderMain"><b>'+escapeHTML(u.username)+(u.id===authUser?.id?' (você)':'')+'</b><p>'+u.today+' hoje · '+u.exams+' simulados · '+(u.answered?fmtPercent(u.correct/u.answered):'—')+' de acertos</p></div><div class="leaderBig">'+fmt(u.answered)+'</div>'+(showButtons?'<button data-user="'+u.id+'">Ver perfil</button>':'')+'</div>').join('')||'<p class="empty">Crie as duas contas para começar o ranking.</p>';
+function leaderboard(showButtons=true){
+  if(!sharedStats)return '';
+  const users=[...sharedStats.users]
+    .sort((a,b)=>b.answered-a.answered||b.correct-a.correct||a.id-b.id)
+    .slice(0,5);
+  const positions=['🥇','🥈','🥉','4º','5º'];
+  return users.map((u,i)=>'<div class="leader"><div class="leaderPos">'+positions[i]+'</div><div class="leaderMain"><b>'+escapeHTML(u.username)+(u.id===authUser?.id?' (você)':'')+'</b><p>'+u.today+' hoje · '+u.exams+' simulados · '+(u.answered?fmtPercent(u.correct/u.answered):'—')+' de acertos</p></div><div class="leaderBig">'+fmt(u.answered)+'</div>'+(showButtons?'<button data-user="'+u.id+'">Ver perfil</button>':'')+'</div>').join('')||'<p class="empty">Ainda não há estudantes cadastrados no ranking.</p>';
 }
-function paintRanking(){$('rankCards').innerHTML=leaderboard();$('rankCards').querySelectorAll('[data-user]').forEach(b=>b.onclick=()=>openProfile(Number(b.dataset.user)))}
+function paintRanking(){const heading=document.querySelector('#ranking .eyebrow');if(heading)heading.textContent='RANKING TOP 5';$('rankCards').innerHTML=leaderboard();$('rankCards').querySelectorAll('[data-user]').forEach(b=>b.onclick=()=>openProfile(Number(b.dataset.user)))}
 function paintProfile(){if(!sharedStats)return;const target=Number($('viewProfile').value)||authUser.id;const p=sharedStats.users.find(x=>x.id===target);if(!p)return;
   $('viewProfile').value=String(p.id);$('viewProfileName').textContent='Perfil de '+p.username;
   const acc=p.answered?fmtPercent(p.correct/p.answered):'—';const coverage=fmtPercent(p.distinct/sharedStats.bank_total);
@@ -120,20 +132,29 @@ function paintProfile(){if(!sharedStats)return;const target=Number($('viewProfil
 function openProfile(id){$('viewProfile').value=String(id);show('profilePage')}
 async function loadShared(){
   if(!authUser)return;
-  const [stats,h1,h2]=await Promise.all([api('/api/summary'),api('/api/history?user=1').catch(()=>({history:[]})),api('/api/history?user=2').catch(()=>({history:[]}))]);
+  // O histórico é privado: cada estudante carrega somente o próprio histórico.
+  const [stats,historyResult]=await Promise.all([
+    api('/api/summary'),
+    api('/api/history?user='+authUser.id).catch(()=>({history:[]}))
+  ]);
+  if(!authUser)return;
   sharedStats=stats;
-  sharedHistory={'p1':h1.history||[],'p2':h2.history||[]};
-  for(const profile of ['profileHist','viewProfile']){
-    const el=$(profile);const wanted=el.value;
-    el.innerHTML=stats.users.map(u=>'<option value="'+(profile==='profileHist'?'p'+u.id:u.id)+'">'+escapeHTML(u.username)+'</option>').join('');
-    if([...el.options].some(o=>o.value===wanted))el.value=wanted;
-  }
-  $('profileHist').value=currentProfile;
-  $('viewProfile').value=String(authUser.id);
+  sharedHistory={['p'+authUser.id]:historyResult.history||[]};
+  const historySelect=$('profileHist');
+  historySelect.innerHTML='<option value="p'+authUser.id+'">'+escapeHTML(stats.users.find(u=>u.id===authUser.id)?.username||authUser.username)+'</option>';
+  historySelect.value='p'+authUser.id;
+  const profileSelect=$('viewProfile'),previous=profileSelect.value;
+  profileSelect.innerHTML=stats.users.map(u=>'<option value="'+u.id+'">'+escapeHTML(u.username)+'</option>').join('');
+  profileSelect.value=[...profileSelect.options].some(o=>o.value===previous)?previous:String(authUser.id);
+  const studySelect=$('profile');
+  studySelect.innerHTML=stats.users.map(u=>'<option value="p'+u.id+'">'+escapeHTML(u.username)+'</option>').join('');
+  studySelect.value='p'+authUser.id;
+  currentProfile='p'+authUser.id;
   loadNames();renderHistory();updateAvailable();
 }
 async function authSuccess(u){
   authUser=u;currentProfile='p'+u.id;document.body.classList.add('logged');
+  if(!$('profile').querySelector('option[value=+currentProfile+]'))$('profile').add(new Option(u.username,currentProfile));
   $('profile').value=currentProfile;$('nick').value=u.username;$('nick').readOnly=true;$('profile').disabled=true;
   $('profile').closest('.fields').style.display='none';
   localStorage.setItem(nkey(currentProfile),u.username);
@@ -141,7 +162,7 @@ async function authSuccess(u){
 }
 async function refreshAuth(){
   try{const me=await api('/api/me');await authSuccess(me.user)}
-  catch(_){document.body.classList.remove('logged');authUser=null;try{const status=await api('/api/status');$('authSlots').textContent=status.slots?'Cadastro disponível. Crie sua conta com e-mail e senha.':'Entre com seu e-mail e senha.';setAuthMode(status.accounts===0)}catch(e){$('authSlots').textContent='Não foi possível conectar ao Firebase. Confira firebase-config.js e sua internet.'}}
+  catch(_){document.body.classList.remove('logged');authUser=null;try{const status=await api('/api/status');$('authSlots').textContent=status.slots?'TJSP DUO aceita até 5 estudantes. Cadastro com e-mail e senha.':'As 5 vagas estão ocupadas. Entre com sua conta.';setAuthMode(false)}catch(e){$('authSlots').textContent='Não foi possível conectar ao Firebase. Confira firebase-config.js e sua internet.'}}
   finally{document.getElementById('bootCover')?.remove()}
 }
 function setAuthMode(isRegister){registerMode=isRegister;$('authSubmit').textContent=registerMode?'Criar conta':'Entrar';$('authToggle').textContent=registerMode?'Já tenho conta — entrar':'Criar minha conta';$('authSubtitle').textContent=registerMode?'Crie seu acesso usando e-mail e senha.':'Entre para ver suas metas, questões e ranking.';$('authPass').setAttribute('autocomplete',registerMode?'new-password':'current-password');$('authError').textContent=''}

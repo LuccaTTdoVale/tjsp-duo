@@ -16,7 +16,7 @@ function message(text,type='bad'){
 function enableForm(enabled){$('profileDisplayName').disabled=!enabled;$('profileSave').disabled=!enabled;}
 function normalizeName(raw){return String(raw||'').normalize('NFC').trim().replace(/\s+/g,' ');}
 async function findProfile(uid){
-  for(const id of ['1','2']){
+  for(const id of ['1','2','3','4','5']){
     const slot=await getDoc(doc(db,'slots',id));
     if(slot.exists()&&slot.data().uid===uid){
       const reference=doc(db,'profiles',id);

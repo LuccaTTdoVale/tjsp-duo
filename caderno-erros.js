@@ -9,7 +9,7 @@ const app=getApps().length?getApp():initializeApp(firebaseConfig);
 const auth=getAuth(app),db=getFirestore(app);
 let activeUser=null,profileId=null,reviewed={},entries=[],lessons=[],isLoading=false,topicTargets={};
 const status=(txt)=>{$('notebookStatus').textContent=txt;$('notebookStatus').hidden=!txt;};
-async function profileForUser(uid){for(const id of ['1','2']){const sl=await getDoc(doc(db,'slots',id));if(sl.exists()&&sl.data().uid===uid)return id;}return null;}
+async function profileForUser(uid){for(const id of ['1','2','3','4','5']){const sl=await getDoc(doc(db,'slots',id));if(sl.exists()&&sl.data().uid===uid)return id;}return null;}
 function lessonMatch(subject,topic){
  const list=lessons.filter(l=>l.subject===subject);if(!list.length)return null;
  const t=clean(topic),a=new Set(t.split(' ').filter(x=>x.length>3));

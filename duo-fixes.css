@@ -1,0 +1,41 @@
+/* TJSP DUO — correção final de consistência visual, sem alterar dados */
+:root{color-scheme:light;--duo-red:#b50913;--duo-black:#17191f;--duo-slate:#5e6876;--duo-border:#e2e5eb;--duo-bg:#fafafa}
+html,body{background:#fafafa!important;background-image:none!important;color:#17191f!important}
+body,main,.layout,.app,.wrap,.page,.content,.container{background-image:none!important}
+/* Superfícies que conservaram o fundo antigo */
+.tile,.lesson-section,.example,.visualCustom,.formula,.diagram>div,.checkQuestion,.checkOpt,.article,.hero,.panel,.card,.lessonCard,.leader,.sourcecard,.stat,.profileBox,.qarea,.question,.option,.reviewitem,.notice,.goalEdit,.weekgraph,.palette,.kpi,.intro,.block,.substat,.result,.summary,.questionCard,.question-card,.exam-card,.rank-card,.ranking-card,.authCard,.box,.section,.subject-card,.answer,.explanation{
+ background:#fff!important;background-image:none!important;color:#17191f!important;border-color:#e2e5eb!important;box-shadow:0 3px 18px rgba(25,30,40,.055)!important}
+.tile{border:1px solid #e3e5eb!important;min-height:110px;transition:box-shadow .22s,transform .22s,border-color .22s!important;cursor:pointer}
+.tile:hover{border-color:#bd2630!important;transform:translateY(-2px);box-shadow:0 9px 25px #1f293715!important}
+.tile strong,.lesson-section h3,.visualCustom strong,.example strong,.tile small,.tile .tileArrow,.checkQuestion strong,.diagram strong,.hero h1,.panel h2,.article h1,.question h3,.reviewitem b,.stat b,.rank-card b,.qarea h2{color:#17191f!important}
+.tile small,.dim,p,.lesson-section p,.visualCustom p,.example p,.hero p,.article p,.tile .tileArrow,.muted,footer{color:#566275!important}
+.kicker,.chip,.tile .chip,.eyebrow,.tileArrow{color:#a80c18!important}
+.chip,.tile .chip{background:#fff4f4!important;border:1px solid #f0c8cb!important}
+.lesson-section{border-left:4px solid #b50913!important;padding:22px!important}
+.example{border:1px solid #f0c9cd!important;background:#fffafa!important}
+.visualCustom{border:1px solid #e2e5eb!important}
+.formula{border:1px dashed #bd7479!important;color:#222!important;font-weight:650}
+.diagram>div{border:1px solid #e5e6e9!important}
+.diagram strong,.percentGrid .filled{color:#a80c18!important}
+.percentGrid span{background:#e9edf2!important}.percentGrid span.filled{background:#bd1d28!important}
+.visualCustom table{color:#17191f!important}.visualCustom td,.visualCustom th{border-color:#d5d9df!important;background:#fff!important}
+.checkOpt{border:1px solid #d9dce3!important;text-align:left!important;box-shadow:none!important;background:#fff!important;color:#17191f!important;transition:background .15s,border-color .15s!important}
+.checkOpt:hover,.checkOpt:focus-visible{background:#fff0f1!important;border-color:#b50913!important;color:#961019!important}
+.btn,.button.primary,.duoMenuBtn{background:#b50913!important;color:#fff!important;border-color:#b50913!important}
+.btn.secondary,.btnoutline,.navlink,.btnbare{background:#fff!important;color:#a80c18!important;border:1px solid #e3e5eb!important}
+.btn.secondary:hover,.btnoutline:hover,.navlink:hover{background:#fff2f3!important}
+.progress,.bar,.meter{background:#e7eaee!important}.progress i,.bar>*,.meter>*{background:#b50913!important}
+.notice{background:#fff9f2!important;color:#775124!important;border-color:#ead7ba!important}
+.notice.warn{background:#fff8ef!important;color:#775124!important}
+select,input,textarea,.control{background:#fff!important;color:#17191f!important;border-color:#d6d9df!important}
+.top,.duoBar{background:#fff!important;border-color:#e6e7ec!important}.brand,.brand b{color:#17191f!important}.brand b{color:#a80c18!important}
+.duoSide{background:#fff!important}.duoSideLinks a{color:#222!important}
+.duoBar{display:none!important}
+.authGate,.bootCover{background:#fafafa!important;color:#17191f!important}
+/* Link e visualização do simulado e estatísticas */
+.option,.answer,.alternative,.choice,.answer-option{background:#fff!important;color:#17191f!important;border-color:#e2e5eb!important}
+.option.selected,.answer.selected,.choice.selected,.answer-option.selected{background:#fff0f1!important;border-color:#b50913!important}
+.correct,.right,.is-correct{border-color:#2d8758!important}.wrong,.incorrect,.is-wrong{border-color:#c5323a!important}
+footer{color:#657081!important}
+@media(max-width:720px){.tile,.lesson-section,.visualCustom{padding:16px!important}.grid{grid-template-columns:1fr!important}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}

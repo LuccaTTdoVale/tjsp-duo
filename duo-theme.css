@@ -1,0 +1,35 @@
+
+:root{--tj-wine:#791f32;--tj-red:#a52c45;--tj-gold:#d8b371;--tj-ink:#101b2d;--tj-paper:#f5f1ed;--tj-stroke:#614052}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 85% -10%,#542b40 0%,transparent 52%),linear-gradient(165deg,#10192b 0%,#161525 72%,#201424 100%)!important;color:#f8f2ed!important}
+/* identidade temática autoral, não reprodução da marca do TJSP */
+.app,.wrap{max-width:1150px!important}
+.panel,.lessonCard,.card,.stat,.sourcecard,.authCard,.qarea .panel{border-color:#765066!important;box-shadow:0 10px 32px #09081224}
+.panel,.authCard{background:#221f32!important}
+.hero,.sourcecard,.stat,.leader,.profileBox,.substat,.option,.reviewitem{background-color:#29243a!important;border-color:#68485e!important}
+.brandicon,.authIcon{background:linear-gradient(145deg,#8b2b42,#b14357)!important;color:#fff!important}
+.brand strong,.brand b,.authCard h1 span{color:#edc888!important}
+.btn,.btn.on,.countchips button.on,.duoMenuBtn{background:#a32c46!important;color:#fff!important}
+.btnoutline,.btnbare,.navlink,.countchips button,.option,.toggle button{border-color:#79516b!important}
+.eyebrow,.kicker,.leaderBig,.helper strong{color:#edc888!important}
+a{color:#f0c98c}
+button:focus-visible,a:focus-visible{outline:3px solid #eac27d!important;outline-offset:3px}
+.duoBar{display:none!important}
+.top>.nav{display:none!important}
+.top{padding-left:58px!important;position:relative}
+.duoMenuBtn{position:fixed;top:18px;left:18px;z-index:1001;border:1px solid #d2a6a7!important;width:44px;height:44px;border-radius:13px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px #0006;font-size:23px;cursor:pointer;transition:transform .2s,background .2s}
+.duoMenuBtn:hover{transform:translateY(-2px);background:#bd3956!important}
+.duoMenuMask{position:fixed;inset:0;background:#080811aa;z-index:1002;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+.duoSide{position:fixed;top:0;bottom:0;left:0;width:min(310px,87vw);background:linear-gradient(160deg,#221b2c,#151728);border-right:1px solid #8b5062;z-index:1003;transform:translateX(-102%);transition:transform .28s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;box-shadow:16px 0 44px #0008}
+body.duoMenuOpen .duoMenuMask{opacity:1;visibility:visible}body.duoMenuOpen .duoSide{transform:translateX(0)}
+.duoSideHead{padding:26px 21px 19px;display:flex;align-items:center;gap:12px;border-bottom:1px solid #6e4a60}
+.duoSideMark{background:#9f2941;color:#fff;border-radius:14px;padding:13px;font-weight:900}
+.duoSideName{font-size:20px;font-weight:900}.duoSideName strong{color:#edc888}.duoSideSub{font-size:11px;color:#baaeba;margin-top:4px}
+.duoSideClose{margin-left:auto;border:1px solid #815d70!important;background:#302538!important;color:#fff;border-radius:10px;padding:8px 12px;cursor:pointer}
+.duoSideLinks{overflow-y:auto;padding:18px 13px;display:grid;gap:6px}
+.duoSideLinks a{display:flex;align-items:center;gap:12px;color:#ddd6df!important;text-decoration:none;font-weight:750;padding:14px 16px;border-radius:13px;border:1px solid transparent;transition:transform .2s,background .2s,border-color .2s}
+.duoSideLinks a:hover{background:#3e293d;transform:translateX(4px)}.duoSideLinks a[aria-current=page]{background:#56283b;color:#ffe1ac!important;border-color:#ae6275}
+.duoSideFooter{padding:18px 22px;margin-top:auto;border-top:1px solid #654657;color:#bdacbb;font-size:11px;line-height:1.6}
+.duoSideLinks .duoNavIcon{min-width:23px;font-size:20px;text-align:center}
+@media(max-width:700px){.duoMenuBtn{top:12px;left:10px}.top{padding-left:52px!important}.duoSide{width:min(290px,90vw)}}
+@media(prefers-reduced-motion:reduce){.duoSide,.duoMenuMask,.duoMenuBtn,.duoSideLinks a{transition:none!important}}

@@ -33,7 +33,16 @@
     .profileBack:hover{text-decoration:underline}
     @media(max-width:620px){.profilePage{padding-top:75px}.profileCard{padding:19px}}
   </style>
-</head><body>
+<style id="tjspGuardStyles">
+html:not([data-tjsp-session="ready"]) body > :not(#tjspSessionShield):not(script){visibility:hidden!important;pointer-events:none!important}
+#tjspSessionShield{position:fixed;inset:0;z-index:2147483646;display:grid;place-items:center;background:#fafafa;color:#17191f;padding:25px;text-align:center;font-family:Inter,system-ui,Arial,sans-serif}
+#tjspSessionShield .inner{width:min(440px,100%);background:white;border:1px solid #e3e6eb;border-radius:18px;padding:26px;box-shadow:0 12px 36px #11182713}
+#tjspSessionShield .title{font-size:24px;font-weight:850;color:#b50913;margin-bottom:14px}
+#tjspSessionShield p{font-size:14px;line-height:1.65;color:#5b6573;margin:12px 0 17px}
+#tjspSessionShield a{display:inline-flex;padding:11px 14px;margin:4px;border:1px solid #e3e6eb;border-radius:10px;background:#fff!important;color:#b50913!important;text-decoration:none;font-weight:750;font-size:14px}
+#tjspSessionShield a.primary{background:#b50913!important;color:white!important;border-color:#b50913}
+html[data-tjsp-session="ready"] #tjspSessionShield{display:none!important}
+</style><script type="module" src="./auth-guard.js?v=9"></script></head><body><div id="tjspSessionShield" role="status" aria-live="polite"><div class="inner"><div class="title">⚖ TJSP Duo</div><strong>Verificando seu acesso…</strong><p id="tjspShieldMessage">Recuperando a sessão do Firebase.</p><a href="./login.html" id="tjspShieldLogin" class="primary">Ir para login</a><a href="" onclick="location.reload();return false">Recarregar</a></div></div>
 <main class="profilePage">
   <div class="profileEyebrow">Personalização da conta</div>
   <h1>Meu perfil</h1>
@@ -56,5 +65,5 @@
   <a class="profileBack" href="./index.html">← Voltar ao Painel</a>
 </main>
 <script type="module" src="./perfil.js?v=6"></script>
-<script defer src="./duo-nav.js?v=7"></script>
+<script defer src="./duo-nav.js?v=9"></script>
 <script type="module" src="./study-tracker.js?v=8"></script></body></html>

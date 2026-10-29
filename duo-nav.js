@@ -17,8 +17,8 @@
   // A regra é aplicada antes de inserir o botão, evitando que ele pisque no login.
   const secureStyles=document.createElement('style');
   secureStyles.textContent=`
-    body:not(.duoNavAuthorized) #duoMenuButton {display:none!important}
-    body:not(.duoNavAuthorized) #duoSidebar,
+    html:not([data-tjsp-session="ready"]) #duoMenuButton,body:not(.duoNavAuthorized) #duoMenuButton {display:none!important}
+    html:not([data-tjsp-session="ready"]) #duoSidebar,html:not([data-tjsp-session="ready"]) #duoMenuMask,body:not(.duoNavAuthorized) #duoSidebar,
     body:not(.duoNavAuthorized) #duoMenuMask {visibility:hidden!important;pointer-events:none!important}
     body:has(#authGate):not(.logged) #duoMenuButton {display:none!important}
   `;
@@ -44,7 +44,7 @@
   const close=document.getElementById('duoMenuClose');
   let previous=null;
   function toggle(open){
-    if(open&&!document.body.classList.contains('duoNavAuthorized'))return;
+    if(open&&(!document.body.classList.contains('duoNavAuthorized')||document.documentElement.dataset.tjspSession!=='ready'))return;
     document.body.classList.toggle('duoMenuOpen',open);
     button.setAttribute('aria-expanded',String(open));
     panel.setAttribute('aria-hidden',String(!open));

@@ -2,7 +2,16 @@
 <html lang="pt-BR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#ffffff">
 <title>Estatísticas • TJSP Duo • Simulados VUNESP | Santos</title>
-<link rel="stylesheet" href="./site.css"><link rel="stylesheet" href="./duo-theme.css"><link rel="stylesheet" href="./duo-fixes.css"><link rel="stylesheet" href="./duo-palette-v4.css?v=4"><link rel="stylesheet" href="./duo-palette-v5.css?v=5"></head><body data-page="estatisticas"><div class="bootCover" id="bootCover" role="status"><div style="text-align:center"><span class="bootSpinner"></span>Carregando TJSP Duo...</div></div>
+<link rel="stylesheet" href="./site.css"><link rel="stylesheet" href="./duo-theme.css"><link rel="stylesheet" href="./duo-fixes.css"><link rel="stylesheet" href="./duo-palette-v4.css?v=4"><link rel="stylesheet" href="./duo-palette-v5.css?v=5"><style id="tjspGuardStyles">
+html:not([data-tjsp-session="ready"]) body > :not(#tjspSessionShield):not(script){visibility:hidden!important;pointer-events:none!important}
+#tjspSessionShield{position:fixed;inset:0;z-index:2147483646;display:grid;place-items:center;background:#fafafa;color:#17191f;padding:25px;text-align:center;font-family:Inter,system-ui,Arial,sans-serif}
+#tjspSessionShield .inner{width:min(440px,100%);background:white;border:1px solid #e3e6eb;border-radius:18px;padding:26px;box-shadow:0 12px 36px #11182713}
+#tjspSessionShield .title{font-size:24px;font-weight:850;color:#b50913;margin-bottom:14px}
+#tjspSessionShield p{font-size:14px;line-height:1.65;color:#5b6573;margin:12px 0 17px}
+#tjspSessionShield a{display:inline-flex;padding:11px 14px;margin:4px;border:1px solid #e3e6eb;border-radius:10px;background:#fff!important;color:#b50913!important;text-decoration:none;font-weight:750;font-size:14px}
+#tjspSessionShield a.primary{background:#b50913!important;color:white!important;border-color:#b50913}
+html[data-tjsp-session="ready"] #tjspSessionShield{display:none!important}
+</style><script type="module" src="./auth-guard.js?v=9"></script></head><body data-page="estatisticas"><div id="tjspSessionShield" role="status" aria-live="polite"><div class="inner"><div class="title">⚖ TJSP Duo</div><strong>Verificando seu acesso…</strong><p id="tjspShieldMessage">Recuperando a sessão do Firebase.</p><a href="./login.html" id="tjspShieldLogin" class="primary">Ir para login</a><a href="" onclick="location.reload();return false">Recarregar</a></div></div><div class="bootCover" id="bootCover" role="status"><div style="text-align:center"><span class="bootSpinner"></span>Carregando TJSP Duo...</div></div>
 <div class="authGate" id="authGate"><div class="authCard"><div class="authIcon">⚖</div><div class="eyebrow">Plataforma particular • Santos 2027</div><h1>TJSP <span style="color:#b50913">Duo</span></h1><p id="authSubtitle">Entre para ver suas metas, questões e ranking.</p><form id="authForm"><label for="authName">Seu e-mail</label><input class="control" id="authName" type="email" autocomplete="email" maxlength="150" placeholder="voce@email.com" required><label for="authPass">Senha (mínimo 8 caracteres)</label><input type="password" class="control" id="authPass" autocomplete="current-password" minlength="8" required><p id="authError" role="alert"></p><button class="btn" id="authSubmit" type="submit">Entrar</button></form><button id="authToggle" class="btnbare" type="button">Criar minha conta</button><p class="helper" id="authSlots">Conectando ao Firebase...</p><p class="authFooter">🔒 Dados sincronizados pelo Firebase. Projeto independente.</p></div></div>
 <div class="app">
 <header class="top"><div class="brand"><div class="brandicon">⚖</div>TJSP <strong>Duo</strong></div><nav class="nav" aria-label="Navegação principal">
@@ -41,4 +50,4 @@
 
 <script defer src="./app.js?v=7"></script><script type="module" src="./firebase-adapter.js?v=7"></script>
 
-<script defer src="./duo-nav.js?v=7"></script><script type="module" src="./study-tracker.js?v=8"></script></body></html>
+<script defer src="./duo-nav.js?v=9"></script><script type="module" src="./study-tracker.js?v=8"></script></body></html>

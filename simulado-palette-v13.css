@@ -1,0 +1,45 @@
+/* TJSP DUO V13: simulado sem verde, azul ou laranja; somente branco, preto, cinza, vermelho. */
+body[data-page="questoes"]{--exam-red:#b50913;--exam-ink:#17191f;--exam-muted:#606978;--exam-border:#dfe2e8;--exam-soft:#fff2f3}
+body[data-page="questoes"] #quiz .panel,
+body[data-page="questoes"] #result .panel,
+body[data-page="questoes"] #home .panel{background:#fff!important;background-image:none!important;color:#17191f!important;border-color:#dfe2e8!important}
+body[data-page="questoes"] #quiz .qhead,
+body[data-page="questoes"] #quiz #question{background:transparent!important;color:#17191f!important}
+body[data-page="questoes"] #quiz .pill{color:#a30914!important;background:#fff3f4!important;border:1px solid #eac4c7!important}
+body[data-page="questoes"] #quiz .bar,
+body[data-page="questoes"] #result .bar{background:#eceef1!important;border-color:#e4e5e9!important}
+body[data-page="questoes"] #quiz .bar > div,
+body[data-page="questoes"] #result .bar > div{background:#b50913!important;background-image:none!important}
+body[data-page="questoes"] #quiz #answers .option{
+ display:flex!important;align-items:flex-start!important;gap:12px!important;width:100%!important;
+ padding:15px 16px!important;margin:10px 0!important;border-radius:12px!important;
+ border:1.5px solid #d8dce3!important;background:#fff!important;background-image:none!important;
+ color:#17191f!important;box-shadow:none!important;font-weight:550!important;line-height:1.65!important;text-align:left!important;
+}
+body[data-page="questoes"] #quiz #answers .option b{display:grid!important;place-items:center!important;flex:0 0 31px!important;
+ height:31px!important;border-radius:9px!important;background:#f0f1f3!important;color:#272a30!important;border:1px solid #e1e3e8!important}
+body[data-page="questoes"] #quiz #answers .option:hover:not(:disabled){background:#fff6f7!important;border-color:#b50913!important}
+body[data-page="questoes"] #quiz #answers .option.sel,
+body[data-page="questoes"] #quiz #answers .option[aria-pressed="true"]{background:#fff1f2!important;border:2px solid #b50913!important;color:#17191f!important;box-shadow:0 0 0 2px #b5091310!important}
+body[data-page="questoes"] #quiz #answers .option.sel b,
+body[data-page="questoes"] #quiz #answers .option[aria-pressed="true"] b{background:#b50913!important;border-color:#b50913!important;color:#fff!important}
+body[data-page="questoes"] #quiz #answers .option:focus-visible{outline:3px solid #b50913!important;outline-offset:2px}
+body[data-page="questoes"] #quiz #palette .pal{background:#fff!important;color:#343840!important;border:1px solid #cfd3db!important;border-radius:8px!important;box-shadow:none!important}
+body[data-page="questoes"] #quiz #palette .pal.done{background:#b50913!important;color:#fff!important;border-color:#b50913!important}
+body[data-page="questoes"] #quiz #palette .pal.here{outline:2px solid #17191f!important;outline-offset:2px!important}
+body[data-page="questoes"] #quiz #palette .pal:hover{border-color:#b50913!important}
+body[data-page="questoes"] #quiz .btn,body[data-page="questoes"] #quiz .btn.primary{background:#b50913!important;color:#fff!important;border-color:#b50913!important}
+body[data-page="questoes"] #quiz .btnoutline,body[data-page="questoes"] #quiz .btnbare{background:#fff!important;color:#a4000e!important;border:1px solid #e0e2e7!important}
+body[data-page="questoes"] #quiz .btnoutline:hover,body[data-page="questoes"] #quiz .btnbare:hover{background:#fff1f2!important}
+body[data-page="questoes"] #result .ring{background:conic-gradient(#b50913 var(--pct),#e6e7ea var(--pct))!important}
+body[data-page="questoes"] #result .ring>div{background:#fff!important}
+body[data-page="questoes"] #result .reviewitem,
+body[data-page="questoes"] #result .reviewitem .ans,
+body[data-page="questoes"] #result .reviewitem .ex{color:#17191f!important;background:#fff!important;border-color:#dfe2e8!important}
+body[data-page="questoes"] #result .reviewitem.ok{border-left:4px solid #454951!important}
+body[data-page="questoes"] #result .reviewitem.bad{border-left:4px solid #b50913!important}
+body[data-page="questoes"] #result .reviewitem .incorrect{background:#fff1f2!important;border-color:#b50913!important;color:#86101b!important}
+body[data-page="questoes"] #result .toggle button.selected{background:#b50913!important;color:#fff!important;border-color:#b50913!important}
+@media(max-width:720px){body[data-page="questoes"] #quiz #answers .option{padding:13px!important;gap:9px!important}
+body[data-page="questoes"] #quiz #answers .option b{flex-basis:28px!important;height:28px!important}
+body[data-page="questoes"] #quiz .qarea{max-width:100%!important}}

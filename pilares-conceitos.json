@@ -1,0 +1,2104 @@
+{
+  "versao": 13,
+  "nota": "Definição e contextualização aplicadas a todos os blocos; conteúdo de apoio sujeito à conferência em fontes oficiais.",
+  "lessons": {
+    "Matemática-porcentagem": [
+      {
+        "definicao": "Porcentagem é uma razão com denominador 100. Um mesmo percentual pode ser escrito como fração centesimal, número decimal ou fração simplificada.",
+        "aplicacao": "25% significa 25 em cada 100; é igual a 25/100, 0,25 ou 1/4. Para calcular 25% de 200, multiplique 0,25 × 200 e obtenha 50."
+      },
+      {
+        "definicao": "Base do percentual é o valor de referência que equivale a 100%. Toda porcentagem é calculada em relação a essa quantidade.",
+        "aplicacao": "Em “30% dos 200 inscritos”, a base é 200; em “30% de desconto no preço original de R$ 200”, a base é o preço original."
+      },
+      {
+        "definicao": "É a operação de encontrar uma fração percentual de um todo: transforma-se o percentual em decimal e multiplica-se pelo valor-base.",
+        "aplicacao": "Passo 2: multiplique esse decimal pela base. Exemplo: 12% de 250 = (12/100) × 250 = 0,12 × 250 = 30."
+      },
+      {
+        "definicao": "É descobrir qual parte do total uma quantidade representa. Calcula-se parte ÷ total × 100, sempre com total diferente de zero.",
+        "aplicacao": "Em um gráfico com taxas, \"crescimento de 10%\" pode significar resultado diferente de \"crescimento de dez pontos percentuais\"; não confunda as unidades."
+      },
+      {
+        "definicao": "É o cálculo da quantidade original (100%) quando se conhece apenas uma parte e a porcentagem que essa parte representa. Divide-se o valor parcial pela taxa na forma decimal.",
+        "aplicacao": "Se 45 alunos representam 30% de uma turma, escreva 0,30 × total = 45."
+      },
+      {
+        "definicao": "Aumento de p% equivale a multiplicar por (1 + p/100); desconto de p% equivale a (1 − p/100).",
+        "aplicacao": "Exemplo: R$ 240 com desconto de 15% vira 240 × 0,85 = R$ 204."
+      },
+      {
+        "definicao": "São aumentos ou descontos percentuais aplicados em sequência; cada novo percentual incide sobre o valor já modificado, e não necessariamente sobre o valor inicial.",
+        "aplicacao": "Não some 20 com −20 como se fossem a mesma base: use 1,20 × 0,80 = 0,96."
+      },
+      {
+        "definicao": "É um método de leitura e resolução voltado a identificar a base, as condições do enunciado e a operação correta antes de calcular.",
+        "aplicacao": "Sublinhe a base e as palavras “em relação a”, “a mais”, “a menos”, “preço inicial” e “preço final”."
+      },
+      {
+        "definicao": "O percentual refere-se ao preço ORIGINAL, e não ao desconto.",
+        "aplicacao": "Em perguntas com \"a mais\" ou \"a menos\", anote ao lado qual número vale 100% antes de operar."
+      },
+      {
+        "definicao": "O resultado é 8 pessoas menor que o inicial, ou queda de 1%.",
+        "aplicacao": "Exemplo 1. Situação: Um produto de R$ 100 recebeu dois descontos sucessivos de 10% e 10%."
+      }
+    ],
+    "Matemática-regra-de-tres": [
+      {
+        "definicao": "Razão compara grandezas: 3 cadernos para 5 alunos pode ser escrito 3/5, mas é indispensável indicar o significado e as unidades.",
+        "aplicacao": "Em uma razão entre medidas da mesma espécie, converta as unidades antes de comparar."
+      },
+      {
+        "definicao": "Isso não dispensa a interpretação do problema: primeiro descubra se as razões são comparáveis.",
+        "aplicacao": "Se a/b = c/d e b,d são diferentes de zero, a multiplicação cruzada dá a×d = b×c."
+      },
+      {
+        "definicao": "Duas grandezas são diretamente proporcionais quando o aumento de uma pelo mesmo fator provoca aumento da outra por esse fator, mantendo constante a razão entre elas.",
+        "aplicacao": "Exemplo: 4 livros custam R$ 60; 10 livros custam 60×10/4 = R$ 150."
+      },
+      {
+        "definicao": "“Teste antes de montar a conta” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Também considere se o trabalho total, a velocidade ou o preço unitário permanecem constantes."
+      },
+      {
+        "definicao": "É o método de resolver proporções que envolvem três ou mais grandezas relacionadas, identificando quais variam direta ou inversamente.",
+        "aplicacao": "Em uma tarefa, 4 funcionários fazem 120 atendimentos em 5 horas."
+      },
+      {
+        "definicao": "São interpretações ou procedimentos incorretos que parecem plausíveis, mas contrariam o conteúdo e os requisitos estudados neste tópico.",
+        "aplicacao": "Na prática, ao estudar “Erros frequentes”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Uma quantia de R$ 770 será dividida na razão 13:9, nessa ordem."
+      }
+    ],
+    "Matemática-equacao-1grau": [
+      {
+        "definicao": "Uma equação é uma igualdade que contém incógnita.",
+        "aplicacao": "Por isso 3x + 5 = 20 pode virar 3x = 15 ao subtrair 5 dos dois lados e x = 5 ao dividir por 3."
+      },
+      {
+        "definicao": "É o conjunto de operações equivalentes que deixa a incógnita sozinha em um dos membros da equação, preservando a igualdade.",
+        "aplicacao": "Ao “passar para o outro lado”, na verdade aplicamos a operação inversa em ambos os membros."
+      },
+      {
+        "definicao": "É substituir o valor encontrado na expressão ou condição original para confirmar que o resultado realmente satisfaz o problema.",
+        "aplicacao": "Na prática, ao estudar “Verificação”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Uma equação é uma igualdade que contém valor desconhecido.",
+        "aplicacao": "Em 3x + 5 = 20, a letra x representa esse valor."
+      },
+      {
+        "definicao": "A frase escolar “passa o 5 e troca o sinal” é um atalho.",
+        "aplicacao": "O que realmente acontece é subtrair 5 nos dois lados: 3x + 5 − 5 = 20 − 5."
+      },
+      {
+        "definicao": "A propriedade distributiva permite multiplicar cada termo de uma soma ou diferença por um mesmo fator, preservando o valor da expressão.",
+        "aplicacao": "Resolva 2(x + 3) = 18. Distribuindo: 2x + 6 = 18; subtraindo 6: 2x = 12; dividindo por 2: x = 6."
+      },
+      {
+        "definicao": "É a situação em que a variável aparece nos dois lados da igualdade; reúnem-se os termos equivalentes preservando a equação.",
+        "aplicacao": "Resolva 5x − 4 = 2x + 11. Subtraia 2x de ambos os lados: 3x − 4 = 11."
+      },
+      {
+        "definicao": "A solução pode ser fracionária; não arredonde quando a questão pedir valor exato.",
+        "aplicacao": "Resolva x/3 + 2 = 7. Subtraia 2: x/3 = 5; multiplique os dois lados por 3: x = 15."
+      },
+      {
+        "definicao": "São enunciados escritos em palavras que podem ser representados por equações, com uma incógnita para a quantidade desconhecida.",
+        "aplicacao": "Subtraindo 7: 3x = 27; logo x = 9. Atenção: “o triplo da soma de um número com 7” seria 3(x + 7), uma expressão diferente."
+      },
+      {
+        "definicao": "A prova pode cobrar essa interpretação.",
+        "aplicacao": "Se as operações conduzem a 0 = 5, não há solução; por exemplo, x + 2 = x + 7."
+      },
+      {
+        "definicao": "“Checklist final” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "3) Isole x. 4) Substitua o resultado na equação original para conferir."
+      },
+      {
+        "definicao": "Uma equação sem solução leva a uma igualdade falsa; com infinitas soluções, após simplificar, resulta em uma identidade verdadeira para todos os valores permitidos.",
+        "aplicacao": "Em 2(x+1)=2x+2, os dois membros ficam idênticos: qualquer número real resolve a igualdade."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Na equação 7x + 15 = 43, qual é o valor de x?"
+      }
+    ],
+    "Português-interpretacao": [
+      {
+        "definicao": "É um método de leitura em etapas: primeiro compreender o tema e o propósito, depois identificar a tese e as relações entre ideias, e por último conferir as alternativas com o texto.",
+        "aplicacao": "Ao ler uma questão, faça três passagens: descubra sobre o que o texto fala; localize a opinião ou objetivo do autor; por fim, prove sua resposta com um trecho específico."
+      },
+      {
+        "definicao": "O assunto é aquilo de que o texto trata; tema é o recorte mais específico; tese é a posição central sustentada pelo autor em textos argumentativos.",
+        "aplicacao": "Separe opinião do autor, dados apresentados e fala citada de terceiros."
+      },
+      {
+        "definicao": "É um dado apresentado diretamente pelo texto, sem precisar deduzi-lo. Para reconhecê-lo, localize quem praticou a ação, o que aconteceu, quando e sob quais condições.",
+        "aplicacao": "Em “A reunião começou às 9h”, a informação explícita é o horário de início da reunião. Uma alternativa que afirme “começou às 10h” contraria o texto, ainda que o restante esteja correto."
+      },
+      {
+        "definicao": "É uma conclusão lógica sustentada por pistas do texto, ainda que não esteja escrita literalmente. Não equivale a adivinhação, opinião pessoal ou informação de fora.",
+        "aplicacao": "Em “Apesar da chuva, a equipe chegou no horário”, pode-se inferir que a chuva representava um possível obstáculo. Não se pode concluir que todos chegaram de carro: isso não está indicado."
+      },
+      {
+        "definicao": "Conectivos são palavras ou expressões que ligam ideias e mostram relações como oposição, causa, conclusão, condição e concessão.",
+        "aplicacao": "Em textos de opinião, observe a posição dos conectivos, modalizadores (\"talvez\", \"certamente\") e verbos avaliativos para distinguir fato, hipótese e juízo de valor."
+      },
+      {
+        "definicao": "A alternativa pode ser verdadeira no mundo e falsa segundo o texto.",
+        "aplicacao": "Desconfie de generalizações (“sempre”, “nunca”), inversões de causa e efeito, trocas de sujeitos e extrapolações."
+      },
+      {
+        "definicao": "É uma sequência ordenada de verificações que orienta como identificar informações, aplicar a regra estudada e justificar a resposta.",
+        "aplicacao": "Ao errar, registre exatamente qual palavra da alternativa mudou o sentido."
+      },
+      {
+        "definicao": "É a prática que combina leitura literal, inferência e análise de alternativas em uma mesma questão de interpretação.",
+        "aplicacao": "Exemplo 1. Situação: Leia o texto: “O curso recebeu novos alunos."
+      }
+    ],
+    "Português-sintaxe": [
+      {
+        "definicao": "É o termo sobre o qual se declara algo na oração. Pode ser simples, composto, oculto ou indeterminado, conforme seus núcleos e a estrutura verbal.",
+        "aplicacao": "Em “Os documentos chegaram”, “os documentos” é o sujeito: é sobre eles que se afirma que chegaram. Em “Chegaram os documentos”, o sujeito continua sendo “os documentos”, mesmo depois do verbo."
+      },
+      {
+        "definicao": "É tudo aquilo que se declara sobre o sujeito. O predicado contém verbo e pode ter núcleo verbal, nominal ou ambos.",
+        "aplicacao": "Em “A reunião começou às 9h”, “começou às 9h” é o predicado. O verbo “começou” indica a ação e “às 9h” informa o tempo em que ela ocorreu."
+      },
+      {
+        "definicao": "São termos que completam o sentido de verbos ou nomes. O objeto direto normalmente não exige preposição obrigatória; o indireto exige preposição determinada pelo verbo.",
+        "aplicacao": "Em “A testemunha respondeu ao juiz”, “ao juiz” completa o verbo “respondeu” com a preposição “a”, sendo objeto indireto. Compare com “O juiz analisou o documento”: “o documento” é objeto direto."
+      },
+      {
+        "definicao": "Reconhecer sujeito e predicado é separar o termo sobre o qual se declara algo daquilo que se declara, observando a relação com o verbo.",
+        "aplicacao": "Em \"Chegaram os documentos\", o verbo \"chegaram\" concorda com \"os documentos\": sujeito simples posposto."
+      },
+      {
+        "definicao": "Verbo de ligação relaciona o sujeito a uma característica; predicativo atribui essa característica; os predicados podem ser verbais, nominais ou verbo-nominais.",
+        "aplicacao": "\"A sentença ficou clara\": \"ficou\" liga o sujeito a uma qualidade (predicado nominal)."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Na análise sintática, assinale a afirmação correta."
+      }
+    ],
+    "Português-crase": [
+      {
+        "definicao": "O acento grave indica essa fusão na escrita: Vou à escola = vou a + a escola.",
+        "aplicacao": "O acento grave marca a fusão de preposição “a” com artigo feminino “a/as” ou com pronomes demonstrativos adequados."
+      },
+      {
+        "definicao": "Quem vai, vai a algum lugar; quem se refere, refere-se a algo; quem obedece, obedece a alguém.",
+        "aplicacao": "Em “obedeceu à norma”, obedecer exige a, norma aceita a, e “obedeceu ao regulamento” confirma."
+      },
+      {
+        "definicao": "É teste auxiliar: não substitui o exame da regência e do artigo.",
+        "aplicacao": "Se a construção gerar “ao”, em geral haverá crase na feminina: “Entreguei o relatório à diretora” → “Entreguei o relatório ao diretor”."
+      },
+      {
+        "definicao": "A crase não ocorre quando falta a combinação da preposição “a” com artigo ou pronome iniciado em “a”; a proibição depende da construção sintática.",
+        "aplicacao": "Em regra, não há crase antes de verbo (“começou a estudar”), de pronome pessoal (“entreguei a ela”), de termo masculino sem construção especial (“a prazo”), nem quando há apenas preposição e não artigo (“a qualquer pessoa”)."
+      },
+      {
+        "definicao": "A crase pode ser facultativa antes de pronome possessivo feminino singular quando o artigo também é facultativo: \"Entreguei a ata a/à minha chefe\" (no contexto em que ambas as construções são admitidas).",
+        "aplicacao": "Pode ser facultativa antes de possessivo feminino singular com artigo facultativo (“a/à minha colega”), e após até em certos contextos (“até a/à escola”)."
+      },
+      {
+        "definicao": "É a comparação de frases para identificar em quais construções ocorre a fusão da preposição “a” com artigo ou pronome e quando ela não ocorre.",
+        "aplicacao": "Na prática: “Entregou a documentação a ela”: o pronome pessoal dispensa artigo; não há crase."
+      },
+      {
+        "definicao": "“Treino de decisão” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Para cada uma, identifique a preposição regida, o determinante ou demonstrativo e a razão da grafia."
+      },
+      {
+        "definicao": "São expressões de duas ou mais palavras com função de advérbio, preposição ou conjunção, muitas das quais recebem acento indicativo de crase.",
+        "aplicacao": "Em locuções adverbiais, prepositivas e conjuntivas femininas consagradas, usa-se frequentemente o acento: à noite, às vezes, à direita, à medida que, à procura de."
+      },
+      {
+        "definicao": "Expressões de tempo indicam quando ou por quanto tempo algo acontece; a crase antes de horas determinadas depende da construção.",
+        "aplicacao": "Antes de horas determinadas, normalmente ocorre crase: “Chegarei às 14 horas”."
+      },
+      {
+        "definicao": "Também pode ocorrer em “à qual” e “às quais” quando o termo regente exige a preposição: “A lei à qual me referi”.",
+        "aplicacao": "A preposição a pode fundir-se ao a inicial de aquele(s), aquela(s), aquilo: “Referi-me àquele documento” (referir-se a + aquele)."
+      },
+      {
+        "definicao": "É a leitura de enunciados parecidos para perceber quando uma pequena mudança de estrutura produz diferença de sentido ou de regência.",
+        "aplicacao": "Na prática: “Assistiu à palestra”: assistir no sentido de presenciar pede a; palestra admite a."
+      },
+      {
+        "definicao": "“Roteiro de resolução VUNESP” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "3) Verifique artigo ou pronome iniciado em a."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão."
+      }
+    ],
+    "Raciocínio Lógico-proposicoes": [
+      {
+        "definicao": "Proposição é uma frase declarativa à qual se pode atribuir verdadeiro ou falso.",
+        "aplicacao": "Na prática: ordens, perguntas e sentenças abertas com variável não determinada geralmente não são proposições na lógica proposicional básica."
+      },
+      {
+        "definicao": "A negação de P, escrita ¬P, inverte o valor lógico: se P é verdadeira, ¬P é falsa; se P é falsa, ¬P é verdadeira.",
+        "aplicacao": "Negar “todos” exige cuidado: a negação de “todos passaram” é “pelo menos um não passou”."
+      },
+      {
+        "definicao": "P ∧ Q (“P e Q”) só é verdadeira quando ambas são verdadeiras.",
+        "aplicacao": "Uma informação falsa já torna a conjunção falsa."
+      },
+      {
+        "definicao": "P ∨ Q (“P ou Q”) só é falsa quando ambas são falsas.",
+        "aplicacao": "Em lógica básica, “ou” admite que as duas sejam verdadeiras, salvo indicação expressa de exclusividade."
+      },
+      {
+        "definicao": "A contrapositiva ¬Q → ¬P é equivalente ao condicional.",
+        "aplicacao": "P → Q (“se P, então Q”) só é falsa quando P é verdadeira e Q é falsa."
+      },
+      {
+        "definicao": "P ↔ Q (“P se, e somente se, Q”) é verdadeira quando as duas proposições têm o mesmo valor lógico.",
+        "aplicacao": "Na prática, ao estudar “Bicondicional”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Traduzir argumentos para a lógica é converter frases em proposições e conectivos para examinar suas relações e valores lógicos.",
+        "aplicacao": "Na prática, ao estudar “Tradução e resolução”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Tabela-verdade é uma representação de todas as combinações possíveis dos valores lógicos das proposições simples, usada para avaliar conectivos e equivalências.",
+        "aplicacao": "Em uma conjunção com três proposições há oito combinações; generalizando, n proposições independentes produzem 2^n linhas."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: João tem 90 páginas de estudo para revisar, e Sofia tem 5 páginas a menos."
+      }
+    ],
+    "Informática-excel": [
+      {
+        "definicao": "No Excel, são expressões iniciadas por = que realizam cálculos com números, operadores, funções e referências a células.",
+        "aplicacao": "Na prática, ao estudar “Fórmulas”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "A1 é relativa; $A$1 é absoluta; $A1 fixa a coluna; A$1 fixa a linha.",
+        "aplicacao": "Na prática, ao estudar “Referências”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "No Excel, são comandos predefinidos que calculam ou organizam dados por meio de argumentos, como SOMA, MÉDIA, SE e CONT.SE.",
+        "aplicacao": "Na prática, ao estudar “Funções frequentes”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "#DIV/0! indica divisão por zero; #N/D é um valor não encontrado em determinadas funções.",
+        "aplicacao": "Na prática, ao estudar “Análise de erros”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "A célula é identificada pela coluna (letra) e pela linha (número), como B3.",
+        "aplicacao": "Uma fórmula normalmente começa por =. A função SOMA soma números de um intervalo; o sinal + também soma, mas pode ser menos prático em listas extensas."
+      },
+      {
+        "definicao": "É o comportamento padrão e permite repetir um cálculo por toda uma tabela.",
+        "aplicacao": "Ao copiar =B2*C2 da linha 2 para a linha 3, o Excel ajusta para =B3*C3."
+      },
+      {
+        "definicao": "No Excel, uma referência absoluta utiliza cifrão no endereço ($A$1) para fixar coluna e linha ao copiar uma fórmula.",
+        "aplicacao": "Se uma taxa fixa está em F1 e os preços em B2:B20, a fórmula =B2*$F$1 mantém F1 constante ao ser copiada para baixo."
+      },
+      {
+        "definicao": "Essas referências são úteis em tabelas de multiplicação e planilhas com cálculos cruzados.",
+        "aplicacao": "A tecla F4 costuma alternar modos de referência enquanto o cursor está sobre a referência em uma fórmula."
+      },
+      {
+        "definicao": "No contexto desta aula, “Funções SOMA e MÉDIA” corresponde à seguinte regra ou ideia central: =SOMA(B2:B6) adiciona os valores numéricos no intervalo. =MÉDIA(B2:B6) calcula a média aritmética dos valores numéricos.",
+        "aplicacao": "Exemplo: 5, 7 e 9 resultam em média 7. Células vazias ou textos podem ser tratados de forma diferente por funções diversas; não suponha sempre que equivalem a zero."
+      },
+      {
+        "definicao": "No Excel, SE é a função que retorna um resultado quando uma condição lógica é verdadeira e outro quando é falsa.",
+        "aplicacao": "Se verdadeiro, devolve “Aprovado”; se falso, devolve “Revisar”."
+      },
+      {
+        "definicao": "CONT.SE conta células que atendem a determinado critério; SOMASE soma valores associados a células que atendem ao critério.",
+        "aplicacao": "Observe se os intervalos têm o mesmo tamanho e linhas correspondentes."
+      },
+      {
+        "definicao": "Classificação muda a ordem de exibição dos registros; filtro mostra somente os registros que atendem aos critérios selecionados.",
+        "aplicacao": "Antes de classificar, selecione corretamente a tabela para não desencontrar nomes e valores de linhas distintas."
+      },
+      {
+        "definicao": "##### geralmente indica coluna estreita para mostrar o valor, sobretudo número/data; #DIV/0! ocorre em divisão por zero; #REF! significa referência inválida; #NOME? indica nome não reconhecido.",
+        "aplicacao": "Na prática: a origem do erro deve ser investigada, e não apenas ocultada."
+      },
+      {
+        "definicao": "A ordem de cálculo determina quais operações Excel executa primeiro; referências apontam para células cujos valores entram na fórmula.",
+        "aplicacao": "Ao copiar =A2*$D$1 da linha 2 para a linha 3, a fórmula vira =A3*$D$1."
+      },
+      {
+        "definicao": "Uma tabela filtrada exibe um subconjunto sem necessariamente apagar os demais registros.",
+        "aplicacao": "Para localizar erro de fórmula, verifique parenteses, referência a células vazias, separador e tipo numérico antes de mudar a expressão."
+      },
+      {
+        "definicao": "Uma macro não é sinônimo de fórmula: a primeira pode executar comandos em sequência, enquanto a segunda produz resultado calculado.",
+        "aplicacao": "Para prova, diferencie finalidade, resultado e permissões de segurança."
+      },
+      {
+        "definicao": "Em D2, o subtotal é =B2*C2. Em E2, o subtotal com desconto percentual é =D2*(1-$F$1).",
+        "aplicacao": "Exemplo 1. Situação: Qual fórmula do Excel calcula a média dos valores de B1 até B5?"
+      }
+    ],
+    "Direito Constitucional-direitos-fundamentais": [
+      {
+        "definicao": "A redação atual da Constituição prevalece sobre qualquer resumo.",
+        "aplicacao": "Na prática: estude diretamente os dispositivos constitucionais cobrados no edital."
+      },
+      {
+        "definicao": "Direitos são posições jurídicas protegidas; garantias são instrumentos de proteção desses direitos.",
+        "aplicacao": "Na prática, ao estudar “Direitos e garantias”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Igualdade é o princípio de que pessoas em situações equivalentes devem receber tratamento jurídico equivalente, admitidas distinções justificadas pela Constituição.",
+        "aplicacao": "Na prática, ao estudar “Igualdade”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "São atividades de aplicação que exigem escolher ou justificar respostas com base no conceito estudado, seguindo os critérios do enunciado.",
+        "aplicacao": "Na prática, ao estudar “Questões”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Direitos individuais são proteções jurídicas fundamentais; remédios constitucionais são instrumentos específicos para defender determinados direitos diante de ameaça ou violação.",
+        "aplicacao": "Habeas data relaciona-se ao conhecimento/retificação de informações pessoais em bancos de dados de caráter público."
+      },
+      {
+        "definicao": "Em exercícios, diferencie norma constitucional, regra legal e interpretação judicial: o texto do art. 5º é o ponto de partida, enquanto hipóteses de sigilo, prisão, acesso a informações e direito de resposta têm condições próprias.",
+        "aplicacao": "Desconfie de alternativas que trocam \"salvo\" por \"sempre\"."
+      },
+      {
+        "definicao": "Qual alternativa corresponde à descrição apresentada?",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Que ação constitucional protege a liberdade de locomoção ameaçada por ilegalidade ou abuso de poder?"
+      }
+    ],
+    "Direito Penal-crimes-administracao": [
+      {
+        "definicao": "Tipos penais são descrições legais de condutas consideradas crime, com elementos e requisitos que precisam estar presentes no caso concreto.",
+        "aplicacao": "Na prática, ao estudar “Estudo por tipos penais”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É o crime funcional, nas hipóteses do Código Penal, relacionado à apropriação ou ao desvio de bens ou valores pelo funcionário público em razão do cargo; exige verificar a modalidade específica.",
+        "aplicacao": "Na prática, ao estudar “Peculato”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Corrupção passiva e ativa são crimes com condutas tipificadas separadamente, ligadas respectivamente à atuação do funcionário público e à oferta ou promessa de vantagem indevida ao funcionário.",
+        "aplicacao": "Na prática, ao estudar “Corrupção passiva e ativa”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Prevaricação (art. 319): retardar/deixar de praticar ato de ofício ou praticá-lo contra disposição expressa de lei para satisfazer interesse ou sentimento pessoal.",
+        "aplicacao": "Peculato (art. 312): apropriação ou desvio, por funcionário público, de bem móvel de que tem posse em razão do cargo, em favor próprio ou alheio."
+      },
+      {
+        "definicao": "Um servidor exige pagamento para cumprir ato que já deveria realizar: a palavra \"exige\" chama atenção para concussão, não para peculato.",
+        "aplicacao": "Se apenas solicita vantagem: em regra a figura a examinar é corrupção passiva."
+      },
+      {
+        "definicao": "Uma comparação importante é que o crime do art. 311-A não se confunde com corrupção ativa (oferecer ou prometer vantagem indevida a funcionário) nem com falsificação documental.",
+        "aplicacao": "Ao analisar uma situação, identifique primeiro se o conteúdo era sigiloso; depois, se houve utilização ou divulgação indevida; por fim, a finalidade e as condições previstas no tipo."
+      },
+      {
+        "definicao": "Agente exige vantagem indevida: investigue concussão.",
+        "aplicacao": "Observe a palavra nuclear, a qualidade do sujeito e os elementos do artigo, pois uma troca de verbo no enunciado muda a tipificação."
+      },
+      {
+        "definicao": "Qual delito é descrito em tese? À luz da norma indicada, escolha a resposta adequada.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Alguém desobedece a ordem legal de funcionário público, sem violência ou ameaça."
+      }
+    ],
+    "Direito Administrativo-improbidade": [
+      {
+        "definicao": "É a versão vigente de uma norma jurídica, considerada a redação consolidada e suas mudanças posteriores, e não apenas o texto publicado originalmente.",
+        "aplicacao": "Na prática, ao estudar “Lei atual”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "São grupos de atos de improbidade previstos em dispositivos legais diferentes; cada grupo tem requisitos próprios que devem ser conferidos na lei vigente.",
+        "aplicacao": "Na prática, ao estudar “Categorias”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É a obrigação jurídica de responder pelas consequências de determinada conduta; depende do regime legal e dos elementos exigidos para cada espécie de responsabilização.",
+        "aplicacao": "Na prática, ao estudar “Responsabilidade”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "No contexto desta aula, “Prática” corresponde à seguinte regra ou ideia central: Resolva casos identificando conduta, elemento subjetivo e previsão legal.",
+        "aplicacao": "Na prática, ao estudar “Prática”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Na Lei 8.429/1992, após a Lei 14.230/2021, o núcleo dos atos de improbidade exige conduta dolosa nas hipóteses legais.",
+        "aplicacao": "Separe enriquecimento ilícito (art. 9º), lesão ao erário (art. 10) e atentado aos princípios da administração (art. 11)."
+      },
+      {
+        "definicao": "A responsabilização por improbidade tem natureza própria e pode coexistir com responsabilidade penal, civil e administrativa, conforme fatos e regras de independência.",
+        "aplicacao": "Uma questão pode tentar equiparar culpa a dolo ou presumir dano ao erário sem comprovação."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, O art. 9º da Lei de Improbidade Administrativa trata de atos que importam, no contexto legal: Considerando o tema e as normas estudadas, identifique a opção correta."
+      }
+    ],
+    "Redação-dissertativa": [
+      {
+        "definicao": "É a preparação das ideias antes da escrita: definir tema, tese, argumentos e uma sequência lógica para os parágrafos.",
+        "aplicacao": "Na prática, ao estudar “Planejamento”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É o parágrafo inicial da redação, no qual se apresenta o assunto e a tese que será defendida no desenvolvimento.",
+        "aplicacao": "Na prática, ao estudar “Introdução”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É a parte da redação que sustenta a tese com argumentos, justificativas e exemplos organizados em parágrafos coerentes.",
+        "aplicacao": "Na prática, ao estudar “Desenvolvimento”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Conclusão é o fechamento coerente da tese; revisão é a leitura crítica final para corrigir gramática, clareza, lógica e progressão da redação.",
+        "aplicacao": "Na prática, ao estudar “Conclusão e revisão”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Tese é a posição central defendida na redação. Projeto de texto é o plano que organiza os argumentos e os parágrafos que a sustentarão.",
+        "aplicacao": "Diante do tema \"O acesso a serviços públicos digitais\", defina uma posição clara: \"A digitalização amplia a eficiência, mas deve preservar o atendimento inclusivo.\" No desenvolvimento, use um parágrafo para demonstrar a eficiência e outro para discutir barreiras de acesso."
+      },
+      {
+        "definicao": "Concluir é retomar a tese à luz dos argumentos desenvolvidos, sem copiar a introdução.",
+        "aplicacao": "Na prática: a redação do concurso deve seguir os critérios definidos no edital, que podem não exigir o mesmo modelo de intervenção usado no ENEM."
+      },
+      {
+        "definicao": "Tese possível: ampliar serviços digitais é útil, mas a transformação precisa preservar o acesso de quem tem pouca familiaridade tecnológica.",
+        "aplicacao": "Observe que as ideias são ligadas à tese; o modelo é um roteiro argumentativo, não um texto pronto para decorar e reproduzir na prova."
+      }
+    ],
+    "Processo Civil-atos-processuais": [
+      {
+        "definicao": "São manifestações e procedimentos praticados pelos participantes do processo e pelo Judiciário, com efeitos regulados pela lei processual.",
+        "aplicacao": "Na prática, ao estudar “Atos processuais”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "São intervalos fixados pela lei ou pelo juiz para a prática de atos processuais; a contagem depende da regra legal aplicável.",
+        "aplicacao": "Na prática, ao estudar “Prazos”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "No processo judicial, comunicação é o conjunto de atos que dá ciência aos interessados ou os convoca, como citações e intimações, observando sua finalidade legal.",
+        "aplicacao": "Na prática, ao estudar “Comunicação”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "“Treino” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Na prática, ao estudar “Treino”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "A regularidade não depende apenas de preencher formulários: finalidade e garantia de participação são aspectos centrais.",
+        "aplicacao": "Os atos processuais servem à constituição e ao desenvolvimento do processo."
+      },
+      {
+        "definicao": "O parágrafo único esclarece que a regra se aplica apenas aos prazos processuais.",
+        "aplicacao": "Pelo art. 219 do CPC, na contagem de prazo em dias estabelecido por lei ou pelo juiz, computam-se somente os dias úteis."
+      },
+      {
+        "definicao": "Na contagem de prazos processuais, início, exclusão e inclusão indicam a data a partir da qual se conta, o dia desconsiderado e o dia que integra a contagem, conforme o CPC.",
+        "aplicacao": "O art. 224 prevê, ressalvadas disposições em contrário, exclusão do dia do começo e inclusão do vencimento."
+      },
+      {
+        "definicao": "No processo civil, prazos fixados em dias são contados, em regra, somente em dias úteis; suspensão interrompe temporariamente a contagem, nos casos legais.",
+        "aplicacao": "No CPC, a contagem em dias, quando estabelecida por lei ou pelo juiz como prazo processual, considera somente os dias úteis (art. 219), ressalvadas as regras legais específicas."
+      },
+      {
+        "definicao": "Nulidade processual é o vício de um ato praticado em desacordo com exigências legais; sua consequência depende da natureza do defeito, do prejuízo e das normas processuais.",
+        "aplicacao": "Em questões de cartório, observe quem pratica o ato, qual documento formaliza e a consequência processual do vício."
+      },
+      {
+        "definicao": "Atos processuais são praticados pelas partes, pelo juiz e pelos auxiliares da Justiça.",
+        "aplicacao": "Uma petição protocolada, uma intimação e uma citação não exercem a mesma função: petição manifesta requerimento ou defesa; citação chama o réu ou interessado para integrar a relação processual; intimação dá ciência a alguém de ato ou termo do processo."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, O CPC define intimação como o ato pelo qual se dá ciência a alguém: Considerando o tema e as normas estudadas, identifique a opção correta."
+      }
+    ],
+    "Processo Penal-citacao": [
+      {
+        "definicao": "Citação é a comunicação formal que chama o acusado para integrar o processo penal e exercer a defesa, conforme as regras do Código de Processo Penal.",
+        "aplicacao": "Ao resolver uma questão, pergunte se o ato serve para chamar o acusado ao processo ou apenas informá-lo de uma decisão posterior: o primeiro caso é citação; o segundo, em regra, é intimação."
+      },
+      {
+        "definicao": "Modalidades de citação são as formas legalmente admitidas de chamar o acusado ao processo. Sua escolha depende dos requisitos previstos no CPP.",
+        "aplicacao": "Se o acusado não for encontrado, a questão pode envolver citação por edital, observados os requisitos legais. Não aplique automaticamente a regra de um tipo de citação a outro."
+      },
+      {
+        "definicao": "Intimação é a comunicação de atos, decisões ou termos processuais para dar ciência a alguém ou exigir providências.",
+        "aplicacao": "Quando o interessado recebe notícia de uma decisão já proferida no processo, analise as regras de intimação. Não confunda esse ato com a citação inicial do acusado."
+      },
+      {
+        "definicao": "São atividades de fixação usadas para aplicar uma regra em um caso concreto e verificar se o raciocínio está correto.",
+        "aplicacao": "Na prática, ao estudar “Exercícios”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "A citação chama o acusado para integrar a relação processual e exercer a defesa.",
+        "aplicacao": "Na prática: a intimação comunica atos e termos do processo."
+      },
+      {
+        "definicao": "Recorte do CPP é o conjunto específico de dispositivos do Código de Processo Penal previsto no edital; o estudo deve respeitar os artigos e requisitos efetivamente cobrados.",
+        "aplicacao": "Os arts. 351 e seguintes do CPP tratam de modalidades de citação, intimação e notificações."
+      },
+      {
+        "definicao": "É um enunciado que apresenta fatos para exigir a identificação do ato jurídico e da regra processual aplicável, em vez de uma definição isolada.",
+        "aplicacao": "Ao ler uma situação, pergunte: quem deve ser comunicado, de quê, para qual finalidade e por qual meio legalmente cabível?"
+      },
+      {
+        "definicao": "A citação é a convocação do acusado para integrar a relação processual e exercer defesa; intimação comunica atos ou decisões para ciência ou providência.",
+        "aplicacao": "No CPP, verifique os arts. 351 a 372: edital, mandado, hora certa, intimações e regras para sujeitos específicos."
+      },
+      {
+        "definicao": "Réu não localizado é a situação em que a pessoa a ser citada não é encontrada; os meios de citação e seus efeitos variam conforme os pressupostos legais.",
+        "aplicacao": "Observe tipo de citação, conhecimento do ato, constituição de defensor e hipóteses de suspensão do processo e da prescrição, especialmente à luz do art. 366 do CPP."
+      },
+      {
+        "definicao": "Fundamentação: CPP, art. 361. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Se o réu não for encontrado para ser citado, nas hipóteses do CPP, cabe estudar: Assinale a alternativa correta."
+      }
+    ],
+    "Legislação Interna-normas-cgj": [
+      {
+        "definicao": "No contexto desta aula, “Texto oficial” corresponde à seguinte regra ou ideia central: Use a edição vigente das Normas de Serviço da Corregedoria-Geral da Justiça do TJSP e as resoluções exigidas pelo edital.",
+        "aplicacao": "Na prática, ao estudar “Texto oficial”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É um esquema que apresenta, na ordem correta, responsáveis, documentos, prazos e decisões de um procedimento administrativo ou judicial.",
+        "aplicacao": "Na prática, ao estudar “Mapa por procedimento”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É uma organização lado a lado das características de institutos parecidos para evidenciar diferenças relevantes em competências, prazos e efeitos.",
+        "aplicacao": "Na prática, ao estudar “Quadro comparativo”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "No contexto desta aula, “Atualização” corresponde à seguinte regra ou ideia central: Confronte alterações, comunicados e provimentos posteriores antes de memorizar artigos.",
+        "aplicacao": "Na prática, ao estudar “Atualização”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Por exemplo, movimentar um processo exige identificar o ato processual e lançar a informação na forma determinada pelo sistema e pela norma.",
+        "aplicacao": "Na leitura do Tomo I, identifique sujeito responsável, ato, forma, prazo e registro."
+      },
+      {
+        "definicao": "A informatização muda o suporte do ato, não autoriza descumprir sigilo, competência ou prazo.",
+        "aplicacao": "A Resolução TJSP 963/2025 (eproc) integra o conteúdo divulgado para o edital 2026: consulte sua redação oficial e eventuais atos complementares para competências, implantação e procedimentos."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Para a preparação jurídica, O edital inclui, dentre os conteúdos das Normas da Corregedoria do TJSP: Com base na legislação pertinente, assinale a opção correta."
+      }
+    ],
+    "Atualidades e Inclusão-lbi": [
+      {
+        "definicao": "No contexto desta aula, “Definições” corresponde à seguinte regra ou ideia central: Leia as definições legais de pessoa com deficiência, barreiras, acessibilidade e adaptações razoáveis.",
+        "aplicacao": "Na prática, ao estudar “Definições”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Igualdade é o princípio de que pessoas em situações equivalentes devem receber tratamento jurídico equivalente, admitidas distinções justificadas pela Constituição.",
+        "aplicacao": "Diferencie direito, conceito, dever de proteção e instrumento de acessibilidade."
+      },
+      {
+        "definicao": "No contexto desta aula, “Direitos” corresponde à seguinte regra ou ideia central: Organize os artigos do edital por temas, distinguindo direitos, deveres e mecanismos de proteção.",
+        "aplicacao": "Na prática, ao estudar “Direitos”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "No contexto desta aula, “Atualidades” corresponde à seguinte regra ou ideia central: Trate notícias recentes separadamente: fonte, data, acontecimento e repercussão; evite resumos sem referência.",
+        "aplicacao": "Na prática, ao estudar “Atualidades”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "É a forma de compreender a deficiência considerando impedimentos de longo prazo em interação com barreiras que podem dificultar a participação em igualdade de condições.",
+        "aplicacao": "Atenção ao componente de interação com barreiras."
+      },
+      {
+        "definicao": "Barreiras são obstáculos que restringem a participação; acessibilidade é a condição de uso seguro e autônomo de espaços, serviços, informação e comunicação por pessoas com deficiência.",
+        "aplicacao": "Na prática: barreiras podem ser urbanísticas, arquitetônicas, nos transportes, nas comunicações e informações, atitudinais e tecnológicas."
+      },
+      {
+        "definicao": "A avaliação, quando necessária, é biopsicossocial e feita por equipe multiprofissional e interdisciplinar nas condições legais.",
+        "aplicacao": "A LBI (Lei 13.146/2015) parte de uma concepção de deficiência em interação com barreiras, considerando impedimentos de longo prazo e obstáculos que dificultam participação em igualdade de condições."
+      },
+      {
+        "definicao": "Nos arts. 34 a 38, o eixo é o direito ao trabalho em condições de igualdade, sem discriminação.",
+        "aplicacao": "Uma seleção que recusa candidato apenas por deficiência, sem base legítima, contraria a diretriz inclusiva."
+      },
+      {
+        "definicao": "Fundamentação: Lei 13.146/2015, art. 6º. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Segundo o Estatuto, a deficiência, por si só, afeta a plena capacidade civil da pessoa?"
+      }
+    ],
+    "Português-coes-o-e-coer-ncia": [
+      {
+        "definicao": "A primeira relação é conclusão; a segunda pode soar contraditória sem contexto.",
+        "aplicacao": "Compare “Estudou muito; portanto, melhorou” com “Estudou muito; contudo, melhorou”."
+      },
+      {
+        "definicao": "Coesão é a conexão linguística entre partes do texto.",
+        "aplicacao": "Em “Marina protocolou o pedido. Ela recebeu o comprovante”, o pronome “ela” retoma Marina."
+      },
+      {
+        "definicao": "Conjunções não são intercambiáveis: “portanto” introduz conclusão; “porque”, explicação ou causa; “embora”, concessão; “entretanto”, oposição.",
+        "aplicacao": "Na prova, leia a frase antes e depois da palavra destacada e descreva a relação sem olhar alternativas."
+      },
+      {
+        "definicao": "Coerência é a compatibilidade global das informações com a situação comunicativa.",
+        "aplicacao": "Um texto pode apresentar conectivos corretos e ainda ser contraditório: “Todos chegaram antes das 8h."
+      },
+      {
+        "definicao": "Um texto pode ser coeso e incoerente; os conceitos não são sinônimos.",
+        "aplicacao": "\"A sessão terminou às 14h. Por isso começou às 15h\" viola a sequência temporal, salvo contexto excepcional explicitado."
+      },
+      {
+        "definicao": "Referenciação é o uso de palavras que retomam ou introduzem elementos do texto; progressão temática é o avanço organizado das informações, sem repetição ou ruptura do assunto.",
+        "aplicacao": "Em \"A juíza publicou a decisão. Ela foi disponibilizada depois\", \"ela\" pode criar ambiguidade se não houver pistas: juíza ou decisão?"
+      },
+      {
+        "definicao": "A intertextualidade ocorre quando um texto dialoga com outro por citação, referência, paródia ou retomada de estrutura.",
+        "aplicacao": "Alusão indireta exige reconhecimento de contexto; não invente referências que o enunciado não sustenta."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Identifique a relação de sentido corretamente atribuída ao conectivo destacado."
+      }
+    ],
+    "Português-sin-nimos-ant-nimos-e-polissemia": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Para substituir uma palavra, preserve o sentido e o registro do enunciado."
+      },
+      {
+        "definicao": "Uma palavra polissêmica reúne sentidos relacionados; homônimos podem coincidir em forma ou som sem manter o mesmo significado.",
+        "aplicacao": "Substituí-lo por \"luminoso\" só funciona no primeiro caso."
+      },
+      {
+        "definicao": "\"Comprar/vender\" são conversos: a mesma operação descrita de pontos de vista diferentes.",
+        "aplicacao": "Em uma reescrita, o antônimo lexical isolado nem sempre preserva a estrutura argumentativa da frase."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Considere o sentido das palavras."
+      }
+    ],
+    "Português-sentido-literal-e-figurado": [
+      {
+        "definicao": "Sentido literal é o uso mais direto; sentido figurado cria imagens e associações, como metáforas e metonímias.",
+        "aplicacao": "Em “o prazo corre”, não existe deslocamento físico; a expressão enfatiza passagem do tempo."
+      },
+      {
+        "definicao": "Sentido próprio é o uso mais direto de uma palavra; sentido figurado nasce da transferência contextual de significado; metáfora é uma comparação implícita.",
+        "aplicacao": "Em \"o servidor abriu a porta\", \"abriu\" está em uso concreto."
+      },
+      {
+        "definicao": "A identificação não decorre apenas da pontuação: requer confronto entre o que se diz e o que ocorre.",
+        "aplicacao": "Quando um narrador diz \"Que pontualidade exemplar!\" após uma espera de duas horas, o contexto pode indicar ironia."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Considere o sentido das palavras."
+      }
+    ],
+    "Português-classes-de-palavras-i-nomes-e-determinantes": [
+      {
+        "definicao": "Substantivo nomeia seres, estados e conceitos; artigo determina substantivos; adjetivo caracteriza; numeral exprime quantidade ou ordem.",
+        "aplicacao": "Em “os dois novos servidores”, “os” é artigo, “dois” numeral, “novos” adjetivo e “servidores” substantivo."
+      },
+      {
+        "definicao": "Substantivo nomeia entidades, seres e conceitos; adjetivo atribui característica; artigo determina ou indetermina.",
+        "aplicacao": "Em \"pobre homem\" e \"homem pobre\", a posição do adjetivo pode alterar o sentido: compaixão no primeiro, condição econômica no segundo, dependendo do uso."
+      },
+      {
+        "definicao": "Numerais expressam quantidade, ordem, multiplicação ou fração; podem acompanhar um substantivo ou atuar como núcleo de um termo nominal.",
+        "aplicacao": "Para classificar, examine a frase, não apenas a palavra isolada."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: A respeito das classes de palavras, assinale a afirmação correta."
+      }
+    ],
+    "Português-classes-de-palavras-ii-verbos-e-adv-rbios": [
+      {
+        "definicao": "Verbos expressam ações, estados ou fenômenos, situados em tempo, modo e pessoa; advérbios modificam verbos, adjetivos ou outros advérbios e acrescentam circunstâncias.",
+        "aplicacao": "Identifique tempo, modo, pessoa e número verbais; locuções verbais combinam auxiliar e principal."
+      },
+      {
+        "definicao": "No contexto desta aula, “Tempos verbais e efeitos de sentido” corresponde à seguinte regra ou ideia central: Pretérito perfeito apresenta um evento concluído (\"protocolou ontem\"); imperfeito pode expressar duração ou hábito passado (\"protocolava diariamente\").",
+        "aplicacao": "Futuro do pretérito pode expressar hipótese ou cortesia (\"poderia informar?\"), não apenas posterioridade em relação ao passado."
+      },
+      {
+        "definicao": "\"Ontem\", \"aqui\", \"não\", \"talvez\" são advérbios de tempo, lugar, negação e dúvida.",
+        "aplicacao": "\"Muito\" pode funcionar como advérbio em \"trabalhou muito\" e como pronome indefinido em \"muitos processos\"."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Na prática, ao estudar “Aplicação integrada do assunto”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      }
+    ],
+    "Português-pronomes-e-referencia-o": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Na compreensão textual, “este” frequentemente aponta para algo próximo no texto e “aquele” para algo mais distante, segundo o contexto."
+      },
+      {
+        "definicao": "\"Cujo\" expressa posse e não admite artigo entre ele e o nome: \"a servidora cujo relatório foi aprovado\", não \"cujo o relatório\".",
+        "aplicacao": "Em \"a norma que foi publicada\", \"que\" retoma \"norma\" e é sujeito de \"foi publicada\"."
+      },
+      {
+        "definicao": "Pronomes demonstrativos localizam referentes no espaço, no tempo ou no texto; ambiguidade ocorre quando a referência permite mais de uma interpretação.",
+        "aplicacao": "Em apresentação de dois elementos, \"este\" tende a retomar o mais próximo, \"aquele\" o mais distante, conforme registro e organização textual."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Na prática, ao estudar “Aplicação integrada do assunto”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      }
+    ],
+    "Português-concord-ncia-verbal": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Com “haver” impessoal no sentido de existir, mantém-se singular: “havia processos”."
+      },
+      {
+        "definicao": "“Sujeito e núcleo: o primeiro teste” é o conceito ou procedimento deste bloco em Português. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Antes do verbo, o sujeito composto em regra leva o verbo ao plural: “O juiz e a escrevente assinaram”."
+      },
+      {
+        "definicao": "O verbo “haver”, no sentido de existir, é impessoal e fica no singular: “Havia documentos pendentes”.",
+        "aplicacao": "Na indicação de tempo decorrido, “fazer” também é impessoal: “Faz três meses”."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão."
+      }
+    ],
+    "Português-concord-ncia-nominal": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "“Seguem anexas as certidões”: “anexas” concorda com “certidões”."
+      },
+      {
+        "definicao": "\"É proibida a entrada\" tem artigo determinando o substantivo e flexão do adjetivo; em construções sem determinante, é possível \"É proibido entrada\" segundo a norma tradicional.",
+        "aplicacao": "\"Seguem anexos os documentos\": \"anexos\" é adjetivo e concorda com \"documentos\"."
+      },
+      {
+        "definicao": "O segredo é descobrir a função no enunciado.",
+        "aplicacao": "\"Meio cansada\" tem \"meio\" advérbio de intensidade, invariável; \"meia hora\" tem numeral fracionário concordando com \"hora\"."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão."
+      }
+    ],
+    "Português-reg-ncia-verbal-e-nominal": [
+      {
+        "definicao": "“Assistir a” no sentido de presenciar exige preposição; “obedecer a” também.",
+        "aplicacao": "“A equipe assistiu à sessão”: a preposição “a” exigida por assistir se une ao artigo “a”."
+      },
+      {
+        "definicao": "\"Aspirar ao cargo\" (desejar) é diferente de \"aspirar o ar\" (sorver).",
+        "aplicacao": "Na norma-padrão, \"assistir ao julgamento\" no sentido de presenciar pede \"a\"; \"assistir o paciente\" no sentido de prestar auxílio admite objeto direto."
+      },
+      {
+        "definicao": "No contexto desta aula, “Regência nominal e crase” corresponde à seguinte regra ou ideia central: Nomes também regem complemento: \"favorável à proposta\" resulta de \"favorável a\" + artigo feminino \"a\".",
+        "aplicacao": "Em \"obediência às normas\", há preposição regida por \"obediência\" e artigo plural de \"normas\"."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Considerando a regência na norma-padrão, assinale a alternativa correta."
+      }
+    ],
+    "Português-crase-uso-e-proibi-es": [
+      {
+        "definicao": "Crase é a fusão de duas vogais “a”, normalmente preposição exigida mais artigo feminino.",
+        "aplicacao": "Teste a troca por palavra masculina: “vou à escola” → “vou ao colégio”."
+      },
+      {
+        "definicao": "No contexto desta aula, “Obrigatória, proibida e facultativa com exemplos” corresponde à seguinte regra ou ideia central: Crase obrigatória: \"Obedeceu à legislação\" (obedecer a + a legislação); \"Saiu às 8 horas\" em indicação determinada de hora.",
+        "aplicacao": "Facultativa em alguns usos antes de possessivo feminino singular: \"escreveu a/à sua professora\", conforme presença opcional do artigo."
+      },
+      {
+        "definicao": "Não é suficiente ver palavra feminina: é preciso existir a preposição exigida.",
+        "aplicacao": "Para cidades, use o teste \"volto da\": \"vou à Bahia\" (volto da Bahia), \"vou a Brasília\" (volto de Brasília), ressalvada a presença de determinantes: \"vou à Brasília dos monumentos\"."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão."
+      }
+    ],
+    "Português-pontua-o-e-sentido": [
+      {
+        "definicao": "A pontuação organiza relações sintáticas e efeitos semânticos; vírgula não é mera pausa respiratória.",
+        "aplicacao": "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo."
+      },
+      {
+        "definicao": "É a organização sintática que relaciona verbo, sujeito, predicado, complementos e outros termos para construir sentido.",
+        "aplicacao": "Na prática: “Os candidatos preparados chegaram cedo” não recebe vírgula entre candidatos e chegaram."
+      },
+      {
+        "definicao": "Vocativo chama um interlocutor; aposto esclarece ou identifica um termo; intercalações inserem uma informação acessória na oração e podem exigir sinais de pontuação.",
+        "aplicacao": "Na prática, ao estudar “Vocativo, aposto e intercalação”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "O uso das vírgulas muda a extensão da referência.",
+        "aplicacao": "Antes de trocar pontuação em reescritas, compare quais elementos ficaram incluídos ou excluídos."
+      },
+      {
+        "definicao": "No contexto desta aula, “Adjuntos e deslocamento” corresponde à seguinte regra ou ideia central: Adjuntos adverbiais deslocados podem ser isolados: “Durante a manhã, a equipe revisou os processos.” Quanto mais longo ou intercalado, maior a necessidade de sinalizar o deslocamento; evite regras absolutas baseadas em pausa.",
+        "aplicacao": "Na prática, ao estudar “Adjuntos e deslocamento”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      },
+      {
+        "definicao": "Vírgula antes de “mas” é usual entre orações: “Revisou a matéria, mas errou a questão”.",
+        "aplicacao": "Na prática: “Estudou português, matemática e lógica.” Ponto e vírgula pode separar unidades complexas; dois-pontos podem introduzir explicação ou lista."
+      },
+      {
+        "definicao": "“Checklist VUNESP” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Compare se o sentido restringe ou explica. Não marque por “onde respiraria” na leitura."
+      },
+      {
+        "definicao": "Já um adjunto adverbial deslocado pode ser isolado: \"Após a audiência, o processo foi remetido\".",
+        "aplicacao": "Em ordem direta, não separe sujeito do predicado: \"Os servidores do setor, receberam os processos\" está inadequado."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Quanto à pontuação, assinale a frase escrita de acordo com a norma-padrão."
+      }
+    ],
+    "Português-coloca-o-pronominal": [
+      {
+        "definicao": "Próclise ocorre antes do verbo, ênclise depois e mesóclise no interior do futuro em contextos específicos da norma-padrão.",
+        "aplicacao": "Compare “Não me informaram” e “Informaram-me”."
+      },
+      {
+        "definicao": "São três posições possíveis do pronome oblíquo átono em relação ao verbo: antes, depois ou inserido no verbo, conforme as regras de colocação pronominal.",
+        "aplicacao": "Ênclise: depois do verbo, em \"Entregou-se o documento\", especialmente em início de período afirmativo na norma-padrão."
+      },
+      {
+        "definicao": "No contexto desta aula, “Atração por palavras anteriores e orações subordinadas” corresponde à seguinte regra ou ideia central: Palavras negativas, pronomes relativos, conjunções subordinativas e certos advérbios favorecem a próclise: \"Afirmou que lhe enviaram a mensagem\"; \"Ninguém o viu\".",
+        "aplicacao": "Não aplique uma regra única a locuções verbais: verifique auxiliar, particípio e presença de atrator."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Assinale a alternativa que respeita a colocação pronominal na norma-padrão."
+      }
+    ],
+    "Matemática-n-meros-reais-e-opera-es": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Resolva parênteses, potências/raízes, multiplicação/divisão e soma/subtração, observando sinais."
+      },
+      {
+        "definicao": "Os naturais incluem contagens; inteiros também incluem negativos; racionais são representáveis por fração de inteiros com denominador não nulo; irracionais não têm expansão decimal finita nem periódica.",
+        "aplicacao": "Em (−3)², o resultado é 9. Resolva primeiro parênteses, potências/raízes, multiplicações/divisões e por fim adições/subtrações."
+      },
+      {
+        "definicao": "O decimal 0,125 equivale a 125/1000 = 1/8. Em cálculos monetários, arredonde apenas no passo solicitado: arredondamentos intermediários alteram o resultado.",
+        "aplicacao": "Para somar 2/3 + 1/4, use denominador 12: 8/12 + 3/12 = 11/12."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Um veículo mantém a velocidade média de 60 km/h durante 9 horas."
+      }
+    ],
+    "Matemática-divisibilidade-mmc-e-mdc": [
+      {
+        "definicao": "A decomposição em primos organiza fatores: no MMC, use os maiores expoentes; no MDC, os menores expoentes comuns.",
+        "aplicacao": "Para aplicar “Entenda o assunto: fundamentos e primeiro exemplo”, compare o enunciado com as condições e os exemplos do bloco e justifique a alternativa escolhida."
+      },
+      {
+        "definicao": "O MDC é o maior divisor comum: MDC(24,36)=12, útil quando se quer dividir materiais em partes iguais, maiores possíveis e sem sobras.",
+        "aplicacao": "Na decomposição, 24=2³×3, 36=2²×3²; o MDC usa menores expoentes (2²×3=12), e o MMC usa maiores (2³×3²=72)."
+      },
+      {
+        "definicao": "“Problema de ciclos e de empacotamento” é o conceito ou procedimento deste bloco em Matemática. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Duas sirenes tocam a cada 12 e 18 minutos. Se tocaram juntas às 9h, soarão juntas novamente após MMC(12,18)=36 minutos, às 9h36."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Qual é o mínimo múltiplo comum (MMC) entre 12 e 5?"
+      }
+    ],
+    "Matemática-raz-es-e-propor-es": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Na proporção a/b=c/d, com denominadores não nulos, multiplicar em cruz fornece ad=bc."
+      },
+      {
+        "definicao": "A proporcionalidade vale apenas se os demais fatores forem mantidos; horas de trabalho, rendimento e disponibilidade podem quebrar a relação.",
+        "aplicacao": "Se 2 kg de um produto custam R$ 28 no preço constante, 5 kg custam 28×5/2 = R$ 70: quanto maior a massa, maior o custo, relação direta."
+      },
+      {
+        "definicao": "Dividir R$ 1.200 na razão 2:3:5 significa somar 2+3+5=10 partes.",
+        "aplicacao": "Em divisão inversamente proporcional a 2 e 3, use razão 1/2:1/3 = 3:2."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Uma quantia de R$ 1.221 será dividida na razão 12:25, nessa ordem."
+      }
+    ],
+    "Matemática-m-dias-aritm-ticas-e-ponderadas": [
+      {
+        "definicao": "A ponderada é soma dos produtos valor×peso dividida pela soma dos pesos.",
+        "aplicacao": "Notas 6 com peso 2 e 9 com peso 3: (6×2+9×3)/5=7,8."
+      },
+      {
+        "definicao": "A média aritmética simples seria (5+9)/2=7, portanto é incorreta quando as avaliações têm pesos diferentes.",
+        "aplicacao": "Com notas 5 e 9, de pesos 2 e 3, a média ponderada é (5×2 + 9×3)/(2+3) = 37/5 = 7,4."
+      },
+      {
+        "definicao": "A média de quatro números é 18. A soma necessária é 4×18=72.",
+        "aplicacao": "Em tabelas de frequências, substitua cada grupo por valor×frequência, some os produtos e divida pelo total das frequências; não divida pelo número de linhas da tabela."
+      },
+      {
+        "definicao": "Qual é a média ponderada (arredonde a duas casas decimais, se necessário)?",
+        "aplicacao": "Exemplo 1. Situação: Uma pessoa tirou 8 em uma atividade de peso 1 e 5 em outra de peso 4."
+      }
+    ],
+    "Matemática-juros-simples": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Capital R$ 1.000 a 2% ao mês durante 3 meses: J=1.000×0,02×3=R$ 60; M=R$ 1.060."
+      },
+      {
+        "definicao": "Nos juros simples, o juro de cada período é calculado sempre sobre o capital inicial, e não sobre o saldo acumulado.",
+        "aplicacao": "Fórmula: J = C × i × t, com taxa i em decimal e período t coerente com a taxa."
+      },
+      {
+        "definicao": "É uma resolução completa que parte da interpretação do enunciado, passa pela escolha da estratégia e termina na conferência do resultado.",
+        "aplicacao": "Cada mês gera R$ 24 de juros simples. Confirme: cinco parcelas de R$ 24 somam R$ 120."
+      },
+      {
+        "definicao": "São interpretações ou procedimentos incorretos que parecem plausíveis, mas contrariam o conteúdo e os requisitos estudados neste tópico.",
+        "aplicacao": "Em juros compostos, o juro incide sobre o saldo atualizado; não aplique J=C×i×t nesse caso."
+      },
+      {
+        "definicao": "No contexto desta aula, “Taxa por período e tempo compatível” corresponde à seguinte regra ou ideia central: Juros simples usam J=C×i×t, com i em forma decimal e t na mesma unidade temporal da taxa.",
+        "aplicacao": "Capital de R$ 1.500 à taxa de 2% ao mês por 5 meses: J=1500×0,02×5=R$ 150, montante M=C+J=R$ 1.650."
+      },
+      {
+        "definicao": "Não use (1+i)^t: essa é a estrutura típica dos juros compostos.",
+        "aplicacao": "Se um capital gerou R$ 240 de juros simples em 4 meses à taxa de 3% ao mês, C=J/(i×t)=240/(0,03×4)=R$ 2.000."
+      },
+      {
+        "definicao": "Qual é o juro total? Resposta fundamentada: R$ 160.",
+        "aplicacao": "Exemplo 1. Situação: Um capital de R$ 1.600 foi aplicado a juros simples de 1% ao mês por 10 meses."
+      }
+    ],
+    "Matemática-equa-o-do-primeiro-grau": [
+      {
+        "definicao": "Uma equação mantém igualdade entre expressões; resolver significa encontrar valor da incógnita.",
+        "aplicacao": "4x+6=22 → 4x=16 → x=4. Verificação: 4×4+6=22."
+      },
+      {
+        "definicao": "Passar termos para o outro lado é abreviação de aplicar operações equivalentes nos dois membros.",
+        "aplicacao": "Resolva 5x+7=2x+22. Subtraia 2x dos dois lados: 3x+7=22; subtraia 7: 3x=15; divida por 3: x=5."
+      },
+      {
+        "definicao": "“Problema de idade” é o conceito ou procedimento deste bloco em Matemática. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Escreva x para a idade atual de Bruno; Ana tem 3x."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Na equação 9x + 27 = 144, qual é o valor de x?"
+      }
+    ],
+    "Matemática-equa-o-do-segundo-grau": [
+      {
+        "definicao": "A forma padrão é ax²+bx+c=0, com a diferente de zero.",
+        "aplicacao": "Calcule Δ=b²−4ac. Quando Δ≥0, x=(−b±√Δ)/(2a); Δ<0 significa não haver raízes reais."
+      },
+      {
+        "definicao": "Em x²−5x+6=0, a=1, b=−5 e c=6; Δ=25−24=1; raízes (5±1)/2, isto é, 3 e 2.",
+        "aplicacao": "Para ax²+bx+c=0 com a≠0, calcule Δ=b²−4ac e depois x=(−b±√Δ)/(2a)."
+      },
+      {
+        "definicao": "Em x²−9=0, diferença de quadrados: (x−3)(x+3)=0; como o produto é zero, x=3 ou x=−3.",
+        "aplicacao": "Já x(x−4)=0 dá x=0 ou x=4. Nunca divida uma equação por x antes de verificar x=0: isso pode apagar uma solução válida."
+      },
+      {
+        "definicao": "A maior raiz é 15. Exemplo 2. Situação: Considere x² − 24x + 108 = 0.",
+        "aplicacao": "Exemplo 1. Situação: Considere x² − 24x + 135 = 0."
+      }
+    ],
+    "Matemática-sistemas-de-equa-es-lineares": [
+      {
+        "definicao": "Um sistema exige valores que satisfaçam simultaneamente duas ou mais equações.",
+        "aplicacao": "Métodos comuns: substituição e adição. Na substituição, isole uma variável e aplique à outra equação."
+      },
+      {
+        "definicao": "São técnicas para resolver sistemas lineares: na substituição, isola-se uma incógnita e aplica-se na outra equação; na adição, combinam-se equações para eliminar uma variável.",
+        "aplicacao": "No sistema x+y=12 e 2x−y=9, somar membro a membro cancela y: 3x=21; x=7 e y=5."
+      },
+      {
+        "definicao": "É distinguir sistemas lineares com solução única, infinitas soluções ou nenhuma solução, conforme as relações entre as equações.",
+        "aplicacao": "Se a redução produz 0=5, há contradição; se produz 0=0, as equações podem ser dependentes."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Em um sistema, x + y = 80 e x − y = 18."
+      }
+    ],
+    "Matemática-grandezas-e-unidades": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Conversões devem respeitar dimensão: de m para cm multiplica por 100; de m² para cm² multiplica por 10.000."
+      },
+      {
+        "definicao": "Uma hora contém 60 minutos e um quilômetro contém 1.000 metros.",
+        "aplicacao": "Para volumes, 1 m³ = 1.000 L. Registre a unidade em cada passo para verificar o resultado."
+      },
+      {
+        "definicao": "A escala representa razão de comprimentos; se a questão tratar de área, o fator de escala de área é o quadrado do fator linear.",
+        "aplicacao": "Na escala 1:50.000, 1 cm no mapa corresponde a 50.000 cm reais, isto é, 500 m."
+      },
+      {
+        "definicao": "Assim, 34 km + 300 m = 34300 m. Exemplo 2. Situação: Qual é a medida, em metros, de 44 km e 200 m?",
+        "aplicacao": "Exemplo 1. Situação: Qual é a medida, em metros, de 34 km e 300 m?"
+      }
+    ],
+    "Matemática-geometria-plana": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Retângulo: A=b×h e P=2(b+h). Triângulo: A=b×h/2."
+      },
+      {
+        "definicao": "“Áreas, perímetros e fórmulas de triângulos” é o conceito ou procedimento deste bloco em Matemática. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Em triângulos, use altura perpendicular à base, não qualquer lado inclinado."
+      },
+      {
+        "definicao": "Em triângulo retângulo, a²+b²=c², onde c é a hipotenusa, lado oposto ao ângulo reto.",
+        "aplicacao": "Se os catetos medem 6 e 8, c²=36+64=100, então c=10."
+      },
+      {
+        "definicao": "Perímetro é medida de contorno, enquanto área é superfície: não confunda m com m².",
+        "aplicacao": "Em um triângulo retângulo com catetos 6 cm e 8 cm, a hipotenusa mede 10 cm, pois 6²+8²=36+64=100 e √100=10."
+      },
+      {
+        "definicao": "Qual é seu perímetro? Resposta fundamentada: 68 m.",
+        "aplicacao": "Exemplo 1. Situação: Um terreno retangular mede 4 m por 30 m."
+      }
+    ],
+    "Matemática-tabelas-e-gr-ficos": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Vendas 20→30 representam acréscimo de 10 unidades e aumento de 50% sobre 20."
+      },
+      {
+        "definicao": "Em um quadro de 100, 120 e 150 atendimentos, o crescimento de 100 para 120 é 20%; de 120 para 150 é 25%; de 100 para 150 é 50%.",
+        "aplicacao": "Se um gráfico de barras começa o eixo vertical em 90, diferenças pequenas podem parecer enormes."
+      },
+      {
+        "definicao": "A mediana é o valor central dos dados ordenados; a moda é o valor mais frequente.",
+        "aplicacao": "Em uma pesquisa com 40 pessoas, 12 escolheram a opção A: frequência absoluta 12; relativa 12/40=30%."
+      },
+      {
+        "definicao": "Qual é a diferença entre a maior e a menor? Resposta fundamentada: 50.",
+        "aplicacao": "Exemplo 1. Situação: As quantidades registradas em três meses foram 40, 70 e 90."
+      }
+    ],
+    "Raciocínio Lógico-nega-o-de-proposi-es": [
+      {
+        "definicao": "Negar P significa afirmar que P é falsa; conectivos mudam conforme as leis de De Morgan.",
+        "aplicacao": "Negação de “todos” exige ao menos um contraexemplo."
+      },
+      {
+        "definicao": "Negar “Todos os autos foram digitalizados” é afirmar “Pelo menos um auto não foi digitalizado”, e não “Nenhum auto foi digitalizado”.",
+        "aplicacao": "Negar \"Todos os servidores são efetivos\" pede \"Existe ao menos um servidor que não é efetivo\", não \"Nenhum servidor é efetivo\"."
+      },
+      {
+        "definicao": "São equivalências para negar proposições compostas: a negação de P e Q é não P ou não Q; a negação de P ou Q é não P e não Q.",
+        "aplicacao": "Por exemplo: negar “Estudo Português e Matemática” resulta em “Não estudo Português ou não estudo Matemática” (ao menos uma parte falha)."
+      },
+      {
+        "definicao": "A condicional “Se P, então Q” falha somente quando P é verdadeira e Q é falsa.",
+        "aplicacao": "Por isso sua negação é “P e não Q”. Exemplo: negar “Se estudo, então acerto” equivale a “Estudo e não acerto”."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Assinale a negação da proposição: “Todos os relatórios analisados por Zoe estavam completos”."
+      }
+    ],
+    "Raciocínio Lógico-equival-ncias-e-condicional": [
+      {
+        "definicao": "A condicional P→Q só é falsa quando P é verdadeira e Q falsa.",
+        "aplicacao": "“Se chove, molha” equivale a “Se não molhou, não choveu” no esquema lógico dado."
+      },
+      {
+        "definicao": "A conversa \"Se é par, é múltiplo de 4\" é falsa para 6.",
+        "aplicacao": "Exemplo: \"Se um número é múltiplo de 4, é par\" tem contrapositiva \"Se não é par, não é múltiplo de 4\"."
+      },
+      {
+        "definicao": "No bicondicional P↔Q, ambas são necessárias e suficientes mutuamente.",
+        "aplicacao": "Em P→Q, P é condição suficiente para Q; Q é necessária para P. Se \"ser quadrado\" implica \"ser retângulo\", ser quadrado basta para ser retângulo, mas não é necessário, pois existem retângulos não quadrados."
+      },
+      {
+        "definicao": "Qual proposição é logicamente equivalente? Resposta fundamentada: Se Davi não abrir o processo, então Raul não entregou o documento..",
+        "aplicacao": "Exemplo 1. Situação: Considere: “Se Raul entregar o documento, então Davi abrirá o processo”."
+      }
+    ],
+    "Raciocínio Lógico-argumentos-e-validade": [
+      {
+        "definicao": "Argumento é válido quando não existe situação em que premissas sejam verdadeiras e conclusão falsa.",
+        "aplicacao": "“Se há protocolo, há número; há protocolo; logo, há número” tem forma válida."
+      },
+      {
+        "definicao": "Um argumento é válido quando é impossível que todas as premissas sejam verdadeiras e a conclusão falsa.",
+        "aplicacao": "Modus ponens: P→Q; P; logo Q. Modus tollens: P→Q; ¬Q; logo ¬P. Falácia da afirmação do consequente: P→Q; Q; logo P. Se \"chove, a rua molha\" e \"a rua está molhada\", não se pode concluir que choveu: alguém pode ter lavado a rua."
+      },
+      {
+        "definicao": "“Teste por contraexemplo” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Para refutar um raciocínio, encontre uma situação em que as premissas sejam satisfeitas e a conclusão, falsa."
+      },
+      {
+        "definicao": "As filas Beto–Ana–Caio e Beto–Caio–Ana são válidas: Ana pode estar em segundo ou terceiro, mas Beto deve ser primeiro.",
+        "aplicacao": "Exemplo: três pessoas Ana, Beto e Caio estão em fila; Ana não é a primeira; Beto está antes de Caio."
+      },
+      {
+        "definicao": "Sabe-se que Ana estuda. Qual conclusão é logicamente necessária?",
+        "aplicacao": "Exemplo 1. Situação: Se Ana estuda, então Ana pratica questões."
+      }
+    ],
+    "Raciocínio Lógico-sequ-ncias-e-padr-es": [
+      {
+        "definicao": "É preciso testar a regra em todos os termos apresentados.",
+        "aplicacao": "2, 5, 10, 17, 26 segue n²+1 para n=1,2,3,4,5."
+      },
+      {
+        "definicao": "A sequência 4,7,10,13 aumenta sempre 3: o próximo termo é 16 e o termo geral é aₙ=4+(n−1)×3.",
+        "aplicacao": "Na sequência 3,6,12,24 o fator multiplicativo é 2, então o quinto termo é 48."
+      },
+      {
+        "definicao": "No contexto desta aula, “Sequências de figuras e posição” corresponde à seguinte regra ou ideia central: Quando uma figura acrescenta dois quadradinhos a cada etapa, anote os números das etapas para identificar expressão n↦2n+c.",
+        "aplicacao": "Quando uma figura acrescenta dois quadradinhos a cada etapa, anote os números das etapas para identificar expressão n↦2n+c."
+      },
+      {
+        "definicao": "Uma solução válida não implica ser a única; uma pergunta por “necessariamente” exige demonstrar o que vale em todos os arranjos permitidos.",
+        "aplicacao": "Exemplo: há quatro eventos P, Q, R e S; P ocorre antes de Q; R é imediatamente anterior a S; Q é o último."
+      },
+      {
+        "definicao": "Resposta: 110. Exemplo 2. Situação: Na sequência 11, 22, 44, 88, ... qual é o termo seguinte?",
+        "aplicacao": "Exemplo 1. Situação: Qual é o próximo número na sequência 50, 56, 68, 86, ...?"
+      }
+    ],
+    "Raciocínio Lógico-diagramas-e-conjuntos": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Se 18 estudam Português, 12 Matemática e 5 ambos, 25 estudam ao menos uma."
+      },
+      {
+        "definicao": "No contexto desta aula, “União, interseção e exclusão por diagramas” corresponde à seguinte regra ou ideia central: Uma pesquisa tem 50 pessoas: 28 estudam Português, 22 Matemática e 10 ambas. |P∪M|=28+22−10=40; portanto, 10 não estudam nenhuma.",
+        "aplicacao": "Uma pesquisa tem 50 pessoas: 28 estudam Português, 22 Matemática e 10 ambas. |P∪M|=28+22−10=40; portanto, 10 não estudam nenhuma."
+      },
+      {
+        "definicao": "\"Todo A é B\" significa que o conjunto A está dentro de B.",
+        "aplicacao": "Se o enunciado só afirma inclusão, a existência de elementos em A não é automaticamente garantida em lógica formal."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Entre 98 candidatos, 51 fizeram curso de Português, 38 de Informática e 26 fizeram ambos."
+      }
+    ],
+    "Informática-windows-arquivos-e-pastas": [
+      {
+        "definicao": "Copiar preserva origem; mover altera localização; lixeira não é backup.",
+        "aplicacao": "Um documento copiado de Documentos para Área de Trabalho passa a existir em dois locais."
+      },
+      {
+        "definicao": "Um atalho aponta para um recurso e não contém necessariamente os dados originais.",
+        "aplicacao": "A extensão sugere formato, mas mudar \".xlsx\" para \".pdf\" no nome não converte o arquivo."
+      },
+      {
+        "definicao": "No contexto desta aula, “Atalhos e operações que caem em prova” corresponde à seguinte regra ou ideia central: Ctrl+C copia, Ctrl+X recorta, Ctrl+V cola, Ctrl+Z desfaz e Ctrl+A seleciona tudo em muitos aplicativos Windows.",
+        "aplicacao": "Para encontrar um arquivo, procure por nome, extensão e local; verifique permissões e sincronização quando o arquivo parecer ausente."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Qual atalho do Windows costuma copiar a seleção para a área de transferência?"
+      }
+    ],
+    "Informática-word-edi-o-e-formata-o": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Na prática: o Word organiza documentos com estilos, parágrafos, seções, tabelas e revisões."
+      },
+      {
+        "definicao": "Um título formatado apenas em negrito não equivale necessariamente a aplicar um estilo semântico como \"Título 1\".",
+        "aplicacao": "Um documento de texto reúne caracteres, parágrafos, seções e elementos inseridos."
+      },
+      {
+        "definicao": "“Localizar e substituir com segurança” é o conceito ou procedimento deste bloco em Informática. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Antes de “Substituir tudo”, revise o contexto: trocar “art.” indiscriminadamente pode atingir abreviaturas fora do alvo."
+      },
+      {
+        "definicao": "Pressionar Enter repetidamente para mudar de página é frágil: qualquer alteração anterior desloca o conteúdo.",
+        "aplicacao": "Em tabelas, saiba inserir/excluir linhas e colunas, mesclar células e definir bordas; uma tabela verdadeira é editável, diferente de texto alinhado com espaços."
+      },
+      {
+        "definicao": "O controle de alterações registra inclusões e exclusões para revisão; aceitar ou rejeitar altera o documento final.",
+        "aplicacao": "Exporte como PDF quando quiser distribuição com formatação preservada, entendendo que PDF e DOCX possuem finalidades diferentes."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: Qual recurso do Word permite incluir informações repetidas na parte inferior das páginas?"
+      }
+    ],
+    "Informática-excel-refer-ncias-e-f-rmulas": [
+      {
+        "definicao": "Funções como SOMA, MÉDIA, SE e CONT.SE são frequentes.",
+        "aplicacao": "Ao copiar =A1*B1 para baixo, referências relativas avançam; $A$1 permanece fixa."
+      },
+      {
+        "definicao": "A fórmula começa por \"=\". Em =B2*C2, ambas as referências são relativas, mudando quando copiadas.",
+        "aplicacao": "Em =B2*$F$1, a taxa localizada em F1 permanece fixa."
+      },
+      {
+        "definicao": "“Erro de sintaxe ou erro de dados?” é o conceito ou procedimento deste bloco em Informática. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Não confunda células vazias com texto \"0\"; a função e o tipo do dado determinam o comportamento."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Qual fórmula do Excel calcula a média dos valores de B1 até B5?"
+      }
+    ],
+    "Informática-excel-filtros-gr-ficos-e-tabelas": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Filtrar “Situação=Em andamento” reduz a visualização sem excluir demais registros."
+      },
+      {
+        "definicao": "No contexto desta aula, “Tabela, classificação e filtro: o que muda” corresponde à seguinte regra ou ideia central: Classificar ordena linhas por critérios (alfabético, numérico, crescente etc.).",
+        "aplicacao": "Ao classificar, selecione a tabela inteira para que nomes e dados de uma mesma linha permaneçam associados."
+      },
+      {
+        "definicao": "Gráfico de colunas é adequado para comparar categorias; linhas costumam mostrar tendência ao longo do tempo; setores ilustram composição de um todo quando há poucas categorias.",
+        "aplicacao": "Se o dado de origem muda, pode ser necessário atualizar a tabela dinâmica para refletir novos registros."
+      },
+      {
+        "definicao": "A existência da função no Excel não significa que toda macro deva ser habilitada: políticas de segurança e origem do arquivo prevalecem.",
+        "aplicacao": "Macro automatiza uma sequência de tarefas. Arquivos com macros podem usar formatos específicos como .xlsm e representam risco quando recebidos de fonte desconhecida."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: No Excel, qual recurso organiza os registros em ordem crescente ou decrescente?"
+      }
+    ],
+    "Informática-navegadores-url-e-https": [
+      {
+        "definicao": "Analise domínio e subdomínio de um endereço. Cadeado indica conexão protegida, mas não garante que o conteúdo seja confiável.",
+        "aplicacao": "Em https://exemplo.com/pasta, o domínio é exemplo.com, não “pasta”."
+      },
+      {
+        "definicao": "Na URL https://www.exemplo.gov.br/servicos/consulta?tipo=certidao, https é o esquema, www.exemplo.gov.br é o nome do host, /servicos/consulta é o caminho e ?tipo=certidao é uma consulta.",
+        "aplicacao": "O HTTPS usa criptografia para proteger dados em trânsito, mas não prova que um site seja honesto: páginas maliciosas também podem ter certificado válido."
+      },
+      {
+        "definicao": "Limpar cache pode atualizar uma página, porém não equivale a eliminar cookies ou histórico.",
+        "aplicacao": "Passe o cursor para conferir a URL antes de clicar; em celular, use pré-visualização quando disponível."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Qual cuidado ajuda a identificar tentativas de phishing?"
+      }
+    ],
+    "Informática-e-mail-e-seguran-a": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Para enviar informativo a muitos contatos sem expor endereços, use CCO."
+      },
+      {
+        "definicao": "Um anexo é incorporado ao envio conforme limites do serviço; um link de nuvem exige atenção a permissões de acesso.",
+        "aplicacao": "\"Para\" identifica destinatários principais; \"Cc\" envia cópia visível; \"Cco\" envia cópia oculta aos demais destinatários, útil em comunicados coletivos com privacidade."
+      },
+      {
+        "definicao": "No contexto desta aula, “Phishing e autenticação” corresponde à seguinte regra ou ideia central: Phishing tenta obter dados ou induzir ações por mensagens enganosas.",
+        "aplicacao": "Senhas únicas e gerenciador confiável reduzem o impacto de vazamentos reutilizados."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: Em e-mails, o campo Assunto serve principalmente para: Identifique a opção correta."
+      }
+    ],
+    "Informática-microsoft-teams": [
+      {
+        "definicao": "Uma equipe pode ter canal para um projeto, com arquivos e mensagens centralizados.",
+        "aplicacao": "Na prática: teams integra comunicação por chat, canais, reuniões, compartilhamento e colaboração."
+      },
+      {
+        "definicao": "No Teams, chat é conversa direta ou em grupo; uma equipe reúne pessoas em canais de trabalho com conversas e arquivos relacionados a projetos.",
+        "aplicacao": "Não confunda \"compartilhar arquivo\" com \"enviar cópia independente\"."
+      },
+      {
+        "definicao": "A permissão efetiva depende de quem é dono do arquivo e das políticas da organização, não apenas do fato de existir um link.",
+        "aplicacao": "Arquivos de canais podem ser armazenados no SharePoint da equipe; arquivos compartilhados em determinados chats podem estar ligados ao OneDrive do remetente, conforme configuração do serviço."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 1. Situação: No Teams, qual funcionalidade permite agendar participação futura de pessoas em uma chamada?"
+      }
+    ],
+    "Informática-onedrive-e-sincroniza-o": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Na prática: acesso depende de conta, conexão ou disponibilidade offline e permissões."
+      },
+      {
+        "definicao": "O OneDrive sincroniza arquivos entre dispositivos conectados à conta, podendo refletir exclusões e alterações em outros dispositivos.",
+        "aplicacao": "Sincronização não substitui, por si só, uma estratégia de cópia independente para proteção contra todos os incidentes."
+      },
+      {
+        "definicao": "Um link pode ser restrito a pessoas específicas, à organização ou a qualquer pessoa com link, conforme configurações.",
+        "aplicacao": "Permissão de visualização difere de edição. Arquivos sob demanda podem aparecer no Explorador sem estar integralmente baixados; para trabalhar sem internet, selecione disponibilidade offline quando admitida."
+      },
+      {
+        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
+        "aplicacao": "Exemplo 2. Situação: O que é o OneDrive? Qual resposta se aplica?"
+      }
+    ],
+    "Direito Constitucional-direitos-e-garantias-fundamentais": [
+      {
+        "definicao": "Os direitos fundamentais limitam o poder estatal e protegem posições das pessoas; não são absolutos em todos os contextos.",
+        "aplicacao": "Leia o art. 5º da Constituição distinguindo igualdade, legalidade, liberdade, intimidade, contraditório e ampla defesa."
+      },
+      {
+        "definicao": "O art. 5º da Constituição contém direitos como liberdade de expressão (com vedação do anonimato), liberdade de consciência e crença, inviolabilidade de domicílio com exceções constitucionais, acesso à justiça, presunção de não culpabilidade até o trânsito em julgado e contraditório e ampla defesa.",
+        "aplicacao": "A prova pode substituir uma exceção por regra absoluta; procure no enunciado o advérbio e a condição que modificam a garantia."
+      },
+      {
+        "definicao": "“Remédios constitucionais: não os confunda” é o conceito ou procedimento deste bloco em Direito Constitucional. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Habeas data se relaciona ao acesso ou retificação de dados pessoais em registros públicos ou de caráter público."
+      },
+      {
+        "definicao": "Direito é a posição jurídica assegurada; garantia é mecanismo de proteção.",
+        "aplicacao": "Liberdade de manifestação e intimidade podem entrar em tensão em um caso concreto, e a solução não decorre do slogan \"um direito é absoluto\"."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, Quando falta norma regulamentadora que torne inviável o exercício de direito constitucional, a CF prevê: Qual alternativa corresponde à descrição apresentada?"
+      }
+    ],
+    "Direito Constitucional-direitos-sociais": [
+      {
+        "definicao": "Educação e saúde são exemplos de direitos sociais expressos na Constituição.",
+        "aplicacao": "O art. 6º e dispositivos correlatos tratam de direitos sociais; o conteúdo e a redação precisam ser lidos na versão constitucional atual."
+      },
+      {
+        "definicao": "A redação do dispositivo pode ser alterada; em prova, confira o texto consolidado oficial.",
+        "aplicacao": "Os direitos sociais estão enumerados no art. 6º da Constituição Federal, entre eles educação, saúde, alimentação, trabalho, moradia, transporte, lazer e segurança."
+      },
+      {
+        "definicao": "No contexto desta aula, “Direitos sociais e prestações públicas” corresponde à seguinte regra ou ideia central: Muitos direitos sociais envolvem atuação estatal, políticas públicas e prestações, mas também podem impor deveres de proteção.",
+        "aplicacao": "Na prática: não conclua que todo direito social produz automaticamente o mesmo tipo de prestação individual: texto, legislação e jurisprudência importam."
+      },
+      {
+        "definicao": "É um método de identificar hipótese, sujeito, requisito, exceção e consequência no texto de uma norma antes de responder a questão.",
+        "aplicacao": "Leia o art. 6º literalmente; em seguida diferencie seus termos de direitos e garantias individuais e observe o art. 7º, voltado a direitos dos trabalhadores urbanos e rurais."
+      },
+      {
+        "definicao": "No contexto desta aula, “Direitos sociais e art. 6º” corresponde à seguinte regra ou ideia central: Os direitos sociais do art. 6º abrangem, entre outros, educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância e assistência aos desamparados, conforme texto vigente.",
+        "aplicacao": "Os direitos sociais do art. 6º abrangem, entre outros, educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância e assistência aos desamparados, conforme texto vigente."
+      },
+      {
+        "definicao": "Um item pode trocar beneficiário, requisito ou prazo: a literalidade do inciso e as alterações constitucionais têm prioridade sobre tabelas de cursinho.",
+        "aplicacao": "O art. 7º reúne direitos dos trabalhadores urbanos e rurais e admite outros que visem melhorar sua condição social."
+      },
+      {
+        "definicao": "No contexto desta aula, “Direitos coletivos de trabalho” corresponde à seguinte regra ou ideia central: Os arts. 8º a 11 tratam de temas como liberdade e organização sindical, greve e participação de trabalhadores em órgãos ou na empresa em hipóteses constitucionais.",
+        "aplicacao": "Os arts. 8º a 11 tratam de temas como liberdade e organização sindical, greve e participação de trabalhadores em órgãos ou na empresa em hipóteses constitucionais."
+      },
+      {
+        "definicao": "Fundamentação: CF, art. 7º, XIII. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, O art. 7º da CF prevê, dentre os direitos dos trabalhadores, a duração normal do trabalho em regra não superior a: À luz da norma indicada, escolha a resposta adequada."
+      }
+    ],
+    "Direito Constitucional-nacionalidade": [
+      {
+        "definicao": "Uma pessoa nascida no Brasil pode ser brasileira nata, observadas as exceções constitucionais.",
+        "aplicacao": "Analise hipóteses do art. 12 com atenção a nascimento, filiação, opção e naturalização."
+      },
+      {
+        "definicao": "O art. 12 define hipóteses de brasileiro nato, como nascimento no Brasil com ressalva para pais estrangeiros a serviço de seu país, e situações específicas de nascimento no exterior vinculadas a serviço do Brasil, registro em repartição brasileira competente ou residência e opção.",
+        "aplicacao": "Na prática: a naturalização segue condições constitucionais e legais."
+      },
+      {
+        "definicao": "Não invente cargos por analogia: um cargo relevante não é necessariamente privativo de nato.",
+        "aplicacao": "A Constituição restringe determinados cargos a brasileiros natos, a exemplo de Presidente e Vice-Presidente da República, presidentes da Câmara e do Senado e ministros do STF, entre outros previstos no art. 12, § 3º."
+      },
+      {
+        "definicao": "No contexto desta aula, “Perda de nacionalidade: atenção à redação atual” corresponde à seguinte regra ou ideia central: Regras sobre perda da nacionalidade sofreram alterações constitucionais; material antigo pode contrariar o texto vigente.",
+        "aplicacao": "Antes de resolver uma questão, confirme em qual hipótese a Constituição admite perda, por qual procedimento e quais salvaguardas existem, sem presumir que mera aquisição voluntária de outra nacionalidade leve automaticamente à perda da brasileira."
+      },
+      {
+        "definicao": "Fundamentação: CF, art. 12, I, a. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Uma pessoa nascida no Brasil, em regra, é considerada: Considerando o tema e as normas estudadas, identifique a opção correta."
+      }
+    ],
+    "Direito Constitucional-administra-o-p-blica-constitucional": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Diferencie regra de ingresso por concurso, hipóteses de cargos em comissão, acumulação de cargos e responsabilidade estatal; estude a redação do art. 37 conforme edital."
+      },
+      {
+        "definicao": "Legalidade administrativa significa atuação sujeita à lei; impessoalidade impede promoção pessoal e favorecimentos ilegítimos; publicidade assegura transparência com ressalvas de sigilo; eficiência exige boa atuação sem dispensar as demais regras.",
+        "aplicacao": "Na prática: a Administração Pública deve observar legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE), mas memorização da sigla não substitui compreensão."
+      },
+      {
+        "definicao": "A regra geral é a investidura em cargo ou emprego público mediante concurso, ressalvadas hipóteses constitucionais, como cargos em comissão legalmente declarados de livre nomeação e exoneração.",
+        "aplicacao": "Na prática: a acumulação remunerada é, em regra, vedada, com exceções constitucionais condicionadas, inclusive compatibilidade de horários."
+      },
+      {
+        "definicao": "A estabilidade não significa impossibilidade absoluta de perda do cargo: há hipóteses constitucionais e legais.",
+        "aplicacao": "Efetividade decorre do modo de provimento de cargo efetivo; estabilidade é garantia constitucional obtida após requisitos do art. 41, inclusive período e avaliação de desempenho conforme disciplina vigente."
+      },
+      {
+        "definicao": "A aprovação em concurso é a regra constitucional para investidura em cargo ou emprego público, com ressalvas previstas no próprio texto.",
+        "aplicacao": "Na preparação, associe cada situação a um princípio ou dispositivo constitucional específico antes de escolher a alternativa."
+      },
+      {
+        "definicao": "Fundamentação: CF, art. 37, II. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma questão objetiva do TJSP, A investidura em cargo ou emprego público, como regra, depende de: Qual alternativa corresponde à descrição apresentada?"
+      }
+    ],
+    "Direito Constitucional-organiza-o-do-poder-judici-rio": [
+      {
+        "definicao": "O TJSP julga matérias de competência da justiça estadual, não é órgão do Poder Executivo.",
+        "aplicacao": "O art. 92 lista órgãos do Poder Judiciário; competências são distribuídas entre diferentes ramos."
+      },
+      {
+        "definicao": "No contexto desta aula, “Estrutura do Poder Judiciário no art. 92” corresponde à seguinte regra ou ideia central: O art. 92 da Constituição enumera órgãos do Poder Judiciário, como STF, CNJ, STJ, TST, tribunais e juízes federais, trabalhistas, eleitorais e militares, e tribunais e juízes dos Estados e do Distrito Federal e Territórios, conforme sua organização constitucional.",
+        "aplicacao": "TJSP pertence à Justiça estadual. Ministério Público e Defensoria Pública exercem funções essenciais à justiça, mas não figuram como órgãos do Poder Judiciário no art. 92."
+      },
+      {
+        "definicao": "O STF exerce funções de guarda da Constituição; o STJ atua na uniformização de interpretação da legislação federal em sua competência; os tribunais de justiça e juízes estaduais tratam dos feitos que lhes cabem.",
+        "aplicacao": "Na prática: o CNJ exerce funções de controle administrativo e financeiro do Judiciário e de fiscalização do cumprimento de deveres funcionais, mas não substitui todos os recursos judiciais ou julga indistintamente qualquer causa."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, Conforme o art. 92 da Constituição, qual dos seguintes é órgão do Poder Judiciário?"
+      }
+    ],
+    "Direito Penal-f-p-blica-falsifica-o-de-documentos": [
+      {
+        "definicao": "Alterar materialmente documento e declarar dado falso em documento autêntico são condutas que exigem enquadramentos distintos.",
+        "aplicacao": "No Código Penal, separe falsificação material da inserção de declaração falsa em documento verdadeiro, conforme o tipo específico."
+      },
+      {
+        "definicao": "O critério de prova não é “papel verdadeiro versus papel falso” isoladamente: examine o núcleo do tipo, o objeto, a finalidade exigida e o efeito jurídico pretendido.",
+        "aplicacao": "Na falsificação material, a falsidade recai sobre a própria formação ou alteração física de documento; por exemplo, criar documento público aparentemente autêntico sem autorização."
+      },
+      {
+        "definicao": "No contexto desta aula, “Documentos públicos e particulares: pena e requisitos” corresponde à seguinte regra ou ideia central: Os arts. 297 e 298 distinguem falsificação de documento público e de documento particular; há extensões e equiparações que devem ser verificadas no texto legal vigente.",
+        "aplicacao": "Em prova, a palavra \"usar\" não substitui a análise de quem falsificou, qual documento foi empregado e qual disposição incide."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Alguém altera documento público verdadeiro, com os demais elementos do tipo presentes."
+      }
+    ],
+    "Direito Penal-falsidade-ideol-gica-e-uso-de-documento-falso": [
+      {
+        "definicao": "Documento formalmente verdadeiro com informação falsa não é necessariamente falsificação material.",
+        "aplicacao": "Estude o texto literal dos arts. 299 e 304, sujeito ativo, objeto, finalidade específica e consumação conforme doutrina/jurisprudência aplicável."
+      },
+      {
+        "definicao": "O documento pode ser verdadeiro quanto à forma.",
+        "aplicacao": "O art. 299 do CP pune, nas condições descritas, omitir declaração que deva constar de documento público ou particular ou nele inserir/fazer inserir declaração falsa ou diversa da que deveria ser escrita, com finalidade legal específica."
+      },
+      {
+        "definicao": "No contexto desta aula, “Uso de documento falso e falsa identidade” corresponde à seguinte regra ou ideia central: O art. 304 trata de fazer uso de documento falsificado ou alterado nas formas referidas na norma.",
+        "aplicacao": "Uma questão pode trocar falsidade documental por falsa identidade: descreva o elemento concretamente praticado antes de escolher o artigo."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Para a preparação jurídica, Alguém insere declaração falsa em documento verdadeiro com o fim específico previsto em lei."
+      }
+    ],
+    "Direito Penal-peculato": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Art. 312 do Código Penal: identifique vínculo funcional, posse ou facilidade em razão do cargo, e diferença entre apropriação/desvio e peculato-furto."
+      },
+      {
+        "definicao": "A posse em razão do cargo é aspecto decisivo da modalidade básica.",
+        "aplicacao": "O art. 312 do Código Penal descreve o peculato no contexto de funcionário público que se apropria de dinheiro, valor ou bem móvel, público ou particular, de que tem posse em razão do cargo, ou o desvia em proveito próprio ou alheio."
+      },
+      {
+        "definicao": "Apropriar é comportar-se como dono; desviar é dar destinação indevida em proveito próprio ou de terceiro.",
+        "aplicacao": "O §1º prevê hipótese em que o agente não tem a posse, mas subtrai ou concorre para subtração, valendo-se de facilidade da função."
+      },
+      {
+        "definicao": "O §2º trata da contribuição culposa do funcionário para crime de outrem; o §3º estabelece consequências específicas da reparação do dano, conforme o momento.",
+        "aplicacao": "O § 2º prevê peculato culposo quando o funcionário concorre culposamente para crime de outrem."
+      },
+      {
+        "definicao": "O vínculo funcional com a posse ou facilidade é decisivo; apropriação privada simples pode constituir figura diversa.",
+        "aplicacao": "No peculato-furto (§ 1º), o funcionário, sem a posse direta do bem, o subtrai ou concorre para que seja subtraído, valendo-se de facilidade proporcionada pelo cargo."
+      },
+      {
+        "definicao": "“Situação comparada” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Servidor facilita ingresso de terceiro para subtrair equipamento sem tê-lo em posse funcional: examine peculato-furto."
+      },
+      {
+        "definicao": "Qual crime é descrito, em tese? À luz da norma indicada, escolha a resposta adequada.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Um funcionário público se apropria de dinheiro de que tem a posse em razão do cargo."
+      }
+    ],
+    "Direito Penal-concuss-o-e-corrup-o-passiva": [
+      {
+        "definicao": "O verbo nuclear é chave: exigir difere de solicitar.",
+        "aplicacao": "Concussão (art. 316) envolve exigir vantagem indevida; corrupção passiva (art. 317) envolve solicitar, receber ou aceitar promessa."
+      },
+      {
+        "definicao": "No contexto desta aula, “Três verbos que não podem ser confundidos” corresponde à seguinte regra ou ideia central: Concussão (art. 316): exigir vantagem indevida em razão da função.",
+        "aplicacao": "Corrupção ativa (art. 333): oferecer ou prometer vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício."
+      },
+      {
+        "definicao": "É inadequado afirmar que todo crime só ocorre quando o dinheiro muda de mãos: alguns tipos incluem solicitação, exigência ou promessa.",
+        "aplicacao": "Em prova, compare a posição do agente — funcionário ou particular — e o verbo núcleo, além da finalidade legal."
+      },
+      {
+        "definicao": "Qual crime pode configurar-se, em tese? Qual alternativa corresponde à descrição apresentada?",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, Um funcionário público solicita vantagem indevida em razão da função."
+      }
+    ],
+    "Direito Penal-prevarica-o-e-advocacia-administrativa": [
+      {
+        "definicao": "Prevaricação (art. 319) exige atuação/omissão funcional para satisfazer interesse ou sentimento pessoal; advocacia administrativa tem tipo próprio.",
+        "aplicacao": "Leia verbos do tipo, sujeito ativo, elemento subjetivo e contexto do ato de ofício."
+      },
+      {
+        "definicao": "O elemento subjetivo especial é decisivo: mera demora burocrática sem a finalidade prevista não basta para afirmar o tipo.",
+        "aplicacao": "No art. 319, o funcionário retarda ou deixa de praticar indevidamente ato de ofício, ou o pratica contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal."
+      },
+      {
+        "definicao": "A norma contém hipótese agravada relacionada à ilegitimidade do interesse; consulte texto do dispositivo.",
+        "aplicacao": "O art. 321 versa sobre patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário."
+      },
+      {
+        "definicao": "Fundamentação: CP, art. 319. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, Um funcionário retarda ato de ofício indevidamente para satisfazer interesse ou sentimento pessoal."
+      }
+    ],
+    "Direito Penal-corrup-o-ativa-e-desobedi-ncia": [
+      {
+        "definicao": "Oferecer vantagem indevida é verbo da corrupção ativa; recebê-la é conduta típica possível na passiva.",
+        "aplicacao": "Corrupção ativa (art. 333) envolve oferecer ou prometer vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício."
+      },
+      {
+        "definicao": "Corrupção ativa (art. 333) tem como sujeito ativo típico quem oferece ou promete vantagem indevida ao agente público para influenciar ato de ofício.",
+        "aplicacao": "Corrupção passiva (art. 317) descreve condutas do funcionário público."
+      },
+      {
+        "definicao": "Desobediência (art. 330) é desobedecer ordem legal de funcionário público; resistência (art. 329) envolve oposição à execução de ato legal mediante violência ou ameaça a funcionário competente ou a quem lhe presta auxílio; desacato (art. 331) pressupõe ofender funcionário público no exercício da função ou em razão dela.",
+        "aplicacao": "Na prática: não conclua por desobediência sem ordem legal específica e ciência relevante, nem confunda discordância legítima com tipicidade automática."
+      },
+      {
+        "definicao": "Qual crime é descrito? À luz da norma indicada, escolha a resposta adequada.",
+        "aplicacao": "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Um particular oferece vantagem indevida a funcionário público para determiná-lo a praticar ato de ofício."
+      }
+    ],
+    "Processo Penal-sujeitos-processuais-e-impedimentos": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Confira CPP arts. 251–267 e dispositivos pertinentes: impedimento, suspeição, defesa técnica, atuação do Ministério Público e garantias processuais."
+      },
+      {
+        "definicao": "Em linguagem jurídica, impedimento e suspeição não são sinônimos.",
+        "aplicacao": "Resolva casos marcando a relação entre julgador, parte, defensor e fatos do processo; não conclua a partir apenas da impressão subjetiva do personagem."
+      },
+      {
+        "definicao": "No contexto desta aula, “Defesa técnica, Ministério Público e acusação” corresponde à seguinte regra ou ideia central: O acusado tem direito à defesa técnica, sem prejuízo da autodefesa nos termos legais.",
+        "aplicacao": "Para responder, pergunte quem deve participar, quando a defesa precisa ser cientificada e qual consequência processual se discute."
+      },
+      {
+        "definicao": "Trata-se de: À luz da norma indicada, escolha a resposta adequada.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, No CPP, o juiz não pode exercer jurisdição no processo em que seu cônjuge funcionou como perito."
+      }
+    ],
+    "Processo Penal-cita-o-intima-o-e-notifica-es": [
+      {
+        "definicao": "A localização do acusado e as diligências efetuadas importam na escolha da modalidade de citação.",
+        "aplicacao": "Estude arts. 351–372 do CPP: modalidades, requisitos de mandado, edital e hipóteses de citação conforme situação do acusado."
+      },
+      {
+        "definicao": "Citação por edital exige hipóteses legais e não é atalho livre do cartório.",
+        "aplicacao": "A decisão quanto à suspensão do processo ou prescrição depende das condições do art. 366 e da situação de comparecimento ou constituição de advogado."
+      },
+      {
+        "definicao": "A intimação dá ciência de ato ou decisão; determinadas notificações convocam para atos futuros.",
+        "aplicacao": "Em qualquer hipótese, confira quem deve receber, como se comprova ciência, qual termo inicial do prazo e consequências do não comparecimento."
+      },
+      {
+        "definicao": "Fundamentação: CPP, art. 361. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Se o réu não for encontrado para ser citado, nas hipóteses do CPP, cabe estudar: Com base na legislação pertinente, assinale a opção correta."
+      }
+    ],
+    "Processo Penal-procedimentos-comum-e-especial": [
+      {
+        "definicao": "O CPP disciplina ritos e fases, incluindo resposta à acusação, instrução, decisões e possíveis recursos.",
+        "aplicacao": "Nos arts. 394 e seguintes, observe classificação dos procedimentos e etapas do processo penal, inclusive sequência de provas."
+      },
+      {
+        "definicao": "O CPP prevê procedimentos com fases e atos distintos; a classificação pode depender da pena máxima cominada e de leis especiais.",
+        "aplicacao": "Na prova, uma troca de ordem entre citação, resposta e audiência pode tornar a alternativa errada."
+      },
+      {
+        "definicao": "Pronúncia não é condenação definitiva; impronúncia, absolvição sumária e desclassificação produzem consequências diferentes.",
+        "aplicacao": "Como o edital abrange artigos do procedimento, organize a sequência em fluxograma ao estudar os arts. 406 a 497."
+      },
+      {
+        "definicao": "Fundamentação: CPP, art. 397, I. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, No procedimento comum, após a resposta à acusação, uma das possibilidades legais em caso de manifesta causa excludente de ilicitude é: À luz da norma indicada, escolha a resposta adequada."
+      }
+    ],
+    "Processo Penal-provas-e-audi-ncia-criminal": [
+      {
+        "definicao": "A produção de provas deve respeitar contraditório, defesa e limites legais.",
+        "aplicacao": "Em audiência, a ordem dos atos importa e pode variar conforme procedimento."
+      },
+      {
+        "definicao": "O CPP distingue exame de corpo de delito quando a infração deixa vestígios, prova testemunhal, documental e interrogatório, em dispositivos próprios.",
+        "aplicacao": "Em audiência, identifique ordem legal de atos, perguntas e participação das partes conforme o rito."
+      },
+      {
+        "definicao": "A identificação de irregularidade exige analisar regime legal de nulidades, momento de arguição e prejuízo, inclusive a diretriz do art. 563 do CPP.",
+        "aplicacao": "Pergunte qual garantia foi afetada, a providência requerida e se o ato pode ser renovado ou aproveitado na hipótese concreta."
+      },
+      {
+        "definicao": "Fundamentação: CPP, art. 397, I. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, No procedimento comum, após a resposta à acusação, uma das possibilidades legais em caso de manifesta causa excludente de ilicitude é: Considerando o tema e as normas estudadas, identifique a opção correta."
+      }
+    ],
+    "Processo Penal-recursos-no-cpp": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Ao resolver questão, primeiro identifique a decisão impugnada, depois escolha o recurso previsto."
+      },
+      {
+        "definicao": "O recurso em sentido estrito está associado às hipóteses legalmente elencadas; a apelação tem seu campo de cabimento.",
+        "aplicacao": "Os arts. 574 a 667 do CPP incluem recursos como recurso em sentido estrito, apelação e embargos, com cabimento e prazos próprios."
+      },
+      {
+        "definicao": "Interpor recurso pode transferir ao tribunal a análise da matéria impugnada (efeito devolutivo), mas isso não significa automaticamente suspensão de todos os efeitos da decisão.",
+        "aplicacao": "Em questões, a alternativa com \"sempre\" ou \"nunca\" merece conferência de exceções."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, No CPP, a apelação é recurso previsto para impugnar determinadas decisões."
+      }
+    ],
+    "Processo Penal-juizados-especiais-criminais": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Revise arts. 60–83, 88–89 do recorte do edital, seus requisitos e efeitos; diferencie institutos despenalizadores entre si."
+      },
+      {
+        "definicao": "No contexto desta aula, “Juizados especiais criminais: finalidade e limites” corresponde à seguinte regra ou ideia central: A Lei 9.099/1995 disciplina tratamento de infrações de menor potencial ofensivo segundo critérios legais.",
+        "aplicacao": "Compare termo circunstanciado, audiência preliminar e composição civil de danos com procedimentos criminais comuns, respeitadas as hipóteses legais."
+      },
+      {
+        "definicao": "Transação penal e suspensão condicional do processo não são sinônimos e possuem requisitos, momentos e consequências diferentes nos arts. 76 e 89.",
+        "aplicacao": "Em prova, verifique se o dispositivo exige pena mínima/máxima, antecedente, iniciativa de parte ou aceitação de proposta; não transforme benefício legal em direito incondicional."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, A Lei 9.099/1995 rege, nos Juizados Especiais Criminais, entre outros, os critérios de: Assinale a alternativa correta."
+      }
+    ],
+    "Processo Civil-impedimento-e-suspei-o-no-cpc": [
+      {
+        "definicao": "Imparcialidade judicial é protegida por hipóteses legais de impedimento e suspeição.",
+        "aplicacao": "Confira CPC arts. 144–148: situações objetivas de impedimento e circunstâncias de suspeição, inclusive pessoas alcançadas."
+      },
+      {
+        "definicao": "No contexto desta aula, “Impedimento e suspeição: objetividade das hipóteses” corresponde à seguinte regra ou ideia central: O CPC separa hipóteses de impedimento e suspeição do juiz nos arts. 144 e 145.",
+        "aplicacao": "A parte deve observar procedimento e prazo próprio de alegação (art. 146)."
+      },
+      {
+        "definicao": "O CPC estende regras e disciplina incidência de impedimento/suspeição em hipóteses aplicáveis a outros sujeitos processuais.",
+        "aplicacao": "A questão pode deslocar para o servidor uma hipótese prevista exclusivamente para o juiz; confira as regras específicas antes de transpor."
+      },
+      {
+        "definicao": "O parentesco previsto no art. 144 é considerado até qual grau, nos termos legais?",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, O CPC estabelece hipóteses de impedimento do juiz."
+      }
+    ],
+    "Processo Civil-tutela-provis-ria": [
+      {
+        "definicao": "Tutela provisória é técnica para proteção jurisdicional antes da decisão definitiva, com espécies e requisitos próprios.",
+        "aplicacao": "CPC arts. 294–311: tutela de urgência e de evidência, cautelar/antecipada, antecedente/incidental."
+      },
+      {
+        "definicao": "A urgência exige demonstração de probabilidade do direito e perigo de dano ou risco ao resultado útil do processo, segundo art. 300 do CPC.",
+        "aplicacao": "A evidência tem hipóteses específicas no art. 311 e não depende do mesmo requisito de perigo."
+      },
+      {
+        "definicao": "A tutela pode ser solicitada no curso do processo (incidental) ou sob disciplina antecedente nas hipóteses legais.",
+        "aplicacao": "Não conclua que qualquer decisão liminar estabiliza definitivamente o direito; confira a espécie de tutela, manifestação da parte contrária e condições aplicáveis."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Para a preparação jurídica, Pelo CPC, a tutela provisória pode fundamentar-se em: Considerando o tema e as normas estudadas, identifique a opção correta."
+      }
+    ],
+    "Processo Civil-peti-o-inicial-e-resposta-do-r-u": [
+      {
+        "definicao": "A contestação é oportunidade de defesa do réu; a revelia possui efeitos e exceções.",
+        "aplicacao": "Estude CPC arts. 318 e seguintes: requisitos da petição inicial, emenda, indeferimento, audiência de conciliação, contestação e revelia."
+      },
+      {
+        "definicao": "Indeferimento e improcedência liminar não são a mesma decisão.",
+        "aplicacao": "A petição inicial deve observar requisitos dos arts. 319 e 320 do CPC, como indicação das partes, fatos e fundamentos jurídicos do pedido, pedido com especificações, valor da causa, provas e opção quanto à audiência de conciliação/mediação, quando aplicável."
+      },
+      {
+        "definicao": "Na resposta, o réu pode apresentar defesa de mérito e questões processuais conforme regras do CPC; alegações preliminares são disciplinadas especialmente pelo art. 337.",
+        "aplicacao": "Compare reconvenção, impugnação de fatos e ônus de argumentação no caso apresentado."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Na fase de resposta do réu, o CPC estabelece que a contestação deve ser apresentada, como regra, no prazo de: À luz da norma indicada, escolha a resposta adequada."
+      }
+    ],
+    "Processo Civil-provas-e-senten-a": [
+      {
+        "definicao": "Uma decisão que resolve o mérito deve apresentar fundamentação e dispositivo coerentes.",
+        "aplicacao": "No recorte de CPC 318–538, organize ônus da prova, meios de prova, audiência, julgamento e coisa julgada conforme capítulo."
+      },
+      {
+        "definicao": "Uma alegação contestada pode exigir documentos, testemunhas, perícia ou outros meios admitidos.",
+        "aplicacao": "No CPC, o ônus da prova em regra incumbe ao autor quanto ao fato constitutivo de seu direito, e ao réu quanto a fato impeditivo, modificativo ou extintivo, com disciplina legal de redistribuição em certas hipóteses."
+      },
+      {
+        "definicao": "O CPC diferencia extinção sem resolução de mérito e resolução de mérito, com consequências diferentes.",
+        "aplicacao": "A fundamentação precisa enfrentar os argumentos capazes de infirmar a conclusão, nos termos do art. 489."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Na fase de resposta do réu, o CPC estabelece que a contestação deve ser apresentada, como regra, no prazo de: Com base na legislação pertinente, assinale a opção correta."
+      }
+    ],
+    "Processo Civil-recursos-c-veis": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "CPC arts. 994–1026: espécies, admissibilidade, efeitos, prazos e embargos de declaração."
+      },
+      {
+        "definicao": "No contexto desta aula, “Recurso cabível e decisão recorrida” corresponde à seguinte regra ou ideia central: Os arts. 994 a 1.026 do CPC apresentam recursos com hipóteses e disciplina próprias: apelação, agravo de instrumento, agravo interno e embargos de declaração, entre outros.",
+        "aplicacao": "Os arts. 994 a 1.026 do CPC apresentam recursos com hipóteses e disciplina próprias: apelação, agravo de instrumento, agravo interno e embargos de declaração, entre outros."
+      },
+      {
+        "definicao": "No contexto desta aula, “Prazo e efeitos: método de prova” corresponde à seguinte regra ou ideia central: Identifique decisão, intimação, início da contagem, prazo legal aplicável, preparo quando previsto e efeitos.",
+        "aplicacao": "Embargos de declaração têm prazo específico e podem produzir efeitos processuais sobre outros prazos; consulte dispositivos correspondentes."
+      },
+      {
+        "definicao": "Apelação é ligada à sentença nas condições legais.",
+        "aplicacao": "Na resolução de uma questão sobre recursos, identifique se o pronunciamento é sentença, decisão interlocutória ou decisão colegiada, porque o recurso cabível depende dessa classificação e das hipóteses legais."
+      },
+      {
+        "definicao": "Fundamentação: CPC, art. 1.023. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Qual é o prazo de interposição dos embargos de declaração previsto no CPC?"
+      }
+    ],
+    "Processo Civil-juizados-especiais-c-veis-e-fazenda-p-blica": [
+      {
+        "definicao": "A competência do Juizado da Fazenda Pública depende de regras próprias, não apenas do valor da causa.",
+        "aplicacao": "Leia Lei 9.099/1995 arts. 3–19 e Lei 12.153/2009, distinguindo competência, partes, conciliação e peculiaridades da Fazenda Pública."
+      },
+      {
+        "definicao": "No contexto desta aula, “Juizados Especiais Cíveis: princípios e competência” corresponde à seguinte regra ou ideia central: A Lei 9.099/1995 disciplina processamento de causas de menor complexidade, observados requisitos e limites.",
+        "aplicacao": "Nos arts. 3º a 19, compare pedido, representação, conciliação, audiência e citação."
+      },
+      {
+        "definicao": "No contexto desta aula, “Juizados da Fazenda Pública e lei própria” corresponde à seguinte regra ou ideia central: A Lei 12.153/2009 organiza Juizados Especiais da Fazenda Pública em causas com entes públicos e limites próprios.",
+        "aplicacao": "Não transplante automaticamente regras dos Juizados Cíveis comuns; verifique competência, polo passivo, valor e legislação subsidiária."
+      },
+      {
+        "definicao": "Fundamentação: Lei 9.099/1995, art. 2º. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Nos Juizados Especiais Cíveis, conforme a Lei 9.099/1995, o processo orienta-se pelos critérios de: À luz da norma indicada, escolha a resposta adequada."
+      }
+    ],
+    "Direito Administrativo-servidores-p-blicos-de-sp-ingresso-e-deveres": [
+      {
+        "definicao": "A Lei estadual 10.261/1968 estabelece regime jurídico de servidores civis de São Paulo, com recortes expressos no edital.",
+        "aplicacao": "Estude arts. 1–86 e 171–175 para provimento, posse, exercício, direitos e afastamentos abrangidos; anote conceitos com o texto legal atualizado."
+      },
+      {
+        "definicao": "No contexto desta aula, “Lei aplicável” corresponde à seguinte regra ou ideia central: A Lei estadual paulista 10.261/1968 institui o Estatuto dos Funcionários Públicos Civis do Estado.",
+        "aplicacao": "A Lei estadual paulista 10.261/1968 institui o Estatuto dos Funcionários Públicos Civis do Estado."
+      },
+      {
+        "definicao": "Os termos têm consequências jurídicas específicas e não são sinônimos.",
+        "aplicacao": "Diferencie provimento, posse, exercício e movimentação funcional."
+      },
+      {
+        "definicao": "O servidor tem deveres como zelo, urbanidade, cumprimento de ordens legais e observância do serviço público, conforme dispositivos pertinentes.",
+        "aplicacao": "Uma questão pode inverter uma conduta obrigatória com uma vedada."
+      },
+      {
+        "definicao": "Cargo público, nomeação, posse e exercício são etapas diferentes: nomeação é ato de provimento; posse formaliza investidura; exercício é desempenho efetivo das atribuições.",
+        "aplicacao": "A Lei paulista 10.261/1968 rege a vida funcional de servidores estaduais nos limites da aplicação legal."
+      },
+      {
+        "definicao": "Legalidade administrativa significa atuação conforme a autorização normativa; impessoalidade veda favorecimentos pessoais; publicidade impõe transparência nos limites legais, inclusive com proteção de dados e sigilo cabível; eficiência demanda boa prestação do serviço.",
+        "aplicacao": "Para distinguir os princípios, examine um exemplo: preferir um conhecido na fila de atendimento sem critério objetivo afronta a impessoalidade; divulgar informação protegida sob pretexto de publicidade não é cumprimento legítimo do princípio."
+      },
+      {
+        "definicao": "Fundamentação: Lei SP 10.261/1968. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, A Lei paulista 10.261/1968 é conhecida como: Considerando o tema e as normas estudadas, identifique a opção correta."
+      }
+    ],
+    "Direito Administrativo-responsabilidade-e-disciplina-funcional": [
+      {
+        "definicao": "Infração disciplinar e crime não são sinônimos, embora possam coexistir.",
+        "aplicacao": "Lei 10.261/1968, arts. 239–323: organize deveres, proibições, responsabilidades, penalidades e procedimentos disciplinares conforme texto vigente."
+      },
+      {
+        "definicao": "Uma conduta pode gerar responsabilidade civil, penal e administrativa, sujeitas a fundamentos e procedimentos distintos.",
+        "aplicacao": "No âmbito disciplinar estadual, o Estatuto prevê sanções e processo administrativo; nem toda infração gera automaticamente demissão."
+      },
+      {
+        "definicao": "“Processo administrativo disciplinar e direito de defesa” é o conceito ou procedimento deste bloco em Direito Administrativo. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
+        "aplicacao": "Ao estudar os arts. 239 a 323 da Lei 10.261/1968, distinga dever funcional, proibição, penalidade, apuração preliminar, sindicância, processo administrativo e recursos."
+      },
+      {
+        "definicao": "Fundamentação: Lei SP 10.261/1968, art. 30. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma questão objetiva do TJSP, No Estatuto paulista, reintegração, observadas as condições legais, é o reingresso do funcionário decorrente de: Assinale a alternativa correta."
+      }
+    ],
+    "Legislação Interna-estrutura-e-funcionamento-do-tjsp": [
+      {
+        "definicao": "Uma norma interna pode atribuir rotinas diferentes a cartório, magistrado e corregedoria.",
+        "aplicacao": "Na prática: normas administrativas do TJSP disciplinam organização e rotinas judiciárias em âmbito estadual."
+      },
+      {
+        "definicao": "O TJSP possui órgãos jurisdicionais que julgam processos e estruturas administrativas que organizam o funcionamento interno.",
+        "aplicacao": "Uma secretaria não adquire competência para decidir mérito só porque movimenta o processo; o servidor executa atos próprios ou determinados pela autoridade competente, sempre com registro e observância de sigilo."
+      },
+      {
+        "definicao": "O Regimento Interno é referência para organização e competências do tribunal; as Normas de Serviço da Corregedoria, Tomo I, detalham rotinas das unidades judiciárias e fiscalização.",
+        "aplicacao": "Para responder uma questão, encontre primeiro o instrumento normativo correto; não trate todo ato interno como uma \"lei\" com mesma hierarquia."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Qual diploma estadual instituiu o Plano de Cargos e Carreiras dos servidores do Tribunal de Justiça paulista?"
+      }
+    ],
+    "Legislação Interna-normas-da-corregedoria-organiza-o-dos-servi-os": [
+      {
+        "definicao": "Em questões de rotina, a distinção entre juntada, conclusão, remessa e publicação pode ser decisiva.",
+        "aplicacao": "As Normas de Serviço da Corregedoria Geral da Justiça, Tomo I, contêm regras administrativas para serviços judiciais."
+      },
+      {
+        "definicao": "No contexto desta aula, “Natureza e finalidade” corresponde à seguinte regra ou ideia central: As Normas de Serviço da Corregedoria Geral da Justiça disciplinam procedimentos de unidades judiciais e cartorárias.",
+        "aplicacao": "Na prática: como contêm pormenores operacionais e alterações periódicas, memorizar uma apostila antiga sem verificar a norma pode causar erro."
+      },
+      {
+        "definicao": "No contexto desta aula, “Estudo por fluxos” corresponde à seguinte regra ou ideia central: Separe atos de recebimento, registro, movimentação, comunicação, cumprimento e arquivamento.",
+        "aplicacao": "Para cada fluxo, identifique responsável, sistema, prazo e ressalva, sempre com o dispositivo da norma ao lado."
+      },
+      {
+        "definicao": "O quê? Quando? Em qual sistema? Com qual exceção?”.",
+        "aplicacao": "Verifique em seguida. Guarde dúvidas em uma lista de atualização normativa; não presuma que uma regra de outra edição continua vigente."
+      },
+      {
+        "definicao": "As etapas não se substituem: lançar movimentação eletrônica não é o mesmo que produzir certidão de ato que precisa ser formalmente documentado.",
+        "aplicacao": "A juntada incorpora documento ao processo; conclusão remete autos à apreciação judicial; vista e intimação dão oportunidade de atuação ou ciência conforme disciplina."
+      },
+      {
+        "definicao": "A publicidade processual tem exceções constitucionais e legais; o acesso a dados protegidos depende de autorização e perfil de usuário.",
+        "aplicacao": "As Normas da Corregedoria devem ser lidas para procedimentos de cadastro, cumprimento, registros e fiscalizações no recorte do edital."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma questão objetiva do TJSP, No edital do TJSP, as Normas da Corregedoria Geral da Justiça aparecem em qual bloco?"
+      }
+    ],
+    "Legislação Interna-comunica-o-de-atos-e-movimenta-o-cartor-ria": [
+      {
+        "definicao": "Um expediente cartorário não substitui determinação judicial quando a lei exige decisão.",
+        "aplicacao": "Diferencie rotina administrativa de ato jurisdicional."
+      },
+      {
+        "definicao": "Citação chama pessoa a integrar o processo; intimação comunica ato ou decisão; publicação pode ser veículo de comunicação conforme sistema e norma; expedição de mandado, carta e ofício possui destinatários e formalidades próprias.",
+        "aplicacao": "No expediente cartorário, confira se a decisão determinou intimação pessoal ou por advogado, prazo, forma, identificação e certidão de cumprimento."
+      },
+      {
+        "definicao": "Uma comunicação precisa poder ser auditada: qual ato foi cumprido, por quem, em que data e com que resultado?",
+        "aplicacao": "Em processo eletrônico, o sistema registra protocolos e eventos, mas o uso da ferramenta depende da regra vigente."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, No edital do TJSP, as Normas da Corregedoria Geral da Justiça aparecem em qual bloco?"
+      }
+    ],
+    "Legislação Interna-resolu-es-e-regime-de-trabalho": [
+      {
+        "definicao": "Uma resolução institucional pode regular organização interna sem alterar direitos processuais previstos em lei.",
+        "aplicacao": "Resoluções TJSP e LC estadual 1.111/2010 integram referências normativas específicas do edital."
+      },
+      {
+        "definicao": "No contexto desta aula, “Teletrabalho: norma específica, não regra inventada” corresponde à seguinte regra ou ideia central: A Resolução TJSP 850/2021 trata do teletrabalho no âmbito do tribunal.",
+        "aplicacao": "Para estudar, separe hipóteses de adesão/autorização, metas, acompanhamento, disponibilidade e hipóteses de revisão ou desligamento, consultando a redação oficial vigente."
+      },
+      {
+        "definicao": "No contexto desta aula, “eproc, cargos e regimento” corresponde à seguinte regra ou ideia central: A Resolução TJSP 963/2025 disciplina matéria relativa ao eproc e integra as normas indicadas para o concurso 2026.",
+        "aplicacao": "A LC 1.111/2010 trata da estrutura de cargos e carreiras."
+      },
+      {
+        "definicao": "A implantação e o uso de sistemas de tramitação eletrônica exigem atenção ao papel do usuário, registro de movimentação, juntada de peças, intimação e regras de acesso.",
+        "aplicacao": "Ao estudar a Resolução TJSP 963/2025 e as Normas de Serviço pertinentes, diferencie a ferramenta tecnológica das regras jurídicas de competência, prazo, segurança e sigilo: clicar no sistema não torna um ato automaticamente válido."
+      },
+      {
+        "definicao": "Teletrabalho não significa ausência de controle de produtividade, vínculo com a unidade ou deveres de sigilo.",
+        "aplicacao": "Ao estudar as resoluções do TJSP aplicáveis, separe requisitos para autorização, responsabilidades de chefia e servidor, acompanhamento e hipóteses de alteração ou cessação."
+      },
+      {
+        "definicao": "A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, Qual norma regulamenta o teletrabalho no âmbito do TJSP, conforme o edital?"
+      }
+    ],
+    "Atualidades e Inclusão-estatuto-da-pessoa-com-defici-ncia-princ-pios": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Lei 13.146/2015 utiliza abordagem de direitos para assegurar igualdade de oportunidades e participação social."
+      },
+      {
+        "definicao": "Isso é diferente de uma definição restrita a diagnóstico médico.",
+        "aplicacao": "A avaliação biopsicossocial, quando necessária, considera fatores corporais, socioambientais, atividades e participação, em equipe competente."
+      },
+      {
+        "definicao": "Acessibilidade é condição de alcance e utilização com segurança e autonomia; desenho universal busca conceber produtos, serviços e ambientes para utilização ampla desde o planejamento; adaptação razoável ajusta situações concretas sem ônus desproporcional/indevido.",
+        "aplicacao": "Veja definições dos arts. 2º e 3º da Lei 13.146/2015."
+      },
+      {
+        "definicao": "Fundamentação: Lei 13.146/2015. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, A prioridade no atendimento de pessoas com deficiência é tratada no Estatuto como: Com base na legislação pertinente, assinale a opção correta."
+      }
+    ],
+    "Atualidades e Inclusão-trabalho-e-inclus-o-da-pessoa-com-defici-ncia": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Leia arts. 34–38 da Lei 13.146/2015, incluindo vedação de discriminação e promoção de condições justas."
+      },
+      {
+        "definicao": "É incompatível com a ideia de excluir automaticamente pessoa com deficiência sob justificativa genérica de incapacidade.",
+        "aplicacao": "A LBI, arts. 34 a 38, assegura direito ao trabalho de escolha e aceitação em ambiente acessível e inclusivo, em igualdade de oportunidades."
+      },
+      {
+        "definicao": "Uma empresa divulga vaga e exige entrevista exclusivamente em sala inacessível, embora possa oferecer ambiente adequado sem ônus desproporcional.",
+        "aplicacao": "Distinga reserva legal de vagas, condições acessíveis de trabalho e obrigação de não discriminar: são instrumentos com regras próprias."
+      },
+      {
+        "definicao": "A análise precisa identificar a barreira e a adaptação possível, sem presumir que deficiência implica incapacidade profissional.",
+        "aplicacao": "Pense em um processo seletivo realizado por formulário digital inacessível: a barreira tecnológica pode causar discriminação indireta, ainda que o anúncio da vaga declare igualdade."
+      },
+      {
+        "definicao": "Fundamentação: Lei 13.146/2015, art. 9º. A alternativa correta corresponde à norma ou conceito mencionado.",
+        "aplicacao": "Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Segundo o Estatuto, a deficiência, por si só, afeta a plena capacidade civil da pessoa?"
+      }
+    ],
+    "Atualidades e Inclusão-atualidades-leitura-cr-tica-de-not-cias": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Para cada notícia, registre data, fonte, acontecimento, consequências e vocabulário."
+      },
+      {
+        "definicao": "Uma publicação viral sem fonte primária não equivale a decisão oficial.",
+        "aplicacao": "\"A medida entrou em vigor\" é afirmação diferente de \"a proposta foi apresentada\" ou \"foi aprovada em uma das casas\"."
+      },
+      {
+        "definicao": "Quando o tema é inflação, diferencie aumento do nível geral de preços de redução do ritmo de crescimento dos preços.",
+        "aplicacao": "Quando é eleição, diferencie votação, apuração, diplomação e posse."
+      },
+      {
+        "definicao": "Atualizações devem indicar a data em que a fonte foi conferida; uma notícia antiga sem contextualização não representa todo o período exigido.",
+        "aplicacao": "Em cada acontecimento, responda: o que ocorreu, quando, onde, quem participou, qual instituição publicou o dado e o que mudou depois?"
+      }
+    ],
+    "Redação-estrutura-do-texto-dissertativo-argumentativo": [
+      {
+        "definicao": "Redação exige tese clara, desenvolvimento com argumentos e conclusão coesa, adequados ao tema proposto.",
+        "aplicacao": "Na prática: introdução apresenta recorte e ponto de vista; desenvolvimento explica relações de causa, consequência, comparação ou exemplificação; conclusão retoma a tese e fecha o raciocínio."
+      },
+      {
+        "definicao": "Cada parágrafo precisa acrescentar uma informação ou inferência — repetição da mesma tese não é desenvolvimento.",
+        "aplicacao": "Exemplo de tema \"Desafios do atendimento público digital\": introdução apresenta contexto e tese; primeiro desenvolvimento analisa expansão do acesso; segundo demonstra riscos de exclusão; conclusão articula os dois argumentos."
+      },
+      {
+        "definicao": "No contexto desta aula, “Exemplo de parágrafo com evidência e análise” corresponde à seguinte regra ou ideia central: Afirmação: \"A digitalização pode reduzir deslocamentos desnecessários.\" Justificativa: \"Ao permitir solicitação e consulta remotas, amplia acesso de cidadãos distantes das unidades.\" Limite: \"Entretanto, usuários com barreiras digitais precisam de atendimento assistido.\" O parágrafo se completa ao relacionar fatos e tese; conectivos isolados não substituem explicação.",
+        "aplicacao": "Na prática, ao estudar “Exemplo de parágrafo com evidência e análise”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+      }
+    ],
+    "Redação-planejamento-e-repert-rio": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Argumento 1: infraestrutura insuficiente; argumento 2: letramento digital limitado; conclusão articula ambos."
+      },
+      {
+        "definicao": "Uma tese vaga como “é preciso melhorar tudo” não oferece critérios para os parágrafos.",
+        "aplicacao": "Copie o tema em uma frase e destaque seu recorte."
+      },
+      {
+        "definicao": "Referências históricas, dados e situações sociais só são úteis quando ligadas à tese.",
+        "aplicacao": "Escreva “referência → relação com o tema → consequência para o argumento”."
+      },
+      {
+        "definicao": "No contexto desta aula, “Planejamento enxuto e revisão” corresponde à seguinte regra ou ideia central: Em rascunho: tema, tese em uma frase, argumento 1, argumento 2 e fechamento.",
+        "aplicacao": "Em rascunho: tema, tese em uma frase, argumento 1, argumento 2 e fechamento."
+      },
+      {
+        "definicao": "Tema é o assunto proposto; recorte é a questão específica que será discutida; tese é a posição defendida.",
+        "aplicacao": "Para \"A importância da leitura\", um recorte viável é \"Como a leitura crítica contribui para a participação social?\"; tese: \"A leitura crítica fortalece a autonomia, mas exige condições de acesso e formação.\" Sem recorte, o texto pode virar lista dispersa de benefícios."
+      },
+      {
+        "definicao": "No contexto desta aula, “Repertório pertinente não é citação decorativa” corresponde à seguinte regra ou ideia central: Dados, leis, fatos históricos e exemplos podem sustentar um argumento desde que sejam verdadeiros e relacionados à tese.",
+        "aplicacao": "Se não souber o número exato, formule argumento qualitativo verificável."
+      }
+    ],
+    "Redação-coes-o-e-progress-o-dos-par-grafos": [
+      {
+        "definicao": "“O acesso é desigual. Além disso, a formação limitada reduz o aproveitamento das ferramentas.”",
+        "aplicacao": "Use conectores conforme a relação real entre ideias: além disso acrescenta; entretanto contrapõe; portanto conclui."
+      },
+      {
+        "definicao": "O segundo parágrafo de desenvolvimento deve avançar, e não parafrasear o primeiro.",
+        "aplicacao": "Exemplo: D1 \"atendimento digital amplia eficiência\"; D2 \"barreiras de conectividade limitam universalização\"."
+      },
+      {
+        "definicao": "No contexto desta aula, “Retomadas que eliminam repetição” corresponde à seguinte regra ou ideia central: Em vez de repetir \"serviços públicos digitais\" quatro vezes, use \"essas ferramentas\", \"a modalidade eletrônica\" ou \"tais procedimentos\", desde que o referente esteja claro.",
+        "aplicacao": "Referências vagas como \"isso\", quando podem apontar para várias frases anteriores, prejudicam a coesão."
+      }
+    ],
+    "Redação-revis-o-gramatical-e-clareza": [
+      {
+        "definicao": "Troque “isso é ruim para todos” por descrição objetiva do efeito discutido.",
+        "aplicacao": "Uma boa revisão detecta problemas de concordância, regência, pontuação, repetição, paralelismo e inadequação de registro."
+      },
+      {
+        "definicao": "“Checklist de correção que encontra erros reais” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Em \"A análise levou à conclusão\", o acento decorre da contração de preposição com artigo."
+      },
+      {
+        "definicao": "Uma frase mais curta pode ser melhor quando preserva todas as relações relevantes; não suprima justificativas necessárias.",
+        "aplicacao": "Substitua \"as coisas estão ruins\" por afirmação específica, como \"a demora no atendimento dificulta o acesso ao serviço\"."
+      }
+    ],
+    "Redação-treino-cronometrado-e-autoavalia-o": [
+      {
+        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
+        "aplicacao": "Simule o tempo e as condições do edital. Após escrever, avalie atendimento ao tema, tese, organização, coesão, norma-padrão e consistência argumentativa."
+      },
+      {
+        "definicao": "“Treino de cinco horas e distribuição de energia” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
+        "aplicacao": "Em um treino, reserve tempo para leitura do tema, planejamento, produção do texto, revisão e conferência das alternativas; registre o tempo gasto em cada fase para calibrar sua estratégia pessoal."
+      },
+      {
+        "definicao": "No contexto desta aula, “Autoavaliação por critérios observáveis” corresponde à seguinte regra ou ideia central: Após escrever, avalie aderência ao tema, tese, pertinência dos argumentos, coesão entre parágrafos e domínio da norma-padrão.",
+        "aplicacao": "Anote um erro recorrente com exemplo retirado do próprio texto e reescreva o trecho."
+      },
+      {
+        "definicao": "Esta grade é uma ferramenta didática; a pontuação oficial segue os critérios do edital.",
+        "aplicacao": "Escolha um tema de interesse público e cronometre: 10 minutos de leitura e definição da tese; 10 minutos para ordenar dois argumentos; 35 a 50 minutos para redigir; 10 a 15 minutos para revisar."
+      }
+    ]
+  }
+}

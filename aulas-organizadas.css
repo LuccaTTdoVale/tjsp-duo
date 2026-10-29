@@ -56,3 +56,16 @@ mark.tj-focus{display:inline!important;border-radius:4px;padding:1px 3px!importa
 #exercise.tj-next-disabled{opacity:.68;cursor:not-allowed;pointer-events:none;background:#f4f4f5!important;color:#525866!important;border:1px solid #d7dbe2!important}
 #exercise{max-width:100%;line-height:1.5;text-align:center;white-space:normal}
 @media(max-width:790px){.tj-legal-title{margin-top:16px}.tj-teaching-legend{max-height:none}.tj-legend-list{gap:12px}}
+
+
+/* V13 — dois pilares didáticos em todos os conceitos. */
+.tj-pillars{display:grid;grid-template-columns:minmax(0,1fr);gap:11px;margin:15px 0 7px}
+.tj-pillars-unavailable{font-size:13px;color:#6b1420;background:#fff3f4;padding:14px;border:1px solid #d8a1a6;border-radius:10px}
+.tj-pillar{padding:15px 17px;border-radius:13px;border:1px solid #e0e2e6;background:#fff!important;border-left:4px solid #b50913;color:#17191f!important}
+.tj-application{border-left-color:#464b55;background:#f7f7f8!important}
+.tj-pillar h3{font-size:15px!important;font-weight:850!important;color:#17191f!important;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px!important}
+.tj-pillar h3 small{font-size:11px!important;font-weight:700!important;color:#626b79!important;margin-left:auto}
+.tj-pillar .tj-pillar-step{flex:0 0 auto;display:inline-grid;place-items:center;border-radius:8px;background:#b50913!important;color:#fff!important;padding:5px 7px;font-size:11px!important}
+.tj-application .tj-pillar-step{background:#373b43!important}
+.tj-pillar p{font-size:14px!important;line-height:1.75!important;color:#252a33!important;margin:0!important}
+@media(max-width:790px){.tj-pillars{margin:12px 0 7px}.tj-pillar{padding:14px}.tj-pillar h3 small{margin-left:0;width:100%;padding-left:31px}}

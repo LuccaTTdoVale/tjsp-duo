@@ -212,7 +212,25 @@ function sidebarFor(markers,terms){
  const grammar=markers.some(m=>/Sujeito|predicado/i.test(m.rotulo))?'<p class="tj-grammar-tip"><b>Compare:</b> sujeito = “A reunião”; predicado = “começou às 9h”. O verbo “começou” é o núcleo verbal; “às 9h” indica tempo.</p>':'';
  return `<aside class="tj-teaching-legend" aria-label="Explicações dos destaques">${vis}${grammar}${law}</aside>`;
 }
-function layoutForLesson(l,structure,glossary){
+let pillarPromise=null;
+function getPillarData(){
+ if(!pillarPromise)pillarPromise=fetch('./pilares-conceitos.json?v=13').then(r=>{
+   if(!r.ok)throw Error('Definições e exemplos indisponíveis');return r.json();
+ }).catch(error=>{console.warn('TJSP Duo: não foi possível baixar os dois pilares',error);return {lessons:{}}});
+ return pillarPromise;
+}
+function pillarCardsFor(group,lesson,index,all){
+ const pair=all?.lessons?.[lesson.id]?.[index];
+ if(!pair||typeof pair.definicao!=='string'||typeof pair.aplicacao!=='string'){
+   return `<div class="tj-pillars tj-pillars-unavailable" role="status">Definição e exemplo não disponíveis neste momento. Recarregue a página para recuperar o material explicativo.</div>`;
+ }
+ const def=escapeHtml(pair.definicao),use=escapeHtml(pair.aplicacao);
+ return `<div class="tj-pillars" aria-label="Definição e aplicação do conceito">
+  <div class="tj-pillar tj-definition"><h3><span class="tj-pillar-step">01</span> Definição <small>O que é?</small></h3><p>${def}</p></div>
+  <div class="tj-pillar tj-application"><h3><span class="tj-pillar-step">02</span> Contextualização / Exemplificação <small>Como se aplica?</small></h3><p>${use}</p></div>
+ </div>`;
+}
+function layoutForLesson(l,structure,glossary,pillars){
  const groups=structure?.lessons?.[l.id]?.blocos;
  const arranged=Array.isArray(groups)&&groups.length?groups:l.sections.map((pair,i)=>({titulo:lessonHeading(pair[0]),itens:[i]}));
  const indexed=new Set();
@@ -232,15 +250,15 @@ function layoutForLesson(l,structure,glossary){
    const shown=paintTeachingText(text,focusedIndex===idx?markers:[],terms);
    return `<section class="tj-teaching-part${deep?' tj-depth':''}">${heading?`<h3>${heading}</h3>`:''}<p>${shown}</p></section>`;
   }).join('');
-  return `<section class="tj-teaching-group"><header class="tj-teaching-head"><span class="tj-teaching-number">Conceito ${gidx+1} de ${arranged.length}</span><h2>${paintTeachingText(group.titulo||l.title,[],terms)}</h2></header><div class="tj-teaching-columns${sidebar?'':' no-legend'}"><div class="tj-teaching-main">${inner}</div>${sidebar}</div></section>`;
+  return `<section class="tj-teaching-group"><header class="tj-teaching-head"><span class="tj-teaching-number">Conceito ${gidx+1} de ${arranged.length}</span><h2>${paintTeachingText(group.titulo||l.title,[],terms)}</h2></header><div class="tj-teaching-columns${sidebar?'':' no-legend'}"><div class="tj-teaching-main">${pillarCardsFor(group,l,gidx,pillars)}${inner}</div>${sidebar}</div></section>`;
  }).join('')}</div>`;
 }
 async function populateTeachingLayout(l,visit){
  const host=$('lessonSections');if(!host)return;
- const [structure,glossary]=await Promise.all([getTeachingStructure(),getLegalGlossary()]);
+ const [structure,glossary,pillars]=await Promise.all([getTeachingStructure(),getLegalGlossary(),getPillarData()]);
  if(visit!==lessonVisit||active?.id!==l.id)return;
- try{host.innerHTML=layoutForLesson(l,structure,glossary);host.removeAttribute('aria-busy');}
- catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null,glossary);host.removeAttribute('aria-busy');}
+ try{host.innerHTML=layoutForLesson(l,structure,glossary,pillars);host.removeAttribute('aria-busy');}
+ catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null,glossary,pillars);host.removeAttribute('aria-busy');}
 }
 
 async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}

@@ -1,0 +1,46 @@
+/* TJSP Duo - paleta unificada v4. Carregada por ultimo em TODAS as telas. */
+:root{color-scheme:light;--tj-red:#b50913;--tj-red-hover:#93000a;--tj-red-soft:#fff2f3;--tj-text:#17191f;--tj-muted:#606a78;--tj-border:#e3e6ec;--tj-bg:#fafafa;--tj-card:#fff;--accent:#b50913;--accent-strong:#93000a;--text:#17191f;--muted:#606a78;--edge:#e3e6ec;--paper:#fff;--soft:#fafafa}
+html,body{color:var(--tj-text)!important;background:var(--tj-bg)!important;background-image:none!important}
+body,.app,.wrap,main,.layout,.page{background-image:none!important}
+:where(.panel,.hero,.heroart,.stat,.substat,.leader,.profileBox,.authCard,.qarea,.qhead,.qtop,.reviewitem,.option,.sourcecard,.palette,.goalEdit,.weekgraph,.kpi,.tile,.lesson-section,.example,.visualCustom,.formula,.diagram>div,.checkQuestion,.checkOpt,.notice,.smalltag,.subjects,.subject-card,.question-card,.result,.summary,.ex,.answer,.choice,.box){background-color:#fff!important;background-image:none!important;color:var(--tj-text)!important;border-color:var(--tj-border)!important}
+:where(.panel,.hero,.heroart,.stat,.leader,.profileBox,.authCard,.reviewitem,.tile,.lesson-section,.example,.visualCustom){box-shadow:0 5px 24px rgba(17,24,39,.055)!important}
+:where(.panel,.hero,.tile,.stat,.leader,.reviewitem,.qarea,.visualCustom,.lesson-section) :where(h1,h2,h3,h4,p,strong,b,span,small,li,label){color:inherit}
+:where(h1,h2,h3,h4,.subhead,.stat b,.leaderMain,.leaderBig,.profileBox strong,.tile strong,.reviewitem strong,.checkQuestion strong){color:var(--tj-text)!important}
+:where(.helper,.muted,.dim,.meta,.qmeta,.topicline,.footer,.footnote,.stat span,.hero p,.heroart small,.tile small,.tileArrow,.reviewlabel,.authFooter,footer){color:var(--tj-muted)!important}
+:where(.eyebrow,.kicker,.brand strong,.brand b,.brand>a,.here){color:var(--tj-red)!important}
+.hero,.heroart{background:#fff!important;background-image:none!important}
+.heroart .big,.heroart .big strong{color:var(--tj-red)!important}
+.heroart small{color:var(--tj-muted)!important}
+:where(.brandicon,.authIcon,.duoSideMark,.duoMenuBtn){background:var(--tj-red)!important;background-image:none!important;color:#fff!important}
+:where(.btn,.btn.on,.countchips button.on,.pal button.on,.palette button.on,.qnav button.on,.button.primary){background:var(--tj-red)!important;color:#fff!important;border-color:var(--tj-red)!important}
+:where(.btn,.countchips button,.pal button,.palette button,.option,.tile){transition:background-color .18s,border-color .18s,transform .18s,box-shadow .18s}
+:where(.btn,.button.primary):hover{background:var(--tj-red-hover)!important;color:#fff!important}
+:where(.btn.secondary,.btnoutline,.btnbare,.navlink,.countchips button:not(.on),.palette button:not(.on),.smalltag){background:#fff!important;color:var(--tj-red)!important;border:1px solid var(--tj-border)!important}
+:where(.btn.secondary,.btnoutline,.btnbare,.navlink,.countchips button:not(.on)):hover{background:var(--tj-red-soft)!important}
+:where(.control,input,textarea,select){background:#fff!important;color:var(--tj-text)!important;border-color:#d6dbe3!important}
+:where(input,textarea)::placeholder{color:#8792a0!important}
+:where(.bar,.progress,.meter,.dayBar,.ring){background:#ebedf1!important;background-image:none!important}
+:where(.bar>*,.progress i,.progressbar>*,.meter>*,.dayBar>*,.dayCol .done,.weekgraph .on){background:var(--tj-red)!important;background-image:none!important}
+.ring{border-color:#e5e9ee!important}
+:where(.notice,.notice.warn){background:#fff3f4!important;color:#68252a!important;border:1px solid #f3d4d7!important}
+:where(.notice,.notice.warn) *{color:inherit!important}
+:where(.tile,.option,.choice,.checkOpt,.reviewitem,.stat){background:#fff!important;color:var(--tj-text)!important;border-color:var(--tj-border)!important}
+:where(.option.selected,.option.sel,.choice.selected,.checkOpt.selected,.pal .on){background:#fff1f2!important;color:var(--tj-red)!important;border-color:var(--tj-red)!important}
+:where(.option.correct,.option.ok,.reviewitem.ok){background:#f1faf4!important;border-color:#3b9b68!important}
+:where(.option.incorrect,.option.bad,.reviewitem.bad){background:#fff1f2!important;border-color:#be2837!important}
+.lesson-section{border-left:4px solid var(--tj-red)!important}
+.example,.visualCustom,.formula,.diagram>div{background:#fff!important;color:var(--tj-text)!important;border-color:var(--tj-border)!important}
+:where(.example,.lesson-section,.visualCustom,.diagram) :where(h3,strong,b,p,li,small,span){color:var(--tj-text)!important}
+.formula{border:1px dashed #b95058!important}
+.diagram strong,.tileArrow,.chip{color:var(--tj-red)!important}
+.chip{background:#fff2f3!important;border:1px solid #edc6ca!important}
+.percentGrid span{background:#e9ecf1!important}.percentGrid span.filled{background:var(--tj-red)!important}
+.visualCustom :where(td,th){background:#fff!important;border-color:#e1e4e9!important;color:var(--tj-text)!important}
+.checkOpt{background:#fff!important;color:var(--tj-text)!important;border:1px solid var(--tj-border)!important}
+.checkOpt:hover{background:#fff1f2!important;border-color:var(--tj-red)!important}
+.top,.duoSide{background:#fff!important;border-color:#e7e9ed!important}
+.duoSideLinks a[aria-current=page]{background:#fff1f2!important;color:var(--tj-red)!important}
+.authGate,.bootCover{background:#fafafa!important;background-image:none!important;color:var(--tj-text)!important}
+:where(a,.navlink){color:var(--tj-red)}
+:where(button,input,select,a):focus-visible{outline:3px solid #cc6370!important;outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}

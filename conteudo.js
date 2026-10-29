@@ -39,6 +39,7 @@ async function populatePractice(l,visit){
  host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',()=>{
  const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=list[i],fb=host.querySelector('#checkFeedback'+i);if(!fb||btn.disabled)return;
  const answer=Number(q.answer),correct=chosen===answer;
+ window.TJSPDailyActivity?.recordLessonAnswer(l.id+':'+q.id);
  host.querySelectorAll('.checkOpt[data-i="'+i+'"]').forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true});
  const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
  const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta':'✕ Resposta incorreta';box.append(heading);

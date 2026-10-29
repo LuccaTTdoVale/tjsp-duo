@@ -16,3 +16,24 @@
 @media(max-width:760px){.calWrap{padding:15px 12px 60px}.calBody{grid-template-columns:1fr}.calTop{padding-left:60px}.calHero,.calCard{padding:16px}.calGrid{gap:4px}.day{min-height:56px;padding:6px 4px;border-radius:8px}.day small{font-size:9px}}
 /* Cartão no Painel */
 #dailyStudyPlan .dailyTasks{display:grid;gap:6px;margin:16px 0}#dailyStudyPlan .dailyTask{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px;border:1px solid #e4e6ec;border-radius:12px;background:#fff}#dailyStudyPlan .dailyTask strong{font-size:13px;color:#17191f}#dailyStudyPlan .dailyTask small{display:block;color:#697282;font-size:11px;margin-top:4px}#dailyStudyPlan .dailyTask a{color:#b50913;font-weight:800;font-size:12px;white-space:nowrap}#dailyStudyPlan .dailyGo{display:inline-block;padding:12px 16px;background:#b50913;color:#fff!important;border-radius:11px;font-weight:800;text-decoration:none}
+
+/* V8 — Lista objetiva no Painel e acompanhamento automático sem verdes */
+.duoDailyProgress{margin:16px 0;padding:16px;border:1px solid #e3e6eb;border-radius:13px;background:#fff}
+.duoDailyProgress h3{font-size:16px;margin:0 0 6px;color:#17191f}
+.duoActivityRow{display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:13px;color:#17191f;margin:10px 0 5px}
+.duoProgressTrack{height:8px;background:#e9eaed;border-radius:100px;overflow:hidden}
+.duoProgressTrack i{display:block;background:#b50913;height:100%;border-radius:100px}
+.duoActivityStatus{font-size:12px;color:#a60913!important;font-weight:700;margin:13px 0 0}
+.duoAutoStatus{padding:16px;border:1px solid #e3e6eb;background:#fafafa;border-radius:13px;margin:14px 0}
+.duoAutoStatus strong{display:block;font-size:17px;color:#17191f;margin-bottom:9px}
+.duoAutoStatus div{font-size:13px;color:#17191f;margin-bottom:7px}
+.duoAutoStatus small{font-size:11px;color:#656d79;line-height:1.5;display:block}
+.duoAutoStatus.st-done{background:#fff0f1;border-color:#e6adb4}
+.duoAutoStatus.st-done strong{color:#b50913}
+.duoAutoStatus.st-missed{border-color:#b50913}
+.day.st-done{box-shadow:inset 0 -4px 0 #b50913}
+.day.st-done small{color:#ae0510;font-weight:800}
+.day.st-missed{background:#f5f5f6;color:#707780}
+.day.st-missed small{color:#a50c14;font-weight:750}
+.duoTaskMarker{color:#b50913;font-weight:900;margin:2px 5px;font-size:20px}
+.taskText strong{font-size:14px;color:#17191f}

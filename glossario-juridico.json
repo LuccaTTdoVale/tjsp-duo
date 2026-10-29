@@ -1,0 +1,1288 @@
+{
+  "versao": 12,
+  "nota": "Vocabulário didático simplificado; o contexto e a lei vigente prevalecem. Termos só são marcados nas aulas jurídicas em que aparecem literalmente.",
+  "fontes": [
+    "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario",
+    "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+    "https://www.cnj.jus.br/cnj-servico-saiba-a-diferenca-entre-sentenca-decisao-e-despacho/",
+    "https://www.cnj.jus.br/glossario-juridico-esta-disponivel-na-pagina-do-cnj/"
+  ],
+  "termos": [
+    {
+      "termo": "Ação penal",
+      "definicao": "Processo judicial voltado a apurar uma acusação criminal e obter a aplicação da lei penal.",
+      "exemplo": "O Ministério Público pode propor ação penal pública quando presentes seus requisitos.",
+      "formas": [
+        "Ação penal",
+        "ações penais"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Ação judicial",
+      "definicao": "Pedido levado à Justiça para obter uma providência ou proteger um direito.",
+      "exemplo": "Uma pessoa ajuíza ação judicial para exigir o cumprimento de obrigação.",
+      "formas": [
+        "Ação judicial",
+        "ações judiciais"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Ajuizar",
+      "definicao": "Ingressar formalmente com uma ação perante o Judiciário.",
+      "exemplo": "Ajuizar a ação é apresentar o pedido ao órgão judicial competente.",
+      "formas": [
+        "Ajuizar",
+        "ajuizamento",
+        "ajuizada",
+        "ajuizado",
+        "ajuizou"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Autos",
+      "definicao": "Conjunto de peças, documentos e registros que compõem um processo.",
+      "exemplo": "A petição foi juntada aos autos.",
+      "formas": [
+        "Autos",
+        "autos do processo"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Juntada",
+      "definicao": "Inclusão de um documento, petição ou certidão nos autos.",
+      "exemplo": "A juntada do comprovante registra o documento no processo.",
+      "formas": [
+        "Juntada",
+        "juntar aos autos",
+        "juntado aos autos"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Conclusos",
+      "definicao": "Situação em que os autos são encaminhados ao juiz para pronunciamento.",
+      "exemplo": "Autos conclusos para sentença: aguardam a apreciação do magistrado.",
+      "formas": [
+        "Conclusos",
+        "conclusão ao juiz",
+        "autos conclusos"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Remessa",
+      "definicao": "Envio de autos, documentos ou expediente de uma unidade a outra.",
+      "exemplo": "A remessa dos autos ao tribunal ocorre no andamento do recurso.",
+      "formas": [
+        "Remessa",
+        "remeter",
+        "remetidos",
+        "remetida"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Certidão",
+      "definicao": "Documento emitido por pessoa ou órgão competente que registra ou atesta determinado fato.",
+      "exemplo": "O cartório lavra certidão de que a intimação foi cumprida.",
+      "formas": [
+        "Certidão",
+        "certidões",
+        "certificar",
+        "certificação"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Cartório judicial",
+      "definicao": "Unidade responsável pela execução dos serviços de apoio e pela movimentação processual.",
+      "exemplo": "No cartório judicial, o servidor certifica atos e organiza os autos.",
+      "formas": [
+        "Cartório judicial",
+        "cartórios judiciais",
+        "secretaria judicial",
+        "ofício de justiça"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Escrivão",
+      "definicao": "Servidor responsável pela gestão dos serviços de cartório conforme a organização judiciária.",
+      "exemplo": "O escrivão supervisiona os atos da serventia.",
+      "formas": [
+        "Escrivão",
+        "escrivães",
+        "escrivã"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Serventia",
+      "definicao": "Unidade em que se realizam atividades cartorárias de apoio à Justiça.",
+      "exemplo": "A serventia recebe e movimenta o expediente.",
+      "formas": [
+        "Serventia",
+        "serventias"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Magistrado",
+      "definicao": "Juiz que exerce a função de julgar e dirigir o processo.",
+      "exemplo": "O magistrado determinou a produção de prova.",
+      "formas": [
+        "Magistrado",
+        "magistrada",
+        "magistrados",
+        "magistradas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Juízo",
+      "definicao": "Órgão judicial que exerce determinada competência; o contexto pode indicar a vara ou o juiz.",
+      "exemplo": "O juízo determinou a intimação das partes.",
+      "formas": [
+        "Juízo",
+        "juízos"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Comarca",
+      "definicao": "Divisão territorial da organização judiciária que pode abranger um ou mais municípios.",
+      "exemplo": "O processo tramita em uma vara da comarca competente.",
+      "formas": [
+        "Comarca",
+        "comarcas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Competência",
+      "definicao": "Atribuição legal de um órgão para processar e julgar determinada causa.",
+      "exemplo": "A competência pode depender da matéria e do território.",
+      "formas": [
+        "Competência",
+        "competente",
+        "incompetência"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Jurisdição",
+      "definicao": "Função do Estado de solucionar conflitos aplicando o Direito ao caso concreto.",
+      "exemplo": "O juiz exerce jurisdição nos limites legais.",
+      "formas": [
+        "Jurisdição",
+        "jurisdicional",
+        "jurisdicionais"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Lide",
+      "definicao": "Conflito de interesses submetido à apreciação judicial.",
+      "exemplo": "A lide envolve a pretensão do autor e a resistência do réu.",
+      "formas": [
+        "Lide",
+        "litígio",
+        "litígios"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Autor",
+      "definicao": "Parte que formula o pedido em ação judicial; no contexto penal, pode ter sentido específico.",
+      "exemplo": "O autor apresentou a petição inicial.",
+      "formas": [
+        "Autor",
+        "autora",
+        "autores",
+        "autoras"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Réu",
+      "definicao": "Parte contra a qual se dirige a demanda ou a acusação.",
+      "exemplo": "O réu apresentou sua defesa.",
+      "formas": [
+        "Réu",
+        "ré",
+        "réus",
+        "rés"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Demandante",
+      "definicao": "Pessoa que apresenta um pedido judicial.",
+      "exemplo": "O demandante busca a tutela de seu direito.",
+      "formas": [
+        "Demandante",
+        "demandantes"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Demandado",
+      "definicao": "Pessoa contra quem foi proposta uma demanda.",
+      "exemplo": "O demandado foi citado para integrar o processo.",
+      "formas": [
+        "Demandado",
+        "demandada",
+        "demandados",
+        "demandadas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Requerente",
+      "definicao": "Quem formula requerimento ou pedido em determinado procedimento.",
+      "exemplo": "O requerente solicitou a expedição de certidão.",
+      "formas": [
+        "Requerente",
+        "requerentes"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Requerido",
+      "definicao": "Pessoa em relação à qual se faz um pedido ou requerimento.",
+      "exemplo": "O requerido apresentou manifestação.",
+      "formas": [
+        "Requerido",
+        "requerida",
+        "requeridos",
+        "requeridas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Petição inicial",
+      "definicao": "Peça pela qual a parte apresenta a demanda ao Judiciário, com fatos, fundamentos e pedidos.",
+      "exemplo": "A petição inicial indica o pedido e a causa de pedir.",
+      "formas": [
+        "Petição inicial",
+        "petições iniciais"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Causa de pedir",
+      "definicao": "Conjunto de fatos e fundamentos jurídicos que sustentam o pedido do autor.",
+      "exemplo": "Uma cobrança pode ter como causa de pedir o não pagamento do contrato.",
+      "formas": [
+        "Causa de pedir",
+        "causas de pedir"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Pedido",
+      "definicao": "Providência solicitada ao juiz; deve ser interpretada dentro da peça processual.",
+      "exemplo": "O pedido foi de condenação ao pagamento.",
+      "formas": [
+        "Pedido",
+        "pedidos"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Contestação",
+      "definicao": "Peça de defesa na qual o réu enfrenta as alegações da ação, especialmente no processo civil.",
+      "exemplo": "A contestação apresentou preliminares e impugnou o pedido.",
+      "formas": [
+        "Contestação",
+        "contestações",
+        "contestar"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Réplica",
+      "definicao": "Manifestação do autor sobre a defesa e os documentos do réu, quando cabível.",
+      "exemplo": "Após a contestação, foi aberta oportunidade para réplica.",
+      "formas": [
+        "Réplica",
+        "réplicas"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Citação",
+      "definicao": "Ato de convocar o réu, executado ou interessado a integrar o processo; no penal, comunica formalmente a acusação.",
+      "exemplo": "Na citação civil, o réu toma conhecimento da demanda.",
+      "formas": [
+        "Citação",
+        "citações",
+        "citado",
+        "citada",
+        "citados",
+        "citadas"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Intimação",
+      "definicao": "Ato de comunicar a alguém atos ou termos processuais.",
+      "exemplo": "A intimação informa a data de uma audiência.",
+      "formas": [
+        "Intimação",
+        "intimações",
+        "intimado",
+        "intimada",
+        "intimar"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Notificação",
+      "definicao": "Comunicação formal; o significado específico depende da norma aplicável, sobretudo no processo penal.",
+      "exemplo": "Uma notificação pode comunicar dia e hora de comparecimento.",
+      "formas": [
+        "Notificação",
+        "notificações",
+        "notificar",
+        "notificado",
+        "notificada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Mandado",
+      "definicao": "Ordem formal expedida por autoridade competente para cumprimento de ato.",
+      "exemplo": "O oficial de justiça cumpriu mandado de citação.",
+      "formas": [
+        "Mandado",
+        "mandados"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Edital",
+      "definicao": "Publicação oficial para dar publicidade ou comunicar atos nas hipóteses legais.",
+      "exemplo": "A citação por edital depende dos requisitos previstos na lei.",
+      "formas": [
+        "Edital",
+        "editais"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Oficial de justiça",
+      "definicao": "Servidor incumbido de cumprir mandados e outros atos externos.",
+      "exemplo": "O oficial de justiça certificou a tentativa de citação.",
+      "formas": [
+        "Oficial de justiça",
+        "oficiais de justiça"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Carta precatória",
+      "definicao": "Instrumento pelo qual um juízo solicita a outro juízo, no país, a realização de ato processual.",
+      "exemplo": "Uma testemunha em outra comarca pode ser ouvida por carta precatória.",
+      "formas": [
+        "Carta precatória",
+        "cartas precatórias",
+        "juízo deprecante",
+        "juízo deprecado"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Carta rogatória",
+      "definicao": "Pedido de cooperação jurídica para que autoridade judiciária estrangeira pratique ato pertinente ao processo.",
+      "exemplo": "A citação no exterior pode exigir carta rogatória conforme o caso.",
+      "formas": [
+        "Carta rogatória",
+        "cartas rogatórias"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Despacho",
+      "definicao": "Pronunciamento judicial para impulsionar o processo, sem resolver questão de natureza decisória.",
+      "exemplo": "O despacho pode ordenar a intimação das partes.",
+      "formas": [
+        "Despacho",
+        "despachos"
+      ],
+      "fonte": "https://www.cnj.jus.br/cnj-servico-saiba-a-diferenca-entre-sentenca-decisao-e-despacho/"
+    },
+    {
+      "termo": "Decisão interlocutória",
+      "definicao": "Pronunciamento que resolve questão durante o processo, sem encerrar a fase cognitiva como sentença.",
+      "exemplo": "A decisão interlocutória pode apreciar um pedido de tutela provisória.",
+      "formas": [
+        "Decisão interlocutória",
+        "decisões interlocutórias"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Sentença",
+      "definicao": "Pronunciamento que, nos termos da lei processual, encerra a fase cognitiva do procedimento comum ou extingue a execução.",
+      "exemplo": "A sentença apreciou o pedido ao final da fase de conhecimento.",
+      "formas": [
+        "Sentença",
+        "sentenças"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Acórdão",
+      "definicao": "Julgamento proferido por órgão colegiado de tribunal.",
+      "exemplo": "O acórdão registra a decisão da turma julgadora.",
+      "formas": [
+        "Acórdão",
+        "acórdãos"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Mérito",
+      "definicao": "Questão central do pedido, em contraste com aspectos meramente processuais.",
+      "exemplo": "Ao julgar o mérito, o juiz decide a pretensão debatida.",
+      "formas": [
+        "Mérito",
+        "julgamento de mérito",
+        "resolução do mérito"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Trânsito em julgado",
+      "definicao": "Momento em que uma decisão se torna definitiva por não caber mais recurso contra ela.",
+      "exemplo": "Após o trânsito em julgado, a decisão alcança a definitividade nos limites legais.",
+      "formas": [
+        "Trânsito em julgado",
+        "transitada em julgado",
+        "transitado em julgado"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Recurso",
+      "definicao": "Meio processual de pedir reexame de decisão, conforme hipóteses e prazos legais.",
+      "exemplo": "A parte apresentou recurso para questionar a sentença.",
+      "formas": [
+        "Recurso",
+        "recursos",
+        "recorrer",
+        "recorrente",
+        "recorrido"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Apelação",
+      "definicao": "Recurso que, em regra, permite impugnar sentença segundo o procedimento aplicável.",
+      "exemplo": "A apelação levou ao tribunal a discussão sobre a sentença.",
+      "formas": [
+        "Apelação",
+        "apelações"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Agravo de instrumento",
+      "definicao": "Recurso cabível nas hipóteses legais contra certas decisões interlocutórias.",
+      "exemplo": "Um agravo de instrumento questionou a decisão sobre tutela provisória.",
+      "formas": [
+        "Agravo de instrumento",
+        "agravos de instrumento"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Embargos de declaração",
+      "definicao": "Recurso destinado a sanar obscuridade, contradição, omissão ou erro material, conforme a lei.",
+      "exemplo": "Os embargos de declaração apontaram omissão no acórdão.",
+      "formas": [
+        "Embargos de declaração",
+        "embargo de declaração"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Embargos à execução",
+      "definicao": "Meio de defesa do executado na execução, observados os requisitos legais.",
+      "exemplo": "O executado apresentou embargos à execução.",
+      "formas": [
+        "Embargos à execução",
+        "embargos a execução"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Preclusão",
+      "definicao": "Perda de faculdade processual pelo decurso do prazo, pelo exercício anterior ou por incompatibilidade com ato praticado.",
+      "exemplo": "A falta de impugnação no prazo pode gerar preclusão.",
+      "formas": [
+        "Preclusão",
+        "precluso",
+        "preclusiva",
+        "preclusivo"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Prazo processual",
+      "definicao": "Período estabelecido em lei ou pelo juízo para realizar determinado ato do processo.",
+      "exemplo": "A parte deve observar o prazo processual para recorrer.",
+      "formas": [
+        "Prazo processual",
+        "prazos processuais"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Tempestivo",
+      "definicao": "Praticado dentro do prazo legal.",
+      "exemplo": "O recurso tempestivo foi apresentado antes do término do prazo.",
+      "formas": [
+        "Tempestivo",
+        "tempestiva",
+        "tempestividade",
+        "intempestivo",
+        "intempestividade"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Revelia",
+      "definicao": "Situação processual ligada à ausência de contestação, com efeitos variáveis conforme o tipo de processo e a lei.",
+      "exemplo": "No processo civil, a revelia não implica automaticamente procedência do pedido.",
+      "formas": [
+        "Revelia",
+        "revel",
+        "revelia"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Litisconsórcio",
+      "definicao": "Participação de duas ou mais pessoas no mesmo polo de uma relação processual.",
+      "exemplo": "Dois autores podem litigar em litisconsórcio.",
+      "formas": [
+        "Litisconsórcio",
+        "litisconsortes",
+        "litisconsorte"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Legitimidade",
+      "definicao": "Aptidão jurídica para atuar como parte em determinada demanda, conforme os requisitos legais.",
+      "exemplo": "O processo exige legitimidade das partes.",
+      "formas": [
+        "Legitimidade",
+        "legítimo",
+        "legítima"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Interesse processual",
+      "definicao": "Necessidade e utilidade de provocar a jurisdição para obter a tutela pretendida.",
+      "exemplo": "A ação requer interesse processual nos termos da lei.",
+      "formas": [
+        "Interesse processual",
+        "interesse de agir"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Tutela provisória",
+      "definicao": "Proteção judicial concedida antes da solução definitiva, segundo requisitos legais.",
+      "exemplo": "A tutela provisória pode ser de urgência ou de evidência.",
+      "formas": [
+        "Tutela provisória",
+        "tutelas provisórias"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Tutela de urgência",
+      "definicao": "Providência provisória que exige probabilidade do direito e perigo de dano ou risco ao resultado útil.",
+      "exemplo": "Uma tutela de urgência pode proteger direito diante de risco imediato.",
+      "formas": [
+        "Tutela de urgência",
+        "tutelas de urgência"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Tutela de evidência",
+      "definicao": "Tutela provisória que pode ser concedida em hipóteses legais independentemente de perigo de dano.",
+      "exemplo": "A tutela de evidência depende de situações previstas no CPC.",
+      "formas": [
+        "Tutela de evidência",
+        "tutelas de evidência"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Liminar",
+      "definicao": "Decisão proferida no início de procedimento ou antes de determinada etapa, quando a lei permitir.",
+      "exemplo": "O juiz concedeu uma medida liminar após analisar os requisitos.",
+      "formas": [
+        "Liminar",
+        "liminares"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Ônus da prova",
+      "definicao": "Responsabilidade processual de demonstrar determinados fatos segundo a distribuição legal ou judicial.",
+      "exemplo": "O autor pode ter o ônus da prova quanto ao fato constitutivo.",
+      "formas": [
+        "Ônus da prova",
+        "ônus probatório"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Prova documental",
+      "definicao": "Documento utilizado para demonstrar fatos no processo.",
+      "exemplo": "O contrato anexado constitui prova documental.",
+      "formas": [
+        "Prova documental",
+        "provas documentais"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Prova testemunhal",
+      "definicao": "Depoimento de testemunha usado como meio de prova.",
+      "exemplo": "Uma testemunha foi ouvida na prova testemunhal.",
+      "formas": [
+        "Prova testemunhal",
+        "provas testemunhais"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Audiência",
+      "definicao": "Sessão formal para a prática de atos processuais, como conciliação, instrução ou julgamento.",
+      "exemplo": "Na audiência, o juiz ouviu as testemunhas.",
+      "formas": [
+        "Audiência",
+        "audiências"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Instrução processual",
+      "definicao": "Fase ou conjunto de atos voltados à produção e apreciação de provas.",
+      "exemplo": "A instrução processual reuniu depoimentos e documentos.",
+      "formas": [
+        "Instrução processual",
+        "instrução criminal",
+        "instrução e julgamento"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Perícia",
+      "definicao": "Exame técnico feito por profissional habilitado para esclarecer fato que exige conhecimento especializado.",
+      "exemplo": "A perícia contábil ajudou a verificar valores.",
+      "formas": [
+        "Perícia",
+        "perícias",
+        "pericial",
+        "perito",
+        "perita"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Juizado especial",
+      "definicao": "Unidade jurisdicional destinada às causas admitidas em procedimento simplificado pela legislação específica.",
+      "exemplo": "No juizado especial, a conciliação tem papel importante.",
+      "formas": [
+        "Juizado especial",
+        "juizados especiais"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Conciliação",
+      "definicao": "Tentativa de composição do conflito com auxílio de terceiro imparcial.",
+      "exemplo": "A audiência de conciliação buscou um acordo.",
+      "formas": [
+        "Conciliação",
+        "conciliar",
+        "conciliador",
+        "conciliadora"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Habeas corpus",
+      "definicao": "Ação constitucional destinada a proteger a liberdade de locomoção diante de ilegalidade ou abuso de poder.",
+      "exemplo": "O habeas corpus questionou uma prisão supostamente ilegal.",
+      "formas": [
+        "Habeas corpus",
+        "habeas-corpus"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Mandado de segurança",
+      "definicao": "Ação constitucional para proteger direito líquido e certo nas condições legais.",
+      "exemplo": "O mandado de segurança exige prova pré-constituída em regra.",
+      "formas": [
+        "Mandado de segurança",
+        "mandados de segurança"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Contraditório",
+      "definicao": "Direito de participar do processo, conhecer alegações e influenciar a decisão, com os limites e regras aplicáveis.",
+      "exemplo": "O contraditório permite manifestação sobre a prova produzida.",
+      "formas": [
+        "Contraditório",
+        "princípio do contraditório"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Ampla defesa",
+      "definicao": "Garantia de utilizar meios e recursos de defesa admitidos em Direito.",
+      "exemplo": "O acusado deve ter assegurada a ampla defesa.",
+      "formas": [
+        "Ampla defesa",
+        "direito de defesa"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Devido processo legal",
+      "definicao": "Garantia de que o poder estatal observe o procedimento e as garantias previstas na ordem jurídica.",
+      "exemplo": "A decisão deve respeitar o devido processo legal.",
+      "formas": [
+        "Devido processo legal",
+        "due process"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Presunção de inocência",
+      "definicao": "Garantia segundo a qual ninguém é considerado culpado antes do trânsito em julgado de sentença penal condenatória.",
+      "exemplo": "A presunção de inocência integra as garantias constitucionais.",
+      "formas": [
+        "Presunção de inocência",
+        "estado de inocência"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Tipicidade",
+      "definicao": "Correspondência da conduta a um tipo penal previsto em lei.",
+      "exemplo": "A tipicidade exige exame da descrição legal do crime.",
+      "formas": [
+        "Tipicidade",
+        "típico",
+        "atípico"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Dolo",
+      "definicao": "Vontade consciente relacionada à realização do tipo penal, conforme a definição aplicável.",
+      "exemplo": "Uma conduta dolosa depende da avaliação dos elementos do crime.",
+      "formas": [
+        "Dolo",
+        "doloso",
+        "dolosa"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Culpa",
+      "definicao": "Em Direito Penal, conduta que infringe dever de cuidado por imprudência, negligência ou imperícia, quando a lei prevê punição culposa.",
+      "exemplo": "Na culpa penal, o resultado não é desejado como no dolo.",
+      "formas": [
+        "Culpa",
+        "culposo",
+        "culposa"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Imprudência",
+      "definicao": "Conduta precipitada que desrespeita cuidado objetivo exigido.",
+      "exemplo": "Dirigir sem observar precaução exigida pode caracterizar imprudência.",
+      "formas": [
+        "Imprudência",
+        "imprudente"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Negligência",
+      "definicao": "Omissão de cuidado ou atenção que era exigido na situação.",
+      "exemplo": "Deixar de adotar cautela necessária pode indicar negligência.",
+      "formas": [
+        "Negligência",
+        "negligente"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Imperícia",
+      "definicao": "Falta de habilidade técnica necessária para determinada atividade.",
+      "exemplo": "Um erro por insuficiência técnica pode configurar imperícia.",
+      "formas": [
+        "Imperícia",
+        "imperito"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Peculato",
+      "definicao": "Crime funcional previsto no Código Penal, ligado à apropriação, desvio ou subtração nas hipóteses legais.",
+      "exemplo": "O estudo de peculato exige diferenciar apropriação e desvio.",
+      "formas": [
+        "Peculato",
+        "peculato-desvio",
+        "peculato-apropriação"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Concussão",
+      "definicao": "Crime em que funcionário público exige vantagem indevida em razão da função.",
+      "exemplo": "A concussão envolve exigir vantagem indevida.",
+      "formas": [
+        "Concussão",
+        "concussões"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Corrupção passiva",
+      "definicao": "Crime ligado a solicitar ou receber vantagem indevida, ou aceitar promessa dela, em razão da função.",
+      "exemplo": "Solicitar vantagem indevida pode caracterizar corrupção passiva.",
+      "formas": [
+        "Corrupção passiva",
+        "corrupções passivas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Corrupção ativa",
+      "definicao": "Crime ligado a oferecer ou prometer vantagem indevida a funcionário público para determinar ato funcional.",
+      "exemplo": "Oferecer vantagem indevida configura hipótese de corrupção ativa.",
+      "formas": [
+        "Corrupção ativa",
+        "corrupções ativas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Prevaricação",
+      "definicao": "Crime funcional de retardar, omitir ou praticar ato indevidamente para satisfazer interesse ou sentimento pessoal, conforme a lei.",
+      "exemplo": "Retardar ato por interesse pessoal pode configurar prevaricação.",
+      "formas": [
+        "Prevaricação",
+        "prevaricar"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Advocacia administrativa",
+      "definicao": "Crime funcional que consiste em patrocinar interesse privado perante a administração valendo-se da condição de funcionário público.",
+      "exemplo": "A advocacia administrativa não se confunde com o exercício regular da advocacia.",
+      "formas": [
+        "Advocacia administrativa",
+        "advocacia administrativa"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Falsidade ideológica",
+      "definicao": "Crime de omitir ou inserir declaração falsa em documento, nas condições legais, sem necessariamente falsificar sua materialidade.",
+      "exemplo": "A falsidade ideológica incide sobre conteúdo ideologicamente falso.",
+      "formas": [
+        "Falsidade ideológica",
+        "falsidade ideológica"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Fé pública",
+      "definicao": "Confiança coletiva na autenticidade de certos documentos, sinais e declarações reconhecidos pelo ordenamento.",
+      "exemplo": "A falsificação de documento pode ofender a fé pública.",
+      "formas": [
+        "Fé pública",
+        "fé pública"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Inquérito policial",
+      "definicao": "Procedimento investigativo destinado a reunir elementos sobre fato penalmente relevante e sua autoria.",
+      "exemplo": "O inquérito policial não é, por si, julgamento.",
+      "formas": [
+        "Inquérito policial",
+        "inquéritos policiais"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Denúncia",
+      "definicao": "Peça acusatória inicial apresentada pelo Ministério Público em ação penal pública.",
+      "exemplo": "O Ministério Público ofereceu denúncia após a investigação.",
+      "formas": [
+        "Denúncia",
+        "denúncias",
+        "denunciado",
+        "denunciada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Queixa-crime",
+      "definicao": "Peça acusatória inicial da ação penal privada apresentada pelo legitimado.",
+      "exemplo": "A vítima ofereceu queixa-crime no prazo legal.",
+      "formas": [
+        "Queixa-crime",
+        "queixa crime",
+        "queixas-crime"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Indiciado",
+      "definicao": "Pessoa à qual a autoridade policial atribui formalmente a condição de investigada, no âmbito do inquérito.",
+      "exemplo": "O indiciado ainda não é necessariamente réu em processo penal.",
+      "formas": [
+        "Indiciado",
+        "indiciada",
+        "indiciamento"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Imputação",
+      "definicao": "Atribuição de fato ou conduta a determinada pessoa em contexto acusatório.",
+      "exemplo": "A imputação penal descreve o fato atribuído ao acusado.",
+      "formas": [
+        "Imputação",
+        "imputações",
+        "imputado",
+        "imputada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Flagrante",
+      "definicao": "Situação de constatação de crime nas hipóteses previstas na legislação processual penal.",
+      "exemplo": "A prisão em flagrante exige requisitos previstos no CPP.",
+      "formas": [
+        "Flagrante",
+        "flagrantes"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Prisão preventiva",
+      "definicao": "Prisão cautelar ordenada judicialmente quando presentes os pressupostos e fundamentos legais.",
+      "exemplo": "A prisão preventiva não é antecipação automática de pena.",
+      "formas": [
+        "Prisão preventiva",
+        "prisões preventivas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Medida cautelar",
+      "definicao": "Providência destinada a proteger finalidade processual, observados requisitos específicos.",
+      "exemplo": "Uma medida cautelar pode ser aplicada de forma diversa da prisão.",
+      "formas": [
+        "Medida cautelar",
+        "medidas cautelares"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Absolvição",
+      "definicao": "Decisão que afasta a condenação penal, pelas razões e hipóteses legais.",
+      "exemplo": "A absolvição pode decorrer de insuficiência de provas.",
+      "formas": [
+        "Absolvição",
+        "absolvido",
+        "absolvida",
+        "absolver"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Condenação",
+      "definicao": "Decisão judicial que reconhece a responsabilidade nos termos da lei.",
+      "exemplo": "Uma condenação penal depende de prova e devido processo.",
+      "formas": [
+        "Condenação",
+        "condenações",
+        "condenado",
+        "condenada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Reincidência",
+      "definicao": "Situação jurídico-penal que ocorre nos requisitos previstos no Código Penal após condenação anterior.",
+      "exemplo": "A reincidência exige verificar os pressupostos legais.",
+      "formas": [
+        "Reincidência",
+        "reincidente"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Prescrição",
+      "definicao": "Perda da pretensão de punir, executar pena ou exigir prestação, conforme o ramo do Direito e os prazos legais.",
+      "exemplo": "A prescrição deve ser examinada segundo o tipo de pretensão.",
+      "formas": [
+        "Prescrição",
+        "prescrito",
+        "prescrita",
+        "prescricional"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Decadência",
+      "definicao": "Extinção de direito potestativo pela passagem do prazo, quando a lei assim determina.",
+      "exemplo": "O prazo decadencial pode impedir o exercício de determinado direito.",
+      "formas": [
+        "Decadência",
+        "decadencial",
+        "decadente"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Improbidade administrativa",
+      "definicao": "Prática dolosa enquadrada nas hipóteses legais da Lei de Improbidade, com requisitos próprios.",
+      "exemplo": "A caracterização de improbidade exige observar a lei vigente.",
+      "formas": [
+        "Improbidade administrativa",
+        "atos de improbidade",
+        "ato de improbidade"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Agente público",
+      "definicao": "Pessoa que exerce função estatal nas modalidades previstas em lei; o conceito varia segundo o regime.",
+      "exemplo": "Um servidor pode ser agente público.",
+      "formas": [
+        "Agente público",
+        "agentes públicos"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Ato administrativo",
+      "definicao": "Manifestação da Administração Pública destinada a produzir efeitos jurídicos segundo o regime aplicável.",
+      "exemplo": "A nomeação de servidor pode ser formalizada por ato administrativo.",
+      "formas": [
+        "Ato administrativo",
+        "atos administrativos"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Motivação",
+      "definicao": "Exposição dos fundamentos de fato e de Direito que justificam determinada decisão.",
+      "exemplo": "A motivação do ato permite fiscalizar sua legalidade.",
+      "formas": [
+        "Motivação",
+        "motivação do ato",
+        "motivado",
+        "motivada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Anulação",
+      "definicao": "Desfazimento de ato que apresenta ilegalidade, conforme os pressupostos do sistema.",
+      "exemplo": "A Administração pode anular ato ilegal nos limites aplicáveis.",
+      "formas": [
+        "Anulação",
+        "anular",
+        "anulado",
+        "anulada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Revogação",
+      "definicao": "Retirada de ato administrativo válido por razões de conveniência e oportunidade, quando cabível.",
+      "exemplo": "Revogar é diferente de anular por ilegalidade.",
+      "formas": [
+        "Revogação",
+        "revogar",
+        "revogado",
+        "revogada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Discricionariedade",
+      "definicao": "Margem de escolha legalmente permitida à Administração em determinada decisão.",
+      "exemplo": "Discricionariedade não autoriza atuação fora da lei.",
+      "formas": [
+        "Discricionariedade",
+        "discricionário",
+        "discricionária"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Homologação",
+      "definicao": "Ato de confirmação ou aprovação formal, conforme a situação jurídica.",
+      "exemplo": "A homologação judicial pode conferir efeitos a um acordo.",
+      "formas": [
+        "Homologação",
+        "homologar",
+        "homologado",
+        "homologada"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Caput",
+      "definicao": "Texto inicial de um artigo de lei, antes de parágrafos e incisos.",
+      "exemplo": "No caput do artigo está a regra geral.",
+      "formas": [
+        "Caput",
+        "caput do artigo"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Inciso",
+      "definicao": "Subdivisão numerada de um artigo, geralmente em algarismos romanos.",
+      "exemplo": "O inciso II apresenta uma hipótese específica.",
+      "formas": [
+        "Inciso",
+        "incisos"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Parágrafo único",
+      "definicao": "Parágrafo isolado dentro de um artigo que não tem outros parágrafos.",
+      "exemplo": "O parágrafo único complementa a regra do caput.",
+      "formas": [
+        "Parágrafo único",
+        "parágrafo único"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Alínea",
+      "definicao": "Subdivisão de dispositivo normativo identificada por letra.",
+      "exemplo": "A alínea b detalha uma hipótese do inciso.",
+      "formas": [
+        "Alínea",
+        "alíneas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Súmula",
+      "definicao": "Enunciado que sintetiza entendimento de tribunal sobre matéria determinada.",
+      "exemplo": "Uma súmula resume orientação jurisprudencial.",
+      "formas": [
+        "Súmula",
+        "súmulas"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Jurisprudência",
+      "definicao": "Conjunto de decisões judiciais sobre certa questão, especialmente quando refletem orientação reiterada.",
+      "exemplo": "A jurisprudência pode orientar a interpretação de lei.",
+      "formas": [
+        "Jurisprudência",
+        "jurisprudencial"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Precedente",
+      "definicao": "Decisão anterior cuja fundamentação pode orientar ou vincular julgamentos posteriores, nos limites legais.",
+      "exemplo": "O tribunal considerou precedente aplicável ao caso.",
+      "formas": [
+        "Precedente",
+        "precedentes"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Vara judicial",
+      "definicao": "Unidade jurisdicional de primeiro grau, com competência definida.",
+      "exemplo": "A vara judicial aprecia ações de sua competência.",
+      "formas": [
+        "Vara judicial",
+        "varas judiciais"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Desembargador",
+      "definicao": "Magistrado integrante de tribunal, na estrutura judiciária pertinente.",
+      "exemplo": "O desembargador participou do julgamento do recurso.",
+      "formas": [
+        "Desembargador",
+        "desembargadora",
+        "desembargadores",
+        "desembargadoras"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Órgão colegiado",
+      "definicao": "Grupo de julgadores que decide conjuntamente no tribunal.",
+      "exemplo": "Um órgão colegiado pode proferir acórdão.",
+      "formas": [
+        "Órgão colegiado",
+        "órgãos colegiados"
+      ],
+      "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    {
+      "termo": "Mandado de injunção",
+      "definicao": "Ação constitucional destinada a viabilizar direito cujo exercício é impedido por falta de norma regulamentadora, nas hipóteses legais.",
+      "exemplo": "O mandado de injunção combate omissão normativa relevante.",
+      "formas": [
+        "Mandado de injunção",
+        "mandados de injunção"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    },
+    {
+      "termo": "Habeas data",
+      "definicao": "Ação constitucional voltada a conhecer ou corrigir informações pessoais em registros abrangidos pela lei.",
+      "exemplo": "O habeas data busca acesso a informações pessoais em certas bases.",
+      "formas": [
+        "Habeas data",
+        "habeas-data"
+      ],
+      "fonte": "https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario"
+    }
+  ]
+}

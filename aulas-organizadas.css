@@ -37,3 +37,22 @@ mark.tj-focus{display:inline!important;border-radius:4px;padding:1px 3px!importa
  .tj-teaching-part p{font-size:14px!important;line-height:1.8!important}
 }
 @media(prefers-reduced-motion:reduce){.tj-teaching-group *{scroll-behavior:auto}}
+
+/* V12 — legendas como mini-aulas, vocabulário no próprio texto e navegação guiada */
+.tj-legend-list{gap:17px}
+.tj-legend-list li{grid-template-columns:15px minmax(0,1fr)}
+.tj-legend-list b{font-size:13px!important;line-height:1.4}
+.tj-legend-list .tj-meaning{display:block;color:#343b47!important;line-height:1.65;font-size:12px;margin:5px 0}
+.tj-legend-list .tj-quote{color:#667180!important;font-size:11px;margin-top:4px}
+.tj-legal-title{margin:22px 0 8px;padding-top:17px;border-top:1px solid #d9dce1;color:#a7101b;font-weight:900;font-size:12px;letter-spacing:.025em}
+.tj-legal-list{margin:0;display:grid;gap:13px}
+.tj-legal-item{padding:12px;border-radius:9px;background:#fff;border:1px solid #e2e5eb}
+.tj-legal-item dt{font-weight:850;color:#96101c;font-size:13px;margin:0 0 5px}
+.tj-legal-item dd{margin:0;color:#242936;line-height:1.6;font-size:12px}
+.tj-legal-item dd small{display:block;font-size:11px;line-height:1.6;color:#4b5563;margin-top:6px}
+.tj-focus.tj-law{background:#f6d9df!important;border-bottom:2px solid #a91320!important;color:#83121e!important;cursor:help}
+.tj-grammar-tip{font-size:12px;line-height:1.6;color:#232a34!important;background:#fff;border-left:3px solid #b50913;padding:9px;margin-top:16px;border-radius:4px}
+.tj-legal-source{font-size:11px;margin-top:12px}.tj-legal-source a{color:#a7101b!important;font-weight:800}
+#exercise.tj-next-disabled{opacity:.68;cursor:not-allowed;pointer-events:none;background:#f4f4f5!important;color:#525866!important;border:1px solid #d7dbe2!important}
+#exercise{max-width:100%;line-height:1.5;text-align:center;white-space:normal}
+@media(max-width:790px){.tj-legal-title{margin-top:16px}.tj-teaching-legend{max-height:none}.tj-legend-list{gap:12px}}

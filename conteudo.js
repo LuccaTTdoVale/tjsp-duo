@@ -97,64 +97,150 @@ async function populateNotebook(l,visit){
 }
 
 
-/* V11 — organização por conceito com grifos literais, sem alterar aulas.json. */
-let teachingStructurePromise=null;
+/* V12: blocos didáticos com legendas DEFINIDAS e juridiquês real no texto. */
+let teachingStructurePromise=null, legalGlossaryPromise=null;
+const lawSubjects=new Set(['Direito Penal','Processo Penal','Processo Civil','Direito Constitucional','Direito Administrativo','Legislação Interna']);
 function getTeachingStructure(){
- if(!teachingStructurePromise)teachingStructurePromise=fetch('./estrutura-aulas.json?v=11')
+ if(!teachingStructurePromise)teachingStructurePromise=fetch('./estrutura-aulas.json?v=12')
   .then(r=>{if(!r.ok)throw Error('Organização de aulas indisponível');return r.json()})
   .catch(error=>{console.warn('TJSP Duo: usando ordem original',error);return null});
  return teachingStructurePromise;
 }
-function lessonHeading(text){return String(text).replace(/^\s*\d+\s*[.)]\s*/, '').replace(/^Aprofundamento(?:\s+dirigido\s+\d+)?\s*[—–:-]\s*/i,'').trim();}
-function emphasizeExact(text,items){
- const original=String(text??'');const matches=[];
- for(const item of items||[]){
-  if(!item||!['blue','amber','red'].includes(item.cor)||!item.trecho)continue;
-  const start=original.indexOf(item.trecho);if(start<0)continue;
-  matches.push({start,end:start+item.trecho.length,item});
- }
- matches.sort((a,b)=>a.start-b.start||b.end-a.end);
- let html='',pos=0;
- for(const part of matches){
-  if(part.start<pos)continue;
-  html+=escapeHtml(original.slice(pos,part.start));
-  html+=`<mark class="tj-focus tj-${part.item.cor}" title="${escapeHtml(part.item.rotulo)}">${escapeHtml(original.slice(part.start,part.end))}</mark>`;
-  pos=part.end;
- }
- return html+escapeHtml(original.slice(pos));
+function getLegalGlossary(){
+ if(!legalGlossaryPromise)legalGlossaryPromise=fetch('./glossario-juridico.json?v=12')
+  .then(r=>{if(!r.ok)throw Error('Vocabulário jurídico indisponível');return r.json()})
+  .catch(error=>{console.warn('TJSP Duo: glossário indisponível',error);return {termos:[]}});
+ return legalGlossaryPromise;
 }
-function layoutForLesson(l,structure){
- const groups=structure?.lessons?.[l.id]?.blocos;
- if(!Array.isArray(groups)||!groups.length){
-  return l.sections.map(([head,text])=>`<section class="lesson-section"><h3>${escapeHtml(head)}</h3><p>${escapeHtml(text)}</p></section>`).join('');
+function lessonHeading(text){return String(text).replace(/^\s*\d+\s*[.)]\s*/, '').replace(/^Aprofundamento(?:\s+dirigido\s+\d+)?\s*[—–:-]\s*/i,'').trim();}
+// Cada categoria visual explica O QUE É, não apenas dá o nome.
+const legendExplanations={
+ 'Dispositivo ou referência normativa citada':'É a parte identificável de uma lei ou norma (artigo, inciso, parágrafo etc.) usada como fundamento. Leia a regra completa e as exceções.',
+ 'Conceito tratado neste bloco':'É a ideia ou definição principal do trecho. Identifique o significado e o que diferencia esse conceito de outros semelhantes.',
+ 'Condição, exceção ou relação lógica':'Condição é o requisito necessário; exceção é o caso em que a regra geral muda; relação lógica conecta hipóteses e consequências.',
+ 'Percentual presente no exemplo':'Porcentagem representa uma parte de cada 100: 25% significa 25 de 100. Confira sempre qual quantidade é o total.',
+ 'Prazo ou duração citada no texto':'É o intervalo de tempo relacionado à regra ou ao exemplo. Verifique o evento inicial, a unidade e a forma de contagem.',
+ 'Percentual aplicado':'É a taxa usada no cálculo, escrita como razão de 100: 12% = 0,12.',
+ 'Base de cálculo':'É o valor total sobre o qual se aplica a taxa percentual. Exemplo: 12% de 250 → a base é 250.',
+ 'Parte encontrada':'É o resultado da operação de porcentagem. Exemplo: 12% de 250 = 30.',
+ 'Sujeito (quem começou)':'Sujeito é o termo sobre o qual se declara algo. Em “A reunião começou às 9h”, o sujeito é “A reunião”.',
+ 'Núcleo verbal do predicado':'Predicado é aquilo que se declara sobre o sujeito. Em “A reunião começou às 9h”, o predicado é “começou às 9h”, e “começou” é seu núcleo verbal.',
+ 'Informação de tempo':'Indica quando ocorreu a ação. “Às 9h” é expressão de tempo (adjunto adverbial de tempo) no exemplo.',
+ 'Concessão: obstáculo apresentado':'Concessão apresenta um fato contrário à expectativa que não impede o resultado: “Embora chovesse, saiu”.',
+ 'Sujeito':'É o termo sobre o qual se declara alguma informação; concorda com o verbo em diversos casos.',
+ 'Fato que o texto afirma':'É a informação expressa diretamente. Responda apenas o que o texto sustenta, sem acrescentar suposições.',
+ 'Frase original: sentido pelo contexto':'É a expressão como aparece no texto, cujo significado depende das frases que a cercam.',
+ 'Substituição que preserva o sentido':'É uma troca de palavra ou expressão que mantém o significado no contexto.',
+ 'Substituição inadequada ao contexto':'É uma troca que altera o sentido ou o tom da frase original; por isso não serve como equivalência.',
+ 'Advérbio de dúvida':'Advérbio que indica possibilidade ou incerteza, como “talvez” e “possivelmente”.',
+ 'Verbo no futuro':'Forma verbal que situa a ação em momento posterior ao da referência; pode ter valor de previsão ou hipótese.',
+ 'Advérbio de tempo':'Palavra ou expressão que situa temporalmente uma ação, como “ontem”, “hoje” ou “amanhã”.',
+ 'Adjetivo que concorda':'Adjetivo caracteriza um nome e, em regra, concorda com ele em gênero e número: “casas bonitas”.',
+ 'Substantivo de referência':'É o nome a que se refere outro termo da frase, por exemplo o adjetivo ou o pronome.',
+ 'Primeira equação':'É uma igualdade matemática com incógnita; funciona como primeira condição do sistema.',
+ 'Segunda equação':'É outra igualdade do sistema, que deve ser satisfeita ao mesmo tempo que a primeira.',
+ 'Solução de x':'É o valor que torna as equações verdadeiras quando substituído na incógnita x.',
+ 'Base do triângulo':'É o lado adotado como referência para a medida da altura no cálculo da área.',
+ 'Altura do triângulo':'É a distância perpendicular entre a base e o vértice oposto ou o prolongamento da base.',
+ 'Área calculada':'É a medida da superfície da figura. Para triângulo: área = base × altura ÷ 2.',
+ 'Condição lógica testada':'É a expressão verificada para decidir qual resultado ou ramo será adotado.',
+ 'Valor se verdadeiro':'É o resultado usado quando a condição lógica avaliada é verdadeira.',
+ 'Valor se falso':'É o resultado usado quando a condição lógica avaliada é falsa.',
+ 'Ato de incorporar peça aos autos':'É a juntada: inclusão de petição, documento ou certidão no processo.',
+ 'Encaminhamento para decisão ou despacho':'É a remessa dos autos ao magistrado para que analise ou determine providências; pode ser chamada conclusão.',
+ 'Envio do processo ou expediente':'É a remessa de autos ou documentos para outra unidade ou órgão conforme o procedimento.',
+ 'Chamamento para integrar o processo':'É a citação: comunicação formal para o réu, executado ou interessado integrar a relação processual.',
+ 'Comunicação de ato ou decisão':'É a intimação: meio de dar ciência a alguém de um ato ou termo processual.',
+ 'Forma de divulgação ou comunicação':'É o meio pelo qual um ato chega ao conhecimento de quem deve ser informado (publicação, expediente, meio eletrônico etc.).',
+ 'Relação de número e pessoa':'É a concordância: flexão do verbo ou de outro termo conforme número (singular/plural) e pessoa gramatical.',
+ 'Exigência de complemento ou preposição':'É a regência: relação entre termo regente e complemento, incluindo a preposição exigida quando aplicável.',
+ 'Organização sintática e sentido':'É a estrutura das funções dos termos na oração e como sua posição altera o significado.'
+};
+const isLetter=ch=>Boolean(ch)&&/[\p{L}\p{N}]/u.test(ch);
+function termOccurrences(text,forms){
+ const out=[],lower=text.toLocaleLowerCase('pt-BR');
+ for(const form of forms||[]){
+  const needle=String(form).toLocaleLowerCase('pt-BR');if(!needle)continue;
+  let from=0,match;
+  while((match=lower.indexOf(needle,from))>=0){
+   const end=match+needle.length;
+   if(!isLetter(text[match-1])&&!isLetter(text[end]))out.push({start:match,end});
+   from=end;
+  }
  }
+ out.sort((a,b)=>a.start-b.start||b.end-a.end);
+ return out;
+}
+// Marca termos nos próprios parágrafos; não altera nenhuma palavra do texto original.
+function paintTeachingText(text,markers=[],terms=[]){
+ const original=String(text??''),matches=[];
+ for(const item of markers){
+  if(!item?.trecho||!['red','blue','amber'].includes(item.cor))continue;
+  const n=original.indexOf(item.trecho);if(n<0)continue;
+  matches.push({start:n,end:n+item.trecho.length,kind:'visual',item,priority:0});
+ }
+ for(const term of terms){
+  // Não grifar uma expressão jurídica em ocorrência que faria parte de outro termo maior.
+  for(const hit of termOccurrences(original,term.formas).slice(0,3))matches.push({...hit,kind:'legal',item:term,priority:1});
+ }
+ matches.sort((a,b)=>a.start-b.start||a.priority-b.priority||b.end-a.end);
+ let html='',position=0;
+ for(const hit of matches){
+  if(hit.start<position)continue;
+  html+=escapeHtml(original.slice(position,hit.start));
+  if(hit.kind==='legal'){
+   html+=`<mark class="tj-focus tj-law" title="${escapeHtml(hit.item.termo+': '+hit.item.definicao)}">${escapeHtml(original.slice(hit.start,hit.end))}</mark>`;
+  }else{
+   html+=`<mark class="tj-focus tj-${hit.item.cor}" title="${escapeHtml(hit.item.rotulo+': '+(legendExplanations[hit.item.rotulo]||''))}">${escapeHtml(original.slice(hit.start,hit.end))}</mark>`;
+  }
+  position=hit.end;
+ }
+ return html+escapeHtml(original.slice(position));
+}
+function legalTermsForBlock(l,group,terms){
+ if(!lawSubjects.has(l.subject))return [];
+ const text=(group.itens||[]).map(i=>l.sections[i].join(' ')).join(' ');
+ const present=terms.filter(t=>t.formas?.some(f=>termOccurrences(text,[f]).length>0));
+ // Não inundar o texto de destaques; termos do bloco aparecem em ordem de ocorrência.
+ const firstPos=t=>Math.min(...t.formas.flatMap(f=>termOccurrences(text,[f]).map(x=>x.start)));
+ return present.sort((a,b)=>firstPos(a)-firstPos(b)).slice(0,9);
+}
+function sidebarFor(markers,terms){
+ if(!markers.length&&!terms.length)return '';
+ const vis=markers.length?`<div class="tj-legend-title">Guia visual do trecho</div><p class="tj-legend-desc">O destaque mostra <b>onde</b> está a informação; abaixo está <b>o que ela significa</b>.</p><ul class="tj-legend-list">${markers.map(m=>`<li><span class="tj-legend-dot tj-${m.cor}" aria-hidden="true"></span><span><b>${escapeHtml(m.rotulo)}</b><small class="tj-meaning">${escapeHtml(legendExplanations[m.rotulo]||'É um elemento importante a identificar no trecho. Compare sua função com o contexto.')}</small><small class="tj-quote">Trecho: “${escapeHtml(m.trecho)}”</small></span></li>`).join('')}</ul>`:'';
+ const law=terms.length?`<div class="tj-legal-title">⚖ Juridiquês explicado</div><p class="tj-legend-desc">Termos grifados no texto ao lado. As definições abaixo são didáticas: consulte a norma para detalhes e exceções.</p><dl class="tj-legal-list">${terms.map(t=>`<div class="tj-legal-item"><dt>${escapeHtml(t.termo)}</dt><dd>${escapeHtml(t.definicao)}<small><b>Exemplo:</b> ${escapeHtml(t.exemplo)}</small></dd></div>`).join('')}</dl><div class="tj-legal-source"><a href="https://www.tjsp.jus.br/Especialidade/JuizadosEspeciais/Vocabulario" target="_blank" rel="noopener noreferrer">Vocabulário do TJSP ↗</a></div>`:'';
+ const grammar=markers.some(m=>/Sujeito|predicado/i.test(m.rotulo))?'<p class="tj-grammar-tip"><b>Compare:</b> sujeito = “A reunião”; predicado = “começou às 9h”. O verbo “começou” é o núcleo verbal; “às 9h” indica tempo.</p>':'';
+ return `<aside class="tj-teaching-legend" aria-label="Explicações dos destaques">${vis}${grammar}${law}</aside>`;
+}
+function layoutForLesson(l,structure,glossary){
+ const groups=structure?.lessons?.[l.id]?.blocos;
+ const arranged=Array.isArray(groups)&&groups.length?groups:l.sections.map((pair,i)=>({titulo:lessonHeading(pair[0]),itens:[i]}));
  const indexed=new Set();
- for(const group of groups){for(const index of group.itens||[]){
-   if(!Number.isInteger(index)||index<0||index>=l.sections.length||indexed.has(index))throw Error('Estrutura de aula inválida');
-   indexed.add(index);
+ for(const group of arranged){for(const index of group.itens||[]){
+  if(!Number.isInteger(index)||index<0||index>=l.sections.length||indexed.has(index))throw Error('Estrutura de aula inválida');indexed.add(index);
  }}
  if(indexed.size!==l.sections.length)throw Error('Conteúdo incompleto na estrutura');
- return `<div class="tj-teaching-layout">${groups.map((group,gidx)=>{
-  const focus=group.destaque;
-  const focusedIndex=focus&&Number.isInteger(focus.indice)?focus.indice:-1;
+ return `<div class="tj-teaching-layout">${arranged.map((group,gidx)=>{
+  const focus=group.destaque,focusedIndex=Number.isInteger(focus?.indice)?focus.indice:-1;
   const markers=Array.isArray(focus?.marcas)?focus.marcas.filter(m=>m&&m.trecho&&m.rotulo&&['red','blue','amber'].includes(m.cor)&&l.sections[focusedIndex]?.[1]?.includes(m.trecho)):[];
-  const sidebar=markers.length?`<aside class="tj-teaching-legend" aria-label="Legenda de destaques deste bloco"><div class="tj-legend-title">Guia visual do trecho</div><p class="tj-legend-desc">As cores identificam informações no próprio texto. Compare cada destaque com sua explicação.</p><ul class="tj-legend-list">${markers.map(m=>`<li><span class="tj-legend-dot tj-${m.cor}" aria-hidden="true"></span><span><b>${escapeHtml(m.rotulo)}</b><small>“${escapeHtml(m.trecho)}”</small></span></li>`).join('')}</ul></aside>`:'';
-  const inner=(group.itens||[]).map((idx,subidx)=>{
+  const terms=legalTermsForBlock(l,group,glossary?.termos||[]);
+  const sidebar=sidebarFor(markers,terms);
+  const inner=group.itens.map((idx,subidx)=>{
    const [title,text]=l.sections[idx],deep=/^Aprofundamento/i.test(title),pure=lessonHeading(title);
-   const heading=deep?`APROFUNDAMENTO${pure&&pure.toLowerCase()!==String(group.titulo||'').toLowerCase()?': '+escapeHtml(pure):''}`:
-    ((subidx===0&&pure===group.titulo)?'':escapeHtml(pure));
-   const shown=(focusedIndex===idx)?emphasizeExact(text,markers):escapeHtml(text);
+   const heading=deep?`APROFUNDAMENTO${pure&&pure.toLowerCase()!==String(group.titulo||'').toLowerCase()?': '+paintTeachingText(pure,[],terms):''}`:
+     ((subidx===0&&pure===group.titulo)?'':paintTeachingText(pure,[],terms));
+   const shown=paintTeachingText(text,focusedIndex===idx?markers:[],terms);
    return `<section class="tj-teaching-part${deep?' tj-depth':''}">${heading?`<h3>${heading}</h3>`:''}<p>${shown}</p></section>`;
   }).join('');
-  return `<section class="tj-teaching-group"><header class="tj-teaching-head"><span class="tj-teaching-number">Conceito ${gidx+1} de ${groups.length}</span><h2>${escapeHtml(group.titulo||l.title)}</h2></header><div class="tj-teaching-columns${sidebar?'':' no-legend'}"><div class="tj-teaching-main">${inner}</div>${sidebar}</div></section>`;
+  return `<section class="tj-teaching-group"><header class="tj-teaching-head"><span class="tj-teaching-number">Conceito ${gidx+1} de ${arranged.length}</span><h2>${paintTeachingText(group.titulo||l.title,[],terms)}</h2></header><div class="tj-teaching-columns${sidebar?'':' no-legend'}"><div class="tj-teaching-main">${inner}</div>${sidebar}</div></section>`;
  }).join('')}</div>`;
 }
 async function populateTeachingLayout(l,visit){
  const host=$('lessonSections');if(!host)return;
- const structure=await getTeachingStructure();
+ const [structure,glossary]=await Promise.all([getTeachingStructure(),getLegalGlossary()]);
  if(visit!==lessonVisit||active?.id!==l.id)return;
- try{host.innerHTML=layoutForLesson(l,structure);host.removeAttribute('aria-busy');}
- catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null);host.removeAttribute('aria-busy');}
+ try{host.innerHTML=layoutForLesson(l,structure,glossary);host.removeAttribute('aria-busy');}
+ catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null,glossary);host.removeAttribute('aria-busy');}
 }
 
 async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
@@ -189,13 +275,49 @@ function cards(){
  const a=sortedLessons(lessons.filter(l=>l.subject===currentSubject&&topicFor(l)===currentTopic));area.innerHTML=a.map((l,i)=>`<button class="tile" data-id="${escapeHtml(l.id)}"><span class="chip">AULA ${i+1}</span><strong>${escapeHtml(l.title)}</strong><small>${escapeHtml(l.etapa||l.level||'Aula')} · ${progress[l.id]?'✓ Concluída':'○ Pendente'}</small><span class="tileArrow">Abrir aula →</span></button>`).join('');area.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>openLesson(b.dataset.id));
 }
 $('catalogBack').onclick=()=>{if(currentTopic)currentTopic=null;else currentSubject=null;cards();};
+/* Avança apenas para a próxima AULA ainda pendente na agenda individual, não para questões avulsas. */
+function plannedNextLesson(currentId){
+ const plan=window.TJSPStudyPlan;
+ if(plan?.tasksFor&&plan?.today&&plan?.addDays){
+  const today=plan.today();let date=today;if(date<plan.START)date=plan.START;
+  const completedSubjectsToday=new Set();
+  for(const l of lessons){
+   const stamp=progress[l.id];if(!stamp)continue;
+   const parsed=new Date(stamp);if(!Number.isFinite(parsed.getTime()))continue;
+   const f=new Intl.DateTimeFormat('en-US',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(parsed);
+   const val=k=>f.find(v=>v.type===k)?.value||'';
+   if(`${val('year')}-${val('month')}-${val('day')}`===today)completedSubjectsToday.add(l.subject);
+  }
+  for(let n=0;n<160&&date<=plan.EXAM;n++,date=plan.addDays(date,1)){
+   const tasks=plan.tasksFor(date,lessons,progress);
+   const candidate=tasks.find(t=>t.type==='lesson'&&t.lesson?.id&&t.lesson.id!==currentId&&!progress[t.lesson.id]
+     &&(date!==today||!completedSubjectsToday.has(t.subject)));
+   if(candidate)return {lesson:candidate.lesson,date};
+  }
+ }
+ const next=[...lessons].filter(l=>!progress[l.id]&&l.id!==currentId)
+  .sort((a,b)=>a.subject.localeCompare(b.subject,'pt-BR')||(a.ordemSugerida??999)-(b.ordemSugerida??999))[0];
+ return next?{lesson:{id:next.id,title:next.title,subject:next.subject},date:null}:null;
+}
+function updateNextLessonButton(){
+ const btn=$('exercise');if(!btn||!active)return;
+ if(!progress[active.id]){
+  btn.textContent='🔒 Conclua esta aula para ir à próxima';btn.removeAttribute('href');btn.setAttribute('aria-disabled','true');btn.classList.add('tj-next-disabled');return;
+ }
+ const next=plannedNextLesson(active.id);
+ btn.classList.remove('tj-next-disabled');btn.removeAttribute('aria-disabled');
+ if(next){btn.href='./conteudo.html?lesson='+encodeURIComponent(next.lesson.id);
+  btn.textContent='Próxima aula do calendário: '+next.lesson.subject+' — '+next.lesson.title+' →';
+  btn.title=next.date?'Planejada para '+next.date:'Próxima aula pendente';
+ }else{btn.href='./calendario.html';btn.textContent='✓ Aulas programadas concluídas — consultar calendário →';btn.title='';}
+}
 function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const visit=++lessonVisit;active=l;$('catalog').classList.add('hide');$('lesson').classList.remove('hide');$('crumb').textContent=l.subject+' · '+l.level;$('lessonTitle').textContent=l.title;$('objective').textContent=l.objective;$('status').textContent=progress[l.id]?'✓ Concluída':'○ Não concluída';$('complete').textContent=progress[l.id]?'↺ Desmarcar conclusão':'✓ Marcar como concluída';const section=`<div id="lessonSections" aria-busy="true" class="tj-teaching-wait">Organizando explicações por conceito…</div>`;$('lessonBody').innerHTML=`<div class="visualCustom"><strong>📍 Ordem recomendada: ${l.ordemSugerida>=100?'Complementar':l.ordemSugerida}ª aula de ${escapeHtml(l.subject)}</strong><p>Como estudar: ${escapeHtml(l.conclusaoOrientada||'Leia, resolva exemplos e pratique.')}</p><small>Retome este assunto após 1, 7 e 21 dias. ${escapeHtml(l.etapa||'')}</small></div><div class="formula">${escapeHtml(l.formula)}</div><div class="diagram"><div><small>Conceito</small><br><strong>${escapeHtml(l.subject)}</strong></div><span style="font-size:26px;color:#b50913">➜</span><div><small>Objetivo da aula</small><br><strong style="font-size:14px">${escapeHtml(l.objective)}</strong></div></div>${section}<div class="example"><h3>🧩 Exemplo resolvido</h3><p>${escapeHtml(l.example)}</p></div><h3>⚠️ Erros comuns</h3><ul class="pitfallList">${l.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h3>📖 Referência e verificação</h3><p>${escapeHtml(l.source)}</p>${l.fonteOficialBase?`<p><a href="${escapeHtml(l.fonteOficialBase)}" rel="noopener noreferrer" target="_blank">Consultar fonte oficial para conferência de alterações</a></p>`:""}`;const visual=l.visual?.kind==='percent'?`<div class="visualCustom"><strong>${escapeHtml(l.visual.label)}</strong><div class="percentGrid">${Array.from({length:100},(_,i)=>`<span class="${i<l.visual.value?'filled':''}"></span>`).join('')}</div><small>As células coloridas representam ${l.visual.value} de cada 100 partes.</small></div>`:l.visual?.kind==='logic'?`<div class="visualCustom"><strong>Tabela-verdade: condicional P → Q</strong><table><tr><th>P</th><th>Q</th><th>P → Q</th></tr><tr><td>V</td><td>V</td><td>V</td></tr><tr><td>V</td><td>F</td><td>F</td></tr><tr><td>F</td><td>V</td><td>V</td></tr><tr><td>F</td><td>F</td><td>V</td></tr></table></div>`:l.visual?.kind==='ratio'?`<div class="visualCustom"><strong>Relação inversa — mais máquinas, menos tempo</strong><div class="diagram"><span>5 máquinas<br>8 horas</span><b>→</b><span>10 máquinas<br>4 horas</span></div></div>`:l.visual?.kind==='reading'?`<div class="visualCustom"><strong>Escada da compreensão</strong><div class="diagram"><span>Texto literal</span><b>→</b><span>Pistas do texto</span><b>→</b><span>Inferência sustentada</span></div></div>`:'';
 const steps=l.steps?.length?`<div class="example"><h3>🔎 Resolução comentada passo a passo</h3><ol>${l.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol></div>`:'';
 const refs=l.references?.length?`<div class="visualCustom"><h3>Fontes para aprofundar e conferir</h3><ul>${l.references.map(r=>{let url='';try{const u=new URL(r.url);if(u.protocol==='https:')url=u.href}catch{}return url?`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a></li>`:''}).join('')}</ul><small>Links de apoio; confira o conteúdo programático e as atualizações da legislação no edital oficial.</small></div>`:'';
 const checks=`<div class="visualCustom" id="practiceHost" aria-live="polite"><h3>🧠 Teste sua compreensão</h3><p class="dim">Sorteando novas questões desta aula...</p></div>`;
 $('lessonBody').insertAdjacentHTML('beforeend',visual+steps+checks+refs+'<section class="studyNotes visualCustom" id="notesHost"><p>Preparando resumo para seu caderno…</p></section>');
 passedLessonId=null;lessonCompletionState(l);populateTeachingLayout(l,visit);populatePractice(l,visit);populateNotebook(l,visit);
-$('saveMsg').textContent='';const link=new URL('./questoes.html',location.href);link.searchParams.set('materia',l.subject);link.searchParams.set('assunto',l.title.split(':')[0]);$('exercise').href=link.href;window.scrollTo(0,0);}
+$('saveMsg').textContent='';updateNextLessonButton();window.scrollTo(0,0);}
 $('back').onclick=()=>{lessonVisit++;$('lesson').classList.add('hide');$('catalog').classList.remove('hide');cards();window.scrollTo(0,0);};
-$('complete').onclick=async()=>{if(!active)return;if(!currentUser||!profileId){$('saveMsg').textContent='Entre no TJSP Duo para sincronizar seu progresso.';return;}const key=active.id;if(progress[key]){$('saveMsg').textContent='Esta aula já está concluída. Seu progresso foi preservado.';return;}if(passedLessonId!==key){$('saveMsg').textContent='Para concluir esta aula, acerte todas as questões na mesma rodada. Revise os erros e refaça quando necessário.';return;}const next=true;$('complete').disabled=true;$('saveMsg').textContent='Salvando no Firebase...';try{const ref=doc(db,'profiles',String(profileId));const snap=await getDoc(ref);const current=snap.data();if(!current||current.uid!==currentUser.uid)throw Error('Perfil não encontrado ou não autorizado');const updated={...(current.lessonProgress||{})};if(next)updated[key]=new Date().toISOString();else delete updated[key];await updateDoc(ref,{lessonProgress:updated});progress=updated;updateProgress();$('status').textContent=next?'✓ Concluída':'○ Não concluída';$('complete').textContent=next?'↺ Desmarcar conclusão':'✓ Marcar como concluída';$('saveMsg').textContent='Parabéns! Aula concluída com 100% na rodada de fixação. Progresso sincronizado.';lessonCompletionState(active);}catch(e){$('saveMsg').textContent='Falha ao salvar: '+e.message;}finally{if(active)lessonCompletionState(active);}};
-async function init(){try{await fetchLessons();render();const params=new URLSearchParams(location.search),direct=params.get('lesson'),subject=params.get('materia');if(direct&&lessons.some(l=>l.id===direct)){const item=lessons.find(l=>l.id===direct);currentSubject=item.subject;currentTopic=topicFor(item);openLesson(direct);}else if(subject&&lessons.some(l=>l.subject===subject)){currentSubject=subject;const requested=params.get('assunto');if(requested){const matches=lessons.filter(l=>l.subject===subject);const names=new Set(matches.map(topicFor));if(names.has(requested))currentTopic=requested;}cards();}onAuthStateChanged(auth,async user=>{currentUser=user;if(!user){$('who').textContent='Entre no site principal para salvar o progresso';return;}try{for(const slot of ['1','2','3','4','5']){const snap=await getDoc(doc(db,'slots',slot));if(snap.exists()&&snap.data().uid===user.uid){profileId=slot;const profile=await getDoc(doc(db,'profiles',slot));progress=profile.data()?.lessonProgress||{};$('who').textContent='Progresso sincronizado com sua conta';updateProgress();cards();if(active)lessonCompletionState(active);return;}}$('who').textContent='Conta sem perfil vinculado.';}catch(e){$('who').textContent='Erro ao carregar progresso: '+e.message;}});}catch(e){$('who').textContent=e.message;}}init();
+$('complete').onclick=async()=>{if(!active)return;if(!currentUser||!profileId){$('saveMsg').textContent='Entre no TJSP Duo para sincronizar seu progresso.';return;}const key=active.id;if(progress[key]){$('saveMsg').textContent='Esta aula já está concluída. Seu progresso foi preservado.';return;}if(passedLessonId!==key){$('saveMsg').textContent='Para concluir esta aula, acerte todas as questões na mesma rodada. Revise os erros e refaça quando necessário.';return;}const next=true;$('complete').disabled=true;$('saveMsg').textContent='Salvando no Firebase...';try{const ref=doc(db,'profiles',String(profileId));const snap=await getDoc(ref);const current=snap.data();if(!current||current.uid!==currentUser.uid)throw Error('Perfil não encontrado ou não autorizado');const updated={...(current.lessonProgress||{})};if(next)updated[key]=new Date().toISOString();else delete updated[key];await updateDoc(ref,{lessonProgress:updated});progress=updated;updateProgress();updateNextLessonButton();$('status').textContent=next?'✓ Concluída':'○ Não concluída';$('complete').textContent=next?'↺ Desmarcar conclusão':'✓ Marcar como concluída';$('saveMsg').textContent='Parabéns! Aula concluída com 100% na rodada de fixação. Progresso sincronizado.';lessonCompletionState(active);}catch(e){$('saveMsg').textContent='Falha ao salvar: '+e.message;}finally{if(active)lessonCompletionState(active);}};
+async function init(){try{await fetchLessons();render();const params=new URLSearchParams(location.search),direct=params.get('lesson'),subject=params.get('materia');if(direct&&lessons.some(l=>l.id===direct)){const item=lessons.find(l=>l.id===direct);currentSubject=item.subject;currentTopic=topicFor(item);openLesson(direct);}else if(subject&&lessons.some(l=>l.subject===subject)){currentSubject=subject;const requested=params.get('assunto');if(requested){const matches=lessons.filter(l=>l.subject===subject);const names=new Set(matches.map(topicFor));if(names.has(requested))currentTopic=requested;}cards();}onAuthStateChanged(auth,async user=>{currentUser=user;if(!user){$('who').textContent='Entre no site principal para salvar o progresso';return;}try{for(const slot of ['1','2','3','4','5']){const snap=await getDoc(doc(db,'slots',slot));if(snap.exists()&&snap.data().uid===user.uid){profileId=slot;const profile=await getDoc(doc(db,'profiles',slot));progress=profile.data()?.lessonProgress||{};$('who').textContent='Progresso sincronizado com sua conta';updateProgress();cards();if(active){lessonCompletionState(active);updateNextLessonButton();}return;}}$('who').textContent='Conta sem perfil vinculado.';}catch(e){$('who').textContent='Erro ao carregar progresso: '+e.message;}});}catch(e){$('who').textContent=e.message;}}init();

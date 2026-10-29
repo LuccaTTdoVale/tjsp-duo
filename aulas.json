@@ -234,12 +234,40 @@
         "Substitua a solução na equação original: ambos os lados precisam ter o mesmo valor."
       ],
       [
-        "7. Estude de modo ativo",
-        "Feche a explicação e tente ensinar “Equação de primeiro grau” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+        "O que torna uma sentença uma equação",
+        "Uma equação é uma igualdade que contém valor desconhecido. Em 3x + 5 = 20, a letra x representa esse valor. Resolver é determinar o valor que torna os dois lados iguais. Se x = 5, 3×5 + 5 = 20, então a igualdade é verdadeira."
       ],
       [
-        "8. Revisão programada",
-        "Revise “Equação de primeiro grau” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
+        "Princípio fundamental da igualdade",
+        "Imagine uma balança equilibrada. Somar, subtrair, multiplicar por um número não nulo ou dividir ambos os lados pelo mesmo número não nulo preserva o equilíbrio. Por isso 3x + 5 = 20 pode virar 3x = 15 ao subtrair 5 dos dois lados e x = 5 ao dividir por 3."
+      ],
+      [
+        "O que significa “passar para o outro lado”",
+        "A frase escolar “passa o 5 e troca o sinal” é um atalho. O que realmente acontece é subtrair 5 nos dois lados: 3x + 5 − 5 = 20 − 5. Entender isso impede erros em equações com frações e parênteses."
+      ],
+      [
+        "Equações com parênteses: distributiva",
+        "Resolva 2(x + 3) = 18. Distribuindo: 2x + 6 = 18; subtraindo 6: 2x = 12; dividindo por 2: x = 6. Confira na original: 2(6 + 3) = 18. Em 3(x − 2), o resultado é 3x − 6, não 3x − 2."
+      ],
+      [
+        "Incógnita nos dois membros",
+        "Resolva 5x − 4 = 2x + 11. Subtraia 2x de ambos os lados: 3x − 4 = 11. Some 4: 3x = 15. Divida: x = 5. Conferência: 25 − 4 = 10 + 11 = 21."
+      ],
+      [
+        "Equações com frações",
+        "Resolva x/3 + 2 = 7. Subtraia 2: x/3 = 5; multiplique os dois lados por 3: x = 15. Em x/2 + x/3 = 5, multiplique tudo pelo MMC 6: 3x + 2x = 30; então x = 6. O fator 6 deve multiplicar todos os termos."
+      ],
+      [
+        "Problemas de linguagem",
+        "“O triplo de um número, aumentado de 7, é 34”: 3x + 7 = 34. Subtraindo 7: 3x = 27; logo x = 9. Atenção: “o triplo da soma de um número com 7” seria 3(x + 7), uma expressão diferente."
+      ],
+      [
+        "Equação impossível ou indeterminada",
+        "Se as operações conduzem a 0 = 5, não há solução; por exemplo, x + 2 = x + 7. Se conduzirem a 0 = 0, todas as possibilidades do domínio servem; por exemplo, 2(x + 1) = 2x + 2. A prova pode cobrar essa interpretação."
+      ],
+      [
+        "Checklist final",
+        "1) Simplifique parênteses. 2) Reúna termos com x em um lado e números no outro usando operações iguais. 3) Isole x. 4) Substitua o resultado na equação original para conferir. 5) Em problemas, traduza de volta para o contexto."
       ]
     ],
     "example": "10x + 69 = 409 → 10x = 340 → x = 34. Conferência: 10×34+69=409.",
@@ -252,8 +280,8 @@
     "depth": "Introdução — expansão pendente",
     "references": [
       {
-        "name": "Concurso TJSP — documentos oficiais VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "name": "OBMEP — Portal da Matemática",
+        "url": "https://portaldaobmep.impa.br/"
       }
     ],
     "reviewStatus": "introducao",
@@ -265,20 +293,49 @@
       7,
       21
     ],
-    "etapa": "Guia em expansão",
+    "etapa": "Aula aprofundada — versão revisada",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
     "check": [
       {
-        "q": "Qual abordagem permite dominar equação de primeiro grau?",
+        "q": "Resolva 3(x − 2) = 15.",
         "options": [
-          "Memorizar uma resposta isolada sem compreender",
-          "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
-          "Apenas marcar o texto com caneta",
-          "Desconsiderar condições e exceções"
+          "3",
+          "5",
+          "7",
+          "9"
         ],
-        "answer": 1,
-        "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+        "answer": 2,
+        "why": "Distribuindo: 3x − 6 = 15; 3x = 21; x = 7."
+      },
+      {
+        "q": "Qual é a solução de 5x + 2 = 2x + 20?",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "10"
+        ],
+        "answer": 0,
+        "why": "Subtraindo 2x e 2: 3x = 18. Assim x = 6."
+      },
+      {
+        "q": "A equação x + 4 = x + 7 tem:",
+        "options": [
+          "Uma solução, x = 3.",
+          "Infinitas soluções.",
+          "Nenhuma solução.",
+          "Uma solução, x = 11."
+        ],
+        "answer": 2,
+        "why": "Subtrair x dos dois lados leva a 4 = 7, que é falso."
       }
+    ],
+    "steps": [
+      "4(x − 2) + 3 = 19. Distribua: 4x − 8 + 3 = 19.",
+      "Some os constantes: 4x − 5 = 19.",
+      "Some 5 dos dois lados: 4x = 24.",
+      "Divida por 4: x = 6.",
+      "Confira: 4(6 − 2) + 3 = 16 + 3 = 19."
     ]
   },
   {
@@ -505,12 +562,48 @@
         "Analise: “Compareceu à audiência”, “Começou a trabalhar”, “Referiu-se àquela norma”. Para cada uma, identifique a preposição regida, o determinante ou demonstrativo e a razão da grafia. Depois tente criar um contraexemplo sem crase."
       ],
       [
-        "7. Estude de modo ativo",
-        "Feche a explicação e tente ensinar “Crase: quando ocorre e quando não ocorre” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+        "Fundamento: por que existe o acento grave",
+        "Crase é a fusão de duas vogais a, normalmente a preposição a exigida pelo termo anterior e o artigo feminino a(s) que acompanha o termo seguinte. O acento grave indica essa fusão na escrita: Vou à escola = vou a + a escola. Não basta a palavra seguinte ser feminina: é necessário justificar as duas partes."
       ],
       [
-        "8. Revisão programada",
-        "Revise “Crase: quando ocorre e quando não ocorre” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
+        "Primeiro teste: a palavra anterior exige a preposição?",
+        "Quem vai, vai a algum lugar; quem se refere, refere-se a algo; quem obedece, obedece a alguém. Já quem visita, visita algo ou alguém, sem a preposição a: visitei a escola. Compare “Fui à biblioteca” (ir a + a biblioteca) com “Visitei a biblioteca” (visitar + a biblioteca)."
+      ],
+      [
+        "Segundo teste: o termo seguinte admite artigo feminino?",
+        "Biblioteca admite “a biblioteca”; Portugal, em usos comuns, aparece sem artigo: “fui a Portugal”. Em “fui à Bahia”, ocorre artigo: “a Bahia”. A construção e o uso do artigo variam conforme o substantivo e o contexto. Nomes próprios de pessoa podem admitir artigo em certas variedades de português."
+      ],
+      [
+        "Teste da substituição por masculino",
+        "Troque a palavra feminina por um substantivo masculino correspondente. Se a construção gerar “ao”, em geral haverá crase na feminina: “Entreguei o relatório à diretora” → “Entreguei o relatório ao diretor”. Se resultar somente “a”, não há crase: “Vi a diretora” → “Vi o diretor”. É teste auxiliar: não substitui o exame da regência e do artigo."
+      ],
+      [
+        "Locuções femininas",
+        "Em locuções adverbiais, prepositivas e conjuntivas femininas consagradas, usa-se frequentemente o acento: à noite, às vezes, à direita, à medida que, à procura de. Memorize exemplos em frases: “Estudamos à noite”; “À medida que praticamos, corrigimos mais erros”."
+      ],
+      [
+        "Horas e expressões de tempo",
+        "Antes de horas determinadas, normalmente ocorre crase: “Chegarei às 14 horas”. Compare “A reunião será das 13h às 15h” e “Estudaremos de 13h a 15h”: a correlação das preposições importa. “Daqui a duas horas” indica tempo futuro e não recebe crase."
+      ],
+      [
+        "Demonstrativos: aquele, aquela, aquilo",
+        "A preposição a pode fundir-se ao a inicial de aquele(s), aquela(s), aquilo: “Referi-me àquele documento” (referir-se a + aquele). Também pode ocorrer em “à qual” e “às quais” quando o termo regente exige a preposição: “A lei à qual me referi”."
+      ],
+      [
+        "Casos em que não ocorre crase",
+        "Em regra, não há crase antes de verbo (“começou a estudar”), de pronome pessoal (“entreguei a ela”), de termo masculino sem construção especial (“a prazo”), nem quando há apenas preposição e não artigo (“a qualquer pessoa”). Antes de artigo indefinido uma, em regra não há crase. Existem usos excepcionais e locuções com palavra masculina subentendida, por isso não transforme macetes em regra absoluta."
+      ],
+      [
+        "Casos facultativos e atenção ao contexto",
+        "Pode haver facultatividade em construções como “até a/à escola”, dependendo da análise adotada, e diante de possessivo feminino singular com artigo facultativo: “refiro-me a minha/à minha professora”. Em gramáticas normativas, a presença do artigo antes de nome próprio feminino pode variar. Em prova, leia o contexto e as alternativas."
+      ],
+      [
+        "Comparação de frases",
+        "“Assistiu à palestra”: assistir no sentido de presenciar pede a; palestra admite a. “Assistiu a uma palestra”: uma é artigo indefinido, sem fusão de dois a. “Chegou à conclusão”: chegar a + a conclusão. “A conclusão foi publicada”: o primeiro a é apenas artigo, não há crase."
+      ],
+      [
+        "Roteiro de resolução VUNESP",
+        "1) Localize o termo anterior. 2) Investigue a regência ou locução. 3) Verifique artigo ou pronome iniciado em a. 4) Faça teste de masculino, se possível. 5) Confira se há proibição, facultatividade ou expressão de horas. 6) Leia a frase toda depois de decidir."
       ]
     ],
     "example": "“Entreguei o documento à diretora.” O verbo pede preposição a e “diretora” admite artigo a.",
@@ -523,8 +616,12 @@
     "depth": "Introdução — expansão pendente",
     "references": [
       {
-        "name": "Concurso TJSP — documentos oficiais VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "name": "ABL — Academia Brasileira de Letras",
+        "url": "https://www.academia.org.br/"
+      },
+      {
+        "name": "VOLP — Vocabulário Ortográfico da Língua Portuguesa",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabulario"
       }
     ],
     "reviewStatus": "introducao",
@@ -536,20 +633,48 @@
       7,
       21
     ],
-    "etapa": "Aprofundada (ampliada)",
+    "etapa": "Aula aprofundada — versão revisada",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
     "check": [
       {
-        "q": "Qual abordagem permite dominar crase: quando ocorre e quando não ocorre?",
+        "q": "Qual alternativa apresenta crase corretamente empregada?",
         "options": [
-          "Memorizar uma resposta isolada sem compreender",
-          "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
-          "Apenas marcar o texto com caneta",
-          "Desconsiderar condições e exceções"
+          "Começou à revisar o processo.",
+          "Entregou o pedido à servidora responsável.",
+          "Informou à ela a decisão.",
+          "Foi à pé ao cartório."
         ],
         "answer": 1,
-        "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+        "why": "Entregar algo a alguém pede preposição a, e “servidora” admite artigo a: à servidora. Antes de verbo ou de pronome pessoal “ela”, não se emprega crase; “a pé” não leva acento."
+      },
+      {
+        "q": "Em qual frase o acento é exigido pela fusão com demonstrativo?",
+        "options": [
+          "Chegou àquele entendimento.",
+          "Voltou à estudar.",
+          "Referiu-se à qualquer norma.",
+          "Começou à partir de hoje."
+        ],
+        "answer": 0,
+        "why": "Chegar a + aquele produz àquele. Antes de verbo e de “qualquer” não ocorre a mesma fusão."
+      },
+      {
+        "q": "Marque a opção correta sobre horas.",
+        "options": [
+          "O curso começa as 8h.",
+          "A aula será às 8h.",
+          "Daqui à duas horas terminaremos.",
+          "Voltarei à qualquer hora."
+        ],
+        "answer": 1,
+        "why": "Horas determinadas costumam pedir às. Em “daqui a duas horas”, a exprime tempo futuro e não há artigo."
       }
+    ],
+    "steps": [
+      "“A equipe se dirigiu ___ secretaria.” Dirigir-se exige a preposição a.",
+      "“Secretaria” admite o artigo a: a secretaria.",
+      "Fusão a + a = à. Resposta: “dirigiu-se à secretaria”.",
+      "Controle: “dirigiu-se ao setor” confirma a fusão."
     ]
   },
   {
@@ -668,12 +793,44 @@
         "#DIV/0! indica divisão por zero; #N/D é um valor não encontrado em determinadas funções."
       ],
       [
-        "7. Estude de modo ativo",
-        "Feche a explicação e tente ensinar “Excel: referências, fórmulas e funções” em 60 segundos, sem consulta. Em seguida, refaça o exemplo comentado de memória e anote em que etapa errou. A meta não é apenas reconhecer a resposta, mas justificar por que as alternativas incorretas não funcionam."
+        "Entenda células, intervalos e planilhas",
+        "A célula é identificada pela coluna (letra) e pela linha (número), como B3. A2:A10 representa um intervalo contínuo na coluna A. Uma fórmula normalmente começa por =. A função SOMA soma números de um intervalo; o sinal + também soma, mas pode ser menos prático em listas extensas."
       ],
       [
-        "8. Revisão programada",
-        "Revise “Excel: referências, fórmulas e funções” após 1 dia, 7 dias e 21 dias. Na revisão, comece por uma pergunta sem olhar a teoria; só depois confira a explicação. Caso erre, retorne ao passo que originou o erro e resolva mais duas questões do assunto."
+        "Referências relativas",
+        "Ao copiar =B2*C2 da linha 2 para a linha 3, o Excel ajusta para =B3*C3. É o comportamento padrão e permite repetir um cálculo por toda uma tabela."
+      ],
+      [
+        "Referências absolutas com cifrão",
+        "Se uma taxa fixa está em F1 e os preços em B2:B20, a fórmula =B2*$F$1 mantém F1 constante ao ser copiada para baixo. Os símbolos $ travam a coluna F e a linha 1. Sem eles, a referência à taxa também mudaria."
+      ],
+      [
+        "Referências mistas",
+        "Em $A2, a coluna A fica fixa e a linha muda; em A$2, a linha 2 fica fixa e a coluna muda. Essas referências são úteis em tabelas de multiplicação e planilhas com cálculos cruzados. A tecla F4 costuma alternar modos de referência enquanto o cursor está sobre a referência em uma fórmula."
+      ],
+      [
+        "Funções SOMA e MÉDIA",
+        "=SOMA(B2:B6) adiciona os valores numéricos no intervalo. =MÉDIA(B2:B6) calcula a média aritmética dos valores numéricos. Exemplo: 5, 7 e 9 resultam em média 7. Células vazias ou textos podem ser tratados de forma diferente por funções diversas; não suponha sempre que equivalem a zero."
+      ],
+      [
+        "Função SE e comparação lógica",
+        "=SE(C2>=7;\"Aprovado\";\"Revisar\") avalia o teste C2>=7. Se verdadeiro, devolve “Aprovado”; se falso, devolve “Revisar”. Em instalações brasileiras, o separador de argumentos costuma ser ponto e vírgula; configurações regionais podem variar."
+      ],
+      [
+        "CONT.SE e SOMASE",
+        "=CONT.SE(A2:A20;\"Português\") conta células do intervalo iguais ao critério. =SOMASE(A2:A20;\"Português\";B2:B20) soma valores da coluna B associados a linhas classificadas como Português na A. Observe se os intervalos têm o mesmo tamanho e linhas correspondentes."
+      ],
+      [
+        "Diferença entre classificação e filtro",
+        "Classificar altera a ordem visual das linhas segundo critérios escolhidos; filtrar oculta temporariamente linhas que não atendem às condições. Antes de classificar, selecione corretamente a tabela para não desencontrar nomes e valores de linhas distintas."
+      ],
+      [
+        "Erros comuns em provas",
+        "##### geralmente indica coluna estreita para mostrar o valor, sobretudo número/data; #DIV/0! ocorre em divisão por zero; #REF! significa referência inválida; #NOME? indica nome não reconhecido. A origem do erro deve ser investigada, e não apenas ocultada."
+      ],
+      [
+        "Questão prática integrada",
+        "A tabela possui preço na coluna B, quantidade na C e taxa de desconto fixa na célula F1. Em D2, o subtotal é =B2*C2. Em E2, o subtotal com desconto percentual é =D2*(1-$F$1). Ao copiar ambas as fórmulas para a linha 3, B2 e C2 mudam para B3 e C3, mas F1 permanece fixa."
       ]
     ],
     "example": "Se A1=4, A2=6 e A3=10, =MÉDIA(A1:A3) resulta em 20/3 ≈ 6,67.",
@@ -686,8 +843,12 @@
     "depth": "Introdução — expansão pendente",
     "references": [
       {
-        "name": "Concurso TJSP — documentos oficiais VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "name": "Microsoft — Referências relativas e absolutas",
+        "url": "https://support.microsoft.com/pt-br/excel/switch-between-relative-absolute-and-mixed-references"
+      },
+      {
+        "name": "Microsoft — Função SOMA",
+        "url": "https://support.microsoft.com/pt-br/excel/functions/sum-function"
       }
     ],
     "reviewStatus": "introducao",
@@ -699,20 +860,48 @@
       7,
       21
     ],
-    "etapa": "Guia em expansão",
+    "etapa": "Aula aprofundada — versão revisada",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
     "check": [
       {
-        "q": "Qual abordagem permite dominar excel: referências, fórmulas e funções?",
+        "q": "Ao copiar =B2*$F$1 de C2 para C3, a fórmula torna-se:",
         "options": [
-          "Memorizar uma resposta isolada sem compreender",
-          "Explicar a regra, reproduzir o exemplo, justificar e testar com outras questões",
-          "Apenas marcar o texto com caneta",
-          "Desconsiderar condições e exceções"
+          "=B3*$F$1",
+          "=B2*$F$2",
+          "=B3*F2",
+          "=C3*$F$1"
+        ],
+        "answer": 0,
+        "why": "B2 é relativo e passa a B3; $F$1 é absoluto e permanece igual."
+      },
+      {
+        "q": "Qual função conta células que contenham “Direito”?",
+        "options": [
+          "=SOMA(A1:A10)",
+          "=CONT.SE(A1:A10;\"Direito\")",
+          "=MÉDIA(A1:A10)",
+          "=SE(A1:A10)"
         ],
         "answer": 1,
-        "why": "Explique a regra com suas palavras, teste aplicação e verifique exceções, em vez de decorar."
+        "why": "CONT.SE conta as células que atendem ao critério especificado."
+      },
+      {
+        "q": "O que geralmente significa #REF! no Excel?",
+        "options": [
+          "Referência inválida.",
+          "Texto muito comprido.",
+          "Divisão por zero.",
+          "Planilha protegida."
+        ],
+        "answer": 0,
+        "why": "#REF! aponta uma referência inválida em uma fórmula, muitas vezes por exclusão de célula/coluna referenciada."
       }
+    ],
+    "steps": [
+      "Valores em B2=40, C2=3 e F1=0,10.",
+      "D2 recebe =B2*C2, logo D2 = 120.",
+      "E2 recebe =D2*(1-$F$1), logo 120×0,90 = 108.",
+      "Ao copiar E2 para E3, a referência D2 vira D3; $F$1 continua apontando para a taxa em F1."
     ]
   },
   {

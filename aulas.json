@@ -1,0 +1,513 @@
+[
+  {
+    "id": "Matemática-porcentagem",
+    "subject": "Matemática",
+    "title": "Porcentagem: do conceito aos problemas",
+    "level": "Fundamentos",
+    "objective": "Calcular aumentos, descontos e porcentagens sucessivas.",
+    "sections": [
+      [
+        "O significado de %",
+        "Porcentagem significa uma parte de cada cem. 25% = 25/100 = 0,25 = 1/4. Em vez de decorar operações, identifique a base sobre a qual o percentual incide."
+      ],
+      [
+        "Encontrando uma parte",
+        "Para obter p% de V, calcule V × p/100. Se 12% de 250 são solicitados, 250 × 0,12 = 30."
+      ],
+      [
+        "Aumento e desconto",
+        "Um aumento de 15% multiplica o valor por 1,15. Um desconto de 15% multiplica por 0,85. A base do percentual deve ser mantida explícita."
+      ],
+      [
+        "Percentuais sucessivos",
+        "Aumentar 20% e depois descontar 20% não faz voltar ao valor inicial: 100 × 1,20 × 0,80 = 96. Compare os multiplicadores."
+      ]
+    ],
+    "example": "Um material custa R$ 240 e recebe 15% de desconto. Desconto = 240 × 0,15 = R$ 36; preço final = R$ 204.",
+    "pitfalls": [
+      "Confundir 15% com R$ 15.",
+      "Somar percentuais sucessivos sem considerar a nova base.",
+      "Tomar o preço final como base quando a questão fala do preço original."
+    ],
+    "formula": "parte = total × percentual/100",
+    "source": "Exemplos autorais; conferir conteúdo programático na VUNESP."
+  },
+  {
+    "id": "Matemática-regra-de-tres",
+    "subject": "Matemática",
+    "title": "Razões, proporções e regra de três",
+    "level": "Fundamentos",
+    "objective": "Modelar grandezas direta e inversamente proporcionais.",
+    "sections": [
+      [
+        "Razão",
+        "Razão é a comparação de duas grandezas na forma a/b. Compare sempre unidades compatíveis."
+      ],
+      [
+        "Proporção",
+        "Duas razões formam proporção quando a/b = c/d; então a×d = b×c, com denominadores não nulos."
+      ],
+      [
+        "Direta ou inversa?",
+        "Na direta, ambas aumentam ou diminuem na mesma proporção. Na inversa, ao dobrar uma grandeza, a outra se reduz à metade, mantendo as condições."
+      ],
+      [
+        "Resolução",
+        "Monte uma tabela, coloque unidades, decida a relação e só então faça a equação."
+      ]
+    ],
+    "example": "Quatro pessoas executam uma tarefa em 6 horas. Mantida a produtividade, 8 pessoas terminam em 3 horas: 4×6 = 8×3.",
+    "pitfalls": [
+      "Tratar toda relação como direta.",
+      "Esquecer as hipóteses de produtividade constante."
+    ],
+    "formula": "direta: a/b = c/d · inversa: a×b = c×d",
+    "source": "Exemplos autorais."
+  },
+  {
+    "id": "Matemática-equacao-1grau",
+    "subject": "Matemática",
+    "title": "Equação de primeiro grau",
+    "level": "Fundamentos",
+    "objective": "Isolar a incógnita e verificar a solução.",
+    "sections": [
+      [
+        "Expressões e igualdade",
+        "Uma equação é uma igualdade que contém incógnita. Operações devem preservar a igualdade em ambos os lados."
+      ],
+      [
+        "Isolamento",
+        "Agrupe os termos com x e os valores numéricos. Ao “passar para o outro lado”, na verdade aplicamos a operação inversa em ambos os membros."
+      ],
+      [
+        "Verificação",
+        "Substitua a solução na equação original: ambos os lados precisam ter o mesmo valor."
+      ]
+    ],
+    "example": "10x + 69 = 409 → 10x = 340 → x = 34. Conferência: 10×34+69=409.",
+    "pitfalls": [
+      "Errar sinais na transposição.",
+      "Dividir somente uma parcela, e não o membro inteiro."
+    ],
+    "formula": "ax + b = c ⇒ x = (c − b)/a, a ≠ 0",
+    "source": "Exemplos autorais."
+  },
+  {
+    "id": "Português-interpretacao",
+    "subject": "Português",
+    "title": "Interpretação e inferência textual",
+    "level": "Fundamentos",
+    "objective": "Distinguir informação explícita, implícita e opinião.",
+    "sections": [
+      [
+        "Ler com objetivo",
+        "Identifique tema, tese, finalidade, público e relações entre frases antes de julgar alternativas."
+      ],
+      [
+        "Explícito x implícito",
+        "Explícito é o que o texto diz; inferência é uma conclusão sustentada pelo texto, sem inventar informações."
+      ],
+      [
+        "Coesão",
+        "Pronomes, conjunções e expressões retomam ideias. “Portanto” introduz conclusão; “porém” marca contraste."
+      ],
+      [
+        "Método VUNESP",
+        "Elimine alternativas absolutas sem suporte; procure trechos que confirmem ou contradigam a afirmação."
+      ]
+    ],
+    "example": "Texto: “Embora chovesse, a prova ocorreu.” Correto inferir que a chuva não impediu a prova; não se pode inferir que choveu o dia inteiro.",
+    "pitfalls": [
+      "Usar apenas conhecimento pessoal.",
+      "Confundir tema com a opinião do autor.",
+      "Ignorar conectivos."
+    ],
+    "formula": "afirmação válida = informação textual + inferência sustentada",
+    "source": "Exemplos autorais de interpretação."
+  },
+  {
+    "id": "Português-sintaxe",
+    "subject": "Português",
+    "title": "Sintaxe: sujeito, predicado e termos",
+    "level": "Intermediário",
+    "objective": "Identificar funções sintáticas nas construções mais comuns.",
+    "sections": [
+      [
+        "Sujeito",
+        "É o termo sobre o qual o predicado declara algo; pode ser simples, composto, oculto ou indeterminado."
+      ],
+      [
+        "Predicado",
+        "Contém a informação verbal atribuída ao sujeito. Núcleos verbais e nominais determinam sua classificação."
+      ],
+      [
+        "Complementos",
+        "Objeto direto não exige preposição obrigatória; o indireto é introduzido por preposição exigida pelo verbo."
+      ],
+      [
+        "Adjuntos x complementos",
+        "Adjunto adnominal caracteriza um substantivo; complemento nominal completa sentido de nome abstrato, adjetivo ou advérbio."
+      ]
+    ],
+    "example": "“Chegaram os documentos.” Sujeito simples: “os documentos”. O verbo concorda com o núcleo “documentos”.",
+    "pitfalls": [
+      "Presumir que o sujeito é sempre o primeiro termo.",
+      "Confundir vocativo com sujeito."
+    ],
+    "formula": "verbo + pergunta “quem/o que?” pode ajudar, mas não substitui análise da oração",
+    "source": "Exemplos autorais."
+  },
+  {
+    "id": "Português-crase",
+    "subject": "Português",
+    "title": "Crase: quando ocorre e quando não ocorre",
+    "level": "Intermediário",
+    "objective": "Identificar fusão de preposição a com artigo a/as.",
+    "sections": [
+      [
+        "O que é crase",
+        "O acento grave marca a fusão de preposição “a” com artigo feminino “a/as” ou com pronomes demonstrativos adequados."
+      ],
+      [
+        "Teste do masculino",
+        "Se ao trocar por palavra masculina aparecer “ao”, provavelmente há crase: vou à escola / vou ao colégio."
+      ],
+      [
+        "Não ocorre",
+        "Em geral, antes de verbo, palavra masculina ou pronomes pessoais; há exceções contextualizadas."
+      ],
+      [
+        "Locuções",
+        "Locuções adverbiais femininas frequentemente recebem crase: à noite, às vezes, à direita."
+      ]
+    ],
+    "example": "“Entreguei o documento à diretora.” O verbo pede preposição a e “diretora” admite artigo a.",
+    "pitfalls": [
+      "Achar que toda palavra feminina pede crase.",
+      "Usar crase diante de verbo."
+    ],
+    "formula": "a (preposição) + a (artigo) = à",
+    "source": "Exemplos autorais."
+  },
+  {
+    "id": "Raciocínio Lógico-proposicoes",
+    "subject": "Raciocínio Lógico",
+    "title": "Proposições e conectivos lógicos",
+    "level": "Fundamentos",
+    "objective": "Reconhecer proposições e interpretar conectivos.",
+    "sections": [
+      [
+        "Proposição",
+        "Uma frase declarativa que pode ser verdadeira ou falsa. Ordens, perguntas e exclamações geralmente não são proposições."
+      ],
+      [
+        "Negação",
+        "A negação troca o valor lógico: se p é verdadeira, ¬p é falsa."
+      ],
+      [
+        "Conjunção e disjunção",
+        "“p e q” só é verdadeira se ambas forem verdadeiras. “p ou q” inclusivo é falso apenas se ambas forem falsas."
+      ],
+      [
+        "Condicional",
+        "“Se p, então q” só é falsa quando p é verdadeira e q é falsa."
+      ]
+    ],
+    "example": "Se p = verdadeiro e q = falso, “p ∧ q” é falso; “p ∨ q” é verdadeiro; “p → q” é falso.",
+    "pitfalls": [
+      "Interpretar “ou” sempre como exclusivo.",
+      "Negar p e q sem aplicar as leis de De Morgan."
+    ],
+    "formula": "¬p · p ∧ q · p ∨ q · p → q",
+    "source": "Exemplos autorais."
+  },
+  {
+    "id": "Informática-excel",
+    "subject": "Informática",
+    "title": "Excel: referências, fórmulas e funções",
+    "level": "Fundamentos",
+    "objective": "Ler planilhas e distinguir referências relativas e absolutas.",
+    "sections": [
+      [
+        "Fórmulas",
+        "No Excel, fórmulas normalmente começam com =. Exemplo: =A1+B1."
+      ],
+      [
+        "Referências",
+        "A1 é relativa; $A$1 é absoluta; $A1 fixa a coluna; A$1 fixa a linha."
+      ],
+      [
+        "Funções frequentes",
+        "SOMA, MÉDIA, MÁXIMO, MÍNIMO, SE e CONT.SE aparecem em exercícios. Verifique sintaxe e localidade."
+      ],
+      [
+        "Análise de erros",
+        "#DIV/0! indica divisão por zero; #N/D é um valor não encontrado em determinadas funções."
+      ]
+    ],
+    "example": "Se A1=4, A2=6 e A3=10, =MÉDIA(A1:A3) resulta em 20/3 ≈ 6,67.",
+    "pitfalls": [
+      "Confundir texto com valores numéricos.",
+      "Esquecer $ ao copiar fórmulas."
+    ],
+    "formula": "=SOMA(A1:A5) · =SE(A1>=7;\"Aprovado\";\"Revisar\")",
+    "source": "Exemplos autorais; funcionalidades dependem da edição do Microsoft 365."
+  },
+  {
+    "id": "Direito Constitucional-direitos-fundamentais",
+    "subject": "Direito Constitucional",
+    "title": "Direitos fundamentais: leitura orientada",
+    "level": "Introdução",
+    "objective": "Reconhecer a estrutura dos direitos e garantias fundamentais.",
+    "sections": [
+      [
+        "Fonte primária",
+        "Estude diretamente os dispositivos constitucionais cobrados no edital. A redação atual da Constituição prevalece sobre qualquer resumo."
+      ],
+      [
+        "Direitos e garantias",
+        "Direitos são posições jurídicas protegidas; garantias são instrumentos de proteção desses direitos."
+      ],
+      [
+        "Igualdade",
+        "Examine igualdade formal e tratamentos diferenciados juridicamente justificados; evite generalizações."
+      ],
+      [
+        "Questões",
+        "Atenção a expressões “sempre”, “nunca”, exceções e legitimidade dos remédios constitucionais."
+      ]
+    ],
+    "example": "Ao estudar o direito de petição, localize o dispositivo na Constituição, destaque quem pode exercê-lo e compare com o direito de obter certidões.",
+    "pitfalls": [
+      "Confiar em redação desatualizada.",
+      "Confundir direito material com garantia processual."
+    ],
+    "formula": "Fonte: Constituição Federal, especialmente art. 5º",
+    "source": "Constituição Federal vigente: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+  },
+  {
+    "id": "Direito Penal-crimes-administracao",
+    "subject": "Direito Penal",
+    "title": "Crimes contra a Administração Pública",
+    "level": "Introdução",
+    "objective": "Diferenciar condutas típicas e sujeitos envolvidos.",
+    "sections": [
+      [
+        "Estudo por tipos penais",
+        "Leia cada artigo do Código Penal contemplado no edital, destacando verbo-núcleo, sujeito ativo, objeto e pena."
+      ],
+      [
+        "Peculato",
+        "Observe os elementos de apropriar-se ou desviar bem de que o funcionário tem posse em razão do cargo."
+      ],
+      [
+        "Corrupção passiva e ativa",
+        "Não confunda solicitar/receber vantagem indevida (passiva) com oferecer/prometer (ativa). Examine o texto vigente."
+      ],
+      [
+        "Treino de enquadramento",
+        "Para cada caso, localize a conduta e compare os elementos do tipo penal, sem decidir apenas pelo nome popular do crime."
+      ]
+    ],
+    "example": "Um enunciado menciona “oferecer vantagem a funcionário para praticar ato de ofício”. Compare o verbo “oferecer” com o art. 333 do CP, verificando todos os requisitos legais.",
+    "pitfalls": [
+      "Confundir concussão com corrupção passiva.",
+      "Memorizar pena sem verificar artigo atualizado."
+    ],
+    "formula": "Tipo penal = verbo + elementos legais + circunstâncias",
+    "source": "Código Penal vigente: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+  },
+  {
+    "id": "Direito Administrativo-improbidade",
+    "subject": "Direito Administrativo",
+    "title": "Improbidade administrativa: noções essenciais",
+    "level": "Introdução",
+    "objective": "Compreender a estrutura da Lei 8.429/1992 após alterações legais.",
+    "sections": [
+      [
+        "Lei atual",
+        "O estudo deve partir do texto consolidado da Lei nº 8.429/1992, especialmente regras sobre dolo, tipicidade e sanções."
+      ],
+      [
+        "Categorias",
+        "Diferencie enriquecimento ilícito, prejuízo ao erário e violação aos princípios, observando requisitos legais."
+      ],
+      [
+        "Responsabilidade",
+        "Não confunda irregularidade administrativa genérica com ato ímprobo; os requisitos legais importam."
+      ],
+      [
+        "Prática",
+        "Resolva casos identificando conduta, elemento subjetivo e previsão legal."
+      ]
+    ],
+    "example": "Uma falha formal sem elemento exigido pelo tipo não deve ser automaticamente classificada como improbidade. Verifique os requisitos da lei.",
+    "pitfalls": [
+      "Usar material anterior à reforma sem conferir atualização.",
+      "Confundir improbidade com crime."
+    ],
+    "formula": "Leia Lei 8.429/1992, texto consolidado",
+    "source": "Lei 8.429/1992: https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+  },
+  {
+    "id": "Redação-dissertativa",
+    "subject": "Redação",
+    "title": "Redação dissertativo-argumentativa",
+    "level": "Fundamentos",
+    "objective": "Estruturar tese, argumentos e conclusão com coerência.",
+    "sections": [
+      [
+        "Planejamento",
+        "Leia o comando e recorte o tema. Defina uma tese clara e dois argumentos distintos."
+      ],
+      [
+        "Introdução",
+        "Apresente o tema e a posição defendida de forma objetiva; não prometa argumentos que não serão desenvolvidos."
+      ],
+      [
+        "Desenvolvimento",
+        "Cada parágrafo deve conter tópico frasal, explicação, exemplo e conexão com a tese."
+      ],
+      [
+        "Conclusão e revisão",
+        "Retome a tese e feche o raciocínio. Revise concordância, pontuação, repetição vocabular e legibilidade."
+      ]
+    ],
+    "example": "Tema hipotético: acesso à Justiça digital. Tese: a digitalização amplia acesso, mas exige inclusão e proteção de dados. Desenvolva um argumento por parágrafo.",
+    "pitfalls": [
+      "Fugir ao tema.",
+      "Usar dados inventados como prova.",
+      "Escrever sem revisar."
+    ],
+    "formula": "Tema → tese → argumentos → conclusão",
+    "source": "Roteiro autoral; critérios específicos devem ser conferidos no edital oficial."
+  },
+  {
+    "id": "Processo Civil-atos-processuais",
+    "subject": "Processo Civil",
+    "title": "Atos processuais e prazos: mapa inicial",
+    "level": "Introdução",
+    "objective": "Organizar conceitos para leitura do CPC.",
+    "sections": [
+      [
+        "Atos processuais",
+        "Identifique quem pratica o ato, sua finalidade, forma, lugar e tempo."
+      ],
+      [
+        "Prazos",
+        "Separe prazo legal, judicial e convencional quando cabível; verifique regra de contagem aplicável."
+      ],
+      [
+        "Comunicação",
+        "Diferencie citação de intimação pela finalidade jurídica e pelo contexto processual."
+      ],
+      [
+        "Treino",
+        "Leia um artigo, anote hipótese, regra, exceção e exemplo; depois transforme em pergunta."
+      ]
+    ],
+    "example": "Citação integra o réu/executado/interessado à relação processual conforme o caso; intimação dá ciência de atos ou termos do processo.",
+    "pitfalls": [
+      "Aplicar contagem de dias sem verificar hipótese legal.",
+      "Confundir citação e intimação."
+    ],
+    "formula": "Regra + exceções + contagem (CPC)",
+    "source": "CPC vigente: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+  },
+  {
+    "id": "Processo Penal-citacao",
+    "subject": "Processo Penal",
+    "title": "Citação e intimação no processo penal",
+    "level": "Introdução",
+    "objective": "Identificar finalidades e modalidades de comunicação processual.",
+    "sections": [
+      [
+        "Finalidade",
+        "A citação busca cientificar o acusado da imputação e chamá-lo ao processo nas condições legais."
+      ],
+      [
+        "Modalidades",
+        "Examine regras específicas de citação pessoal, por edital e demais hipóteses previstas no CPP."
+      ],
+      [
+        "Intimações",
+        "Distinga ciência de decisões e atos de chamamento inicial."
+      ],
+      [
+        "Exercícios",
+        "Em cada situação, procure os requisitos e consequências previstos no texto vigente do CPP."
+      ]
+    ],
+    "example": "Caso hipotético: acusado não localizado. Antes de escolher a modalidade de citação, identifique as diligências e os requisitos legais do CPP.",
+    "pitfalls": [
+      "Usar regras do CPC automaticamente.",
+      "Ignorar consequências específicas da citação por edital."
+    ],
+    "formula": "CPP: hipóteses → diligências → modalidade → efeito",
+    "source": "CPP vigente: https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+  },
+  {
+    "id": "Legislação Interna-normas-cgj",
+    "subject": "Legislação Interna",
+    "title": "Normas da Corregedoria: como estudar",
+    "level": "Roteiro de leitura",
+    "objective": "Ler e organizar as normas internas por competência e procedimento.",
+    "sections": [
+      [
+        "Texto oficial",
+        "Use a edição vigente das Normas de Serviço da Corregedoria-Geral da Justiça do TJSP e as resoluções exigidas pelo edital."
+      ],
+      [
+        "Mapa por procedimento",
+        "Para cada seção, extraia: órgão competente, documento, prazo, formalidade e exceções."
+      ],
+      [
+        "Quadro comparativo",
+        "Registre o que cabe à serventia, ao magistrado e à unidade administrativa sem misturar atribuições."
+      ],
+      [
+        "Atualização",
+        "Confronte alterações, comunicados e provimentos posteriores antes de memorizar artigos."
+      ]
+    ],
+    "example": "Em norma sobre rotina cartorária, organize um quadro “quem faz / o que faz / quando / exceção” antes de responder questões.",
+    "pitfalls": [
+      "Estudar resumo sem versão da norma.",
+      "Confundir providência obrigatória com recomendação."
+    ],
+    "formula": "Competência → ato → prazo → exceção",
+    "source": "Consultar normas oficiais no portal TJSP: https://www.tjsp.jus.br/"
+  },
+  {
+    "id": "Atualidades e Inclusão-lbi",
+    "subject": "Atualidades e Inclusão",
+    "title": "Lei Brasileira de Inclusão: conceitos e direitos",
+    "level": "Introdução",
+    "objective": "Identificar princípios, acessibilidade e não discriminação.",
+    "sections": [
+      [
+        "Definições",
+        "Leia as definições legais de pessoa com deficiência, barreiras, acessibilidade e adaptações razoáveis."
+      ],
+      [
+        "Igualdade",
+        "Analise as garantias de participação em igualdade de condições e o combate à discriminação."
+      ],
+      [
+        "Direitos",
+        "Organize os artigos do edital por temas, distinguindo direitos, deveres e mecanismos de proteção."
+      ],
+      [
+        "Atualidades",
+        "Trate notícias recentes separadamente: fonte, data, acontecimento e repercussão; evite resumos sem referência."
+      ]
+    ],
+    "example": "Um órgão oferece atendimento apenas por meio inacessível. Analise o problema à luz dos conceitos de barreira e acessibilidade previstos na LBI.",
+    "pitfalls": [
+      "Confundir deficiência com incapacidade civil automática.",
+      "Usar notícias sem data ou fonte."
+    ],
+    "formula": "Conceito → situação → direito → medida",
+    "source": "LBI vigente: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+  }
+]

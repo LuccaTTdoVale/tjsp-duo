@@ -4,6 +4,7 @@
   const links=[
     ['index.html','▦','Painel'],
     ['conteudo.html','▤','Aulas'],
+    ['calendario.html','▦','Calendário'],
     ['questoes.html','✎','Questões'],
     ['ranking.html','🏆','Ranking'],
     ['estatisticas.html','◉','Estatísticas'],

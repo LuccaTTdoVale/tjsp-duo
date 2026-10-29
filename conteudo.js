@@ -7,75 +7,46 @@ const app=getApps().length?getApp():initializeApp(firebaseConfig),auth=getAuth(a
 let lessons=[],progress={},profileId=null,active=null,currentUser=null;
 let practicePromise=null,lessonVisit=0;
 function getPracticeData(){
- if(!practicePromise)practicePromise=fetch('./questoes-aulas.json?v=6')
-   .then(r=>{if(!r.ok)throw Error('Banco de prática não encontrado');return r.json();})
-   .catch(e=>{console.warn('Banco completo indisponível:',e);return {version:3,questions:{},lessons:{},custom:{}};});
+ if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=7')
+  .then(r=>{if(!r.ok)throw Error('Banco exclusivo de aulas não disponível');return r.json()})
+  .catch(e=>{console.warn('Falha nas questões exclusivas:',e);return {lessons:{}}});
  return practicePromise;
 }
-function shuffle(list){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-function practiceKey(l){return 'tjduo-seen-v3:'+String(currentUser?.uid||'visitante')+':'+encodeURIComponent(l.id);}
-function readSeen(l){try{const v=JSON.parse(localStorage.getItem(practiceKey(l))||'[]');return Array.isArray(v)?v.filter(x=>typeof x==='string').slice(-1000):[]}catch{return [];}}
-function writeSeen(l,ids){try{localStorage.setItem(practiceKey(l),JSON.stringify(ids.slice(-1000)))}catch(e){console.warn('Histórico local indisponível',e);}}
-function getPool(l,data){
- const questionIds=data.lessons?.[l.id]||[];
- const bank=questionIds.map(id=>{const q=data.questions?.[String(id)];return q?{...q,key:'bank_'+id,origin:'bank'}:null;}).filter(Boolean);
- const custom=(data.custom?.[l.id]||[]).map((q,i)=>({...q,key:'custom_'+String(q.id||i),origin:'custom'}));
- const authored=(l.check||[]).map((q,i)=>({...q,key:'authored_'+i,origin:'authored'}));
- const map=new Map();
- // Agrupar por enunciado evita duplicidade literal, mesmo com alternativas reordenadas.
- for(const q of [...bank,...custom,...authored]){
-   if(!q||!Array.isArray(q.options)||q.options.length<2||!Number.isInteger(Number(q.answer))||Number(q.answer)<0||Number(q.answer)>=q.options.length)continue;
-   const sig=String(q.q||'').trim().toLocaleLowerCase('pt-BR').replace(/\s+/g,' ')+'|'+[...q.options].map(String).sort().join('|');
-   if(!sig)continue;
-   if(!map.has(sig))map.set(sig,q);
- }
- return [...map.values()];
-}
+function shuffle(list){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function practiceKey(l){return 'tjduo-autoral-v7:'+String(currentUser?.uid||'visitante')+':'+encodeURIComponent(l.id)}
+function readSeen(l){try{const v=JSON.parse(localStorage.getItem(practiceKey(l))||'[]');return Array.isArray(v)?v:[]}catch{return []}}
 function pickPractice(l,data){
- const pool=getPool(l,data);if(!pool.length)return {picked:[],total:0,left:0};
- const count=Math.min(5,pool.length),seen=readSeen(l),seenSet=new Set(seen);
- let available=pool.filter(q=>!seenSet.has(q.key));
- // Só reiniciar o ciclo quando todos os exercícios disponíveis já foram usados.
- if(available.length<count){available=pool;seen.length=0;seenSet.clear();}
- const picked=[];const usedGroups=new Set();const random=shuffle(available);
- // Uma frase introdutória pode ter 200 versões; não repetir a mesma ideia no mesmo conjunto.
- for(const q of random){const group=q.group||q.q;if(usedGroups.has(group))continue;picked.push(q);usedGroups.add(group);if(picked.length===count)break;}
- if(picked.length<count)for(const q of random){if(picked.some(x=>x.key===q.key))continue;picked.push(q);if(picked.length===count)break;}
- writeSeen(l,[...seen,...picked.map(q=>q.key)]);
- const result=picked.map(q=>{
-   const order=shuffle(q.options.map((_,i)=>i));
-   return {...q,options:order.map(i=>q.options[i]),answer:order.indexOf(Number(q.answer)),
-     wrong:Array.isArray(q.wrong)?order.map(i=>q.wrong[i]||''):[]};
- });
- return {picked:result,total:pool.length,left:Math.max(0,available.length-count)};
+ const pool=data.lessons?.[l.id]||[];if(!pool.length)return {picked:[],total:0,left:0};
+ const count=Math.min(4,Math.max(2,Math.floor(pool.length/2)));let seen=readSeen(l),available=pool.filter(q=>!seen.includes(q.id));
+ if(!available.length){seen=[];available=pool;}
+ const chosen=shuffle(available).slice(0,count);
+ if(chosen.length<count){
+   const recent=new Set(seen.slice(-count));
+   const extras=shuffle(pool.filter(q=>!chosen.includes(q)&&!recent.has(q.id)));
+   chosen.push(...extras.slice(0,count-chosen.length));
+ }
+ if(chosen.length<count){const rest=shuffle(pool.filter(q=>!chosen.includes(q)));chosen.push(...rest.slice(0,count-chosen.length));}
+ try{localStorage.setItem(practiceKey(l),JSON.stringify([...seen,...chosen.map(q=>q.id)].slice(-120)))}catch(_){ }
+ return {picked:chosen.map(q=>{const order=shuffle(q.options.map((_,i)=>i));return {...q,options:order.map(i=>q.options[i]),answer:order.indexOf(Number(q.answer)),wrong:order.map(i=>q.wrong?.[i]||'')}}),total:pool.length,left:Math.max(0,available.length-count)};
 }
 async function populatePractice(l,visit){
-  const host=$('practiceHost');if(!host)return;
-  const data=await getPracticeData();
-  if(visit!==lessonVisit||active?.id!==l.id||$('lesson').classList.contains('hide'))return;
-  const {picked:list,total,left}=pickPractice(l,data);
-  if(!list.length){host.innerHTML='<h3>🧠 Teste sua compreensão</h3><p>Não há questões de fixação disponíveis nesta aula.</p>';return;}
-  host.innerHTML=`<div class="practiceTop"><div><h3>🧠 Teste sua compreensão</h3><p class="dim">${total} exercícios associados a esta aula · ${left} ainda não vistos no ciclo atual. Erros daqui são corrigidos imediatamente e não entram no Caderno de Erros.</p></div><button class="btn secondary" type="button" id="newQuestions">↻ Outras questões</button></div>${list.map((q,i)=>`<div class="checkQuestion"><strong>${i+1}. ${escapeHtml(q.q)}</strong>${q.options.map((o,j)=>`<button type="button" class="checkOpt" data-i="${i}" data-choice="${j}" aria-pressed="false">${escapeHtml(String.fromCharCode(65+j)+') '+o)}</button>`).join('')}<div class="checkFeedback" id="checkFeedback${i}" role="status" aria-live="polite"></div></div>`).join('')}`;
-  host.querySelector('#newQuestions')?.addEventListener('click',()=>populatePractice(l,visit));
-  host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',()=>{
-    const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=list[i];
-    const fb=host.querySelector('#checkFeedback'+i);if(!fb||btn.disabled)return;
-    const answer=Number(q.answer),correct=chosen===answer;
-    const buttons=[...host.querySelectorAll('.checkOpt[data-i="'+i+'"]')];
-    buttons.forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true;});
-    const optionText=n=>String.fromCharCode(65+n)+') '+q.options[n];
-    const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
-    const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta!':'✕ Resposta incorreta';box.append(heading);
-    const addLine=(label,detail)=>{const p=document.createElement('p');const bold=document.createElement('b');bold.textContent=label+' ';p.append(bold,document.createTextNode(detail));box.append(p);};
-    addLine('Sua resposta:',optionText(chosen));
-    if(!correct){
-      const specific=Array.isArray(q.wrong)?String(q.wrong[chosen]||'').trim():'';
-      addLine('Por que está errada:',specific||'Esta alternativa não corresponde à regra ou ao resultado exigido. Compare o valor escolhido com o cálculo ou conceito explicado a seguir.');
-    }
-    addLine('Alternativa correta:',optionText(answer));
-    addLine('Por que está correta:',String(q.why||'Confronte a alternativa com a regra e os exemplos explicados acima na aula.'));
-    fb.replaceChildren(box);
-  }));
+ const host=$('practiceHost');if(!host)return;
+ const data=await getPracticeData();if(visit!==lessonVisit||active?.id!==l.id||$('lesson').classList.contains('hide'))return;
+ const {picked:list,total,left}=pickPractice(l,data);
+ if(!list.length){host.innerHTML='<h3>🧠 Teste sua compreensão</h3><p>As questões desta aula ainda não estão disponíveis.</p>';return}
+ host.innerHTML=`<div class="practiceTop"><div><h3>🧠 Teste sua compreensão</h3><p class="dim">${total} questões autorais exclusivas desta aula · ${left} ainda não vistas. Correção imediata; essas respostas não entram no Caderno de Erros nem no simulado.</p></div><button class="btn secondary" type="button" id="newQuestions">↻ Sortear outras</button></div>${list.map((q,i)=>`<div class="checkQuestion"><strong>${i+1}. ${escapeHtml(q.q)}</strong>${q.options.map((o,j)=>`<button type="button" class="checkOpt" data-i="${i}" data-choice="${j}" aria-pressed="false">${escapeHtml(String.fromCharCode(65+j)+') '+o)}</button>`).join('')}<div class="checkFeedback" id="checkFeedback${i}" role="status" aria-live="polite"></div></div>`).join('')}`;
+ host.querySelector('#newQuestions')?.addEventListener('click',()=>populatePractice(l,visit));
+ host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',()=>{
+ const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=list[i],fb=host.querySelector('#checkFeedback'+i);if(!fb||btn.disabled)return;
+ const answer=Number(q.answer),correct=chosen===answer;
+ host.querySelectorAll('.checkOpt[data-i="'+i+'"]').forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true});
+ const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
+ const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta':'✕ Resposta incorreta';box.append(heading);
+ const add=(label,detail)=>{const p=document.createElement('p'),b=document.createElement('b');b.textContent=label+' ';p.append(b,document.createTextNode(detail));box.append(p)};
+ const fmt=n=>String.fromCharCode(65+n)+') '+q.options[n];
+ add('Sua resposta:',fmt(chosen));if(!correct)add('Por que não serve:',q.wrong?.[chosen]||'Esta alternativa não corresponde ao conceito ensinado nesta seção.');
+ add('Gabarito:',fmt(answer));add('Por que está certo:',q.why||'Confira a explicação da aula.');fb.replaceChildren(box);
+ }));
 }
 
 async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}

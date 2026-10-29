@@ -24,7 +24,7 @@ const subjectsFor=d=>{
  if(wd===4)return ['Raciocínio Lógico',weekIndex(d)%2?'Direito Administrativo':'Direito Constitucional'];
  return WEEK[wd];
 };
-const titleFor=(subject,d,lessons)=>{
+const titleFor=(subject,d,lessons,completed={})=>{
  if(!Array.isArray(lessons)||!lessons.length)return null;
  const all=lessons.filter(x=>x.subject===subject).sort((a,b)=>(a.ordemSugerida??999)-(b.ordemSugerida??999));
  if(!all.length)return null;
@@ -32,9 +32,30 @@ const titleFor=(subject,d,lessons)=>{
  for(let i=0;i<Math.max(0,diff(d));i++){
   const other=addDays(START,i);visit+=subjectsFor(other).filter(x=>x===subject).length;
  }
- const lesson=all[visit%all.length];return lesson?{id:lesson.id,title:lesson.title,subject}:null;
+ // Datas passadas mantêm o planejamento original; para hoje e datas futuras,
+ // a primeira pendência não é ultrapassada pelo calendário.
+ let lesson=all[visit%all.length];
+ if(d>=today()&&completed&&Object.keys(completed).length){
+   const pending=all.filter(x=>!completed[x.id]);
+   if(pending.length){
+     let ahead=0;
+     for(let i=Math.max(0,diff(today()));i<Math.max(0,diff(d));i++){
+       ahead+=subjectsFor(addDays(START,i)).filter(x=>x===subject).length;
+     }
+     lesson=pending[ahead%pending.length];
+   }
+ }else if(d>=today()&&completed){
+   // Sem nenhuma aula concluída, a sequência começa no primeiro fundamento.
+   let ahead=0;
+   for(let i=Math.max(0,diff(today()));i<Math.max(0,diff(d));i++){
+    ahead+=subjectsFor(addDays(START,i)).filter(x=>x===subject).length;
+   }
+   lesson=all[ahead%all.length];
+ }
+ return lesson?{id:lesson.id,title:lesson.title,subject}:null;
 };
-function tasksFor(d,lessons){
+
+function tasksFor(d,lessons,completed){
  if(d<START)return [{label:'Planejamento ainda não iniciado',minutes:0,type:'info'}];
  if(d>EXAM)return [{label:'Acompanhar comunicados oficiais da VUNESP',minutes:0,type:'info'}];
  if(d===EXAM)return [{label:'PROVA PREVISTA — TJSP Escrevente',minutes:300,type:'exam',url:'https://www.vunesp.com.br/TJSP2607'}];
@@ -46,13 +67,13 @@ function tasksFor(d,lessons){
  ];
  if(wd===6)return [
   {label:'Analisar erros do simulado e revisar conteúdos',minutes:60,type:'errors',url:'./caderno-erros.html'},
-  {label:'Atualidades e Inclusão',minutes:40,type:'lesson',subject:'Atualidades e Inclusão',lesson:titleFor('Atualidades e Inclusão',d,lessons)},
+  {label:'Atualidades e Inclusão',minutes:40,type:'lesson',subject:'Atualidades e Inclusão',lesson:titleFor('Atualidades e Inclusão',d,lessons,completed)},
   {label:'Revisão espaçada: 1, 7 e 21 dias',minutes:20,type:'review'}
  ];
  const [first,second]=subjectsFor(d);
  return [
-  {label:first,minutes:45,type:'lesson',subject:first,lesson:titleFor(first,d,lessons)},
-  {label:second,minutes:45,type:'lesson',subject:second,lesson:titleFor(second,d,lessons)},
+  {label:first,minutes:45,type:'lesson',subject:first,lesson:titleFor(first,d,lessons,completed)},
+  {label:second,minutes:45,type:'lesson',subject:second,lesson:titleFor(second,d,lessons,completed)},
   {label:'Questões — resolver 20 a 40 e conferir os erros',minutes:30,type:'practice',url:'./questoes.html'}
  ];
 }

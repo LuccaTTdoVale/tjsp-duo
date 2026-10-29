@@ -33,7 +33,7 @@ function render(){
  if(details)details.innerHTML='<div class="duoAutoStatus st-'+record.status+'"><strong>'+safe(statusText(record.status))+'</strong>'+
  '<div>Tempo ativo: <b>'+mins+' / 120 min</b> · Questões: <b>'+record.questions+' / 50</b></div>'+
  '<small>Critério automático: 2 horas ativas OU 50 questões (aulas + simulados finalizados). Sem cliques manuais. Tempo de abas ocultas ou sem interação recente não conta.</small></div>';
- $('dayTasks').innerHTML=plan.tasksFor(selected,lessons).map(t=>{
+ $('dayTasks').innerHTML=plan.tasksFor(selected,lessons,window.TJSPDailyActivity?.getCompletedLessons?.()).map(t=>{
   const label=t.type==='lesson'?(t.subject||t.label)+' — '+(t.lesson?.title||'Assunto pendente'):t.label;
   const url=taskUrl(t);
   return '<div class="task"><span class="duoTaskMarker" aria-hidden="true">•</span><div class="taskText"><strong>'+safe(label)+'</strong>'+(url?'<div><a href="'+safe(url)+'">'+(t.type==='lesson'?'Abrir esta aula →':t.type==='exam'||t.type==='essay'?'Abrir Modo Prova →':'Acessar →')+'</a></div>':'')+'</div><span class="taskMinutes">'+(t.minutes?t.minutes+' min':'')+'</span></div>';

@@ -31,7 +31,7 @@ function getDay(date=localDay()){
  return {seconds,questions,practice,simulados,status};
 }
 function announce(){document.dispatchEvent(new CustomEvent('tjsp:study-progress',{detail:{day:localDay(),current:getDay()}}));}
-window.TJSPDailyActivity=Object.freeze({getDay,today:localDay,refresh:announce,recordLessonAnswer});
+window.TJSPDailyActivity=Object.freeze({getDay,today:localDay,refresh:announce,recordLessonAnswer,getCompletedLessons:()=>({...profile.lessonProgress||{}})});
 function canCount(){return Boolean(uid&&slot)&&document.visibilityState==='visible'&&document.hasFocus()&&(Date.now()-lastInput<4*60*1000);}
 function lockOwner(){
  if(!uid)return false;

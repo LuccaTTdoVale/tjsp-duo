@@ -5,9 +5,10 @@ import {firebaseConfig} from './firebase-config.js';
 const $=id=>document.getElementById(id), escapeHtml=s=>String(s??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const app=getApps().length?getApp():initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app);
 let lessons=[],progress={},profileId=null,active=null,currentUser=null;
-let practicePromise=null,lessonVisit=0;
+let practicePromise=null,notesPromise=null,lessonVisit=0,passedLessonId=null,roundState=null;
+function getNotesData(){if(!notesPromise)notesPromise=fetch('./resumos-caderno.json?v=10').then(r=>{if(!r.ok)throw Error('Resumos indisponíveis');return r.json()});return notesPromise;}
 function getPracticeData(){
- if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=7')
+ if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=10')
   .then(r=>{if(!r.ok)throw Error('Banco exclusivo de aulas não disponível');return r.json()})
   .catch(e=>{console.warn('Falha nas questões exclusivas:',e);return {lessons:{}}});
  return practicePromise;
@@ -17,7 +18,7 @@ function practiceKey(l){return 'tjduo-autoral-v7:'+String(currentUser?.uid||'vis
 function readSeen(l){try{const v=JSON.parse(localStorage.getItem(practiceKey(l))||'[]');return Array.isArray(v)?v:[]}catch{return []}}
 function pickPractice(l,data){
  const pool=data.lessons?.[l.id]||[];if(!pool.length)return {picked:[],total:0,left:0};
- const count=Math.min(4,Math.max(2,Math.floor(pool.length/2)));let seen=readSeen(l),available=pool.filter(q=>!seen.includes(q.id));
+ const count=Math.min(12,pool.length);let seen=readSeen(l),available=pool.filter(q=>!seen.includes(q.id));
  if(!available.length){seen=[];available=pool;}
  const chosen=shuffle(available).slice(0,count);
  if(chosen.length<count){
@@ -29,25 +30,70 @@ function pickPractice(l,data){
  try{localStorage.setItem(practiceKey(l),JSON.stringify([...seen,...chosen.map(q=>q.id)].slice(-120)))}catch(_){ }
  return {picked:chosen.map(q=>{const order=shuffle(q.options.map((_,i)=>i));return {...q,options:order.map(i=>q.options[i]),answer:order.indexOf(Number(q.answer)),wrong:order.map(i=>q.wrong?.[i]||'')}}),total:pool.length,left:Math.max(0,available.length-count)};
 }
+function lessonCompletionState(l){
+ const btn=$('complete');if(!btn)return;
+ if(progress[l.id]){btn.disabled=true;btn.textContent='✓ Aula já concluída';return;}
+ btn.disabled=passedLessonId!==l.id;
+ btn.textContent=passedLessonId===l.id?'✓ Concluir aula (100% de acertos)':'🔒 Concluir: acerte todas as questões';
+}
+function practiceMessage(host,message,ready=false){
+ let box=host.querySelector('#practiceRoundStatus');if(!box)return;
+ box.className='practiceRoundStatus'+(ready?' is-passed':'');
+ box.textContent=message;
+}
+function drawPracticeRound(l,visit,host,questions,total,left){
+ if(visit!==lessonVisit||active?.id!==l.id)return;
+ passedLessonId=null;roundState={lessonId:l.id,questions,answered:new Map(),wrong:0};
+ lessonCompletionState(l);
+ host.innerHTML=`<div class="practiceTop"><div><h3>🧠 Teste sua compreensão</h3><p class="dim">Rodada com ${questions.length} questões, de ${total} disponíveis nesta aula. Responda tudo corretamente na mesma tentativa para liberar a conclusão. Os erros são explicados e você pode refazer a rodada.</p></div><button class="btn secondary" type="button" id="newQuestions">↻ Outras questões</button></div><div id="practiceRoundStatus" class="practiceRoundStatus" role="status" aria-live="polite">0 de ${questions.length} respondidas · 100% de acertos necessários.</div>${questions.map((q,i)=>`<div class="checkQuestion"><strong>${i+1}. ${escapeHtml(q.q)}</strong>${q.options.map((o,j)=>`<button type="button" class="checkOpt" data-i="${i}" data-choice="${j}" aria-pressed="false">${escapeHtml(String.fromCharCode(65+j)+') '+o)}</button>`).join('')}<div class="checkFeedback" id="checkFeedback${i}" role="status" aria-live="polite"></div></div>`).join('')}<div id="practiceActions" class="practiceActions"></div>`;
+ host.querySelector('#newQuestions').onclick=()=>{passedLessonId=null;lessonCompletionState(l);populatePractice(l,visit);};
+ host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',()=>{
+   const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=questions[i],fb=host.querySelector('#checkFeedback'+i);
+   if(!roundState||roundState.questions!==questions||roundState.answered.has(i))return;
+   const answer=Number(q.answer),correct=chosen===answer;
+   roundState.answered.set(i,correct);if(!correct)roundState.wrong++;
+   window.TJSPDailyActivity?.recordLessonAnswer(l.id+':'+q.id);
+   host.querySelectorAll('.checkOpt[data-i="'+i+'"]').forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true});
+   const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
+   const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta':'✕ Resposta incorreta';box.append(heading);
+   const add=(label,detail)=>{const p=document.createElement('p'),b=document.createElement('b');b.textContent=label+' ';p.append(b,document.createTextNode(detail));box.append(p)};
+   const fmt=n=>String.fromCharCode(65+n)+') '+q.options[n];
+   add('Sua resposta:',fmt(chosen));if(!correct)add('Onde está o erro:',q.wrong?.[chosen]||'A afirmação escolhida não atende ao conteúdo cobrado.');
+   add('Resposta correta:',fmt(answer));add('Por que está correta:',q.why||'Leia o desenvolvimento desta aula e confira o conceito.');fb.replaceChildren(box);
+   const n=roundState.answered.size,wrong=roundState.wrong;
+   if(n<questions.length){practiceMessage(host,`${n} de ${questions.length} respondidas · ${wrong} erro(s).`);return;}
+   const actions=host.querySelector('#practiceActions');
+   if(wrong===0){passedLessonId=l.id;lessonCompletionState(l);practiceMessage(host,`✓ Excelente! ${n} de ${n} corretas. Agora você pode concluir esta aula.`,true);actions.innerHTML='<a href="#complete" class="btn">Ir para concluir aula ↓</a>';}
+   else{passedLessonId=null;lessonCompletionState(l);practiceMessage(host,`${n} respondidas, ${wrong} erro(s). Revise as explicações e refaça a rodada para conseguir 100%.`);actions.innerHTML='<button class="btn" type="button" id="repeatPractice">↻ Refazer esta rodada</button>';
+    actions.querySelector('#repeatPractice').onclick=()=>{
+      const shuffled=questions.map(q=>{const idx=shuffle(q.options.map((_,j)=>j));return {...q,options:idx.map(j=>q.options[j]),answer:idx.indexOf(q.answer),wrong:idx.map(j=>q.wrong?.[j]||'')}});
+      drawPracticeRound(l,visit,host,shuffled,total,left);
+      host.scrollIntoView({behavior:'smooth',block:'start'});
+    };
+   }
+ }));
+}
 async function populatePractice(l,visit){
  const host=$('practiceHost');if(!host)return;
  const data=await getPracticeData();if(visit!==lessonVisit||active?.id!==l.id||$('lesson').classList.contains('hide'))return;
  const {picked:list,total,left}=pickPractice(l,data);
- if(!list.length){host.innerHTML='<h3>🧠 Teste sua compreensão</h3><p>As questões desta aula ainda não estão disponíveis.</p>';return}
- host.innerHTML=`<div class="practiceTop"><div><h3>🧠 Teste sua compreensão</h3><p class="dim">${total} questões autorais exclusivas desta aula · ${left} ainda não vistas. Correção imediata; essas respostas não entram no Caderno de Erros nem no simulado.</p></div><button class="btn secondary" type="button" id="newQuestions">↻ Sortear outras</button></div>${list.map((q,i)=>`<div class="checkQuestion"><strong>${i+1}. ${escapeHtml(q.q)}</strong>${q.options.map((o,j)=>`<button type="button" class="checkOpt" data-i="${i}" data-choice="${j}" aria-pressed="false">${escapeHtml(String.fromCharCode(65+j)+') '+o)}</button>`).join('')}<div class="checkFeedback" id="checkFeedback${i}" role="status" aria-live="polite"></div></div>`).join('')}`;
- host.querySelector('#newQuestions')?.addEventListener('click',()=>populatePractice(l,visit));
- host.querySelectorAll('.checkOpt').forEach(btn=>btn.addEventListener('click',()=>{
- const i=Number(btn.dataset.i),chosen=Number(btn.dataset.choice),q=list[i],fb=host.querySelector('#checkFeedback'+i);if(!fb||btn.disabled)return;
- const answer=Number(q.answer),correct=chosen===answer;
- window.TJSPDailyActivity?.recordLessonAnswer(l.id+':'+q.id);
- host.querySelectorAll('.checkOpt[data-i="'+i+'"]').forEach(b=>{const n=Number(b.dataset.choice);b.classList.toggle('is-wrong',n===chosen&&!correct);b.classList.toggle('is-correct',n===answer);b.classList.toggle('was-answer',n===answer&&!correct);b.setAttribute('aria-pressed',String(n===chosen));b.disabled=true});
- const box=document.createElement('div');box.className='feedbackBox'+(correct?'':' incorrect');
- const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta':'✕ Resposta incorreta';box.append(heading);
- const add=(label,detail)=>{const p=document.createElement('p'),b=document.createElement('b');b.textContent=label+' ';p.append(b,document.createTextNode(detail));box.append(p)};
- const fmt=n=>String.fromCharCode(65+n)+') '+q.options[n];
- add('Sua resposta:',fmt(chosen));if(!correct)add('Por que não serve:',q.wrong?.[chosen]||'Esta alternativa não corresponde ao conceito ensinado nesta seção.');
- add('Gabarito:',fmt(answer));add('Por que está certo:',q.why||'Confira a explicação da aula.');fb.replaceChildren(box);
- }));
+ if(!list.length){host.innerHTML='<h3>🧠 Teste sua compreensão</h3><p>O banco desta aula não carregou. Atualize a página antes de tentar concluir.</p>';lessonCompletionState(l);return;}
+ drawPracticeRound(l,visit,host,list,total,left);
+}
+async function populateNotebook(l,visit){
+ const host=$('notesHost');if(!host)return;
+ try{
+  const data=await getNotesData();if(visit!==lessonVisit||active?.id!==l.id)return;
+  const note=data.lessons?.[l.id];if(!note){host.innerHTML='<p>Resumo ainda indisponível nesta aula.</p>';return;}
+  const points=(note.points||[]).map(x=>`<div class="notePoint"><strong>${escapeHtml(x.heading)}</strong><p>${escapeHtml(x.text)}</p></div>`).join('');
+  const steps=(note.steps||[]).length?`<h4>Como resolver ou aplicar</h4><ol>${note.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol>`:'';
+  host.innerHTML=`<div class="notesHeading"><div><span class="notesEyebrow">PARA ANOTAR À MÃO</span><h2>📓 Resumo do assunto</h2><p>Registre estas regras e exemplos no caderno para suas revisões de 1, 7 e 21 dias.</p></div><button id="copyNotes" class="btn secondary" type="button">Copiar resumo</button></div><h3>${escapeHtml(note.title)}</h3><p><strong>Objetivo:</strong> ${escapeHtml(note.objective)}</p>${points}${note.formula?`<div class="noteFormula"><strong>Regra ou fórmula essencial:</strong><p>${escapeHtml(note.formula)}</p></div>`:''}${steps}${note.example?`<h4>Exemplo aplicado</h4><p>${escapeHtml(note.example)}</p>`:''}${note.pitfalls?.length?`<h4>Atenção aos erros comuns</h4><ul>${note.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul>`:''}<p class="notesSource">Este resumo é um apoio para revisão. Estude primeiro a aula completa; para legislação, confira sempre a versão vigente na fonte oficial.</p>`;
+  host.querySelector('#copyNotes').onclick=async()=>{
+   const t=[note.title,'Objetivo: '+note.objective,...note.points.map(x=>x.heading+'\n'+x.text),note.formula?'Regra: '+note.formula:'',...(note.steps||[]).map(x=>'• '+x),note.example?'Exemplo: '+note.example:'',...(note.pitfalls||[]).map(x=>'Atenção: '+x)].filter(Boolean).join('\n\n');
+   try{await navigator.clipboard.writeText(t);host.querySelector('#copyNotes').textContent='✓ Copiado';}
+   catch{host.querySelector('#copyNotes').textContent='Copie o texto selecionando o resumo';}
+  };
+ }catch(err){if(visit===lessonVisit)host.innerHTML='<p>Não foi possível carregar o resumo. Atualize a página.</p>';}
 }
 
 async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
@@ -86,9 +132,9 @@ function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const vi
 const steps=l.steps?.length?`<div class="example"><h3>🔎 Resolução comentada passo a passo</h3><ol>${l.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol></div>`:'';
 const refs=l.references?.length?`<div class="visualCustom"><h3>Fontes para aprofundar e conferir</h3><ul>${l.references.map(r=>{let url='';try{const u=new URL(r.url);if(u.protocol==='https:')url=u.href}catch{}return url?`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a></li>`:''}).join('')}</ul><small>Links de apoio; confira o conteúdo programático e as atualizações da legislação no edital oficial.</small></div>`:'';
 const checks=`<div class="visualCustom" id="practiceHost" aria-live="polite"><h3>🧠 Teste sua compreensão</h3><p class="dim">Sorteando novas questões desta aula...</p></div>`;
-$('lessonBody').insertAdjacentHTML('beforeend',visual+steps+checks+refs);
-populatePractice(l,visit);
+$('lessonBody').insertAdjacentHTML('beforeend',visual+steps+checks+refs+'<section class="studyNotes visualCustom" id="notesHost"><p>Preparando resumo para seu caderno…</p></section>');
+passedLessonId=null;lessonCompletionState(l);populatePractice(l,visit);populateNotebook(l,visit);
 $('saveMsg').textContent='';const link=new URL('./questoes.html',location.href);link.searchParams.set('materia',l.subject);link.searchParams.set('assunto',l.title.split(':')[0]);$('exercise').href=link.href;window.scrollTo(0,0);}
 $('back').onclick=()=>{lessonVisit++;$('lesson').classList.add('hide');$('catalog').classList.remove('hide');cards();window.scrollTo(0,0);};
-$('complete').onclick=async()=>{if(!active)return;if(!currentUser||!profileId){$('saveMsg').textContent='Entre no TJSP Duo para sincronizar seu progresso.';return;}const key=active.id;const next=!progress[key];$('complete').disabled=true;$('saveMsg').textContent='Salvando no Firebase...';try{const ref=doc(db,'profiles',String(profileId));const snap=await getDoc(ref);const current=snap.data();if(!current||current.uid!==currentUser.uid)throw Error('Perfil não encontrado ou não autorizado');const updated={...(current.lessonProgress||{})};if(next)updated[key]=new Date().toISOString();else delete updated[key];await updateDoc(ref,{lessonProgress:updated});progress=updated;updateProgress();$('status').textContent=next?'✓ Concluída':'○ Não concluída';$('complete').textContent=next?'↺ Desmarcar conclusão':'✓ Marcar como concluída';$('saveMsg').textContent='Progresso salvo e sincronizado!';}catch(e){$('saveMsg').textContent='Falha ao salvar: '+e.message;}finally{$('complete').disabled=false;}};
-async function init(){try{await fetchLessons();render();const params=new URLSearchParams(location.search),direct=params.get('lesson'),subject=params.get('materia');if(direct&&lessons.some(l=>l.id===direct)){const item=lessons.find(l=>l.id===direct);currentSubject=item.subject;currentTopic=topicFor(item);openLesson(direct);}else if(subject&&lessons.some(l=>l.subject===subject)){currentSubject=subject;const requested=params.get('assunto');if(requested){const matches=lessons.filter(l=>l.subject===subject);const names=new Set(matches.map(topicFor));if(names.has(requested))currentTopic=requested;}cards();}onAuthStateChanged(auth,async user=>{currentUser=user;if(!user){$('who').textContent='Entre no site principal para salvar o progresso';return;}try{for(const slot of ['1','2','3','4','5']){const snap=await getDoc(doc(db,'slots',slot));if(snap.exists()&&snap.data().uid===user.uid){profileId=slot;const profile=await getDoc(doc(db,'profiles',slot));progress=profile.data()?.lessonProgress||{};$('who').textContent='Progresso sincronizado com sua conta';updateProgress();cards();return;}}$('who').textContent='Conta sem perfil vinculado.';}catch(e){$('who').textContent='Erro ao carregar progresso: '+e.message;}});}catch(e){$('who').textContent=e.message;}}init();
+$('complete').onclick=async()=>{if(!active)return;if(!currentUser||!profileId){$('saveMsg').textContent='Entre no TJSP Duo para sincronizar seu progresso.';return;}const key=active.id;if(progress[key]){$('saveMsg').textContent='Esta aula já está concluída. Seu progresso foi preservado.';return;}if(passedLessonId!==key){$('saveMsg').textContent='Para concluir esta aula, acerte todas as questões na mesma rodada. Revise os erros e refaça quando necessário.';return;}const next=true;$('complete').disabled=true;$('saveMsg').textContent='Salvando no Firebase...';try{const ref=doc(db,'profiles',String(profileId));const snap=await getDoc(ref);const current=snap.data();if(!current||current.uid!==currentUser.uid)throw Error('Perfil não encontrado ou não autorizado');const updated={...(current.lessonProgress||{})};if(next)updated[key]=new Date().toISOString();else delete updated[key];await updateDoc(ref,{lessonProgress:updated});progress=updated;updateProgress();$('status').textContent=next?'✓ Concluída':'○ Não concluída';$('complete').textContent=next?'↺ Desmarcar conclusão':'✓ Marcar como concluída';$('saveMsg').textContent='Parabéns! Aula concluída com 100% na rodada de fixação. Progresso sincronizado.';lessonCompletionState(active);}catch(e){$('saveMsg').textContent='Falha ao salvar: '+e.message;}finally{if(active)lessonCompletionState(active);}};
+async function init(){try{await fetchLessons();render();const params=new URLSearchParams(location.search),direct=params.get('lesson'),subject=params.get('materia');if(direct&&lessons.some(l=>l.id===direct)){const item=lessons.find(l=>l.id===direct);currentSubject=item.subject;currentTopic=topicFor(item);openLesson(direct);}else if(subject&&lessons.some(l=>l.subject===subject)){currentSubject=subject;const requested=params.get('assunto');if(requested){const matches=lessons.filter(l=>l.subject===subject);const names=new Set(matches.map(topicFor));if(names.has(requested))currentTopic=requested;}cards();}onAuthStateChanged(auth,async user=>{currentUser=user;if(!user){$('who').textContent='Entre no site principal para salvar o progresso';return;}try{for(const slot of ['1','2','3','4','5']){const snap=await getDoc(doc(db,'slots',slot));if(snap.exists()&&snap.data().uid===user.uid){profileId=slot;const profile=await getDoc(doc(db,'profiles',slot));progress=profile.data()?.lessonProgress||{};$('who').textContent='Progresso sincronizado com sua conta';updateProgress();cards();if(active)lessonCompletionState(active);return;}}$('who').textContent='Conta sem perfil vinculado.';}catch(e){$('who').textContent='Erro ao carregar progresso: '+e.message;}});}catch(e){$('who').textContent=e.message;}}init();

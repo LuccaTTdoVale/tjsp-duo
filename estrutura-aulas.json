@@ -1,0 +1,6338 @@
+{
+  "version": 11,
+  "description": "Organização pedagógica e destaques. Mantém as seções originais em aulas.json, sem duplicar ou substituir a teoria.",
+  "lessons": {
+    "Matemática-porcentagem": {
+      "blocos": [
+        {
+          "titulo": "Conceito e três formas de representar",
+          "itens": [
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "25%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Identifique sempre a base",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "100%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Cálculo direto de uma parte",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "12%",
+                "rotulo": "Percentual aplicado",
+                "cor": "blue"
+              },
+              {
+                "trecho": "250",
+                "rotulo": "Base de cálculo",
+                "cor": "amber"
+              },
+              {
+                "trecho": "30",
+                "rotulo": "Parte encontrada",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Encontrando o percentual",
+          "itens": [
+            3,
+            7,
+            10
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "75%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Encontrando o total",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "30%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aumentos e descontos",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "15%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Percentuais sucessivos",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "20%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Estratégia para a VUNESP",
+          "itens": [
+            8
+          ]
+        },
+        {
+          "titulo": "Aplicação: descobrir a base escondida",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "75%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            11,
+            12
+          ],
+          "destaque": {
+            "indice": 11,
+            "marcas": [
+              {
+                "trecho": "10%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Matemática-regra-de-tres": {
+      "blocos": [
+        {
+          "titulo": "Comparação por razão",
+          "itens": [
+            0,
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "3 horas",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Proporção",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Relação direta",
+          "itens": [
+            2,
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "6 horas",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Teste antes de montar a conta",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Regra de três composta",
+          "itens": [
+            5,
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "5 horas",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Erros frequentes",
+          "itens": [
+            6
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "10 dias",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Matemática-equacao-1grau": {
+      "blocos": [
+        {
+          "titulo": "Expressões e igualdade",
+          "itens": [
+            0,
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Por isso",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Isolamento",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Verificação",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "O que torna uma sentença uma equação",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "torna",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "O que significa “passar para o outro lado”",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "lados",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Equações com parênteses: distributiva",
+          "itens": [
+            6
+          ]
+        },
+        {
+          "titulo": "Incógnita nos dois membros",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Equações com frações",
+          "itens": [
+            8,
+            12
+          ]
+        },
+        {
+          "titulo": "Problemas de linguagem",
+          "itens": [
+            9
+          ]
+        },
+        {
+          "titulo": "Equação impossível ou indeterminada",
+          "itens": [
+            10
+          ]
+        },
+        {
+          "titulo": "Checklist final",
+          "itens": [
+            11
+          ]
+        },
+        {
+          "titulo": "Casos com nenhuma ou infinitas soluções",
+          "itens": [
+            13
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            14
+          ]
+        }
+      ]
+    },
+    "Português-interpretacao": {
+      "blocos": [
+        {
+          "titulo": "Leitura em camadas",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "leitura",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Tema, assunto e tese",
+          "itens": [
+            0,
+            6
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "tema",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Informação explícita",
+          "itens": [
+            1,
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "A reunião",
+                "rotulo": "Sujeito (quem começou)",
+                "cor": "amber"
+              },
+              {
+                "trecho": "começou",
+                "rotulo": "Núcleo verbal do predicado",
+                "cor": "red"
+              },
+              {
+                "trecho": "às 9h",
+                "rotulo": "Informação de tempo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Inferência válida",
+          "itens": [
+            2,
+            5,
+            10
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Apesar da chuva",
+                "rotulo": "Concessão: obstáculo apresentado",
+                "cor": "blue"
+              },
+              {
+                "trecho": "a equipe",
+                "rotulo": "Sujeito",
+                "cor": "amber"
+              },
+              {
+                "trecho": "chegou no horário",
+                "rotulo": "Fato que o texto afirma",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Conectivos e encadeamento",
+          "itens": [
+            7,
+            11
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Erros das alternativas",
+          "itens": [
+            8
+          ]
+        },
+        {
+          "titulo": "Roteiro prático",
+          "itens": [
+            9
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            12
+          ]
+        }
+      ]
+    },
+    "Português-sintaxe": {
+      "blocos": [
+        {
+          "titulo": "Sujeito",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Predicado",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Complementos",
+          "itens": [
+            2,
+            3,
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "complemento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Como reconhecer sujeito e predicado na prática",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "por isso",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Verbo de ligação, predicativo e tipos de predicado",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "verbo",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            7
+          ]
+        }
+      ]
+    },
+    "Português-crase": {
+      "blocos": [
+        {
+          "titulo": "O que é crase",
+          "itens": [
+            0,
+            3,
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "acento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Método em quatro perguntas",
+          "itens": [
+            4,
+            10,
+            11
+          ],
+          "destaque": {
+            "indice": 11,
+            "marcas": [
+              {
+                "trecho": "admite",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Teste do masculino",
+          "itens": [
+            1,
+            12,
+            21
+          ],
+          "destaque": {
+            "indice": 12,
+            "marcas": [
+              {
+                "trecho": "masculino",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Não ocorre",
+          "itens": [
+            2,
+            5,
+            16
+          ],
+          "destaque": {
+            "indice": 16,
+            "marcas": [
+              {
+                "trecho": "por isso",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Crase facultativa e casos específicos",
+          "itens": [
+            6,
+            17,
+            20
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "facultativa",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação comparada",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Treino de decisão",
+          "itens": [
+            8
+          ]
+        },
+        {
+          "titulo": "Locuções femininas",
+          "itens": [
+            13
+          ],
+          "destaque": {
+            "indice": 13,
+            "marcas": [
+              {
+                "trecho": "femininas",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Horas e expressões de tempo",
+          "itens": [
+            14
+          ],
+          "destaque": {
+            "indice": 14,
+            "marcas": [
+              {
+                "trecho": "14 horas",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Demonstrativos: aquele, aquela, aquilo",
+          "itens": [
+            15
+          ],
+          "destaque": {
+            "indice": 15,
+            "marcas": [
+              {
+                "trecho": "aquele",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Comparação de frases",
+          "itens": [
+            18
+          ]
+        },
+        {
+          "titulo": "Roteiro de resolução VUNESP",
+          "itens": [
+            19
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            22
+          ]
+        }
+      ]
+    },
+    "Raciocínio Lógico-proposicoes": {
+      "blocos": [
+        {
+          "titulo": "O que é proposição",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Negação",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Conjunção",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Disjunção inclusiva",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "salvo",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Condicional",
+          "itens": [
+            4,
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "somente se",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Bicondicional",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "somente se",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Tradução e resolução",
+          "itens": [
+            6
+          ]
+        },
+        {
+          "titulo": "Tabela-verdade como ferramenta e não decoração",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "somente se",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ]
+        }
+      ]
+    },
+    "Informática-excel": {
+      "blocos": [
+        {
+          "titulo": "Fórmulas",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Referências",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Funções frequentes",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Análise de erros",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Entenda células, intervalos e planilhas",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Referências relativas",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Referências absolutas com cifrão",
+          "itens": [
+            6
+          ]
+        },
+        {
+          "titulo": "Referências mistas",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Funções SOMA e MÉDIA",
+          "itens": [
+            8,
+            15
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "SOMA",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Função SE e comparação lógica",
+          "itens": [
+            9
+          ]
+        },
+        {
+          "titulo": "CONT.SE e SOMASE",
+          "itens": [
+            10
+          ],
+          "destaque": {
+            "indice": 10,
+            "marcas": [
+              {
+                "trecho": "CONT",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Diferença entre classificação e filtro",
+          "itens": [
+            11
+          ]
+        },
+        {
+          "titulo": "Erros comuns em provas",
+          "itens": [
+            12
+          ]
+        },
+        {
+          "titulo": "Fórmulas: ordem de cálculo e referência",
+          "itens": [
+            14
+          ]
+        },
+        {
+          "titulo": "Filtros não são a mesma coisa que exclusão",
+          "itens": [
+            16
+          ],
+          "destaque": {
+            "indice": 16,
+            "marcas": [
+              {
+                "trecho": "mesma",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Macros e obtenção de dados: distinção entre recursos",
+          "itens": [
+            17
+          ],
+          "destaque": {
+            "indice": 17,
+            "marcas": [
+              {
+                "trecho": "dados",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            13,
+            18
+          ]
+        }
+      ]
+    },
+    "Direito Constitucional-direitos-fundamentais": {
+      "blocos": [
+        {
+          "titulo": "Fonte primária",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Direitos e garantias",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "Direitos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Igualdade",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "igualdade",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Questões",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Direitos individuais e remédios constitucionais",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 5º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Eficácia, destinatários e limites",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 5º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              },
+              {
+                "trecho": "salvo",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 5º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-crimes-administracao": {
+      "blocos": [
+        {
+          "titulo": "Estudo por tipos penais",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Peculato",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Corrupção passiva e ativa",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "passiva",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Diferença entre crimes funcionais próximos",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 312",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Exercício de enquadramento",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Fraude em certame público (art. 311-A do Código Penal)",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 311-A",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Tipos funcionais e conduta concreta",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            3,
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "art. 330.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Administrativo-improbidade": {
+      "blocos": [
+        {
+          "titulo": "Lei atual",
+          "itens": [
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "Lei nº 8.429/1992",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Categorias",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Responsabilidade",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Prática",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Improbidade: dolo e modalidades legais",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Lei 8.429/1992",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Sanções não equivalem a condenação criminal",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 9º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Redação-dissertativa": {
+      "blocos": [
+        {
+          "titulo": "Planejamento",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Introdução",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Desenvolvimento",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Conclusão e revisão",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Construção de tese e projeto de texto",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Conclusão coerente, sem inventar uma proposta obrigatória",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "desde que",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-atos-processuais": {
+      "blocos": [
+        {
+          "titulo": "Atos processuais",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Prazos",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Comunicação",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Treino",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Atos, forma e finalidade",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "atos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Contagem de prazos processuais civis",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 219",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Início, exclusão e inclusão",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 224",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Prazo em dias úteis, contagem e suspensão",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "art. 219",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Atos e nulidade: procedimento de verificação",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "nulidade",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Diferença entre forma, comunicação e prazo processual",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "forma",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            10
+          ],
+          "destaque": {
+            "indice": 10,
+            "marcas": [
+              {
+                "trecho": "art. 269.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Penal-citacao": {
+      "blocos": [
+        {
+          "titulo": "Finalidade",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Modalidades",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Intimações",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Exercícios",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Funções diferentes",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Atenção ao recorte do CPP",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Questão típica de aplicação",
+          "itens": [
+            6
+          ]
+        },
+        {
+          "titulo": "Citação x intimação: a diferença funcional",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Réu não localizado: qual problema a questão traz?",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "art. 366",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "art. 361.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Legislação Interna-normas-cgj": {
+      "blocos": [
+        {
+          "titulo": "Texto oficial",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Mapa por procedimento",
+          "itens": [
+            1
+          ]
+        },
+        {
+          "titulo": "Quadro comparativo",
+          "itens": [
+            2
+          ]
+        },
+        {
+          "titulo": "Atualização",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Normas internas: o que pode e o que não pode fazer",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Normas",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Relação com eproc e gestão documental",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "eproc",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ]
+        }
+      ]
+    },
+    "Atualidades e Inclusão-lbi": {
+      "blocos": [
+        {
+          "titulo": "Definições",
+          "itens": [
+            0
+          ]
+        },
+        {
+          "titulo": "Igualdade",
+          "itens": [
+            1,
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 4º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Direitos",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "direitos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Atualidades",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Modelo de deficiência",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Barreiras e acessibilidade",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 3º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Capacidade legal e barreiras à participação",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Trabalho e adaptações razoáveis",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "trabalho",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Português-coes-o-e-coer-ncia": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Coesão referencial: como o texto evita repetições",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "texto",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Coesão sequencial: conectivos e relações lógicas",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Coerência e inferência",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "8h",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Coerência: relações que precisam fazer sentido",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "14h",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              },
+              {
+                "trecho": "Por isso",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Referência e progressão temática",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Intertextualidade com precisão",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "intertextualidade",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ]
+        }
+      ]
+    },
+    "Português-sin-nimos-ant-nimos-e-polissemia": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "a explicação ficou clara",
+                "rotulo": "Frase original: sentido pelo contexto",
+                "cor": "blue"
+              },
+              {
+                "trecho": "compreensível",
+                "rotulo": "Substituição que preserva o sentido",
+                "cor": "amber"
+              },
+              {
+                "trecho": "iluminada",
+                "rotulo": "Substituição inadequada ao contexto",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Sinônimo depende do uso concreto",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Antônimos e contrários graduais",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-sentido-literal-e-figurado": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Sentido próprio, figurado e metáfora",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Ironia e literalidade em questões",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "ironia",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-classes-de-palavras-i-nomes-e-determinantes": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Substantivos, artigos e adjetivos na interpretação",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Numerais e função substantiva",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "substantiva",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-classes-de-palavras-ii-verbos-e-adv-rbios": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "Provavelmente",
+                "rotulo": "Advérbio de dúvida",
+                "cor": "blue"
+              },
+              {
+                "trecho": "entregará",
+                "rotulo": "Verbo no futuro",
+                "cor": "red"
+              },
+              {
+                "trecho": "amanhã",
+                "rotulo": "Advérbio de tempo",
+                "cor": "amber"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Tempos verbais e efeitos de sentido",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Advérbio não é sempre palavra terminada em -mente",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-pronomes-e-referencia-o": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Pronomes relativos: função e antecedente",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Demonstrativos e ambiguidade na referência",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "referencial",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-concord-ncia-verbal": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Sujeito e núcleo: o primeiro teste",
+          "itens": [
+            3,
+            4,
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "30%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Verbos impessoais",
+          "itens": [
+            5,
+            7
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            8
+          ]
+        }
+      ]
+    },
+    "Português-concord-ncia-nominal": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "anexas",
+                "rotulo": "Adjetivo que concorda",
+                "cor": "red"
+              },
+              {
+                "trecho": "certidões",
+                "rotulo": "Substantivo de referência",
+                "cor": "amber"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Concordância com expressões modificadoras",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Um mesmo termo pode ter análise diferente",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-reg-ncia-verbal-e-nominal": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Regência verbal: o sentido altera a preposição",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "sentido",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Regência nominal e crase",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-crase-uso-e-proibi-es": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Obrigatória, proibida e facultativa com exemplos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "8 horas",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Demonstrativos e localidades",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Português-pontua-o-e-sentido": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Estrutura da oração",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Vocativo, aposto e intercalação",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Vocativo",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Orações restritivas e explicativas",
+          "itens": [
+            5,
+            10
+          ]
+        },
+        {
+          "titulo": "Adjuntos e deslocamento",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "Adjuntos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Pontuação em enumerações e contraste",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Checklist VUNESP",
+          "itens": [
+            8
+          ]
+        },
+        {
+          "titulo": "Vírgula: o que não pode ser separado",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "pode",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            11
+          ]
+        }
+      ]
+    },
+    "Português-coloca-o-pronominal": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Próclise, ênclise e mesóclise",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Atração por palavras anteriores e orações subordinadas",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Palavras",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-n-meros-reais-e-opera-es": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Conjuntos numéricos, sinais e prioridades",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Frações e decimais em situações-problema",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "9 horas",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Matemática-divisibilidade-mmc-e-mdc": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Diferença operacional entre MMC e MDC",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Problema de ciclos e de empacotamento",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "18 minutos",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-raz-es-e-propor-es": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Proporção direta e inversa em linguagem de prova",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "10 dias",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Divisão em partes proporcionais",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "partes",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-m-dias-aritm-ticas-e-ponderadas": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Média ponderada e média aritmética",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Encontrar um valor faltante pela média",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "valor",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-juros-simples": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "2%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "O que muda e o que permanece",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Exemplo integral",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "2%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Armadilhas de unidade e de montante",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "12%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              },
+              {
+                "trecho": "0,5 ano",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Taxa por período e tempo compatível",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "2%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              },
+              {
+                "trecho": "0,5 ano",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Achar capital e distinguir simples de compostos",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "3%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "1%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Matemática-equa-o-do-primeiro-grau": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Equações com incógnitas nos dois membros",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "dois",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Problema de idade",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "4 anos",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-equa-o-do-segundo-grau": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Equação quadrática e discriminante",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Fatoração e cuidado com o produto nulo",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "produto",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-sistemas-de-equa-es-lineares": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "x+y=10",
+                "rotulo": "Primeira equação",
+                "cor": "blue"
+              },
+              {
+                "trecho": "x−y=2",
+                "rotulo": "Segunda equação",
+                "cor": "amber"
+              },
+              {
+                "trecho": "x=6",
+                "rotulo": "Solução de x",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Método da substituição e método da adição",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Classificação dos sistemas",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-grandezas-e-unidades": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Transformações de unidades com fatores coerentes",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "60 minutos",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Escalas e proporcionalidade",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Matemática-geometria-plana": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "base 10 cm",
+                "rotulo": "Base do triângulo",
+                "cor": "blue"
+              },
+              {
+                "trecho": "altura 6 cm",
+                "rotulo": "Altura do triângulo",
+                "cor": "amber"
+              },
+              {
+                "trecho": "área 30 cm²",
+                "rotulo": "Área calculada",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Áreas, perímetros e fórmulas de triângulos",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Pitágoras em situações concretas",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Unidades e fórmulas: exemplos inteiramente resolvidos",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ]
+        }
+      ]
+    },
+    "Matemática-tabelas-e-gr-ficos": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "50%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Leitura crítica de eixos e escalas",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "20%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Frequência absoluta, relativa e medidas de centro",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "30%",
+                "rotulo": "Percentual presente no exemplo",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Raciocínio Lógico-nega-o-de-proposi-es": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "O que é negar corretamente",
+          "itens": [
+            3,
+            6
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "Negar",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Leis de De Morgan",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Condicional",
+          "itens": [
+            5,
+            7
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Por isso",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            8
+          ]
+        }
+      ]
+    },
+    "Raciocínio Lógico-equival-ncias-e-condicional": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Contrapositiva e equivalências corretas",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "contrapositiva",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Condição necessária e suficiente",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "suficiente",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Raciocínio Lógico-argumentos-e-validade": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Argumento válido não significa premissas verdadeiras",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "argumento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Teste por contraexemplo",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Ordenação lógica: necessário, possível e impossível",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ]
+        }
+      ]
+    },
+    "Raciocínio Lógico-sequ-ncias-e-padr-es": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Progressões aritméticas e geométricas",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Sequências de figuras e posição",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Relações temporais e encadeamento de eventos",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "eventos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ]
+        }
+      ]
+    },
+    "Raciocínio Lógico-diagramas-e-conjuntos": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "União, interseção e exclusão por diagramas",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Quantificadores em diagramas de inclusão",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Informática-windows-arquivos-e-pastas": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Caminhos, extensões e propriedades de arquivos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "arquivos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Atalhos e operações que caem em prova",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Informática-word-edi-o-e-formata-o": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Estrutura do documento",
+          "itens": [
+            3,
+            6
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "documento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Localizar e substituir com segurança",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Localizar",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Quebra de página versus Enter",
+          "itens": [
+            5,
+            7
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Quebra",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Controle de alterações e impressão",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "controle",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ]
+        }
+      ]
+    },
+    "Informática-excel-refer-ncias-e-f-rmulas": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "C2>=7",
+                "rotulo": "Condição lógica testada",
+                "cor": "blue"
+              },
+              {
+                "trecho": "Aprovado",
+                "rotulo": "Valor se verdadeiro",
+                "cor": "amber"
+              },
+              {
+                "trecho": "Rever",
+                "rotulo": "Valor se falso",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Operações, referências e funções no Excel",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Erro de sintaxe ou erro de dados?",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Informática-excel-filtros-gr-ficos-e-tabelas": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Tabela, classificação e filtro: o que muda",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "tabela",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Gráficos e tabelas dinâmicas",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Noções de macros com cautela",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "macros",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ]
+        }
+      ]
+    },
+    "Informática-navegadores-url-e-https": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "URL, domínio, HTTPS e certificado",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "https",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Pesquisas, links e cuidados com downloads",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Informática-e-mail-e-seguran-a": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Para, Cc, Cco e anexos",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Phishing e autenticação",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Phishing",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Informática-microsoft-teams": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Equipes, canais, chats e reuniões",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "canais",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Integração com Microsoft 365",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Informática-onedrive-e-sincroniza-o": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Sincronização não é necessariamente backup independente",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "independente",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Compartilhamento e acesso offline",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "offline",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Direito Constitucional-direitos-e-garantias-fundamentais": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "art. 5º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Capítulo dos direitos individuais e coletivos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 5º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Remédios constitucionais: não os confunda",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "constitucionais",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Direitos, garantias e colisões",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 5º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Constitucional-direitos-sociais": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "art. 6º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Localização constitucional",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 6º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Direitos sociais e prestações públicas",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "direitos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Roteiro de leitura legal",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 6º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Direitos sociais e art. 6º",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 6º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Direitos dos trabalhadores no art. 7º",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "art. 7º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Direitos coletivos de trabalho",
+          "itens": [
+            8
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "art. 7º",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Constitucional-nacionalidade": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "art. 12",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Brasileiro nato e naturalizado",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 12",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Cargos privativos e distinções admitidas",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 12",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Perda de nacionalidade: atenção à redação atual",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "perda",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 12",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Constitucional-administra-o-p-blica-constitucional": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "art. 37",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Princípios do art. 37 e administração direta/indireta",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "direta",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Concurso, cargos e acumulação",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "concurso",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Servidores: diferença entre estabilidade e efetividade",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 41",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Publicidade, legalidade e ingresso em cargos",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 37",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "art. 37",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Constitucional-organiza-o-do-poder-judici-rio": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "art. 92",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Estrutura do Poder Judiciário no art. 92",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 92",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Instâncias, competência e controle administrativo",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "controle",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 92",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-f-p-blica-falsifica-o-de-documentos": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Falsificação material x falsidade ideológica",
+          "itens": [
+            3,
+            5
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 299.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Documentos públicos e particulares: pena e requisitos",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 304",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 297.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-falsidade-ideol-gica-e-uso-de-documento-falso": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Conteúdo falso x documento fisicamente falso",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 299",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Uso de documento falso e falsa identidade",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 304",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 299.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-peculato": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "Art. 312",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Tipo básico e qualidade do agente",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 312",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Apropriar, desviar e subtrair",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Apropriar",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Peculato culposo e reparação",
+          "itens": [
+            5,
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "peculato",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Peculato-apropriação, desvio e furto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 312",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Situação comparada",
+          "itens": [
+            8
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ],
+          "destaque": {
+            "indice": 9,
+            "marcas": [
+              {
+                "trecho": "art. 312.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-concuss-o-e-corrup-o-passiva": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "art. 316",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Três verbos que não podem ser confundidos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 316",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Consumação e relação com ato de ofício",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 317.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-prevarica-o-e-advocacia-administrativa": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "art. 319",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Prevaricação e interesse pessoal",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 319",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Advocacia administrativa e exercício do cargo",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 321",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 319.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Penal-corrup-o-ativa-e-desobedi-ncia": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "art. 333",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Corrupção ativa e corrupção passiva: polos distintos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 333",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Desobediência, resistência e desacato",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 330",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 333.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Penal-sujeitos-processuais-e-impedimentos": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Imparcialidade, impedimento e suspeição no CPP",
+          "itens": [
+            3,
+            6
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "imparcialidade",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Defesa técnica, Ministério Público e acusação",
+          "itens": [
+            4,
+            5
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "defesa",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "art. 252",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Penal-cita-o-intima-o-e-notifica-es": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Citação pessoal, edital e ciência do acusado",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 366",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Intimação e notificação sem confusão",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 361.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Penal-procedimentos-comum-e-especial": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Rito ordinário, sumário e especiais",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "especiais",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Tribunal do júri: fases distintas",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 397",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Penal-provas-e-audi-ncia-criminal": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Provas e contraditório",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Nulidades e prejuízo",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 563",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 397",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Penal-recursos-no-cpp": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Recursos criminais e decisões impugnadas",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "recursos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Efeito devolutivo e consequências processuais",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "efeito",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Processo Penal-juizados-especiais-criminais": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099/1995",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Juizados especiais criminais: finalidade e limites",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099/1995",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Transação penal, suspensão condicional e representação",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099/1995",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-impedimento-e-suspei-o-no-cpc": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Impedimento e suspeição: objetividade das hipóteses",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 146",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Ministério Público e auxiliares da justiça",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "auxiliares",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 144",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-tutela-provis-ria": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Tutela de urgência x tutela de evidência",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 300",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Antecedente e incidental: quando se pede",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "antecedente",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 294.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-peti-o-inicial-e-resposta-do-r-u": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Petição inicial: pedido, causa de pedir e emenda",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "art. 321.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Contestação e revelia",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 337.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 335",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-provas-e-senten-a": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "CPC 318",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Provas e distribuição do ônus",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Sentença, fundamentação e coisa julgada",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "art. 489.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 335",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-recursos-c-veis": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Recurso cabível e decisão recorrida",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "recursos",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Prazo e efeitos: método de prova",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "prazo",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Escolher o recurso pelo ato judicial",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 1.015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 1.023.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Processo Civil-juizados-especiais-c-veis-e-fazenda-p-blica": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099/1995",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Juizados Especiais Cíveis: princípios e competência",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099/1995",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Juizados da Fazenda Pública e lei própria",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Lei 12.153/2009",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Lei 9.099/1995",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Direito Administrativo-servidores-p-blicos-de-sp-ingresso-e-deveres": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Lei aplicável",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Ingressar e exercer",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Deveres e proibições",
+          "itens": [
+            5,
+            7
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "deveres",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Provimento, vacância e formas de ingresso",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "provimento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Princípios expressos e situações do serviço público",
+          "itens": [
+            8
+          ],
+          "destaque": {
+            "indice": 8,
+            "marcas": [
+              {
+                "trecho": "art. 37",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            9
+          ]
+        }
+      ]
+    },
+    "Direito Administrativo-responsabilidade-e-disciplina-funcional": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "Lei 10.261/1968",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Responsabilidades e diferença de esferas",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Processo administrativo disciplinar e direito de defesa",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Lei 10.261/1968",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "art. 30.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Legislação Interna-estrutura-e-funcionamento-do-tjsp": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Órgãos judiciais x funções administrativas",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "administrativas",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Regimento e normas de serviço: qual consultar?",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Regimento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Legislação Interna-normas-da-corregedoria-organiza-o-dos-servi-os": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": [
+              {
+                "trecho": "juntada",
+                "rotulo": "Ato de incorporar peça aos autos",
+                "cor": "blue"
+              },
+              {
+                "trecho": "conclusão",
+                "rotulo": "Encaminhamento para decisão ou despacho",
+                "cor": "amber"
+              },
+              {
+                "trecho": "remessa",
+                "rotulo": "Envio do processo ou expediente",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Natureza e finalidade",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Estudo por fluxos",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Prática de memorização",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Movimentação processual e documentação do ato",
+          "itens": [
+            6
+          ]
+        },
+        {
+          "titulo": "Segredo de justiça e segurança da informação",
+          "itens": [
+            7
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            8
+          ]
+        }
+      ]
+    },
+    "Legislação Interna-comunica-o-de-atos-e-movimenta-o-cartor-ria": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Comunicações processuais: não misturar atos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "Citação",
+                "rotulo": "Chamamento para integrar o processo",
+                "cor": "blue"
+              },
+              {
+                "trecho": "intimação",
+                "rotulo": "Comunicação de ato ou decisão",
+                "cor": "amber"
+              },
+              {
+                "trecho": "publicação",
+                "rotulo": "Forma de divulgação ou comunicação",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Rastreabilidade das movimentações",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Legislação Interna-resolu-es-e-regime-de-trabalho": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Teletrabalho: norma específica, não regra inventada",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "teletrabalho",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "eproc, cargos e regimento",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "eproc",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Processo eletrônico: eproc, fluxo e cautelas",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "processo",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Teletrabalho e regime funcional",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "Teletrabalho",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            7
+          ]
+        }
+      ]
+    },
+    "Atualidades e Inclusão-estatuto-da-pessoa-com-defici-ncia-princ-pios": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Conceito social e biopsicossocial de deficiência",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "biopsicossocial",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Acessibilidade, desenho universal e adaptações",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015.",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015..",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Atualidades e Inclusão-trabalho-e-inclus-o-da-pessoa-com-defici-ncia": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Direito ao trabalho e não discriminação",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "direito",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Avaliar uma situação real",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "embora",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Trabalho inclusivo na prática",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "Lei 13.146/2015",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "art. 9º..",
+                "rotulo": "Dispositivo ou referência normativa citada",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Atualidades e Inclusão-atualidades-leitura-cr-tica-de-not-cias": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "O que significa um fato ser verificável",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "fato",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Política, economia, sociedade e cultura: como conectar",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Cobertura temporal exigida no concurso",
+          "itens": [
+            5
+          ]
+        }
+      ]
+    },
+    "Redação-estrutura-do-texto-dissertativo-argumentativo": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Estrutura argumentativa e desenvolvimento real",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "desenvolvimento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Exemplo de parágrafo com evidência e análise",
+          "itens": [
+            4
+          ]
+        }
+      ]
+    },
+    "Redação-planejamento-e-repert-rio": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Delimite o tema antes de escrever",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "tema",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Repertório é argumento, não decoração",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "argumento",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Planejamento enxuto e revisão",
+          "itens": [
+            5
+          ]
+        },
+        {
+          "titulo": "Do tema ao problema e à tese",
+          "itens": [
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": [
+              {
+                "trecho": "Tema",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Repertório pertinente não é citação decorativa",
+          "itens": [
+            7
+          ],
+          "destaque": {
+            "indice": 7,
+            "marcas": [
+              {
+                "trecho": "desde que",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Redação-coes-o-e-progress-o-dos-par-grafos": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": [
+              {
+                "trecho": "portanto",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        },
+        {
+          "titulo": "Coesão e progressão entre parágrafos",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Retomadas que eliminam repetição",
+          "itens": [
+            4
+          ],
+          "destaque": {
+            "indice": 4,
+            "marcas": [
+              {
+                "trecho": "desde que",
+                "rotulo": "Condição, exceção ou relação lógica",
+                "cor": "amber"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    },
+    "Redação-revis-o-gramatical-e-clareza": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": [
+              {
+                "trecho": "concordância",
+                "rotulo": "Relação de número e pessoa",
+                "cor": "blue"
+              },
+              {
+                "trecho": "regência",
+                "rotulo": "Exigência de complemento ou preposição",
+                "cor": "amber"
+              },
+              {
+                "trecho": "pontuação",
+                "rotulo": "Organização sintática e sentido",
+                "cor": "red"
+              }
+            ],
+            "origem": "análise de frase"
+          }
+        },
+        {
+          "titulo": "Checklist de correção que encontra erros reais",
+          "itens": [
+            3
+          ]
+        },
+        {
+          "titulo": "Precisão vocabular e impessoalidade",
+          "itens": [
+            4
+          ]
+        }
+      ]
+    },
+    "Redação-treino-cronometrado-e-autoavalia-o": {
+      "blocos": [
+        {
+          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "itens": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "titulo": "Treino de cinco horas e distribuição de energia",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": [
+              {
+                "trecho": "treino",
+                "rotulo": "Conceito tratado neste bloco",
+                "cor": "red"
+              }
+            ],
+            "origem": "termo-chave"
+          }
+        },
+        {
+          "titulo": "Autoavaliação por critérios observáveis",
+          "itens": [
+            4
+          ]
+        },
+        {
+          "titulo": "Aplicação integrada do assunto",
+          "itens": [
+            5
+          ],
+          "destaque": {
+            "indice": 5,
+            "marcas": [
+              {
+                "trecho": "10 minutos",
+                "rotulo": "Prazo ou duração citada no texto",
+                "cor": "blue"
+              }
+            ],
+            "origem": "pistas para interpretação"
+          }
+        }
+      ]
+    }
+  }
+}

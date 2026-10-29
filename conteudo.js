@@ -96,6 +96,67 @@ async function populateNotebook(l,visit){
  }catch(err){if(visit===lessonVisit)host.innerHTML='<p>Não foi possível carregar o resumo. Atualize a página.</p>';}
 }
 
+
+/* V11 — organização por conceito com grifos literais, sem alterar aulas.json. */
+let teachingStructurePromise=null;
+function getTeachingStructure(){
+ if(!teachingStructurePromise)teachingStructurePromise=fetch('./estrutura-aulas.json?v=11')
+  .then(r=>{if(!r.ok)throw Error('Organização de aulas indisponível');return r.json()})
+  .catch(error=>{console.warn('TJSP Duo: usando ordem original',error);return null});
+ return teachingStructurePromise;
+}
+function lessonHeading(text){return String(text).replace(/^\s*\d+\s*[.)]\s*/, '').replace(/^Aprofundamento(?:\s+dirigido\s+\d+)?\s*[—–:-]\s*/i,'').trim();}
+function emphasizeExact(text,items){
+ const original=String(text??'');const matches=[];
+ for(const item of items||[]){
+  if(!item||!['blue','amber','red'].includes(item.cor)||!item.trecho)continue;
+  const start=original.indexOf(item.trecho);if(start<0)continue;
+  matches.push({start,end:start+item.trecho.length,item});
+ }
+ matches.sort((a,b)=>a.start-b.start||b.end-a.end);
+ let html='',pos=0;
+ for(const part of matches){
+  if(part.start<pos)continue;
+  html+=escapeHtml(original.slice(pos,part.start));
+  html+=`<mark class="tj-focus tj-${part.item.cor}" title="${escapeHtml(part.item.rotulo)}">${escapeHtml(original.slice(part.start,part.end))}</mark>`;
+  pos=part.end;
+ }
+ return html+escapeHtml(original.slice(pos));
+}
+function layoutForLesson(l,structure){
+ const groups=structure?.lessons?.[l.id]?.blocos;
+ if(!Array.isArray(groups)||!groups.length){
+  return l.sections.map(([head,text])=>`<section class="lesson-section"><h3>${escapeHtml(head)}</h3><p>${escapeHtml(text)}</p></section>`).join('');
+ }
+ const indexed=new Set();
+ for(const group of groups){for(const index of group.itens||[]){
+   if(!Number.isInteger(index)||index<0||index>=l.sections.length||indexed.has(index))throw Error('Estrutura de aula inválida');
+   indexed.add(index);
+ }}
+ if(indexed.size!==l.sections.length)throw Error('Conteúdo incompleto na estrutura');
+ return `<div class="tj-teaching-layout">${groups.map((group,gidx)=>{
+  const focus=group.destaque;
+  const focusedIndex=focus&&Number.isInteger(focus.indice)?focus.indice:-1;
+  const markers=Array.isArray(focus?.marcas)?focus.marcas.filter(m=>m&&m.trecho&&m.rotulo&&['red','blue','amber'].includes(m.cor)&&l.sections[focusedIndex]?.[1]?.includes(m.trecho)):[];
+  const sidebar=markers.length?`<aside class="tj-teaching-legend" aria-label="Legenda de destaques deste bloco"><div class="tj-legend-title">Guia visual do trecho</div><p class="tj-legend-desc">As cores identificam informações no próprio texto. Compare cada destaque com sua explicação.</p><ul class="tj-legend-list">${markers.map(m=>`<li><span class="tj-legend-dot tj-${m.cor}" aria-hidden="true"></span><span><b>${escapeHtml(m.rotulo)}</b><small>“${escapeHtml(m.trecho)}”</small></span></li>`).join('')}</ul></aside>`:'';
+  const inner=(group.itens||[]).map((idx,subidx)=>{
+   const [title,text]=l.sections[idx],deep=/^Aprofundamento/i.test(title),pure=lessonHeading(title);
+   const heading=deep?`APROFUNDAMENTO${pure&&pure.toLowerCase()!==String(group.titulo||'').toLowerCase()?': '+escapeHtml(pure):''}`:
+    ((subidx===0&&pure===group.titulo)?'':escapeHtml(pure));
+   const shown=(focusedIndex===idx)?emphasizeExact(text,markers):escapeHtml(text);
+   return `<section class="tj-teaching-part${deep?' tj-depth':''}">${heading?`<h3>${heading}</h3>`:''}<p>${shown}</p></section>`;
+  }).join('');
+  return `<section class="tj-teaching-group"><header class="tj-teaching-head"><span class="tj-teaching-number">Conceito ${gidx+1} de ${groups.length}</span><h2>${escapeHtml(group.titulo||l.title)}</h2></header><div class="tj-teaching-columns${sidebar?'':' no-legend'}"><div class="tj-teaching-main">${inner}</div>${sidebar}</div></section>`;
+ }).join('')}</div>`;
+}
+async function populateTeachingLayout(l,visit){
+ const host=$('lessonSections');if(!host)return;
+ const structure=await getTeachingStructure();
+ if(visit!==lessonVisit||active?.id!==l.id)return;
+ try{host.innerHTML=layoutForLesson(l,structure);host.removeAttribute('aria-busy');}
+ catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null);host.removeAttribute('aria-busy');}
+}
+
 async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
 const topicRules={
  'Português':[['Interpretação e compreensão',/interpretação|inferência|coesão|coerência/i],['Ortografia e vocabulário',/sinônimos|antônimos|polissemia|sentido literal|sentido figurado|ortografia|acentuação/i],['Morfologia: classes de palavras',/classes de palavras|pronomes/i],['Sintaxe e concordância',/sintaxe|concordância/i],['Regência e crase',/regência|crase/i],['Pontuação e colocação',/pontuação|colocação/i]],
@@ -128,12 +189,12 @@ function cards(){
  const a=sortedLessons(lessons.filter(l=>l.subject===currentSubject&&topicFor(l)===currentTopic));area.innerHTML=a.map((l,i)=>`<button class="tile" data-id="${escapeHtml(l.id)}"><span class="chip">AULA ${i+1}</span><strong>${escapeHtml(l.title)}</strong><small>${escapeHtml(l.etapa||l.level||'Aula')} · ${progress[l.id]?'✓ Concluída':'○ Pendente'}</small><span class="tileArrow">Abrir aula →</span></button>`).join('');area.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>openLesson(b.dataset.id));
 }
 $('catalogBack').onclick=()=>{if(currentTopic)currentTopic=null;else currentSubject=null;cards();};
-function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const visit=++lessonVisit;active=l;$('catalog').classList.add('hide');$('lesson').classList.remove('hide');$('crumb').textContent=l.subject+' · '+l.level;$('lessonTitle').textContent=l.title;$('objective').textContent=l.objective;$('status').textContent=progress[l.id]?'✓ Concluída':'○ Não concluída';$('complete').textContent=progress[l.id]?'↺ Desmarcar conclusão':'✓ Marcar como concluída';const section=l.sections.map(([h,p])=>`<section class="lesson-section"><h3>${escapeHtml(h)}</h3><p>${escapeHtml(p)}</p></section>`).join('');$('lessonBody').innerHTML=`<div class="visualCustom"><strong>📍 Ordem recomendada: ${l.ordemSugerida>=100?'Complementar':l.ordemSugerida}ª aula de ${escapeHtml(l.subject)}</strong><p>Como estudar: ${escapeHtml(l.conclusaoOrientada||'Leia, resolva exemplos e pratique.')}</p><small>Retome este assunto após 1, 7 e 21 dias. ${escapeHtml(l.etapa||'')}</small></div><div class="formula">${escapeHtml(l.formula)}</div><div class="diagram"><div><small>Conceito</small><br><strong>${escapeHtml(l.subject)}</strong></div><span style="font-size:26px;color:#b50913">➜</span><div><small>Objetivo da aula</small><br><strong style="font-size:14px">${escapeHtml(l.objective)}</strong></div></div>${section}<div class="example"><h3>🧩 Exemplo resolvido</h3><p>${escapeHtml(l.example)}</p></div><h3>⚠️ Erros comuns</h3><ul class="pitfallList">${l.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h3>📖 Referência e verificação</h3><p>${escapeHtml(l.source)}</p>${l.fonteOficialBase?`<p><a href="${escapeHtml(l.fonteOficialBase)}" rel="noopener noreferrer" target="_blank">Consultar fonte oficial para conferência de alterações</a></p>`:""}`;const visual=l.visual?.kind==='percent'?`<div class="visualCustom"><strong>${escapeHtml(l.visual.label)}</strong><div class="percentGrid">${Array.from({length:100},(_,i)=>`<span class="${i<l.visual.value?'filled':''}"></span>`).join('')}</div><small>As células coloridas representam ${l.visual.value} de cada 100 partes.</small></div>`:l.visual?.kind==='logic'?`<div class="visualCustom"><strong>Tabela-verdade: condicional P → Q</strong><table><tr><th>P</th><th>Q</th><th>P → Q</th></tr><tr><td>V</td><td>V</td><td>V</td></tr><tr><td>V</td><td>F</td><td>F</td></tr><tr><td>F</td><td>V</td><td>V</td></tr><tr><td>F</td><td>F</td><td>V</td></tr></table></div>`:l.visual?.kind==='ratio'?`<div class="visualCustom"><strong>Relação inversa — mais máquinas, menos tempo</strong><div class="diagram"><span>5 máquinas<br>8 horas</span><b>→</b><span>10 máquinas<br>4 horas</span></div></div>`:l.visual?.kind==='reading'?`<div class="visualCustom"><strong>Escada da compreensão</strong><div class="diagram"><span>Texto literal</span><b>→</b><span>Pistas do texto</span><b>→</b><span>Inferência sustentada</span></div></div>`:'';
+function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const visit=++lessonVisit;active=l;$('catalog').classList.add('hide');$('lesson').classList.remove('hide');$('crumb').textContent=l.subject+' · '+l.level;$('lessonTitle').textContent=l.title;$('objective').textContent=l.objective;$('status').textContent=progress[l.id]?'✓ Concluída':'○ Não concluída';$('complete').textContent=progress[l.id]?'↺ Desmarcar conclusão':'✓ Marcar como concluída';const section=`<div id="lessonSections" aria-busy="true" class="tj-teaching-wait">Organizando explicações por conceito…</div>`;$('lessonBody').innerHTML=`<div class="visualCustom"><strong>📍 Ordem recomendada: ${l.ordemSugerida>=100?'Complementar':l.ordemSugerida}ª aula de ${escapeHtml(l.subject)}</strong><p>Como estudar: ${escapeHtml(l.conclusaoOrientada||'Leia, resolva exemplos e pratique.')}</p><small>Retome este assunto após 1, 7 e 21 dias. ${escapeHtml(l.etapa||'')}</small></div><div class="formula">${escapeHtml(l.formula)}</div><div class="diagram"><div><small>Conceito</small><br><strong>${escapeHtml(l.subject)}</strong></div><span style="font-size:26px;color:#b50913">➜</span><div><small>Objetivo da aula</small><br><strong style="font-size:14px">${escapeHtml(l.objective)}</strong></div></div>${section}<div class="example"><h3>🧩 Exemplo resolvido</h3><p>${escapeHtml(l.example)}</p></div><h3>⚠️ Erros comuns</h3><ul class="pitfallList">${l.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h3>📖 Referência e verificação</h3><p>${escapeHtml(l.source)}</p>${l.fonteOficialBase?`<p><a href="${escapeHtml(l.fonteOficialBase)}" rel="noopener noreferrer" target="_blank">Consultar fonte oficial para conferência de alterações</a></p>`:""}`;const visual=l.visual?.kind==='percent'?`<div class="visualCustom"><strong>${escapeHtml(l.visual.label)}</strong><div class="percentGrid">${Array.from({length:100},(_,i)=>`<span class="${i<l.visual.value?'filled':''}"></span>`).join('')}</div><small>As células coloridas representam ${l.visual.value} de cada 100 partes.</small></div>`:l.visual?.kind==='logic'?`<div class="visualCustom"><strong>Tabela-verdade: condicional P → Q</strong><table><tr><th>P</th><th>Q</th><th>P → Q</th></tr><tr><td>V</td><td>V</td><td>V</td></tr><tr><td>V</td><td>F</td><td>F</td></tr><tr><td>F</td><td>V</td><td>V</td></tr><tr><td>F</td><td>F</td><td>V</td></tr></table></div>`:l.visual?.kind==='ratio'?`<div class="visualCustom"><strong>Relação inversa — mais máquinas, menos tempo</strong><div class="diagram"><span>5 máquinas<br>8 horas</span><b>→</b><span>10 máquinas<br>4 horas</span></div></div>`:l.visual?.kind==='reading'?`<div class="visualCustom"><strong>Escada da compreensão</strong><div class="diagram"><span>Texto literal</span><b>→</b><span>Pistas do texto</span><b>→</b><span>Inferência sustentada</span></div></div>`:'';
 const steps=l.steps?.length?`<div class="example"><h3>🔎 Resolução comentada passo a passo</h3><ol>${l.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol></div>`:'';
 const refs=l.references?.length?`<div class="visualCustom"><h3>Fontes para aprofundar e conferir</h3><ul>${l.references.map(r=>{let url='';try{const u=new URL(r.url);if(u.protocol==='https:')url=u.href}catch{}return url?`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a></li>`:''}).join('')}</ul><small>Links de apoio; confira o conteúdo programático e as atualizações da legislação no edital oficial.</small></div>`:'';
 const checks=`<div class="visualCustom" id="practiceHost" aria-live="polite"><h3>🧠 Teste sua compreensão</h3><p class="dim">Sorteando novas questões desta aula...</p></div>`;
 $('lessonBody').insertAdjacentHTML('beforeend',visual+steps+checks+refs+'<section class="studyNotes visualCustom" id="notesHost"><p>Preparando resumo para seu caderno…</p></section>');
-passedLessonId=null;lessonCompletionState(l);populatePractice(l,visit);populateNotebook(l,visit);
+passedLessonId=null;lessonCompletionState(l);populateTeachingLayout(l,visit);populatePractice(l,visit);populateNotebook(l,visit);
 $('saveMsg').textContent='';const link=new URL('./questoes.html',location.href);link.searchParams.set('materia',l.subject);link.searchParams.set('assunto',l.title.split(':')[0]);$('exercise').href=link.href;window.scrollTo(0,0);}
 $('back').onclick=()=>{lessonVisit++;$('lesson').classList.add('hide');$('catalog').classList.remove('hide');cards();window.scrollTo(0,0);};
 $('complete').onclick=async()=>{if(!active)return;if(!currentUser||!profileId){$('saveMsg').textContent='Entre no TJSP Duo para sincronizar seu progresso.';return;}const key=active.id;if(progress[key]){$('saveMsg').textContent='Esta aula já está concluída. Seu progresso foi preservado.';return;}if(passedLessonId!==key){$('saveMsg').textContent='Para concluir esta aula, acerte todas as questões na mesma rodada. Revise os erros e refaça quando necessário.';return;}const next=true;$('complete').disabled=true;$('saveMsg').textContent='Salvando no Firebase...';try{const ref=doc(db,'profiles',String(profileId));const snap=await getDoc(ref);const current=snap.data();if(!current||current.uid!==currentUser.uid)throw Error('Perfil não encontrado ou não autorizado');const updated={...(current.lessonProgress||{})};if(next)updated[key]=new Date().toISOString();else delete updated[key];await updateDoc(ref,{lessonProgress:updated});progress=updated;updateProgress();$('status').textContent=next?'✓ Concluída':'○ Não concluída';$('complete').textContent=next?'↺ Desmarcar conclusão':'✓ Marcar como concluída';$('saveMsg').textContent='Parabéns! Aula concluída com 100% na rodada de fixação. Progresso sincronizado.';lessonCompletionState(active);}catch(e){$('saveMsg').textContent='Falha ao salvar: '+e.message;}finally{if(active)lessonCompletionState(active);}};

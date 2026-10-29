@@ -1,0 +1,39 @@
+/* TJSP DUO V11 — leitura por conceitos: branco, preto, cinza e vermelho.
+   Azul e âmbar são usados SOMENTE nas marcações didáticas solicitadas. */
+.tj-teaching-layout{display:flex;flex-direction:column;gap:22px;margin:24px 0 28px}
+.tj-teaching-group{padding:0;overflow:hidden;border:1px solid #e3e6eb!important;border-radius:17px;background:#fff!important;box-shadow:0 6px 20px #17191f09!important;color:#17191f!important}
+.tj-teaching-head{padding:19px 22px;background:#f9fafb!important;border-bottom:1px solid #e3e6eb!important}
+.tj-teaching-number{display:block;margin-bottom:6px;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#a70012!important;font-weight:850}
+.tj-teaching-head h2{font-size:clamp(19px,2.4vw,23px)!important;line-height:1.3;color:#17191f!important;margin:0!important}
+.tj-teaching-columns{display:grid;grid-template-columns:minmax(0,1fr) minmax(204px,27%);gap:0;align-items:start}
+.tj-teaching-columns.no-legend{display:block}
+.tj-teaching-main{min-width:0;padding:4px 22px 17px}
+.tj-teaching-part{padding:17px 0 19px;border-bottom:1px solid #e8e9ed}
+.tj-teaching-part:last-child{border-bottom:none;padding-bottom:6px}
+.tj-teaching-part h3{font-size:16px!important;line-height:1.4;margin:0 0 11px!important;color:#17191f!important}
+.tj-teaching-part p{font-size:15px!important;line-height:1.85!important;color:#252932!important;white-space:pre-line;overflow-wrap:anywhere;margin:0!important}
+.tj-teaching-part.tj-depth h3{font-size:13px!important;letter-spacing:.02em;text-transform:none;color:#aa101d!important}
+.tj-teaching-part.tj-depth{border-left:3px solid #b50913;padding-left:15px;margin:12px 0 5px}
+.tj-teaching-legend{min-width:0;background:#fbfbfc!important;border-left:1px solid #e5e6ea;padding:20px 16px;position:sticky;top:16px;align-self:start}
+.tj-legend-title{color:#a7101b!important;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:900;margin:0 0 10px}
+.tj-legend-desc{font-size:12px;line-height:1.6;color:#5d6571!important;margin:0 0 13px}
+.tj-legend-list{display:flex;flex-direction:column;gap:11px;margin:0;padding:0;list-style:none!important}
+.tj-legend-list li{display:grid;grid-template-columns:14px minmax(0,1fr);gap:9px;align-items:start;margin:0;padding:0;line-height:1.4;color:#222733!important}
+.tj-legend-dot{display:block;border-radius:3px;width:12px;height:12px;margin-top:3px}
+.tj-legend-list b{display:block;color:#17191f!important;font-size:12px;line-height:1.45}
+.tj-legend-list small{display:block;color:#4d5664!important;font-size:11px;margin-top:3px;overflow-wrap:anywhere}
+mark.tj-focus{display:inline!important;border-radius:4px;padding:1px 3px!important;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:800!important;color:#17191f!important;text-decoration:none}
+.tj-focus.tj-blue,.tj-legend-dot.tj-blue{background:#b8d7f2!important;border-bottom:2px solid #315b81}
+.tj-focus.tj-amber,.tj-legend-dot.tj-amber{background:#ffe4a7!important;border-bottom:2px solid #a66c10}
+.tj-focus.tj-red,.tj-legend-dot.tj-red{background:#f7b9c1!important;border-bottom:2px solid #b50913}
+.tj-teaching-wait{padding:17px;background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px;color:#515b68}
+@media(max-width:790px){
+ .tj-teaching-head{padding:17px 16px}
+ .tj-teaching-columns{display:flex;flex-direction:column}
+ .tj-teaching-main{padding:1px 17px 16px;width:100%;order:1}
+ /* No celular a legenda é lida ANTES do texto de explicação. */
+ .tj-teaching-legend{position:static;order:0;width:100%;border-left:0;border-bottom:1px solid #e5e6ea;padding:16px 17px}
+ .tj-legend-list{gap:8px}
+ .tj-teaching-part p{font-size:14px!important;line-height:1.8!important}
+}
+@media(prefers-reduced-motion:reduce){.tj-teaching-group *{scroll-behavior:auto}}

@@ -23,10 +23,10 @@ const flatten=x=>Object.fromEntries(Object.entries(x).map(([k,v])=>[k,{answered:
 await updateDoc(doc(db,'profiles',String(p.id)),{answered,correct,wrong:answered-correct,distinct:distinct.size,daily:dayCounts,streak,exams:all.length,subjectStats:flatten(bySub),topicStats:flatten(byTopic)});
 }
 window.duoFirebaseAPI=async function(path,payload){try{await ready;
-if(path==='/api/status'){return {accounts:(await userProfiles()).length,slots:2-(await userProfiles()).length}}
+if(path==='/api/status'){if(!auth.currentUser)return {accounts:0,slots:2};const profiles=await userProfiles();return {accounts:profiles.length,slots:2-profiles.length}}
 if(path==='/api/register'){
  const email=String(payload.username||'').trim().toLowerCase(),pass=String(payload.password||'');if(!email.includes('@'))throw new Error('Digite um e-mail válido.');
- const current=await userProfiles();if(current.length>=2)throw new Error('As duas vagas de estudante já estão ocupadas.');
+ // Nunca consulte perfis antes de autenticar: as regras bloqueiam leituras anônimas.
  const credential=await createUserWithEmailAndPassword(auth,email,pass);const uid=credential.user.uid;let chosen=null;
  for(const id of slots){try{await runTransaction(db,async tx=>{const ref=doc(db,'slots',id);const snap=await tx.get(ref);if(snap.exists())throw new Error('Ocupado');tx.set(ref,{uid});});chosen=id;break}catch(err){if(err.message!=='Ocupado')throw err}}
  if(!chosen){await signOut(auth);throw new Error('Não há vagas disponíveis.')}const username=email.split('@')[0].slice(0,32);await setDoc(doc(db,'profiles',chosen),{uid,username,goal:20,answered:0,correct:0,wrong:0,distinct:0,daily:{},streak:0,exams:0,subjectStats:{},topicStats:{}});return {user:{id:Number(chosen),uid,username,goal:20}};

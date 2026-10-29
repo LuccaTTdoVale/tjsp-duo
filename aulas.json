@@ -53,6 +53,10 @@
       [
         "Exercício desenvolvido",
         "Uma população de 800 pessoas aumenta 10% e depois diminui 10%. Primeiro: 800 × 1,10 = 880. Depois: 880 × 0,90 = 792. O resultado é 8 pessoas menor que o inicial, ou queda de 1%. O raciocínio vale para descontos sucessivos e taxas de crescimento."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Um produto de R$ 100 recebeu dois descontos sucessivos de 10% e 10%. Qual é o preço final? Resposta fundamentada: R$ 81. Por quê: Descontos sucessivos se multiplicam: 100 × (1 − 10/100) × (1 − 10/100) = R$ 81. Exemplo 2. Situação: Um produto de R$ 800 recebeu dois descontos sucessivos de 25% e 10%. Qual é o preço final? Resposta fundamentada: R$ 540. Por quê: Descontos sucessivos se multiplicam: 800 × (1 − 25/100) × (1 − 10/100) = R$ 540."
       ]
     ],
     "example": "Um material custa R$ 240 e recebe 15% de desconto. Desconto = 240 × 0,15 = R$ 36; preço final = R$ 204.",
@@ -132,7 +136,8 @@
     ],
     "etapa": "Aprofundada",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-regra-de-tres",
@@ -176,6 +181,10 @@
       [
         "Razão, proporção e unidades",
         "Uma razão compara duas grandezas: 18/24 = 3/4. Em receitas e mapas, as unidades precisam ser compatíveis. Se um carro percorre 180 km em 3 horas, a razão é 60 km/h, nunca simplesmente 60. Já uma proporção afirma a igualdade entre duas razões: a/b = c/d; com denominadores diferentes de zero, vale ad = bc."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Uma quantia de R$ 770 será dividida na razão 13:9, nessa ordem. Quanto receberá a primeira parte? Resposta fundamentada: R$ 455. Por quê: A fração da primeira parte é 13/(13+9); 770 × 13/22 = R$ 455. Exemplo 2. Situação: 2 servidores concluem uma tarefa em 10 dias, com produtividade igual. Quantos dias 5 servidores levarão para a mesma tarefa? Resposta fundamentada: 4 dias. Por quê: Trabalho constante: 2×10 = 5×tempo; tempo = 4 dias."
       ]
     ],
     "example": "Quatro pessoas executam uma tarefa em 6 horas. Mantida a produtividade, 8 pessoas terminam em 3 horas: 4×6 = 8×3.",
@@ -240,7 +249,8 @@
     ],
     "etapa": "Aprofundada",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-equacao-1grau",
@@ -304,6 +314,10 @@
       [
         "Casos com nenhuma ou infinitas soluções",
         "Em 2(x+1)=2x+2, os dois membros ficam idênticos: qualquer número real resolve a igualdade. Em 2(x+1)=2x+3, após simplificar resulta 2=3: nenhum valor de x resolve. Não tente forçar uma divisão por zero; identifique uma identidade ou contradição."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Na equação 6x + 41 = 83, qual é o valor de x? Resposta fundamentada: 7. Por quê: 6x = 83 − 41 = 42; logo x = 7. Exemplo 2. Situação: Na equação 7x + 15 = 43, qual é o valor de x? Resposta fundamentada: 4. Por quê: 7x = 43 − 15 = 28; logo x = 4."
       ]
     ],
     "example": "10x + 69 = 409 → 10x = 340 → x = 34. Conferência: 10×34+69=409.",
@@ -384,7 +398,8 @@
       "Divida por 4: x = 6.",
       "Confira: 4(6 − 2) + 3 = 16 + 3 = 19."
     ],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-interpretacao",
@@ -440,6 +455,10 @@
       [
         "Conectivos e mudança de orientação argumentativa",
         "Compare \"O serviço é lento, mas seguro\" com \"O serviço é seguro, mas lento\". Os fatos mencionados são os mesmos, porém o termo após \"mas\" recebe destaque como contraste decisivo. Em textos de opinião, observe a posição dos conectivos, modalizadores (\"talvez\", \"certamente\") e verbos avaliativos para distinguir fato, hipótese e juízo de valor."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Leia o texto:\n\n“O curso recebeu novos alunos. Para manter o acompanhamento individual, a coordenação ampliou o horário de atendimento.”\n\nSobre o texto, é correto afirmar que: Resposta fundamentada: A ampliação do horário foi uma resposta ao aumento de alunos.. Por quê: A alternativa correta é a única compatível com as informações expressas ou inferíveis do texto. Exemplo 2. Situação: Leia o texto:\n\n“A biblioteca passou a oferecer livros digitais. Os impressos continuam disponíveis aos usuários.”\n\nA ideia expressa no texto indica que: Resposta fundamentada: Os dois formatos de livro coexistem.. Por quê: A alternativa correta é a única compatível com as informações expressas ou inferíveis do texto."
       ]
     ],
     "example": "Texto: “Embora chovesse, a prova ocorreu.” Correto inferir que a chuva não impediu a prova; não se pode inferir que choveu o dia inteiro.",
@@ -505,7 +524,8 @@
     ],
     "etapa": "Aprofundada (ampliada)",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-sintaxe",
@@ -541,6 +561,10 @@
       [
         "Complemento nominal e adjunto adnominal",
         "\"A crítica ao projeto\" traz complemento nominal: o projeto é alvo da crítica. \"A crítica do professor\" pode indicar quem criticou (adjunto adnominal) conforme contexto. Diferencie agente e paciente quando o nome é abstrato. É uma distinção semântica; o simples fato de haver preposição não resolve sozinho."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Na análise sintática, assinale a afirmação correta. Resposta fundamentada: Em “Foram entregues os ofícios”, “os ofícios” é sujeito.. Por quê: Na voz passiva analítica, os ofícios é paciente e sujeito da oração. Exemplo 2. Situação: Na análise sintática, assinale a afirmação correta. Resposta fundamentada: Em “A testemunha respondeu ao juiz”, “ao juiz” é objeto indireto.. Por quê: O verbo respondeu rege a preposição a."
       ]
     ],
     "example": "“Chegaram os documentos.” Sujeito simples: “os documentos”. O verbo concorda com o núcleo “documentos”.",
@@ -582,7 +606,8 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-crase",
@@ -678,6 +703,10 @@
       [
         "A expressão \"à medida que\" e o teste do masculino",
         "Em \"À medida que o prazo terminava, aumentavam as dúvidas\", a locução conjuntiva exige acento indicativo de crase. Já \"A medida foi aprovada\" começa com artigo, sem fusão de preposição. Para saber se existe crase em \"Referiu-se à decisão\", troque por masculino: \"Referiu-se ao despacho\". O \"ao\" é um indicador útil, mas regras próprias de locuções e nomes geográficos exigem atenção."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: À tarde, os documentos foram organizados.. Por quê: Locução adverbial feminina de tempo: à tarde. Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: Ela voltou à biblioteca após o almoço.. Por quê: Voltar a + artigo a antes de biblioteca: à biblioteca."
       ]
     ],
     "example": "“Entreguei o documento à diretora.” O verbo pede preposição a e “diretora” admite artigo a.",
@@ -761,7 +790,8 @@
       "Fusão a + a = à. Resposta: “dirigiu-se à secretaria”.",
       "Controle: “dirigiu-se ao setor” confirma a fusão."
     ],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Raciocínio Lógico-proposicoes",
@@ -805,6 +835,10 @@
       [
         "Tabela-verdade como ferramenta e não decoração",
         "Para P∧Q, o resultado é verdadeiro somente se os dois forem verdadeiros. Para P∨Q inclusivo, basta um verdadeiro. Em provas, produza as quatro linhas possíveis: V/V, V/F, F/V e F/F. Em uma conjunção com três proposições há oito combinações; generalizando, n proposições independentes produzem 2^n linhas."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: João tem 90 páginas de estudo para revisar, e Sofia tem 5 páginas a menos. Quantas páginas Sofia precisa revisar? Resposta fundamentada: 85. Por quê: Subtraia a diferença: 90 − 5 = 85. Exemplo 2. Situação: Mário tem 62 páginas de estudo para revisar, e Téo tem 8 páginas a menos. Quantas páginas Téo precisa revisar? Resposta fundamentada: 54. Por quê: Subtraia a diferença: 62 − 8 = 54."
       ]
     ],
     "example": "Se p = verdadeiro e q = falso, “p ∧ q” é falso; “p ∨ q” é verdadeiro; “p → q” é falso.",
@@ -865,7 +899,8 @@
     ],
     "etapa": "Aprofundada",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-excel",
@@ -941,6 +976,14 @@
       [
         "Filtros não são a mesma coisa que exclusão",
         "Uma tabela filtrada exibe um subconjunto sem necessariamente apagar os demais registros. A classificação altera a ordem visível das linhas; em conjuntos tabulares, selecione a tabela inteira para não dissociar dados de uma mesma pessoa. Para localizar erro de fórmula, verifique parenteses, referência a células vazias, separador e tipo numérico antes de mudar a expressão."
+      ],
+      [
+        "Macros e obtenção de dados: distinção entre recursos",
+        "No Microsoft Excel, fórmula calcula valor em célula; função pronta, como SOMA ou SE, é uma estrutura de cálculo; classificação reorganiza registros segundo critérios; filtro seleciona quais registros ficam visíveis; gráfico representa dados; e macro automatiza uma sequência de tarefas, geralmente relacionada a VBA ou automações disponíveis na versão utilizada. Importação/obtenção de dados externos permite trazer informações de outras fontes, com etapas de transformação e atualização segundo o recurso disponível. Uma macro não é sinônimo de fórmula: a primeira pode executar comandos em sequência, enquanto a segunda produz resultado calculado. Para prova, diferencie finalidade, resultado e permissões de segurança."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual fórmula do Excel calcula a média dos valores de B1 até B5? Identifique a opção correta. Resposta fundamentada: =MÉDIA(B1:B5). Por quê: MÉDIA retorna a média aritmética dos valores numéricos do intervalo. Exemplo 2. Situação: No Excel, o que significa uma referência como $A$1? Assinale a alternativa adequada. Resposta fundamentada: Referência absoluta de coluna e linha.. Por quê: Os cifrões fixam a coluna A e a linha 1 ao copiar fórmulas."
       ]
     ],
     "example": "Se A1=4, A2=6 e A3=10, =MÉDIA(A1:A3) resulta em 20/3 ≈ 6,67.",
@@ -1024,7 +1067,8 @@
       "E2 recebe =D2*(1-$F$1), logo 120×0,90 = 108.",
       "Ao copiar E2 para E3, a referência D2 vira D3; $F$1 continua apontando para a taxa em F1."
     ],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Direito Constitucional-direitos-fundamentais",
@@ -1056,6 +1100,10 @@
       [
         "Eficácia, destinatários e limites",
         "Direitos fundamentais não significam licença irrestrita para desrespeitar os direitos alheios. Em exercícios, diferencie norma constitucional, regra legal e interpretação judicial: o texto do art. 5º é o ponto de partida, enquanto hipóteses de sigilo, prisão, acesso a informações e direito de resposta têm condições próprias. Desconfie de alternativas que trocam \"salvo\" por \"sempre\"."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Que ação constitucional protege a liberdade de locomoção ameaçada por ilegalidade ou abuso de poder?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Habeas corpus.. Por quê: Habeas corpus. Fundamentação: CF, art. 5º, LXVIII. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, Qual remédio constitucional protege o conhecimento de informações relativas à pessoa do impetrante em registros de entidades governamentais ou públicas?\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Habeas data.. Por quê: Habeas data. Fundamentação: CF, art. 5º, LXXII. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Ao estudar o direito de petição, localize o dispositivo na Constituição, destaque quem pode exercê-lo e compare com o direito de obter certidões.",
@@ -1101,7 +1149,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   },
   {
     "id": "Direito Penal-crimes-administracao",
@@ -1133,6 +1183,18 @@
       [
         "Exercício de enquadramento",
         "Um servidor exige pagamento para cumprir ato que já deveria realizar: a palavra \"exige\" chama atenção para concussão, não para peculato. Se apenas solicita vantagem: em regra a figura a examinar é corrupção passiva. Se retarda ato por antipatia pessoal, sem finalidade de obter vantagem patrimonial, investigue prevaricação. A tipificação depende de todos os elementos do tipo, não apenas de uma palavra."
+      ],
+      [
+        "Fraude em certame público (art. 311-A do Código Penal)",
+        "Fraudar certame de interesse público não é simplesmente “colar” no sentido escolar: a figura penal do art. 311-A envolve utilizar ou divulgar indevidamente, com finalidade específica prevista na lei, conteúdo sigiloso de concurso público, avaliação ou exame públicos, processo seletivo para ingresso no ensino superior ou exame/processo seletivo previsto em lei. Ao analisar uma situação, identifique primeiro se o conteúdo era sigiloso; depois, se houve utilização ou divulgação indevida; por fim, a finalidade e as condições previstas no tipo. Uma comparação importante é que o crime do art. 311-A não se confunde com corrupção ativa (oferecer ou prometer vantagem indevida a funcionário) nem com falsificação documental. Confirme a literalidade do artigo e os parágrafos no Código Penal vigente antes de memorizar consequências penais."
+      ],
+      [
+        "Tipos funcionais e conduta concreta",
+        "A mesma situação em repartição pode envolver crimes diferentes. Funcionário se apropria de dinheiro de que tem posse em razão do cargo: investigue peculato. Agente exige vantagem indevida: investigue concussão. Funcionário solicita ou recebe vantagem indevida em razão da função: investigue corrupção passiva. Particular oferece ou promete vantagem indevida ao funcionário para determiná-lo a praticar, omitir ou retardar ato de ofício: investigue corrupção ativa. Observe a palavra nuclear, a qualidade do sujeito e os elementos do artigo, pois uma troca de verbo no enunciado muda a tipificação."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, Alguém desobedece a ordem legal de funcionário público, sem violência ou ameaça. Qual delito é descrito em tese?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Desobediência.. Por quê: Desobediência. Fundamentação: CP, art. 330. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Alguém desobedece a ordem legal de funcionário público, sem violência ou ameaça. Qual delito é descrito em tese?\nAssinale a alternativa correta. Resposta fundamentada: Desobediência.. Por quê: Desobediência. Fundamentação: CP, art. 330. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Um enunciado menciona “oferecer vantagem a funcionário para praticar ato de ofício”. Compare o verbo “oferecer” com o art. 333 do CP, verificando todos os requisitos legais.",
@@ -1174,7 +1236,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Direito Administrativo-improbidade",
@@ -1206,6 +1270,10 @@
       [
         "Sanções não equivalem a condenação criminal",
         "A responsabilização por improbidade tem natureza própria e pode coexistir com responsabilidade penal, civil e administrativa, conforme fatos e regras de independência. Sanções, prescrição, legitimidade e procedimentos exigem leitura do texto atualizado; não decore tabelas antigas anteriores a 2021. Uma questão pode tentar equiparar culpa a dolo ou presumir dano ao erário sem comprovação."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, O art. 9º da Lei de Improbidade Administrativa trata de atos que importam, no contexto legal:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Enriquecimento ilícito.. Por quê: Enriquecimento ilícito. Fundamentação: Lei 8.429/1992, art. 9º. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, O art. 9º da Lei de Improbidade Administrativa trata de atos que importam, no contexto legal:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Enriquecimento ilícito.. Por quê: Enriquecimento ilícito. Fundamentação: Lei 8.429/1992, art. 9º. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Uma falha formal sem elemento exigido pelo tipo não deve ser automaticamente classificada como improbidade. Verifique os requisitos da lei.",
@@ -1247,7 +1315,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
   },
   {
     "id": "Redação-dissertativa",
@@ -1279,6 +1349,10 @@
       [
         "Conclusão coerente, sem inventar uma proposta obrigatória",
         "A redação do concurso deve seguir os critérios definidos no edital, que podem não exigir o mesmo modelo de intervenção usado no ENEM. Concluir é retomar a tese à luz dos argumentos desenvolvidos, sem copiar a introdução. Revise se cada parágrafo apresenta ideia central, justificativa e encadeamento com o tema."
+      ],
+      [
+        "Modelo autoral comentado de desenvolvimento argumentativo",
+        "Tema de treino: “Desafios da inclusão digital no atendimento público”. Tese possível: ampliar serviços digitais é útil, mas a transformação precisa preservar o acesso de quem tem pouca familiaridade tecnológica. Primeiro argumento: formulários e plataformas online reduzem deslocamentos, desde que sejam acessíveis e apresentem linguagem clara; sem isso, tornam-se nova barreira. Segundo argumento: atendimento presencial e orientação assistida são medidas de transição que permitem cidadania efetiva e evitam exclusão de idosos e pessoas com deficiência. Conclusão coerente: digitalização e atendimento inclusivo devem avançar juntos. Observe que as ideias são ligadas à tese; o modelo é um roteiro argumentativo, não um texto pronto para decorar e reproduzir na prova."
       ]
     ],
     "example": "Tema hipotético: acesso à Justiça digital. Tese: a digitalização amplia acesso, mas exige inclusão e proteção de dados. Desenvolva um argumento por parágrafo.",
@@ -1365,6 +1439,14 @@
       [
         "Atos e nulidade: procedimento de verificação",
         "Se uma intimação contém erro, não conclua automaticamente pela nulidade absoluta: examine finalidade do ato, forma prevista, ciência efetiva, possibilidade de correção e demonstração de prejuízo, conforme o CPC. Em questões de cartório, observe quem pratica o ato, qual documento formaliza e a consequência processual do vício."
+      ],
+      [
+        "Diferença entre forma, comunicação e prazo processual",
+        "Atos processuais são praticados pelas partes, pelo juiz e pelos auxiliares da Justiça. O estudo dos arts. 188 a 275 do CPC envolve forma, tempo, lugar, prazos, comunicação e nulidades. Uma petição protocolada, uma intimação e uma citação não exercem a mesma função: petição manifesta requerimento ou defesa; citação chama o réu ou interessado para integrar a relação processual; intimação dá ciência a alguém de ato ou termo do processo. Para contar prazo no CPC, comece pela regra legal aplicável ao tipo de prazo, identifique a comunicação válida e somente então calcule o termo inicial e final; não copie automaticamente a contagem de prazos penais."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, O CPC define intimação como o ato pelo qual se dá ciência a alguém:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Dos atos e dos termos do processo.. Por quê: Dos atos e dos termos do processo. Fundamentação: CPC, art. 269. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Segundo o CPC, citação é o ato pelo qual são convocados o réu, executado ou interessado para:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Integrar a relação processual.. Por quê: Integrar a relação processual. Fundamentação: CPC, art. 238. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Citação integra o réu/executado/interessado à relação processual conforme o caso; intimação dá ciência de atos ou termos do processo.",
@@ -1417,7 +1499,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Processo Penal-citacao",
@@ -1461,6 +1545,10 @@
       [
         "Réu não localizado: qual problema a questão traz?",
         "Há tratamentos distintos para acusado não encontrado, que se oculta, que se encontra em lugar incerto e que deixa de comparecer após citação. Observe tipo de citação, conhecimento do ato, constituição de defensor e hipóteses de suspensão do processo e da prescrição, especialmente à luz do art. 366 do CPP."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Se o réu não for encontrado para ser citado, nas hipóteses do CPP, cabe estudar:\nAssinale a alternativa correta. Resposta fundamentada: Citação por edital, observados os requisitos legais.. Por quê: Citação por edital, observados os requisitos legais. Fundamentação: CPP, art. 361. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, Se o réu não for encontrado para ser citado, nas hipóteses do CPP, cabe estudar:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Citação por edital, observados os requisitos legais.. Por quê: Citação por edital, observados os requisitos legais. Fundamentação: CPP, art. 361. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Caso hipotético: acusado não localizado. Antes de escolher a modalidade de citação, identifique as diligências e os requisitos legais do CPP.",
@@ -1513,7 +1601,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Legislação Interna-normas-cgj",
@@ -1545,6 +1635,10 @@
       [
         "Relação com eproc e gestão documental",
         "A informatização muda o suporte do ato, não autoriza descumprir sigilo, competência ou prazo. A Resolução TJSP 963/2025 (eproc) integra o conteúdo divulgado para o edital 2026: consulte sua redação oficial e eventuais atos complementares para competências, implantação e procedimentos. Não presuma que regras do SAJ e do eproc sejam idênticas."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: No edital do TJSP, as Normas da Corregedoria Geral da Justiça aparecem em qual bloco?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Conhecimentos em Direito — Legislação Interna.. Por quê: Conhecimentos em Direito — Legislação Interna. Fundamentação: Edital 02/2026, Anexo VIII, item 6.4. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Para a preparação jurídica, O edital inclui, dentre os conteúdos das Normas da Corregedoria do TJSP:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Tomo I, Capítulo XI, Seções I a VII.. Por quê: Tomo I, Capítulo XI, Seções I a VII. Fundamentação: Edital 02/2026, Anexo VIII, item 6.4. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Em norma sobre rotina cartorária, organize um quadro “quem faz / o que faz / quando / exceção” antes de responder questões.",
@@ -1586,7 +1680,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais"
   },
   {
     "id": "Atualidades e Inclusão-lbi",
@@ -1630,6 +1726,10 @@
       [
         "Trabalho e adaptações razoáveis",
         "Nos arts. 34 a 38, o eixo é o direito ao trabalho em condições de igualdade, sem discriminação. Diferencie acessibilidade, tecnologia assistiva e adaptação razoável: medidas para remover barreiras não representam privilégio arbitrário. Uma seleção que recusa candidato apenas por deficiência, sem base legítima, contraria a diretriz inclusiva."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Segundo o Estatuto, a deficiência, por si só, afeta a plena capacidade civil da pessoa?\nAssinale a alternativa correta. Resposta fundamentada: Não; a deficiência não afeta a plena capacidade civil, conforme a lei.. Por quê: Não; a deficiência não afeta a plena capacidade civil, conforme a lei. Fundamentação: Lei 13.146/2015, art. 6º. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Segundo o Estatuto, a deficiência, por si só, afeta a plena capacidade civil da pessoa?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Não; a deficiência não afeta a plena capacidade civil, conforme a lei.. Por quê: Não; a deficiência não afeta a plena capacidade civil, conforme a lei. Fundamentação: Lei 13.146/2015, art. 6º. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Um órgão oferece atendimento apenas por meio inacessível. Analise o problema à luz dos conceitos de barreira e acessibilidade previstos na LBI.",
@@ -1682,7 +1782,9 @@
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
   },
   {
     "id": "Português-coes-o-e-coer-ncia",
@@ -1727,6 +1829,10 @@
       [
         "Intertextualidade com precisão",
         "A intertextualidade ocorre quando um texto dialoga com outro por citação, referência, paródia ou retomada de estrutura. Alusão indireta exige reconhecimento de contexto; não invente referências que o enunciado não sustenta. Em prova, primeiro identifique a passagem textual citada, depois a intenção da retomada e, por fim, o efeito de sentido."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Identifique a relação de sentido corretamente atribuída ao conectivo destacado. Resposta fundamentada: Em “Estudou, mas não passou”, “mas” exprime oposição.. Por quê: Mas é conectivo adversativo. Exemplo 2. Situação: Identifique a relação de sentido corretamente atribuída ao conectivo destacado. Resposta fundamentada: Em “Além disso, resolveu exercícios”, “além disso” adiciona informação.. Por quê: O conectivo acrescenta argumento."
       ]
     ],
     "example": "Compare “Estudou muito; portanto, melhorou” com “Estudou muito; contudo, melhorou”. A primeira relação é conclusão; a segunda pode soar contraditória sem contexto.",
@@ -1781,7 +1887,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-sin-nimos-ant-nimos-e-polissemia",
@@ -1810,6 +1917,10 @@
       [
         "Antônimos e contrários graduais",
         "\"Aberto/fechado\" pode formar oposição complementar em certo contexto; \"quente/frio\" é oposição graduável, com estados intermediários. \"Comprar/vender\" são conversos: a mesma operação descrita de pontos de vista diferentes. Em uma reescrita, o antônimo lexical isolado nem sempre preserva a estrutura argumentativa da frase."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Considere o sentido das palavras. Assinale a relação semântica correta. Resposta fundamentada: “Contundente” pode significar “incisivo”.. Por quê: Contundente, figuradamente, = incisivo ou vigoroso. Exemplo 2. Situação: Considere o sentido das palavras. Assinale a relação semântica correta. Resposta fundamentada: “Peremptório” pode significar “definitivo”.. Por quê: Peremptório = categórico/definitivo."
       ]
     ],
     "example": "Em “a explicação ficou clara”, “compreensível” é mais adequado que “iluminada”.",
@@ -1853,7 +1964,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-sentido-literal-e-figurado",
@@ -1882,6 +1994,10 @@
       [
         "Ironia e literalidade em questões",
         "Quando um narrador diz \"Que pontualidade exemplar!\" após uma espera de duas horas, o contexto pode indicar ironia. A identificação não decorre apenas da pontuação: requer confronto entre o que se diz e o que ocorre. Em textos argumentativos, a opção correta deve respeitar a crítica ou elogio efetivamente construído."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Considere o sentido das palavras. Assinale a relação semântica correta. Resposta fundamentada: “Contundente” pode significar “incisivo”.. Por quê: Contundente, figuradamente, = incisivo ou vigoroso."
       ]
     ],
     "example": "Em “o prazo corre”, não existe deslocamento físico; a expressão enfatiza passagem do tempo.",
@@ -1925,7 +2041,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-classes-de-palavras-i-nomes-e-determinantes",
@@ -1954,6 +2071,10 @@
       [
         "Numerais e função substantiva",
         "\"Três documentos chegaram\" usa numeral como determinante quantitativo; \"os três chegaram\" substantiva o numeral em referência ao grupo conhecido. Palavras podem mudar de classe conforme função: \"o necessário\" usa adjetivo substantivado. Para classificar, examine a frase, não apenas a palavra isolada."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “três relatórios”, “três” é numeral.. Por quê: Três expressa quantidade determinada. Exemplo 2. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “os autos chegaram”, “os” é artigo definido.. Por quê: Acompanha e determina o substantivo autos."
       ]
     ],
     "example": "Em “os dois novos servidores”, “os” é artigo, “dois” numeral, “novos” adjetivo e “servidores” substantivo.",
@@ -1997,7 +2118,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-classes-de-palavras-ii-verbos-e-adv-rbios",
@@ -2026,6 +2148,10 @@
       [
         "Advérbio não é sempre palavra terminada em -mente",
         "\"Ontem\", \"aqui\", \"não\", \"talvez\" são advérbios de tempo, lugar, negação e dúvida. \"Muito\" pode funcionar como advérbio em \"trabalhou muito\" e como pronome indefinido em \"muitos processos\". Um advérbio pode modificar verbo, adjetivo ou outro advérbio; identifique o termo modificado."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “ela respondeu rapidamente”, “rapidamente” é advérbio.. Por quê: Modifica a maneira de responder."
       ]
     ],
     "example": "“Provavelmente entregará amanhã”: provavelmente exprime dúvida; entregará situa ação no futuro; amanhã indica tempo.",
@@ -2069,7 +2195,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-pronomes-e-referencia-o",
@@ -2098,6 +2225,10 @@
       [
         "Demonstrativos e ambiguidade na referência",
         "Em apresentação de dois elementos, \"este\" tende a retomar o mais próximo, \"aquele\" o mais distante, conforme registro e organização textual. Em \"João informou a Pedro que seu documento estava pronto\", \"seu\" é ambíguo. Reescreva especificando o possuidor, para perceber a relação referencial exigida."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “este documento”, “este” é pronome demonstrativo.. Por quê: Este indica posição do referente em relação ao enunciador."
       ]
     ],
     "example": "“A servidora que protocolou o documento”: “que” retoma “servidora” e introduz oração subordinada.",
@@ -2141,7 +2272,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-concord-ncia-verbal",
@@ -2182,6 +2314,10 @@
       [
         "Verbos impessoais e partícula se",
         "\"Havia muitas petições\" mantém \"haver\" no singular com sentido de existir; \"existiam muitas petições\" concorda no plural. \"Faz três anos\" indica tempo decorrido e é impessoal. \"Precisa-se de analistas\" tem sujeito indeterminado; \"publicam-se decisões\" equivale a \"decisões são publicadas\", com concordância plural."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: Faltam cinco minutos para o início.. Por quê: O sujeito cinco minutos determina concordância plural. Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: Os documentos chegaram ontem.. Por quê: O verbo chegar concorda com documentos no plural."
       ]
     ],
     "example": "“Faz dois anos” usa “fazer” impessoal de tempo no singular.",
@@ -2236,7 +2372,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-concord-ncia-nominal",
@@ -2265,6 +2402,10 @@
       [
         "Um mesmo termo pode ter análise diferente",
         "\"Meio cansada\" tem \"meio\" advérbio de intensidade, invariável; \"meia hora\" tem numeral fracionário concordando com \"hora\". \"Bastantes documentos\" usa \"bastantes\" como determinante, enquanto \"trabalharam bastante\" usa advérbio invariável. O segredo é descobrir a função no enunciado."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: Existem diversos processos pendentes.. Por quê: O verbo existir concorda com o sujeito plural processos. Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: O conjunto de documentos chegou hoje.. Por quê: O núcleo do sujeito é conjunto, no singular."
       ]
     ],
     "example": "“Seguem anexas as certidões”: “anexas” concorda com “certidões”.",
@@ -2308,7 +2449,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-reg-ncia-verbal-e-nominal",
@@ -2337,6 +2479,10 @@
       [
         "Regência nominal e crase",
         "Nomes também regem complemento: \"favorável à proposta\" resulta de \"favorável a\" + artigo feminino \"a\". Em \"obediência às normas\", há preposição regida por \"obediência\" e artigo plural de \"normas\". Para revisar, localize o termo regente e o regido, depois verifique se existe artigo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Considerando a regência na norma-padrão, assinale a alternativa correta. Resposta fundamentada: A candidata assistiu à palestra.. Por quê: Assistir com sentido de ver exige preposição a. Exemplo 2. Situação: Considerando a regência na norma-padrão, assinale a alternativa correta. Resposta fundamentada: A servidora simpatizou com o colega.. Por quê: Simpatizar rege a preposição com e não pede pronome reflexivo."
       ]
     ],
     "example": "“A equipe assistiu à sessão”: a preposição “a” exigida por assistir se une ao artigo “a”.",
@@ -2380,7 +2526,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-crase-uso-e-proibi-es",
@@ -2409,6 +2556,10 @@
       [
         "Demonstrativos e localidades",
         "\"Referiu-se àquela norma\" contrai preposição \"a\" com \"aquela\". Para cidades, use o teste \"volto da\": \"vou à Bahia\" (volto da Bahia), \"vou a Brasília\" (volto de Brasília), ressalvada a presença de determinantes: \"vou à Brasília dos monumentos\". Não é suficiente ver palavra feminina: é preciso existir a preposição exigida."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: O processo foi encaminhado à diretora.. Por quê: Encaminhar a + artigo a de diretora: à diretora. Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: O relatório foi entregue à chefia.. Por quê: Entregar a + artigo a antes de chefia: à chefia."
       ]
     ],
     "example": "“Refiro-me à norma” contém preposição por regência e artigo diante de “norma”.",
@@ -2452,7 +2603,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-pontua-o-e-sentido",
@@ -2505,6 +2657,10 @@
       [
         "Orações explicativas, restritivas e mudança de sentido",
         "\"Os servidores que fizeram o curso serão avaliados\" restringe a avaliação aos que fizeram o curso. \"Os servidores, que fizeram o curso, serão avaliados\" apresenta a informação como explicação sobre todo o grupo. O uso das vírgulas muda a extensão da referência. Antes de trocar pontuação em reescritas, compare quais elementos ficaram incluídos ou excluídos."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Quanto à pontuação, assinale a frase escrita de acordo com a norma-padrão. Resposta fundamentada: O material inclui três itens: livro, apostila e caderno.. Por quê: Os dois-pontos introduzem enumeração. Exemplo 2. Situação: Quanto à pontuação, assinale a frase escrita de acordo com a norma-padrão. Resposta fundamentada: Ana, entregue o requerimento hoje.. Por quê: A vírgula isola o vocativo Ana."
       ]
     ],
     "example": "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo.",
@@ -2548,7 +2704,8 @@
     ],
     "etapa": "Aprofundada (ampliada)",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Português-coloca-o-pronominal",
@@ -2577,6 +2734,10 @@
       [
         "Atração por palavras anteriores e orações subordinadas",
         "Palavras negativas, pronomes relativos, conjunções subordinativas e certos advérbios favorecem a próclise: \"Afirmou que lhe enviaram a mensagem\"; \"Ninguém o viu\". Sem fator de atração, a posição depende da forma verbal e do contexto. Não aplique uma regra única a locuções verbais: verifique auxiliar, particípio e presença de atrator."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Assinale a alternativa que respeita a colocação pronominal na norma-padrão. Resposta fundamentada: O processo que se iniciou ontem segue aberto.. Por quê: O pronome relativo que atrai o se. Exemplo 2. Situação: Assinale a alternativa que respeita a colocação pronominal na norma-padrão. Resposta fundamentada: Nunca lhe disseram a verdade.. Por quê: Nunca atrai o pronome oblíquo."
       ]
     ],
     "example": "Compare “Não me informaram” e “Informaram-me”.",
@@ -2620,7 +2781,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-n-meros-reais-e-opera-es",
@@ -2649,6 +2811,10 @@
       [
         "Frações e decimais em situações-problema",
         "Para somar 2/3 + 1/4, use denominador 12: 8/12 + 3/12 = 11/12. Para dividir frações, multiplique pela inversa: (3/5)÷(2/7) = (3/5)×(7/2)=21/10. O decimal 0,125 equivale a 125/1000 = 1/8. Em cálculos monetários, arredonde apenas no passo solicitado: arredondamentos intermediários alteram o resultado."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Um veículo mantém a velocidade média de 60 km/h durante 9 horas. Qual distância percorre? Resposta fundamentada: 540 km. Por quê: Distância = velocidade × tempo = 60×9 = 540 km. Exemplo 2. Situação: Um veículo mantém a velocidade média de 100 km/h durante 10 horas. Qual distância percorre? Resposta fundamentada: 1.000 km. Por quê: Distância = velocidade × tempo = 100×10 = 1000 km."
       ]
     ],
     "example": "“−3 + 2×5” resulta 7, pois multiplicação antecede soma.",
@@ -2692,7 +2858,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-divisibilidade-mmc-e-mdc",
@@ -2721,6 +2888,10 @@
       [
         "Problema de ciclos e de empacotamento",
         "Duas sirenes tocam a cada 12 e 18 minutos. Se tocaram juntas às 9h, soarão juntas novamente após MMC(12,18)=36 minutos, às 9h36. Já 24 canetas e 36 lápis em kits idênticos, usando tudo, permitem no máximo 12 kits: cada kit terá 2 canetas e 3 lápis. A palavra \"juntos novamente\" sugere MMC; \"máximo de grupos idênticos\" sugere MDC."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual é o máximo divisor comum (MDC) entre 27 e 45? Resposta fundamentada: 9. Por quê: MDC(27,45) = 9×MDC(3,5) = 9. Exemplo 2. Situação: Qual é o mínimo múltiplo comum (MMC) entre 12 e 5? Resposta fundamentada: 60. Por quê: O MMC é o menor inteiro positivo múltiplo dos dois números: MMC(12,5) = 60."
       ]
     ],
     "example": "Para 12=2²×3 e 18=2×3², MMC=36 e MDC=6.",
@@ -2764,7 +2935,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-raz-es-e-propor-es",
@@ -2793,6 +2965,10 @@
       [
         "Divisão em partes proporcionais",
         "Dividir R$ 1.200 na razão 2:3:5 significa somar 2+3+5=10 partes. Cada parte vale R$ 120; os valores são R$ 240, R$ 360 e R$ 600. Em divisão inversamente proporcional a 2 e 3, use razão 1/2:1/3 = 3:2. Justifique a escolha antes de montar a equação."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Uma quantia de R$ 1.221 será dividida na razão 12:25, nessa ordem. Quanto receberá a primeira parte? Resposta fundamentada: R$ 396. Por quê: A fração da primeira parte é 12/(12+25); 1221 × 12/37 = R$ 396. Exemplo 2. Situação: Uma quantia de R$ 900 será dividida na razão 25:11, nessa ordem. Quanto receberá a primeira parte? Resposta fundamentada: R$ 625. Por quê: A fração da primeira parte é 25/(25+11); 900 × 25/36 = R$ 625."
       ]
     ],
     "example": "Se 3 cadernos custam R$ 18, preço unitário é 18/3=R$ 6.",
@@ -2836,7 +3012,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-m-dias-aritm-ticas-e-ponderadas",
@@ -2865,6 +3042,10 @@
       [
         "Encontrar um valor faltante pela média",
         "A média de quatro números é 18. A soma necessária é 4×18=72. Se três números somam 51, o quarto é 72−51=21. Em tabelas de frequências, substitua cada grupo por valor×frequência, some os produtos e divida pelo total das frequências; não divida pelo número de linhas da tabela."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Uma pessoa tirou 8 em uma atividade de peso 1 e 5 em outra de peso 4. Qual é a média ponderada (arredonde a duas casas decimais, se necessário)? Resposta fundamentada: 5,60. Por quê: Média ponderada = (8×1 + 5×4) / (1+4) = 5,60. Exemplo 2. Situação: Três valores são 100, 40 e 70. Qual é a média aritmética simples (arredonde a duas casas decimais, se necessário)? Resposta fundamentada: 70. Por quê: Some 100+40+70 e divida por 3: 70."
       ]
     ],
     "example": "Notas 6 com peso 2 e 9 com peso 3: (6×2+9×3)/5=7,8.",
@@ -2908,7 +3089,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-juros-simples",
@@ -2949,6 +3131,10 @@
       [
         "Achar capital e distinguir simples de compostos",
         "Se um capital gerou R$ 240 de juros simples em 4 meses à taxa de 3% ao mês, C=J/(i×t)=240/(0,03×4)=R$ 2.000. Não use (1+i)^t: essa é a estrutura típica dos juros compostos. Em juros simples, o juro periódico calculado sobre o capital inicial é constante; o montante cresce linearmente com o tempo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Um capital de R$ 1.600 foi aplicado a juros simples de 1% ao mês por 10 meses. Qual é o juro total? Resposta fundamentada: R$ 160. Por quê: J = capital × taxa × tempo = 1600 × 1/100 × 10 = R$ 160. Exemplo 2. Situação: Um capital de R$ 3.700 foi aplicado a juros simples de 3% ao mês por 10 meses. Qual é o juro total? Resposta fundamentada: R$ 1.110. Por quê: J = capital × taxa × tempo = 3700 × 3/100 × 10 = R$ 1.110."
       ]
     ],
     "example": "Capital R$ 1.000 a 2% ao mês durante 3 meses: J=1.000×0,02×3=R$ 60; M=R$ 1.060.",
@@ -3003,7 +3189,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-equa-o-do-primeiro-grau",
@@ -3032,6 +3219,10 @@
       [
         "Problema de idade",
         "Ana tem o triplo da idade de Bruno. Daqui a 4 anos, a soma será 48. Escreva x para a idade atual de Bruno; Ana tem 3x. Daqui a quatro anos: (x+4)+(3x+4)=48; 4x=40 e x=10. Ana tem 30 anos. Confira: daqui a quatro anos serão 14+34=48."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Na equação 3x + 11 = 140, qual é o valor de x? Resposta fundamentada: 43. Por quê: 3x = 140 − 11 = 129; logo x = 43. Exemplo 2. Situação: Na equação 9x + 27 = 144, qual é o valor de x? Resposta fundamentada: 13. Por quê: 9x = 144 − 27 = 117; logo x = 13."
       ]
     ],
     "example": "4x+6=22 → 4x=16 → x=4. Verificação: 4×4+6=22.",
@@ -3075,7 +3266,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-equa-o-do-segundo-grau",
@@ -3104,6 +3296,10 @@
       [
         "Fatoração e cuidado com o produto nulo",
         "Em x²−9=0, diferença de quadrados: (x−3)(x+3)=0; como o produto é zero, x=3 ou x=−3. Já x(x−4)=0 dá x=0 ou x=4. Nunca divida uma equação por x antes de verificar x=0: isso pode apagar uma solução válida."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Considere x² − 24x + 135 = 0. Qual é a MAIOR raiz real? Resposta fundamentada: 15. Por quê: A equação pode ser fatorada como (x − 15)(x − 9) = 0. A maior raiz é 15. Exemplo 2. Situação: Considere x² − 24x + 108 = 0. Qual é a MAIOR raiz real? Resposta fundamentada: 18. Por quê: A equação pode ser fatorada como (x − 6)(x − 18) = 0. A maior raiz é 18."
       ]
     ],
     "example": "x²−5x+6=0: Δ=25−24=1; raízes (5±1)/2, isto é, 2 e 3.",
@@ -3147,7 +3343,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-sistemas-de-equa-es-lineares",
@@ -3176,6 +3373,10 @@
       [
         "Classificação dos sistemas",
         "Duas retas com um único cruzamento correspondem a solução única; retas paralelas distintas não se encontram (sistema impossível); retas coincidentes representam infinitas soluções. Se a redução produz 0=5, há contradição; se produz 0=0, as equações podem ser dependentes. Interprete geometricamente antes de escolher uma alternativa."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em um sistema, x + y = 80 e x − y = 18. Quanto vale x? Resposta fundamentada: 49. Por quê: Somando as duas equações, 2x = 98; logo x = 49. Exemplo 2. Situação: Em um sistema, x + y = 35 e x − y = 23. Quanto vale x? Resposta fundamentada: 29. Por quê: Somando as duas equações, 2x = 58; logo x = 29."
       ]
     ],
     "example": "x+y=10 e x−y=2; somando, 2x=12, x=6 e y=4.",
@@ -3219,7 +3420,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-grandezas-e-unidades",
@@ -3248,6 +3450,10 @@
       [
         "Escalas e proporcionalidade",
         "Na escala 1:50.000, 1 cm no mapa corresponde a 50.000 cm reais, isto é, 500 m. Uma distância de 4 cm corresponde a 2.000 m ou 2 km. A escala representa razão de comprimentos; se a questão tratar de área, o fator de escala de área é o quadrado do fator linear."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual é a medida, em metros, de 34 km e 300 m? Resposta fundamentada: 34.300 m. Por quê: 1 km = 1.000 m. Assim, 34 km + 300 m = 34300 m. Exemplo 2. Situação: Qual é a medida, em metros, de 44 km e 200 m? Resposta fundamentada: 44.200 m. Por quê: 1 km = 1.000 m. Assim, 44 km + 200 m = 44200 m."
       ]
     ],
     "example": "2,5 m² = 25.000 cm², porque (100 cm)²=10.000 cm².",
@@ -3291,7 +3497,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-geometria-plana",
@@ -3320,6 +3527,14 @@
       [
         "Pitágoras em situações concretas",
         "Em triângulo retângulo, a²+b²=c², onde c é a hipotenusa, lado oposto ao ângulo reto. Se os catetos medem 6 e 8, c²=36+64=100, então c=10. Não aplique Pitágoras a triângulos sem ângulo reto. Em questões sobre piso, cercamento e embalagem, primeiro identifique se se pede área, perímetro, comprimento ou capacidade."
+      ],
+      [
+        "Unidades e fórmulas: exemplos inteiramente resolvidos",
+        "Um retângulo de lados 12 m e 5 m tem perímetro 2×(12+5)=34 m e área 12×5=60 m². Perímetro é medida de contorno, enquanto área é superfície: não confunda m com m². Em um triângulo retângulo com catetos 6 cm e 8 cm, a hipotenusa mede 10 cm, pois 6²+8²=36+64=100 e √100=10. Para um círculo de raio r, área πr² e comprimento 2πr: atenção ao raio versus diâmetro. Em problemas com figuras compostas, divida em formas conhecidas e subtraia regiões vazadas quando necessário."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Um terreno retangular mede 4 m por 30 m. Qual é seu perímetro? Resposta fundamentada: 68 m. Por quê: Perímetro = 2×(4+30) = 68 m. Exemplo 2. Situação: Uma caixa retangular tem 10 cm, 8 cm e 4 cm de dimensões internas. Qual é seu volume? Resposta fundamentada: 320 cm³. Por quê: Volume = comprimento × largura × altura = 10×8×4 = 320 cm³."
       ]
     ],
     "example": "Triângulo de base 10 cm e altura 6 cm: área 30 cm².",
@@ -3363,7 +3578,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Matemática-tabelas-e-gr-ficos",
@@ -3392,6 +3608,10 @@
       [
         "Frequência absoluta, relativa e medidas de centro",
         "Em uma pesquisa com 40 pessoas, 12 escolheram a opção A: frequência absoluta 12; relativa 12/40=30%. Uma média de valores categóricos como nomes de bairros não faz sentido. A mediana é o valor central dos dados ordenados; a moda é o valor mais frequente. Escolha o indicador conforme a pergunta e o tipo de variável."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: As quantidades registradas em três meses foram 40, 70 e 90. Qual é a diferença entre a maior e a menor? Resposta fundamentada: 50. Por quê: Maior = 90, menor = 40; diferença = 50. Exemplo 2. Situação: As quantidades registradas em três meses foram 60, 40 e 35. Qual é a diferença entre a maior e a menor? Resposta fundamentada: 25. Por quê: Maior = 60, menor = 35; diferença = 25."
       ]
     ],
     "example": "Vendas 20→30 representam acréscimo de 10 unidades e aumento de 50% sobre 20.",
@@ -3435,7 +3655,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Raciocínio Lógico-nega-o-de-proposi-es",
@@ -3476,6 +3697,10 @@
       [
         "Negação da condicional e das quantificações",
         "A condicional \"Se estudo, então acerto\" só é falsa quando estudo e não acerto. Logo sua negação é \"Estudo e não acerto\". Para negar \"existe ao menos um\", use \"nenhum\"; para negar \"nenhum\", use \"existe ao menos um\". Em problemas de inclusão, \"algum\" significa ao menos um, não necessariamente vários."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual é a negação lógica da frase: “Elisa estuda Português e Vera estuda Matemática”? Resposta fundamentada: Elisa não estuda Português ou Vera não estuda Matemática.. Por quê: A negação de P e Q é não P ou não Q (lei de De Morgan). Exemplo 2. Situação: Assinale a negação da proposição: “Todos os relatórios analisados por Zoe estavam completos”. Resposta fundamentada: Pelo menos um relatório analisado por Zoe não estava completo.. Por quê: Negar “todos” exige ao menos um contraexemplo: existe ao menos um relatório incompleto."
       ]
     ],
     "example": "“Todos os processos foram distribuídos” nega-se com “Pelo menos um processo não foi distribuído”.",
@@ -3526,7 +3751,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Raciocínio Lógico-equival-ncias-e-condicional",
@@ -3555,6 +3781,10 @@
       [
         "Condição necessária e suficiente",
         "Em P→Q, P é condição suficiente para Q; Q é necessária para P. Se \"ser quadrado\" implica \"ser retângulo\", ser quadrado basta para ser retângulo, mas não é necessário, pois existem retângulos não quadrados. No bicondicional P↔Q, ambas são necessárias e suficientes mutuamente. Faça sempre o teste de um contraexemplo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Considere: “Se Raul entregar o documento, então Davi abrirá o processo”. Qual proposição é logicamente equivalente? Resposta fundamentada: Se Davi não abrir o processo, então Raul não entregou o documento.. Por quê: A condicional P→Q equivale à contrapositiva ¬Q→¬P. Exemplo 2. Situação: Considere: “Se Raul entregar o documento, então Paula abrirá o processo”. Qual proposição é logicamente equivalente? Resposta fundamentada: Se Paula não abrir o processo, então Raul não entregou o documento.. Por quê: A condicional P→Q equivale à contrapositiva ¬Q→¬P."
       ]
     ],
     "example": "“Se chove, molha” equivale a “Se não molhou, não choveu” no esquema lógico dado.",
@@ -3594,7 +3824,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Raciocínio Lógico-argumentos-e-validade",
@@ -3623,6 +3854,14 @@
       [
         "Teste por contraexemplo",
         "Para refutar um raciocínio, encontre uma situação em que as premissas sejam satisfeitas e a conclusão, falsa. Em \"Todos os analistas estudam. Ana estuda. Portanto Ana é analista\", Ana pode ser professora; o argumento não é válido. Não analise apenas se a conclusão parece plausível; examine o vínculo necessário entre premissas e conclusão."
+      ],
+      [
+        "Ordenação lógica: necessário, possível e impossível",
+        "Quando a questão pergunta quem pode ficar na segunda posição, basta encontrar um arranjo que satisfaça as premissas. Quando pergunta quem DEVE ficar, é preciso demonstrar que toda organização válida mantém essa posição. Exemplo: três pessoas Ana, Beto e Caio estão em fila; Ana não é a primeira; Beto está antes de Caio. As filas Beto–Ana–Caio e Beto–Caio–Ana são válidas: Ana pode estar em segundo ou terceiro, mas Beto deve ser primeiro. Enumerar sistematicamente arranjos pequenos evita afirmar como necessário aquilo que é apenas possível."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Se Ana estuda, então Ana pratica questões. Sabe-se que Ana estuda. Qual conclusão é logicamente necessária? Resposta fundamentada: Ana pratica questões.. Por quê: Pela regra modus ponens: se P implica Q e P é verdadeira, Q também é verdadeira. Exemplo 2. Situação: Se Zoe estuda, então Zoe pratica questões. Sabe-se que Zoe estuda. Qual conclusão é logicamente necessária? Resposta fundamentada: Zoe pratica questões.. Por quê: Pela regra modus ponens: se P implica Q e P é verdadeira, Q também é verdadeira."
       ]
     ],
     "example": "“Se há protocolo, há número; há protocolo; logo, há número” tem forma válida.",
@@ -3662,7 +3901,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Raciocínio Lógico-sequ-ncias-e-padr-es",
@@ -3691,6 +3931,14 @@
       [
         "Sequências de figuras e posição",
         "Quando uma figura acrescenta dois quadradinhos a cada etapa, anote os números das etapas para identificar expressão n↦2n+c. Em sequências alternadas, separe termos de posições pares e ímpares: 2,10,4,20,6,30 reúne duas progressões. Em prova, liste pelo menos três transições antes de escolher o próximo elemento."
+      ],
+      [
+        "Relações temporais e encadeamento de eventos",
+        "Em problemas que dizem “A ocorre antes de B”, “C imediatamente após D” e “E é o último”, transforme cada frase em restrição. Exemplo: há quatro eventos P, Q, R e S; P ocorre antes de Q; R é imediatamente anterior a S; Q é o último. As posições de R e S precisam ser consecutivas, e P deve aparecer antes de Q. Teste os arranjos contra TODAS as premissas: a sequência R–S–P–Q satisfaz P antes de Q, R antes de S imediatamente, e Q por último. Uma solução válida não implica ser a única; uma pergunta por “necessariamente” exige demonstrar o que vale em todos os arranjos permitidos."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual é o próximo número na sequência 50, 56, 68, 86, ...? Resposta fundamentada: 110. Por quê: As diferenças são 6, 12, 18; a próxima é 24. Resposta: 110. Exemplo 2. Situação: Na sequência 11, 22, 44, 88, ... qual é o termo seguinte? Resposta fundamentada: 176. Por quê: Cada termo é multiplicado por 2. Logo, 88 × 2 = 176."
       ]
     ],
     "example": "2, 5, 10, 17, 26 segue n²+1 para n=1,2,3,4,5.",
@@ -3730,7 +3978,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Raciocínio Lógico-diagramas-e-conjuntos",
@@ -3759,6 +4008,10 @@
       [
         "Quantificadores em diagramas de inclusão",
         "\"Todo A é B\" significa que o conjunto A está dentro de B. Não conclua que \"todo B é A\". \"Nenhum A é B\" pede conjuntos disjuntos. \"Alguns A são B\" garante ao menos um elemento na interseção; \"alguns A não são B\" garante elemento em A fora de B. Se o enunciado só afirma inclusão, a existência de elementos em A não é automaticamente garantida em lógica formal."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Entre 98 candidatos, 51 fizeram curso de Português, 38 de Informática e 26 fizeram ambos. Quantos não fizeram nenhum dos dois cursos? Resposta fundamentada: 35. Por quê: União = 51 + 38 − 26 = 63. Fora da união: 98 − 63 = 35. Exemplo 2. Situação: Em uma pesquisa, 70 pessoas usam Word, 89 usam Excel e 29 usam os dois. Quantas usam APENAS Word? Resposta fundamentada: 41. Por quê: Subtraia quem usa os dois: 70 − 29 = 41."
       ]
     ],
     "example": "Se 18 estudam Português, 12 Matemática e 5 ambos, 25 estudam ao menos uma.",
@@ -3798,7 +4051,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-windows-arquivos-e-pastas",
@@ -3827,6 +4081,10 @@
       [
         "Atalhos e operações que caem em prova",
         "Ctrl+C copia, Ctrl+X recorta, Ctrl+V cola, Ctrl+Z desfaz e Ctrl+A seleciona tudo em muitos aplicativos Windows. F2 frequentemente permite renomear item selecionado; Alt+Tab alterna janelas. Nem todo atalho funciona em todos os programas ou versões. Para encontrar um arquivo, procure por nome, extensão e local; verifique permissões e sincronização quando o arquivo parecer ausente."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual atalho do Windows costuma copiar a seleção para a área de transferência? Considere as ferramentas do Microsoft 365 e do Windows. Resposta fundamentada: Ctrl + C. Por quê: Ctrl + C copia; Ctrl + V cola. Exemplo 2. Situação: Qual atalho alterna entre aplicativos abertos no Windows? Identifique a opção correta. Resposta fundamentada: Alt + Tab. Por quê: Alt + Tab alterna entre janelas ou aplicativos abertos."
       ]
     ],
     "example": "Um documento copiado de Documentos para Área de Trabalho passa a existir em dois locais.",
@@ -3870,7 +4128,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-word-edi-o-e-formata-o",
@@ -3915,6 +4174,10 @@
       [
         "Controle de alterações e impressão",
         "O controle de alterações registra inclusões e exclusões para revisão; aceitar ou rejeitar altera o documento final. Antes de imprimir, revise tamanho do papel, orientação, margens e intervalo de páginas. Exporte como PDF quando quiser distribuição com formatação preservada, entendendo que PDF e DOCX possuem finalidades diferentes."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual recurso do Word permite incluir informações repetidas na parte inferior das páginas? Considere as ferramentas do Microsoft 365 e do Windows. Resposta fundamentada: Rodapé.. Por quê: Rodapés aparecem na parte inferior da página. Exemplo 2. Situação: Qual recurso do Word permite incluir informações repetidas na parte inferior das páginas? Escolha a opção correspondente. Resposta fundamentada: Rodapé.. Por quê: Rodapés aparecem na parte inferior da página."
       ]
     ],
     "example": "Para padronizar 30 títulos, modificar o estilo Título 1 é mais eficiente que formatar um a um.",
@@ -3969,7 +4232,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-excel-refer-ncias-e-f-rmulas",
@@ -3998,6 +4262,10 @@
       [
         "Erro de sintaxe ou erro de dados?",
         "Se uma célula exibe ##### pode ser apenas largura de coluna insuficiente (ou valor de data/hora inadequado). #DIV/0! indica divisão por zero; #REF! aponta referência inválida, normalmente após remoção ou deslocamento indevido. Não confunda células vazias com texto \"0\"; a função e o tipo do dado determinam o comportamento."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: No Excel, o que significa uma referência como $A$1? Identifique a opção correta. Resposta fundamentada: Referência absoluta de coluna e linha.. Por quê: Os cifrões fixam a coluna A e a linha 1 ao copiar fórmulas. Exemplo 2. Situação: Qual fórmula do Excel calcula a média dos valores de B1 até B5? Identifique a opção correta. Resposta fundamentada: =MÉDIA(B1:B5). Por quê: MÉDIA retorna a média aritmética dos valores numéricos do intervalo."
       ]
     ],
     "example": "=SE(C2>=7;\"Aprovado\";\"Rever\") devolve resultado conforme o teste lógico.",
@@ -4041,7 +4309,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-excel-filtros-gr-ficos-e-tabelas",
@@ -4074,6 +4343,10 @@
       [
         "Noções de macros com cautela",
         "Macro automatiza uma sequência de tarefas. Arquivos com macros podem usar formatos específicos como .xlsm e representam risco quando recebidos de fonte desconhecida. A existência da função no Excel não significa que toda macro deva ser habilitada: políticas de segurança e origem do arquivo prevalecem."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: No Excel, qual recurso representa dados em colunas, barras ou linhas de forma visual? Escolha a opção correspondente. Resposta fundamentada: Gráfico.. Por quê: Os gráficos representam visualmente dados de planilhas. Exemplo 2. Situação: No Excel, qual recurso organiza os registros em ordem crescente ou decrescente? Qual resposta se aplica? Resposta fundamentada: Classificação de dados.. Por quê: Classificar organiza linhas de acordo com critérios selecionados."
       ]
     ],
     "example": "Filtrar “Situação=Em andamento” reduz a visualização sem excluir demais registros.",
@@ -4117,7 +4390,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-navegadores-url-e-https",
@@ -4146,6 +4420,10 @@
       [
         "Pesquisas, links e cuidados com downloads",
         "Um link pode apontar para endereço diferente do texto visível. Passe o cursor para conferir a URL antes de clicar; em celular, use pré-visualização quando disponível. Buscadores indexam páginas, mas a posição do resultado não confirma autoridade. Para informações legais, priorize fontes oficiais. Limpar cache pode atualizar uma página, porém não equivale a eliminar cookies ou histórico."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: O que é um navegador web? Assinale a alternativa adequada. Resposta fundamentada: Aplicativo usado para acessar e visualizar recursos da web.. Por quê: Chrome, Edge e Firefox são exemplos de navegadores. Exemplo 2. Situação: Qual cuidado ajuda a identificar tentativas de phishing? Identifique a opção correta. Resposta fundamentada: Conferir remetente e destino dos links antes de informar dados.. Por quê: Phishing tenta obter dados por mensagens e páginas fraudulentas."
       ]
     ],
     "example": "Em https://exemplo.com/pasta, o domínio é exemplo.com, não “pasta”.",
@@ -4189,7 +4467,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-e-mail-e-seguran-a",
@@ -4218,6 +4497,10 @@
       [
         "Phishing e autenticação",
         "Phishing tenta obter dados ou induzir ações por mensagens enganosas. Desconfie de urgência artificial, links com domínios imitadores e solicitação inesperada de senhas. Autenticação em dois fatores adiciona uma etapa de verificação, mas não elimina todos os golpes. Senhas únicas e gerenciador confiável reduzem o impacto de vazamentos reutilizados."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em e-mails, para que serve o campo Cco/Bcc? Assinale a alternativa adequada. Resposta fundamentada: Enviar cópia ocultando os destinatários do campo para os demais.. Por quê: Cco/Bcc oculta endereços dos destinatários dessa modalidade. Exemplo 2. Situação: Em e-mails, o campo Assunto serve principalmente para: Identifique a opção correta. Resposta fundamentada: Resumir o tema da mensagem.. Por quê: O assunto resume o tema para identificação rápida."
       ]
     ],
     "example": "Para enviar informativo a muitos contatos sem expor endereços, use CCO.",
@@ -4261,7 +4544,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-microsoft-teams",
@@ -4290,6 +4574,10 @@
       [
         "Integração com Microsoft 365",
         "Arquivos de canais podem ser armazenados no SharePoint da equipe; arquivos compartilhados em determinados chats podem estar ligados ao OneDrive do remetente, conforme configuração do serviço. Word, Excel, PowerPoint e OneNote podem integrar a colaboração. A permissão efetiva depende de quem é dono do arquivo e das políticas da organização, não apenas do fato de existir um link."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: No Teams, qual funcionalidade permite agendar participação futura de pessoas em uma chamada? Assinale a alternativa adequada. Resposta fundamentada: Agendamento de reunião.. Por quê: Agendamento programa a reunião e o convite dos participantes. Exemplo 2. Situação: No Teams, o recurso Chat é voltado principalmente a: Identifique a opção correta. Resposta fundamentada: Troca de mensagens em conversas.. Por quê: Chat permite comunicação por mensagens individuais ou em grupo."
       ]
     ],
     "example": "Uma equipe pode ter canal para um projeto, com arquivos e mensagens centralizados.",
@@ -4333,7 +4621,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Informática-onedrive-e-sincroniza-o",
@@ -4362,6 +4651,10 @@
       [
         "Compartilhamento e acesso offline",
         "Um link pode ser restrito a pessoas específicas, à organização ou a qualquer pessoa com link, conforme configurações. Permissão de visualização difere de edição. Arquivos sob demanda podem aparecer no Explorador sem estar integralmente baixados; para trabalhar sem internet, selecione disponibilidade offline quando admitida. A presença do ícone de nuvem não significa que o arquivo tenha sido excluído."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: O que é o OneDrive? Escolha a opção correspondente. Resposta fundamentada: Serviço de armazenamento e sincronização de arquivos na nuvem da Microsoft.. Por quê: OneDrive armazena/sincroniza arquivos online e permite compartilhá-los. Exemplo 2. Situação: O que é o OneDrive? Qual resposta se aplica? Resposta fundamentada: Serviço de armazenamento e sincronização de arquivos na nuvem da Microsoft.. Por quê: OneDrive armazena/sincroniza arquivos online e permite compartilhá-los."
       ]
     ],
     "example": "Editar arquivo sincronizado no PC pode disponibilizar a versão mais recente no celular.",
@@ -4405,7 +4698,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
     "id": "Direito Constitucional-direitos-e-garantias-fundamentais",
@@ -4438,6 +4732,10 @@
       [
         "Direitos, garantias e colisões",
         "Direito é a posição jurídica assegurada; garantia é mecanismo de proteção. Liberdade de manifestação e intimidade podem entrar em tensão em um caso concreto, e a solução não decorre do slogan \"um direito é absoluto\". Leia redação exata do dispositivo, distingua regra geral das hipóteses de restrição e só depois aplique ao exemplo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, Quando falta norma regulamentadora que torne inviável o exercício de direito constitucional, a CF prevê:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Mandado de injunção.. Por quê: Mandado de injunção. Fundamentação: CF, art. 5º, LXXI. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Conforme o art. 5º, VI, como a Constituição trata a liberdade de consciência e de crença?\nAssinale a alternativa correta. Resposta fundamentada: É inviolável.. Por quê: É inviolável. Fundamentação: CF, art. 5º, VI. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Legalidade geral: ninguém será obrigado a fazer ou deixar de fazer algo senão em virtude de lei.",
@@ -4477,7 +4775,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   },
   {
     "id": "Direito Constitucional-direitos-sociais",
@@ -4522,6 +4822,10 @@
       [
         "Direitos coletivos de trabalho",
         "Os arts. 8º a 11 tratam de temas como liberdade e organização sindical, greve e participação de trabalhadores em órgãos ou na empresa em hipóteses constitucionais. Identifique o dispositivo cobrado, o titular e a condição legal. Evite tratar toda reivindicação como automaticamente permitida sem observar limites constitucionais e legais."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, O art. 7º da CF prevê, dentre os direitos dos trabalhadores, a duração normal do trabalho em regra não superior a:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Oito horas diárias e quarenta e quatro semanais.. Por quê: Oito horas diárias e quarenta e quatro semanais. Fundamentação: CF, art. 7º, XIII. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: O art. 7º da CF prevê, dentre os direitos dos trabalhadores, a duração normal do trabalho em regra não superior a:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Oito horas diárias e quarenta e quatro semanais.. Por quê: Oito horas diárias e quarenta e quatro semanais. Fundamentação: CF, art. 7º, XIII. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Educação e saúde são exemplos de direitos sociais expressos na Constituição.",
@@ -4572,7 +4876,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   },
   {
     "id": "Direito Constitucional-nacionalidade",
@@ -4605,6 +4911,10 @@
       [
         "Perda de nacionalidade: atenção à redação atual",
         "Regras sobre perda da nacionalidade sofreram alterações constitucionais; material antigo pode contrariar o texto vigente. Antes de resolver uma questão, confirme em qual hipótese a Constituição admite perda, por qual procedimento e quais salvaguardas existem, sem presumir que mera aquisição voluntária de outra nacionalidade leve automaticamente à perda da brasileira."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Uma pessoa nascida no Brasil, em regra, é considerada:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Brasileira nata, observada a exceção constitucional dos pais estrangeiros a serviço do próprio país.. Por quê: Brasileira nata, observada a exceção constitucional dos pais estrangeiros a serviço do próprio país. Fundamentação: CF, art. 12, I, a. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Uma pessoa nascida no Brasil, em regra, é considerada:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Brasileira nata, observada a exceção constitucional dos pais estrangeiros a serviço do próprio país.. Por quê: Brasileira nata, observada a exceção constitucional dos pais estrangeiros a serviço do próprio país. Fundamentação: CF, art. 12, I, a. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Uma pessoa nascida no Brasil pode ser brasileira nata, observadas as exceções constitucionais.",
@@ -4644,7 +4954,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   },
   {
     "id": "Direito Constitucional-administra-o-p-blica-constitucional",
@@ -4677,6 +4989,14 @@
       [
         "Servidores: diferença entre estabilidade e efetividade",
         "Efetividade decorre do modo de provimento de cargo efetivo; estabilidade é garantia constitucional obtida após requisitos do art. 41, inclusive período e avaliação de desempenho conforme disciplina vigente. Um servidor em estágio probatório pode ocupar cargo efetivo sem ainda ser estável. A estabilidade não significa impossibilidade absoluta de perda do cargo: há hipóteses constitucionais e legais."
+      ],
+      [
+        "Publicidade, legalidade e ingresso em cargos",
+        "O art. 37 da Constituição reúne princípios e diretrizes para a Administração Pública. A aprovação em concurso é a regra constitucional para investidura em cargo ou emprego público, com ressalvas previstas no próprio texto. A publicidade é regra, mas admite restrições legais justificadas, como proteção da intimidade. A questão pode descrever uma decisão administrativa popular, mas não autorizada em lei: o fato de parecer eficiente não corrige a violação à legalidade. Na preparação, associe cada situação a um princípio ou dispositivo constitucional específico antes de escolher a alternativa."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, A investidura em cargo ou emprego público, como regra, depende de:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Aprovação prévia em concurso público, ressalvadas as exceções constitucionais.. Por quê: Aprovação prévia em concurso público, ressalvadas as exceções constitucionais. Fundamentação: CF, art. 37, II. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Quais princípios aparecem expressamente no caput do art. 37 da CF?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Legalidade, impessoalidade, moralidade, publicidade e eficiência.. Por quê: Legalidade, impessoalidade, moralidade, publicidade e eficiência. Fundamentação: CF, art. 37, caput. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Impessoalidade impede usar publicidade institucional como promoção pessoal.",
@@ -4716,7 +5036,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   },
   {
     "id": "Direito Constitucional-organiza-o-do-poder-judici-rio",
@@ -4745,6 +5067,10 @@
       [
         "Instâncias, competência e controle administrativo",
         "O STF exerce funções de guarda da Constituição; o STJ atua na uniformização de interpretação da legislação federal em sua competência; os tribunais de justiça e juízes estaduais tratam dos feitos que lhes cabem. O CNJ exerce funções de controle administrativo e financeiro do Judiciário e de fiscalização do cumprimento de deveres funcionais, mas não substitui todos os recursos judiciais ou julga indistintamente qualquer causa."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, Conforme o art. 92 da Constituição, qual dos seguintes é órgão do Poder Judiciário?\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Superior Tribunal de Justiça.. Por quê: Superior Tribunal de Justiça. Fundamentação: CF, art. 92. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Conforme o art. 92 da Constituição, qual dos seguintes é órgão do Poder Judiciário?\nAssinale a alternativa correta. Resposta fundamentada: Superior Tribunal de Justiça.. Por quê: Superior Tribunal de Justiça. Fundamentação: CF, art. 92. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "O TJSP julga matérias de competência da justiça estadual, não é órgão do Poder Executivo.",
@@ -4784,7 +5110,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
   },
   {
     "id": "Direito Penal-f-p-blica-falsifica-o-de-documentos",
@@ -4813,6 +5141,14 @@
       [
         "Documentos públicos e particulares: pena e requisitos",
         "Os arts. 297 e 298 distinguem falsificação de documento público e de documento particular; há extensões e equiparações que devem ser verificadas no texto legal vigente. O art. 304 trata do uso de documento falso, com remissão à falsificação tipificada. Em prova, a palavra \"usar\" não substitui a análise de quem falsificou, qual documento foi empregado e qual disposição incide."
+      ],
+      [
+        "Falsificação material e falsidade ideológica: teste de distinção",
+        "Falsificação material afeta a autenticidade física ou formal de um documento — por exemplo, fabricar documento inexistente ou adulterar um verdadeiro nas hipóteses da lei. Na falsidade ideológica, o suporte pode ser autêntico, mas há declaração falsa ou omissão de informação juridicamente relevante, conforme os elementos do art. 299 do Código Penal. O critério de prova não é “papel verdadeiro versus papel falso” isoladamente: examine o núcleo do tipo, o objeto, a finalidade exigida e o efeito jurídico pretendido. Não confunda com uso de documento falso (art. 304), que descreve outra conduta."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Alguém altera documento público verdadeiro, com os demais elementos do tipo presentes. Qual é, em tese, o delito?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Falsificação de documento público.. Por quê: Falsificação de documento público. Fundamentação: CP, art. 297. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, Alguém altera documento público verdadeiro, com os demais elementos do tipo presentes. Qual é, em tese, o delito?\nAssinale a alternativa correta. Resposta fundamentada: Falsificação de documento público.. Por quê: Falsificação de documento público. Fundamentação: CP, art. 297. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Alterar materialmente documento e declarar dado falso em documento autêntico são condutas que exigem enquadramentos distintos.",
@@ -4852,7 +5188,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Direito Penal-falsidade-ideol-gica-e-uso-de-documento-falso",
@@ -4881,6 +5219,10 @@
       [
         "Uso de documento falso e falsa identidade",
         "O art. 304 trata de fazer uso de documento falsificado ou alterado nas formas referidas na norma. Já o art. 307 envolve atribuir-se ou atribuir a terceiro falsa identidade para obter vantagem ou causar dano, conforme redação. O art. 308 cuida de uso de documento de identidade alheio ou cessão para uso por terceiro. Uma questão pode trocar falsidade documental por falsa identidade: descreva o elemento concretamente praticado antes de escolher o artigo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Alguém insere declaração falsa em documento verdadeiro com o fim específico previsto em lei. Qual crime pode estar configurado?\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Falsidade ideológica.. Por quê: Falsidade ideológica. Fundamentação: CP, art. 299. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Para a preparação jurídica, Alguém insere declaração falsa em documento verdadeiro com o fim específico previsto em lei. Qual crime pode estar configurado?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Falsidade ideológica.. Por quê: Falsidade ideológica. Fundamentação: CP, art. 299. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Documento formalmente verdadeiro com informação falsa não é necessariamente falsificação material.",
@@ -4920,7 +5262,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Direito Penal-peculato",
@@ -4965,6 +5309,10 @@
       [
         "Situação comparada",
         "Servidor usa dinheiro recebido para recolhimento oficial e o transfere para conta pessoal: investigue apropriação/desvio. Servidor facilita ingresso de terceiro para subtrair equipamento sem tê-lo em posse funcional: examine peculato-furto. Servidor descuidadamente permite subtração por outro: pode haver discussão de modalidade culposa nas condições do dispositivo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Um funcionário público se apropria de dinheiro de que tem a posse em razão do cargo. Qual crime é descrito, em tese?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Peculato.. Por quê: Peculato. Fundamentação: CP, art. 312. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Um funcionário público se apropria de dinheiro de que tem a posse em razão do cargo. Qual crime é descrito, em tese?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Peculato.. Por quê: Peculato. Fundamentação: CP, art. 312. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Servidor que desvia para proveito próprio valor sob sua posse em razão do cargo pode enquadrar-se em peculato-desvio, conforme os fatos.",
@@ -5015,7 +5363,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Direito Penal-concuss-o-e-corrup-o-passiva",
@@ -5044,6 +5394,10 @@
       [
         "Consumação e relação com ato de ofício",
         "É inadequado afirmar que todo crime só ocorre quando o dinheiro muda de mãos: alguns tipos incluem solicitação, exigência ou promessa. Verifique ainda causas de aumento e situações específicas previstas nos parágrafos. Em prova, compare a posição do agente — funcionário ou particular — e o verbo núcleo, além da finalidade legal."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, Um funcionário público solicita vantagem indevida em razão da função. Qual crime pode configurar-se, em tese?\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Corrupção passiva.. Por quê: Corrupção passiva. Fundamentação: CP, art. 317. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, Um funcionário público solicita vantagem indevida em razão da função. Qual crime pode configurar-se, em tese?\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Corrupção passiva.. Por quê: Corrupção passiva. Fundamentação: CP, art. 317. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "“Exigir vantagem” e “solicitar vantagem” não são verbos intercambiáveis na tipificação.",
@@ -5083,7 +5437,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Direito Penal-prevarica-o-e-advocacia-administrativa",
@@ -5112,6 +5468,10 @@
       [
         "Advocacia administrativa e exercício do cargo",
         "O art. 321 versa sobre patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário. Não é a mesma coisa que advogar regularmente após desligamento ou atender usuário de maneira imparcial no exercício normal das atribuições. A norma contém hipótese agravada relacionada à ilegitimidade do interesse; consulte texto do dispositivo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, Um funcionário retarda ato de ofício indevidamente para satisfazer interesse ou sentimento pessoal. Qual crime está descrito?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Prevaricação.. Por quê: Prevaricação. Fundamentação: CP, art. 319. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Um funcionário retarda ato de ofício indevidamente para satisfazer interesse ou sentimento pessoal. Qual crime está descrito?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Prevaricação.. Por quê: Prevaricação. Fundamentação: CP, art. 319. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Retardar um ato por falha operacional não prova, por si, intenção de satisfazer interesse pessoal.",
@@ -5151,7 +5511,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Direito Penal-corrup-o-ativa-e-desobedi-ncia",
@@ -5180,6 +5542,10 @@
       [
         "Desobediência, resistência e desacato",
         "Desobediência (art. 330) é desobedecer ordem legal de funcionário público; resistência (art. 329) envolve oposição à execução de ato legal mediante violência ou ameaça a funcionário competente ou a quem lhe presta auxílio; desacato (art. 331) pressupõe ofender funcionário público no exercício da função ou em razão dela. Não conclua por desobediência sem ordem legal específica e ciência relevante, nem confunda discordância legítima com tipicidade automática."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Um particular oferece vantagem indevida a funcionário público para determiná-lo a praticar ato de ofício. Qual crime é descrito?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Corrupção ativa.. Por quê: Corrupção ativa. Fundamentação: CP, art. 333. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Para a preparação jurídica, Um particular oferece vantagem indevida a funcionário público para determiná-lo a praticar ato de ofício. Qual crime é descrito?\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Corrupção ativa.. Por quê: Corrupção ativa. Fundamentação: CP, art. 333. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Oferecer vantagem indevida é verbo da corrupção ativa; recebê-la é conduta típica possível na passiva.",
@@ -5219,7 +5585,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
   },
   {
     "id": "Processo Penal-sujeitos-processuais-e-impedimentos",
@@ -5248,6 +5616,18 @@
       [
         "Defesa técnica, Ministério Público e acusação",
         "O acusado tem direito à defesa técnica, sem prejuízo da autodefesa nos termos legais. A posição do Ministério Público varia conforme atuação acusatória e fiscal do ordenamento, respeitadas as competências. Defensor, procurador e assistente de acusação possuem atribuições distintas. Uma questão que diga que réu pode ser processado e julgado sem defensor contradiz a proteção processual básica, ressalvados os procedimentos legais específicos aplicáveis."
+      ],
+      [
+        "Defesa técnica, acusado e defensor no CPP",
+        "O CPP trata do acusado e de seu defensor, inclusive do direito de ser assistido por defesa técnica. Na leitura dos arts. 261 a 267, distinga defesa técnica realizada por profissional habilitado da autodefesa do acusado; verifique as situações de nomeação de defensor, a impossibilidade de abandonar o processo sem motivo imperioso e comunicação exigida, e as hipóteses em que a atuação do defensor pode ser incompatível com o caso. Questões da VUNESP podem trocar a pessoa que pratica o ato ou omitir a exigência legal de intimação. Para responder, pergunte quem deve participar, quando a defesa precisa ser cientificada e qual consequência processual se discute."
+      ],
+      [
+        "Impedimento x suspeição",
+        "Em linguagem jurídica, impedimento e suspeição não são sinônimos. Estude os fatos legalmente previstos nos arts. 252 a 258 do CPP, especialmente vínculos objetivos com o processo e situações de parcialidade. Um magistrado não pode decidir com base em relação pessoal ou situação que a lei considera incompatível com a imparcialidade. Resolva casos marcando a relação entre julgador, parte, defensor e fatos do processo; não conclua a partir apenas da impressão subjetiva do personagem."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, No CPP, o juiz não pode exercer jurisdição no processo em que seu cônjuge funcionou como perito. Trata-se de:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Hipótese de impedimento.. Por quê: Hipótese de impedimento. Fundamentação: CPP, art. 252, I. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: No CPP, se o juiz for amigo íntimo de uma das partes, o instituto em discussão é:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Suspeição.. Por quê: Suspeição. Fundamentação: CPP, art. 254, I. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Juiz imparcial não pode atuar quando presente hipótese legal que comprometa sua atuação.",
@@ -5291,7 +5671,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Processo Penal-cita-o-intima-o-e-notifica-es",
@@ -5320,6 +5702,10 @@
       [
         "Intimação e notificação sem confusão",
         "A intimação dá ciência de ato ou decisão; determinadas notificações convocam para atos futuros. Em qualquer hipótese, confira quem deve receber, como se comprova ciência, qual termo inicial do prazo e consequências do não comparecimento. O CPP tem regras especiais para Ministério Público, defensor e outros atores; não assuma o mesmo prazo a todos."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Se o réu não for encontrado para ser citado, nas hipóteses do CPP, cabe estudar:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Citação por edital, observados os requisitos legais.. Por quê: Citação por edital, observados os requisitos legais. Fundamentação: CPP, art. 361. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, Se o réu não for encontrado para ser citado, nas hipóteses do CPP, cabe estudar:\nAssinale a alternativa correta. Resposta fundamentada: Citação por edital, observados os requisitos legais.. Por quê: Citação por edital, observados os requisitos legais. Fundamentação: CPP, art. 361. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "A localização do acusado e as diligências efetuadas importam na escolha da modalidade de citação.",
@@ -5363,7 +5749,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Processo Penal-procedimentos-comum-e-especial",
@@ -5392,6 +5780,10 @@
       [
         "Tribunal do júri: fases distintas",
         "O procedimento do júri possui uma primeira fase de admissibilidade da acusação e outra perante o Conselho de Sentença, quando cabível. Pronúncia não é condenação definitiva; impronúncia, absolvição sumária e desclassificação produzem consequências diferentes. Como o edital abrange artigos do procedimento, organize a sequência em fluxograma ao estudar os arts. 406 a 497."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, No procedimento comum, após a resposta à acusação, uma das possibilidades legais em caso de manifesta causa excludente de ilicitude é:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Absolvição sumária, conforme as condições legais.. Por quê: Absolvição sumária, conforme as condições legais. Fundamentação: CPP, art. 397, I. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, No procedimento comum, após a resposta à acusação, uma das possibilidades legais em caso de manifesta causa excludente de ilicitude é:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Absolvição sumária, conforme as condições legais.. Por quê: Absolvição sumária, conforme as condições legais. Fundamentação: CPP, art. 397, I. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Conhecer a ordem de atos ajuda a eliminar alternativas que invertem fases do procedimento.",
@@ -5435,7 +5827,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Processo Penal-provas-e-audi-ncia-criminal",
@@ -5464,6 +5858,10 @@
       [
         "Nulidades e prejuízo",
         "A identificação de irregularidade exige analisar regime legal de nulidades, momento de arguição e prejuízo, inclusive a diretriz do art. 563 do CPP. Não é correto dizer que toda falha documental anula o processo inteiro. Pergunte qual garantia foi afetada, a providência requerida e se o ato pode ser renovado ou aproveitado na hipótese concreta."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, No procedimento comum, após a resposta à acusação, uma das possibilidades legais em caso de manifesta causa excludente de ilicitude é:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Absolvição sumária, conforme as condições legais.. Por quê: Absolvição sumária, conforme as condições legais. Fundamentação: CPP, art. 397, I. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, No procedimento comum, após a resposta à acusação, uma das possibilidades legais em caso de manifesta causa excludente de ilicitude é:\nAssinale a alternativa correta. Resposta fundamentada: Absolvição sumária, conforme as condições legais.. Por quê: Absolvição sumária, conforme as condições legais. Fundamentação: CPP, art. 397, I. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Em audiência, a ordem dos atos importa e pode variar conforme procedimento.",
@@ -5507,7 +5905,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Processo Penal-recursos-no-cpp",
@@ -5536,6 +5936,10 @@
       [
         "Efeito devolutivo e consequências processuais",
         "Interpor recurso pode transferir ao tribunal a análise da matéria impugnada (efeito devolutivo), mas isso não significa automaticamente suspensão de todos os efeitos da decisão. A existência de efeitos suspensivos ou regressivos depende do recurso e da hipótese legal. Em questões, a alternativa com \"sempre\" ou \"nunca\" merece conferência de exceções."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, No CPP, a apelação é recurso previsto para impugnar determinadas decisões. Em qual código ela se encontra disciplinada para o processo penal?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Código de Processo Penal.. Por quê: Código de Processo Penal. Fundamentação: CPP, arts. 593 a 603. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: No CPP, a apelação é recurso previsto para impugnar determinadas decisões. Em qual código ela se encontra disciplinada para o processo penal?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Código de Processo Penal.. Por quê: Código de Processo Penal. Fundamentação: CPP, arts. 593 a 603. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Ao resolver questão, primeiro identifique a decisão impugnada, depois escolha o recurso previsto.",
@@ -5579,7 +5983,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Processo Penal-juizados-especiais-criminais",
@@ -5608,6 +6014,10 @@
       [
         "Transação penal, suspensão condicional e representação",
         "Transação penal e suspensão condicional do processo não são sinônimos e possuem requisitos, momentos e consequências diferentes nos arts. 76 e 89. A Lei 9.099 também disciplina hipóteses específicas de representação, como as previstas no art. 88. Em prova, verifique se o dispositivo exige pena mínima/máxima, antecedente, iniciativa de parte ou aceitação de proposta; não transforme benefício legal em direito incondicional."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, A Lei 9.099/1995 rege, nos Juizados Especiais Criminais, entre outros, os critérios de:\nAssinale a alternativa correta. Resposta fundamentada: Oralidade, simplicidade, informalidade, economia processual e celeridade.. Por quê: Oralidade, simplicidade, informalidade, economia processual e celeridade. Fundamentação: Lei 9.099/1995, art. 62. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Para a preparação jurídica, Nos Juizados Especiais Criminais, a composição dos danos civis, quando cabível, é buscada na fase:\nAssinale a alternativa correta. Resposta fundamentada: Preliminar.. Por quê: Preliminar. Fundamentação: Lei 9.099/1995, arts. 72 a 75. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Transação penal não se confunde com sentença condenatória após instrução.",
@@ -5651,7 +6061,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
   },
   {
     "id": "Processo Civil-impedimento-e-suspei-o-no-cpc",
@@ -5680,6 +6092,10 @@
       [
         "Ministério Público e auxiliares da justiça",
         "O CPC estende regras e disciplina incidência de impedimento/suspeição em hipóteses aplicáveis a outros sujeitos processuais. Diferencie juiz, escrivão, chefe de secretaria, perito e demais auxiliares. A questão pode deslocar para o servidor uma hipótese prevista exclusivamente para o juiz; confira as regras específicas antes de transpor."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, O CPC estabelece hipóteses de impedimento do juiz. O parentesco previsto no art. 144 é considerado até qual grau, nos termos legais?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Terceiro grau.. Por quê: Terceiro grau. Fundamentação: CPC, art. 144, IV. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, O CPC estabelece hipóteses de impedimento do juiz. O parentesco previsto no art. 144 é considerado até qual grau, nos termos legais?\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Terceiro grau.. Por quê: Terceiro grau. Fundamentação: CPC, art. 144, IV. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Parentesco e interesses concretos podem exigir análise das hipóteses textuais.",
@@ -5719,7 +6135,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Processo Civil-tutela-provis-ria",
@@ -5748,6 +6166,10 @@
       [
         "Antecedente e incidental: quando se pede",
         "A tutela pode ser solicitada no curso do processo (incidental) ou sob disciplina antecedente nas hipóteses legais. Reversibilidade, caução e estabilização em certos casos exigem exame do dispositivo. Não conclua que qualquer decisão liminar estabiliza definitivamente o direito; confira a espécie de tutela, manifestação da parte contrária e condições aplicáveis."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Para a preparação jurídica, Pelo CPC, a tutela provisória pode fundamentar-se em:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Urgência ou evidência.. Por quê: Urgência ou evidência. Fundamentação: CPC, art. 294. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Para a preparação jurídica, Para a tutela de urgência, o CPC exige elementos que evidenciem a probabilidade do direito e:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Perigo de dano ou risco ao resultado útil do processo.. Por quê: Perigo de dano ou risco ao resultado útil do processo. Fundamentação: CPC, art. 300. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Pedido urgente de preservação de bem difere de antecipação satisfativa de prestação.",
@@ -5787,7 +6209,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Processo Civil-peti-o-inicial-e-resposta-do-r-u",
@@ -5816,6 +6240,10 @@
       [
         "Contestação e revelia",
         "Na resposta, o réu pode apresentar defesa de mérito e questões processuais conforme regras do CPC; alegações preliminares são disciplinadas especialmente pelo art. 337. Revelia não produz automaticamente procedência: seus efeitos têm exceções legais, e o juiz ainda examina prova e direito. Compare reconvenção, impugnação de fatos e ônus de argumentação no caso apresentado."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Na fase de resposta do réu, o CPC estabelece que a contestação deve ser apresentada, como regra, no prazo de:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Quinze dias.. Por quê: Quinze dias. Fundamentação: CPC, art. 335 (contagem conforme CPC). A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, Na fase de resposta do réu, o CPC estabelece que a contestação deve ser apresentada, como regra, no prazo de:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Quinze dias.. Por quê: Quinze dias. Fundamentação: CPC, art. 335 (contagem conforme CPC). A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "A contestação é oportunidade de defesa do réu; a revelia possui efeitos e exceções.",
@@ -5855,7 +6283,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Processo Civil-provas-e-senten-a",
@@ -5884,6 +6314,10 @@
       [
         "Sentença, fundamentação e coisa julgada",
         "Sentença encerra fase cognitiva do procedimento comum ou extingue execução nas hipóteses legais. O CPC diferencia extinção sem resolução de mérito e resolução de mérito, com consequências diferentes. A fundamentação precisa enfrentar os argumentos capazes de infirmar a conclusão, nos termos do art. 489. Coisa julgada material pode impedir rediscussão do mérito dentro dos limites legais; nem toda decisão interlocutória recebe automaticamente esse efeito."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, Na fase de resposta do réu, o CPC estabelece que a contestação deve ser apresentada, como regra, no prazo de:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Quinze dias.. Por quê: Quinze dias. Fundamentação: CPC, art. 335 (contagem conforme CPC). A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Na fase de resposta do réu, o CPC estabelece que a contestação deve ser apresentada, como regra, no prazo de:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Quinze dias.. Por quê: Quinze dias. Fundamentação: CPC, art. 335 (contagem conforme CPC). A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Uma decisão que resolve o mérito deve apresentar fundamentação e dispositivo coerentes.",
@@ -5923,7 +6357,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Processo Civil-recursos-c-veis",
@@ -5952,6 +6388,14 @@
       [
         "Prazo e efeitos: método de prova",
         "Identifique decisão, intimação, início da contagem, prazo legal aplicável, preparo quando previsto e efeitos. No CPC, como regra geral de contagem de prazos processuais em dias, consideram-se dias úteis, mas cada recurso tem disciplina própria. Embargos de declaração têm prazo específico e podem produzir efeitos processuais sobre outros prazos; consulte dispositivos correspondentes."
+      ],
+      [
+        "Escolher o recurso pelo ato judicial",
+        "Na resolução de uma questão sobre recursos, identifique se o pronunciamento é sentença, decisão interlocutória ou decisão colegiada, porque o recurso cabível depende dessa classificação e das hipóteses legais. Embargos de declaração buscam enfrentar obscuridade, contradição, omissão ou erro material, não servindo como simples nova oportunidade de debater o mérito. Agravo de instrumento tem hipóteses do art. 1.015 e questões específicas na legislação. Apelação é ligada à sentença nas condições legais. Ao ler os arts. 994 a 1.026, construa uma tabela pessoal de cabimento, prazo, efeitos e órgão julgador; confira sempre as exceções em vez de usar uma regra genérica."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Qual é o prazo de interposição dos embargos de declaração previsto no CPC?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Cinco dias.. Por quê: Cinco dias. Fundamentação: CPC, art. 1.023. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Qual é o prazo de interposição dos embargos de declaração previsto no CPC?\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Cinco dias.. Por quê: Cinco dias. Fundamentação: CPC, art. 1.023. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Embargos de declaração visam vícios legalmente indicados, como omissão ou contradição.",
@@ -5991,7 +6435,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Processo Civil-juizados-especiais-c-veis-e-fazenda-p-blica",
@@ -6020,6 +6466,10 @@
       [
         "Juizados da Fazenda Pública e lei própria",
         "A Lei 12.153/2009 organiza Juizados Especiais da Fazenda Pública em causas com entes públicos e limites próprios. Não transplante automaticamente regras dos Juizados Cíveis comuns; verifique competência, polo passivo, valor e legislação subsidiária. Questões podem exigir distinguir pessoa física, pessoa jurídica de direito público e entidade da Administração indireta, conforme regras dos respectivos microssistemas."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Nos Juizados Especiais Cíveis, conforme a Lei 9.099/1995, o processo orienta-se pelos critérios de:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Oralidade, simplicidade, informalidade, economia processual e celeridade.. Por quê: Oralidade, simplicidade, informalidade, economia processual e celeridade. Fundamentação: Lei 9.099/1995, art. 2º. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, A Lei 12.153/2009 dispõe sobre:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Juizados Especiais da Fazenda Pública.. Por quê: Juizados Especiais da Fazenda Pública. Fundamentação: Lei 12.153/2009. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "A competência do Juizado da Fazenda Pública depende de regras próprias, não apenas do valor da causa.",
@@ -6059,7 +6509,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105compilada.htm"
   },
   {
     "id": "Direito Administrativo-servidores-p-blicos-de-sp-ingresso-e-deveres",
@@ -6100,6 +6552,14 @@
       [
         "Deveres, proibições e hierarquia",
         "O servidor tem deveres como zelo, urbanidade, cumprimento de ordens legais e observância do serviço público, conforme dispositivos pertinentes. Uma ordem manifestamente ilegal não se transforma em legítima por vir de superior hierárquico. Para analisar infração funcional, identifique dever infringido, autoridade competente e procedimento que assegure defesa. Direitos e vantagens exigem conferência da redação estadual atualizada."
+      ],
+      [
+        "Princípios expressos e situações do serviço público",
+        "O art. 37, caput, da Constituição prevê legalidade, impessoalidade, moralidade, publicidade e eficiência na Administração direta e indireta. Legalidade administrativa significa atuação conforme a autorização normativa; impessoalidade veda favorecimentos pessoais; publicidade impõe transparência nos limites legais, inclusive com proteção de dados e sigilo cabível; eficiência demanda boa prestação do serviço. Para distinguir os princípios, examine um exemplo: preferir um conhecido na fila de atendimento sem critério objetivo afronta a impessoalidade; divulgar informação protegida sob pretexto de publicidade não é cumprimento legítimo do princípio. O Estatuto paulista tem regras próprias sobre provimento, direitos, deveres e regime disciplinar: princípios não substituem a leitura dos artigos exigidos."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, A Lei paulista 10.261/1968 é conhecida como:\nConsiderando o tema e as normas estudadas, identifique a opção correta. Resposta fundamentada: Estatuto dos Funcionários Públicos Civis do Estado de São Paulo.. Por quê: Estatuto dos Funcionários Públicos Civis do Estado de São Paulo. Fundamentação: Lei SP 10.261/1968. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, A Lei paulista 10.261/1968 é conhecida como:\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Estatuto dos Funcionários Públicos Civis do Estado de São Paulo.. Por quê: Estatuto dos Funcionários Públicos Civis do Estado de São Paulo. Fundamentação: Lei SP 10.261/1968. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Posse e exercício são etapas diferentes da vida funcional.",
@@ -6154,7 +6614,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/compilacao-lei-10261-28.10.1968.html"
   },
   {
     "id": "Direito Administrativo-responsabilidade-e-disciplina-funcional",
@@ -6183,6 +6645,10 @@
       [
         "Processo administrativo disciplinar e direito de defesa",
         "Ao estudar os arts. 239 a 323 da Lei 10.261/1968, distinga dever funcional, proibição, penalidade, apuração preliminar, sindicância, processo administrativo e recursos. Prazos e procedimentos precisam ser retirados do texto estadual vigente, não de uma regra federal presumida. Em questão prática, organize o fluxo: fato noticiado → apuração legal → defesa e produção de provas → decisão fundamentada → eventual recurso."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, No Estatuto paulista, reintegração, observadas as condições legais, é o reingresso do funcionário decorrente de:\nAssinale a alternativa correta. Resposta fundamentada: Decisão judicial transitada em julgado, com ressarcimento dos prejuízos do afastamento.. Por quê: Decisão judicial transitada em julgado, com ressarcimento dos prejuízos do afastamento. Fundamentação: Lei SP 10.261/1968, art. 30. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, No Estatuto paulista, reintegração, observadas as condições legais, é o reingresso do funcionário decorrente de:\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Decisão judicial transitada em julgado, com ressarcimento dos prejuízos do afastamento.. Por quê: Decisão judicial transitada em julgado, com ressarcimento dos prejuízos do afastamento. Fundamentação: Lei SP 10.261/1968, art. 30. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Infração disciplinar e crime não são sinônimos, embora possam coexistir.",
@@ -6226,7 +6692,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.al.sp.gov.br/repositorio/legislacao/lei/1968/compilacao-lei-10261-28.10.1968.html"
   },
   {
     "id": "Legislação Interna-estrutura-e-funcionamento-do-tjsp",
@@ -6255,6 +6723,10 @@
       [
         "Regimento e normas de serviço: qual consultar?",
         "O Regimento Interno é referência para organização e competências do tribunal; as Normas de Serviço da Corregedoria, Tomo I, detalham rotinas das unidades judiciárias e fiscalização. Resoluções específicas disciplinam temas próprios, como teletrabalho e implantação de sistemas. Para responder uma questão, encontre primeiro o instrumento normativo correto; não trate todo ato interno como uma \"lei\" com mesma hierarquia."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, Qual diploma estadual instituiu o Plano de Cargos e Carreiras dos servidores do Tribunal de Justiça paulista?\nAssinale a alternativa correta. Resposta fundamentada: Lei Complementar paulista 1.111/2010.. Por quê: Lei Complementar paulista 1.111/2010. Fundamentação: Edital 02/2026, Anexo VIII, item 6.2 (LC). A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Qual diploma estadual instituiu o Plano de Cargos e Carreiras dos servidores do Tribunal de Justiça paulista?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Lei Complementar paulista 1.111/2010.. Por quê: Lei Complementar paulista 1.111/2010. Fundamentação: Edital 02/2026, Anexo VIII, item 6.2 (LC). A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Uma norma interna pode atribuir rotinas diferentes a cartório, magistrado e corregedoria.",
@@ -6298,7 +6770,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais"
   },
   {
     "id": "Legislação Interna-normas-da-corregedoria-organiza-o-dos-servi-os",
@@ -6339,6 +6813,10 @@
       [
         "Segredo de justiça e segurança da informação",
         "A publicidade processual tem exceções constitucionais e legais; o acesso a dados protegidos depende de autorização e perfil de usuário. Rotina eletrônica não autoriza compartilhar peças em canais pessoais ou com terceiros sem legitimidade. As Normas da Corregedoria devem ser lidas para procedimentos de cadastro, cumprimento, registros e fiscalizações no recorte do edital."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, No edital do TJSP, as Normas da Corregedoria Geral da Justiça aparecem em qual bloco?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Conhecimentos em Direito — Legislação Interna.. Por quê: Conhecimentos em Direito — Legislação Interna. Fundamentação: Edital 02/2026, Anexo VIII, item 6.4. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, O edital inclui, dentre os conteúdos das Normas da Corregedoria do TJSP:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Tomo I, Capítulo XI, Seções I a VII.. Por quê: Tomo I, Capítulo XI, Seções I a VII. Fundamentação: Edital 02/2026, Anexo VIII, item 6.4. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Em questões de rotina, a distinção entre juntada, conclusão, remessa e publicação pode ser decisiva.",
@@ -6382,7 +6860,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais"
   },
   {
     "id": "Legislação Interna-comunica-o-de-atos-e-movimenta-o-cartor-ria",
@@ -6411,6 +6891,10 @@
       [
         "Rastreabilidade das movimentações",
         "Uma comunicação precisa poder ser auditada: qual ato foi cumprido, por quem, em que data e com que resultado? Certidão deve relatar fatos observados, não opinião pessoal. Em processo eletrônico, o sistema registra protocolos e eventos, mas o uso da ferramenta depende da regra vigente. Questões podem confundir emissão, expedição, disponibilização e efetiva ciência."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma revisão para a prova de Escrevente, No edital do TJSP, as Normas da Corregedoria Geral da Justiça aparecem em qual bloco?\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Conhecimentos em Direito — Legislação Interna.. Por quê: Conhecimentos em Direito — Legislação Interna. Fundamentação: Edital 02/2026, Anexo VIII, item 6.4. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma atividade de fixação sobre a lei, O edital inclui, dentre os conteúdos das Normas da Corregedoria do TJSP:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Tomo I, Capítulo XI, Seções I a VII.. Por quê: Tomo I, Capítulo XI, Seções I a VII. Fundamentação: Edital 02/2026, Anexo VIII, item 6.4. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Um expediente cartorário não substitui determinação judicial quando a lei exige decisão.",
@@ -6454,7 +6938,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais"
   },
   {
     "id": "Legislação Interna-resolu-es-e-regime-de-trabalho",
@@ -6483,6 +6969,18 @@
       [
         "eproc, cargos e regimento",
         "A Resolução TJSP 963/2025 disciplina matéria relativa ao eproc e integra as normas indicadas para o concurso 2026. A LC 1.111/2010 trata da estrutura de cargos e carreiras. Cada ato tem objeto específico: implantação de sistema processual não altera por si só todas as atribuições de carreira; competências do Regimento não se confundem com rotinas de movimentação previstas nas Normas de Serviço."
+      ],
+      [
+        "Processo eletrônico: eproc, fluxo e cautelas",
+        "A implantação e o uso de sistemas de tramitação eletrônica exigem atenção ao papel do usuário, registro de movimentação, juntada de peças, intimação e regras de acesso. Ao estudar a Resolução TJSP 963/2025 e as Normas de Serviço pertinentes, diferencie a ferramenta tecnológica das regras jurídicas de competência, prazo, segurança e sigilo: clicar no sistema não torna um ato automaticamente válido. Monte um caso: uma peça foi juntada ao processo errado; verifique identificação, providência de correção, trilha de auditoria e orientação normativa aplicável, sem supor funções do software que não constem de norma ou manual oficial. O conteúdo específico da resolução deve ser confrontado com a versão vigente."
+      ],
+      [
+        "Teletrabalho e regime funcional",
+        "Teletrabalho não significa ausência de controle de produtividade, vínculo com a unidade ou deveres de sigilo. Ao estudar as resoluções do TJSP aplicáveis, separe requisitos para autorização, responsabilidades de chefia e servidor, acompanhamento e hipóteses de alteração ou cessação. Como o regime pode sofrer mudanças administrativas, não memorize números de dias, percentuais ou cargos sem conferir a redação vigente do ato normativo."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma atividade de fixação sobre a lei, Qual norma regulamenta o teletrabalho no âmbito do TJSP, conforme o edital?\nÀ luz da norma indicada, escolha a resposta adequada. Resposta fundamentada: Resolução TJSP 850/2021.. Por quê: Resolução TJSP 850/2021. Fundamentação: Edital 02/2026, Anexo VIII, item 6.1. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma questão objetiva do TJSP, Qual norma regulamenta o teletrabalho no âmbito do TJSP, conforme o edital?\nQual alternativa corresponde à descrição apresentada? Resposta fundamentada: Resolução TJSP 850/2021.. Por quê: Resolução TJSP 850/2021. Fundamentação: Edital 02/2026, Anexo VIII, item 6.1. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Uma resolução institucional pode regular organização interna sem alterar direitos processuais previstos em lei.",
@@ -6526,7 +7024,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.tjsp.jus.br/Corregedoria/Comunicados/NormasJudiciais"
   },
   {
     "id": "Atualidades e Inclusão-estatuto-da-pessoa-com-defici-ncia-princ-pios",
@@ -6555,6 +7055,10 @@
       [
         "Acessibilidade, desenho universal e adaptações",
         "Acessibilidade é condição de alcance e utilização com segurança e autonomia; desenho universal busca conceber produtos, serviços e ambientes para utilização ampla desde o planejamento; adaptação razoável ajusta situações concretas sem ônus desproporcional/indevido. A recusa injustificada de adaptação em determinadas condições pode configurar discriminação. Veja definições dos arts. 2º e 3º da Lei 13.146/2015."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: A Lei Brasileira de Inclusão da Pessoa com Deficiência corresponde à:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Lei 13.146/2015.. Por quê: Lei 13.146/2015. Fundamentação: Lei 13.146/2015. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, A prioridade no atendimento de pessoas com deficiência é tratada no Estatuto como:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Garantia legal nas situações previstas no art. 9º.. Por quê: Garantia legal nas situações previstas no art. 9º. Fundamentação: Lei 13.146/2015, art. 9º. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Barreira atitudinal pode impedir participação mesmo sem obstáculo físico.",
@@ -6598,7 +7102,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
   },
   {
     "id": "Atualidades e Inclusão-trabalho-e-inclus-o-da-pessoa-com-defici-ncia",
@@ -6627,6 +7133,14 @@
       [
         "Avaliar uma situação real",
         "Uma empresa divulga vaga e exige entrevista exclusivamente em sala inacessível, embora possa oferecer ambiente adequado sem ônus desproporcional. O problema jurídico envolve barreira de acessibilidade e possibilidade de adaptação razoável, não concessão de vantagem injustificada. Distinga reserva legal de vagas, condições acessíveis de trabalho e obrigação de não discriminar: são instrumentos com regras próprias."
+      ],
+      [
+        "Trabalho inclusivo na prática",
+        "A Lei Brasileira de Inclusão (Lei 13.146/2015, arts. 34 a 38) assegura oportunidades em ambiente laboral acessível e inclusivo. Pense em um processo seletivo realizado por formulário digital inacessível: a barreira tecnológica pode causar discriminação indireta, ainda que o anúncio da vaga declare igualdade. A análise precisa identificar a barreira e a adaptação possível, sem presumir que deficiência implica incapacidade profissional. O texto legal trata de habilitação, reabilitação e inclusão no trabalho; releia seus dispositivos para distinguir deveres de empresas, poder público e serviços de apoio."
+      ],
+      [
+        "Aplicação resolvida do assunto",
+        "Exemplo 1. Situação: Em uma questão objetiva do TJSP, A prioridade no atendimento de pessoas com deficiência é tratada no Estatuto como:\nCom base na legislação pertinente, assinale a opção correta. Resposta fundamentada: Garantia legal nas situações previstas no art. 9º.. Por quê: Garantia legal nas situações previstas no art. 9º. Fundamentação: Lei 13.146/2015, art. 9º. A alternativa correta corresponde à norma ou conceito mencionado. Exemplo 2. Situação: Em uma revisão para a prova de Escrevente, Segundo o Estatuto, a deficiência, por si só, afeta a plena capacidade civil da pessoa?\nAssinale a alternativa correta. Resposta fundamentada: Não; a deficiência não afeta a plena capacidade civil, conforme a lei.. Por quê: Não; a deficiência não afeta a plena capacidade civil, conforme a lei. Fundamentação: Lei 13.146/2015, art. 6º. A alternativa correta corresponde à norma ou conceito mencionado."
       ]
     ],
     "example": "Processo seletivo não deve excluir candidato apenas por deficiência.",
@@ -6670,7 +7184,9 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
   },
   {
     "id": "Atualidades e Inclusão-atualidades-leitura-cr-tica-de-not-cias",
@@ -6699,6 +7215,10 @@
       [
         "Política, economia, sociedade e cultura: como conectar",
         "Quando o tema é inflação, diferencie aumento do nível geral de preços de redução do ritmo de crescimento dos preços. Quando é eleição, diferencie votação, apuração, diplomação e posse. Quando é saúde pública, distinga recomendação, programa instituído e resultado medido. Use linha do tempo com data, ator, decisão e impacto; em prova, descarte manchetes com exageros não sustentados pelos dados."
+      ],
+      [
+        "Cobertura temporal exigida no concurso",
+        "O conteúdo programático contempla acontecimentos políticos, econômicos, sociais e culturais, nacionais e internacionais, ocorridos a partir do primeiro semestre de 2026. Como fatos e seus desdobramentos continuam acontecendo, esta aula deve ser tratada como um guia de análise, e não como um registro definitivo de atualidades futuras. Em cada acontecimento, responda: o que ocorreu, quando, onde, quem participou, qual instituição publicou o dado e o que mudou depois? Separe informação oficial, análise opinativa e boatos. Atualizações devem indicar a data em que a fonte foi conferida; uma notícia antiga sem contextualização não representa todo o período exigido."
       ]
     ],
     "example": "Para notícia econômica, pergunte o que o indicador mede e qual a base de comparação.",
@@ -6742,7 +7262,8 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas."
+    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "fonteOficialBase": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
   },
   {
     "id": "Redação-estrutura-do-texto-dissertativo-argumentativo",
@@ -7066,6 +7587,10 @@
       [
         "Autoavaliação por critérios observáveis",
         "Após escrever, avalie aderência ao tema, tese, pertinência dos argumentos, coesão entre parágrafos e domínio da norma-padrão. Anote um erro recorrente com exemplo retirado do próprio texto e reescreva o trecho. Evite atribuir a si mesmo nota oficial sem seguir os critérios expressos no edital e sem correção compatível; use a rubrica como diagnóstico para melhoria."
+      ],
+      [
+        "Treino completo com grade de verificação",
+        "Escolha um tema de interesse público e cronometre: 10 minutos de leitura e definição da tese; 10 minutos para ordenar dois argumentos; 35 a 50 minutos para redigir; 10 a 15 minutos para revisar. Ajuste os tempos ao limite efetivo das provas objetivas e da redação, sem sacrificar a redação na simulação. Ao revisar, dê notas próprias para aderência ao tema, tese explícita, vínculo dos argumentos, progressão, coesão, sintaxe e ortografia. Depois reescreva um parágrafo problemático, explicando que alteração o tornou melhor. Esta grade é uma ferramenta didática; a pontuação oficial segue os critérios do edital."
       ]
     ],
     "example": "Após corrigir, reescreva o parágrafo mais fraco preservando a ideia central.",

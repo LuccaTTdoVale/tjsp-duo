@@ -95,7 +95,7 @@ async function loadCurrentUser(user){activeUser=user;profileId=null;reviewed={};
    profileId=await profileForUser(user.uid);if(!profileId)throw Error('Este usuário não possui um perfil vinculado.');
    const ref=doc(db,'profiles',profileId);
    const [profile,examsSnap,lessonsResp,practiceResp]=await Promise.all([
-     getDoc(ref),getDocs(collection(db,'users',user.uid,'exams')),fetch('./aulas.json',{cache:'no-cache'}),fetch('./questoes-aulas.json?v=2').catch(()=>null)
+     getDoc(ref),getDocs(collection(db,'users',user.uid,'exams')),fetch('./aulas.json',{cache:'no-cache'}),fetch('./questoes-aulas.json?v=3').catch(()=>null)
    ]);
    if(!profile.exists()||profile.data().uid!==user.uid)throw Error('Perfil inválido.');
    if(!lessonsResp.ok)throw Error('Falha ao carregar a lista de aulas.');

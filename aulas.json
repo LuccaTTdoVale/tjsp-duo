@@ -7,20 +7,40 @@
     "objective": "Calcular aumentos, descontos e porcentagens sucessivas.",
     "sections": [
       [
-        "O significado de %",
-        "Porcentagem significa uma parte de cada cem. 25% = 25/100 = 0,25 = 1/4. Em vez de decorar operações, identifique a base sobre a qual o percentual incide."
+        "1. Conceito e três formas de representar",
+        "Porcentagem é uma razão cujo denominador é 100. Escrever 25% significa 25 partes de um conjunto dividido em 100 partes iguais. A mesma quantidade pode aparecer como fração 25/100, decimal 0,25 ou fração simplificada 1/4. Converter para decimal permite usar multiplicações sem decorar atalhos."
       ],
       [
-        "Encontrando uma parte",
-        "Para obter p% de V, calcule V × p/100. Se 12% de 250 são solicitados, 250 × 0,12 = 30."
+        "2. Identifique sempre a base",
+        "Antes de calcular, descubra qual quantidade corresponde a 100%. Em “30% dos 200 inscritos”, a base é 200; em “30% de desconto no preço original de R$ 200”, a base é o preço original. Se a questão não deixa claro a base, compare os termos e leia novamente."
       ],
       [
-        "Aumento e desconto",
-        "Um aumento de 15% multiplica o valor por 1,15. Um desconto de 15% multiplica por 0,85. A base do percentual deve ser mantida explícita."
+        "3. Cálculo direto de uma parte",
+        "Passo 1: transforme o percentual em decimal dividindo por 100. Passo 2: multiplique esse decimal pela base. Exemplo: 12% de 250 = (12/100) × 250 = 0,12 × 250 = 30. Confira estimando: 10% de 250 é 25, logo 12% deve ser um pouco maior."
       ],
       [
-        "Percentuais sucessivos",
-        "Aumentar 20% e depois descontar 20% não faz voltar ao valor inicial: 100 × 1,20 × 0,80 = 96. Compare os multiplicadores."
+        "4. Encontrando o percentual",
+        "Quando conhecemos a parte e o total, calculamos parte ÷ total × 100. Em uma prova com 40 itens, acertar 30 significa (30/40) × 100 = 75%. Lembre que o denominador é sempre a base de comparação."
+      ],
+      [
+        "5. Encontrando o total",
+        "Se 45 alunos representam 30% de uma turma, escreva 0,30 × total = 45. Dividindo os dois lados por 0,30, encontramos total = 150. Verificação: 30% de 150 = 45."
+      ],
+      [
+        "6. Aumentos e descontos",
+        "Aumento de p% equivale a multiplicar por (1 + p/100); desconto de p% equivale a (1 − p/100). Exemplo: R$ 240 com desconto de 15% vira 240 × 0,85 = R$ 204. Use o multiplicador para evitar confundir valor do desconto com preço final."
+      ],
+      [
+        "7. Percentuais sucessivos",
+        "Percentuais aplicados em momentos diferentes usam bases diferentes. R$ 100 com aumento de 20% vira R$ 120; descontar 20% de R$ 120 resulta em R$ 96. Não some 20 com −20 como se fossem a mesma base: use 1,20 × 0,80 = 0,96."
+      ],
+      [
+        "8. Variação percentual",
+        "Para comparar um valor novo com o antigo, calcule (novo − antigo) ÷ antigo × 100. Passar de R$ 80 para R$ 100 é aumento de 25%, e não de 20%, porque a base é 80."
+      ],
+      [
+        "9. Estratégia para a VUNESP",
+        "Sublinhe a base e as palavras “em relação a”, “a mais”, “a menos”, “preço inicial” e “preço final”. Escolha entre três perguntas: quero a parte, o percentual ou o total? Use aproximação para descartar alternativas absurdas e faça uma checagem final."
       ]
     ],
     "example": "Um material custa R$ 240 e recebe 15% de desconto. Desconto = 240 × 0,15 = R$ 36; preço final = R$ 204.",
@@ -30,7 +50,54 @@
       "Tomar o preço final como base quando a questão fala do preço original."
     ],
     "formula": "parte = total × percentual/100",
-    "source": "Exemplos autorais; conferir conteúdo programático na VUNESP."
+    "source": "Exemplos autorais; conferir conteúdo programático na VUNESP.",
+    "steps": [
+      "Problema: um produto de R$ 240 recebeu 15% de desconto.",
+      "Base = R$ 240 e percentual = 15/100 = 0,15.",
+      "Desconto = 240 × 0,15 = R$ 36.",
+      "Preço final = 240 − 36 = R$ 204.",
+      "Conferência rápida: 240 × 0,85 = R$ 204."
+    ],
+    "visual": {
+      "kind": "percent",
+      "label": "25% de um todo",
+      "value": 25
+    },
+    "check": [
+      {
+        "q": "Um valor de R$ 200 sofre dois descontos consecutivos de 10%. Quanto resta?",
+        "options": [
+          "R$ 160",
+          "R$ 162",
+          "R$ 180",
+          "R$ 200"
+        ],
+        "answer": 1,
+        "why": "200 × 0,90 × 0,90 = 162. Descontos sucessivos atuam sobre bases diferentes."
+      },
+      {
+        "q": "Se 18 pessoas são 30% de um grupo, quantas pessoas há no grupo?",
+        "options": [
+          "45",
+          "54",
+          "60",
+          "90"
+        ],
+        "answer": 2,
+        "why": "Total = 18 ÷ 0,30 = 60."
+      }
+    ],
+    "references": [
+      {
+        "name": "Khan Academy — porcentagens (estudo complementar)",
+        "url": "https://pt.khanacademy.org/math/arithmetic/arith-review-percentages"
+      },
+      {
+        "name": "VUNESP — edital oficial e documentos",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ],
+    "depth": "Aula aprofundada"
   },
   {
     "id": "Matemática-regra-de-tres",
@@ -40,20 +107,32 @@
     "objective": "Modelar grandezas direta e inversamente proporcionais.",
     "sections": [
       [
-        "Razão",
-        "Razão é a comparação de duas grandezas na forma a/b. Compare sempre unidades compatíveis."
+        "1. Comparação por razão",
+        "Razão compara grandezas: 3 cadernos para 5 alunos pode ser escrito 3/5, mas é indispensável indicar o significado e as unidades. Em uma razão entre medidas da mesma espécie, converta as unidades antes de comparar."
       ],
       [
-        "Proporção",
-        "Duas razões formam proporção quando a/b = c/d; então a×d = b×c, com denominadores não nulos."
+        "2. Proporção",
+        "Se a/b = c/d e b,d são diferentes de zero, a multiplicação cruzada dá a×d = b×c. Isso não dispensa a interpretação do problema: primeiro descubra se as razões são comparáveis."
       ],
       [
-        "Direta ou inversa?",
-        "Na direta, ambas aumentam ou diminuem na mesma proporção. Na inversa, ao dobrar uma grandeza, a outra se reduz à metade, mantendo as condições."
+        "3. Relação direta",
+        "Se o preço unitário é constante, dobrar a quantidade dobra o preço. Exemplo: 4 livros custam R$ 60; 10 livros custam 60×10/4 = R$ 150."
       ],
       [
-        "Resolução",
-        "Monte uma tabela, coloque unidades, decida a relação e só então faça a equação."
+        "4. Relação inversa",
+        "Se a tarefa e a produtividade por trabalhador são constantes, dobrar o número de pessoas reduz o tempo pela metade. Exemplo: 4 pessoas em 6 horas, 8 pessoas em 3 horas. Produto 4×6 = 8×3."
+      ],
+      [
+        "5. Teste antes de montar a conta",
+        "Pergunte: quando a primeira grandeza aumenta, a segunda aumenta ou diminui? Esse teste distingue relações diretas e inversas. Também considere se o trabalho total, a velocidade ou o preço unitário permanecem constantes."
+      ],
+      [
+        "6. Regra de três composta",
+        "Problemas com três ou mais grandezas precisam de uma análise por vez. Fixe as demais, compare cada grandeza com a incógnita e só depois monte a expressão. Evite inverter proporções automaticamente."
+      ],
+      [
+        "7. Erros frequentes",
+        "Misturar horas e minutos; tratar trabalhadores como relação direta com tempo; ignorar que produtividade pode mudar; multiplicar em cruz sem interpretar a tabela."
       ]
     ],
     "example": "Quatro pessoas executam uma tarefa em 6 horas. Mantida a produtividade, 8 pessoas terminam em 3 horas: 4×6 = 8×3.",
@@ -62,7 +141,40 @@
       "Esquecer as hipóteses de produtividade constante."
     ],
     "formula": "direta: a/b = c/d · inversa: a×b = c×d",
-    "source": "Exemplos autorais."
+    "source": "Exemplos autorais.",
+    "steps": [
+      "4 torneiras iguais enchem um reservatório em 12 horas.",
+      "Se 8 torneiras iguais funcionarem juntas, o tempo diminui.",
+      "A relação é inversa: 4 × 12 = 8 × t.",
+      "t = 48 ÷ 8 = 6 horas."
+    ],
+    "visual": {
+      "kind": "ratio"
+    },
+    "check": [
+      {
+        "q": "Se 5 máquinas iguais produzem um lote em 8 horas, 10 máquinas iguais levam:",
+        "options": [
+          "4 horas",
+          "8 horas",
+          "16 horas",
+          "20 horas"
+        ],
+        "answer": 0,
+        "why": "Máquinas e tempo são inversamente proporcionais, com produção constante."
+      }
+    ],
+    "references": [
+      {
+        "name": "Khan Academy — razões e proporções",
+        "url": "https://pt.khanacademy.org/math/6-ano-matematica/xa0b8706bcbf32c27:razoes-e-proporcoes"
+      },
+      {
+        "name": "VUNESP — concurso Escrevente",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ],
+    "depth": "Aula aprofundada"
   },
   {
     "id": "Matemática-equacao-1grau",
@@ -90,7 +202,14 @@
       "Dividir somente uma parcela, e não o membro inteiro."
     ],
     "formula": "ax + b = c ⇒ x = (c − b)/a, a ≠ 0",
-    "source": "Exemplos autorais."
+    "source": "Exemplos autorais.",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Português-interpretacao",
@@ -100,20 +219,36 @@
     "objective": "Distinguir informação explícita, implícita e opinião.",
     "sections": [
       [
-        "Ler com objetivo",
-        "Identifique tema, tese, finalidade, público e relações entre frases antes de julgar alternativas."
+        "1. Tema, assunto e tese",
+        "O assunto é aquilo de que o texto trata; tema é o recorte mais específico; tese é a posição central sustentada pelo autor em textos argumentativos. Nem todo texto possui uma tese explícita: uma notícia pode apenas relatar fatos."
       ],
       [
-        "Explícito x implícito",
-        "Explícito é o que o texto diz; inferência é uma conclusão sustentada pelo texto, sem inventar informações."
+        "2. Informação explícita",
+        "É a informação literalmente apresentada pelo texto. Uma questão que pergunta “segundo o texto” exige localizar o trecho e conferir suas condições: quem, quando, onde e com que restrições."
       ],
       [
-        "Coesão",
-        "Pronomes, conjunções e expressões retomam ideias. “Portanto” introduz conclusão; “porém” marca contraste."
+        "3. Inferência válida",
+        "Inferir é concluir algo que decorre do texto, mesmo que não esteja escrito literalmente. A conclusão deve ser sustentada por pistas suficientes. Não confunda inferência com opinião pessoal, conhecimento externo ou suposição plausível."
       ],
       [
-        "Método VUNESP",
-        "Elimine alternativas absolutas sem suporte; procure trechos que confirmem ou contradigam a afirmação."
+        "4. Sentido de palavras no contexto",
+        "Uma palavra pode ter vários significados. Leia a frase anterior e a posterior antes de escolher um sinônimo. Uma substituição correta preserva sentido e adequação gramatical no contexto."
+      ],
+      [
+        "5. Coesão e referência",
+        "Pronomes, elipses e conectivos ligam partes do texto. Em “Ana revisou a matéria porque ela estava difícil”, “ela” retoma “matéria” no contexto. A questão pode pedir a referência de termos ou a relação lógica entre frases."
+      ],
+      [
+        "6. Conectivos e relações de sentido",
+        "“Mas” normalmente indica oposição; “porque”, causa ou explicação; “portanto”, conclusão; “embora”, concessão. Essas relações dependem do contexto e não devem ser decoradas isoladamente."
+      ],
+      [
+        "7. Fato, opinião e tom",
+        "“O edital foi publicado” é afirmação verificável; “a prova será fácil” é avaliação. Ironia, crítica e humor podem mudar a intenção de uma frase sem mudar suas palavras."
+      ],
+      [
+        "8. Método de leitura para prova",
+        "Leia primeiro o comando, localize o parágrafo correspondente, identifique palavras absolutas como “sempre” e “nunca” nas alternativas, confronte cada opção com o texto e elimine acréscimos não autorizados."
       ]
     ],
     "example": "Texto: “Embora chovesse, a prova ocorreu.” Correto inferir que a chuva não impediu a prova; não se pode inferir que choveu o dia inteiro.",
@@ -123,7 +258,40 @@
       "Ignorar conectivos."
     ],
     "formula": "afirmação válida = informação textual + inferência sustentada",
-    "source": "Exemplos autorais de interpretação."
+    "source": "Exemplos autorais de interpretação.",
+    "steps": [
+      "Trecho: “Mesmo com a chuva, os estudantes chegaram à biblioteca.”",
+      "Informação explícita: os estudantes chegaram à biblioteca.",
+      "Inferência apoiada: a chuva era um obstáculo possível à chegada.",
+      "Inferência indevida: todos chegaram atrasados — o texto não diz isso."
+    ],
+    "visual": {
+      "kind": "reading"
+    },
+    "check": [
+      {
+        "q": "Em “Embora estivesse cansada, Ana estudou”, a relação predominante é de:",
+        "options": [
+          "Causa",
+          "Conclusão",
+          "Concessão",
+          "Finalidade"
+        ],
+        "answer": 2,
+        "why": "“Embora” expressa concessão: o cansaço não impediu a ação."
+      }
+    ],
+    "references": [
+      {
+        "name": "VUNESP — edital e provas",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras — VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabulario"
+      }
+    ],
+    "depth": "Aula aprofundada"
   },
   {
     "id": "Português-sintaxe",
@@ -155,7 +323,14 @@
       "Confundir vocativo com sujeito."
     ],
     "formula": "verbo + pergunta “quem/o que?” pode ajudar, mas não substitui análise da oração",
-    "source": "Exemplos autorais."
+    "source": "Exemplos autorais.",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Português-crase",
@@ -187,7 +362,14 @@
       "Usar crase diante de verbo."
     ],
     "formula": "a (preposição) + a (artigo) = à",
-    "source": "Exemplos autorais."
+    "source": "Exemplos autorais.",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Raciocínio Lógico-proposicoes",
@@ -197,20 +379,32 @@
     "objective": "Reconhecer proposições e interpretar conectivos.",
     "sections": [
       [
-        "Proposição",
-        "Uma frase declarativa que pode ser verdadeira ou falsa. Ordens, perguntas e exclamações geralmente não são proposições."
+        "1. O que é proposição",
+        "Proposição é uma frase declarativa à qual se pode atribuir verdadeiro ou falso. Ordens, perguntas e sentenças abertas com variável não determinada geralmente não são proposições na lógica proposicional básica."
       ],
       [
-        "Negação",
-        "A negação troca o valor lógico: se p é verdadeira, ¬p é falsa."
+        "2. Negação",
+        "A negação de P, escrita ¬P, inverte o valor lógico: se P é verdadeira, ¬P é falsa; se P é falsa, ¬P é verdadeira. Negar “todos” exige cuidado: a negação de “todos passaram” é “pelo menos um não passou”."
       ],
       [
-        "Conjunção e disjunção",
-        "“p e q” só é verdadeira se ambas forem verdadeiras. “p ou q” inclusivo é falso apenas se ambas forem falsas."
+        "3. Conjunção",
+        "P ∧ Q (“P e Q”) só é verdadeira quando ambas são verdadeiras. Uma informação falsa já torna a conjunção falsa."
       ],
       [
-        "Condicional",
-        "“Se p, então q” só é falsa quando p é verdadeira e q é falsa."
+        "4. Disjunção inclusiva",
+        "P ∨ Q (“P ou Q”) só é falsa quando ambas são falsas. Em lógica básica, “ou” admite que as duas sejam verdadeiras, salvo indicação expressa de exclusividade."
+      ],
+      [
+        "5. Condicional",
+        "P → Q (“se P, então Q”) só é falsa quando P é verdadeira e Q é falsa. Isso frequentemente contraria a intuição; use a tabela-verdade. A contrapositiva ¬Q → ¬P é equivalente ao condicional."
+      ],
+      [
+        "6. Bicondicional",
+        "P ↔ Q (“P se, e somente se, Q”) é verdadeira quando as duas proposições têm o mesmo valor lógico."
+      ],
+      [
+        "7. Tradução e resolução",
+        "Separe as proposições simples, defina símbolos, identifique conectivos, monte tabela com 2ⁿ linhas para n proposições e avalie as colunas gradualmente."
       ]
     ],
     "example": "Se p = verdadeiro e q = falso, “p ∧ q” é falso; “p ∨ q” é verdadeiro; “p → q” é falso.",
@@ -219,7 +413,36 @@
       "Negar p e q sem aplicar as leis de De Morgan."
     ],
     "formula": "¬p · p ∧ q · p ∨ q · p → q",
-    "source": "Exemplos autorais."
+    "source": "Exemplos autorais.",
+    "steps": [
+      "Considere P = “estudo” e Q = “resolvo questões”.",
+      "P → Q significa “se estudo, então resolvo questões”.",
+      "Se P for verdadeira e Q falsa, a condicional é falsa.",
+      "Nas outras três combinações de valores, a condicional é verdadeira."
+    ],
+    "visual": {
+      "kind": "logic"
+    },
+    "check": [
+      {
+        "q": "Quando a proposição P → Q é falsa?",
+        "options": [
+          "P e Q verdadeiras",
+          "P verdadeira e Q falsa",
+          "P falsa e Q verdadeira",
+          "P e Q falsas"
+        ],
+        "answer": 1,
+        "why": "A única linha falsa do condicional é V → F."
+      }
+    ],
+    "references": [
+      {
+        "name": "VUNESP — concurso Escrevente",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ],
+    "depth": "Aula aprofundada"
   },
   {
     "id": "Informática-excel",
@@ -251,7 +474,14 @@
       "Esquecer $ ao copiar fórmulas."
     ],
     "formula": "=SOMA(A1:A5) · =SE(A1>=7;\"Aprovado\";\"Revisar\")",
-    "source": "Exemplos autorais; funcionalidades dependem da edição do Microsoft 365."
+    "source": "Exemplos autorais; funcionalidades dependem da edição do Microsoft 365.",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Direito Constitucional-direitos-fundamentais",
@@ -283,7 +513,18 @@
       "Confundir direito material com garantia processual."
     ],
     "formula": "Fonte: Constituição Federal, especialmente art. 5º",
-    "source": "Constituição Federal vigente: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    "source": "Constituição Federal vigente: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Constituição — Presidência da República",
+        "url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao"
+      }
+    ]
   },
   {
     "id": "Direito Penal-crimes-administracao",
@@ -315,7 +556,14 @@
       "Memorizar pena sem verificar artigo atualizado."
     ],
     "formula": "Tipo penal = verbo + elementos legais + circunstâncias",
-    "source": "Código Penal vigente: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+    "source": "Código Penal vigente: https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Direito Administrativo-improbidade",
@@ -347,7 +595,14 @@
       "Confundir improbidade com crime."
     ],
     "formula": "Leia Lei 8.429/1992, texto consolidado",
-    "source": "Lei 8.429/1992: https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+    "source": "Lei 8.429/1992: https://www.planalto.gov.br/ccivil_03/leis/l8429.htm",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Redação-dissertativa",
@@ -380,7 +635,14 @@
       "Escrever sem revisar."
     ],
     "formula": "Tema → tese → argumentos → conclusão",
-    "source": "Roteiro autoral; critérios específicos devem ser conferidos no edital oficial."
+    "source": "Roteiro autoral; critérios específicos devem ser conferidos no edital oficial.",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Processo Civil-atos-processuais",
@@ -412,7 +674,14 @@
       "Confundir citação e intimação."
     ],
     "formula": "Regra + exceções + contagem (CPC)",
-    "source": "CPC vigente: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    "source": "CPC vigente: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Processo Penal-citacao",
@@ -444,7 +713,14 @@
       "Ignorar consequências específicas da citação por edital."
     ],
     "formula": "CPP: hipóteses → diligências → modalidade → efeito",
-    "source": "CPP vigente: https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm"
+    "source": "CPP vigente: https://www.planalto.gov.br/ccivil_03/decreto-lei/del3689.htm",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Legislação Interna-normas-cgj",
@@ -476,7 +752,14 @@
       "Confundir providência obrigatória com recomendação."
     ],
     "formula": "Competência → ato → prazo → exceção",
-    "source": "Consultar normas oficiais no portal TJSP: https://www.tjsp.jus.br/"
+    "source": "Consultar normas oficiais no portal TJSP: https://www.tjsp.jus.br/",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   },
   {
     "id": "Atualidades e Inclusão-lbi",
@@ -508,6 +791,13 @@
       "Usar notícias sem data ou fonte."
     ],
     "formula": "Conceito → situação → direito → medida",
-    "source": "LBI vigente: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+    "source": "LBI vigente: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+    "depth": "Introdução — expansão pendente",
+    "references": [
+      {
+        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      }
+    ]
   }
 ]

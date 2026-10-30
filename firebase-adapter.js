@@ -10,8 +10,8 @@ const ready=new Promise(resolve=>onAuthStateChanged(auth,u=>{readyUser=u;resolve
 const error=e=>{let msg=e?.message||String(e); if(/email-already-in-use/.test(msg))msg='Este e-mail já possui conta.';if(/invalid-email/.test(msg))msg='E-mail inválido.';if(/weak-password/.test(msg))msg='Senha fraca: use pelo menos 6 caracteres.';if(/invalid-credential|wrong-password|user-not-found/.test(msg))msg='E-mail ou senha incorretos.';if(/permission-denied|Missing or insufficient permissions/.test(msg))msg='Acesso negado pelo Firestore. Publique as regras incluídas no ZIP.';return new Error(msg)};
 const slots=['1','2','3','4','5'];
 async function getSlotUser(uid){for(const id of slots){const snap=await getDoc(doc(db,'slots',id));if(snap.exists()&&snap.data().uid===uid)return Number(id)}return null}
-async function getUser(){await ready;const u=auth.currentUser;if(!u)throw new Error('Você precisa entrar.');const slot=await getSlotUser(u.uid);if(!slot)throw new Error('Sua conta ainda não possui perfil. Entre em contato com o administrador.');const p=await getDoc(doc(db,'profiles',String(slot)));return {id:slot,uid:u.uid,username:p.data()?.username||u.email.split('@')[0],goal:p.data()?.goal||20}}
-const userProfiles=async()=>{const docs=await Promise.all(slots.map(s=>getDoc(doc(db,'profiles',s))));return docs.filter(d=>d.exists()).map(d=>({id:Number(d.id),...d.data()}))};
+async function getUser(){await ready;const u=auth.currentUser;if(!u)throw new Error('Você precisa entrar.');const slot=await getSlotUser(u.uid);if(!slot)throw new Error('Cadastro ainda não aprovado pelo administrador.');const p=await getDoc(doc(db,'profiles',String(slot)));if(!p.exists()||p.data().uid!==u.uid||p.data().blocked===true)throw new Error('Acesso não autorizado.');return {id:slot,uid:u.uid,username:p.data()?.username||u.email.split('@')[0],goal:p.data()?.goal||20}}
+const userProfiles=async()=>{const docs=await Promise.all(slots.map(s=>getDoc(doc(db,'profiles',s))));return docs.filter(d=>d.exists()&&d.data().blocked!==true).map(d=>({id:Number(d.id),...d.data()}))};
 const dayKey=(time=new Date())=>new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(time);
 const bank=()=>window.QUESTION_BANK_ACCESS||[];
 const totals=(qs)=>{const subj={},topics={};for(const q of qs){subj[q.s]=(subj[q.s]||0)+1;const key=q.s+'\u0000'+q.t;topics[key]=(topics[key]||0)+1}return {subj,topics}};
@@ -24,14 +24,7 @@ await updateDoc(doc(db,'profiles',String(p.id)),{answered,correct,wrong:answered
 }
 window.duoFirebaseAPI=async function(path,payload){try{await ready;
 if(path==='/api/status'){if(!auth.currentUser)return {accounts:0,slots:5};const profiles=await userProfiles();return {accounts:profiles.length,slots:Math.max(0,5-profiles.length)}}
-if(path==='/api/register'){
- await setPersistence(auth,browserLocalPersistence);
- const email=String(payload.username||'').trim().toLowerCase(),pass=String(payload.password||'');if(!email.includes('@'))throw new Error('Digite um e-mail válido.');
- // Nunca consulte perfis antes de autenticar: as regras bloqueiam leituras anônimas.
- const credential=await createUserWithEmailAndPassword(auth,email,pass);const uid=credential.user.uid;let chosen=null;
- for(const id of slots){try{await runTransaction(db,async tx=>{const ref=doc(db,'slots',id);const snap=await tx.get(ref);if(snap.exists())throw new Error('Ocupado');tx.set(ref,{uid});});chosen=id;break}catch(err){if(err.message!=='Ocupado')throw err}}
- if(!chosen){try{await deleteUser(credential.user)}catch(_){await signOut(auth)}throw new Error('As 5 vagas estão ocupadas.')}const username=email.split('@')[0].slice(0,32);await setDoc(doc(db,'profiles',chosen),{uid,username,goal:20,answered:0,correct:0,wrong:0,distinct:0,daily:{},streak:0,exams:0,subjectStats:{},topicStats:{}});return {user:{id:Number(chosen),uid,username,goal:20}};
-}
+if(path==='/api/register'){throw new Error('Novos cadastros exigem nome e aprovação. Use login.html para enviar o pedido.');}
 if(path==='/api/login'){await setPersistence(auth,browserLocalPersistence);await signInWithEmailAndPassword(auth,String(payload.username||'').trim(),String(payload.password||''));return {user:await getUser()}}
 if(path==='/api/logout'){await signOut(auth);return {ok:true}}
 if(path==='/api/me')return {user:await getUser()};

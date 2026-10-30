@@ -11,12 +11,14 @@
     ['historico.html','▥','Histórico'],
     ['caderno-erros.html','✕','Caderno de Erros'],
     ['perfil.html','👤','Meu perfil'],
+    ['admin.html','⚙','Administração'],
     ['sobre.html','ⓘ','Sobre']
   ];
   const current=location.pathname.split('/').pop()||'index.html';
   // A regra é aplicada antes de inserir o botão, evitando que ele pisque no login.
   const secureStyles=document.createElement('style');
   secureStyles.textContent=`
+    #duoSidebar a[hidden]{display:none!important}
     html:not([data-tjsp-session="ready"]) #duoMenuButton,body:not(.duoNavAuthorized) #duoMenuButton {display:none!important}
     html:not([data-tjsp-session="ready"]) #duoSidebar,html:not([data-tjsp-session="ready"]) #duoMenuMask,body:not(.duoNavAuthorized) #duoSidebar,
     body:not(.duoNavAuthorized) #duoMenuMask {visibility:hidden!important;pointer-events:none!important}
@@ -38,6 +40,8 @@
       <div class="duoSideFooter">Projeto independente de preparação para concursos. Não afiliado ao Tribunal de Justiça.</div>
     </aside>`;
   document.body.append(wrapper);
+  const adminLink=panelAdminLink();
+  function panelAdminLink(){const a=wrapper.querySelector('a[href="./admin.html"]');if(a)a.hidden=true;return a;}
   const button=document.getElementById('duoMenuButton');
   const mask=document.getElementById('duoMenuMask');
   const panel=document.getElementById('duoSidebar');
@@ -66,13 +70,15 @@
   Promise.all([
     import('https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js'),
     import('https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js'),
-    import('./firebase-config.js')
-  ]).then(([firebase,authLib,config])=>{
+    import('./firebase-config.js'),
+    import('https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js')
+  ]).then(([firebase,authLib,config,fs])=>{
     const app=firebase.getApps().length?firebase.getApp():firebase.initializeApp(config.firebaseConfig);
-    authLib.onAuthStateChanged(authLib.getAuth(app),user=>{
+    authLib.onAuthStateChanged(authLib.getAuth(app),async user=>{
       const loggedIn=Boolean(user);
       document.body.classList.toggle('duoNavAuthorized',loggedIn);
-      if(!loggedIn)toggle(false);
+      if(!loggedIn){toggle(false);if(adminLink)adminLink.hidden=true;}
+      else {try{await fs.getDocs(fs.collection(fs.getFirestore(app),'joinRequests'));if(adminLink)adminLink.hidden=false;}catch{if(adminLink)adminLink.hidden=true;}}
     },err=>{
       document.body.classList.remove('duoNavAuthorized');
       toggle(false);

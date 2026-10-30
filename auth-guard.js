@@ -2,7 +2,7 @@
    Atenção: GitHub Pages serve arquivos públicos; segurança dos dados depende das regras do Firestore. */
 import { initializeApp, getApps, getApp } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js';
 import { getAuth, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js';
-import { getFirestore, doc, getDoc } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js';
+import { getFirestore, doc, getDoc, onSnapshot } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js';
 import { firebaseConfig } from './firebase-config.js';
 const overlay=document.getElementById('tjspSessionShield');
 const shieldText=document.getElementById('tjspShieldMessage');
@@ -19,11 +19,12 @@ const showError=(msg)=>{
 try{
   const app=getApps().length?getApp():initializeApp(firebaseConfig);
   const auth=getAuth(app),db=getFirestore(app);
-  let generation=0;
+  let generation=0,stopProfile=null;
   const slotIds=['1','2','3','4','5'];
   // Não mostramos o site apenas porque há um usuário Auth; ele precisa possuir um perfil autorizado.
   onAuthStateChanged(auth,async user=>{
     const turn=++generation;
+    if(stopProfile){stopProfile();stopProfile=null;}
     if(!user){location.replace(loginUrl);return;}
     if(shieldText)shieldText.textContent='Verificando seu perfil e restaurando a sessão…';
     try{
@@ -33,12 +34,22 @@ try{
       }));
       if(turn!==generation)return;
       const id=slots.find(Boolean);
-      if(!id){showError('Esta conta não está vinculada a um perfil do TJSP DUO. Entre com a conta cadastrada.');return;}
+      if(!id){location.replace(loginUrl);return;}
       const profile=await getDoc(doc(db,'profiles',id));
       if(turn!==generation)return;
-      if(!profile.exists()||profile.data().uid!==user.uid){showError('Não foi possível validar seu perfil. Confirme a conta utilizada no login.');return;}
+      if(!profile.exists()||profile.data().uid!==user.uid){location.replace(loginUrl);return;}
+      if(profile.data().blocked===true){location.replace(loginUrl);return;}
       document.documentElement.setAttribute('data-tjsp-session','ready');
       overlay?.remove();
+      // Revogação: se o administrador suspender o perfil, interrompe a sessão visual aberta.
+      stopProfile=onSnapshot(doc(db,'profiles',id),snap=>{
+        if(!snap.exists()||snap.data().uid!==user.uid||snap.data().blocked===true){
+          document.documentElement.removeAttribute('data-tjsp-session');location.replace(loginUrl);
+        }
+      },err=>{
+        document.documentElement.removeAttribute('data-tjsp-session');
+        showError('Seu acesso não pôde ser confirmado. Faça login novamente.');
+      });
       window.dispatchEvent(new CustomEvent('tjsp:session-ready',{detail:{uid:user.uid,slot:id}}));
     }catch(err){
       if(turn!==generation)return;

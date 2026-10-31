@@ -8,7 +8,7 @@ let lessons=[],progress={},profileId=null,active=null,currentUser=null;
 let practicePromise=null,notesPromise=null,lessonVisit=0,passedLessonId=null,roundState=null;
 function getNotesData(){if(!notesPromise)notesPromise=fetch('./resumos-caderno.json?v=10').then(r=>{if(!r.ok)throw Error('Resumos indisponíveis');return r.json()});return notesPromise;}
 function getPracticeData(){
- if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=10')
+ if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=16')
   .then(r=>{if(!r.ok)throw Error('Banco exclusivo de aulas não disponível');return r.json()})
   .catch(e=>{console.warn('Falha nas questões exclusivas:',e);return {lessons:{}}});
  return practicePromise;
@@ -58,8 +58,13 @@ function drawPracticeRound(l,visit,host,questions,total,left){
    const heading=document.createElement('strong');heading.textContent=correct?'✓ Resposta correta':'✕ Resposta incorreta';box.append(heading);
    const add=(label,detail)=>{const p=document.createElement('p'),b=document.createElement('b');b.textContent=label+' ';p.append(b,document.createTextNode(detail));box.append(p)};
    const fmt=n=>String.fromCharCode(65+n)+') '+q.options[n];
-   add('Sua resposta:',fmt(chosen));if(!correct)add('Onde está o erro:',q.wrong?.[chosen]||'A afirmação escolhida não atende ao conteúdo cobrado.');
-   add('Resposta correta:',fmt(answer));add('Por que está correta:',q.why||'Leia o desenvolvimento desta aula e confira o conceito.');fb.replaceChildren(box);
+   if(!correct){
+     add('Você marcou:',fmt(chosen));
+     add('O problema dessa escolha:',q.wrong?.[chosen]||'Compare os termos do enunciado com o sentido e a função da alternativa escolhida.');
+     add('Resposta esperada:',fmt(answer));
+   }
+   add('Entenda o raciocínio:',q.why||'Revise o conceito correspondente antes de tentar novamente.');
+   fb.replaceChildren(box);
    const n=roundState.answered.size,wrong=roundState.wrong;
    if(n<questions.length){practiceMessage(host,`${n} de ${questions.length} respondidas · ${wrong} erro(s).`);return;}
    const actions=host.querySelector('#practiceActions');
@@ -101,7 +106,7 @@ async function populateNotebook(l,visit){
 let teachingStructurePromise=null, legalGlossaryPromise=null;
 const lawSubjects=new Set(['Direito Penal','Processo Penal','Processo Civil','Direito Constitucional','Direito Administrativo','Legislação Interna']);
 function getTeachingStructure(){
- if(!teachingStructurePromise)teachingStructurePromise=fetch('./estrutura-aulas.json?v=12')
+ if(!teachingStructurePromise)teachingStructurePromise=fetch('./estrutura-aulas.json?v=16')
   .then(r=>{if(!r.ok)throw Error('Organização de aulas indisponível');return r.json()})
   .catch(error=>{console.warn('TJSP Duo: usando ordem original',error);return null});
  return teachingStructurePromise;
@@ -214,7 +219,7 @@ function sidebarFor(markers,terms){
 }
 let pillarPromise=null;
 function getPillarData(){
- if(!pillarPromise)pillarPromise=fetch('./pilares-conceitos.json?v=13').then(r=>{
+ if(!pillarPromise)pillarPromise=fetch('./pilares-conceitos.json?v=16').then(r=>{
    if(!r.ok)throw Error('Definições e exemplos indisponíveis');return r.json();
  }).catch(error=>{console.warn('TJSP Duo: não foi possível baixar os dois pilares',error);return {lessons:{}}});
  return pillarPromise;
@@ -240,14 +245,14 @@ function layoutForLesson(l,structure,glossary,pillars){
  if(indexed.size!==l.sections.length)throw Error('Conteúdo incompleto na estrutura');
  return `<div class="tj-teaching-layout">${arranged.map((group,gidx)=>{
   const focus=group.destaque,focusedIndex=Number.isInteger(focus?.indice)?focus.indice:-1;
-  const markers=Array.isArray(focus?.marcas)?focus.marcas.filter(m=>m&&m.trecho&&m.rotulo&&['red','blue','amber'].includes(m.cor)&&l.sections[focusedIndex]?.[1]?.includes(m.trecho)):[];
+  const markers=Array.isArray(focus?.marcas)?focus.marcas.filter(m=>m&&m.trecho&&m.rotulo&&['red','blue','amber'].includes(m.cor)&&m.rotulo!=='Conceito tratado neste bloco'&&l.sections[focusedIndex]?.[1]?.includes(m.trecho)):[];
   const terms=legalTermsForBlock(l,group,glossary?.termos||[]);
   const sidebar=sidebarFor(markers,terms);
   const inner=group.itens.map((idx,subidx)=>{
    const [title,text]=l.sections[idx],deep=/^Aprofundamento/i.test(title),pure=lessonHeading(title);
    const heading=deep?`APROFUNDAMENTO${pure&&pure.toLowerCase()!==String(group.titulo||'').toLowerCase()?': '+paintTeachingText(pure,[],terms):''}`:
      ((subidx===0&&pure===group.titulo)?'':paintTeachingText(pure,[],terms));
-   const shown=paintTeachingText(text,focusedIndex===idx?markers:[],terms);
+   const shown=paintTeachingText(text,focusedIndex===idx?markers:[],terms).replace(/\n\n+/g,'</p><p>');
    return `<section class="tj-teaching-part${deep?' tj-depth':''}">${heading?`<h3>${heading}</h3>`:''}<p>${shown}</p></section>`;
   }).join('');
   return `<section class="tj-teaching-group"><header class="tj-teaching-head"><span class="tj-teaching-number">Conceito ${gidx+1} de ${arranged.length}</span><h2>${paintTeachingText(group.titulo||l.title,[],terms)}</h2></header><div class="tj-teaching-columns${sidebar?'':' no-legend'}"><div class="tj-teaching-main">${pillarCardsFor(group,l,gidx,pillars)}${inner}</div>${sidebar}</div></section>`;
@@ -261,7 +266,7 @@ async function populateTeachingLayout(l,visit){
  catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null,glossary,pillars);host.removeAttribute('aria-busy');}
 }
 
-async function fetchLessons(){const r=await fetch('./aulas.json?v=4');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
+async function fetchLessons(){const r=await fetch('./aulas.json?v=16');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
 const topicRules={
  'Português':[['Interpretação e compreensão',/interpretação|inferência|coesão|coerência/i],['Ortografia e vocabulário',/sinônimos|antônimos|polissemia|sentido literal|sentido figurado|ortografia|acentuação/i],['Morfologia: classes de palavras',/classes de palavras|pronomes/i],['Sintaxe e concordância',/sintaxe|concordância/i],['Regência e crase',/regência|crase/i],['Pontuação e colocação',/pontuação|colocação/i]],
  'Matemática':[['Números e operações',/números|divisibilidade|MMC|MDC|grandezas|unidades/i],['Razões, proporções e porcentagem',/razões|proporções|regra de três|porcentagem/i],['Álgebra e equações',/equação|sistemas/i],['Matemática financeira',/juros/i],['Estatística e geometria',/médias|geometria|tabelas|gráficos/i]],
@@ -329,7 +334,7 @@ function updateNextLessonButton(){
   btn.title=next.date?'Planejada para '+next.date:'Próxima aula pendente';
  }else{btn.href='./calendario.html';btn.textContent='✓ Aulas programadas concluídas — consultar calendário →';btn.title='';}
 }
-function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const visit=++lessonVisit;active=l;$('catalog').classList.add('hide');$('lesson').classList.remove('hide');$('crumb').textContent=l.subject+' · '+l.level;$('lessonTitle').textContent=l.title;$('objective').textContent=l.objective;$('status').textContent=progress[l.id]?'✓ Concluída':'○ Não concluída';$('complete').textContent=progress[l.id]?'↺ Desmarcar conclusão':'✓ Marcar como concluída';const section=`<div id="lessonSections" aria-busy="true" class="tj-teaching-wait">Organizando explicações por conceito…</div>`;$('lessonBody').innerHTML=`<div class="visualCustom"><strong>📍 Ordem recomendada: ${l.ordemSugerida>=100?'Complementar':l.ordemSugerida}ª aula de ${escapeHtml(l.subject)}</strong><p>Como estudar: ${escapeHtml(l.conclusaoOrientada||'Leia, resolva exemplos e pratique.')}</p><small>Retome este assunto após 1, 7 e 21 dias. ${escapeHtml(l.etapa||'')}</small></div><div class="formula">${escapeHtml(l.formula)}</div><div class="diagram"><div><small>Conceito</small><br><strong>${escapeHtml(l.subject)}</strong></div><span style="font-size:26px;color:#b50913">➜</span><div><small>Objetivo da aula</small><br><strong style="font-size:14px">${escapeHtml(l.objective)}</strong></div></div>${section}<div class="example"><h3>🧩 Exemplo resolvido</h3><p>${escapeHtml(l.example)}</p></div><h3>⚠️ Erros comuns</h3><ul class="pitfallList">${l.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h3>📖 Referência e verificação</h3><p>${escapeHtml(l.source)}</p>${l.fonteOficialBase?`<p><a href="${escapeHtml(l.fonteOficialBase)}" rel="noopener noreferrer" target="_blank">Consultar fonte oficial para conferência de alterações</a></p>`:""}`;const visual=l.visual?.kind==='percent'?`<div class="visualCustom"><strong>${escapeHtml(l.visual.label)}</strong><div class="percentGrid">${Array.from({length:100},(_,i)=>`<span class="${i<l.visual.value?'filled':''}"></span>`).join('')}</div><small>As células coloridas representam ${l.visual.value} de cada 100 partes.</small></div>`:l.visual?.kind==='logic'?`<div class="visualCustom"><strong>Tabela-verdade: condicional P → Q</strong><table><tr><th>P</th><th>Q</th><th>P → Q</th></tr><tr><td>V</td><td>V</td><td>V</td></tr><tr><td>V</td><td>F</td><td>F</td></tr><tr><td>F</td><td>V</td><td>V</td></tr><tr><td>F</td><td>F</td><td>V</td></tr></table></div>`:l.visual?.kind==='ratio'?`<div class="visualCustom"><strong>Relação inversa — mais máquinas, menos tempo</strong><div class="diagram"><span>5 máquinas<br>8 horas</span><b>→</b><span>10 máquinas<br>4 horas</span></div></div>`:l.visual?.kind==='reading'?`<div class="visualCustom"><strong>Escada da compreensão</strong><div class="diagram"><span>Texto literal</span><b>→</b><span>Pistas do texto</span><b>→</b><span>Inferência sustentada</span></div></div>`:'';
+function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const visit=++lessonVisit;active=l;$('catalog').classList.add('hide');$('lesson').classList.remove('hide');$('crumb').textContent=l.subject+' · '+l.level;$('lessonTitle').textContent=l.title;$('objective').textContent=l.objective;$('status').textContent=progress[l.id]?'✓ Concluída':'○ Não concluída';$('complete').textContent=progress[l.id]?'↺ Desmarcar conclusão':'✓ Marcar como concluída';const section=`<div id="lessonSections" aria-busy="true" class="tj-teaching-wait">Organizando explicações por conceito…</div>`;$('lessonBody').innerHTML=`<div class="visualCustom"><strong>📍 Ordem recomendada: ${l.ordemSugerida>=100?'Complementar':l.ordemSugerida}ª aula de ${escapeHtml(l.subject)}</strong><p>Como estudar: ${escapeHtml(l.conclusaoOrientada||'Leia, resolva exemplos e pratique.')}</p><small>Retome este assunto após 1, 7 e 21 dias. ${escapeHtml(l.etapa||'')}</small></div><div class="formula">${escapeHtml(l.formula)}</div><div class="diagram"><div><small>Conceito</small><br><strong>${escapeHtml(l.subject)}</strong></div><span style="font-size:26px;color:#b50913">➜</span><div><small>Objetivo da aula</small><br><strong style="font-size:14px">${escapeHtml(l.objective)}</strong></div></div>${section}${l.subject==='Português'?'':`<div class="example"><h3>🧩 Exemplo resolvido</h3><p>${escapeHtml(l.example)}</p></div>`}<h3>⚠️ Erros comuns</h3><ul class="pitfallList">${l.pitfalls.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ul><h3>📖 Referência e verificação</h3><p>${escapeHtml(l.source)}</p>${l.fonteOficialBase?`<p><a href="${escapeHtml(l.fonteOficialBase)}" rel="noopener noreferrer" target="_blank">Consultar fonte oficial para conferência de alterações</a></p>`:""}`;const visual=l.visual?.kind==='percent'?`<div class="visualCustom"><strong>${escapeHtml(l.visual.label)}</strong><div class="percentGrid">${Array.from({length:100},(_,i)=>`<span class="${i<l.visual.value?'filled':''}"></span>`).join('')}</div><small>As células coloridas representam ${l.visual.value} de cada 100 partes.</small></div>`:l.visual?.kind==='logic'?`<div class="visualCustom"><strong>Tabela-verdade: condicional P → Q</strong><table><tr><th>P</th><th>Q</th><th>P → Q</th></tr><tr><td>V</td><td>V</td><td>V</td></tr><tr><td>V</td><td>F</td><td>F</td></tr><tr><td>F</td><td>V</td><td>V</td></tr><tr><td>F</td><td>F</td><td>V</td></tr></table></div>`:l.visual?.kind==='ratio'?`<div class="visualCustom"><strong>Relação inversa — mais máquinas, menos tempo</strong><div class="diagram"><span>5 máquinas<br>8 horas</span><b>→</b><span>10 máquinas<br>4 horas</span></div></div>`:l.visual?.kind==='reading'?`<div class="visualCustom"><strong>Escada da compreensão</strong><div class="readingSteps" aria-label="Etapas da interpretação"><span>1. Identifique as informações explícitas</span><span>2. Reúna as pistas relevantes</span><span>3. Formule apenas uma inferência sustentada</span></div></div>`:'';
 const steps=l.steps?.length?`<div class="example"><h3>🔎 Resolução comentada passo a passo</h3><ol>${l.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol></div>`:'';
 const refs=l.references?.length?`<div class="visualCustom"><h3>Fontes para aprofundar e conferir</h3><ul>${l.references.map(r=>{let url='';try{const u=new URL(r.url);if(u.protocol==='https:')url=u.href}catch{}return url?`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a></li>`:''}).join('')}</ul><small>Links de apoio; confira o conteúdo programático e as atualizações da legislação no edital oficial.</small></div>`:'';
 const checks=`<div class="visualCustom" id="practiceHost" aria-live="polite"><h3>🧠 Teste sua compreensão</h3><p class="dim">Sorteando novas questões desta aula...</p></div>`;

@@ -130,116 +130,80 @@
     ],
     "Português-interpretacao": [
       {
-        "definicao": "É um método de leitura em etapas: primeiro compreender o tema e o propósito, depois identificar a tese e as relações entre ideias, e por último conferir as alternativas com o texto.",
-        "aplicacao": "Ao ler uma questão, faça três passagens: descubra sobre o que o texto fala; localize a opinião ou objetivo do autor; por fim, prove sua resposta com um trecho específico."
+        "definicao": "Compreender significa localizar o que o texto declara; interpretar significa relacionar essas declarações para construir o sentido global. Inferir não é adivinhar: é concluir algo apoiado em pistas verificáveis. O texto é a prova da resposta, não o repertório pessoal do candidato.",
+        "aplicacao": "Texto: “O posto passou a abrir às 7h, mas manteve o horário de encerramento.” Informação expressa: a abertura foi antecipada ou alterada para as 7h. Não é possível afirmar quantas horas o posto funcionava antes, porque o horário antigo não foi informado."
       },
       {
-        "definicao": "O assunto é aquilo de que o texto trata; tema é o recorte mais específico; tese é a posição central sustentada pelo autor em textos argumentativos.",
-        "aplicacao": "Separe opinião do autor, dados apresentados e fala citada de terceiros."
+        "definicao": "Assunto é o campo geral de que se fala; tema é o recorte específico; ideia central é a mensagem predominante; tese é uma posição defendida pelo autor em texto argumentativo. Nem todo texto tem uma tese: uma notícia pode simplesmente informar.",
+        "aplicacao": "Texto: “A implantação gradual do atendimento digital precisa ser acompanhada de suporte aos idosos.” Assunto: tecnologia nos serviços. Tema: inclusão digital no atendimento. Tese: a digitalização deve vir acompanhada de apoio aos idosos. A expressão “precisa ser” revela tomada de posição."
       },
       {
-        "definicao": "É um dado apresentado diretamente pelo texto, sem precisar deduzi-lo. Para reconhecê-lo, localize quem praticou a ação, o que aconteceu, quando e sob quais condições.",
-        "aplicacao": "Em “A reunião começou às 9h”, a informação explícita é o horário de início da reunião. Uma alternativa que afirme “começou às 10h” contraria o texto, ainda que o restante esteja correto."
+        "definicao": "Informação explícita é apresentada diretamente em palavras do texto. As condições de tempo, lugar, quantidade, causa e exceção fazem parte dessa informação e não podem ser removidas.",
+        "aplicacao": "Texto: “Os guichês funcionam de segunda a sexta, exceto em feriados.” Está explícito que o serviço não abrange, nessa regra, os feriados. A alternativa “funcionam todos os dias úteis” é imprecisa se inclui feriados: o texto ressalva uma exceção."
       },
       {
-        "definicao": "É uma conclusão lógica sustentada por pistas do texto, ainda que não esteja escrita literalmente. Não equivale a adivinhação, opinião pessoal ou informação de fora.",
-        "aplicacao": "Em “Apesar da chuva, a equipe chegou no horário”, pode-se inferir que a chuva representava um possível obstáculo. Não se pode concluir que todos chegaram de carro: isso não está indicado."
+        "definicao": "Uma inferência válida é a conclusão não expressa literalmente, mas sustentada pelas informações do texto. Uma suposição plausível pode fazer sentido no mundo real e ainda assim não ser autorizada pelo trecho.",
+        "aplicacao": "Texto: “Apesar da chuva, a audiência ocorreu no horário previsto.” É possível inferir que a chuva foi circunstância potencialmente desfavorável ao andamento do evento. Não se pode concluir que ninguém se atrasou: o texto só fala do início da audiência."
       },
       {
-        "definicao": "Conectivos são palavras ou expressões que ligam ideias e mostram relações como oposição, causa, conclusão, condição e concessão.",
-        "aplicacao": "Em textos de opinião, observe a posição dos conectivos, modalizadores (\"talvez\", \"certamente\") e verbos avaliativos para distinguir fato, hipótese e juízo de valor."
+        "definicao": "Pressuposto é a informação que uma palavra ou construção toma como dada; subentendido depende de uma interpretação contextual, frequentemente comunicada de forma indireta. A distinção importa porque o pressuposto costuma permanecer até sob negação.",
+        "aplicacao": "“O servidor voltou a estudar” pressupõe que ele já estudava antes; “não voltou a estudar” continua pressupondo atividade anterior. Já “Está frio aqui”, dito diante de uma janela aberta, pode subentender um pedido para fechá-la, mas isso depende da situação."
       },
       {
-        "definicao": "A alternativa pode ser verdadeira no mundo e falsa segundo o texto.",
-        "aplicacao": "Desconfie de generalizações (“sempre”, “nunca”), inversões de causa e efeito, trocas de sujeitos e extrapolações."
+        "definicao": "O autor pode narrar fatos, defender opinião ou citar a opinião de terceiros. Discurso relatado não equivale automaticamente à posição de quem escreveu. Marcadores como “segundo”, “para o pesquisador”, aspas e verbos de dizer indicam outra voz.",
+        "aplicacao": "“Para os comerciantes, o horário ampliado beneficia as vendas; a prefeitura, porém, ainda não avaliou o resultado.” O benefício é atribuído aos comerciantes, não confirmado pelo autor como conclusão geral. “Porém” assinala contraste entre uma avaliação e uma cautela."
       },
       {
-        "definicao": "É uma sequência ordenada de verificações que orienta como identificar informações, aplicar a regra estudada e justificar a resposta.",
-        "aplicacao": "Ao errar, registre exatamente qual palavra da alternativa mudou o sentido."
+        "definicao": "Conjunções e outras expressões estabelecem relações de oposição, causa, consequência, condição, concessão, explicação e finalidade. A relação lógica é mais importante que decorar listas.",
+        "aplicacao": "“O setor ampliou o horário porque aumentou a demanda”: “porque” introduz a causa. “Embora tenha aumentado a demanda, o setor não ampliou o horário”: “embora” indica concessão, isto é, um fato contrário à expectativa que não impediu o resultado."
       },
       {
-        "definicao": "É a prática que combina leitura literal, inferência e análise de alternativas em uma mesma questão de interpretação.",
-        "aplicacao": "Exemplo 1. Situação: Leia o texto: “O curso recebeu novos alunos."
+        "definicao": "Uma alternativa pode distorcer o texto por generalização, inversão de causa e efeito, alteração do sujeito, troca da condição, absolutização, contradição ou acréscimo de informação. O erro raramente está na frase inteira: muitas vezes reside numa palavra.",
+        "aplicacao": "Trecho: “Parte dos usuários recebeu orientação presencial antes de usar o portal.” Opção incorreta: “Todos os usuários precisaram de orientação antes de usar o portal”. A troca de “parte” por “todos” extrapola a quantidade."
       }
     ],
     "Português-sintaxe": [
       {
-        "definicao": "É o termo sobre o qual se declara algo na oração. Pode ser simples, composto, oculto ou indeterminado, conforme seus núcleos e a estrutura verbal.",
-        "aplicacao": "Em “Os documentos chegaram”, “os documentos” é o sujeito: é sobre eles que se afirma que chegaram. Em “Chegaram os documentos”, o sujeito continua sendo “os documentos”, mesmo depois do verbo."
+        "definicao": "Frase é um enunciado com sentido comunicativo, com ou sem verbo. Oração organiza-se em torno de uma forma verbal; período é a unidade encerrada por pontuação final e pode conter uma ou várias orações.",
+        "aplicacao": "“Silêncio!” é frase sem oração. “O cartório abriu.” é frase, oração e período simples. “O cartório abriu e os servidores chegaram.” forma um período composto por duas orações, uma em cada verbo."
       },
       {
-        "definicao": "É tudo aquilo que se declara sobre o sujeito. O predicado contém verbo e pode ter núcleo verbal, nominal ou ambos.",
-        "aplicacao": "Em “A reunião começou às 9h”, “começou às 9h” é o predicado. O verbo “começou” indica a ação e “às 9h” informa o tempo em que ela ocorreu."
+        "definicao": "Sujeito é o termo sobre o qual se declara algo e normalmente controla a concordância do verbo. Núcleo é sua palavra central. Pode ser simples, composto, desinencial (oculto) ou indeterminado.",
+        "aplicacao": "“Chegaram as certidões.” O sujeito é “as certidões”, embora apareça depois do verbo; núcleo “certidões”. “Maria e João chegaram”: sujeito composto. “Chegamos cedo”: sujeito oculto “nós”, identificável pela desinência."
       },
       {
-        "definicao": "São termos que completam o sentido de verbos ou nomes. O objeto direto normalmente não exige preposição obrigatória; o indireto exige preposição determinada pelo verbo.",
-        "aplicacao": "Em “A testemunha respondeu ao juiz”, “ao juiz” completa o verbo “respondeu” com a preposição “a”, sendo objeto indireto. Compare com “O juiz analisou o documento”: “o documento” é objeto direto."
+        "definicao": "Verbo intransitivo não exige complemento para completar seu sentido; transitivo direto exige objeto sem preposição obrigatória; transitivo indireto exige objeto com preposição exigida; de ligação conecta sujeito a uma característica.",
+        "aplicacao": "“O juiz chegou” (intransitivo). “O servidor digitalizou o processo” (objeto direto: o processo). “O público necessita de orientação” (objeto indireto: de orientação). “A sala permaneceu vazia” (ligação: vazia é predicativo)."
       },
       {
-        "definicao": "Reconhecer sujeito e predicado é separar o termo sobre o qual se declara algo daquilo que se declara, observando a relação com o verbo.",
-        "aplicacao": "Em \"Chegaram os documentos\", o verbo \"chegaram\" concorda com \"os documentos\": sujeito simples posposto."
+        "definicao": "Predicado é o que se declara a respeito do sujeito. Predicativo atribui qualidade ou estado ao sujeito ou ao objeto; adjunto adverbial expressa circunstância como tempo, causa, modo ou lugar.",
+        "aplicacao": "“Os candidatos chegaram cansados ontem.” “Chegaram” indica ação; “cansados” qualifica o sujeito; “ontem” indica tempo. O predicado é verbal-nominal porque reúne núcleo verbal e predicativo."
       },
       {
-        "definicao": "Verbo de ligação relaciona o sujeito a uma característica; predicativo atribui essa característica; os predicados podem ser verbais, nominais ou verbo-nominais.",
-        "aplicacao": "\"A sentença ficou clara\": \"ficou\" liga o sujeito a uma qualidade (predicado nominal)."
-      },
-      {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Na análise sintática, assinale a afirmação correta."
+        "definicao": "Orações coordenadas são sintaticamente independentes entre si; subordinadas exercem função em outra oração. Uma conjunção pode sinalizar a relação, mas é preciso compreender a estrutura.",
+        "aplicacao": "“Estudou, mas não passou” contém coordenação adversativa. “Espero que você passe” contém oração subordinada substantiva objetiva direta, pois “que você passe” completa o verbo “espero”."
       }
     ],
     "Português-crase": [
       {
-        "definicao": "O acento grave indica essa fusão na escrita: Vou à escola = vou a + a escola.",
-        "aplicacao": "O acento grave marca a fusão de preposição “a” com artigo feminino “a/as” ou com pronomes demonstrativos adequados."
+        "definicao": "Crase é a fusão de dois sons vocálicos representados por “à” ou “às”, normalmente a preposição “a” exigida pelo termo anterior mais o artigo feminino “a/as”. O acento grave indica essa fusão; não é acento de tonicidade.",
+        "aplicacao": "“Entreguei o documento à diretora”: quem entrega algo entrega a alguém (preposição a) e “diretora” admite “a diretora” (artigo a). Portanto, a + a = à."
       },
       {
-        "definicao": "Quem vai, vai a algum lugar; quem se refere, refere-se a algo; quem obedece, obedece a alguém.",
-        "aplicacao": "Em “obedeceu à norma”, obedecer exige a, norma aceita a, e “obedeceu ao regulamento” confirma."
+        "definicao": "A substituição do nome feminino por masculino equivalente ajuda a identificar a fusão: se aparecer “ao”, normalmente haverá crase no feminino correspondente. O teste deve preservar a estrutura e o sentido.",
+        "aplicacao": "“Dirigiu-se à funcionária” / “Dirigiu-se ao funcionário”. Como surgiu “ao”, confirma-se a preposição combinada com o artigo. “Escreveu a lápis” não vira “ao lápis”; não há artigo feminino."
       },
       {
-        "definicao": "É teste auxiliar: não substitui o exame da regência e do artigo.",
-        "aplicacao": "Se a construção gerar “ao”, em geral haverá crase na feminina: “Entreguei o relatório à diretora” → “Entreguei o relatório ao diretor”."
+        "definicao": "Em regra, não há crase antes de palavra masculina, verbo, pronomes pessoais, artigo indefinido ou plural feminino desacompanhado de “as”. Sem artigo feminino, a fusão a+a é impossível.",
+        "aplicacao": "“Começou a trabalhar”; “entregou a ela”; “referiu-se a propostas novas” (sem artigo “as”). Compare com “referiu-se às propostas novas”, em que as propostas são determinadas."
       },
       {
-        "definicao": "A crase não ocorre quando falta a combinação da preposição “a” com artigo ou pronome iniciado em “a”; a proibição depende da construção sintática.",
-        "aplicacao": "Em regra, não há crase antes de verbo (“começou a estudar”), de pronome pessoal (“entreguei a ela”), de termo masculino sem construção especial (“a prazo”), nem quando há apenas preposição e não artigo (“a qualquer pessoa”)."
+        "definicao": "Com nomes geográficos, observe se o nome admite artigo e se há preposição “a”. Na indicação de horas determinadas, “às” costuma aparecer quando a estrutura exige a preposição e o artigo.",
+        "aplicacao": "“Fui à Bahia” (voltei da Bahia); “fui a Brasília” (voltei de Brasília). “A audiência começa às 14h” marca horário determinado. “Faltam duas horas para a reunião” não exige crase."
       },
       {
-        "definicao": "A crase pode ser facultativa antes de pronome possessivo feminino singular quando o artigo também é facultativo: \"Entreguei a ata a/à minha chefe\" (no contexto em que ambas as construções são admitidas).",
-        "aplicacao": "Pode ser facultativa antes de possessivo feminino singular com artigo facultativo (“a/à minha colega”), e após até em certos contextos (“até a/à escola”)."
-      },
-      {
-        "definicao": "É a comparação de frases para identificar em quais construções ocorre a fusão da preposição “a” com artigo ou pronome e quando ela não ocorre.",
-        "aplicacao": "Na prática: “Entregou a documentação a ela”: o pronome pessoal dispensa artigo; não há crase."
-      },
-      {
-        "definicao": "“Treino de decisão” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
-        "aplicacao": "Para cada uma, identifique a preposição regida, o determinante ou demonstrativo e a razão da grafia."
-      },
-      {
-        "definicao": "São expressões de duas ou mais palavras com função de advérbio, preposição ou conjunção, muitas das quais recebem acento indicativo de crase.",
-        "aplicacao": "Em locuções adverbiais, prepositivas e conjuntivas femininas consagradas, usa-se frequentemente o acento: à noite, às vezes, à direita, à medida que, à procura de."
-      },
-      {
-        "definicao": "Expressões de tempo indicam quando ou por quanto tempo algo acontece; a crase antes de horas determinadas depende da construção.",
-        "aplicacao": "Antes de horas determinadas, normalmente ocorre crase: “Chegarei às 14 horas”."
-      },
-      {
-        "definicao": "Também pode ocorrer em “à qual” e “às quais” quando o termo regente exige a preposição: “A lei à qual me referi”.",
-        "aplicacao": "A preposição a pode fundir-se ao a inicial de aquele(s), aquela(s), aquilo: “Referi-me àquele documento” (referir-se a + aquele)."
-      },
-      {
-        "definicao": "É a leitura de enunciados parecidos para perceber quando uma pequena mudança de estrutura produz diferença de sentido ou de regência.",
-        "aplicacao": "Na prática: “Assistiu à palestra”: assistir no sentido de presenciar pede a; palestra admite a."
-      },
-      {
-        "definicao": "“Roteiro de resolução VUNESP” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
-        "aplicacao": "3) Verifique artigo ou pronome iniciado em a."
-      },
-      {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão."
+        "definicao": "O acento pode ser facultativo em usos tradicionais, como antes de pronome possessivo feminino singular com substantivo expresso (“à minha mãe” / “a minha mãe”), quando o artigo é facultativo. Também ocorre fusão em “àquele”, “àquela”, “àquilo” quando há preposição “a”.",
+        "aplicacao": "“Referiu-se àquela reunião”: referir-se a + aquela. Já “Dirigi a palavra a minha colega” e “à minha colega” podem ocorrer com ou sem artigo em muitos contextos."
       }
     ],
     "Raciocínio Lógico-proposicoes": [
@@ -632,254 +596,218 @@
     ],
     "Português-coes-o-e-coer-ncia": [
       {
-        "definicao": "A primeira relação é conclusão; a segunda pode soar contraditória sem contexto.",
-        "aplicacao": "Compare “Estudou muito; portanto, melhorou” com “Estudou muito; contudo, melhorou”."
+        "definicao": "Coesão é a ligação formal entre palavras, frases e parágrafos, feita por pronomes, sinônimos, elipses e conectivos. Coerência é a construção de um sentido compatível e lógico entre as informações.",
+        "aplicacao": "“A secretaria publicou a lista. Ela estará disponível amanhã.” “Ela” retoma “lista”: coesão referencial. “A lista foi divulgada ontem; portanto, será publicada somente na próxima semana” pode apresentar contradição, conforme o sentido de “divulgada” e “publicada”."
       },
       {
-        "definicao": "Coesão é a conexão linguística entre partes do texto.",
-        "aplicacao": "Em “Marina protocolou o pedido. Ela recebeu o comprovante”, o pronome “ela” retoma Marina."
+        "definicao": "Anáfora retoma elemento anterior; catáfora anuncia elemento que aparecerá depois. Para identificar o referente, observe concordância, proximidade e sobretudo sentido.",
+        "aplicacao": "“Os servidores entregaram as fichas. Elas foram arquivadas.” “Elas” refere-se às fichas. “Só havia uma solução: reorganizar o atendimento.” “Uma solução” é especificada adiante."
       },
       {
-        "definicao": "Conjunções não são intercambiáveis: “portanto” introduz conclusão; “porque”, explicação ou causa; “embora”, concessão; “entretanto”, oposição.",
-        "aplicacao": "Na prova, leia a frase antes e depois da palavra destacada e descreva a relação sem olhar alternativas."
+        "definicao": "Conectores articulam relações: adição (“além disso”), contraste (“porém”), conclusão (“portanto”), causa (“porque”), concessão (“embora”) e finalidade (“para que”).",
+        "aplicacao": "“O atendimento foi ampliado; no entanto, a fila permaneceu longa.” “No entanto” mostra contraste entre a expectativa de menor fila e o resultado observado. “Por isso” indicaria uma consequência, alterando a lógica."
       },
       {
-        "definicao": "Coerência é a compatibilidade global das informações com a situação comunicativa.",
-        "aplicacao": "Um texto pode apresentar conectivos corretos e ainda ser contraditório: “Todos chegaram antes das 8h."
-      },
-      {
-        "definicao": "Um texto pode ser coeso e incoerente; os conceitos não são sinônimos.",
-        "aplicacao": "\"A sessão terminou às 14h. Por isso começou às 15h\" viola a sequência temporal, salvo contexto excepcional explicitado."
-      },
-      {
-        "definicao": "Referenciação é o uso de palavras que retomam ou introduzem elementos do texto; progressão temática é o avanço organizado das informações, sem repetição ou ruptura do assunto.",
-        "aplicacao": "Em \"A juíza publicou a decisão. Ela foi disponibilizada depois\", \"ela\" pode criar ambiguidade se não houver pistas: juíza ou decisão?"
-      },
-      {
-        "definicao": "A intertextualidade ocorre quando um texto dialoga com outro por citação, referência, paródia ou retomada de estrutura.",
-        "aplicacao": "Alusão indireta exige reconhecimento de contexto; não invente referências que o enunciado não sustenta."
-      },
-      {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 1. Situação: Identifique a relação de sentido corretamente atribuída ao conectivo destacado."
+        "definicao": "Parafrasear é reescrever com outras palavras sem mudar as informações, os limites e as relações lógicas do original. Preservar a gramática não basta: o sentido também precisa continuar o mesmo.",
+        "aplicacao": "Original: “Nem todos os inscritos compareceram.” Reescrita adequada: “Houve inscritos que não compareceram.” Reescrita inadequada: “Nenhum inscrito compareceu”, pois transforma uma negação parcial em total."
       }
     ],
     "Português-sin-nimos-ant-nimos-e-polissemia": [
       {
-        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
-        "aplicacao": "Para substituir uma palavra, preserve o sentido e o registro do enunciado."
+        "definicao": "Sinônimos são palavras de sentidos próximos em determinado contexto, mas raramente substituíveis em qualquer frase. Registro, intensidade, avaliação e combinação com outras palavras importam.",
+        "aplicacao": "“O magistrado proferiu decisão célere.” Nesse contexto, “célere” se aproxima de “rápida”. Em “uma corrente célere”, pode haver uso menos comum. A troca precisa respeitar o contexto, e não apenas o verbete do dicionário."
       },
       {
-        "definicao": "Uma palavra polissêmica reúne sentidos relacionados; homônimos podem coincidir em forma ou som sem manter o mesmo significado.",
-        "aplicacao": "Substituí-lo por \"luminoso\" só funciona no primeiro caso."
+        "definicao": "Antônimos expressam relações de oposição, que podem ser graduais (“quente” x “frio”), complementares (“vivo” x “morto”) ou relacionais (“comprar” x “vender”).",
+        "aplicacao": "“O resultado foi provisório” opõe-se, nesse contexto, a “definitivo”. “Improvável” não é o mesmo que “impossível”: o primeiro indica baixa probabilidade, o segundo ausência dela."
       },
       {
-        "definicao": "\"Comprar/vender\" são conversos: a mesma operação descrita de pontos de vista diferentes.",
-        "aplicacao": "Em uma reescrita, o antônimo lexical isolado nem sempre preserva a estrutura argumentativa da frase."
+        "definicao": "Polissemia é o fenômeno pelo qual uma palavra apresenta diferentes sentidos relacionados. O contexto seleciona a acepção apropriada.",
+        "aplicacao": "“A banca publicou o gabarito” refere-se à instituição examinadora; “sentou-se num banco” refere-se ao assento; “banco de dados” refere-se à coleção organizada de informações."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 1. Situação: Considere o sentido das palavras."
+        "definicao": "Ambiguidade ocorre quando o enunciado admite mais de uma leitura. Pode ser defeito de clareza ou recurso intencional.",
+        "aplicacao": "“Vi o funcionário com o binóculo” permite entender que o observador usou o binóculo ou que o funcionário o portava. Reescrita clara: “Com o binóculo, vi o funcionário”."
       }
     ],
     "Português-sentido-literal-e-figurado": [
       {
-        "definicao": "Sentido literal é o uso mais direto; sentido figurado cria imagens e associações, como metáforas e metonímias.",
-        "aplicacao": "Em “o prazo corre”, não existe deslocamento físico; a expressão enfatiza passagem do tempo."
+        "definicao": "Sentido literal ou próprio é aquele mais diretamente associado às palavras; sentido figurado resulta de um deslocamento expressivo por comparação, associação ou efeito de linguagem.",
+        "aplicacao": "“O servidor abriu a porta” descreve abertura física. “A decisão abriu portas para novas medidas” emprega metáfora: criou possibilidades. A expressão não afirma que portas foram abertas literalmente."
       },
       {
-        "definicao": "Sentido próprio é o uso mais direto de uma palavra; sentido figurado nasce da transferência contextual de significado; metáfora é uma comparação implícita.",
-        "aplicacao": "Em \"o servidor abriu a porta\", \"abriu\" está em uso concreto."
+        "definicao": "Metáfora aproxima realidades sem conector comparativo explícito; comparação costuma usar “como”, “tal qual”, “semelhante a”. Ambas aproximam características, mas a estrutura é diferente.",
+        "aplicacao": "“A memória é um arquivo” associa memória e arquivo por organização e armazenamento: metáfora. “A memória funciona como um arquivo” apresenta comparação explícita."
       },
       {
-        "definicao": "A identificação não decorre apenas da pontuação: requer confronto entre o que se diz e o que ocorre.",
-        "aplicacao": "Quando um narrador diz \"Que pontualidade exemplar!\" após uma espera de duas horas, o contexto pode indicar ironia."
+        "definicao": "Metonímia substitui uma expressão por outra ligada por relação de contiguidade, como autor pela obra, continente pelo conteúdo ou instituição por integrantes. Hipérbole exagera intencionalmente; ironia comunica um sentido contrastante com a forma literal.",
+        "aplicacao": "“Li Machado de Assis” significa ler obras do autor (metonímia). “Esperei um século” pode ser hipérbole. “Que pontualidade!”, dito a quem chegou muito atrasado, pode constituir ironia."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 1. Situação: Considere o sentido das palavras."
+        "definicao": "Denotação aproxima-se do sentido convencional mais estável; conotação adiciona associações e valores afetivos ou figurados. Tom é a atitude expressiva percebida, como crítica, humor, elogio ou neutralidade.",
+        "aplicacao": "“O relatório é seco” não significa ausência de umidade; em contexto de linguagem, “seco” pode indicar objetividade excessiva ou frieza."
       }
     ],
     "Português-classes-de-palavras-i-nomes-e-determinantes": [
       {
-        "definicao": "Substantivo nomeia seres, estados e conceitos; artigo determina substantivos; adjetivo caracteriza; numeral exprime quantidade ou ordem.",
-        "aplicacao": "Em “os dois novos servidores”, “os” é artigo, “dois” numeral, “novos” adjetivo e “servidores” substantivo."
+        "definicao": "Substantivo nomeia seres, objetos, estados, processos, sentimentos e ideias. Pode ser comum ou próprio, concreto ou abstrato; flexiona-se em número e, em muitos casos, gênero.",
+        "aplicacao": "“A chegada dos candidatos ocorreu cedo.” “Chegada” é substantivo abstrato derivado de verbo; “candidatos” é substantivo comum. Não procure apenas objetos materiais para identificar substantivos."
       },
       {
-        "definicao": "Substantivo nomeia entidades, seres e conceitos; adjetivo atribui característica; artigo determina ou indetermina.",
-        "aplicacao": "Em \"pobre homem\" e \"homem pobre\", a posição do adjetivo pode alterar o sentido: compaixão no primeiro, condição econômica no segundo, dependendo do uso."
+        "definicao": "Artigos definidos (o, a, os, as) apresentam referência determinada; indefinidos (um, uma, uns, umas) introduzem referência menos específica. Também influenciam pressupostos de identificação.",
+        "aplicacao": "“Uma servidora entrou na sala. A servidora trouxe os autos.” Na primeira ocorrência, a referência é apresentada; na segunda, o artigo definido retoma pessoa já conhecida no texto."
       },
       {
-        "definicao": "Numerais expressam quantidade, ordem, multiplicação ou fração; podem acompanhar um substantivo ou atuar como núcleo de um termo nominal.",
-        "aplicacao": "Para classificar, examine a frase, não apenas a palavra isolada."
+        "definicao": "Adjetivo caracteriza ou classifica substantivo; locução adjetiva reúne palavras de função semelhante, frequentemente “de + substantivo”. Alguns adjetivos antes ou depois do nome alteram avaliação.",
+        "aplicacao": "“Servidor competente” atribui competência. “Serviço de qualidade” tem locução de valor adjetivo. “Um grande homem” não significa exatamente “um homem grande”: a posição altera o sentido."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: A respeito das classes de palavras, assinale a afirmação correta."
+        "definicao": "Numerais indicam quantidade, ordem, fração ou multiplicação: cardinal (“três”), ordinal (“terceiro”), fracionário (“meio”) e multiplicativo (“dobro”).",
+        "aplicacao": "“A segunda audiência ocorreu após meia hora.” “Segunda” é ordinal; “meia” concorda com “hora” e exprime metade. Em “estou meio cansada”, “meio” é advérbio, invariável."
       }
     ],
     "Português-classes-de-palavras-ii-verbos-e-adv-rbios": [
       {
-        "definicao": "Verbos expressam ações, estados ou fenômenos, situados em tempo, modo e pessoa; advérbios modificam verbos, adjetivos ou outros advérbios e acrescentam circunstâncias.",
-        "aplicacao": "Identifique tempo, modo, pessoa e número verbais; locuções verbais combinam auxiliar e principal."
+        "definicao": "Verbo pode expressar ação, processo, estado ou fenômeno. O tempo situa a ocorrência; o modo indica como ela é apresentada: fato (indicativo), possibilidade ou desejo (subjuntivo), ordem ou pedido (imperativo).",
+        "aplicacao": "“O cartório recebe pedidos” (presente do indicativo: fato habitual). “Se receber os documentos, analisará o pedido” (futuro do subjuntivo em condição). “Receba os documentos” (imperativo)."
       },
       {
-        "definicao": "No contexto desta aula, “Tempos verbais e efeitos de sentido” corresponde à seguinte regra ou ideia central: Pretérito perfeito apresenta um evento concluído (\"protocolou ontem\"); imperfeito pode expressar duração ou hábito passado (\"protocolava diariamente\").",
-        "aplicacao": "Futuro do pretérito pode expressar hipótese ou cortesia (\"poderia informar?\"), não apenas posterioridade em relação ao passado."
+        "definicao": "Aspecto verbal apresenta a ação como concluída, habitual, em andamento ou iniciada. Locução verbal combina auxiliar e verbo principal para expressar tempo, aspecto ou modalidade.",
+        "aplicacao": "“O servidor analisou os autos” indica conclusão no passado; “analisava” pode sugerir ação em curso ou habitual; “está analisando” focaliza desenvolvimento atual."
       },
       {
-        "definicao": "\"Ontem\", \"aqui\", \"não\", \"talvez\" são advérbios de tempo, lugar, negação e dúvida.",
-        "aplicacao": "\"Muito\" pode funcionar como advérbio em \"trabalhou muito\" e como pronome indefinido em \"muitos processos\"."
+        "definicao": "Advérbios modificam verbo, adjetivo, outro advérbio ou a oração; indicam circunstâncias como tempo, lugar, intensidade, negação, afirmação e dúvida. Costumam ser invariáveis.",
+        "aplicacao": "“O atendimento começou muito cedo.” “Cedo” indica tempo, e “muito” intensifica “cedo”. “Provavelmente haverá mudança” indica dúvida ou probabilidade sobre a oração inteira."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Na prática, ao estudar “Aplicação integrada do assunto”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+        "definicao": "Voz ativa põe o sujeito como agente; passiva analítica usa “ser + particípio” e põe o paciente como sujeito. A transformação preserva participantes, mas pode alterar foco informativo.",
+        "aplicacao": "Ativa: “O relator examinou o recurso”. Passiva: “O recurso foi examinado pelo relator”. “O recurso” passa a sujeito paciente e “pelo relator” é agente da passiva."
       }
     ],
     "Português-pronomes-e-referencia-o": [
       {
-        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
-        "aplicacao": "Na compreensão textual, “este” frequentemente aponta para algo próximo no texto e “aquele” para algo mais distante, segundo o contexto."
+        "definicao": "Pronomes podem substituir, retomar, apontar ou acompanhar nomes. Para interpretar um pronome no texto, localize seu antecedente com base em concordância, proximidade e sentido.",
+        "aplicacao": "“As advogadas entregaram as petições. Elas foram protocoladas.” O referente de “elas” é “petições”, pois são essas que se protocolam, embora “advogadas” também esteja no feminino plural."
       },
       {
-        "definicao": "\"Cujo\" expressa posse e não admite artigo entre ele e o nome: \"a servidora cujo relatório foi aprovado\", não \"cujo o relatório\".",
-        "aplicacao": "Em \"a norma que foi publicada\", \"que\" retoma \"norma\" e é sujeito de \"foi publicada\"."
+        "definicao": "“Este/esta” pode indicar proximidade de quem fala ou referência ao que será anunciado; “esse/essa” pode retomar o que foi mencionado. Os usos variam por situação discursiva e variedade.",
+        "aplicacao": "“O problema é este: falta sinalização.” “Este” anuncia o conteúdo seguinte. “A equipe identificou falhas; essas falhas serão corrigidas.” “Essas” retoma informação anterior."
       },
       {
-        "definicao": "Pronomes demonstrativos localizam referentes no espaço, no tempo ou no texto; ambiguidade ocorre quando a referência permite mais de uma interpretação.",
-        "aplicacao": "Em apresentação de dois elementos, \"este\" tende a retomar o mais próximo, \"aquele\" o mais distante, conforme registro e organização textual."
+        "definicao": "Pronomes relativos, como “que”, “quem”, “cujo” e “onde”, retomam um antecedente e iniciam oração subordinada adjetiva. O uso depende da função sintática e da regência.",
+        "aplicacao": "“O processo a que me referi foi arquivado”: referir-se exige preposição “a”, que aparece antes de “que”. “A servidora cujo relatório foi aprovado” expressa posse sem artigo depois de “cujo”."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Na prática, ao estudar “Aplicação integrada do assunto”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+        "definicao": "Pronomes do caso reto normalmente exercem função de sujeito; oblíquos exercem funções de complemento. “O/a” costumam substituir objeto direto; “lhe” frequentemente funciona como objeto indireto.",
+        "aplicacao": "“O servidor avisou a candidata” → “O servidor a avisou”. “O servidor entregou o documento à candidata” → “O servidor lhe entregou o documento”."
       }
     ],
     "Português-concord-ncia-verbal": [
       {
-        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
-        "aplicacao": "Com “haver” impessoal no sentido de existir, mantém-se singular: “havia processos”."
+        "definicao": "Em regra, o verbo concorda em número e pessoa com o núcleo do sujeito, não com substantivos intermediários. Sujeitos pospostos seguem a mesma lógica.",
+        "aplicacao": "“A lista de documentos chegou.” O núcleo é “lista”, singular, portanto “chegou”. “Chegaram os documentos”: núcleo plural “documentos”, verbo no plural."
       },
       {
-        "definicao": "“Sujeito e núcleo: o primeiro teste” é o conceito ou procedimento deste bloco em Português. Ele é caracterizado pelas condições e regras explicadas logo abaixo, que precisam ser verificadas no enunciado.",
-        "aplicacao": "Antes do verbo, o sujeito composto em regra leva o verbo ao plural: “O juiz e a escrevente assinaram”."
+        "definicao": "Quando o sujeito composto aparece antes do verbo, a concordância é, em regra, no plural. Depois do verbo, podem existir possibilidades de concordância com o conjunto ou o termo mais próximo, conforme a construção.",
+        "aplicacao": "“O juiz e a servidora chegaram.” No plural, o verbo se refere aos dois núcleos. “Chegou o juiz e a servidora” pode ocorrer por concordância atrativa em determinados contextos, mas é preferível avaliar a norma e o sentido."
       },
       {
-        "definicao": "O verbo “haver”, no sentido de existir, é impessoal e fica no singular: “Havia documentos pendentes”.",
-        "aplicacao": "Na indicação de tempo decorrido, “fazer” também é impessoal: “Faz três meses”."
+        "definicao": "“Haver” com sentido de existir e “fazer” indicando tempo decorrido ou clima são impessoais e ficam na terceira pessoa do singular; em locuções, essa impessoalidade pode atingir o auxiliar.",
+        "aplicacao": "“Havia muitos processos”; “Faz dois anos”; “Deve haver recursos”. Compare “Existiam muitos processos”: existir é pessoal e concorda com “processos”."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão."
+        "definicao": "Com verbo transitivo direto + “se” apassivador, o termo paciente funciona como sujeito e pode exigir plural. Com verbo transitivo indireto + “se” indeterminador, o verbo fica na terceira pessoa do singular.",
+        "aplicacao": "“Vendem-se apartamentos” equivale a “apartamentos são vendidos”, logo o plural. “Precisa-se de funcionários” mantém singular, pois “de funcionários” é complemento preposicionado."
       }
     ],
     "Português-concord-ncia-nominal": [
       {
-        "definicao": "Fundamentos são as regras, definições e relações básicas que permitem reconhecer o assunto e resolver os exemplos iniciais sem decorar respostas prontas.",
-        "aplicacao": "“Seguem anexas as certidões”: “anexas” concorda com “certidões”."
+        "definicao": "Artigos, adjetivos, pronomes adjetivos e numerais ajustam-se, em geral, ao gênero e número do substantivo que determinam. O núcleo nominal, não uma palavra qualquer da frase, orienta a flexão.",
+        "aplicacao": "“As decisões fundamentadas foram publicadas.” “As”, “fundamentadas” e “publicadas” concordam com “decisões”, feminino plural."
       },
       {
-        "definicao": "\"É proibida a entrada\" tem artigo determinando o substantivo e flexão do adjetivo; em construções sem determinante, é possível \"É proibido entrada\" segundo a norma tradicional.",
-        "aplicacao": "\"Seguem anexos os documentos\": \"anexos\" é adjetivo e concorda com \"documentos\"."
+        "definicao": "Um adjetivo que se refere a mais de um substantivo pode ir ao plural; a concordância atrativa com o termo mais próximo ocorre em estruturas e posições específicas.",
+        "aplicacao": "“Havia relatórios e certidões antigos” pode associar “antigos” aos dois conjuntos; “relatórios e certidões antigas” pode sugerir apenas certidões antigas. A posição e a interpretação importam."
       },
       {
-        "definicao": "O segredo é descobrir a função no enunciado.",
-        "aplicacao": "\"Meio cansada\" tem \"meio\" advérbio de intensidade, invariável; \"meia hora\" tem numeral fracionário concordando com \"hora\"."
+        "definicao": "Algumas palavras variam de classe e de flexão conforme a função. “Meio” numeral varia com o nome; “meio” advérbio não varia. “Bastante” pronome/adjetivo pode variar; como advérbio é invariável.",
+        "aplicacao": "“Meia hora”, “meio dia”; “ela ficou meio preocupada”; “bastantes documentos” (muitos); “estavam bastante cansadas” (muito)."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão."
+        "definicao": "Em uso adjetivo, “anexo” e “incluso” concordam com o nome; “obrigado/obrigada” concorda com quem agradece. Já a expressão “em anexo” é invariável.",
+        "aplicacao": "“Seguem anexas as cópias”; “A petição está inclusa”; uma mulher diz “muito obrigada”. “O documento segue em anexo” não flexiona a expressão."
       }
     ],
     "Português-reg-ncia-verbal-e-nominal": [
       {
-        "definicao": "“Assistir a” no sentido de presenciar exige preposição; “obedecer a” também.",
-        "aplicacao": "“A equipe assistiu à sessão”: a preposição “a” exigida por assistir se une ao artigo “a”."
+        "definicao": "Regência é a relação entre uma palavra e seu complemento, inclusive a preposição exigida quando houver. Um mesmo verbo pode ter regimes diferentes conforme o sentido.",
+        "aplicacao": "“O candidato assistiu ao debate” (ver, presenciar, na norma formal: assistir a). “A enfermeira assistiu o paciente” (prestar assistência: transitivo direto)."
       },
       {
-        "definicao": "\"Aspirar ao cargo\" (desejar) é diferente de \"aspirar o ar\" (sorver).",
-        "aplicacao": "Na norma-padrão, \"assistir ao julgamento\" no sentido de presenciar pede \"a\"; \"assistir o paciente\" no sentido de prestar auxílio admite objeto direto."
+        "definicao": "“Obedecer” e “desobedecer” pedem, na norma formal, complemento introduzido por “a”; “preferir” costuma organizar comparação como “preferir X a Y”, sem “mais ... do que”.",
+        "aplicacao": "“Obedecer às normas”; “Prefiro estudar a improvisar”. “Cheguei ao fórum”, em registro formal, usa “a”; o uso coloquial “cheguei no fórum” é frequente, mas pode não ser a resposta cobrada."
       },
       {
-        "definicao": "No contexto desta aula, “Regência nominal e crase” corresponde à seguinte regra ou ideia central: Nomes também regem complemento: \"favorável à proposta\" resulta de \"favorável a\" + artigo feminino \"a\".",
-        "aplicacao": "Em \"obediência às normas\", há preposição regida por \"obediência\" e artigo plural de \"normas\"."
+        "definicao": "Nomes como adjetivos e substantivos também exigem complementos com preposições. O termo regente é o nome; o termo regido completa o sentido.",
+        "aplicacao": "“Favorável à medida” (favorável a); “necessidade de revisão” (necessidade de); “compatível com o sistema” (compatível com)."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Considerando a regência na norma-padrão, assinale a alternativa correta."
+        "definicao": "Termos coordenados devem conservar relações sintáticas claras. O uso inadequado de uma mesma preposição para nomes ou verbos de regências diferentes pode alterar a construção.",
+        "aplicacao": "“Ele gosta de leitura e de música” mantém dois complementos preposicionados. “Ele assistiu ao filme e comentou o filme” respeita verbos com regimes diferentes."
       }
     ],
     "Português-crase-uso-e-proibi-es": [
       {
-        "definicao": "Crase é a fusão de duas vogais “a”, normalmente preposição exigida mais artigo feminino.",
-        "aplicacao": "Teste a troca por palavra masculina: “vou à escola” → “vou ao colégio”."
+        "definicao": "Locuções adverbiais, prepositivas e conjuntivas femininas frequentemente recebem acento grave na escrita padrão: “à noite”, “à medida que”, “à espera de”. O uso decorre da construção consolidada, além da análise de preposição e artigo quando aplicável.",
+        "aplicacao": "“O servidor trabalha à noite”; “À medida que os pedidos chegavam, a equipe os organizava”. Em “a partir de amanhã” não há crase: a palavra seguinte é verbo no infinitivo."
       },
       {
-        "definicao": "No contexto desta aula, “Obrigatória, proibida e facultativa com exemplos” corresponde à seguinte regra ou ideia central: Crase obrigatória: \"Obedeceu à legislação\" (obedecer a + a legislação); \"Saiu às 8 horas\" em indicação determinada de hora.",
-        "aplicacao": "Facultativa em alguns usos antes de possessivo feminino singular: \"escreveu a/à sua professora\", conforme presença opcional do artigo."
+        "definicao": "Antes de pronomes pessoais e da maior parte dos indefinidos não aparece artigo feminino, portanto não há crase. Demonstrativos iniciados por “a” podem integrar a fusão com preposição.",
+        "aplicacao": "“Enviei a ela o comunicado” (sem crase). “Referiu-se àquela decisão” (preposição a + aquela). “Entreguei a alguém” (sem artigo)."
       },
       {
-        "definicao": "Não é suficiente ver palavra feminina: é preciso existir a preposição exigida.",
-        "aplicacao": "Para cidades, use o teste \"volto da\": \"vou à Bahia\" (volto da Bahia), \"vou a Brasília\" (volto de Brasília), ressalvada a presença de determinantes: \"vou à Brasília dos monumentos\"."
+        "definicao": "Em certas situações, o artigo é facultativo e a crase também pode ser: antes de possessivo feminino singular acompanhado de substantivo e em alguns usos com nomes próprios femininos.",
+        "aplicacao": "“Enviei uma mensagem a minha irmã” / “à minha irmã” pode ser admissível conforme a presença do artigo. A escolha precisa considerar o uso do nome e as orientações da norma."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão."
+        "definicao": "Com determinados nomes, a presença do artigo pode indicar referência determinada; com horários e locuções, a crase pode diferenciar a estrutura sintática e o significado.",
+        "aplicacao": "“Entreguei a documentação à secretária” identifica a destinatária; “entreguei a documentação a secretárias” não determina destinatárias específicas. “Chegou às oito” indica horário, “chegou a oito” pode indicar quantidade."
       }
     ],
     "Português-pontua-o-e-sentido": [
       {
-        "definicao": "A pontuação organiza relações sintáticas e efeitos semânticos; vírgula não é mera pausa respiratória.",
-        "aplicacao": "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo."
+        "definicao": "Pontuação organiza relações sintáticas e orienta a leitura. Vírgula não é simplesmente pausa para respirar: sua presença depende da estrutura. Em geral, não se separa por vírgula o sujeito do verbo nem o verbo de seu complemento em ordem direta.",
+        "aplicacao": "“Os candidatos inscritos compareceram” não exige vírgula entre sujeito e verbo. “Os candidatos, compareceram” rompe a relação central. “A banca divulgou, o gabarito” separa indevidamente verbo e objeto."
       },
       {
-        "definicao": "É a organização sintática que relaciona verbo, sujeito, predicado, complementos e outros termos para construir sentido.",
-        "aplicacao": "Na prática: “Os candidatos preparados chegaram cedo” não recebe vírgula entre candidatos e chegaram."
+        "definicao": "Adjuntos adverbiais deslocados ou intercalados podem exigir ou admitir vírgulas conforme extensão, posição e clareza; apostos explicativos e vocativos são normalmente isolados.",
+        "aplicacao": "“Após a publicação do resultado, os candidatos apresentaram recursos.” O adjunto inicial delimita o tempo. “Ana, entregue os autos” isola o vocativo “Ana”. “Ana, a chefe da equipe, chegou” intercala aposto explicativo."
       },
       {
-        "definicao": "Vocativo chama um interlocutor; aposto esclarece ou identifica um termo; intercalações inserem uma informação acessória na oração e podem exigir sinais de pontuação.",
-        "aplicacao": "Na prática, ao estudar “Vocativo, aposto e intercalação”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
+        "definicao": "Orações adjetivas restritivas identificam um subconjunto e não são isoladas por vírgulas; explicativas acrescentam informação sobre o antecedente e são isoladas. A pontuação pode modificar a verdade da frase.",
+        "aplicacao": "“Os candidatos que estudaram passaram” fala de um subconjunto; “Os candidatos, que estudaram, passaram” apresenta “estudaram” como informação acessória sobre todos os candidatos mencionados."
       },
       {
-        "definicao": "O uso das vírgulas muda a extensão da referência.",
-        "aplicacao": "Antes de trocar pontuação em reescritas, compare quais elementos ficaram incluídos ou excluídos."
-      },
-      {
-        "definicao": "No contexto desta aula, “Adjuntos e deslocamento” corresponde à seguinte regra ou ideia central: Adjuntos adverbiais deslocados podem ser isolados: “Durante a manhã, a equipe revisou os processos.” Quanto mais longo ou intercalado, maior a necessidade de sinalizar o deslocamento; evite regras absolutas baseadas em pausa.",
-        "aplicacao": "Na prática, ao estudar “Adjuntos e deslocamento”, identifique no enunciado as informações necessárias e confira como a regra explicada neste bloco se aplica antes de escolher uma resposta."
-      },
-      {
-        "definicao": "Vírgula antes de “mas” é usual entre orações: “Revisou a matéria, mas errou a questão”.",
-        "aplicacao": "Na prática: “Estudou português, matemática e lógica.” Ponto e vírgula pode separar unidades complexas; dois-pontos podem introduzir explicação ou lista."
-      },
-      {
-        "definicao": "“Checklist VUNESP” é a etapa de treino na qual se aplica e verifica o conceito estudado nesta aula; exige identificar dados, escolher a regra e conferir a conclusão.",
-        "aplicacao": "Compare se o sentido restringe ou explica. Não marque por “onde respiraria” na leitura."
-      },
-      {
-        "definicao": "Já um adjunto adverbial deslocado pode ser isolado: \"Após a audiência, o processo foi remetido\".",
-        "aplicacao": "Em ordem direta, não separe sujeito do predicado: \"Os servidores do setor, receberam os processos\" está inadequado."
-      },
-      {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 2. Situação: Quanto à pontuação, assinale a frase escrita de acordo com a norma-padrão."
+        "definicao": "Dois-pontos podem introduzir explicação, enumeração ou fala; ponto e vírgula frequentemente separa estruturas extensas ou elementos complexos de uma enumeração. Conjunções adversativas e conclusivas exigem análise do período.",
+        "aplicacao": "“Há uma exigência: apresentar documento original.” Os dois-pontos introduzem explicação. “A equipe revisou os autos; o cartório, as certidões.” O ponto e vírgula separa orações coordenadas, e a vírgula marca elipse de “revisou”."
       }
     ],
     "Português-coloca-o-pronominal": [
       {
-        "definicao": "Próclise ocorre antes do verbo, ênclise depois e mesóclise no interior do futuro em contextos específicos da norma-padrão.",
-        "aplicacao": "Compare “Não me informaram” e “Informaram-me”."
+        "definicao": "Próclise coloca o pronome átono antes do verbo (“me disseram”); ênclise, depois (“disseram-me”); mesóclise, no interior de formas de futuro sem palavra atrativa (“dir-se-á”). A norma escrita formal dá orientações específicas.",
+        "aplicacao": "“Não me avisaram” apresenta próclise pela negação. “Avise-me amanhã” usa ênclise com imperativo afirmativo. “Dir-lhe-ei a resposta” representa mesóclise formal com futuro do presente."
       },
       {
-        "definicao": "São três posições possíveis do pronome oblíquo átono em relação ao verbo: antes, depois ou inserido no verbo, conforme as regras de colocação pronominal.",
-        "aplicacao": "Ênclise: depois do verbo, em \"Entregou-se o documento\", especialmente em início de período afirmativo na norma-padrão."
+        "definicao": "Negação, pronomes relativos, indefinidos e interrogativos, e determinadas conjunções e advérbios favorecem ou exigem próclise no padrão formal.",
+        "aplicacao": "“Nunca se esqueceu do prazo”; “Foi a servidora que me orientou”; “Quando o chamaram, saiu”. A posição anterior ao verbo decorre de palavras atrativas como “nunca”, “que” e “quando”."
       },
       {
-        "definicao": "No contexto desta aula, “Atração por palavras anteriores e orações subordinadas” corresponde à seguinte regra ou ideia central: Palavras negativas, pronomes relativos, conjunções subordinativas e certos advérbios favorecem a próclise: \"Afirmou que lhe enviaram a mensagem\"; \"Ninguém o viu\".",
-        "aplicacao": "Não aplique uma regra única a locuções verbais: verifique auxiliar, particípio e presença de atrator."
+        "definicao": "Na norma-padrão mais conservadora, não se inicia um período por pronome oblíquo átono; sem palavra atrativa, a ênclise é a construção preferida em muitos casos formais.",
+        "aplicacao": "“Informaram-me o resultado” é uma construção formal. “Me informaram o resultado” é comum na fala brasileira, mas pode ser rejeitada se a questão cobrar estritamente a norma escrita tradicional."
       },
       {
-        "definicao": "É a resolução de uma situação que exige articular as regras e os conceitos da aula, em vez de apenas identificá-los isoladamente.",
-        "aplicacao": "Exemplo 1. Situação: Assinale a alternativa que respeita a colocação pronominal na norma-padrão."
+        "definicao": "Locuções com auxiliar e infinitivo/gerúndio podem permitir mais de uma colocação conforme estrutura, registro e presença de atrativos; com particípio, a ênclise ao particípio não é admitida na norma.",
+        "aplicacao": "“Vou lhe enviar o arquivo” e “Vou enviar-lhe o arquivo” são construções possíveis em diferentes usos formais. “Tinha enviado-lhe” deve ser evitado: não se prende pronome ao particípio."
       }
     ],
     "Matemática-n-meros-reais-e-opera-es": [

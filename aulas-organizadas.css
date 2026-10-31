@@ -69,3 +69,34 @@ mark.tj-focus{display:inline!important;border-radius:4px;padding:1px 3px!importa
 .tj-application .tj-pillar-step{background:#373b43!important}
 .tj-pillar p{font-size:14px!important;line-height:1.75!important;color:#252a33!important;margin:0!important}
 @media(max-width:790px){.tj-pillars{margin:12px 0 7px}.tj-pillar{padding:14px}.tj-pillar h3 small{margin-left:0;width:100%;padding-left:31px}}
+
+/* V16 — Leitura responsiva sem truncamento. Apenas branco, vermelho, preto e cinza. */
+html,body{max-width:100%;overflow-x:clip}
+#lesson,#lessonBody,#lessonSections,.tj-teaching-layout,.tj-teaching-group,.tj-teaching-columns,.tj-teaching-main,.tj-teaching-part,.tj-pillars,.tj-pillar,.visualCustom,.checkQuestion,.checkFeedback,.feedbackBox{box-sizing:border-box;min-width:0;max-width:100%}
+.tj-teaching-head h2,.tj-pillar h3,.tj-pillar p,.tj-teaching-part p,.checkQuestion strong,.checkOpt,.feedbackBox p,.tj-legal-list dd,.studyNotes{overflow-wrap:anywhere;word-break:normal;white-space:normal}
+.tj-teaching-columns.no-legend{display:block}
+#lesson .diagram{min-width:0;max-width:100%;overflow-wrap:anywhere}
+#lesson .readingSteps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:15px 0;text-align:left}
+#lesson .readingSteps span{display:block;min-width:0;overflow-wrap:anywhere;border:1px solid #d5d8de;border-radius:10px;background:#f8f8f9;padding:13px;font-weight:750;color:#17191f}
+.checkQuestion .checkOpt{max-width:100%;min-width:0;white-space:normal;text-align:left;font-size:clamp(15px,3.6vw,17px);line-height:1.55}
+.feedbackBox{padding:16px;border:1px solid #d5d8de;border-left:4px solid #b50913;border-radius:11px;background:#fafafa;color:#17191f}
+.feedbackBox p{margin:12px 0 0;line-height:1.7;color:#17191f}
+@media(max-width:790px){
+ .tj-teaching-group{overflow:visible}
+ .tj-teaching-main{padding:8px 14px 16px!important;width:100%!important;max-width:100%}
+ .tj-teaching-head{padding:15px 14px}
+ .tj-pillar{padding:13px 14px}
+ .tj-pillar h3 small{padding-left:0}
+ .tj-teaching-part p,.tj-pillar p{font-size:15px!important;line-height:1.72!important}
+ #lesson .readingSteps{grid-template-columns:1fr!important;gap:8px}
+ #lesson .diagram{display:flex!important;flex-direction:column!important;align-items:stretch!important;grid-template-columns:none!important;text-align:center}
+ #lesson .diagram>div,#lesson .diagram>span,#lesson .diagram>b{min-width:0;max-width:100%;width:100%;overflow-wrap:anywhere;transform:none!important;white-space:normal!important}
+ #lesson .diagram>span:not(:first-child):not(:last-child),#lesson .diagram>b{font-size:18px}
+ #practiceHost,.checkQuestion{padding-left:0!important;padding-right:0!important}
+ .checkQuestion strong{display:block;font-size:17px!important;line-height:1.55!important}
+ .checkQuestion .checkOpt{padding:13px!important}
+ .feedbackBox{padding:13px}
+}
+/* A paleta final é exclusivamente vermelha, branca, preta e cinza. */
+.tj-focus.tj-blue,.tj-legend-dot.tj-blue{background:#d6d8de!important;border-bottom:2px solid #565b65!important}
+.tj-focus.tj-amber,.tj-legend-dot.tj-amber{background:#ececef!important;border-bottom:2px solid #777c85!important}

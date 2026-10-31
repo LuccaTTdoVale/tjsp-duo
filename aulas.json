@@ -409,66 +409,46 @@
     "objective": "Distinguir informação explícita, implícita e opinião.",
     "sections": [
       [
-        "1. Tema, assunto e tese",
-        "O assunto é aquilo de que o texto trata; tema é o recorte mais específico; tese é a posição central sustentada pelo autor em textos argumentativos. Nem todo texto possui uma tese explícita: uma notícia pode apenas relatar fatos."
+        "Leitura literal e leitura interpretativa",
+        "Uma questão pode perguntar o que está dito, o que se depreende ou a finalidade de uma frase. Em cada caso, o grau de inferência muda. Para “segundo o texto”, procure afirmação textual; para “infere-se”, combine pistas e descarte conclusões mais fortes do que as evidências."
       ],
       [
-        "2. Informação explícita",
-        "É a informação literalmente apresentada pelo texto. Uma questão que pergunta “segundo o texto” exige localizar o trecho e conferir suas condições: quem, quando, onde e com que restrições."
+        "Tema, assunto, ideia central e tese",
+        "A alternativa que menciona o assunto pode ser verdadeira, mas incompleta se o enunciado solicitar a tese. Diferencie o tópico de uma posição sobre ele. Para localizar a tese, procure afirmação avaliativa, recomendação, justificativas e conclusão."
       ],
       [
-        "3. Inferência válida",
-        "Inferir é concluir algo que decorre do texto, mesmo que não esteja escrito literalmente. A conclusão deve ser sustentada por pistas suficientes. Não confunda inferência com opinião pessoal, conhecimento externo ou suposição plausível."
+        "Informação explícita e restrições",
+        "Palavras como apenas, alguns, todos, poderá, deverá, antes, após, exclusivamente e salvo modificam o alcance de uma frase. Compare a intensidade de cada expressão com a da alternativa: “pode” não significa “sempre acontece”, e “alguns” não significa “todos”."
       ],
       [
-        "Aprofundamento — Leitura em camadas",
-        "Primeira leitura: tema e propósito. Segunda: tese, argumentos e conectivos. Terceira: confronto de cada alternativa com trechos concretos. Toda conclusão deve ser sustentada por elementos do texto, não por opinião pessoal."
+        "Inferência e limites da evidência",
+        "Teste a alternativa com a pergunta “Que palavras do texto obrigam ou sustentam esta conclusão?”. Se a resposta exigir um fato novo, hipótese inventada ou causa não indicada, descarte. A VUNESP costuma explorar a diferença entre conclusão necessária, provável e meramente possível."
       ],
       [
-        "Aprofundamento — Informação explícita",
-        "O texto afirma diretamente um dado: “A reunião começou às 9h.” A alternativa correta não precisa repetir as mesmas palavras, mas deve preservar tempo, sujeito e predicado."
+        "Pressuposto e subentendido",
+        "Gatilhos de pressuposição: continuar, deixar de, voltar a, ainda, já, novamente. Em questões de inferência, verifique se a pergunta quer uma informação assumida na frase ou uma intenção sugerida pela situação de comunicação."
       ],
       [
-        "Aprofundamento — Inferência válida",
-        "O texto diz: “Apesar da chuva, a equipe chegou no horário.” É razoável inferir que a chuva poderia dificultar o deslocamento; não é válido concluir que todos vieram de automóvel."
+        "Ponto de vista e vozes do texto",
+        "Antes de atribuir uma afirmação ao autor, identifique quem a enunciou. Separar fatos, hipóteses e avaliações evita alternativas que tratam uma opinião citada como verdade comprovada."
       ],
       [
-        "Aprofundamento — Tese e ponto de vista",
-        "Questões podem pedir o propósito do autor: informar, defender uma posição, criticar, persuadir ou narrar. Separe opinião do autor, dados apresentados e fala citada de terceiros."
+        "Conectivos e relações de sentido",
+        "Compare “mas” (contraste), “portanto” (conclusão), “se” (condição) e “para que” (finalidade). Na substituição de conectivo, duas frases podem permanecer gramaticais e, ainda assim, alterar a relação entre as ideias."
       ],
       [
-        "Aprofundamento — Conectivos e encadeamento",
-        "“Entretanto” indica oposição; “portanto”, conclusão; “embora”, concessão; “porque”, em contextos típicos, explicação ou causa. Analise a relação efetiva entre ideias, não apenas decore o rótulo."
-      ],
-      [
-        "Aprofundamento — Erros das alternativas",
-        "Desconfie de generalizações (“sempre”, “nunca”), inversões de causa e efeito, trocas de sujeitos e extrapolações. A alternativa pode ser verdadeira no mundo e falsa segundo o texto."
-      ],
-      [
-        "Aprofundamento — Roteiro prático",
-        "Leia o comando antes das alternativas, identifique o trecho pertinente, formule sua resposta mental e compare as opções. Ao errar, registre exatamente qual palavra da alternativa mudou o sentido."
-      ],
-      [
-        "Questões de inferência com evidência",
-        "Texto: \"A repartição manteve o atendimento presencial, embora tenha ampliado os serviços digitais.\" É possível concluir que a expansão digital NÃO extinguiu o serviço presencial. Não é possível concluir que a procura presencial aumentou, que os serviços digitais funcionam melhor ou que todos têm internet: o texto não fornece essas informações. Inferir é relacionar pistas, não adivinhar intenções."
-      ],
-      [
-        "Conectivos e mudança de orientação argumentativa",
-        "Compare \"O serviço é lento, mas seguro\" com \"O serviço é seguro, mas lento\". Os fatos mencionados são os mesmos, porém o termo após \"mas\" recebe destaque como contraste decisivo. Em textos de opinião, observe a posição dos conectivos, modalizadores (\"talvez\", \"certamente\") e verbos avaliativos para distinguir fato, hipótese e juízo de valor."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Leia o texto:\n\n“O curso recebeu novos alunos. Para manter o acompanhamento individual, a coordenação ampliou o horário de atendimento.”\n\nSobre o texto, é correto afirmar que: Resposta fundamentada: A ampliação do horário foi uma resposta ao aumento de alunos.. Por quê: A alternativa correta é a única compatível com as informações expressas ou inferíveis do texto. Exemplo 2. Situação: Leia o texto:\n\n“A biblioteca passou a oferecer livros digitais. Os impressos continuam disponíveis aos usuários.”\n\nA ideia expressa no texto indica que: Resposta fundamentada: Os dois formatos de livro coexistem.. Por quê: A alternativa correta é a única compatível com as informações expressas ou inferíveis do texto."
+        "Erros típicos das alternativas",
+        "Roteiro de prova: leia o comando; estabeleça o que deve ser localizado; forme uma resposta com suas palavras; compare as cinco opções; sublinhe a palavra que amplia ou restringe indevidamente o sentido; confirme no trecho. Essa sequência evita escolher a alternativa só por soar bonita."
       ]
     ],
-    "example": "Texto: “Embora chovesse, a prova ocorreu.” Correto inferir que a chuva não impediu a prova; não se pode inferir que choveu o dia inteiro.",
+    "example": "Texto: “O posto passou a abrir às 7h, mas manteve o horário de encerramento.” Informação expressa: a abertura foi antecipada ou alterada para as 7h. Não é possível afirmar quantas horas o posto funcionava antes, porque o horário antigo não foi informado.",
     "pitfalls": [
       "Usar apenas conhecimento pessoal.",
       "Confundir tema com a opinião do autor.",
       "Ignorar conectivos."
     ],
     "formula": "afirmação válida = informação textual + inferência sustentada",
-    "source": "Exemplos autorais de interpretação.",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
     "steps": [
       "Trecho: “Mesmo com a chuva, os estudantes chegaram à biblioteca.”",
       "Informação explícita: os estudantes chegaram à biblioteca.",
@@ -480,43 +460,91 @@
     },
     "check": [
       {
-        "q": "Em “Embora estivesse cansada, Ana estudou”, a relação predominante é de:",
+        "q": "Leia: “Embora o novo portal tenha reduzido filas, parte dos usuários ainda procura atendimento presencial.” Qual conclusão respeita o trecho?",
         "options": [
-          "Causa",
-          "Conclusão",
-          "Concessão",
-          "Finalidade"
+          "O atendimento presencial foi abolido.",
+          "O portal agravou as filas em todos os setores.",
+          "A redução de filas coexistiu com demanda por atendimento presencial.",
+          "Todos os usuários migraram para o portal.",
+          "A presença de usuários prova que o portal falhou."
         ],
         "answer": 2,
-        "why": "“Embora” expressa concessão: o cansaço não impediu a ação."
+        "why": "O conectivo concessivo apresenta um resultado positivo da digitalização sem negar que uma parcela continue buscando o serviço presencial. A conclusão preserva as duas informações.",
+        "wrong": [
+          "“Ainda procura” demonstra que o atendimento presencial permanece relevante.",
+          "O texto afirma redução, não aumento, de filas.",
+          "",
+          "“Parte” impede a generalização para todos.",
+          "A continuidade do presencial não demonstra fracasso do sistema."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-01-01",
+        "group": "Português-interpretacao-portugues-revisado"
       },
       {
-        "q": "\"A repartição manteve o balcão presencial, embora ampliasse serviços digitais.\" Qual inferência é sustentada?",
+        "q": "Texto: “O tribunal informou que a consulta ficará disponível a partir de terça-feira.” O que está explicitamente informado?",
         "options": [
-          "O balcão foi extinto",
-          "Todos têm internet",
-          "A ampliação não extinguiu o atendimento presencial",
-          "O atendimento digital é sempre superior"
+          "A consulta estará acessível desde segunda.",
+          "Haverá acesso antes de terça.",
+          "A consulta já está disponível neste momento.",
+          "O tribunal anunciou terça-feira como marco inicial da disponibilidade.",
+          "Todos os procedimentos serão concluídos na terça."
         ],
-        "answer": 2,
-        "why": "O verbo \"manteve\" indica a continuidade do atendimento presencial."
+        "answer": 3,
+        "why": "A locução temporal “a partir de” estabelece o início indicado da disponibilidade, sem afirmar início anterior, conclusão de procedimentos ou que o serviço já esteja no ar.",
+        "wrong": [
+          "Segunda antecede a data anunciada.",
+          "O início indicado não autoriza acesso antecipado.",
+          "O texto faz anúncio futuro, não confirma estado atual.",
+          "",
+          "Disponibilidade de consulta não equivale ao encerramento de procedimentos."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-01-02",
+        "group": "Português-interpretacao-portugues-revisado"
+      },
+      {
+        "q": "Leia: “A pesquisa ouviu 200 moradores; 65% declararam preferência pelo transporte público.” Qual afirmação excede as informações?",
+        "options": [
+          "A pesquisa entrevistou 200 pessoas.",
+          "Os 200 moradores de toda a cidade preferem transporte público.",
+          "A maioria dos entrevistados declarou essa preferência.",
+          "Cento e trinta entrevistados declararam essa preferência.",
+          "O resultado descreve respostas do grupo ouvido."
+        ],
+        "answer": 1,
+        "why": "O levantamento descreve uma amostra de 200 moradores, não o comportamento de todos os moradores de uma cidade. Passar da amostra ao universo exige evidências não fornecidas.",
+        "wrong": [
+          "Esta é a quantidade expressamente entrevistada.",
+          "",
+          "Como 65% supera metade, há maioria no grupo.",
+          "65% de 200 corresponde a 130 pessoas.",
+          "A frase refere-se aos entrevistados, sem projeção universal."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-01-03",
+        "group": "Português-interpretacao-portugues-revisado"
       }
     ],
     "references": [
       {
-        "name": "VUNESP — edital e provas",
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
         "url": "https://www.vunesp.com.br/TJSP2607"
       },
       {
-        "name": "Academia Brasileira de Letras — VOLP",
-        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabulario"
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
       }
     ],
     "depth": "Aula aprofundada",
-    "reviewStatus": "aprofundada",
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 1,
     "tempoEstimado": 36,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -524,7 +552,7 @@
     ],
     "etapa": "Aprofundada (ampliada)",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -535,56 +563,52 @@
     "objective": "Identificar funções sintáticas nas construções mais comuns.",
     "sections": [
       [
-        "Sujeito",
-        "É o termo sobre o qual o predicado declara algo; pode ser simples, composto, oculto ou indeterminado."
+        "Frase, oração e período",
+        "Em locução verbal, dois verbos podem formar um único núcleo: “O setor vai funcionar amanhã” contém uma oração; não conte automaticamente cada verbo isolado como oração."
       ],
       [
-        "Predicado",
-        "Contém a informação verbal atribuída ao sujeito. Núcleos verbais e nominais determinam sua classificação."
+        "Sujeito e núcleo",
+        "Pergunte ao verbo quem pratica ou recebe a ação e confirme a concordância; a pergunta mecânica nem sempre funciona, sobretudo com orações sem sujeito e verbos impessoais."
       ],
       [
-        "Complementos",
-        "Objeto direto não exige preposição obrigatória; o indireto é introduzido por preposição exigida pelo verbo."
+        "Predicação verbal e complementos",
+        "Cuidado: um mesmo verbo muda de predicação conforme o sentido. “Assistir ao filme” exige “a”; “assistir o paciente” no sentido de prestar assistência pode ser direto. É o significado da frase que determina a análise."
       ],
       [
-        "Adjuntos x complementos",
-        "Adjunto adnominal caracteriza um substantivo; complemento nominal completa sentido de nome abstrato, adjetivo ou advérbio."
+        "Predicado, predicativo e adjuntos",
+        "Não confunda predicativo com objeto direto: em “Consideraram a prova difícil”, “a prova” é objeto direto e “difícil” é predicativo desse objeto."
       ],
       [
-        "Como reconhecer sujeito e predicado na prática",
-        "Em \"Chegaram os documentos\", o verbo \"chegaram\" concorda com \"os documentos\": sujeito simples posposto. Em \"Precisa-se de servidores\", o verbo é transitivo indireto; o \"se\" indetermina o sujeito, e o verbo fica no singular. Em \"Vendem-se imóveis\", o verbo é transitivo direto e o \"se\" é partícula apassivadora: \"imóveis são vendidos\"; por isso, plural."
-      ],
-      [
-        "Verbo de ligação, predicativo e tipos de predicado",
-        "\"A sentença ficou clara\": \"ficou\" liga o sujeito a uma qualidade (predicado nominal). \"O escrevente digitou rapidamente\": núcleo verbal de ação (predicado verbal). \"O escrevente saiu satisfeito\": apresenta ação e qualidade do sujeito (predicado verbo-nominal). Para achar predicativo do objeto, veja \"Consideraram a decisão justa\": \"justa\" caracteriza \"a decisão\"."
-      ],
-      [
-        "Complemento nominal e adjunto adnominal",
-        "\"A crítica ao projeto\" traz complemento nominal: o projeto é alvo da crítica. \"A crítica do professor\" pode indicar quem criticou (adjunto adnominal) conforme contexto. Diferencie agente e paciente quando o nome é abstrato. É uma distinção semântica; o simples fato de haver preposição não resolve sozinho."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Na análise sintática, assinale a afirmação correta. Resposta fundamentada: Em “Foram entregues os ofícios”, “os ofícios” é sujeito.. Por quê: Na voz passiva analítica, os ofícios é paciente e sujeito da oração. Exemplo 2. Situação: Na análise sintática, assinale a afirmação correta. Resposta fundamentada: Em “A testemunha respondeu ao juiz”, “ao juiz” é objeto indireto.. Por quê: O verbo respondeu rege a preposição a."
+        "Coordenação e subordinação",
+        "Em “Os candidatos que estudaram foram aprovados”, a oração iniciada por “que” restringe quais candidatos; sua função é adjetiva e modifica o nome."
       ]
     ],
-    "example": "“Chegaram os documentos.” Sujeito simples: “os documentos”. O verbo concorda com o núcleo “documentos”.",
+    "example": "“Silêncio!” é frase sem oração. “O cartório abriu.” é frase, oração e período simples. “O cartório abriu e os servidores chegaram.” forma um período composto por duas orações, uma em cada verbo.",
     "pitfalls": [
       "Presumir que o sujeito é sempre o primeiro termo.",
       "Confundir vocativo com sujeito."
     ],
     "formula": "verbo + pergunta “quem/o que?” pode ajudar, mas não substitui análise da oração",
-    "source": "Exemplos autorais.",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
     "depth": "Introdução — expansão pendente",
     "references": [
       {
-        "name": "Concurso TJSP — documentos oficiais VUNESP",
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
         "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
       }
     ],
-    "reviewStatus": "introducao",
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 8,
     "tempoEstimado": 20,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -594,19 +618,74 @@
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
     "check": [
       {
-        "q": "Na frase \"Vendem-se imóveis\", o verbo está no plural porque:",
+        "q": "Em “Chegaram ao protocolo três requerimentos urgentes”, qual termo é sujeito da oração?",
         "options": [
-          "o sujeito é indeterminado",
-          "\"imóveis\" funciona como sujeito paciente",
-          "o verbo é impessoal",
-          "a norma dispensa concordância"
+          "Ao protocolo.",
+          "Três requerimentos urgentes.",
+          "Urgentes, isoladamente.",
+          "Chegaram ao protocolo.",
+          "Um sujeito indeterminado."
         ],
         "answer": 1,
-        "why": "\"Imóveis são vendidos\": construção de voz passiva sintética; há concordância com o sujeito paciente."
+        "why": "O verbo “chegaram” está na terceira pessoa do plural para concordar com “três requerimentos urgentes”, que aparece após o verbo. “Requerimentos” é o núcleo.",
+        "wrong": [
+          "“Ao protocolo” indica destino ou lugar, não quem chegou.",
+          "",
+          "“Urgentes” caracteriza o nome, mas não forma sozinho o sujeito.",
+          "A sequência contém o predicado verbal e uma circunstância.",
+          "O sujeito está expresso depois do verbo, portanto é determinado."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-02-01",
+        "group": "Português-sintaxe-portugues-revisado"
+      },
+      {
+        "q": "Na frase “A chefia considerou a proposta viável”, a palavra “viável” exerce função de:",
+        "options": [
+          "Objeto direto isolado.",
+          "Adjunto adverbial de tempo.",
+          "Agente da passiva.",
+          "Predicativo do objeto.",
+          "Núcleo do sujeito."
+        ],
+        "answer": 3,
+        "why": "“A proposta” é o objeto direto de “considerou”; “viável” atribui uma característica a esse objeto, exercendo a função de predicativo do objeto.",
+        "wrong": [
+          "O objeto direto é a expressão “a proposta”.",
+          "Não há indicação de tempo.",
+          "A oração está na voz ativa e não apresenta agente da passiva.",
+          "",
+          "O sujeito é “a chefia”."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-02-02",
+        "group": "Português-sintaxe-portugues-revisado"
+      },
+      {
+        "q": "Assinale a análise correta: “Os servidores vão analisar o pedido amanhã.”",
+        "options": [
+          "São duas orações, uma para cada verbo.",
+          "“Amanhã” é o objeto direto.",
+          "“Vão analisar” constitui uma locução verbal numa oração.",
+          "“O pedido” é sujeito.",
+          "“Os servidores” é objeto indireto."
+        ],
+        "answer": 2,
+        "why": "O auxiliar “vão” e o principal “analisar” formam um núcleo verbal composto. “Os servidores” é sujeito e “o pedido”, complemento direto.",
+        "wrong": [
+          "Uma locução verbal não cria por si duas orações.",
+          "“Amanhã” indica tempo.",
+          "",
+          "“O pedido” é aquilo que será analisado.",
+          "“Os servidores” praticam a ação e concordam com o verbo."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-02-03",
+        "group": "Português-sintaxe-portugues-revisado"
       }
     ],
     "steps": [],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -618,119 +697,51 @@
     "sections": [
       [
         "O que é crase",
-        "O acento grave marca a fusão de preposição “a” com artigo feminino “a/as” ou com pronomes demonstrativos adequados."
+        "Faça duas perguntas: o termo anterior exige “a”? O nome seguinte admite artigo feminino? Se uma resposta for não, não use o acento. Em expressões como “à tarde” também há usos convencionais que precisam ser reconhecidos."
       ],
       [
         "Teste do masculino",
-        "Se ao trocar por palavra masculina aparecer “ao”, provavelmente há crase: vou à escola / vou ao colégio."
+        "O teste não é infalível para nomes próprios, pronomes e locuções: ele é uma ferramenta de verificação, não substitui a análise da regência."
       ],
       [
-        "Não ocorre",
-        "Em geral, antes de verbo, palavra masculina ou pronomes pessoais; há exceções contextualizadas."
+        "Casos proibidos",
+        "Evite decorar só exemplos: identifique por que o artigo não está presente. Expressões como “à moda de” podem justificar crase mesmo diante de palavra masculina quando a expressão está implícita."
       ],
       [
-        "Aprofundamento — Conceito e diagnóstico",
-        "O acento grave marca a fusão entre preposição a e artigo feminino a/as, ou entre a preposição a e certos demonstrativos (aquele, aquela, aquilo). Não é um acento de pronúncia: é consequência da regência e da presença de elemento feminino compatível."
+        "Nomes de lugar e horas",
+        "O macete “volto da, crase há; volto de, crase pra quê?” serve de pista para lugares, mas pode variar com modificadores: “à Brasília dos anos 1960” admite artigo pela determinação."
       ],
       [
-        "Aprofundamento — Método em quatro perguntas",
-        "1. O termo anterior pede preposição a? 2. O termo seguinte admite artigo a/as? 3. Não há regra impeditiva? 4. A substituição por masculino gera ao? Em “obedeceu à norma”, obedecer exige a, norma aceita a, e “obedeceu ao regulamento” confirma."
-      ],
-      [
-        "Aprofundamento — Quando não empregar",
-        "Em regra, não há crase antes de verbo (“a partir”), palavra masculina (“a prazo”), pronome pessoal (“a ela”) e artigo indefinido (“a uma pessoa”). Locuções femininas como “à tarde” e “às vezes” merecem estudo próprio. Nomes de lugar precisam de análise de artigo: “vou à Bahia”, mas “vou a Brasília”, em usos comuns."
-      ],
-      [
-        "Aprofundamento — Crase facultativa e casos específicos",
-        "Pode ser facultativa antes de possessivo feminino singular com artigo facultativo (“a/à minha colega”), e após até em certos contextos (“até a/à escola”). Com nomes próprios femininos, depende do uso do artigo e da variedade da linguagem; confirme contexto e padrão exigido pela banca."
-      ],
-      [
-        "Aprofundamento — Aplicação comparada",
-        "“Entregou a documentação à servidora”: o primeiro a é artigo de documentação, o segundo contém preposição exigida por entregar algo a alguém + artigo da servidora. “Entregou a documentação a ela”: o pronome pessoal dispensa artigo; não há crase."
-      ],
-      [
-        "Aprofundamento — Treino de decisão",
-        "Analise: “Compareceu à audiência”, “Começou a trabalhar”, “Referiu-se àquela norma”. Para cada uma, identifique a preposição regida, o determinante ou demonstrativo e a razão da grafia. Depois tente criar um contraexemplo sem crase."
-      ],
-      [
-        "Fundamento: por que existe o acento grave",
-        "Crase é a fusão de duas vogais a, normalmente a preposição a exigida pelo termo anterior e o artigo feminino a(s) que acompanha o termo seguinte. O acento grave indica essa fusão na escrita: Vou à escola = vou a + a escola. Não basta a palavra seguinte ser feminina: é necessário justificar as duas partes."
-      ],
-      [
-        "Primeiro teste: a palavra anterior exige a preposição?",
-        "Quem vai, vai a algum lugar; quem se refere, refere-se a algo; quem obedece, obedece a alguém. Já quem visita, visita algo ou alguém, sem a preposição a: visitei a escola. Compare “Fui à biblioteca” (ir a + a biblioteca) com “Visitei a biblioteca” (visitar + a biblioteca)."
-      ],
-      [
-        "Segundo teste: o termo seguinte admite artigo feminino?",
-        "Biblioteca admite “a biblioteca”; Portugal, em usos comuns, aparece sem artigo: “fui a Portugal”. Em “fui à Bahia”, ocorre artigo: “a Bahia”. A construção e o uso do artigo variam conforme o substantivo e o contexto. Nomes próprios de pessoa podem admitir artigo em certas variedades de português."
-      ],
-      [
-        "Teste da substituição por masculino",
-        "Troque a palavra feminina por um substantivo masculino correspondente. Se a construção gerar “ao”, em geral haverá crase na feminina: “Entreguei o relatório à diretora” → “Entreguei o relatório ao diretor”. Se resultar somente “a”, não há crase: “Vi a diretora” → “Vi o diretor”. É teste auxiliar: não substitui o exame da regência e do artigo."
-      ],
-      [
-        "Locuções femininas",
-        "Em locuções adverbiais, prepositivas e conjuntivas femininas consagradas, usa-se frequentemente o acento: à noite, às vezes, à direita, à medida que, à procura de. Memorize exemplos em frases: “Estudamos à noite”; “À medida que praticamos, corrigimos mais erros”."
-      ],
-      [
-        "Horas e expressões de tempo",
-        "Antes de horas determinadas, normalmente ocorre crase: “Chegarei às 14 horas”. Compare “A reunião será das 13h às 15h” e “Estudaremos de 13h a 15h”: a correlação das preposições importa. “Daqui a duas horas” indica tempo futuro e não recebe crase."
-      ],
-      [
-        "Demonstrativos: aquele, aquela, aquilo",
-        "A preposição a pode fundir-se ao a inicial de aquele(s), aquela(s), aquilo: “Referi-me àquele documento” (referir-se a + aquele). Também pode ocorrer em “à qual” e “às quais” quando o termo regente exige a preposição: “A lei à qual me referi”."
-      ],
-      [
-        "Casos em que não ocorre crase",
-        "Em regra, não há crase antes de verbo (“começou a estudar”), de pronome pessoal (“entreguei a ela”), de termo masculino sem construção especial (“a prazo”), nem quando há apenas preposição e não artigo (“a qualquer pessoa”). Antes de artigo indefinido uma, em regra não há crase. Existem usos excepcionais e locuções com palavra masculina subentendida, por isso não transforme macetes em regra absoluta."
-      ],
-      [
-        "Casos facultativos e atenção ao contexto",
-        "Pode haver facultatividade em construções como “até a/à escola”, dependendo da análise adotada, e diante de possessivo feminino singular com artigo facultativo: “refiro-me a minha/à minha professora”. Em gramáticas normativas, a presença do artigo antes de nome próprio feminino pode variar. Em prova, leia o contexto e as alternativas."
-      ],
-      [
-        "Comparação de frases",
-        "“Assistiu à palestra”: assistir no sentido de presenciar pede a; palestra admite a. “Assistiu a uma palestra”: uma é artigo indefinido, sem fusão de dois a. “Chegou à conclusão”: chegar a + a conclusão. “A conclusão foi publicada”: o primeiro a é apenas artigo, não há crase."
-      ],
-      [
-        "Roteiro de resolução VUNESP",
-        "1) Localize o termo anterior. 2) Investigue a regência ou locução. 3) Verifique artigo ou pronome iniciado em a. 4) Faça teste de masculino, se possível. 5) Confira se há proibição, facultatividade ou expressão de horas. 6) Leia a frase toda depois de decidir."
-      ],
-      [
-        "Casos facultativos e casos proibidos",
-        "A crase pode ser facultativa antes de pronome possessivo feminino singular quando o artigo também é facultativo: \"Entreguei a ata a/à minha chefe\" (no contexto em que ambas as construções são admitidas). Antes de verbos não há artigo: \"começou a analisar\". Antes de palavra masculina em regra não há artigo feminino: \"a prazo\". Diante de \"casa\" sem determinante, a construção pode ser \"voltar a casa\"; com determinante, \"voltar à casa da família\"."
-      ],
-      [
-        "A expressão \"à medida que\" e o teste do masculino",
-        "Em \"À medida que o prazo terminava, aumentavam as dúvidas\", a locução conjuntiva exige acento indicativo de crase. Já \"A medida foi aprovada\" começa com artigo, sem fusão de preposição. Para saber se existe crase em \"Referiu-se à decisão\", troque por masculino: \"Referiu-se ao despacho\". O \"ao\" é um indicador útil, mas regras próprias de locuções e nomes geográficos exigem atenção."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: À tarde, os documentos foram organizados.. Por quê: Locução adverbial feminina de tempo: à tarde. Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: Ela voltou à biblioteca após o almoço.. Por quê: Voltar a + artigo a antes de biblioteca: à biblioteca."
+        "Crase facultativa e demonstrativos",
+        "Não confunda demonstrativo “aquele” com artigo “a”: a crase pode ser exigida antes de demonstrativo masculino iniciado por “a”, como “àquele”, apesar de não haver palavra feminina."
       ]
     ],
-    "example": "“Entreguei o documento à diretora.” O verbo pede preposição a e “diretora” admite artigo a.",
+    "example": "“Entreguei o documento à diretora”: quem entrega algo entrega a alguém (preposição a) e “diretora” admite “a diretora” (artigo a). Portanto, a + a = à.",
     "pitfalls": [
       "Achar que toda palavra feminina pede crase.",
       "Usar crase diante de verbo."
     ],
     "formula": "a (preposição) + a (artigo) = à",
-    "source": "Exemplos autorais.",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
     "depth": "Introdução — expansão pendente",
     "references": [
       {
-        "name": "ABL — Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
       },
       {
-        "name": "VOLP — Vocabulário Ortográfico da Língua Portuguesa",
-        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabulario"
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
       }
     ],
-    "reviewStatus": "introducao",
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 12,
     "tempoEstimado": 20,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -740,48 +751,70 @@
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
     "check": [
       {
-        "q": "Qual alternativa apresenta crase corretamente empregada?",
+        "q": "Qual frase apresenta crase exigida por regência e artigo na norma-padrão?",
         "options": [
-          "Começou à revisar o processo.",
-          "Entregou o pedido à servidora responsável.",
-          "Informou à ela a decisão.",
-          "Foi à pé ao cartório."
-        ],
-        "answer": 1,
-        "why": "Entregar algo a alguém pede preposição a, e “servidora” admite artigo a: à servidora. Antes de verbo ou de pronome pessoal “ela”, não se emprega crase; “a pé” não leva acento."
-      },
-      {
-        "q": "Em qual frase o acento é exigido pela fusão com demonstrativo?",
-        "options": [
-          "Chegou àquele entendimento.",
-          "Voltou à estudar.",
-          "Referiu-se à qualquer norma.",
-          "Começou à partir de hoje."
+          "O relatório foi enviado à diretora responsável.",
+          "O candidato começou à revisar os arquivos.",
+          "O aviso foi entregue à ela.",
+          "O cartório respondeu à todos os usuários.",
+          "O funcionário escreveu à lápis."
         ],
         "answer": 0,
-        "why": "Chegar a + aquele produz àquele. Antes de verbo e de “qualquer” não ocorre a mesma fusão."
+        "why": "O verbo “enviar” admite destinatário introduzido pela preposição “a”, e “diretora” recebe artigo feminino definido. A fusão é registrada por “à”.",
+        "wrong": [
+          "",
+          "Antes do verbo no infinitivo não há artigo feminino.",
+          "O pronome pessoal “ela” não admite esse artigo.",
+          "“Todos” não recebe artigo feminino “a” nessa posição.",
+          "“Lápis” é palavra masculina e a expressão instrumental é “a lápis”."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-03-01",
+        "group": "Português-crase-portugues-revisado"
       },
       {
-        "q": "Marque a opção correta sobre horas.",
+        "q": "Em “O setor se referiu àquelas propostas”, o acento grave surge porque:",
         "options": [
-          "O curso começa as 8h.",
-          "A aula será às 8h.",
-          "Daqui à duas horas terminaremos.",
-          "Voltarei à qualquer hora."
+          "A palavra “propostas” está no plural.",
+          "Toda palavra demonstrativa recebe crase.",
+          "O verbo está no passado.",
+          "O artigo masculino se transformou em feminino.",
+          "A preposição “a” se funde ao “a” inicial do demonstrativo."
         ],
-        "answer": 1,
-        "why": "Horas determinadas costumam pedir às. Em “daqui a duas horas”, a exprime tempo futuro e não há artigo."
+        "answer": 4,
+        "why": "“Referir-se” pede preposição “a”. O demonstrativo “aquelas” começa por “a”; a sequência a + aquelas produz “àquelas”.",
+        "wrong": [
+          "Plural não determina crase por si.",
+          "Demonstrativos que não recebem preposição não produzem fusão.",
+          "Tempo verbal não rege acento grave.",
+          "Não existe transformação de artigo masculino.",
+          ""
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-03-02",
+        "group": "Português-crase-portugues-revisado"
       },
       {
-        "q": "Assinale o uso adequado da crase na norma-padrão.",
+        "q": "A frase “Chegou ____ 15 horas ao cartório” exige qual preenchimento na indicação de horário?",
         "options": [
-          "Começou à estudar",
-          "Saiu à prazo",
-          "Obedeceu à decisão",
-          "Entregou à ela"
+          "a",
+          "há",
+          "as",
+          "às",
+          "à"
         ],
-        "answer": 2,
-        "why": "\"Obedecer a\" + \"a decisão\" = \"à decisão\"; antes de verbo, masculino e pronome pessoal dos exemplos não há crase."
+        "answer": 3,
+        "why": "Para horário determinado, usa-se “às”, com preposição e artigo no plural. “À” singular não concorda com “15 horas”.",
+        "wrong": [
+          "“A” simples não representa a fusão esperada.",
+          "“Há” expressa tempo decorrido ou existência, não essa indicação.",
+          "“As” não marca a fusão.",
+          "",
+          "“À” é singular, inadequado a “15 horas”."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-03-03",
+        "group": "Português-crase-portugues-revisado"
       }
     ],
     "steps": [
@@ -790,7 +823,7 @@
       "Fusão a + a = à. Resposta: “dirigiu-se à secretaria”.",
       "Controle: “dirigiu-se ao setor” confirma a fusão."
     ],
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -1795,47 +1828,23 @@
     "objective": "Compreender e aplicar coesão e coerência em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Coerência é a compatibilidade lógica e temática das ideias; coesão é a ligação linguística entre as partes do texto."
+        "Coesão e coerência",
+        "Um texto pode ter muitos conectivos e continuar incoerente. Analise se as relações estabelecidas são semanticamente possíveis e se a progressão do assunto é consistente."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Localize o referente de pronomes e expressões substitutivas. Conectivos como portanto, embora e contudo estabelecem relações diferentes: conclusão, concessão e oposição."
+        "Anáfora, catáfora e retomada",
+        "Ambiguidades de referência são exploradas em reescritas: se “ela” pode referir-se a duas pessoas femininas, a clareza diminui; substituir por um nome explícito pode resolver."
       ],
       [
-        "3. Exemplo aplicado",
-        "Compare “Estudou muito; portanto, melhorou” com “Estudou muito; contudo, melhorou”. A primeira relação é conclusão; a segunda pode soar contraditória sem contexto."
+        "Conectores e progressão",
+        "Identifique antes a relação entre as orações e só depois escolha o conectivo. Nem todo conector pode ser substituído por outro da mesma posição sem alterar o significado."
       ],
       [
-        "Aprofundamento dirigido 1 — Coesão referencial: como o texto evita repetições",
-        "Coesão é a conexão linguística entre partes do texto. Em “Marina protocolou o pedido. Ela recebeu o comprovante”, o pronome “ela” retoma Marina. Para identificar o referente, pergunte quem já foi apresentado e qual combinação de número e gênero faz sentido. Nem sempre o termo mais próximo é o referente correto."
-      ],
-      [
-        "Aprofundamento dirigido 2 — Coesão sequencial: conectivos e relações lógicas",
-        "Conjunções não são intercambiáveis: “portanto” introduz conclusão; “porque”, explicação ou causa; “embora”, concessão; “entretanto”, oposição. Trocar “embora” por “portanto” altera a relação entre as orações. Na prova, leia a frase antes e depois da palavra destacada e descreva a relação sem olhar alternativas."
-      ],
-      [
-        "Aprofundamento dirigido 3 — Coerência e inferência",
-        "Coerência é a compatibilidade global das informações com a situação comunicativa. Um texto pode apresentar conectivos corretos e ainda ser contraditório: “Todos chegaram antes das 8h. João, integrante do grupo, chegou às 9h.” A contradição exige examinar o alcance de “todos”. Na VUNESP, diferencie o que foi dito literalmente do que é apenas possível."
-      ],
-      [
-        "Coerência: relações que precisam fazer sentido",
-        "Coerência é a consistência global das informações. \"A sessão terminou às 14h. Por isso começou às 15h\" viola a sequência temporal, salvo contexto excepcional explicitado. Já a coesão é o encadeamento linguístico: pronomes, elipses, repetições controladas, conectivos e substituições lexicais. Um texto pode ser coeso e incoerente; os conceitos não são sinônimos."
-      ],
-      [
-        "Referência e progressão temática",
-        "Em \"A juíza publicou a decisão. Ela foi disponibilizada depois\", \"ela\" pode criar ambiguidade se não houver pistas: juíza ou decisão? Escrever \"A decisão foi disponibilizada depois\" elimina dúvida. Compare \"portanto\" (conclusão) com \"entretanto\" (oposição) e \"porque\" (causa/explicação); trocar conectivos pode alterar a relação lógica sem mudar os demais termos."
-      ],
-      [
-        "Intertextualidade com precisão",
-        "A intertextualidade ocorre quando um texto dialoga com outro por citação, referência, paródia ou retomada de estrutura. Alusão indireta exige reconhecimento de contexto; não invente referências que o enunciado não sustenta. Em prova, primeiro identifique a passagem textual citada, depois a intenção da retomada e, por fim, o efeito de sentido."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Identifique a relação de sentido corretamente atribuída ao conectivo destacado. Resposta fundamentada: Em “Estudou, mas não passou”, “mas” exprime oposição.. Por quê: Mas é conectivo adversativo. Exemplo 2. Situação: Identifique a relação de sentido corretamente atribuída ao conectivo destacado. Resposta fundamentada: Em “Além disso, resolveu exercícios”, “além disso” adiciona informação.. Por quê: O conectivo acrescenta argumento."
+        "Paráfrase e manutenção de sentido",
+        "Na comparação, examine quantificadores, tempo verbal, modalidade (“pode” x “deve”), negações e condições. Essas pequenas mudanças produzem grandes diferenças."
       ]
     ],
-    "example": "Compare “Estudou muito; portanto, melhorou” com “Estudou muito; contudo, melhorou”. A primeira relação é conclusão; a segunda pode soar contraditória sem contexto.",
+    "example": "“A secretaria publicou a lista. Ela estará disponível amanhã.” “Ela” retoma “lista”: coesão referencial. “A lista foi divulgada ontem; portanto, será publicada somente na próxima semana” pode apresentar contradição, conforme o sentido de “divulgada” e “publicada”.",
     "pitfalls": [
       "Não confunda repetição lexical com ausência de coesão: repetição controlada pode ser estratégia de clareza."
     ],
@@ -1843,43 +1852,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Em “O servidor registrou o pedido; portanto, o procedimento avançou”, “portanto” exprime qual relação?",
+        "q": "Em “Os ofícios chegaram ontem. Eles serão distribuídos hoje”, o pronome “eles” retoma:",
         "options": [
-          "Conclusão",
-          "Oposição",
-          "Alternância",
-          "Condição"
+          "Os destinatários não mencionados.",
+          "Os ofícios.",
+          "Os funcionários ausentes.",
+          "Os dias do calendário.",
+          "Uma equipe responsável."
         ],
-        "answer": 0,
-        "why": "“Portanto” sinaliza consequência/conclusão da informação anterior."
+        "answer": 1,
+        "why": "O masculino plural do pronome coincide com “ofícios”, e o sentido confirma: são os documentos que serão distribuídos.",
+        "wrong": [
+          "O texto não menciona destinatários.",
+          "",
+          "Não há funcionários como referente.",
+          "“Ontem” não é um conjunto de dias referido.",
+          "Não aparece equipe no trecho."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-04-01",
+        "group": "Português-coes-o-e-coer-ncia-portugues-revisado"
       },
       {
-        "q": "Qual substituição transforma uma relação de oposição em conclusão?",
+        "q": "Na sequência “O sistema apresentou falhas; ______, foi temporariamente suspenso”, qual conector expressa consequência?",
         "options": [
-          "trocar entretanto por porém",
-          "trocar entretanto por contudo",
-          "trocar entretanto por portanto",
-          "trocar entretanto por todavia"
+          "contudo",
+          "embora",
+          "portanto",
+          "ao passo que",
+          "apesar de"
         ],
         "answer": 2,
-        "why": "\"Portanto\" expressa conclusão; os outros conectivos expressam oposição."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "why": "A suspensão pode ser apresentada como resultado das falhas; “portanto” sinaliza conclusão a partir do fato anterior.",
+        "wrong": [
+          "“Contudo” criaria oposição.",
+          "“Embora” iniciaria concessão e exigiria outra estrutura.",
+          "",
+          "“Ao passo que” estabeleceria contraste ou simultaneidade.",
+          "“Apesar de” introduziria concessão, não resultado."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-04-02",
+        "group": "Português-coes-o-e-coer-ncia-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Original: “Nem todos os candidatos entregaram a documentação.” Qual reescrita mantém o sentido?",
+        "options": [
+          "Nenhum candidato entregou a documentação.",
+          "Todos entregaram a documentação incompleta.",
+          "A maioria deixou de entregar, necessariamente.",
+          "Todos deixaram de entregar.",
+          "Pelo menos um candidato não entregou a documentação."
+        ],
+        "answer": 4,
+        "why": "A negação parcial “nem todos” assegura a existência de alguém que não entregou os documentos, mas não informa quantos deixaram de fazê-lo.",
+        "wrong": [
+          "“Nenhum” transforma negação parcial em total.",
+          "O original não menciona documentação incompleta.",
+          "Não há quantificação suficiente para afirmar maioria.",
+          "“Todos deixaram” é negação total.",
+          ""
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-04-03",
+        "group": "Português-coes-o-e-coer-ncia-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 2,
     "tempoEstimado": 30,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -1887,7 +1944,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -1899,31 +1956,23 @@
     "objective": "Compreender e aplicar sinônimos, antônimos e polissemia em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Sinônimos aproximam significados; antônimos opõem sentidos; uma palavra polissêmica tem sentidos diferentes conforme o contexto."
+        "Sinonímia contextual",
+        "“Econômico” e “barato” nem sempre equivalem: “um carro econômico” pode consumir pouco combustível sem ter preço baixo. Em prova, reintroduza o sinônimo na frase para avaliar se o sentido se preserva."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Para substituir uma palavra, preserve o sentido e o registro do enunciado. A palavra “claro” pode designar luminosidade, evidência ou transparência."
+        "Antonímia e oposição",
+        "A negação de uma palavra não obriga o seu oposto extremo: “não foi fácil” não significa necessariamente “foi impossível”. Observe os graus intermediários."
       ],
       [
-        "3. Exemplo aplicado",
-        "Em “a explicação ficou clara”, “compreensível” é mais adequado que “iluminada”."
+        "Polissemia e contexto",
+        "Não escolha automaticamente o sentido mais frequente. Primeiro identifique o campo semântico da frase e depois confira se a alternativa respeita esse uso."
       ],
       [
-        "Sinônimo depende do uso concreto",
-        "\"Claro\" pode significar iluminado (quarto claro), compreensível (explicação clara) ou evidente (resultado claro). Substituí-lo por \"luminoso\" só funciona no primeiro caso. Uma palavra polissêmica reúne sentidos relacionados; homônimos podem coincidir em forma ou som sem manter o mesmo significado. Observe regência, intensidade, formalidade e contexto antes de aceitar equivalências."
-      ],
-      [
-        "Antônimos e contrários graduais",
-        "\"Aberto/fechado\" pode formar oposição complementar em certo contexto; \"quente/frio\" é oposição graduável, com estados intermediários. \"Comprar/vender\" são conversos: a mesma operação descrita de pontos de vista diferentes. Em uma reescrita, o antônimo lexical isolado nem sempre preserva a estrutura argumentativa da frase."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Considere o sentido das palavras. Assinale a relação semântica correta. Resposta fundamentada: “Contundente” pode significar “incisivo”.. Por quê: Contundente, figuradamente, = incisivo ou vigoroso. Exemplo 2. Situação: Considere o sentido das palavras. Assinale a relação semântica correta. Resposta fundamentada: “Peremptório” pode significar “definitivo”.. Por quê: Peremptório = categórico/definitivo."
+        "Ambiguidade e efeito expressivo",
+        "A pontuação e a ordem das palavras podem desfazer ambiguidades. Em questões, veja se a reescrita introduz ou resolve uma leitura indevida."
       ]
     ],
-    "example": "Em “a explicação ficou clara”, “compreensível” é mais adequado que “iluminada”.",
+    "example": "“O magistrado proferiu decisão célere.” Nesse contexto, “célere” se aproxima de “rápida”. Em “uma corrente célere”, pode haver uso menos comum. A troca precisa respeitar o contexto, e não apenas o verbete do dicionário.",
     "pitfalls": [
       "Sinônimos raramente são substituíveis em todo contexto; observe a frase completa."
     ],
@@ -1931,32 +1980,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Na frase \"A explicação foi clara\", qual substituição melhor conserva o sentido de \"clara\"?",
+        "q": "Em “O parecer apresentou fundamentação sucinta”, a substituição que melhor preserva o sentido de “sucinta” é:",
         "options": [
-          "iluminada",
-          "compreensível",
-          "transparente fisicamente",
-          "fria"
+          "contraditória",
+          "extensa",
+          "desatualizada",
+          "concisa",
+          "ambígua"
         ],
-        "answer": 1,
-        "why": "No contexto de explicação, \"clara\" significa fácil de entender, não iluminada."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 3,
+        "why": "“Sucinta” caracteriza uma fundamentação breve e objetiva. A equivalência se refere à extensão do texto, não à sua qualidade jurídica.",
+        "wrong": [
+          "Contradição não decorre da brevidade.",
+          "“Extensa” indica o oposto da brevidade.",
+          "Atualidade do conteúdo é outro critério.",
+          "",
+          "Ambiguidade diz respeito à possibilidade de leituras múltiplas."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-05-01",
+        "group": "Português-sin-nimos-ant-nimos-e-polissemia-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Na expressão “decisão provisória”, qual termo funciona como antônimo contextual de “provisória”?",
+        "options": [
+          "temporária",
+          "definitiva",
+          "preliminar",
+          "transitória",
+          "interina"
+        ],
+        "answer": 1,
+        "why": "Uma decisão provisória tem caráter não permanente; “definitiva” se opõe precisamente a esse caráter, no contexto apresentado.",
+        "wrong": [
+          "“Temporária” é próxima de provisória.",
+          "",
+          "“Preliminar” sugere etapa anterior, não permanência.",
+          "“Transitória” sugere duração limitada.",
+          "“Interina” indica caráter temporário."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-05-02",
+        "group": "Português-sin-nimos-ant-nimos-e-polissemia-portugues-revisado"
+      },
+      {
+        "q": "O termo “banco” em “banco de dados” foi empregado para designar:",
+        "options": [
+          "Um assento de madeira.",
+          "Uma agência bancária.",
+          "Uma lista física de cadeiras.",
+          "Uma praça de alimentação.",
+          "Uma coleção organizada de informações."
+        ],
+        "answer": 4,
+        "why": "O complemento “de dados” seleciona o sentido informacional da palavra: um sistema ou conjunto estruturado de dados para consulta.",
+        "wrong": [
+          "O contexto não trata de mobiliário.",
+          "Não se fala de instituição financeira.",
+          "“Dados” não designa cadeiras.",
+          "A frase não apresenta estabelecimento de alimentação.",
+          ""
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-05-03",
+        "group": "Português-sin-nimos-ant-nimos-e-polissemia-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 3,
     "tempoEstimado": 29,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -1964,7 +2072,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -1976,31 +2084,23 @@
     "objective": "Compreender e aplicar sentido literal e figurado em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Sentido literal é o uso mais direto; sentido figurado cria imagens e associações, como metáforas e metonímias."
+        "Sentido literal e figurado",
+        "O contexto define a leitura. A mesma expressão pode ser literal em notícia técnica e figurada em artigo de opinião."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "A metáfora aproxima domínios sem conectivo comparativo: “o tempo voa”. A metonímia troca um termo por outro com relação de contiguidade: “li Machado de Assis”."
+        "Metáfora e comparação",
+        "A imagem não deve ser tomada integralmente: dizer que alguém é “uma rocha” pode destacar firmeza, não ausência de emoção ou humanidade."
       ],
       [
-        "3. Exemplo aplicado",
-        "Em “o prazo corre”, não existe deslocamento físico; a expressão enfatiza passagem do tempo."
+        "Metonímia e outras figuras",
+        "Em questões, identifique qual relação produz o efeito; não basta marcar toda expressão diferente como metáfora."
       ],
       [
-        "Sentido próprio, figurado e metáfora",
-        "Em \"o servidor abriu a porta\", \"abriu\" está em uso concreto. Em \"a decisão abriu caminho\", o verbo sugere criação de oportunidade: leitura figurada. Metáfora aproxima campos sem o conectivo comparativo explícito; comparação explícita usa \"como\", \"tal qual\" etc. Metonímia desloca referência por associação, como \"ler Machado de Assis\" em vez de \"ler obra de Machado de Assis\"."
-      ],
-      [
-        "Ironia e literalidade em questões",
-        "Quando um narrador diz \"Que pontualidade exemplar!\" após uma espera de duas horas, o contexto pode indicar ironia. A identificação não decorre apenas da pontuação: requer confronto entre o que se diz e o que ocorre. Em textos argumentativos, a opção correta deve respeitar a crítica ou elogio efetivamente construído."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Considere o sentido das palavras. Assinale a relação semântica correta. Resposta fundamentada: “Contundente” pode significar “incisivo”.. Por quê: Contundente, figuradamente, = incisivo ou vigoroso."
+        "Conotação, denotação e tom",
+        "A mesma palavra pode criar avaliação positiva ou negativa dependendo de quem a usa e do contexto. Evite marcar conotação automaticamente como erro."
       ]
     ],
-    "example": "Em “o prazo corre”, não existe deslocamento físico; a expressão enfatiza passagem do tempo.",
+    "example": "“O servidor abriu a porta” descreve abertura física. “A decisão abriu portas para novas medidas” emprega metáfora: criou possibilidades. A expressão não afirma que portas foram abertas literalmente.",
     "pitfalls": [
       "Não transforme metáforas em afirmações literais nas questões de interpretação."
     ],
@@ -2008,32 +2108,91 @@
     "steps": [],
     "check": [
       {
-        "q": "\"A decisão abriu caminho para acordos\" exemplifica:",
+        "q": "Na frase “A mudança abriu caminho para um acordo”, a expressão destacada tem sentido de:",
         "options": [
-          "uso exclusivamente literal",
-          "metáfora",
-          "erro de concordância",
-          "antítese obrigatória"
+          "Criar uma possibilidade de entendimento.",
+          "Destruir fisicamente um obstáculo na rua.",
+          "Construir um trajeto pavimentado.",
+          "Descrever um itinerário do fórum.",
+          "Retirar a sinalização de uma via."
         ],
-        "answer": 1,
-        "why": "\"Abrir caminho\" é expressão figurada para criar possibilidade, não abrir uma passagem física."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 0,
+        "why": "O contexto de negociação ativa a metáfora de facilitar uma passagem: a mudança criou condições favoráveis ao acordo, sem referência a obra física.",
+        "wrong": [
+          "",
+          "O texto fala de negociação, não de remoção material.",
+          "Nenhuma obra de pavimentação é mencionada.",
+          "O trecho não apresenta deslocamento espacial.",
+          "Sinalização de via não integra o contexto."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-06-01",
+        "group": "Português-sentido-literal-e-figurado-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Em “Li Machado de Assis durante as férias”, ocorre, sobretudo:",
+        "options": [
+          "Hipérbole por exagero quantitativo.",
+          "Ironia por sentido oposto.",
+          "Metonímia: autor pelas obras.",
+          "Comparação introduzida por “como”.",
+          "Personificação de objetos."
+        ],
+        "answer": 2,
+        "why": "O nome do autor designa, por relação de associação, textos escritos por ele. Essa substituição entre autor e obra é metonímica.",
+        "wrong": [
+          "Não se exagera uma quantidade.",
+          "Não há oposição irônica identificável.",
+          "",
+          "A frase não utiliza conector de comparação.",
+          "Não há atribuição de ação humana a objeto."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-06-02",
+        "group": "Português-sentido-literal-e-figurado-portugues-revisado"
+      },
+      {
+        "q": "Quando uma pessoa diz “Esperei uma eternidade” após 15 minutos, a figura predominante é:",
+        "options": [
+          "Eufemismo.",
+          "Hipérbole.",
+          "Metonímia.",
+          "Antítese.",
+          "Pleonasmo."
+        ],
+        "answer": 1,
+        "why": "“Eternidade” intensifica de forma exagerada a percepção de demora; a quantidade temporal não deve ser entendida literalmente.",
+        "wrong": [
+          "Não há suavização de termo desagradável.",
+          "",
+          "Não há troca por relação de contiguidade.",
+          "Não se opõem ideias contrárias.",
+          "Não há repetição redundante de ideia."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-06-03",
+        "group": "Português-sentido-literal-e-figurado-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 4,
     "tempoEstimado": 28,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2041,7 +2200,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2053,31 +2212,23 @@
     "objective": "Compreender e aplicar classes de palavras i: nomes e determinantes em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Substantivo nomeia seres, estados e conceitos; artigo determina substantivos; adjetivo caracteriza; numeral exprime quantidade ou ordem."
+        "Substantivo e flexão",
+        "Em “o belo da vida”, “belo” foi substantivado pelo artigo. A classe pode variar conforme a função no enunciado."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "O valor sintático depende da frase: “o brasileiro” substantiva um adjetivo. Flexões de gênero e número e concordância mudam a leitura."
+        "Artigo e determinação",
+        "A presença ou ausência de artigo pode afetar crase e referência. Em “entreguei o ofício a uma servidora”, não se forma à antes de “uma”."
       ],
       [
-        "3. Exemplo aplicado",
-        "Em “os dois novos servidores”, “os” é artigo, “dois” numeral, “novos” adjetivo e “servidores” substantivo."
+        "Adjetivo e locução adjetiva",
+        "No plural, verifique concordância: “relatórios detalhados”, “decisões detalhadas”. O adjetivo não é núcleo do sujeito quando apenas caracteriza um substantivo."
       ],
       [
-        "Substantivos, artigos e adjetivos na interpretação",
-        "Substantivo nomeia entidades, seres e conceitos; adjetivo atribui característica; artigo determina ou indetermina. \"Um servidor\" apresenta referência indefinida, enquanto \"o servidor\" pressupõe identificabilidade no contexto. Em \"pobre homem\" e \"homem pobre\", a posição do adjetivo pode alterar o sentido: compaixão no primeiro, condição econômica no segundo, dependendo do uso."
-      ],
-      [
-        "Numerais e função substantiva",
-        "\"Três documentos chegaram\" usa numeral como determinante quantitativo; \"os três chegaram\" substantiva o numeral em referência ao grupo conhecido. Palavras podem mudar de classe conforme função: \"o necessário\" usa adjetivo substantivado. Para classificar, examine a frase, não apenas a palavra isolada."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “três relatórios”, “três” é numeral.. Por quê: Três expressa quantidade determinada. Exemplo 2. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “os autos chegaram”, “os” é artigo definido.. Por quê: Acompanha e determina o substantivo autos."
+        "Numeral e quantificação",
+        "Confundir “meio” numeral com “meio” advérbio produz erros de concordância. Analise o que a palavra modifica."
       ]
     ],
-    "example": "Em “os dois novos servidores”, “os” é artigo, “dois” numeral, “novos” adjetivo e “servidores” substantivo.",
+    "example": "“A chegada dos candidatos ocorreu cedo.” “Chegada” é substantivo abstrato derivado de verbo; “candidatos” é substantivo comum. Não procure apenas objetos materiais para identificar substantivos.",
     "pitfalls": [
       "Não classifique palavra isolada sem analisar emprego e contexto."
     ],
@@ -2085,32 +2236,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Em \"o necessário foi providenciado\", a palavra \"necessário\" tem valor:",
+        "q": "Na frase “O essencial foi comunicado aos interessados”, a palavra “essencial” funciona como:",
         "options": [
-          "adjetivo substantivado",
-          "advérbio de tempo",
-          "conjunção",
-          "verbo auxiliar"
+          "Verbo no particípio.",
+          "Advérbio de modo.",
+          "Numeral ordinal.",
+          "Adjetivo substantivado.",
+          "Preposição."
         ],
-        "answer": 0,
-        "why": "O artigo \"o\" permite substantivar o adjetivo, que passa a designar aquilo que é necessário."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 3,
+        "why": "O artigo “o” transforma a qualidade expressa por “essencial” em um termo nominal que designa aquilo que era essencial.",
+        "wrong": [
+          "Não apresenta forma verbal.",
+          "Não modifica verbo ou adjetivo nessa frase.",
+          "Não expressa posição numa ordem.",
+          "",
+          "Não conecta termos como uma preposição."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-07-01",
+        "group": "Português-classes-de-palavras-i-nomes-e-determinantes-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Compare “Uma candidata chegou. A candidata apresentou recurso.” O artigo “a” da segunda frase:",
+        "options": [
+          "Indica pessoa completamente diferente sem contexto.",
+          "Funciona como verbo.",
+          "Transforma “candidata” em adjetivo.",
+          "Marca obrigatoriamente o plural.",
+          "Retoma como identificável a candidata apresentada antes."
+        ],
+        "answer": 4,
+        "why": "A primeira frase apresenta a personagem como nova referência; a segunda usa artigo definido para identificá-la na continuidade do texto.",
+        "wrong": [
+          "O encadeamento sugere a mesma candidata.",
+          "Artigo não é verbo.",
+          "“Candidata” permanece substantivo.",
+          "O artigo “a” é singular.",
+          ""
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-07-02",
+        "group": "Português-classes-de-palavras-i-nomes-e-determinantes-portugues-revisado"
+      },
+      {
+        "q": "Em “A sessão durou meia hora, e a funcionária ficou meio cansada”, as duas formas de “meio” são, respectivamente:",
+        "options": [
+          "Numeral fracionário e advérbio.",
+          "Dois advérbios invariáveis.",
+          "Dois adjetivos flexionados.",
+          "Pronome e substantivo.",
+          "Preposição e conjunção."
+        ],
+        "answer": 0,
+        "why": "“Meia” quantifica metade de “hora” e concorda com o nome; “meio” intensifica “cansada” com sentido de “um pouco”, sem flexão.",
+        "wrong": [
+          "",
+          "A primeira forma concorda com o nome e varia.",
+          "“Meio” em “meio cansada” não é adjetivo flexionado.",
+          "Nenhum dos dois usos exerce essas funções.",
+          "Não ligam orações ou complementos."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-07-03",
+        "group": "Português-classes-de-palavras-i-nomes-e-determinantes-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 5,
     "tempoEstimado": 29,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2118,7 +2328,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2130,31 +2340,23 @@
     "objective": "Compreender e aplicar classes de palavras ii: verbos e advérbios em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Verbos exprimem ações, processos, estados ou fenômenos; advérbios modificam verbos, adjetivos ou outros advérbios."
+        "Verbo, tempo e modo",
+        "Nem toda forma de presente indica o instante da fala; pode expressar hábito, verdade geral ou relato histórico. Interprete em contexto."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Identifique tempo, modo, pessoa e número verbais; locuções verbais combinam auxiliar e principal. Advérbios podem sinalizar certeza, negação, intensidade, tempo e lugar."
+        "Aspecto e locuções verbais",
+        "Trocar pretérito perfeito por imperfeito pode modificar sentido mesmo com sujeito e complemento idênticos. Em reescritas, preserve a perspectiva temporal."
       ],
       [
-        "3. Exemplo aplicado",
-        "“Provavelmente entregará amanhã”: provavelmente exprime dúvida; entregará situa ação no futuro; amanhã indica tempo."
+        "Advérbio e locução adverbial",
+        "Diferencie advérbio de adjetivo: “falar alto” tem valor adverbial; “som alto” contém adjetivo, sujeito a concordância."
       ],
       [
-        "Tempos verbais e efeitos de sentido",
-        "Pretérito perfeito apresenta um evento concluído (\"protocolou ontem\"); imperfeito pode expressar duração ou hábito passado (\"protocolava diariamente\"). Futuro do pretérito pode expressar hipótese ou cortesia (\"poderia informar?\"), não apenas posterioridade em relação ao passado. O presente também pode ter valor habitual, histórico ou futuro: \"A audiência começa amanhã\"."
-      ],
-      [
-        "Advérbio não é sempre palavra terminada em -mente",
-        "\"Ontem\", \"aqui\", \"não\", \"talvez\" são advérbios de tempo, lugar, negação e dúvida. \"Muito\" pode funcionar como advérbio em \"trabalhou muito\" e como pronome indefinido em \"muitos processos\". Um advérbio pode modificar verbo, adjetivo ou outro advérbio; identifique o termo modificado."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “ela respondeu rapidamente”, “rapidamente” é advérbio.. Por quê: Modifica a maneira de responder."
+        "Voz verbal e agente",
+        "A voz passiva não equivale a retirar informações. Uma alternativa que omite quem agiu pode ser válida como construção, mas nem sempre preserva a mesma ênfase ou completude informativa."
       ]
     ],
-    "example": "“Provavelmente entregará amanhã”: provavelmente exprime dúvida; entregará situa ação no futuro; amanhã indica tempo.",
+    "example": "“O cartório recebe pedidos” (presente do indicativo: fato habitual). “Se receber os documentos, analisará o pedido” (futuro do subjuntivo em condição). “Receba os documentos” (imperativo).",
     "pitfalls": [
       "O mesmo termo pode mudar de classe conforme o uso: “bastante” pode ser advérbio ou pronome/adjetivo."
     ],
@@ -2162,32 +2364,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Em \"A audiência começa amanhã\", o presente do indicativo exprime:",
+        "q": "Em “A comissão divulgará o resultado amanhã”, a forma verbal “divulgará” está no:",
         "options": [
-          "hábito passado",
-          "futuro próximo programado",
-          "ação anterior encerrada",
-          "possibilidade irreal"
+          "Pretérito imperfeito do indicativo.",
+          "Presente do subjuntivo.",
+          "Futuro do presente do indicativo.",
+          "Pretérito perfeito do indicativo.",
+          "Imperativo afirmativo."
         ],
-        "answer": 1,
-        "why": "O presente pode indicar fato futuro programado, conforme o advérbio \"amanhã\"."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 2,
+        "why": "A desinência “-rá” e a referência temporal “amanhã” situam a divulgação em momento posterior à fala, como previsão no modo indicativo.",
+        "wrong": [
+          "O imperfeito remete a passado habitual ou em curso.",
+          "Não há forma típica de subjuntivo.",
+          "",
+          "O perfeito apresenta ação passada concluída.",
+          "Não se trata de ordem."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-08-01",
+        "group": "Português-classes-de-palavras-ii-verbos-e-adv-rbios-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "A troca de “A equipe examinou os autos” por “A equipe examinava os autos” altera principalmente:",
+        "options": [
+          "A pessoa verbal, de terceira para primeira.",
+          "O objeto direto, que desaparece.",
+          "A voz ativa para passiva.",
+          "O aspecto temporal: conclusão passa a processo habitual ou em andamento no passado.",
+          "O sujeito, que fica indeterminado."
+        ],
+        "answer": 3,
+        "why": "“Examinou” apresenta evento passado como concluído; “examinava” pode mostrar continuidade ou hábito no passado. O objeto e o sujeito permanecem os mesmos.",
+        "wrong": [
+          "Ambas as formas são terceira pessoa singular.",
+          "“Os autos” permanece complemento.",
+          "As duas construções mantêm voz ativa.",
+          "",
+          "“A equipe” continua sujeito expresso."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-08-02",
+        "group": "Português-classes-de-palavras-ii-verbos-e-adv-rbios-portugues-revisado"
+      },
+      {
+        "q": "Na frase “Provavelmente o cartório encerrará o atendimento mais cedo”, a palavra “provavelmente” expressa:",
+        "options": [
+          "Certeza absoluta.",
+          "Hipótese ou probabilidade.",
+          "Lugar.",
+          "Intensidade de “cartório”.",
+          "Ordem direta ao leitor."
+        ],
+        "answer": 1,
+        "why": "O advérbio modifica a avaliação sobre a oração inteira: a antecipação do encerramento é considerada possível ou provável, não um fato garantido.",
+        "wrong": [
+          "A palavra reduz o grau de certeza.",
+          "",
+          "Não localiza a ação no espaço.",
+          "Não quantifica a palavra “cartório”.",
+          "A frase informa uma possibilidade, não ordena."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-08-03",
+        "group": "Português-classes-de-palavras-ii-verbos-e-adv-rbios-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 5,
     "tempoEstimado": 30,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2195,7 +2456,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2207,31 +2468,23 @@
     "objective": "Compreender e aplicar pronomes e referenciação em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Pronomes pessoais, possessivos, demonstrativos, relativos e indefinidos retomam ou apontam elementos do discurso."
+        "Pronomes e referentes",
+        "Não use apenas o nome mais próximo como critério; faça o teste de sentido substituindo o pronome por cada possível referente."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Na compreensão textual, “este” frequentemente aponta para algo próximo no texto e “aquele” para algo mais distante, segundo o contexto. Pronome relativo liga orações e retoma antecedente."
+        "Demonstrativos e localização textual",
+        "A distinção é uma tendência de referência textual na norma escrita; em muitos contextos de fala há alternância. Questões formais tendem a exigir clareza do antecedente."
       ],
       [
-        "3. Exemplo aplicado",
-        "“A servidora que protocolou o documento”: “que” retoma “servidora” e introduz oração subordinada."
+        "Pronomes relativos",
+        "“Onde” refere-se propriamente a lugar; em “o processo onde houve manifestação”, em registro formal, prefira “em que” ou “no qual” se não houver valor locativo."
       ],
       [
-        "Pronomes relativos: função e antecedente",
-        "Em \"a norma que foi publicada\", \"que\" retoma \"norma\" e é sujeito de \"foi publicada\". Em \"a norma de que preciso\", a preposição \"de\" é exigida por \"precisar\". \"Cujo\" expressa posse e não admite artigo entre ele e o nome: \"a servidora cujo relatório foi aprovado\", não \"cujo o relatório\"."
-      ],
-      [
-        "Demonstrativos e ambiguidade na referência",
-        "Em apresentação de dois elementos, \"este\" tende a retomar o mais próximo, \"aquele\" o mais distante, conforme registro e organização textual. Em \"João informou a Pedro que seu documento estava pronto\", \"seu\" é ambíguo. Reescreva especificando o possuidor, para perceber a relação referencial exigida."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: A respeito das classes de palavras, assinale a afirmação correta. Resposta fundamentada: Em “este documento”, “este” é pronome demonstrativo.. Por quê: Este indica posição do referente em relação ao enunciador."
+        "Pronomes pessoais e função",
+        "O emprego depende da regência: não substitua automaticamente qualquer complemento por “lhe”. Verifique se o verbo exige ou não preposição."
       ]
     ],
-    "example": "“A servidora que protocolou o documento”: “que” retoma “servidora” e introduz oração subordinada.",
+    "example": "“As advogadas entregaram as petições. Elas foram protocoladas.” O referente de “elas” é “petições”, pois são essas que se protocolam, embora “advogadas” também esteja no feminino plural.",
     "pitfalls": [
       "Evite pronomes ambíguos: identifique sempre a quem “ele”, “ela”, “seu” se referem."
     ],
@@ -2239,32 +2492,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Assinale a construção adequada de pronome relativo.",
+        "q": "Leia: “As professoras entregaram as provas às alunas. Elas foram corrigidas no dia seguinte.” O pronome “elas” retoma de modo mais coerente:",
         "options": [
-          "O relatório cujo o autor chegou",
-          "A servidora que entregou a ata",
-          "O processo onde analisei sua decisão",
-          "O documento que necessito dele"
+          "As professoras.",
+          "As alunas.",
+          "As provas.",
+          "As aulas não mencionadas.",
+          "As salas de aula."
         ],
-        "answer": 1,
-        "why": "\"Que\" retoma \"servidora\" e funciona como sujeito; \"cujo\" não aceita artigo e o uso de relativos requer regência."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 2,
+        "why": "Todas as expressões iniciais incluem femininos plurais, mas o predicado “foram corrigidas” seleciona semanticamente “provas”, documentos passíveis de correção.",
+        "wrong": [
+          "Em contexto normal, professoras corrigem provas, não são corrigidas.",
+          "Alunas podem receber correção, mas “provas” é referente coerente mais direto.",
+          "",
+          "A palavra “aulas” não aparece.",
+          "O texto não menciona salas."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-09-01",
+        "group": "Português-pronomes-e-referencia-o-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Em “O processo a que me referi foi arquivado”, a preposição “a” antes de “que” ocorre porque:",
+        "options": [
+          "O verbo “referir-se” exige a preposição “a”.",
+          "Todo pronome relativo exige a mesma preposição.",
+          "“Processo” é feminino.",
+          "O período contém voz passiva.",
+          "A preposição indica sempre tempo."
+        ],
+        "answer": 0,
+        "why": "O relativo “que” retoma “processo”, mas desempenha função de complemento do verbo pronominal “referir-se a”; a regência mantém a preposição.",
+        "wrong": [
+          "",
+          "A preposição varia conforme a função e o verbo.",
+          "“Processo” é substantivo masculino.",
+          "A voz passiva de “foi arquivado” não explica a regência de “referi”.",
+          "Não existe valor temporal nessa relação."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-09-02",
+        "group": "Português-pronomes-e-referencia-o-portugues-revisado"
+      },
+      {
+        "q": "Qual reescrita evita a ambiguidade de “A gerente falou à supervisora que estava atrasada” se a atrasada for a gerente?",
+        "options": [
+          "A gerente falou à supervisora, que estava atrasada.",
+          "A gerente atrasada falou à supervisora.",
+          "A gerente falou à supervisora atrasada.",
+          "Atrasada, a supervisora falou à gerente.",
+          "A gerente falou à supervisora que ambas estavam atrasadas."
+        ],
+        "answer": 1,
+        "why": "Posicionar “atrasada” junto de “gerente” fixa a atribuição e retira a possibilidade de o leitor interpretar que o atraso era da supervisora.",
+        "wrong": [
+          "A oração relativa continua ligada à supervisora.",
+          "",
+          "O adjetivo passa a qualificar a supervisora.",
+          "Inverte quem falou e quem estava atrasada.",
+          "Acrescenta atraso de duas pessoas, não informado."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-09-03",
+        "group": "Português-pronomes-e-referencia-o-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 7,
     "tempoEstimado": 29,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2272,7 +2584,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2284,43 +2596,23 @@
     "objective": "Compreender e aplicar concordância verbal em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Regra geral: o verbo concorda em número e pessoa com o núcleo do sujeito; há construções especiais."
+        "Concordância com sujeito simples",
+        "Afaste mentalmente complementos preposicionados: “A análise dos recursos foi concluída”, não “foram concluída”, porque o sujeito é “a análise”."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Em “os documentos chegaram”, o núcleo plural exige “chegaram”. Com “haver” impessoal no sentido de existir, mantém-se singular: “havia processos”. Já “existir” concorda: “existiam processos”."
+        "Sujeito composto e posição",
+        "Questões com coordenação devem considerar a posição do sujeito e se os núcleos realmente representam pessoas ou coisas distintas."
       ],
       [
-        "3. Exemplo aplicado",
-        "“Faz dois anos” usa “fazer” impessoal de tempo no singular."
+        "Verbos impessoais",
+        "A banca frequentemente troca “haver” por “existir” sem ajustar o verbo. Verifique a presença de sujeito depois da substituição."
       ],
       [
-        "Aprofundamento dirigido 1 — Sujeito e núcleo: o primeiro teste",
-        "Para concordar o verbo, localize o sujeito e depois seu núcleo. Em “As folhas do processo chegaram”, o núcleo é “folhas”, plural; “do processo” não muda a concordância. Não escolha o substantivo mais próximo do verbo automaticamente."
-      ],
-      [
-        "Aprofundamento dirigido 2 — Sujeito composto",
-        "Antes do verbo, o sujeito composto em regra leva o verbo ao plural: “O juiz e a escrevente assinaram”. Com sujeito posposto, há construções admitidas com concordância com o núcleo mais próximo, mas a forma plural costuma ser a escolha mais clara. Observe o contexto e a norma exigida."
-      ],
-      [
-        "Aprofundamento dirigido 3 — Verbos impessoais",
-        "O verbo “haver”, no sentido de existir, é impessoal e fica no singular: “Havia documentos pendentes”. Já “existir” concorda com o sujeito: “Existiam documentos pendentes”. Na indicação de tempo decorrido, “fazer” também é impessoal: “Faz três meses”."
-      ],
-      [
-        "Sujeito composto, porcentagem e concordância",
-        "\"O diretor e os servidores chegaram\" leva verbo ao plural. Com sujeito composto posposto pode haver concordância com o núcleo mais próximo em situações admitidas pela norma: \"Chegou o diretor e os servidores\" ou \"Chegaram...\", conforme construção. Com porcentagem acompanhada de especificador, examine a concordância admissível: \"30% dos candidatos faltaram\"; o contexto e a norma importam."
-      ],
-      [
-        "Verbos impessoais e partícula se",
-        "\"Havia muitas petições\" mantém \"haver\" no singular com sentido de existir; \"existiam muitas petições\" concorda no plural. \"Faz três anos\" indica tempo decorrido e é impessoal. \"Precisa-se de analistas\" tem sujeito indeterminado; \"publicam-se decisões\" equivale a \"decisões são publicadas\", com concordância plural."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: Faltam cinco minutos para o início.. Por quê: O sujeito cinco minutos determina concordância plural. Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: Os documentos chegaram ontem.. Por quê: O verbo chegar concorda com documentos no plural."
+        "Partícula se e concordância",
+        "Teste a transformação em passiva: se ela for natural com o nome como sujeito, há indício de pronome apassivador; se não, verifique indeterminação."
       ]
     ],
-    "example": "“Faz dois anos” usa “fazer” impessoal de tempo no singular.",
+    "example": "“A lista de documentos chegou.” O núcleo é “lista”, singular, portanto “chegou”. “Chegaram os documentos”: núcleo plural “documentos”, verbo no plural.",
     "pitfalls": [
       "Não determine a concordância pela palavra mais próxima; encontre o sujeito."
     ],
@@ -2328,43 +2620,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Qual frase segue a concordância padrão?",
+        "q": "Qual construção segue a concordância da norma-padrão para “haver” com sentido de existir?",
         "options": [
-          "Haviam muitos pedidos.",
-          "Fazem duas semanas.",
-          "Existiam vários documentos.",
-          "O processo e a ata chegou."
+          "Haviam muitos recursos pendentes.",
+          "Houveram vários problemas no sistema.",
+          "Podem haver duas audiências amanhã.",
+          "Havia muitos recursos pendentes.",
+          "Haverão novos editais em breve."
         ],
-        "answer": 2,
-        "why": "“Existiam” concorda com o sujeito plural “vários documentos”. “Haver” existencial e “fazer” temporal ficam no singular."
+        "answer": 3,
+        "why": "Com sentido existencial, “haver” é impessoal e fica na terceira pessoa do singular. Por isso, “havia” permanece singular mesmo diante de complemento plural.",
+        "wrong": [
+          "“Haviam” não concorda com “recursos” nesse sentido impessoal.",
+          "“Houveram” pluraliza indevidamente o verbo existencial.",
+          "O auxiliar de “haver” impessoal também fica no singular: “pode haver”.",
+          "",
+          "O futuro correto seria “haverá”."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-10-01",
+        "group": "Português-concord-ncia-verbal-portugues-revisado"
       },
       {
-        "q": "Qual é a forma correta para existência no passado?",
+        "q": "Qual par respeita a distinção entre partícula apassivadora e índice de indeterminação?",
         "options": [
-          "Haviam muitos processos",
-          "Havia muitos processos",
-          "Fazem três meses",
-          "Existe muitos processos"
+          "Vende-se imóveis / precisam-se de servidores.",
+          "Vendem-se imóveis / precisa-se de servidores.",
+          "Vendem-se imóveis / precisam-se servidores de apoio.",
+          "Vende-se imóveis / precisa-se de servidores.",
+          "Vendem-se imóveis / precisam-se de servidores."
         ],
         "answer": 1,
-        "why": "\"Haver\" no sentido de existir é impessoal, permanecendo no singular: \"havia\"."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "why": "“Imóveis” funciona como sujeito paciente de “vendem-se” e impõe plural. “Precisar de” é transitivo indireto; “precisa-se de” mantém verbo singular com sujeito indeterminado.",
+        "wrong": [
+          "O primeiro verbo deveria concordar com “imóveis” e o segundo permanecer singular.",
+          "",
+          "“Precisam-se servidores” não preserva a regência “precisar de”.",
+          "“Vende-se” deve estar no plural nesse contexto passivo.",
+          "“Precisam-se de” pluraliza indevidamente a construção com complemento preposicionado."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-10-02",
+        "group": "Português-concord-ncia-verbal-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Na frase “O conjunto de certidões foi entregue”, por que “foi” está no singular?",
+        "options": [
+          "Porque “certidões” é sujeito oculto.",
+          "Porque o verbo concorda com a palavra mais próxima.",
+          "Porque o núcleo do sujeito é “conjunto”, no singular.",
+          "Porque “entregue” é um advérbio.",
+          "Porque a oração não apresenta sujeito."
+        ],
+        "answer": 2,
+        "why": "O termo “de certidões” apenas especifica o conjunto. O núcleo de “O conjunto de certidões” é “conjunto”, singular, que controla o verbo.",
+        "wrong": [
+          "O sujeito está expresso.",
+          "A concordância exige identificação do núcleo, não proximidade.",
+          "",
+          "“Entregue” é particípio da voz passiva.",
+          "A expressão “O conjunto de certidões” é sujeito."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-10-03",
+        "group": "Português-concord-ncia-verbal-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 9,
     "tempoEstimado": 28,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2372,7 +2712,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2384,31 +2724,23 @@
     "objective": "Compreender e aplicar concordância nominal em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Artigos, adjetivos, numerais e pronomes adjetivos concordam, em regra, com o substantivo a que se referem."
+        "Concordância de artigo e adjetivo",
+        "Em questões, localize o nome e depois confira cada determinante e predicativo relacionado a ele. Não confunda concordância nominal com concordância do verbo."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Observe expressões como “é necessário”, “anexo”, “incluso”, “mesmo” e “bastante”, cujo comportamento pode depender de classe e estrutura."
+        "Adjetivo com dois substantivos",
+        "Nem toda variante é igualmente clara. Em prova, examine se a forma adjetiva modifica um ou os dois substantivos antes de julgar o plural."
       ],
       [
-        "3. Exemplo aplicado",
-        "“Seguem anexas as certidões”: “anexas” concorda com “certidões”."
+        "Meio, bastante e só",
+        "Substitua “bastante” por “muito/muitos” para identificar a função: “muitos documentos” indica plural; “muito cansadas” indica intensificador invariável."
       ],
       [
-        "Concordância com expressões modificadoras",
-        "\"Seguem anexos os documentos\": \"anexos\" é adjetivo e concorda com \"documentos\". \"Em anexo seguem os documentos\": a locução \"em anexo\" não varia. \"É proibida a entrada\" tem artigo determinando o substantivo e flexão do adjetivo; em construções sem determinante, é possível \"É proibido entrada\" segundo a norma tradicional."
-      ],
-      [
-        "Um mesmo termo pode ter análise diferente",
-        "\"Meio cansada\" tem \"meio\" advérbio de intensidade, invariável; \"meia hora\" tem numeral fracionário concordando com \"hora\". \"Bastantes documentos\" usa \"bastantes\" como determinante, enquanto \"trabalharam bastante\" usa advérbio invariável. O segredo é descobrir a função no enunciado."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: Existem diversos processos pendentes.. Por quê: O verbo existir concorda com o sujeito plural processos. Exemplo 2. Situação: Assinale a alternativa com concordância verbal e nominal de acordo com a norma-padrão. Resposta fundamentada: O conjunto de documentos chegou hoje.. Por quê: O núcleo do sujeito é conjunto, no singular."
+        "Anexo, incluso e obrigado",
+        "Evite correções por aparência: verifique se o termo é adjetivo ou expressão adverbial fixa."
       ]
     ],
-    "example": "“Seguem anexas as certidões”: “anexas” concorda com “certidões”.",
+    "example": "“As decisões fundamentadas foram publicadas.” “As”, “fundamentadas” e “publicadas” concordam com “decisões”, feminino plural.",
     "pitfalls": [
       "Adjetivos após substantivos de gêneros distintos exigem atenção à concordância permitida pela norma."
     ],
@@ -2416,32 +2748,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Assinale o emprego adequado de \"meio\".",
+        "q": "Escolha a redação adequada na norma-padrão:",
         "options": [
-          "Ela ficou meia cansada",
-          "Eles estão meios cansados",
-          "Ela ficou meio cansada",
-          "As partes ficaram meias preocupadas"
+          "As cópias seguem anexo.",
+          "As cópias segue anexas.",
+          "As cópias seguem anexa.",
+          "As cópias segue anexo.",
+          "As cópias seguem anexas."
         ],
-        "answer": 2,
-        "why": "\"Meio\" com sentido de \"um pouco\" é advérbio e não varia."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 4,
+        "why": "“Cópias” é feminino plural: o verbo “seguem” concorda com o sujeito e o adjetivo “anexas” concorda em gênero e número com o substantivo.",
+        "wrong": [
+          "“Anexo” deveria concordar com “cópias”.",
+          "O verbo deveria ser plural.",
+          "“Anexa” precisa ir ao plural.",
+          "Há erro simultâneo de concordância verbal e nominal.",
+          ""
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-11-01",
+        "group": "Português-concord-ncia-nominal-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Na frase “As servidoras estavam bastante satisfeitas”, a palavra “bastante” é invariável porque:",
+        "options": [
+          "Significa “muito” e modifica o adjetivo “satisfeitas”.",
+          "É um adjetivo que concorda com servidoras.",
+          "Sempre varia no plural em qualquer função.",
+          "É um pronome possessivo.",
+          "Seu núcleo é “servidoras”."
+        ],
+        "answer": 0,
+        "why": "Nesse uso, “bastante” é advérbio de intensidade, equivalente a “muito”, e não recebe plural. Compare com “bastantes documentos”, em que acompanha substantivo.",
+        "wrong": [
+          "",
+          "A palavra modifica o adjetivo, não o substantivo.",
+          "Advérbio não segue flexão de plural.",
+          "Não exprime posse.",
+          "A expressão “servidoras” é referente do adjetivo, não núcleo de “bastante”."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-11-02",
+        "group": "Português-concord-ncia-nominal-portugues-revisado"
+      },
+      {
+        "q": "Ao agradecer formalmente, uma mulher deve dizer, na concordância tradicional:",
+        "options": [
+          "Muito obrigado, obrigatoriamente.",
+          "Muitas obrigada.",
+          "Muito obrigada.",
+          "Muita obrigado.",
+          "Muito obrigadas, mesmo falando sozinha."
+        ],
+        "answer": 2,
+        "why": "“Obrigada” concorda com a pessoa que agradece. “Muito” funciona como advérbio de intensidade e permanece invariável.",
+        "wrong": [
+          "“Obrigado” masculino não concorda com quem fala, no caso dado.",
+          "“Muito” não se flexiona como “muitas” nessa expressão.",
+          "",
+          "“Muita” não se aplica como advérbio intensificador aqui.",
+          "O plural não se aplica a uma única pessoa que agradece."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-11-03",
+        "group": "Português-concord-ncia-nominal-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 10,
     "tempoEstimado": 27,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2449,7 +2840,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2461,31 +2852,23 @@
     "objective": "Compreender e aplicar regência verbal e nominal em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Regência descreve a relação entre termos regentes e seus complementos, com ou sem preposição."
+        "Regência verbal e significado",
+        "O comando de prova pode exigir correção gramatical ou manutenção de sentido. Observe ambos; mudar a preposição às vezes muda a acepção do verbo."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "“Assistir a” no sentido de presenciar exige preposição; “obedecer a” também. Regência pode mudar conforme o significado do verbo."
+        "Verbos frequentes em concursos",
+        "Não decore listas sem exemplo: construa duas frases para cada verbo, observando sentido, complemento e preposição."
       ],
       [
-        "3. Exemplo aplicado",
-        "“A equipe assistiu à sessão”: a preposição “a” exigida por assistir se une ao artigo “a”."
+        "Regência nominal",
+        "A mesma preposição pode participar de crase: “favorável à proposta” combina a regência do adjetivo com o artigo da palavra feminina."
       ],
       [
-        "Regência verbal: o sentido altera a preposição",
-        "Na norma-padrão, \"assistir ao julgamento\" no sentido de presenciar pede \"a\"; \"assistir o paciente\" no sentido de prestar auxílio admite objeto direto. \"Aspirar ao cargo\" (desejar) é diferente de \"aspirar o ar\" (sorver). \"Visar ao cargo\" (ter por objetivo) difere de \"visar o documento\" (apontar visto). A VUNESP pode cobrar a regência ligada ao significado do verbo."
-      ],
-      [
-        "Regência nominal e crase",
-        "Nomes também regem complemento: \"favorável à proposta\" resulta de \"favorável a\" + artigo feminino \"a\". Em \"obediência às normas\", há preposição regida por \"obediência\" e artigo plural de \"normas\". Para revisar, localize o termo regente e o regido, depois verifique se existe artigo."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Considerando a regência na norma-padrão, assinale a alternativa correta. Resposta fundamentada: A candidata assistiu à palestra.. Por quê: Assistir com sentido de ver exige preposição a. Exemplo 2. Situação: Considerando a regência na norma-padrão, assinale a alternativa correta. Resposta fundamentada: A servidora simpatizou com o colega.. Por quê: Simpatizar rege a preposição com e não pede pronome reflexivo."
+        "Paralelismo e reescrita",
+        "Em questões de reescrita, identifique a palavra regente de cada complemento; não suponha que todos seguem a mesma preposição."
       ]
     ],
-    "example": "“A equipe assistiu à sessão”: a preposição “a” exigida por assistir se une ao artigo “a”.",
+    "example": "“O candidato assistiu ao debate” (ver, presenciar, na norma formal: assistir a). “A enfermeira assistiu o paciente” (prestar assistência: transitivo direto).",
     "pitfalls": [
       "Não aplique uma regência de um sentido verbal a outro sentido."
     ],
@@ -2493,32 +2876,91 @@
     "steps": [],
     "check": [
       {
-        "q": "No sentido de presenciar, a norma-padrão tradicional recomenda:",
+        "q": "No sentido de presenciar uma sessão, a norma formal tradicional recomenda:",
         "options": [
-          "assistir o julgamento",
-          "assistir ao julgamento",
-          "assistir pelo julgamento",
-          "assistir do julgamento"
+          "Assisti a sessão.",
+          "Assisti na sessão.",
+          "Assisti com a sessão.",
+          "Assisti à sessão.",
+          "Assisti pela sessão."
         ],
-        "answer": 1,
-        "why": "\"Assistir\" no sentido de presenciar rege a preposição \"a\"; \"ao\" combina com o artigo de julgamento."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 3,
+        "why": "Nesse sentido, “assistir” rege preposição “a”. Como “sessão” admite o artigo feminino “a”, o encontro da preposição com o artigo resulta em “à”.",
+        "wrong": [
+          "Falta registrar a fusão entre preposição e artigo.",
+          "“Em” não é a regência esperada desse uso.",
+          "“Com” não é regência adequada nesse sentido.",
+          "",
+          "“Pela” indica outra relação, não a exigida."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-12-01",
+        "group": "Português-reg-ncia-verbal-e-nominal-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Assinale a construção adequada quanto à regência de “preferir” na norma-padrão:",
+        "options": [
+          "Prefiro estudar a improvisar.",
+          "Prefiro mais estudar do que improvisar.",
+          "Prefiro estudar do que a improvisar.",
+          "Prefiro antes estudar do que improvisar.",
+          "Prefiro que estudar a improvisar."
+        ],
+        "answer": 0,
+        "why": "A comparação padrão com “preferir” opõe o termo preferido à alternativa pela preposição “a”, sem necessidade de “mais” ou “antes”.",
+        "wrong": [
+          "",
+          "“Preferir” já contém ideia de escolha; “mais ... do que” é forma evitada nesse padrão.",
+          "A correlação é “preferir X a Y”.",
+          "A formulação acrescenta reforço inadequado de preferência.",
+          "A oração apresenta combinação sintática incompatível no contexto."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-12-02",
+        "group": "Português-reg-ncia-verbal-e-nominal-portugues-revisado"
+      },
+      {
+        "q": "Em “A proposta é favorável ____ inclusão”, a regência do adjetivo pede:",
+        "options": [
+          "de",
+          "à",
+          "por",
+          "com",
+          "na"
+        ],
+        "answer": 1,
+        "why": "“Favorável” rege preposição “a”; diante de “a inclusão”, forma-se “à inclusão”. A crase é consequência da regência nominal.",
+        "wrong": [
+          "“Favorável de” não é regência adequada.",
+          "",
+          "“Favorável por” não realiza a relação exigida.",
+          "“Favorável com” não é a forma padrão.",
+          "“Favorável na” introduz preposição inadequada."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-12-03",
+        "group": "Português-reg-ncia-verbal-e-nominal-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 11,
     "tempoEstimado": 28,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2526,7 +2968,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2538,31 +2980,23 @@
     "objective": "Compreender e aplicar crase: uso e proibições em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Crase é a fusão de duas vogais “a”, normalmente preposição exigida mais artigo feminino."
+        "Crase em locuções",
+        "Nem toda sequência com “a” é locução feminina. Reconheça a expressão completa e verifique se a grafia é consagrada."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Teste a troca por palavra masculina: “vou à escola” → “vou ao colégio”. Em geral, não há crase diante de verbo, pronome pessoal ou substantivo masculino."
+        "Crase antes de pronomes",
+        "A frase “àquela” não contradiz o princípio da fusão: existe união da preposição com o “a” inicial do demonstrativo."
       ],
       [
-        "3. Exemplo aplicado",
-        "“Refiro-me à norma” contém preposição por regência e artigo diante de “norma”."
+        "Crase facultativa",
+        "Não trate opcionalidade como regra geral para todos os nomes femininos: “obedeceu à norma” exige artigo na leitura usual da norma determinada."
       ],
       [
-        "Obrigatória, proibida e facultativa com exemplos",
-        "Crase obrigatória: \"Obedeceu à legislação\" (obedecer a + a legislação); \"Saiu às 8 horas\" em indicação determinada de hora. Proibida: \"começou a estudar\" (verbo), \"a prazo\" (masculino), \"a ela\" (pronome pessoal). Facultativa em alguns usos antes de possessivo feminino singular: \"escreveu a/à sua professora\", conforme presença opcional do artigo."
-      ],
-      [
-        "Demonstrativos e localidades",
-        "\"Referiu-se àquela norma\" contrai preposição \"a\" com \"aquela\". Para cidades, use o teste \"volto da\": \"vou à Bahia\" (volto da Bahia), \"vou a Brasília\" (volto de Brasília), ressalvada a presença de determinantes: \"vou à Brasília dos monumentos\". Não é suficiente ver palavra feminina: é preciso existir a preposição exigida."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: O processo foi encaminhado à diretora.. Por quê: Encaminhar a + artigo a de diretora: à diretora. Exemplo 2. Situação: Assinale a frase em que a crase foi empregada corretamente, de acordo com a norma-padrão. Resposta fundamentada: O relatório foi entregue à chefia.. Por quê: Entregar a + artigo a antes de chefia: à chefia."
+        "Crase e mudança de sentido",
+        "Em prova, não basta identificar a palavra seguinte; analise que ideia o termo exerce e qual o complemento exigido."
       ]
     ],
-    "example": "“Refiro-me à norma” contém preposição por regência e artigo diante de “norma”.",
+    "example": "“O servidor trabalha à noite”; “À medida que os pedidos chegavam, a equipe os organizava”. Em “a partir de amanhã” não há crase: a palavra seguinte é verbo no infinitivo.",
     "pitfalls": [
       "Nem todo “a” antes de palavra feminina leva acento grave; verifique ambos os elementos."
     ],
@@ -2570,32 +3004,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Em qual frase a crase é corretamente exigida?",
+        "q": "Qual opção emprega corretamente a locução adverbial feminina?",
         "options": [
-          "Começou à protocolar",
-          "Voltou à repartição",
-          "Entregou à ele",
-          "Foi à pé"
+          "O setor atende a noite e fecha cedo.",
+          "O setor atende há noite e fecha cedo.",
+          "O setor atende à noite e fecha cedo.",
+          "O setor atende as noite e fecha cedo.",
+          "O setor atende à noites e fecha cedo."
         ],
-        "answer": 1,
-        "why": "\"Voltar a\" + \"a repartição\" produz \"à repartição\". Não há artigo feminino antes de verbo, pronome pessoal ou \"pé\"."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 2,
+        "why": "A indicação habitual de período do dia na locução “à noite” é escrita com acento grave. A expressão funciona como adjunto adverbial de tempo.",
+        "wrong": [
+          "A locução consagrada é “à noite”.",
+          "“Há” expressa existência ou tempo transcorrido.",
+          "",
+          "“As noite” apresenta forma gramatical inadequada.",
+          "O singular “noite” não comporta “às” plural."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-13-01",
+        "group": "Português-crase-uso-e-proibi-es-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "“Referiu-se ____ decisão anterior.” Que preenchimento é adequado quando a decisão está determinada?",
+        "options": [
+          "a",
+          "há",
+          "as",
+          "ao",
+          "à"
+        ],
+        "answer": 4,
+        "why": "“Referir-se” exige preposição “a”; a expressão determinada “a decisão anterior” recebe artigo feminino singular. A soma produz “à”.",
+        "wrong": [
+          "A preposição sem o artigo deixaria de indicar a fusão exigida.",
+          "“Há” não corresponde à preposição nesse contexto.",
+          "“As” é plural e sem acento grave.",
+          "“Ao” combina com artigo masculino.",
+          ""
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-13-02",
+        "group": "Português-crase-uso-e-proibi-es-portugues-revisado"
+      },
+      {
+        "q": "Em qual alternativa NÃO deve aparecer acento grave?",
+        "options": [
+          "A audiência começou às 9h.",
+          "Enviou o processo a ela.",
+          "Voltou à secretaria.",
+          "Referiu-se àquela pessoa.",
+          "Trabalhou à noite."
+        ],
+        "answer": 1,
+        "why": "Pronomes pessoais como “ela” não recebem artigo feminino; existe apenas a preposição “a”, portanto não ocorre fusão que exija acento grave.",
+        "wrong": [
+          "“Às” indica horário determinado.",
+          "",
+          "“Secretaria” admite artigo com o verbo “voltar a”.",
+          "“Àquela” funde preposição e demonstrativo.",
+          "“À noite” é locução temporal feminina."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-13-03",
+        "group": "Português-crase-uso-e-proibi-es-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 12,
     "tempoEstimado": 28,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2603,7 +3096,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2615,55 +3108,23 @@
     "objective": "Compreender e aplicar pontuação e sentido em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "A pontuação organiza relações sintáticas e efeitos semânticos; vírgula não é mera pausa respiratória."
+        "Pontuação e estrutura",
+        "Antes de inserir a vírgula, encontre o núcleo do sujeito e o verbo; depois identifique termos deslocados, intercalações, enumerações ou orações subordinadas."
       ],
       [
-        "2. Entendendo as regras e relações",
-        "Não separe sujeito de predicado por vírgula. Use vírgula para isolar vocativo, aposto explicativo e certas orações deslocadas."
+        "Adjunto deslocado e intercalações",
+        "Não confunda vocativo com sujeito: no primeiro caso “Ana” é chamada; no segundo é um termo informativo sobre a pessoa."
       ],
       [
-        "3. Exemplo aplicado",
-        "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo."
+        "Restritiva x explicativa",
+        "Se a troca de pontuação amplia de “alguns” para “todos”, a reescrita não preserva o sentido, mesmo que ambas as estruturas sejam gramaticais."
       ],
       [
-        "Aprofundamento — Estrutura da oração",
-        "Sujeito e verbo integram o núcleo da oração. Regra de segurança: não separar com vírgula sujeito e predicado, nem verbo e complemento sem motivo sintático de intercalação. “Os candidatos preparados chegaram cedo” não recebe vírgula entre candidatos e chegaram."
-      ],
-      [
-        "Aprofundamento — Vocativo, aposto e intercalação",
-        "Vocativo chama o interlocutor: “Candidatos, confiram os documentos.” Aposto explicativo acrescenta informação: “A VUNESP, organizadora do concurso, divulgou o comunicado.” Ambos costumam ser isolados."
-      ],
-      [
-        "Aprofundamento — Orações restritivas e explicativas",
-        "“Os servidores que estudaram passaram” restringe o grupo. “Os servidores, que estudaram, passaram” apresenta uma oração explicativa e pressupõe uma informação sobre o grupo inteiro. A vírgula altera o sentido."
-      ],
-      [
-        "Aprofundamento — Adjuntos e deslocamento",
-        "Adjuntos adverbiais deslocados podem ser isolados: “Durante a manhã, a equipe revisou os processos.” Quanto mais longo ou intercalado, maior a necessidade de sinalizar o deslocamento; evite regras absolutas baseadas em pausa."
-      ],
-      [
-        "Aprofundamento — Pontuação em enumerações e contraste",
-        "“Estudou português, matemática e lógica.” Ponto e vírgula pode separar unidades complexas; dois-pontos podem introduzir explicação ou lista. Vírgula antes de “mas” é usual entre orações: “Revisou a matéria, mas errou a questão”."
-      ],
-      [
-        "Aprofundamento — Checklist VUNESP",
-        "Localize sujeito, verbo, complementos, termos deslocados e orações subordinadas; só depois decida a vírgula. Compare se o sentido restringe ou explica. Não marque por “onde respiraria” na leitura."
-      ],
-      [
-        "Vírgula: o que não pode ser separado",
-        "Em ordem direta, não separe sujeito do predicado: \"Os servidores do setor, receberam os processos\" está inadequado. Também não separe o verbo de complemento diretamente dependente apenas por pausa: \"O cartório encaminhou, a certidão\". Já um adjunto adverbial deslocado pode ser isolado: \"Após a audiência, o processo foi remetido\"."
-      ],
-      [
-        "Orações explicativas, restritivas e mudança de sentido",
-        "\"Os servidores que fizeram o curso serão avaliados\" restringe a avaliação aos que fizeram o curso. \"Os servidores, que fizeram o curso, serão avaliados\" apresenta a informação como explicação sobre todo o grupo. O uso das vírgulas muda a extensão da referência. Antes de trocar pontuação em reescritas, compare quais elementos ficaram incluídos ou excluídos."
-      ],
-      [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Quanto à pontuação, assinale a frase escrita de acordo com a norma-padrão. Resposta fundamentada: O material inclui três itens: livro, apostila e caderno.. Por quê: Os dois-pontos introduzem enumeração. Exemplo 2. Situação: Quanto à pontuação, assinale a frase escrita de acordo com a norma-padrão. Resposta fundamentada: Ana, entregue o requerimento hoje.. Por quê: A vírgula isola o vocativo Ana."
+        "Conjunções, dois-pontos e ponto e vírgula",
+        "Na VUNESP, avalie simultaneamente a correção sintática e a manutenção de sentido na troca de sinais."
       ]
     ],
-    "example": "“Os servidores, atentos, ouviram” tem “atentos” intercalado; “Os servidores ouviram” não separa sujeito do verbo.",
+    "example": "“Os candidatos inscritos compareceram” não exige vírgula entre sujeito e verbo. “Os candidatos, compareceram” rompe a relação central. “A banca divulgou, o gabarito” separa indevidamente verbo e objeto.",
     "pitfalls": [
       "Alterações de vírgula podem restringir ou explicar uma oração relativa."
     ],
@@ -2671,32 +3132,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Qual pontuação altera a abrangência da oração relativa?",
+        "q": "Na frase “Os candidatos que estudaram foram aprovados”, o que muda com vírgulas em “Os candidatos, que estudaram, foram aprovados”?",
         "options": [
-          "Apenas ponto final",
-          "Vírgulas em \"os servidores, que fizeram o curso, ...\"",
-          "Ponto e vírgula após todo substantivo",
-          "Aspas no sujeito"
+          "A oração deixa de ter sujeito.",
+          "“Estudaram” torna-se objeto direto.",
+          "A frase passa a indicar uma ordem.",
+          "A relativa passa a ser explicativa, aplicando o estudo ao conjunto mencionado.",
+          "A pontuação não altera qualquer leitura."
         ],
-        "answer": 1,
-        "why": "Vírgulas isolam oração explicativa; sem elas a oração relativa pode restringir o grupo referido."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 3,
+        "why": "Sem vírgulas, “que estudaram” restringe o grupo; entre vírgulas, acrescenta uma informação explicativa sobre os candidatos já identificados.",
+        "wrong": [
+          "O sujeito permanece “Os candidatos”.",
+          "“Estudaram” continua núcleo verbal da oração relativa.",
+          "A frase ainda é declarativa.",
+          "",
+          "O contraste entre restrição e explicação altera a abrangência."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-14-01",
+        "group": "Português-pontua-o-e-sentido-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Em “Marina, entregue o documento ao setor”, as vírgulas delimitam:",
+        "options": [
+          "Um objeto direto.",
+          "Um sujeito composto.",
+          "Um vocativo.",
+          "Uma oração subordinada.",
+          "Um aposto explicativo."
+        ],
+        "answer": 2,
+        "why": "“Marina” é a pessoa a quem se dirige a ordem; ela não exerce a função de sujeito do imperativo “entregue”, cujo sujeito é “você” implícito.",
+        "wrong": [
+          "O objeto direto é “o documento”.",
+          "Não há dois núcleos de sujeito.",
+          "",
+          "Não há oração subordinada nesse nome isolado.",
+          "O termo chama a interlocutora, não a caracteriza."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-14-02",
+        "group": "Português-pontua-o-e-sentido-portugues-revisado"
+      },
+      {
+        "q": "Qual pontuação evita a separação indevida entre sujeito e verbo?",
+        "options": [
+          "Os relatórios foram arquivados hoje.",
+          "Os relatórios, foram arquivados hoje.",
+          "Os, relatórios foram arquivados hoje.",
+          "Os relatórios foram, arquivados hoje.",
+          "Os relatórios foram arquivados, hoje, obrigatoriamente."
+        ],
+        "answer": 0,
+        "why": "Em ordem direta, “Os relatórios” é o sujeito, “foram arquivados” é o núcleo passivo e não se coloca vírgula entre eles sem uma intercalação justificável.",
+        "wrong": [
+          "",
+          "A vírgula separa sujeito e verbo.",
+          "A vírgula separa artigo e substantivo.",
+          "A vírgula separa auxiliar e particípio.",
+          "O deslocamento de “hoje” não foi demonstrado e o isolamento é inadequado à leitura proposta."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-14-03",
+        "group": "Português-pontua-o-e-sentido-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 13,
     "tempoEstimado": 28,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2704,7 +3224,7 @@
     ],
     "etapa": "Aprofundada (ampliada)",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {
@@ -2716,31 +3236,23 @@
     "objective": "Compreender e aplicar colocação pronominal em situações de prova.",
     "sections": [
       [
-        "1. O que você precisa entender",
-        "Próclise ocorre antes do verbo, ênclise depois e mesóclise no interior do futuro em contextos específicos da norma-padrão."
-      ],
-      [
-        "2. Entendendo as regras e relações",
-        "Palavras negativas e certos pronomes relativos favorecem próclise: “não se esqueça”; com início de oração e ausência de fator atrativo, a norma tradicional privilegia ênclise."
-      ],
-      [
-        "3. Exemplo aplicado",
-        "Compare “Não me informaram” e “Informaram-me”."
-      ],
-      [
         "Próclise, ênclise e mesóclise",
-        "Próclise: pronome antes do verbo, em \"Não se constatou o erro\", atraído pela negação. Ênclise: depois do verbo, em \"Entregou-se o documento\", especialmente em início de período afirmativo na norma-padrão. Mesóclise: no interior da forma futura, em registro formal sem elemento atrativo: \"Entregar-se-á o documento\". Em construções do português brasileiro, diferencie usos correntes da cobrança da norma-padrão."
+        "A mesóclise é rara no uso corrente; numa prova de norma-padrão, identifique a forma de futuro e a ausência de palavra que atraia o pronome."
       ],
       [
-        "Atração por palavras anteriores e orações subordinadas",
-        "Palavras negativas, pronomes relativos, conjunções subordinativas e certos advérbios favorecem a próclise: \"Afirmou que lhe enviaram a mensagem\"; \"Ninguém o viu\". Sem fator de atração, a posição depende da forma verbal e do contexto. Não aplique uma regra única a locuções verbais: verifique auxiliar, particípio e presença de atrator."
+        "Palavras atrativas",
+        "Não aplique a regra de início de oração ignorando o atrativo. A frase “Não avisaram-me” contraria a colocação formal esperada nesse contexto."
       ],
       [
-        "Aplicação resolvida do assunto",
-        "Exemplo 1. Situação: Assinale a alternativa que respeita a colocação pronominal na norma-padrão. Resposta fundamentada: O processo que se iniciou ontem segue aberto.. Por quê: O pronome relativo que atrai o se. Exemplo 2. Situação: Assinale a alternativa que respeita a colocação pronominal na norma-padrão. Resposta fundamentada: Nunca lhe disseram a verdade.. Por quê: Nunca atrai o pronome oblíquo."
+        "Ênclise e início de período",
+        "Diferencie avaliação gramatical da norma formal e descrição da fala. Em provas, atenda ao registro exigido pelo comando."
+      ],
+      [
+        "Colocação em locuções verbais",
+        "Procure o auxiliar, o verbo principal e as palavras atrativas antes de julgar se a alternativa é correta. Não aplique mecanicamente uma regra de verbo simples à locução."
       ]
     ],
-    "example": "Compare “Não me informaram” e “Informaram-me”.",
+    "example": "“Não me avisaram” apresenta próclise pela negação. “Avise-me amanhã” usa ênclise com imperativo afirmativo. “Dir-lhe-ei a resposta” representa mesóclise formal com futuro do presente.",
     "pitfalls": [
       "Questões de norma-padrão podem cobrar regras formais diferentes da fala cotidiana."
     ],
@@ -2748,32 +3260,91 @@
     "steps": [],
     "check": [
       {
-        "q": "Em \"Não se constatou o problema\", ocorre:",
+        "q": "Na norma-padrão, qual frase respeita a atração pelo advérbio negativo?",
         "options": [
-          "mesóclise",
-          "ênclise",
-          "próclise atraída por negação",
-          "colocação de pronome reflexivo após verbo"
+          "Não disseram-me a verdade.",
+          "Disseram-me não a verdade.",
+          "Não disseram a verdade-me.",
+          "Não me disseram a verdade.",
+          "Me não disseram a verdade."
         ],
-        "answer": 2,
-        "why": "O advérbio negativo \"não\" atrai o pronome para antes do verbo na norma-padrão."
-      }
-    ],
-    "source": "Roteiro autoral; consulte as referências ligadas e o Anexo VIII do edital 02/2026 antes de tomar este guia como conteúdo exaustivo.",
-    "references": [
-      {
-        "name": "Academia Brasileira de Letras",
-        "url": "https://www.academia.org.br/"
+        "answer": 3,
+        "why": "“Não” é elemento atrativo, exigindo próclise na construção formal: o pronome átono “me” vem antes de “disseram”.",
+        "wrong": [
+          "A ênclise não é adequada depois de “não” nesse contexto.",
+          "A negação foi deslocada de modo sintaticamente inadequado.",
+          "O pronome não pode se ligar ao nome “verdade”.",
+          "",
+          "A ordem proposta não corresponde à próclise esperada na frase."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-15-01",
+        "group": "Português-coloca-o-pronominal-portugues-revisado"
       },
       {
-        "name": "Edital VUNESP",
-        "url": "https://www.vunesp.com.br/TJSP2607"
+        "q": "Em um período iniciado diretamente por verbo no imperativo afirmativo, qual forma é adequada ao registro formal?",
+        "options": [
+          "Me entregue os autos.",
+          "Entregue-me os autos.",
+          "Entregue os me autos.",
+          "Entregue-me-os à autos.",
+          "Não entregue-me os autos."
+        ],
+        "answer": 1,
+        "why": "No imperativo afirmativo sem palavra atrativa, a ênclise “entregue-me” atende ao padrão formal. A negação, quando existente, atrairia o pronome para antes do verbo.",
+        "wrong": [
+          "O pronome átono iniciando período não é a construção formal tradicional.",
+          "",
+          "O pronome não pode ficar solto entre artigo e nome.",
+          "A sequência reúne inadequadamente pronomes e crase.",
+          "Após “não”, a colocação esperada seria “não me entregue”."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-15-02",
+        "group": "Português-coloca-o-pronominal-portugues-revisado"
+      },
+      {
+        "q": "Qual opção apresenta colocação adequada no contexto “Nunca ___ esqueceu do prazo”?",
+        "options": [
+          "esqueceu-se",
+          "se esqueceu",
+          "esqueceu o se",
+          "esqueceu-me",
+          "se esqueceram"
+        ],
+        "answer": 1,
+        "why": "A palavra negativa “nunca” atrai o pronome reflexivo “se” antes do verbo, e o sujeito singular implícito combina com “esqueceu”.",
+        "wrong": [
+          "A palavra atrativa exige próclise.",
+          "",
+          "“Se” não é artigo nem objeto nominal.",
+          "“Me” muda a referência pronominal.",
+          "“Esqueceram” altera pessoa e número do verbo em relação à frase dada."
+        ],
+        "authorial": true,
+        "id": "pt-rev2026-15-03",
+        "group": "Português-coloca-o-pronominal-portugues-revisado"
       }
     ],
-    "reviewStatus": "guia",
+    "source": "Aula autoral revisada. Referências de consulta: edital VUNESP TJSP 2026, VOLP/ABL e gramáticas de referência; exemplos e exercícios originais.",
+    "references": [
+      {
+        "name": "VUNESP • edital TJSP 2026 (conteúdo programático)",
+        "url": "https://www.vunesp.com.br/TJSP2607"
+      },
+      {
+        "name": "Academia Brasileira de Letras • VOLP",
+        "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabul%C3%A1rio"
+      },
+      {
+        "name": "Português • sintaxe, regência e concordância",
+        "url": "https://www.portugues.com.br/gramatica/sintaxe-concordancia-regencia-colocacao.html"
+      }
+    ],
+    "reviewStatus": "revisão editorial 31/10/2026 — Português",
     "ordemSugerida": 14,
     "tempoEstimado": 28,
-    "conclusaoOrientada": "Leia todos os blocos, explique o exemplo sem consultar, responda às perguntas e faça 5 questões no simulado antes de marcar como concluída.",
+    "conclusaoOrientada": "Leia a definição, aplique o exemplo, estude o aprofundamento e resolva a rodada comentada. Ao errar, descubra qual detalhe do enunciado mudou o sentido.",
     "revisoesDias": [
       1,
       7,
@@ -2781,7 +3352,7 @@
     ],
     "etapa": "Guia em expansão",
     "fonteEdital": "https://www.vunesp.com.br/TJSP2607",
-    "revisaoEditorial": "TJSP DUO • atualização de conteúdo autoral em 29/10/2026; conferir legislação e edital para disposições normativas.",
+    "revisaoEditorial": "TJSP DUO • redação original de conteúdo de Português, com revisão dos exemplos, explicações e alternativas. Não é material oficial da VUNESP.",
     "fonteQuestoesComplementares": "Exercícios autorais de prática; não representam questões oficiais da VUNESP."
   },
   {

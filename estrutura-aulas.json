@@ -391,207 +391,138 @@
     "Português-interpretacao": {
       "blocos": [
         {
-          "titulo": "Leitura em camadas",
+          "titulo": "Leitura literal e leitura interpretativa",
+          "itens": [
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Tema, assunto, ideia central e tese",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Informação explícita e restrições",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Inferência e limites da evidência",
           "itens": [
             3
           ],
           "destaque": {
             "indice": 3,
-            "marcas": [
-              {
-                "trecho": "leitura",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "marcas": []
           }
         },
         {
-          "titulo": "Tema, assunto e tese",
+          "titulo": "Pressuposto e subentendido",
           "itens": [
-            0,
-            6
-          ],
-          "destaque": {
-            "indice": 0,
-            "marcas": [
-              {
-                "trecho": "tema",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Informação explícita",
-          "itens": [
-            1,
             4
           ],
           "destaque": {
             "indice": 4,
-            "marcas": [
-              {
-                "trecho": "A reunião",
-                "rotulo": "Sujeito (quem começou)",
-                "cor": "amber"
-              },
-              {
-                "trecho": "começou",
-                "rotulo": "Núcleo verbal do predicado",
-                "cor": "red"
-              },
-              {
-                "trecho": "às 9h",
-                "rotulo": "Informação de tempo",
-                "cor": "blue"
-              }
-            ],
-            "origem": "análise de frase"
+            "marcas": []
           }
         },
         {
-          "titulo": "Inferência válida",
+          "titulo": "Ponto de vista e vozes do texto",
           "itens": [
-            2,
-            5,
-            10
+            5
           ],
           "destaque": {
             "indice": 5,
-            "marcas": [
-              {
-                "trecho": "Apesar da chuva",
-                "rotulo": "Concessão: obstáculo apresentado",
-                "cor": "blue"
-              },
-              {
-                "trecho": "a equipe",
-                "rotulo": "Sujeito",
-                "cor": "amber"
-              },
-              {
-                "trecho": "chegou no horário",
-                "rotulo": "Fato que o texto afirma",
-                "cor": "red"
-              }
-            ],
-            "origem": "análise de frase"
+            "marcas": []
           }
         },
         {
-          "titulo": "Conectivos e encadeamento",
+          "titulo": "Conectivos e relações de sentido",
           "itens": [
-            7,
-            11
+            6
+          ],
+          "destaque": {
+            "indice": 6,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Erros típicos das alternativas",
+          "itens": [
+            7
           ],
           "destaque": {
             "indice": 7,
-            "marcas": [
-              {
-                "trecho": "portanto",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Erros das alternativas",
-          "itens": [
-            8
-          ]
-        },
-        {
-          "titulo": "Roteiro prático",
-          "itens": [
-            9
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            12
-          ]
         }
       ]
     },
     "Português-sintaxe": {
       "blocos": [
         {
-          "titulo": "Sujeito",
+          "titulo": "Frase, oração e período",
           "itens": [
             0
-          ]
-        },
-        {
-          "titulo": "Predicado",
-          "itens": [
-            1
-          ]
-        },
-        {
-          "titulo": "Complementos",
-          "itens": [
-            2,
-            3,
-            6
           ],
           "destaque": {
-            "indice": 6,
-            "marcas": [
-              {
-                "trecho": "complemento",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
-          "titulo": "Como reconhecer sujeito e predicado na prática",
+          "titulo": "Sujeito e núcleo",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Predicação verbal e complementos",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Predicado, predicativo e adjuntos",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Coordenação e subordinação",
           "itens": [
             4
           ],
           "destaque": {
             "indice": 4,
-            "marcas": [
-              {
-                "trecho": "por isso",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Verbo de ligação, predicativo e tipos de predicado",
-          "itens": [
-            5
-          ],
-          "destaque": {
-            "indice": 5,
-            "marcas": [
-              {
-                "trecho": "verbo",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            7
-          ]
         }
       ]
     },
@@ -600,178 +531,52 @@
         {
           "titulo": "O que é crase",
           "itens": [
-            0,
-            3,
-            9
+            0
           ],
           "destaque": {
-            "indice": 9,
-            "marcas": [
-              {
-                "trecho": "acento",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Método em quatro perguntas",
-          "itens": [
-            4,
-            10,
-            11
-          ],
-          "destaque": {
-            "indice": 11,
-            "marcas": [
-              {
-                "trecho": "admite",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
           "titulo": "Teste do masculino",
           "itens": [
-            1,
-            12,
-            21
+            1
           ],
           "destaque": {
-            "indice": 12,
-            "marcas": [
-              {
-                "trecho": "masculino",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 1,
+            "marcas": []
           }
         },
         {
-          "titulo": "Não ocorre",
+          "titulo": "Casos proibidos",
           "itens": [
-            2,
-            5,
-            16
+            2
           ],
           "destaque": {
-            "indice": 16,
-            "marcas": [
-              {
-                "trecho": "por isso",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
+            "indice": 2,
+            "marcas": []
           }
         },
         {
-          "titulo": "Crase facultativa e casos específicos",
+          "titulo": "Nomes de lugar e horas",
           "itens": [
-            6,
-            17,
-            20
+            3
           ],
           "destaque": {
-            "indice": 6,
-            "marcas": [
-              {
-                "trecho": "facultativa",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 3,
+            "marcas": []
           }
         },
         {
-          "titulo": "Aplicação comparada",
+          "titulo": "Crase facultativa e demonstrativos",
           "itens": [
-            7
-          ]
-        },
-        {
-          "titulo": "Treino de decisão",
-          "itens": [
-            8
-          ]
-        },
-        {
-          "titulo": "Locuções femininas",
-          "itens": [
-            13
+            4
           ],
           "destaque": {
-            "indice": 13,
-            "marcas": [
-              {
-                "trecho": "femininas",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 4,
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Horas e expressões de tempo",
-          "itens": [
-            14
-          ],
-          "destaque": {
-            "indice": 14,
-            "marcas": [
-              {
-                "trecho": "14 horas",
-                "rotulo": "Prazo ou duração citada no texto",
-                "cor": "blue"
-              }
-            ],
-            "origem": "pistas para interpretação"
-          }
-        },
-        {
-          "titulo": "Demonstrativos: aquele, aquela, aquilo",
-          "itens": [
-            15
-          ],
-          "destaque": {
-            "indice": 15,
-            "marcas": [
-              {
-                "trecho": "aquele",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Comparação de frases",
-          "itens": [
-            18
-          ]
-        },
-        {
-          "titulo": "Roteiro de resolução VUNESP",
-          "itens": [
-            19
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            22
-          ]
         }
       ]
     },
@@ -1809,668 +1614,528 @@
     "Português-coes-o-e-coer-ncia": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Coesão e coerência",
           "itens": [
-            0,
-            1,
-            2
+            0
           ],
           "destaque": {
-            "indice": 1,
-            "marcas": [
-              {
-                "trecho": "portanto",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
-          "titulo": "Coesão referencial: como o texto evita repetições",
+          "titulo": "Anáfora, catáfora e retomada",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Conectores e progressão",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Paráfrase e manutenção de sentido",
           "itens": [
             3
           ],
           "destaque": {
             "indice": 3,
-            "marcas": [
-              {
-                "trecho": "texto",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Coesão sequencial: conectivos e relações lógicas",
-          "itens": [
-            4
-          ],
-          "destaque": {
-            "indice": 4,
-            "marcas": [
-              {
-                "trecho": "portanto",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
-          }
-        },
-        {
-          "titulo": "Coerência e inferência",
-          "itens": [
-            5
-          ],
-          "destaque": {
-            "indice": 5,
-            "marcas": [
-              {
-                "trecho": "8h",
-                "rotulo": "Prazo ou duração citada no texto",
-                "cor": "blue"
-              }
-            ],
-            "origem": "pistas para interpretação"
-          }
-        },
-        {
-          "titulo": "Coerência: relações que precisam fazer sentido",
-          "itens": [
-            6
-          ],
-          "destaque": {
-            "indice": 6,
-            "marcas": [
-              {
-                "trecho": "14h",
-                "rotulo": "Prazo ou duração citada no texto",
-                "cor": "blue"
-              },
-              {
-                "trecho": "Por isso",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
-          }
-        },
-        {
-          "titulo": "Referência e progressão temática",
-          "itens": [
-            7
-          ],
-          "destaque": {
-            "indice": 7,
-            "marcas": [
-              {
-                "trecho": "portanto",
-                "rotulo": "Condição, exceção ou relação lógica",
-                "cor": "amber"
-              }
-            ],
-            "origem": "pistas para interpretação"
-          }
-        },
-        {
-          "titulo": "Intertextualidade com precisão",
-          "itens": [
-            8
-          ],
-          "destaque": {
-            "indice": 8,
-            "marcas": [
-              {
-                "trecho": "intertextualidade",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            9
-          ]
         }
       ]
     },
     "Português-sin-nimos-ant-nimos-e-polissemia": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Sinonímia contextual",
           "itens": [
-            0,
-            1,
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Antonímia e oposição",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Polissemia e contexto",
+          "itens": [
             2
           ],
           "destaque": {
             "indice": 2,
-            "marcas": [
-              {
-                "trecho": "a explicação ficou clara",
-                "rotulo": "Frase original: sentido pelo contexto",
-                "cor": "blue"
-              },
-              {
-                "trecho": "compreensível",
-                "rotulo": "Substituição que preserva o sentido",
-                "cor": "amber"
-              },
-              {
-                "trecho": "iluminada",
-                "rotulo": "Substituição inadequada ao contexto",
-                "cor": "red"
-              }
-            ],
-            "origem": "análise de frase"
+            "marcas": []
           }
         },
         {
-          "titulo": "Sinônimo depende do uso concreto",
+          "titulo": "Ambiguidade e efeito expressivo",
           "itens": [
             3
-          ]
-        },
-        {
-          "titulo": "Antônimos e contrários graduais",
-          "itens": [
-            4
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            5
-          ]
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-sentido-literal-e-figurado": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Sentido literal e figurado",
           "itens": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "titulo": "Sentido próprio, figurado e metáfora",
-          "itens": [
-            3
-          ]
-        },
-        {
-          "titulo": "Ironia e literalidade em questões",
-          "itens": [
-            4
+            0
           ],
           "destaque": {
-            "indice": 4,
-            "marcas": [
-              {
-                "trecho": "ironia",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
-          "titulo": "Aplicação integrada do assunto",
+          "titulo": "Metáfora e comparação",
           "itens": [
-            5
-          ]
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Metonímia e outras figuras",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Conotação, denotação e tom",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-classes-de-palavras-i-nomes-e-determinantes": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Substantivo e flexão",
           "itens": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "titulo": "Substantivos, artigos e adjetivos na interpretação",
-          "itens": [
-            3
-          ]
-        },
-        {
-          "titulo": "Numerais e função substantiva",
-          "itens": [
-            4
+            0
           ],
           "destaque": {
-            "indice": 4,
-            "marcas": [
-              {
-                "trecho": "substantiva",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
-          "titulo": "Aplicação integrada do assunto",
+          "titulo": "Artigo e determinação",
           "itens": [
-            5
-          ]
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Adjetivo e locução adjetiva",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Numeral e quantificação",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-classes-de-palavras-ii-verbos-e-adv-rbios": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Verbo, tempo e modo",
           "itens": [
-            0,
-            1,
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Aspecto e locuções verbais",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Advérbio e locução adverbial",
+          "itens": [
             2
           ],
           "destaque": {
             "indice": 2,
-            "marcas": [
-              {
-                "trecho": "Provavelmente",
-                "rotulo": "Advérbio de dúvida",
-                "cor": "blue"
-              },
-              {
-                "trecho": "entregará",
-                "rotulo": "Verbo no futuro",
-                "cor": "red"
-              },
-              {
-                "trecho": "amanhã",
-                "rotulo": "Advérbio de tempo",
-                "cor": "amber"
-              }
-            ],
-            "origem": "análise de frase"
+            "marcas": []
           }
         },
         {
-          "titulo": "Tempos verbais e efeitos de sentido",
+          "titulo": "Voz verbal e agente",
           "itens": [
             3
-          ]
-        },
-        {
-          "titulo": "Advérbio não é sempre palavra terminada em -mente",
-          "itens": [
-            4
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            5
-          ]
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-pronomes-e-referencia-o": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Pronomes e referentes",
           "itens": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "titulo": "Pronomes relativos: função e antecedente",
-          "itens": [
-            3
-          ]
-        },
-        {
-          "titulo": "Demonstrativos e ambiguidade na referência",
-          "itens": [
-            4
+            0
           ],
           "destaque": {
-            "indice": 4,
-            "marcas": [
-              {
-                "trecho": "referencial",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
-          "titulo": "Aplicação integrada do assunto",
+          "titulo": "Demonstrativos e localização textual",
           "itens": [
-            5
-          ]
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Pronomes relativos",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Pronomes pessoais e função",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-concord-ncia-verbal": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Concordância com sujeito simples",
           "itens": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
-          "titulo": "Sujeito e núcleo: o primeiro teste",
-          "itens": [
-            3,
-            4,
-            6
+            0
           ],
           "destaque": {
-            "indice": 6,
-            "marcas": [
-              {
-                "trecho": "30%",
-                "rotulo": "Percentual presente no exemplo",
-                "cor": "blue"
-              }
-            ],
-            "origem": "pistas para interpretação"
+            "indice": 0,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Sujeito composto e posição",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
           }
         },
         {
           "titulo": "Verbos impessoais",
           "itens": [
-            5,
-            7
-          ]
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
         },
         {
-          "titulo": "Aplicação integrada do assunto",
+          "titulo": "Partícula se e concordância",
           "itens": [
-            8
-          ]
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-concord-ncia-nominal": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Concordância de artigo e adjetivo",
           "itens": [
-            0,
-            1,
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Adjetivo com dois substantivos",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Meio, bastante e só",
+          "itens": [
             2
           ],
           "destaque": {
             "indice": 2,
-            "marcas": [
-              {
-                "trecho": "anexas",
-                "rotulo": "Adjetivo que concorda",
-                "cor": "red"
-              },
-              {
-                "trecho": "certidões",
-                "rotulo": "Substantivo de referência",
-                "cor": "amber"
-              }
-            ],
-            "origem": "análise de frase"
+            "marcas": []
           }
         },
         {
-          "titulo": "Concordância com expressões modificadoras",
+          "titulo": "Anexo, incluso e obrigado",
           "itens": [
             3
-          ]
-        },
-        {
-          "titulo": "Um mesmo termo pode ter análise diferente",
-          "itens": [
-            4
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            5
-          ]
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },
     "Português-reg-ncia-verbal-e-nominal": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Regência verbal e significado",
           "itens": [
-            0,
-            1,
-            2
-          ]
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
         },
         {
-          "titulo": "Regência verbal: o sentido altera a preposição",
+          "titulo": "Verbos frequentes em concursos",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Regência nominal",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Paralelismo e reescrita",
           "itens": [
             3
           ],
           "destaque": {
             "indice": 3,
-            "marcas": [
-              {
-                "trecho": "sentido",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Regência nominal e crase",
-          "itens": [
-            4
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            5
-          ]
         }
       ]
     },
     "Português-crase-uso-e-proibi-es": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Crase em locuções",
           "itens": [
-            0,
-            1,
-            2
-          ]
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
         },
         {
-          "titulo": "Obrigatória, proibida e facultativa com exemplos",
+          "titulo": "Crase antes de pronomes",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Crase facultativa",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Crase e mudança de sentido",
           "itens": [
             3
           ],
           "destaque": {
             "indice": 3,
-            "marcas": [
-              {
-                "trecho": "8 horas",
-                "rotulo": "Prazo ou duração citada no texto",
-                "cor": "blue"
-              }
-            ],
-            "origem": "pistas para interpretação"
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Demonstrativos e localidades",
-          "itens": [
-            4
-          ]
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            5
-          ]
         }
       ]
     },
     "Português-pontua-o-e-sentido": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
+          "titulo": "Pontuação e estrutura",
           "itens": [
-            0,
-            1,
-            2
-          ]
+            0
+          ],
+          "destaque": {
+            "indice": 0,
+            "marcas": []
+          }
         },
         {
-          "titulo": "Estrutura da oração",
+          "titulo": "Adjunto deslocado e intercalações",
+          "itens": [
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Restritiva x explicativa",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Conjunções, dois-pontos e ponto e vírgula",
           "itens": [
             3
-          ]
-        },
-        {
-          "titulo": "Vocativo, aposto e intercalação",
-          "itens": [
-            4
           ],
           "destaque": {
-            "indice": 4,
-            "marcas": [
-              {
-                "trecho": "Vocativo",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 3,
+            "marcas": []
           }
-        },
-        {
-          "titulo": "Orações restritivas e explicativas",
-          "itens": [
-            5,
-            10
-          ]
-        },
-        {
-          "titulo": "Adjuntos e deslocamento",
-          "itens": [
-            6
-          ],
-          "destaque": {
-            "indice": 6,
-            "marcas": [
-              {
-                "trecho": "Adjuntos",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Pontuação em enumerações e contraste",
-          "itens": [
-            7
-          ]
-        },
-        {
-          "titulo": "Checklist VUNESP",
-          "itens": [
-            8
-          ]
-        },
-        {
-          "titulo": "Vírgula: o que não pode ser separado",
-          "itens": [
-            9
-          ],
-          "destaque": {
-            "indice": 9,
-            "marcas": [
-              {
-                "trecho": "pode",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
-          }
-        },
-        {
-          "titulo": "Aplicação integrada do assunto",
-          "itens": [
-            11
-          ]
         }
       ]
     },
     "Português-coloca-o-pronominal": {
       "blocos": [
         {
-          "titulo": "Entenda o assunto: fundamentos e primeiro exemplo",
-          "itens": [
-            0,
-            1,
-            2
-          ]
-        },
-        {
           "titulo": "Próclise, ênclise e mesóclise",
           "itens": [
-            3
-          ]
-        },
-        {
-          "titulo": "Atração por palavras anteriores e orações subordinadas",
-          "itens": [
-            4
+            0
           ],
           "destaque": {
-            "indice": 4,
-            "marcas": [
-              {
-                "trecho": "Palavras",
-                "rotulo": "Conceito tratado neste bloco",
-                "cor": "red"
-              }
-            ],
-            "origem": "termo-chave"
+            "indice": 0,
+            "marcas": []
           }
         },
         {
-          "titulo": "Aplicação integrada do assunto",
+          "titulo": "Palavras atrativas",
           "itens": [
-            5
-          ]
+            1
+          ],
+          "destaque": {
+            "indice": 1,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Ênclise e início de período",
+          "itens": [
+            2
+          ],
+          "destaque": {
+            "indice": 2,
+            "marcas": []
+          }
+        },
+        {
+          "titulo": "Colocação em locuções verbais",
+          "itens": [
+            3
+          ],
+          "destaque": {
+            "indice": 3,
+            "marcas": []
+          }
         }
       ]
     },

@@ -141,3 +141,19 @@ html,body{max-width:100%;overflow-x:clip}
 @media(max-width:660px){.pt-course{font-size:16px}.pt-chapter-content{padding:12px;gap:12px}.pt-explain,.pt-analysis,.pt-trap{padding:14px}.pt-explain h3 small{display:block;width:100%;margin:0 0 0 42px}.pt-intro{padding:16px}.pt-chapter-nav{padding:14px}.pt-chapter-nav ol{grid-template-columns:1fr}.pt-chapter{margin-bottom:16px}.pt-figure figcaption{font-size:11px}#lesson .readingSteps{grid-template-columns:1fr}#lesson .checkOpt{font-size:16px!important;line-height:1.55!important;padding:14px!important}#lesson .feedbackBox{font-size:15px!important;line-height:1.55!important}}
 
 .pt-figure figcaption a{color:#a10813;font-weight:800;text-decoration:underline;text-underline-offset:2px}
+
+/* V18 — Curso completo em todas as matérias, layouts responsivos. */
+.pt-course,.pt-chapter,.pt-chapter-content,.pt-figure,.pt-explain,.pt-analysis,.pt-trap,.checkQuestion,.checkOpt,.feedbackBox{min-width:0;max-width:100%;box-sizing:border-box}
+.pt-course p,.pt-course li,.feedbackBox p,.checkQuestion strong,.checkOpt{overflow-wrap:anywhere;word-break:normal;white-space:normal!important;text-overflow:clip!important}
+.pt-chapter-nav ol{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.pt-course .pt-figure img{height:auto;width:100%;max-width:100%;display:block;object-fit:contain}
+.pt-course .pt-figure figcaption{font-size:13px;line-height:1.6}
+#lessonBody .pt-course~.example{display:none}
+@media(max-width:650px){
+ .pt-chapter-content{padding:13px!important;gap:10px}
+ .pt-explain,.pt-analysis,.pt-trap{padding:15px!important}
+ .pt-chapter-head{padding:15px!important}
+ .pt-course{font-size:16px!important;line-height:1.72}
+ .pt-course .pt-explain p,.pt-course .pt-analysis p{font-size:16px!important;line-height:1.75}
+ #lessonBody .checkOpt{font-size:16px!important;line-height:1.55!important;padding:13px!important}
+}

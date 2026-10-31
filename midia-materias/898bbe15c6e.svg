@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="523" viewBox="0 0 1140 523" role="img" aria-label="Mapa visual da aula Argumentos e validade">
+<rect width="1140" height="100%" fill="#fff"/>
+<rect width="1140" height="10" fill="#b50913"/>
+<text x="28" y="43" fill="#b50913" font-size="19" font-weight="800" font-family="Arial, sans-serif">TJSP DUO · ESQUEMA DIDÁTICO</text>
+<text x="28" y="88" fill="#17191f" font-size="31" font-weight="800" font-family="Arial,sans-serif">Argumentos e validade</text>
+<rect x="25" y="132" width="356" height="365" rx="17" fill="#fafafa" stroke="#d8dbe0" stroke-width="2"/>
+<rect x="25" y="132" width="8" height="365" rx="4" fill="#b50913"/>
+<text x="48" y="171" fill="#b50913" font-size="19" font-weight="800" font-family="Arial,sans-serif">CONCEITO</text>
+<text x="48" y="215" fill="#17191f" font-size="19" font-family="Arial,sans-serif">Argumento válido não significa</text>
+<text x="48" y="245" fill="#17191f" font-size="19" font-family="Arial,sans-serif">premissas verdadeiras</text>
+<rect x="402" y="132" width="356" height="365" rx="17" fill="#f5f5f6" stroke="#d8dbe0" stroke-width="2"/>
+<rect x="402" y="132" width="8" height="365" rx="4" fill="#4c515a"/>
+<text x="425" y="171" fill="#b50913" font-size="19" font-weight="800" font-family="Arial,sans-serif">APLICAÇÃO</text>
+<text x="425" y="215" fill="#17191f" font-size="19" font-family="Arial,sans-serif">As premissas são “Todo analista é</text>
+<text x="425" y="245" fill="#17191f" font-size="19" font-family="Arial,sans-serif">servidor” e “Rita é analista”.</text>
+<rect x="779" y="132" width="356" height="365" rx="17" fill="#fafafa" stroke="#d8dbe0" stroke-width="2"/>
+<rect x="779" y="132" width="8" height="365" rx="4" fill="#b50913"/>
+<text x="802" y="171" fill="#b50913" font-size="19" font-weight="800" font-family="Arial,sans-serif">ALERTA DE PROVA</text>
+<text x="802" y="215" fill="#17191f" font-size="19" font-family="Arial,sans-serif">Julgar validade pelo fato de as</text>
+<text x="802" y="245" fill="#17191f" font-size="19" font-family="Arial,sans-serif">premissas serem ou não verdadeiras</text>
+<text x="802" y="275" fill="#17191f" font-size="19" font-family="Arial,sans-serif">no mundo real, em vez de pela forma</text>
+<text x="802" y="305" fill="#17191f" font-size="19" font-family="Arial,sans-serif">do argumento.</text>
+</svg>

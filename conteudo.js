@@ -8,7 +8,7 @@ let lessons=[],progress={},profileId=null,active=null,currentUser=null;
 let practicePromise=null,notesPromise=null,lessonVisit=0,passedLessonId=null,roundState=null;
 function getNotesData(){if(!notesPromise)notesPromise=fetch('./resumos-caderno.json?v=10').then(r=>{if(!r.ok)throw Error('Resumos indisponíveis');return r.json()});return notesPromise;}
 function getPracticeData(){
- if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=17')
+ if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=18')
   .then(r=>{if(!r.ok)throw Error('Banco exclusivo de aulas não disponível');return r.json()})
   .catch(e=>{console.warn('Falha nas questões exclusivas:',e);return {lessons:{}}});
  return practicePromise;
@@ -283,6 +283,28 @@ function renderPtCurso(l,book){
  return `<div class="pt-course">${intro}<nav class="pt-chapter-nav" aria-label="Sumário da aula"><strong>Nesta aula você vai aprender</strong><ol>${data.capitulos.map((c,i)=>`<li><a href="#pt-cap-${i+1}">${escapeHtml(c.titulo)}</a></li>`).join('')}</ol></nav>${chapters}${sources}</div>`;
 }
 
+
+/* V18 — Curso por disciplina: capítulos independentes com fontes primárias,
+   exemplos resolvidos e esquemas visuais próprios por aula. */
+let subjectsCoursePromise=null;
+function getSubjectsCourse(){
+ if(!subjectsCoursePromise)subjectsCoursePromise=fetch('./materias-curso.json?v=18')
+ .then(r=>{if(!r.ok)throw Error('Novo conteúdo das matérias não publicado');return r.json()})
+ .catch(e=>{console.error('Curso por matéria indisponível',e);return null});
+ return subjectsCoursePromise;
+}
+function renderSubjectsCourse(l,book){
+ const data=book?.lessons?.[l.id];if(!data||!Array.isArray(data.capitulos)||!data.capitulos.length)throw Error('Capítulos da matéria indisponíveis');
+ const x=t=>escapeHtml(t).replace(/\n/g,'<br>');
+ const chapters=data.capitulos.map((c,i)=>{
+  const isCase=/^Caso aplicado/.test(c.titulo);
+  const image=(isCase&&data.imagem)?`<figure class="pt-figure"><img loading="lazy" decoding="async" src="./${escapeHtml(data.imagem)}" alt="Mapa visual com conceitos, exemplo e alerta de prova da aula ${escapeHtml(l.title)}"><figcaption>Mapa visual autoral desta aula. <a href="./${escapeHtml(data.imagem)}" target="_blank" rel="noopener noreferrer">Abrir imagem para ampliar e ler no celular.</a></figcaption></figure>`:'';
+  return `<section class="pt-chapter" id="mc-cap-${i+1}"><header class="pt-chapter-head"><span>CONCEITO ${String(i+1).padStart(2,'0')} DE ${String(data.capitulos.length).padStart(2,'0')}</span><h2>${escapeHtml(c.titulo)}</h2></header><div class="pt-chapter-content"><section class="pt-explain pt-definition"><h3><span class="pt-step">01</span> ${isCase?'Situação-problema':'Definição'} <small>${isCase?'O que aconteceu?':'O que significa?'}</small></h3><p>${x(c.definicao)}</p></section><section class="pt-explain pt-application"><h3><span class="pt-step">02</span> ${isCase?'Resolução fundamentada':'Contextualização e aplicação'} <small>Como usar?</small></h3><p>${x(c.aplicacao)}</p></section>${image}${c.aprofundamento?`<section class="pt-analysis"><h3>${isCase?'Como evitar o erro':'Aprofundamento'}</h3><p>${x(c.aprofundamento)}</p></section>`:''}${c.erro_comum?`<div class="pt-trap"><strong>Atenção à pegadinha</strong><p>${x(c.erro_comum)}</p></div>`:''}</div></section>`;
+ }).join('');
+ const ref=(data.fontes||[]).filter(x=>Array.isArray(x)&&/^https:\/\//.test(x[1]||'')).map(([name,url])=>`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(name)}</a></li>`).join('');
+ return `<div class="pt-course"><section class="pt-intro"><span class="pt-kicker">TJSP DUO · CURSO DE ${escapeHtml(l.subject.toUpperCase())}</span><h2>Estudo completo do tópico</h2><p>${x(data.introducao)}</p><p class="pt-orientacao">Cada conceito é explicado e aplicado antes de avançar; o caso final mostra a resolução. As questões de fixação são exclusivas desta aula e não entram no simulado.</p></section><nav class="pt-chapter-nav" aria-label="Sumário da aula"><strong>Roteiro desta aula</strong><ol>${data.capitulos.map((c,i)=>`<li><a href="#mc-cap-${i+1}">${escapeHtml(c.titulo)}</a></li>`).join('')}</ol></nav>${chapters}<details class="pt-sources"><summary>Fontes oficiais e materiais de apoio</summary><p>Conteúdo autoral para aprendizagem. A lei e os atos vigentes prevalecem sobre qualquer explicação; confira a redação e os limites do edital.</p><ul>${ref}</ul></details></div>`;
+}
+
 async function populateTeachingLayout(l,visit){
  const host=$('lessonSections');if(!host)return;
  if(l.subject==='Português'){
@@ -292,10 +314,10 @@ async function populateTeachingLayout(l,visit){
   catch(e){console.error('TJSP Duo: falha ao mostrar curso Português',e);host.innerHTML='<p role="alert">A aula aprofundada não carregou. Verifique se o arquivo portugues-curso.json foi publicado e atualize a página.</p>';host.removeAttribute('aria-busy');}
   return;
  }
- const [structure,glossary,pillars]=await Promise.all([getTeachingStructure(),getLegalGlossary(),getPillarData()]);
+ const book=await getSubjectsCourse();
  if(visit!==lessonVisit||active?.id!==l.id)return;
- try{host.innerHTML=layoutForLesson(l,structure,glossary,pillars);host.removeAttribute('aria-busy');}
- catch(error){console.warn('Falha ao organizar aula',error);host.innerHTML=layoutForLesson(l,null,glossary,pillars);host.removeAttribute('aria-busy');}
+ try{host.innerHTML=renderSubjectsCourse(l,book);host.removeAttribute('aria-busy');}
+ catch(error){console.error('Falha ao carregar curso por matéria:',error);host.innerHTML='<p role="alert">O curso atualizado desta matéria não carregou. Publique materias-curso.json e a pasta midia-materias e atualize a página.</p>';host.removeAttribute('aria-busy');}
 }
 
 async function fetchLessons(){const r=await fetch('./aulas.json?v=16');if(!r.ok)throw Error('Não foi possível baixar as aulas');lessons=await r.json();}
@@ -370,8 +392,8 @@ function openLesson(id){const l=lessons.find(x=>x.id===id);if(!l)return;const vi
 const steps=l.subject==='Português'?'':l.steps?.length?`<div class="example"><h3>🔎 Resolução comentada passo a passo</h3><ol>${l.steps.map(x=>`<li>${escapeHtml(x)}</li>`).join('')}</ol></div>`:'';
 const refs=l.subject==='Português'?'':l.references?.length?`<div class="visualCustom"><h3>Fontes para aprofundar e conferir</h3><ul>${l.references.map(r=>{let url='';try{const u=new URL(r.url);if(u.protocol==='https:')url=u.href}catch{}return url?`<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.name)}</a></li>`:''}).join('')}</ul><small>Links de apoio; confira o conteúdo programático e as atualizações da legislação no edital oficial.</small></div>`:'';
 const checks=`<div class="visualCustom" id="practiceHost" aria-live="polite"><h3>🧠 Teste sua compreensão</h3><p class="dim">Sorteando novas questões desta aula...</p></div>`;
-$('lessonBody').insertAdjacentHTML('beforeend',visual+steps+checks+refs+'<section class="studyNotes visualCustom" id="notesHost"><p>Preparando resumo para seu caderno…</p></section>');
-if(l.subject==='Português'){const body=$('lessonBody');body.querySelector('.formula')?.remove();body.querySelector(':scope > .diagram')?.remove();body.querySelectorAll(':scope > h3,:scope > ul.pitfallList,:scope > p').forEach(el=>el.remove());}
+$('lessonBody').insertAdjacentHTML('beforeend',checks+refs+'<section class="studyNotes visualCustom" id="notesHost"><p>Preparando resumo para seu caderno…</p></section>');
+if(true){const body=$('lessonBody');body.querySelector('.formula')?.remove();body.querySelector(':scope > .diagram')?.remove();body.querySelectorAll(':scope > h3,:scope > ul.pitfallList,:scope > p,:scope > .example').forEach(el=>el.remove());}
 passedLessonId=null;lessonCompletionState(l);populateTeachingLayout(l,visit);populatePractice(l,visit);populateNotebook(l,visit);
 $('saveMsg').textContent='';updateNextLessonButton();window.scrollTo(0,0);}
 $('back').onclick=()=>{lessonVisit++;$('lesson').classList.add('hide');$('catalog').classList.remove('hide');cards();window.scrollTo(0,0);};

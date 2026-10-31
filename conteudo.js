@@ -8,7 +8,7 @@ let lessons=[],progress={},profileId=null,active=null,currentUser=null;
 let practicePromise=null,notesPromise=null,lessonVisit=0,passedLessonId=null,roundState=null;
 function getNotesData(){if(!notesPromise)notesPromise=fetch('./resumos-caderno.json?v=10').then(r=>{if(!r.ok)throw Error('Resumos indisponíveis');return r.json()});return notesPromise;}
 function getPracticeData(){
- if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=18')
+ if(!practicePromise)practicePromise=fetch('./pratica-exclusiva.json?v=19')
   .then(r=>{if(!r.ok)throw Error('Banco exclusivo de aulas não disponível');return r.json()})
   .catch(e=>{console.warn('Falha nas questões exclusivas:',e);return {lessons:{}}});
  return practicePromise;
@@ -305,8 +305,54 @@ function renderSubjectsCourse(l,book){
  return `<div class="pt-course"><section class="pt-intro"><span class="pt-kicker">TJSP DUO · CURSO DE ${escapeHtml(l.subject.toUpperCase())}</span><h2>Estudo completo do tópico</h2><p>${x(data.introducao)}</p><p class="pt-orientacao">Cada conceito é explicado e aplicado antes de avançar; o caso final mostra a resolução. As questões de fixação são exclusivas desta aula e não entram no simulado.</p></section><nav class="pt-chapter-nav" aria-label="Sumário da aula"><strong>Roteiro desta aula</strong><ol>${data.capitulos.map((c,i)=>`<li><a href="#mc-cap-${i+1}">${escapeHtml(c.titulo)}</a></li>`).join('')}</ol></nav>${chapters}<details class="pt-sources"><summary>Fontes oficiais e materiais de apoio</summary><p>Conteúdo autoral para aprendizagem. A lei e os atos vigentes prevalecem sobre qualquer explicação; confira a redação e os limites do edital.</p><ul>${ref}</ul></details></div>`;
 }
 
+
+/* V19 — Matemática do início ao fim: fórmula, interpretação, conta montada,
+   resolução numérica verificável e armadilhas próprias do assunto. */
+let mathCoursePromise=null;
+function getMathCourse(){
+ if(!mathCoursePromise)mathCoursePromise=fetch('./matematica-passo-a-passo.json?v=19')
+  .then(r=>{if(!r.ok)throw Error('Não foi possível carregar as resoluções de Matemática');return r.json()})
+  .catch(e=>{console.error('TJSP Duo Matemática:',e);return null});
+ return mathCoursePromise;
+}
+function renderMathCourse(l,book){
+ const lesson=book?.lessons?.[l.id];
+ if(!lesson||!Array.isArray(lesson.capitulos)||lesson.capitulos.length<4)
+  throw Error('Aula de Matemática sem roteiro completo');
+ const esc=t=>escapeHtml(String(t??''));
+ const units=lesson.capitulos.map((u,i)=>{
+  const id='math-unidade-'+(i+1);
+  const steps=u.passos.map((s,j)=>`<li><span class="math-step-num">${j+1}</span><span>${esc(s)}</span></li>`).join('');
+  return `<section id="${id}" class="math-unit" aria-labelledby="${id}-title">
+    <header class="math-unit-head"><span>ETAPA ${String(i+1).padStart(2,'0')} / ${String(lesson.capitulos.length).padStart(2,'0')}</span><h2 id="${id}-title">${esc(u.titulo)}</h2></header>
+    <div class="math-unit-body">
+     <div class="math-def"><h3>01 · Definição — entenda o conceito</h3><p>${esc(u.definicao)}</p></div>
+     <div class="math-formula"><h3><span aria-hidden="true">∑</span> Fórmula e significado</h3><div class="math-expression">${esc(u.formula)}</div><p>${esc(u.simbolos)}</p></div>
+     <div class="math-example"><h3>02 · Exemplo resolvido — como montar a conta</h3><p class="math-problem">${esc(u.problema)}</p><ol class="math-steps">${steps}</ol>
+      <p class="math-answer"><strong>Resultado:</strong> ${esc(u.resposta)}</p>
+      <p class="math-check"><strong>Conferência:</strong> ${esc(u.conferencia)}</p></div>
+     <aside class="math-warning"><strong>Atenção à pegadinha</strong><p>${esc(u.atencao)}</p></aside>
+    </div>
+  </section>`;
+ }).join('');
+ const summary=lesson.capitulos.map(u=>`<li><strong>${esc(u.titulo)}:</strong> ${esc(u.formula)}</li>`).join('');
+ const src=(lesson.fontes||[]).filter(x=>Array.isArray(x)&&/^https:\/\//.test(x[1]||''))
+  .map(([title,url])=>`<li><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></li>`).join('');
+ return `<div class="math-course"><section class="math-intro"><span class="pt-kicker">TJSP DUO · MATEMÁTICA · AULA COMPLETA</span><h2>Aprenda a montar e resolver</h2><p>${esc(lesson.introducao)}</p>
+  <div class="math-method"><strong>Como estudar:</strong> leia a definição, entenda a fórmula, tente montar o exemplo no papel, compare cada etapa e só então resolva as questões ao final. Anote a unidade da resposta.</div></section>
+  <nav class="math-toc" aria-label="Roteiro da aula"><strong>Nesta aula você aprenderá</strong><ol>${lesson.capitulos.map((u,i)=>`<li><a href="#math-unidade-${i+1}">${esc(u.titulo)}</a></li>`).join('')}</ol></nav>
+  ${units}<section class="math-summary" aria-label="Resumo de fórmulas para seu caderno"><h2>Resumo para copiar no caderno</h2><p>Escreva a fórmula junto das condições de uso; não decore uma operação sem entender a situação em que ela vale.</p><ul>${summary}</ul></section>
+  <details class="pt-sources"><summary>Fontes didáticas e conferência</summary><ul>${src}</ul></details></div>`;
+}
 async function populateTeachingLayout(l,visit){
  const host=$('lessonSections');if(!host)return;
+ if(l.subject==='Matemática'){
+  const book=await getMathCourse();
+  if(visit!==lessonVisit||active?.id!==l.id)return;
+  try{host.innerHTML=renderMathCourse(l,book);host.removeAttribute('aria-busy');}
+  catch(err){console.error('Falha em Matemática:',err);host.innerHTML='<p role="alert">O material completo de Matemática ainda não carregou. Publique matematica-passo-a-passo.json e atualize a página.</p>';host.removeAttribute('aria-busy');}
+  return;
+ }
  if(l.subject==='Português'){
   const book=await getPtCurso();
   if(visit!==lessonVisit||active?.id!==l.id)return;

@@ -1,5 +1,5 @@
 {
-  "version": "V18-revisao-integral-exercicios-proprios",
+  "version": "V19 - Matemática, 42 novos problemas comentados",
   "source": "Questões autorais associadas somente à aula identificada, sem alternativas misturadas com matérias diferentes.",
   "lessons": {
     "Matemática-porcentagem": [
@@ -78,6 +78,63 @@
           "Atenção: Confundir valor do desconto com o preço final ou aplicar 15% sobre R$ 204."
         ],
         "group": "Matemática-porcentagem-novo-caso"
+      },
+      {
+        "q": "Uma compra de R$ 320 recebe desconto de 12,5%. Qual o preço final?",
+        "options": [
+          "R$ 280",
+          "R$ 300",
+          "R$ 240",
+          "R$ 292"
+        ],
+        "answer": 0,
+        "why": "12,5%=1/8. O desconto é 320÷8=40; preço final 320−40=R$ 280.",
+        "wrong": [
+          "",
+          "R$ 300 representa desconto de R$ 20 (6,25%).",
+          "R$ 240 é redução de R$ 80 (25%).",
+          "R$ 292 implica desconto de R$ 28 (8,75%)."
+        ],
+        "id": "Matemática-porcentagem-v19-1",
+        "group": "Matemática-porcentagem-v19-casos"
+      },
+      {
+        "q": "Uma taxa aumentou de 30% para 36%. Qual o aumento relativo em relação à taxa anterior?",
+        "options": [
+          "6%",
+          "16,7%",
+          "20%",
+          "24%"
+        ],
+        "answer": 2,
+        "why": "O aumento relativo é (36−30)/30 ×100 = 6/30 ×100 = 20%. A diferença simples é 6 pontos percentuais.",
+        "wrong": [
+          "6% confunde pontos percentuais com crescimento relativo.",
+          "16,7% usa 36 como base, mas a comparação parte de 30.",
+          "",
+          "24% não corresponde à diferença de 6 sobre base 30."
+        ],
+        "id": "Matemática-porcentagem-v19-2",
+        "group": "Matemática-porcentagem-v19-casos"
+      },
+      {
+        "q": "R$ 150 representam 60% do preço original de um produto. Qual é o preço original?",
+        "options": [
+          "R$ 180",
+          "R$ 210",
+          "R$ 240",
+          "R$ 250"
+        ],
+        "answer": 3,
+        "why": "0,60×P=150. Assim P=150÷0,60=R$ 250. Confira: 60% de 250=150.",
+        "wrong": [
+          "R$ 180 resulta de acrescentar percentual ao valor parcial.",
+          "R$ 210 surge de somar 60 reais, não de dividir pela taxa.",
+          "R$ 240 dá 62,5% de R$ 240, não 60%.",
+          ""
+        ],
+        "id": "Matemática-porcentagem-v19-3",
+        "group": "Matemática-porcentagem-v19-casos"
       }
     ],
     "Matemática-regra-de-tres": [
@@ -137,6 +194,63 @@
           "Atenção: Tratar o aumento de funcionários como inversamente proporcional à produção, quando a tarefa é produzir MAIS registros."
         ],
         "group": "Matemática-regra-de-tres-novo-caso"
+      },
+      {
+        "q": "Se 7 caixas de arquivos custam R$ 84, quanto custam 11 caixas iguais sem desconto?",
+        "options": [
+          "R$ 120",
+          "R$ 132",
+          "R$ 140",
+          "R$ 154"
+        ],
+        "answer": 1,
+        "why": "O preço unitário é 84÷7=R$ 12. Então 11×12=R$ 132.",
+        "wrong": [
+          "R$ 120 seria o custo de apenas 10 caixas.",
+          "",
+          "R$ 140 não mantém preço de R$ 12 por caixa.",
+          "R$ 154 equivale a R$ 14 por caixa, diferente da razão informada."
+        ],
+        "id": "Matemática-regra-de-tres-v19-1",
+        "group": "Matemática-regra-de-tres-v19-casos"
+      },
+      {
+        "q": "Se 5 bombas idênticas drenam um reservatório em 12 horas, 8 bombas idênticas drenam em quanto tempo?",
+        "options": [
+          "6 h",
+          "7,5 h",
+          "9 h",
+          "19,2 h"
+        ],
+        "answer": 1,
+        "why": "Com trabalho constante, bombas×tempo é constante: 5×12=8t, logo t=60/8=7,5 horas.",
+        "wrong": [
+          "6 h exigiriam 10 bombas no mesmo ritmo.",
+          "",
+          "9 h corresponderiam a 72 bomba-horas, mas o trabalho requer 60.",
+          "19,2 h trata bombas e tempo como proporcionais diretos."
+        ],
+        "id": "Matemática-regra-de-tres-v19-2",
+        "group": "Matemática-regra-de-tres-v19-casos"
+      },
+      {
+        "q": "Três funcionários fazem 72 cadastros em 4 h. Mantido o ritmo, cinco funcionários fazem quantos em 6 h?",
+        "options": [
+          "120",
+          "144",
+          "180",
+          "216"
+        ],
+        "answer": 2,
+        "why": "Produtividade: 72/(3×4)=6 cadastros por pessoa-hora. Produção nova: 6×5×6=180.",
+        "wrong": [
+          "120 corresponde a 20 pessoa-horas, não 30.",
+          "144 corresponde a 24 pessoa-horas, não 30.",
+          "",
+          "216 corresponderia a 36 pessoa-horas."
+        ],
+        "id": "Matemática-regra-de-tres-v19-3",
+        "group": "Matemática-regra-de-tres-v19-casos"
       }
     ],
     "Matemática-equacao-1grau": [
@@ -234,6 +348,63 @@
           "Atenção: Multiplicar R$ 8 por horas, embora o enunciado diga que é taxa fixa."
         ],
         "group": "Matemática-equacao-1grau-novo-caso"
+      },
+      {
+        "q": "Qual é a solução de 4x + 9 = 37?",
+        "options": [
+          "x=5",
+          "x=6",
+          "x=7",
+          "x=8"
+        ],
+        "answer": 2,
+        "why": "4x=37−9=28; x=28÷4=7. Verificação: 4×7+9=37.",
+        "wrong": [
+          "x=5 leva a 29, não 37.",
+          "x=6 leva a 33, não 37.",
+          "",
+          "x=8 leva a 41, não 37."
+        ],
+        "id": "Matemática-equacao-1grau-v19-1",
+        "group": "Matemática-equacao-1grau-v19-casos"
+      },
+      {
+        "q": "Resolva 3(x + 2) = 2x + 11.",
+        "options": [
+          "x=3",
+          "x=5",
+          "x=7",
+          "x=9"
+        ],
+        "answer": 1,
+        "why": "Distribuir 3x+6=2x+11; subtrair 2x e 6: x=5. Confira: 3×7=21, 10+11=21.",
+        "wrong": [
+          "x=3 dá 15 no lado esquerdo e 17 no direito.",
+          "",
+          "x=7 dá 27 no lado esquerdo e 25 no direito.",
+          "x=9 dá 33 no lado esquerdo e 29 no direito."
+        ],
+        "id": "Matemática-equacao-1grau-v19-2",
+        "group": "Matemática-equacao-1grau-v19-casos"
+      },
+      {
+        "q": "Resolva x/2 + x/3 = 10.",
+        "options": [
+          "x=6",
+          "x=10",
+          "x=12",
+          "x=15"
+        ],
+        "answer": 2,
+        "why": "Multiplicar pelo MMC(2,3)=6: 3x+2x=60. Logo 5x=60 e x=12.",
+        "wrong": [
+          "x=6 leva a 3+2=5.",
+          "x=10 leva a 5+10/3, menor que 10.",
+          "",
+          "x=15 leva a 7,5+5=12,5."
+        ],
+        "id": "Matemática-equacao-1grau-v19-3",
+        "group": "Matemática-equacao-1grau-v19-casos"
       }
     ],
     "Matemática-n-meros-reais-e-opera-es": [
@@ -274,6 +445,63 @@
           "Atenção: Ignorar os sinais negativos ao combinar valores ou ao elevar a potências."
         ],
         "group": "Matemática-n-meros-reais-e-opera-es-novo-caso"
+      },
+      {
+        "q": "Calcule 25 − 3 × (4 + 2) + 12 ÷ 4.",
+        "options": [
+          "12",
+          "10",
+          "14",
+          "21"
+        ],
+        "answer": 1,
+        "why": "Resolva os parênteses: 4+2=6. Em seguida 3×6=18 e 12÷4=3. Assim 25−18+3=10.",
+        "wrong": [
+          "12: interrompe a conta sem agregar corretamente as três parcelas após os parênteses.",
+          "",
+          "14: a multiplicação 3×6 foi subtraída incorretamente.",
+          "21: não preserva a prioridade da multiplicação sobre a adição."
+        ],
+        "id": "Matemática-n-meros-reais-e-opera-es-v19-1",
+        "group": "Matemática-n-meros-reais-e-opera-es-v19-casos"
+      },
+      {
+        "q": "Uma receita usa 3/4 de xícara de farinha, e outra, 2/3. Quanto se utiliza no total?",
+        "options": [
+          "5/7",
+          "17/12",
+          "5/12",
+          "13/12"
+        ],
+        "answer": 1,
+        "why": "MMC(4,3)=12. Converta 3/4=9/12 e 2/3=8/12. Some: 17/12=1 e 5/12.",
+        "wrong": [
+          "5/7 soma denominadores, o que não vale para adição de frações.",
+          "",
+          "5/12 usa os numeradores sem ajustar aos denominadores comuns.",
+          "13/12 não resulta da soma correta 9/12+8/12."
+        ],
+        "id": "Matemática-n-meros-reais-e-opera-es-v19-2",
+        "group": "Matemática-n-meros-reais-e-opera-es-v19-casos"
+      },
+      {
+        "q": "A área de um quadrado é 196 cm². Qual é a medida do seu lado?",
+        "options": [
+          "13 cm",
+          "14 cm",
+          "28 cm",
+          "98 cm"
+        ],
+        "answer": 1,
+        "why": "A=L². Assim L=√196=14 cm. A conferência é 14×14=196 cm².",
+        "wrong": [
+          "13²=169, não 196.",
+          "",
+          "28 é o dobro do lado e não satisfaz L²=196.",
+          "98 é metade da área, não a raiz quadrada."
+        ],
+        "id": "Matemática-n-meros-reais-e-opera-es-v19-3",
+        "group": "Matemática-n-meros-reais-e-opera-es-v19-casos"
       }
     ],
     "Matemática-divisibilidade-mmc-e-mdc": [
@@ -314,6 +542,63 @@
           ""
         ],
         "group": "Matemática-divisibilidade-mmc-e-mdc-novo-caso"
+      },
+      {
+        "q": "Duas campainhas tocam a cada 15 e 20 minutos, começando juntas às 8h. Em que horário voltam a coincidir?",
+        "options": [
+          "8h35",
+          "8h40",
+          "9h00",
+          "9h20"
+        ],
+        "answer": 2,
+        "why": "Fatorações: 15=3×5; 20=2²×5. MMC=2²×3×5=60 minutos. 8h+60 min=9h.",
+        "wrong": [
+          "35 minutos não é múltiplo simultâneo de 15 e 20.",
+          "40 minutos não é múltiplo de 15.",
+          "",
+          "80 minutos não é múltiplo de 15."
+        ],
+        "id": "Matemática-divisibilidade-mmc-e-mdc-v19-1",
+        "group": "Matemática-divisibilidade-mmc-e-mdc-v19-casos"
+      },
+      {
+        "q": "48 canetas e 60 lápis serão repartidos no maior número possível de kits idênticos, sem sobras. Quantos kits?",
+        "options": [
+          "6",
+          "10",
+          "12",
+          "24"
+        ],
+        "answer": 2,
+        "why": "O maior número de grupos é MDC(48,60)=12. Cada kit terá 4 canetas e 5 lápis.",
+        "wrong": [
+          "6 divide ambas as quantidades, mas não é o maior divisor comum.",
+          "10 não divide 48 sem sobras.",
+          "",
+          "24 não divide 60 sem sobras."
+        ],
+        "id": "Matemática-divisibilidade-mmc-e-mdc-v19-2",
+        "group": "Matemática-divisibilidade-mmc-e-mdc-v19-casos"
+      },
+      {
+        "q": "Qual fatoração prima corresponde ao número 90?",
+        "options": [
+          "2×3²×5",
+          "2²×3×5",
+          "3²×5²",
+          "2×3×5"
+        ],
+        "answer": 0,
+        "why": "90÷2=45; 45÷3=15; 15÷3=5; 5÷5=1. Produto: 2×3²×5.",
+        "wrong": [
+          "",
+          "2²×3×5=60, não 90.",
+          "3²×5²=225.",
+          "2×3×5=30; falta um fator 3."
+        ],
+        "id": "Matemática-divisibilidade-mmc-e-mdc-v19-3",
+        "group": "Matemática-divisibilidade-mmc-e-mdc-v19-casos"
       }
     ],
     "Matemática-raz-es-e-propor-es": [
@@ -354,6 +639,63 @@
           "Atenção: Dividir o total igualmente, desconsiderando que a razão determina parcelas diferentes."
         ],
         "group": "Matemática-raz-es-e-propor-es-novo-caso"
+      },
+      {
+        "q": "A razão entre monitores e alunos em um grupo é 2:9. Se há 45 alunos, quantos monitores há?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "18"
+        ],
+        "answer": 1,
+        "why": "2/9 = m/45. Logo 9m=2×45=90 e m=10.",
+        "wrong": [
+          "8/45 não preserva razão 2/9.",
+          "",
+          "12/45=4/15, outra razão.",
+          "18/45=2/5, não 2/9."
+        ],
+        "id": "Matemática-raz-es-e-propor-es-v19-1",
+        "group": "Matemática-raz-es-e-propor-es-v19-casos"
+      },
+      {
+        "q": "Um prêmio de R$ 720 foi dividido na razão 1:2:3. Qual a MAIOR parcela?",
+        "options": [
+          "R$ 120",
+          "R$ 240",
+          "R$ 300",
+          "R$ 360"
+        ],
+        "answer": 3,
+        "why": "Soma dos pesos: 1+2+3=6. Parte unitária: 720÷6=120. Maior parcela: 3×120=360.",
+        "wrong": [
+          "120 é a menor parcela, de peso 1.",
+          "240 é a parcela intermediária, de peso 2.",
+          "300 não corresponde a nenhum peso inteiro dessa razão.",
+          ""
+        ],
+        "id": "Matemática-raz-es-e-propor-es-v19-2",
+        "group": "Matemática-raz-es-e-propor-es-v19-casos"
+      },
+      {
+        "q": "Uma planta está em escala 1:100. Uma parede mede 7 cm no desenho. Qual seu comprimento real?",
+        "options": [
+          "0,7 m",
+          "7 m",
+          "70 m",
+          "700 m"
+        ],
+        "answer": 1,
+        "why": "7×100=700 cm reais. Converter 700 cm para metros: 700÷100=7 m.",
+        "wrong": [
+          "0,7 m equivalem a 70 cm e não 700 cm.",
+          "",
+          "70 m implicariam escala 1:1000.",
+          "700 m confunde centímetros de saída com metros."
+        ],
+        "id": "Matemática-raz-es-e-propor-es-v19-3",
+        "group": "Matemática-raz-es-e-propor-es-v19-casos"
       }
     ],
     "Matemática-m-dias-aritm-ticas-e-ponderadas": [
@@ -394,6 +736,63 @@
           "Atenção: Somar pesos ao numerador, mas dividir pela quantidade de notas em vez da soma dos pesos."
         ],
         "group": "Matemática-m-dias-aritm-ticas-e-ponderadas-novo-caso"
+      },
+      {
+        "q": "As notas 4, 6, 8 e 10 têm pesos iguais. Qual a média aritmética?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": 1,
+        "why": "Somar 4+6+8+10=28 e dividir por quatro valores: 28÷4=7.",
+        "wrong": [
+          "6 não considera corretamente a nota 10.",
+          "",
+          "8 é um dos valores, mas não a média das quatro notas.",
+          "9 está acima da média real das quatro notas."
+        ],
+        "id": "Matemática-m-dias-aritm-ticas-e-ponderadas-v19-1",
+        "group": "Matemática-m-dias-aritm-ticas-e-ponderadas-v19-casos"
+      },
+      {
+        "q": "Uma prova tem nota 7 peso 1 e outra nota 9 peso 3. Qual a média ponderada?",
+        "options": [
+          "8",
+          "8,25",
+          "8,5",
+          "9"
+        ],
+        "answer": 2,
+        "why": "Soma ponderada: 7×1+9×3=34. Soma dos pesos: 4. Média=34÷4=8,5.",
+        "wrong": [
+          "8 é média de valores não ponderada neste caso.",
+          "8,25 resulta de pesos ou soma incorretos.",
+          "",
+          "9 é a maior nota, não a média ponderada, pois existe nota 7."
+        ],
+        "id": "Matemática-m-dias-aritm-ticas-e-ponderadas-v19-2",
+        "group": "Matemática-m-dias-aritm-ticas-e-ponderadas-v19-casos"
+      },
+      {
+        "q": "A média de 5 valores é 12. Quatro são 10, 11, 13 e 14. Qual é o quinto?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": 2,
+        "why": "Soma desejada: 12×5=60. Conhecidos: 10+11+13+14=48. Valor faltante =60−48=12.",
+        "wrong": [
+          "10 faria a média ficar 11,6.",
+          "11 faria soma 59 e média 11,8.",
+          "",
+          "14 faria soma 62 e média 12,4."
+        ],
+        "id": "Matemática-m-dias-aritm-ticas-e-ponderadas-v19-3",
+        "group": "Matemática-m-dias-aritm-ticas-e-ponderadas-v19-casos"
       }
     ],
     "Matemática-juros-simples": [
@@ -453,6 +852,63 @@
           "Atenção: Usar 2% sobre o saldo atualizado a cada mês sem que o exercício peça juros compostos."
         ],
         "group": "Matemática-juros-simples-novo-caso"
+      },
+      {
+        "q": "Um capital de R$ 1500 rendeu juros simples a 2% ao mês por 4 meses. Qual o juro?",
+        "options": [
+          "R$ 30",
+          "R$ 90",
+          "R$ 120",
+          "R$ 1620"
+        ],
+        "answer": 2,
+        "why": "J=1500×0,02×4=R$ 120. São R$ 30 de juros a cada mês.",
+        "wrong": [
+          "R$ 30 é o rendimento de um único mês.",
+          "R$ 90 corresponde a apenas três meses.",
+          "",
+          "R$ 1620 é o montante (capital+juros), não apenas o juro."
+        ],
+        "id": "Matemática-juros-simples-v19-1",
+        "group": "Matemática-juros-simples-v19-casos"
+      },
+      {
+        "q": "R$ 900 rendem juros simples de 10% ao ano durante 6 meses. Qual o montante?",
+        "options": [
+          "R$ 945",
+          "R$ 954",
+          "R$ 990",
+          "R$ 1080"
+        ],
+        "answer": 0,
+        "why": "Seis meses = 0,5 ano. J=900×0,10×0,5=45; M=900+45=945.",
+        "wrong": [
+          "",
+          "R$ 954 não resulta da taxa proporcional de 5% no semestre.",
+          "R$ 990 é montante para um ano inteiro a 10%.",
+          "R$ 1080 implicaria 20% total, não 5%."
+        ],
+        "id": "Matemática-juros-simples-v19-2",
+        "group": "Matemática-juros-simples-v19-casos"
+      },
+      {
+        "q": "Uma aplicação rendeu R$ 240 de juros simples em 6 meses à taxa de 4% ao mês. Qual o capital?",
+        "options": [
+          "R$ 960",
+          "R$ 1000",
+          "R$ 1200",
+          "R$ 1440"
+        ],
+        "answer": 1,
+        "why": "C=J/(i×t)=240/(0,04×6)=240/0,24=R$ 1000.",
+        "wrong": [
+          "R$ 960 geraria apenas R$ 230,40 em juros.",
+          "",
+          "R$ 1200 geraria R$ 288 em juros.",
+          "R$ 1440 geraria R$ 345,60 em juros."
+        ],
+        "id": "Matemática-juros-simples-v19-3",
+        "group": "Matemática-juros-simples-v19-casos"
       }
     ],
     "Matemática-equa-o-do-primeiro-grau": [
@@ -493,6 +949,63 @@
           "Atenção: Interpretar x como o preço total, e não como a quantidade buscada."
         ],
         "group": "Matemática-equa-o-do-primeiro-grau-novo-caso"
+      },
+      {
+        "q": "Uma assinatura custa R$ 14 fixos mais R$ 6 por atendimento. O total foi R$ 50. Quantos atendimentos?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "why": "14+6n=50 → 6n=36 → n=6. Confirmação: 14+36=50.",
+        "wrong": [
+          "4 atendimentos somariam R$ 38.",
+          "5 atendimentos somariam R$ 44.",
+          "",
+          "8 atendimentos somariam R$ 62."
+        ],
+        "id": "Matemática-equa-o-do-primeiro-grau-v19-1",
+        "group": "Matemática-equa-o-do-primeiro-grau-v19-casos"
+      },
+      {
+        "q": "Dois valores somam 90 e o maior supera o menor em 18. Qual é o maior?",
+        "options": [
+          "36",
+          "45",
+          "54",
+          "72"
+        ],
+        "answer": 2,
+        "why": "Menor=x; maior=x+18. 2x+18=90 → x=36; maior=54.",
+        "wrong": [
+          "36 é o menor, não o maior.",
+          "45 seria metade sem considerar a diferença.",
+          "",
+          "72 produziria menor=18 e diferença 54, não 18."
+        ],
+        "id": "Matemática-equa-o-do-primeiro-grau-v19-2",
+        "group": "Matemática-equa-o-do-primeiro-grau-v19-casos"
+      },
+      {
+        "q": "Daqui a 3 anos, uma pessoa terá o dobro de sua idade atual menos 9 anos. Qual é sua idade atual?",
+        "options": [
+          "6",
+          "9",
+          "12",
+          "15"
+        ],
+        "answer": 2,
+        "why": "Se x é idade atual, x+3=2x−9. Isolar: 12=x. Confira: 12+3=15 e 2×12−9=15.",
+        "wrong": [
+          "6+3=9, mas 2×6−9=3.",
+          "9+3=12, mas 2×9−9=9.",
+          "",
+          "15+3=18, mas 2×15−9=21."
+        ],
+        "id": "Matemática-equa-o-do-primeiro-grau-v19-3",
+        "group": "Matemática-equa-o-do-primeiro-grau-v19-casos"
       }
     ],
     "Matemática-equa-o-do-segundo-grau": [
@@ -533,6 +1046,63 @@
           "Atenção: Aceitar a raiz negativa como medida física de um lado."
         ],
         "group": "Matemática-equa-o-do-segundo-grau-novo-caso"
+      },
+      {
+        "q": "Resolva x² − 7x + 12 = 0.",
+        "options": [
+          "x=1 ou 12",
+          "x=2 ou 6",
+          "x=3 ou 4",
+          "x=−3 ou −4"
+        ],
+        "answer": 2,
+        "why": "Fatorar (x−3)(x−4)=0. Raízes 3 e 4: soma 7 e produto 12.",
+        "wrong": [
+          "1+12=13, não 7.",
+          "2+6=8, não 7.",
+          "",
+          "−3 e −4 têm soma −7, incompatível com o coeficiente −7 na forma dada."
+        ],
+        "id": "Matemática-equa-o-do-segundo-grau-v19-1",
+        "group": "Matemática-equa-o-do-segundo-grau-v19-casos"
+      },
+      {
+        "q": "Qual é o discriminante de 2x² + 3x − 2 = 0?",
+        "options": [
+          "1",
+          "9",
+          "16",
+          "25"
+        ],
+        "answer": 3,
+        "why": "Δ=b²−4ac=3²−4×2×(−2)=9+16=25.",
+        "wrong": [
+          "1 resulta de tratar incorretamente o sinal do termo c.",
+          "9 considera somente b², esquecendo −4ac.",
+          "16 considera somente −4ac, esquecendo b².",
+          ""
+        ],
+        "id": "Matemática-equa-o-do-segundo-grau-v19-2",
+        "group": "Matemática-equa-o-do-segundo-grau-v19-casos"
+      },
+      {
+        "q": "Um retângulo tem lados x e x+3 e área 40. Qual é o lado menor?",
+        "options": [
+          "4",
+          "5",
+          "8",
+          "10"
+        ],
+        "answer": 1,
+        "why": "x(x+3)=40 → x²+3x−40=0=(x+8)(x−5). Raiz positiva x=5; outro lado 8.",
+        "wrong": [
+          "4×7=28, não 40.",
+          "",
+          "8 é o lado maior, não o menor.",
+          "10×13=130, não 40."
+        ],
+        "id": "Matemática-equa-o-do-segundo-grau-v19-3",
+        "group": "Matemática-equa-o-do-segundo-grau-v19-casos"
       }
     ],
     "Matemática-sistemas-de-equa-es-lineares": [
@@ -573,6 +1143,63 @@
           "Atenção: Resolver cada equação de forma isolada sem exigir uma solução comum ao sistema."
         ],
         "group": "Matemática-sistemas-de-equa-es-lineares-novo-caso"
+      },
+      {
+        "q": "Encontre x e y no sistema x+y=13 e x−y=5.",
+        "options": [
+          "x=9, y=4",
+          "x=8, y=5",
+          "x=7, y=6",
+          "x=6, y=7"
+        ],
+        "answer": 0,
+        "why": "Somar equações: 2x=18 → x=9. Pela primeira, y=4. Confira: 9+4=13 e 9−4=5.",
+        "wrong": [
+          "",
+          "8−5=3, não 5.",
+          "7−6=1, não 5.",
+          "6−7=−1, não 5."
+        ],
+        "id": "Matemática-sistemas-de-equa-es-lineares-v19-1",
+        "group": "Matemática-sistemas-de-equa-es-lineares-v19-casos"
+      },
+      {
+        "q": "Uma loja vendeu 10 itens, entre livros de R$ 20 e agendas de R$ 15, totalizando R$ 180. Quantos livros vendeu?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 2,
+        "why": "x livros, 10−x agendas. 20x+15(10−x)=180 → 5x=30 → x=6.",
+        "wrong": [
+          "4 livros dariam 4×20+6×15=R$ 170.",
+          "5 livros dariam R$ 175.",
+          "",
+          "8 livros dariam R$ 190."
+        ],
+        "id": "Matemática-sistemas-de-equa-es-lineares-v19-2",
+        "group": "Matemática-sistemas-de-equa-es-lineares-v19-casos"
+      },
+      {
+        "q": "Qual afirmação sobre x+y=8 e 2x+2y=18 é correta?",
+        "options": [
+          "Há uma solução",
+          "Há duas soluções",
+          "Há infinitas soluções",
+          "Não há solução"
+        ],
+        "answer": 3,
+        "why": "A primeira equação vezes 2 dá 2x+2y=16, incompatível com 2x+2y=18.",
+        "wrong": [
+          "Uma solução exigiria a mesma soma valer 16 e 18.",
+          "Duas soluções também seriam impossíveis por contradição.",
+          "Infinitas soluções exigiriam equações equivalentes, o que não ocorre.",
+          ""
+        ],
+        "id": "Matemática-sistemas-de-equa-es-lineares-v19-3",
+        "group": "Matemática-sistemas-de-equa-es-lineares-v19-casos"
       }
     ],
     "Matemática-grandezas-e-unidades": [
@@ -613,6 +1240,63 @@
           "Atenção: Alterar só a distância e esquecer que a unidade de tempo também muda."
         ],
         "group": "Matemática-grandezas-e-unidades-novo-caso"
+      },
+      {
+        "q": "Converta 54 km/h para m/s.",
+        "options": [
+          "10 m/s",
+          "15 m/s",
+          "19,4 m/s",
+          "30 m/s"
+        ],
+        "answer": 1,
+        "why": "Dividir a velocidade em km/h por 3,6: 54/3,6=15 m/s.",
+        "wrong": [
+          "10 m/s corresponderiam a 36 km/h.",
+          "",
+          "19,4 m/s corresponderiam a aproximadamente 69,8 km/h.",
+          "30 m/s corresponderiam a 108 km/h."
+        ],
+        "id": "Matemática-grandezas-e-unidades-v19-1",
+        "group": "Matemática-grandezas-e-unidades-v19-casos"
+      },
+      {
+        "q": "Quanto equivalem 1,8 m² em centímetros quadrados?",
+        "options": [
+          "180 cm²",
+          "1800 cm²",
+          "18 000 cm²",
+          "180 000 cm²"
+        ],
+        "answer": 2,
+        "why": "1 m=100 cm, então 1 m²=100²=10 000 cm². Logo 1,8×10 000=18 000 cm².",
+        "wrong": [
+          "180 cm² multiplica por apenas 100 e desconsidera outra dimensão.",
+          "1800 cm² usa fator 1000 em vez de 10 000.",
+          "",
+          "180 000 cm² usa fator 100 000, grande demais."
+        ],
+        "id": "Matemática-grandezas-e-unidades-v19-2",
+        "group": "Matemática-grandezas-e-unidades-v19-casos"
+      },
+      {
+        "q": "Em uma planta 1:25 000, a distância entre dois pontos é 6 cm. Qual a distância real?",
+        "options": [
+          "150 m",
+          "600 m",
+          "1,5 km",
+          "15 km"
+        ],
+        "answer": 2,
+        "why": "6×25 000=150 000 cm. Como 100 000 cm=1 km, são 1,5 km.",
+        "wrong": [
+          "150 m são 15 000 cm, dez vezes menos.",
+          "600 m são 60 000 cm, incompatível com a escala.",
+          "",
+          "15 km são 1 500 000 cm, dez vezes mais."
+        ],
+        "id": "Matemática-grandezas-e-unidades-v19-3",
+        "group": "Matemática-grandezas-e-unidades-v19-casos"
       }
     ],
     "Matemática-geometria-plana": [
@@ -653,6 +1337,63 @@
           "Atenção: Responder em m² quando a pergunta solicita comprimento da cerca."
         ],
         "group": "Matemática-geometria-plana-novo-caso"
+      },
+      {
+        "q": "Um terreno retangular de 18 m por 12 m será cercado. Qual o comprimento total de cerca para uma volta?",
+        "options": [
+          "30 m",
+          "60 m",
+          "108 m",
+          "216 m"
+        ],
+        "answer": 1,
+        "why": "Perímetro=2(18+12)=2×30=60 metros.",
+        "wrong": [
+          "30 m é apenas a soma de dois lados adjacentes.",
+          "",
+          "108 m não é o perímetro nem a área dessa figura.",
+          "216 m² é a área; cerca exige medida linear."
+        ],
+        "id": "Matemática-geometria-plana-v19-1",
+        "group": "Matemática-geometria-plana-v19-casos"
+      },
+      {
+        "q": "Um triângulo possui base de 14 cm e altura de 9 cm. Qual é a área?",
+        "options": [
+          "23 cm²",
+          "54 cm²",
+          "63 cm²",
+          "126 cm²"
+        ],
+        "answer": 2,
+        "why": "Área=(base×altura)/2=(14×9)/2=126/2=63 cm².",
+        "wrong": [
+          "23 é a soma de base e altura, não área.",
+          "54 não resulta da multiplicação 14×9/2.",
+          "",
+          "126 cm² seria o retângulo de mesmas base e altura, sem dividir por 2."
+        ],
+        "id": "Matemática-geometria-plana-v19-2",
+        "group": "Matemática-geometria-plana-v19-casos"
+      },
+      {
+        "q": "Uma escada apoia-se a 6 m da parede e alcança 8 m de altura, formando ângulo reto. Qual seu comprimento?",
+        "options": [
+          "9 m",
+          "10 m",
+          "12 m",
+          "14 m"
+        ],
+        "answer": 1,
+        "why": "Pelo teorema de Pitágoras: c²=6²+8²=36+64=100; c=10 m.",
+        "wrong": [
+          "9²=81, menor que 100.",
+          "",
+          "12²=144, maior que 100.",
+          "14²=196, maior que 100."
+        ],
+        "id": "Matemática-geometria-plana-v19-3",
+        "group": "Matemática-geometria-plana-v19-casos"
       }
     ],
     "Matemática-tabelas-e-gr-ficos": [
@@ -693,6 +1434,63 @@
           "Atenção: Declarar aumento de 20% porque a diferença absoluta é 20."
         ],
         "group": "Matemática-tabelas-e-gr-ficos-novo-caso"
+      },
+      {
+        "q": "Uma tabela mostra vendas de 80 unidades em janeiro e 100 em fevereiro. Qual a variação percentual?",
+        "options": [
+          "20%",
+          "25%",
+          "80%",
+          "125%"
+        ],
+        "answer": 1,
+        "why": "Variação=(100−80)/80×100=20/80×100=25%.",
+        "wrong": [
+          "20 é a diferença em unidades, ou 20% se usar denominador errado.",
+          "",
+          "80% é percentual de 80 sobre 100, não o crescimento em relação a janeiro.",
+          "125% é fevereiro como porcentagem de janeiro, não a variação."
+        ],
+        "id": "Matemática-tabelas-e-gr-ficos-v19-1",
+        "group": "Matemática-tabelas-e-gr-ficos-v19-casos"
+      },
+      {
+        "q": "Uma tabela informa 24 solicitações na manhã, 36 na tarde e 20 à noite. Que percentual ocorreu à tarde?",
+        "options": [
+          "36%",
+          "40%",
+          "45%",
+          "60%"
+        ],
+        "answer": 2,
+        "why": "Total=24+36+20=80. Percentual da tarde=36/80×100=45%.",
+        "wrong": [
+          "36 é a quantidade da tarde, não a sua porcentagem.",
+          "40% corresponderiam a 32 solicitações, não 36.",
+          "",
+          "60% corresponderiam a 48 solicitações."
+        ],
+        "id": "Matemática-tabelas-e-gr-ficos-v19-2",
+        "group": "Matemática-tabelas-e-gr-ficos-v19-casos"
+      },
+      {
+        "q": "Um gráfico registra 18, 22, 26 e 30 atendimentos nas quatro semanas. Qual a média semanal?",
+        "options": [
+          "22",
+          "24",
+          "26",
+          "28"
+        ],
+        "answer": 1,
+        "why": "Soma=18+22+26+30=96. Dividir por 4: 96÷4=24.",
+        "wrong": [
+          "22 está abaixo da média dos quatro valores.",
+          "",
+          "26 está acima da média dos quatro valores.",
+          "28 não resulta da soma 96 dividida por quatro."
+        ],
+        "id": "Matemática-tabelas-e-gr-ficos-v19-3",
+        "group": "Matemática-tabelas-e-gr-ficos-v19-casos"
       }
     ],
     "Português-interpretacao": [

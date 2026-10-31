@@ -1,0 +1,1412 @@
+{
+  "versao": "V19/2026-10-31",
+  "criterio": "Conteúdo autoral por disciplina, fórmulas, definição de símbolos, montagem e resolução verificável",
+  "lessons": {
+    "Matemática-n-meros-reais-e-opera-es": {
+      "introducao": "Comece pela linguagem dos números: distinguir inteiros, frações e decimais evita erros em todos os outros temas. Em cada problema, organize a expressão, respeite os sinais e confira se o resultado é compatível com a situação.",
+      "capitulos": [
+        {
+          "titulo": "Conjuntos numéricos e a reta",
+          "definicao": "Naturais são usados em contagens; inteiros incluem negativos; racionais podem ser escritos como a/b (b diferente de zero); irracionais não têm expansão decimal finita nem periódica. Juntos, racionais e irracionais formam os reais.",
+          "formula": "N ⊂ Z ⊂ Q ⊂ R; |−a| = distância de −a até 0",
+          "simbolos": "N: naturais; Z: inteiros; Q: racionais; R: reais. O módulo é sempre não negativo.",
+          "problema": "Um saldo de −R$ 18 recebe depósito de R$ 35. Qual o novo saldo?",
+          "passos": [
+            "Representar o saldo inicial: −18.",
+            "Somar o depósito: −18 + 35.",
+            "Calcular a diferença dos módulos: 35 − 18 = 17; sinal positivo porque 35 é maior."
+          ],
+          "resposta": "R$ 17 de saldo positivo.",
+          "conferencia": "−18 + 18 = 0; restam R$ 17 do depósito.",
+          "atencao": "Não confunda número negativo com distância negativa: |−18| é 18."
+        },
+        {
+          "titulo": "Ordem das operações e sinais",
+          "definicao": "Parênteses são resolvidos primeiro; depois potências e raízes; em seguida multiplicação e divisão; por último adição e subtração. Operações de mesma prioridade seguem da esquerda para a direita.",
+          "formula": "( ) → potências/raízes → × e ÷ → + e −",
+          "simbolos": "Não é uma conta única: cada etapa deve ser concluída antes de passar para a seguinte.",
+          "problema": "Calcule 18 − 2 × (3 + 4) + 6 ÷ 3.",
+          "passos": [
+            "Parênteses: 3 + 4 = 7.",
+            "Multiplicação e divisão: 2 × 7 = 14 e 6 ÷ 3 = 2.",
+            "Expressão restante: 18 − 14 + 2 = 6."
+          ],
+          "resposta": "6.",
+          "conferencia": "A estimativa 18 − 14 + 2 também leva a 6.",
+          "atencao": "Não calcule 18 − 2 primeiro: a multiplicação tem prioridade."
+        },
+        {
+          "titulo": "Soma, subtração e divisão de frações",
+          "definicao": "Frações representam partes de um todo. Para somar ou subtrair, os denominadores devem ser iguais. Para dividir por uma fração não nula, multiplique pela fração inversa.",
+          "formula": "a/b + c/d = (ad + bc)/(bd); (a/b) ÷ (c/d) = (a/b) × (d/c)",
+          "simbolos": "b e d devem ser diferentes de zero; para a divisão, c também precisa ser diferente de zero.",
+          "problema": "Duas equipes concluíram 2/3 e 1/4 de tarefas iguais. Qual fração total concluíram?",
+          "passos": [
+            "Encontrar denominador comum: MMC(3,4) = 12.",
+            "Converter: 2/3 = 8/12 e 1/4 = 3/12.",
+            "Somar numeradores: (8 + 3)/12 = 11/12."
+          ],
+          "resposta": "11/12 das tarefas.",
+          "conferencia": "11/12 é menor que 1; o resultado é coerente com duas parcelas de 0,667 e 0,25.",
+          "atencao": "Não some denominadores: 2/3 + 1/4 não é 3/7."
+        },
+        {
+          "titulo": "Potências, raízes e decimais",
+          "definicao": "Potência multiplica a base por ela mesma. Raiz quadrada principal é o número não negativo cujo quadrado gera o radicando. Para números decimais, observe a posição da vírgula.",
+          "formula": "a² = a × a; √a = b quando b ≥ 0 e b² = a",
+          "simbolos": "Para raiz real quadrada, a deve ser maior ou igual a zero.",
+          "problema": "Um terreno quadrado tem área de 144 m². Quanto mede o lado?",
+          "passos": [
+            "Para quadrado, área = lado²: L² = 144.",
+            "Extrair raiz quadrada principal: L = √144.",
+            "Como 12 × 12 = 144, L = 12."
+          ],
+          "resposta": "12 metros.",
+          "conferencia": "12 m × 12 m = 144 m².",
+          "atencao": "A equação x² = 144 tem ±12, mas medida de lado não pode ser negativa."
+        },
+        {
+          "titulo": "Números decimais e arredondamento",
+          "definicao": "Casas decimais representam décimos, centésimos e milésimos. Para valores de dinheiro, costuma-se apresentar até centavos; arredonde apenas no fim para evitar erro acumulado.",
+          "formula": "valor médio = soma dos valores ÷ quantidade",
+          "simbolos": "Converta tudo para a mesma unidade antes de somar.",
+          "problema": "Três produtos custam R$ 2,35, R$ 4,80 e R$ 1,45. Qual o gasto total?",
+          "passos": [
+            "Alinhar as vírgulas: 2,35 + 4,80 + 1,45.",
+            "Somar os centavos: 0,35 + 0,80 + 0,45 = 1,60.",
+            "Somar as partes inteiras: 2 + 4 + 1 = 7; total 7 + 1,60 = 8,60."
+          ],
+          "resposta": "R$ 8,60.",
+          "conferencia": "Os três valores somam pouco menos que R$ 9, como esperado.",
+          "atencao": "Não despreze zeros posicionais: R$ 4,80 não é R$ 4,08."
+        }
+      ],
+      "resumo": [
+        "N ⊂ Z ⊂ Q ⊂ R; |−a| = distância de −a até 0",
+        "( ) → potências/raízes → × e ÷ → + e −",
+        "a/b + c/d = (ad + bc)/(bd); (a/b) ÷ (c/d) = (a/b) × (d/c)",
+        "a² = a × a; √a = b quando b ≥ 0 e b² = a",
+        "valor médio = soma dos valores ÷ quantidade"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-divisibilidade-mmc-e-mdc": {
+      "introducao": "Antes de escolher a operação, identifique se a pergunta fala de repartir sem sobrar (MDC) ou de encontrar o primeiro encontro de ciclos (MMC). Aprenda a fatorar e a interpretar o resultado.",
+      "capitulos": [
+        {
+          "titulo": "Divisores e critérios de divisibilidade",
+          "definicao": "Um divisor divide outro número sem resto. Critérios ajudam a testar rapidamente: divisível por 2 termina em algarismo par; por 3 tem soma de algarismos múltipla de 3; por 5 termina em 0 ou 5; por 9 tem soma múltipla de 9.",
+          "formula": "a é divisor de b ⇔ b ÷ a deixa resto 0",
+          "simbolos": "a não pode ser zero; o resto da divisão euclidiana é 0.",
+          "problema": "O número 234 é divisível por 2, 3 e 9?",
+          "passos": [
+            "Por 2: termina em 4, então sim.",
+            "Por 3: 2 + 3 + 4 = 9, então sim.",
+            "Por 9: a soma dos algarismos é 9, então sim."
+          ],
+          "resposta": "Sim, pelos três números.",
+          "conferencia": "234 ÷ 2 = 117; ÷ 3 = 78; ÷ 9 = 26.",
+          "atencao": "Ser divisível por 3 não garante ser divisível por 9; confira o critério específico."
+        },
+        {
+          "titulo": "Decomposição em fatores primos",
+          "definicao": "Fatorar é escrever um número como produto de primos. Os fatores primos permitem descobrir MMC, MDC e simplificar frações.",
+          "formula": "72 = 2³ × 3²",
+          "simbolos": "Exponente indica quantas vezes o fator se repete.",
+          "problema": "Decomponha 72 em fatores primos.",
+          "passos": [
+            "Dividir por 2 sucessivamente: 72 → 36 → 18 → 9 (três divisões).",
+            "Dividir 9 por 3: 9 → 3 → 1 (duas divisões).",
+            "Reunir os fatores: 2 × 2 × 2 × 3 × 3 = 2³ × 3²."
+          ],
+          "resposta": "72 = 2³ × 3².",
+          "conferencia": "8 × 9 = 72.",
+          "atencao": "Não some os fatores: a decomposição é produto."
+        },
+        {
+          "titulo": "MDC — maior divisor comum",
+          "definicao": "O MDC é o maior inteiro positivo que divide simultaneamente dois ou mais números. Aparece em problemas de cortar ou distribuir em grupos iguais, sem sobras.",
+          "formula": "MDC = produto dos fatores primos comuns com MENORES expoentes",
+          "simbolos": "Só fatores presentes em todos os números.",
+          "problema": "Há fitas de 48 cm e 60 cm. Qual o maior tamanho de pedaços iguais, sem desperdício?",
+          "passos": [
+            "Fatorar 48 = 2⁴ × 3 e 60 = 2² × 3 × 5.",
+            "Selecionar fatores comuns com menor expoente: 2² × 3.",
+            "Calcular 4 × 3 = 12."
+          ],
+          "resposta": "12 cm por pedaço.",
+          "conferencia": "48 ÷ 12 = 4; 60 ÷ 12 = 5, ambas sem resto.",
+          "atencao": "O MDC dá o tamanho MÁXIMO do pedaço, não o número total de pedaços."
+        },
+        {
+          "titulo": "MMC — mínimo múltiplo comum",
+          "definicao": "O MMC é o menor múltiplo positivo comum. Aparece em encontros de eventos periódicos que começam juntos.",
+          "formula": "MMC = produto de TODOS os fatores primos com MAIORES expoentes",
+          "simbolos": "Considere cada fator presente em pelo menos um dos números.",
+          "problema": "Dois alarmes tocam a cada 12 e 18 minutos e acabaram de tocar juntos. Quando coincidem novamente?",
+          "passos": [
+            "Fatorar 12 = 2² × 3; 18 = 2 × 3².",
+            "Selecionar maiores expoentes: 2² × 3² = 4 × 9.",
+            "MMC(12,18) = 36 minutos."
+          ],
+          "resposta": "Depois de 36 minutos.",
+          "conferencia": "36 ÷ 12 = 3 ciclos; 36 ÷ 18 = 2 ciclos.",
+          "atencao": "Não use MDC em sincronização: 6 minutos não é múltiplo de 12 nem de 18."
+        },
+        {
+          "titulo": "Como decidir entre MMC e MDC",
+          "definicao": "A escolha depende do objetivo do enunciado, não apenas da presença de dois números. Faça um teste com o resultado para garantir que ele satisfaz as condições.",
+          "formula": "MDC divide os dados; MMC é divisível pelos dados",
+          "simbolos": "MDC ≤ menor dos números; MMC ≥ maior dos números, para inteiros positivos.",
+          "problema": "24 balas e 36 bombons serão divididos igualmente no MAIOR número de sacos idênticos, sem sobras. Quantos sacos?",
+          "passos": [
+            "A pergunta pede o maior número de grupos iguais: usar MDC.",
+            "MDC(24,36) = 12.",
+            "Cada saco recebe 24 ÷ 12 = 2 balas e 36 ÷ 12 = 3 bombons."
+          ],
+          "resposta": "12 sacos iguais.",
+          "conferencia": "12 × 2 = 24 e 12 × 3 = 36.",
+          "atencao": "Se a pergunta fosse o tamanho do maior pedaço de duas fitas, o MDC indicaria centímetros, não sacos."
+        }
+      ],
+      "resumo": [
+        "a é divisor de b ⇔ b ÷ a deixa resto 0",
+        "72 = 2³ × 3²",
+        "MDC = produto dos fatores primos comuns com MENORES expoentes",
+        "MMC = produto de TODOS os fatores primos com MAIORES expoentes",
+        "MDC divide os dados; MMC é divisível pelos dados"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-porcentagem": {
+      "introducao": "Porcentagem compara uma parte com uma base de 100. Aprenda a localizar a base, transformar o percentual em decimal, descobrir valores desconhecidos e lidar com aumentos e descontos sucessivos.",
+      "capitulos": [
+        {
+          "titulo": "Porcentagem, fração e número decimal",
+          "definicao": "Percentual é uma razão cujo denominador é 100. O símbolo % significa por cento: 25% = 25/100 = 0,25 = 1/4.",
+          "formula": "p% = p/100; parte = base × (p/100)",
+          "simbolos": "p: taxa percentual; base: quantidade de referência (100%).",
+          "problema": "Quanto é 35% de 240?",
+          "passos": [
+            "Converter taxa: 35% = 0,35.",
+            "Identificar base: 240.",
+            "Aplicar: parte = 240 × 0,35 = 84."
+          ],
+          "resposta": "84.",
+          "conferencia": "10% de 240 = 24; 30% = 72 e 5% = 12; 72 + 12 = 84.",
+          "atencao": "A base não é a resposta procurada. Determine qual número corresponde a 100%."
+        },
+        {
+          "titulo": "Encontrar a taxa percentual",
+          "definicao": "Quando se conhecem parte e total, divide-se a parte pelo total e transforma-se o quociente em percentual.",
+          "formula": "p = (parte ÷ total) × 100%",
+          "simbolos": "O total deve ser diferente de zero e corresponder à base da comparação.",
+          "problema": "Um estudante acertou 42 das 60 questões. Qual seu percentual de acertos?",
+          "passos": [
+            "Parte = 42 acertos; total = 60 questões.",
+            "Calcular 42 ÷ 60 = 0,70.",
+            "Converter para percentual: 0,70 × 100 = 70%."
+          ],
+          "resposta": "70% de acertos.",
+          "conferencia": "70% de 60 = 0,7 × 60 = 42.",
+          "atencao": "Dividir pelo total correto: 42 ÷ 60, não 60 ÷ 42."
+        },
+        {
+          "titulo": "Recuperar a base original",
+          "definicao": "Quando a parte e seu percentual são conhecidos, a base é encontrada dividindo-se a parte pela taxa decimal.",
+          "formula": "base = parte ÷ (p/100)",
+          "simbolos": "p não pode ser zero quando se quer achar base a partir da parte.",
+          "problema": "R$ 54 correspondem a 30% de um valor. Qual é o valor total?",
+          "passos": [
+            "Equação: 0,30 × B = 54.",
+            "Isolar B: B = 54 ÷ 0,30.",
+            "Calcular B = 180."
+          ],
+          "resposta": "R$ 180.",
+          "conferencia": "30% de 180 = 54.",
+          "atencao": "Não subtraia 30 de 54: o percentual não é quantia fixa."
+        },
+        {
+          "titulo": "Aumento e desconto em uma etapa",
+          "definicao": "Aumento de p% acrescenta p% da base; desconto retira essa parcela. O fator multiplicador evita duas contas separadas.",
+          "formula": "aumento: novo = antigo × (1 + p/100); desconto: novo = antigo × (1 − p/100)",
+          "simbolos": "Use p na forma percentual e a base no preço ANTES da mudança.",
+          "problema": "Um produto de R$ 240 tem desconto de 15%. Qual o preço final?",
+          "passos": [
+            "Converter: 15% = 0,15.",
+            "Encontrar fator do desconto: 1 − 0,15 = 0,85.",
+            "Multiplicar: 240 × 0,85 = 204."
+          ],
+          "resposta": "R$ 204.",
+          "conferencia": "Desconto foi 240 − 204 = R$ 36; 15% de 240 = 36.",
+          "atencao": "Não confunda R$ 36 de desconto com R$ 204 do preço final."
+        },
+        {
+          "titulo": "Porcentagens sucessivas e variação",
+          "definicao": "A segunda taxa incide sobre um valor já alterado. Para calcular variação relativa, compare a diferença com o valor inicial.",
+          "formula": "final = inicial × fator₁ × fator₂; variação % = (final − inicial)/inicial × 100",
+          "simbolos": "Fatores: aumento de 20% = 1,20; desconto de 20% = 0,80.",
+          "problema": "Um valor de R$ 100 aumenta 20% e depois diminui 20%. Qual o resultado?",
+          "passos": [
+            "Após o aumento: 100 × 1,20 = 120.",
+            "Após desconto: 120 × 0,80 = 96.",
+            "Comparar com inicial: (96 − 100)/100 × 100 = −4%."
+          ],
+          "resposta": "R$ 96; redução líquida de 4%.",
+          "conferencia": "O desconto foi de R$ 24 (20% de 120), diferente do aumento de R$ 20.",
+          "atencao": "Aumento de 20% seguido de desconto de 20% NÃO se anula: mudam as bases."
+        },
+        {
+          "titulo": "Pontos percentuais x aumento percentual",
+          "definicao": "Diferença entre taxas em % é medida em pontos percentuais (p.p.); aumento relativo compara essa diferença à taxa anterior.",
+          "formula": "pontos percentuais = taxa final − inicial; aumento relativo = diferença/taxa inicial × 100",
+          "simbolos": "Não use a taxa final como denominador da variação que parte da taxa inicial.",
+          "problema": "A aprovação passou de 40% para 50%. Qual foi a diferença em p.p. e o aumento relativo?",
+          "passos": [
+            "Diferença direta: 50 − 40 = 10 pontos percentuais.",
+            "Base do aumento relativo: 40%.",
+            "Calcular 10/40 × 100 = 25%."
+          ],
+          "resposta": "10 pontos percentuais; aumento relativo de 25%.",
+          "conferencia": "40% × 1,25 = 50%.",
+          "atencao": "Não diga que subiu 10% sem especificar se são pontos percentuais ou variação relativa."
+        }
+      ],
+      "resumo": [
+        "p% = p/100; parte = base × (p/100)",
+        "p = (parte ÷ total) × 100%",
+        "base = parte ÷ (p/100)",
+        "aumento: novo = antigo × (1 + p/100); desconto: novo = antigo × (1 − p/100)",
+        "final = inicial × fator₁ × fator₂; variação % = (final − inicial)/inicial × 100",
+        "pontos percentuais = taxa final − inicial; aumento relativo = diferença/taxa inicial × 100"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-regra-de-tres": {
+      "introducao": "Regra de três exige reconhecer a relação entre as grandezas. Vamos montar tabelas, decidir entre proporção direta e inversa e conferir se o sentido do resultado é razoável.",
+      "capitulos": [
+        {
+          "titulo": "Construindo uma tabela de grandezas",
+          "definicao": "Organize valores da mesma grandeza na mesma coluna e deixe o desconhecido como x. Antes da conta, fixe hipóteses: preço unitário, velocidade ou produtividade constantes.",
+          "formula": "direta: a₁/b₁ = a₂/b₂; inversa: a₁ × b₁ = a₂ × b₂",
+          "simbolos": "a e b são valores correspondentes de duas grandezas; verifique qual tipo de relação existe.",
+          "problema": "3 kg de arroz custam R$ 21. Quanto custam 8 kg no mesmo preço por quilo?",
+          "passos": [
+            "Tabela: 3 kg → R$ 21; 8 kg → x.",
+            "Preço por kg = 21 ÷ 3 = R$ 7.",
+            "Calcular 8 × 7 = 56."
+          ],
+          "resposta": "R$ 56.",
+          "conferencia": "8 kg pesam mais que 3 kg e custam mais: relação coerente.",
+          "atencao": "Não cruze valores de unidades diferentes sem definir as colunas."
+        },
+        {
+          "titulo": "Regra de três direta",
+          "definicao": "Quando uma grandeza dobra e a outra também dobra, mantendo a razão constante, a relação é direta.",
+          "formula": "a₁/b₁ = a₂/b₂ → a₁ × b₂ = a₂ × b₁",
+          "simbolos": "As grandezas devem variar proporcionalmente sob as hipóteses do enunciado.",
+          "problema": "Cinco cadernos custam R$ 45. Quanto custam oito?",
+          "passos": [
+            "Escrever 5/8 = 45/x, na mesma ordem das grandezas.",
+            "Multiplicar em cruz: 5x = 8 × 45 = 360.",
+            "Dividir por 5: x = 72."
+          ],
+          "resposta": "R$ 72.",
+          "conferencia": "Preço unitário 45 ÷ 5 = 9; 8 × 9 = 72.",
+          "atencao": "Não aplique proporção se houver desconto por quantidade ou taxa fixa."
+        },
+        {
+          "titulo": "Regra de três inversa",
+          "definicao": "Quando aumenta o número de trabalhadores igualmente eficientes e o serviço permanece o mesmo, o tempo tende a diminuir na mesma proporção.",
+          "formula": "a₁ × b₁ = a₂ × b₂",
+          "simbolos": "Exige trabalho fixo e produtividade individual constante.",
+          "problema": "4 trabalhadores terminam um serviço em 9 dias. Em quantos dias 6 trabalhadores terminam?",
+          "passos": [
+            "Identificar inversa: mais trabalhadores → menos dias.",
+            "Montar 4 × 9 = 6 × x.",
+            "Calcular 36 = 6x, logo x = 6."
+          ],
+          "resposta": "6 dias.",
+          "conferencia": "4 × 9 = 36 jornadas de trabalho; 6 × 6 = 36.",
+          "atencao": "Não monte como relação direta: isso daria 13,5 dias, maior com mais trabalhadores."
+        },
+        {
+          "titulo": "Regra de três composta",
+          "definicao": "Com três ou mais grandezas, compare uma variável de cada vez com a grandeza desconhecida, mantendo as demais constantes.",
+          "formula": "produção₂ = produção₁ × (pessoas₂/pessoas₁) × (horas₂/horas₁)",
+          "simbolos": "Válida com produtividade individual constante e condições comparáveis.",
+          "problema": "4 funcionários fazem 120 registros em 5 horas. Quantos registros 6 funcionários fazem em 8 horas?",
+          "passos": [
+            "Produção é direta com pessoas: fator 6/4 = 1,5.",
+            "Produção é direta com horas: fator 8/5 = 1,6.",
+            "Calcular 120 × 1,5 × 1,6 = 288."
+          ],
+          "resposta": "288 registros.",
+          "conferencia": "Por pessoa-hora: 120/(4 × 5) = 6; 6 × 6 × 8 = 288.",
+          "atencao": "Não multiplique frações sem verificar se a relação é direta ou inversa."
+        },
+        {
+          "titulo": "Teste de proporcionalidade e exceções",
+          "definicao": "Duas grandezas só são proporcionais quando a razão (direta) ou o produto (inversa) permanece constante. Taxas fixas, limites e mudanças de ritmo podem quebrar a regra.",
+          "formula": "direta: y/x = constante; inversa: x × y = constante",
+          "simbolos": "Razões só são definidas para denominadores não nulos.",
+          "problema": "Uma corrida de táxi custa R$ 8 fixos mais R$ 3 por km. Uma corrida de 4 km custa R$ 20; quanto custa 8 km?",
+          "passos": [
+            "Escrever a regra real: P = 8 + 3k.",
+            "Substituir k = 8: P = 8 + 24.",
+            "Calcular P = 32."
+          ],
+          "resposta": "R$ 32.",
+          "conferencia": "Para 4 km: 8 + 12 = 20; dobrar quilometragem não dobra preço por causa da taxa fixa.",
+          "atencao": "É erro aplicar regra de três direta a preço que inclui bandeirada fixa."
+        }
+      ],
+      "resumo": [
+        "direta: a₁/b₁ = a₂/b₂; inversa: a₁ × b₁ = a₂ × b₂",
+        "a₁/b₁ = a₂/b₂ → a₁ × b₂ = a₂ × b₁",
+        "a₁ × b₁ = a₂ × b₂",
+        "produção₂ = produção₁ × (pessoas₂/pessoas₁) × (horas₂/horas₁)",
+        "direta: y/x = constante; inversa: x × y = constante"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-raz-es-e-propor-es": {
+      "introducao": "Razão compara quantidades; proporção iguala razões. Diferencie ordem, unidades e significado antes de usar multiplicação cruzada ou divisão em partes.",
+      "capitulos": [
+        {
+          "titulo": "Razão e ordem dos termos",
+          "definicao": "Razão a:b equivale a a/b e indica uma comparação ordenada. Quando se comparam grandezas da mesma espécie, converta para unidades iguais.",
+          "formula": "razão = a/b, com b ≠ 0",
+          "simbolos": "O primeiro número é o antecedente; o segundo, o consequente.",
+          "problema": "Uma sala tem 12 meninas e 18 meninos. Qual a razão meninas:meninos?",
+          "passos": [
+            "Escrever na ordem: 12/18.",
+            "Simplificar pelo MDC(12,18)=6.",
+            "Dividir ambos por 6: 2/3."
+          ],
+          "resposta": "2:3.",
+          "conferencia": "A cada 2 meninas há 3 meninos; 2/3 × 18 = 12.",
+          "atencao": "A razão meninas:total é 12/30 = 2/5, outra pergunta."
+        },
+        {
+          "titulo": "Proporção e multiplicação cruzada",
+          "definicao": "Proporção afirma igualdade entre razões. O produto cruzado é válido quando ambos os denominadores são não nulos.",
+          "formula": "a/b = c/d ⇔ a × d = b × c",
+          "simbolos": "b e d precisam ser diferentes de zero.",
+          "problema": "Descubra x em 3/5 = x/20.",
+          "passos": [
+            "Escrever produtos cruzados: 3 × 20 = 5x.",
+            "Calcular 60 = 5x.",
+            "Dividir ambos por 5: x = 12."
+          ],
+          "resposta": "12.",
+          "conferencia": "12/20 reduz a 3/5.",
+          "atencao": "Multiplicar o numerador de um lado pelo numerador do outro não é a regra."
+        },
+        {
+          "titulo": "Divisão proporcional direta",
+          "definicao": "Para dividir uma quantia segundo pesos positivos, some os pesos e calcule o valor de uma parte.",
+          "formula": "parcelaᵢ = total × pesoᵢ/(soma dos pesos)",
+          "simbolos": "O total distribuído deve ser a soma das parcelas.",
+          "problema": "R$ 900 devem ser divididos na razão 2:3:4. Quanto recebe cada participante?",
+          "passos": [
+            "Somar pesos: 2 + 3 + 4 = 9.",
+            "Calcular uma parte: 900 ÷ 9 = 100.",
+            "Distribuir: 2×100 = 200; 3×100 = 300; 4×100 = 400."
+          ],
+          "resposta": "R$ 200, R$ 300 e R$ 400.",
+          "conferencia": "200 + 300 + 400 = 900; 200:300:400 = 2:3:4.",
+          "atencao": "Não divida por três, pois os pesos não são iguais."
+        },
+        {
+          "titulo": "Razões com unidades e escalas",
+          "definicao": "Escala é uma razão entre medida no desenho e medida real, ambas na mesma unidade. A escala 1:100 significa 1 unidade no desenho para 100 unidades reais.",
+          "formula": "escala = distância no mapa ÷ distância real",
+          "simbolos": "Converter centímetros, metros ou quilômetros antes de aplicar.",
+          "problema": "Um desenho em escala 1:200 mostra uma parede de 3 cm. Qual a medida real?",
+          "passos": [
+            "Usar Dreal = 3 × 200 = 600 cm.",
+            "Converter 600 cm ÷ 100 = 6 m.",
+            "Interpretar: a parede real é 200 vezes maior que no desenho."
+          ],
+          "resposta": "6 metros.",
+          "conferencia": "3 cm/600 cm = 1/200.",
+          "atencao": "Não confunda escala 1:200 com desconto de 200%."
+        },
+        {
+          "titulo": "Grandezas inversamente proporcionais",
+          "definicao": "Em uma relação inversamente proporcional, o produto dos valores correspondentes é constante; não é necessário que uma variável seja negativa.",
+          "formula": "x₁ × y₁ = x₂ × y₂",
+          "simbolos": "A quantidade total do serviço deve permanecer constante.",
+          "problema": "Um reservatório é preenchido por 3 torneiras em 8 horas. Quanto tempo levariam 4 torneiras iguais?",
+          "passos": [
+            "Encontrar trabalho total: 3 × 8 = 24 torneira-horas.",
+            "Montar 4 × t = 24.",
+            "Isolar t = 24/4 = 6."
+          ],
+          "resposta": "6 horas.",
+          "conferencia": "Mais torneiras → menor tempo, como esperado.",
+          "atencao": "Não inverta uma razão sem entender o significado do problema."
+        }
+      ],
+      "resumo": [
+        "razão = a/b, com b ≠ 0",
+        "a/b = c/d ⇔ a × d = b × c",
+        "parcelaᵢ = total × pesoᵢ/(soma dos pesos)",
+        "escala = distância no mapa ÷ distância real",
+        "x₁ × y₁ = x₂ × y₂"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-m-dias-aritm-ticas-e-ponderadas": {
+      "introducao": "Média não é apenas “somar e dividir”: primeiro verifique quais valores contam, se há pesos e se a base de comparação é a mesma.",
+      "capitulos": [
+        {
+          "titulo": "Média aritmética simples",
+          "definicao": "É a soma de todos os valores dividida pela quantidade de observações. Em uma média, cada observação tem o mesmo peso.",
+          "formula": "média = (x₁ + x₂ + … + xₙ)/n",
+          "simbolos": "n: número de valores; n deve ser positivo.",
+          "problema": "Quatro tempos de atendimento foram 8, 10, 12 e 14 minutos. Qual a média?",
+          "passos": [
+            "Somar: 8 + 10 + 12 + 14 = 44 minutos.",
+            "Contar: n = 4 atendimentos.",
+            "Dividir 44 ÷ 4 = 11 minutos."
+          ],
+          "resposta": "11 minutos.",
+          "conferencia": "Os desvios são −3, −1, +1, +3, que se compensam.",
+          "atencao": "Não divida pelo total de minutos; divida pela quantidade de observações."
+        },
+        {
+          "titulo": "Média ponderada",
+          "definicao": "Quando há pesos, cada nota ou valor contribui de acordo com sua importância. Multiplique cada valor pelo peso, some e divida pela soma dos pesos.",
+          "formula": "média = (Σ valor × peso)/(Σ pesos)",
+          "simbolos": "Pesos precisam ser não negativos e soma dos pesos positiva.",
+          "problema": "Uma avaliação tem nota 6 com peso 2 e nota 9 com peso 3. Qual a média?",
+          "passos": [
+            "Produtos: 6 × 2 = 12; 9 × 3 = 27.",
+            "Soma ponderada: 12 + 27 = 39; pesos: 2 + 3 = 5.",
+            "Dividir: 39 ÷ 5 = 7,8."
+          ],
+          "resposta": "7,8.",
+          "conferencia": "A média se aproxima mais de 9, que tem maior peso.",
+          "atencao": "A média simples (6+9)/2 = 7,5 não atende à ponderação."
+        },
+        {
+          "titulo": "Descobrir o valor faltante",
+          "definicao": "Se conhecemos a média de n observações, conhecemos a soma delas: média × n. Subtraia os valores conhecidos.",
+          "formula": "soma = média × n; faltante = soma − soma dos conhecidos",
+          "simbolos": "Se houver pesos, o raciocínio muda para soma ponderada.",
+          "problema": "A média de quatro notas é 7. As três primeiras são 6, 8 e 5. Qual a quarta?",
+          "passos": [
+            "Soma total necessária: 7 × 4 = 28.",
+            "Soma das notas conhecidas: 6 + 8 + 5 = 19.",
+            "Faltante: 28 − 19 = 9."
+          ],
+          "resposta": "9.",
+          "conferencia": "(6+8+5+9)/4 = 28/4 = 7.",
+          "atencao": "Não calcule a média das três primeiras como se fosse a quarta."
+        },
+        {
+          "titulo": "Média de grupos de tamanhos diferentes",
+          "definicao": "Para unir médias de grupos, multiplique cada média pelo número de participantes, some os totais e divida pelo total de pessoas.",
+          "formula": "média conjunta = (n₁m₁ + n₂m₂)/(n₁ + n₂)",
+          "simbolos": "n são quantidades; m são médias de cada grupo.",
+          "problema": "Uma turma de 10 alunos tem média 7; outra de 20 tem média 8,5. Qual a média conjunta?",
+          "passos": [
+            "Total de pontos da primeira: 10 × 7 = 70.",
+            "Segunda: 20 × 8,5 = 170.",
+            "Somar e dividir: (70 + 170)/(10 + 20) = 240/30 = 8."
+          ],
+          "resposta": "8,0.",
+          "conferencia": "Fica mais perto de 8,5, porque a segunda turma tem mais alunos.",
+          "atencao": "Não faça (7+8,5)/2 sem considerar os tamanhos dos grupos."
+        },
+        {
+          "titulo": "Média não é mediana nem moda",
+          "definicao": "Média usa a soma; mediana é o valor central na lista ordenada; moda é o valor mais frequente. Valores extremos afetam a média mais diretamente.",
+          "formula": "mediana de n ímpar = valor central; n par = média dos dois centrais",
+          "simbolos": "Ordenar os valores antes de identificar a mediana.",
+          "problema": "Os tempos foram 3, 3, 4, 5 e 20 minutos. Ache média, mediana e moda.",
+          "passos": [
+            "Média: (3+3+4+5+20)/5 = 35/5 = 7.",
+            "Mediana: valores em ordem; o 3º de cinco é 4.",
+            "Moda: 3 aparece duas vezes, mais que os outros."
+          ],
+          "resposta": "Média 7; mediana 4; moda 3.",
+          "conferencia": "O valor 20 eleva a média, mas não muda a posição central.",
+          "atencao": "Se o enunciado pede “tempo típico”, avalie qual medida é adequada."
+        }
+      ],
+      "resumo": [
+        "média = (x₁ + x₂ + … + xₙ)/n",
+        "média = (Σ valor × peso)/(Σ pesos)",
+        "soma = média × n; faltante = soma − soma dos conhecidos",
+        "média conjunta = (n₁m₁ + n₂m₂)/(n₁ + n₂)",
+        "mediana de n ímpar = valor central; n par = média dos dois centrais"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-juros-simples": {
+      "introducao": "Em juros simples, o juro do período é calculado sempre sobre o capital original. Aprenda a converter a taxa, achar juros e montante e inverter fórmulas.",
+      "capitulos": [
+        {
+          "titulo": "Capital, taxa, tempo e juro",
+          "definicao": "Capital é o valor inicial; taxa é percentual por período; tempo é a quantidade de períodos. Nos juros simples, o juro de cada período é constante.",
+          "formula": "J = C × i × t",
+          "simbolos": "J: juros; C: capital; i: taxa decimal por período; t: número de períodos.",
+          "problema": "R$ 1.200 são aplicados a 2% ao mês por 5 meses. Quais os juros?",
+          "passos": [
+            "Taxa decimal: 2/100 = 0,02 ao mês.",
+            "Montar J = 1200 × 0,02 × 5.",
+            "Por mês: 1200 × 0,02 = 24; em 5 meses: 24 × 5 = 120."
+          ],
+          "resposta": "Juros de R$ 120.",
+          "conferencia": "Cada mês acrescenta R$ 24; 5 meses somam R$ 120.",
+          "atencao": "Não calcule juros sobre o saldo já aumentado: isso seria capitalização composta."
+        },
+        {
+          "titulo": "Montante e diferenças entre juros e total",
+          "definicao": "Montante é o valor final: soma do capital e dos juros. Se a pergunta pede “rendimento”, responda J; se pede “saldo final”, responda M.",
+          "formula": "M = C + J = C × (1 + i × t)",
+          "simbolos": "i e t devem estar na mesma unidade temporal.",
+          "problema": "Um empréstimo de R$ 800 rende 3% ao mês por 4 meses. Qual o montante?",
+          "passos": [
+            "J = 800 × 0,03 × 4 = 96.",
+            "Somar capital e juros: M = 800 + 96.",
+            "Montante M = 896."
+          ],
+          "resposta": "R$ 896.",
+          "conferencia": "M = 800 × (1 + 0,03 × 4) = 800 × 1,12 = 896.",
+          "atencao": "R$ 96 são os juros, não o montante."
+        },
+        {
+          "titulo": "Taxas e unidades de tempo",
+          "definicao": "Se a taxa é mensal, o tempo precisa estar em meses; se é anual, em anos. Em juros simples, uma taxa anual nominal equivalente pode ser proporcional ao período.",
+          "formula": "i_mensal = i_anual/12; t_anos = t_meses/12",
+          "simbolos": "Use a conversão proporcional apenas dentro do modelo de juros simples.",
+          "problema": "R$ 2.000 a 12% ao ano, por 6 meses, geram quanto em juros simples?",
+          "passos": [
+            "Tempo = 6/12 = 0,5 ano.",
+            "Taxa = 12% = 0,12 ao ano.",
+            "J = 2000 × 0,12 × 0,5 = 120."
+          ],
+          "resposta": "R$ 120.",
+          "conferencia": "Equivale a 1% ao mês × 6 meses: 2000 × 0,01 × 6 = 120.",
+          "atencao": "Não use 12% ao ano com t = 6 como se fossem seis anos."
+        },
+        {
+          "titulo": "Encontrar o capital inicial",
+          "definicao": "Para descobrir o valor aplicado, isole o capital na equação dos juros simples. Confira substituindo no enunciado.",
+          "formula": "C = J/(i × t)",
+          "simbolos": "i × t deve ser diferente de zero.",
+          "problema": "Um investimento gerou R$ 180 em juros simples a 3% ao mês durante 5 meses. Qual o capital?",
+          "passos": [
+            "Escrever 180 = C × 0,03 × 5.",
+            "Multiplicar taxa e tempo: 0,03 × 5 = 0,15.",
+            "Isolar C: 180 ÷ 0,15 = 1200."
+          ],
+          "resposta": "R$ 1.200.",
+          "conferencia": "15% de R$ 1.200 são R$ 180.",
+          "atencao": "Não divida apenas pela taxa; o tempo também participa."
+        },
+        {
+          "titulo": "Encontrar taxa ou prazo",
+          "definicao": "Se faltam taxa ou tempo, reorganize J=C×i×t. Taxa em decimal deve ser convertida para percentual ao final.",
+          "formula": "i = J/(C × t); t = J/(C × i)",
+          "simbolos": "Taxa e tempo têm unidades recíprocas: % por mês com meses, por exemplo.",
+          "problema": "R$ 1.000 renderam R$ 150 em juros simples ao longo de 5 meses. Qual a taxa mensal?",
+          "passos": [
+            "Substituir: i = 150/(1000 × 5).",
+            "Denominador: 1000 × 5 = 5000.",
+            "Taxa decimal: 150/5000 = 0,03; percentual: 3%."
+          ],
+          "resposta": "3% ao mês.",
+          "conferencia": "1000 × 0,03 × 5 = 150.",
+          "atencao": "Não confunda taxa total de 15% em 5 meses com taxa mensal de 3%."
+        }
+      ],
+      "resumo": [
+        "J = C × i × t",
+        "M = C + J = C × (1 + i × t)",
+        "i_mensal = i_anual/12; t_anos = t_meses/12",
+        "C = J/(i × t)",
+        "i = J/(C × t); t = J/(C × i)"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-equacao-1grau": {
+      "introducao": "Esta aula constrói a base algébrica: traduzir uma frase em igualdade, usar operações equivalentes e verificar a incógnita. A aula “Equação do primeiro grau” aprofunda problemas contextualizados.",
+      "capitulos": [
+        {
+          "titulo": "Incógnita, membro e igualdade",
+          "definicao": "Equação é uma igualdade que possui uma ou mais incógnitas. Resolver significa encontrar o valor que torna os dois membros iguais.",
+          "formula": "ax + b = c, com a ≠ 0",
+          "simbolos": "x: incógnita; a: coeficiente; b,c: termos conhecidos.",
+          "problema": "Qual valor de x torna 3x + 5 = 20 verdadeira?",
+          "passos": [
+            "Subtrair 5 de ambos os membros: 3x = 15.",
+            "Dividir ambos por 3: x = 5.",
+            "Substituir: 3 × 5 + 5 = 20."
+          ],
+          "resposta": "x = 5.",
+          "conferencia": "Lado esquerdo 20 = lado direito 20.",
+          "atencao": "Uma expressão como 3x+5 sem sinal de igualdade não é equação."
+        },
+        {
+          "titulo": "Princípio da balança",
+          "definicao": "Para preservar a igualdade, faça a mesma operação nos dois membros. Dividir por zero é proibido.",
+          "formula": "A = B ⇒ A + k = B + k; A/k = B/k se k ≠ 0",
+          "simbolos": "Operações equivalentes mantêm o conjunto de soluções.",
+          "problema": "Resolva x/4 + 3 = 8.",
+          "passos": [
+            "Subtrair 3 dos dois lados: x/4 = 5.",
+            "Multiplicar ambos por 4: x = 20.",
+            "Verificar: 20/4 + 3 = 8."
+          ],
+          "resposta": "x = 20.",
+          "conferencia": "5 + 3 = 8.",
+          "atencao": "“Passar o 4 multiplicando” é atalho; a razão é multiplicar ambos os membros por 4."
+        },
+        {
+          "titulo": "Incógnita nos dois lados",
+          "definicao": "Primeiro junte os termos com x em um lado, depois os números no outro. A igualdade deve continuar equivalente.",
+          "formula": "ax + b = cx + d ⇒ (a − c)x = d − b",
+          "simbolos": "Se a = c, a equação pode ser impossível ou identidade, dependendo de b,d.",
+          "problema": "Resolva 5x + 7 = 2x + 22.",
+          "passos": [
+            "Subtrair 2x nos dois lados: 3x + 7 = 22.",
+            "Subtrair 7: 3x = 15.",
+            "Dividir por 3: x = 5."
+          ],
+          "resposta": "x = 5.",
+          "conferencia": "5×5+7 = 32; 2×5+22 = 32.",
+          "atencao": "Não mova termos sem alterar corretamente o sinal."
+        },
+        {
+          "titulo": "Parênteses e distributiva",
+          "definicao": "Multiplique o fator externo por CADA termo do parêntese antes de isolar x.",
+          "formula": "a(b + c) = ab + ac",
+          "simbolos": "A distributiva se aplica também a termos negativos.",
+          "problema": "Resolva 2(x + 3) = 3x − 4.",
+          "passos": [
+            "Distribuir: 2x + 6 = 3x − 4.",
+            "Subtrair 2x: 6 = x − 4.",
+            "Somar 4: x = 10."
+          ],
+          "resposta": "x = 10.",
+          "conferencia": "2(10+3)=26; 3×10−4=26.",
+          "atencao": "2(x+3) não é 2x+3: o 3 também é multiplicado."
+        },
+        {
+          "titulo": "Frações em equações",
+          "definicao": "Quando há denominadores, multiplique todos os termos da equação por um múltiplo comum não nulo para eliminá-los.",
+          "formula": "x/3 + x/2 = 10 ⇒ multiplicar por MMC(3,2) = 6",
+          "simbolos": "Multiplicar TODOS os termos dos dois lados por 6.",
+          "problema": "Resolva x/3 + x/2 = 10.",
+          "passos": [
+            "Multiplicar por 6: 2x + 3x = 60.",
+            "Somar semelhantes: 5x = 60.",
+            "Dividir por 5: x = 12."
+          ],
+          "resposta": "x = 12.",
+          "conferencia": "12/3 + 12/2 = 4+6 = 10.",
+          "atencao": "O MMC é dos denominadores, não dos numeradores."
+        }
+      ],
+      "resumo": [
+        "ax + b = c, com a ≠ 0",
+        "A = B ⇒ A + k = B + k; A/k = B/k se k ≠ 0",
+        "ax + b = cx + d ⇒ (a − c)x = d − b",
+        "a(b + c) = ab + ac",
+        "x/3 + x/2 = 10 ⇒ multiplicar por MMC(3,2) = 6"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-equa-o-do-primeiro-grau": {
+      "introducao": "Aqui a prioridade é transformar situações de prova em equações: escolher a variável, traduzir expressões, resolver e interpretar a resposta com unidades.",
+      "capitulos": [
+        {
+          "titulo": "Transformar o texto em linguagem algébrica",
+          "definicao": "Defina o significado da incógnita ANTES da conta. “Dobro” vira 2x; “três a mais” vira x+3; “soma” exige adicionar parcelas.",
+          "formula": "total = parcela fixa + parcela variável",
+          "simbolos": "A variável pode medir preço, tempo, idade ou quantidade.",
+          "problema": "Um estacionamento cobra R$ 8 fixos mais R$ 5 por hora. A conta foi R$ 33. Quantas horas?",
+          "passos": [
+            "Seja h o número de horas.",
+            "Montar 8 + 5h = 33.",
+            "Subtrair 8: 5h = 25; dividir por 5: h = 5."
+          ],
+          "resposta": "5 horas.",
+          "conferencia": "8 + 5×5 = 33.",
+          "atencao": "Não divida R$ 33 por R$ 5 sem descontar a taxa fixa."
+        },
+        {
+          "titulo": "Problemas de idades",
+          "definicao": "As idades aumentam a mesma quantidade de anos para todas as pessoas. Diferencie idade atual de idade futura.",
+          "formula": "idade daqui a t anos = idade atual + t",
+          "simbolos": "Use uma única variável e expresse as demais em função dela.",
+          "problema": "Ana tem o triplo da idade de Bruno. Daqui a 4 anos, a soma será 48. Qual a idade atual de Bruno?",
+          "passos": [
+            "Seja b a idade de Bruno; Ana tem 3b.",
+            "Daqui a quatro anos: (b+4) + (3b+4) = 48.",
+            "4b + 8 = 48 → 4b=40 → b = 10."
+          ],
+          "resposta": "Bruno tem 10 anos; Ana, 30.",
+          "conferencia": "Daqui a 4 anos: 14 + 34 = 48.",
+          "atencao": "A frase “daqui a quatro anos” se aplica às DUAS pessoas, não apenas a Bruno."
+        },
+        {
+          "titulo": "Compras, quantidades e preços unitários",
+          "definicao": "Quando itens têm o mesmo preço, multiplique preço por quantidade. Se há preço fixo ou desconto, inclua-o na equação.",
+          "formula": "custo total = preço unitário × quantidade + taxa fixa",
+          "simbolos": "A unidade monetária deve ser mantida do começo ao fim.",
+          "problema": "Uma encomenda tem custo fixo de R$ 12 mais R$ 4 por unidade. O total foi R$ 36. Quantas unidades?",
+          "passos": [
+            "Defina n = número de unidades.",
+            "Montar 12 + 4n = 36.",
+            "Isolar: 4n = 24; n=6."
+          ],
+          "resposta": "6 unidades.",
+          "conferencia": "12 + 4×6 = 36.",
+          "atencao": "A quantidade é inteira; uma solução fracionária pode contrariar o contexto."
+        },
+        {
+          "titulo": "Equações com proporcionalidade de valores",
+          "definicao": "Em uma compra, diferencie diferença entre quantidades e preço relativo. Traduza cada relação para linguagem algébrica.",
+          "formula": "diferença: x − y = d; dobro: x = 2y",
+          "simbolos": "Confira se a incógnita representa valor individual ou total.",
+          "problema": "Dois produtos somam R$ 84. O primeiro custa R$ 12 a mais que o segundo. Quais os preços?",
+          "passos": [
+            "Seja x o preço menor; maior = x+12.",
+            "Somar: x + (x+12) = 84 → 2x+12=84.",
+            "Resolver: 2x=72 → x=36; maior=48."
+          ],
+          "resposta": "R$ 36 e R$ 48.",
+          "conferencia": "36+48=84; 48−36=12.",
+          "atencao": "Não distribua R$ 84 em duas partes iguais, pois existe diferença."
+        },
+        {
+          "titulo": "A solução deve fazer sentido no contexto",
+          "definicao": "A raiz algébrica pode não ser válida como idade, quantidade de pessoas ou comprimento. Use unidades, integridade e condições do enunciado.",
+          "formula": "validade = satisfazer a equação + respeitar o domínio do problema",
+          "simbolos": "Domínio: idade ≥ 0; quantidades de pessoas inteiras não negativas, por exemplo.",
+          "problema": "Uma tarifa de R$ 5 fixos e R$ 3 por viagem totalizou R$ 23. Quantas viagens foram feitas?",
+          "passos": [
+            "Montar 5 + 3n = 23.",
+            "Subtrair 5: 3n = 18; dividir 3: n=6.",
+            "Conferir n inteiro e positivo: seis viagens são possíveis."
+          ],
+          "resposta": "6 viagens.",
+          "conferencia": "5 + 3×6 = 23.",
+          "atencao": "Se n fosse 6,5, a conta poderia estar certa algebricamente, mas seria inadequada para viagens inteiras."
+        }
+      ],
+      "resumo": [
+        "total = parcela fixa + parcela variável",
+        "idade daqui a t anos = idade atual + t",
+        "custo total = preço unitário × quantidade + taxa fixa",
+        "diferença: x − y = d; dobro: x = 2y",
+        "validade = satisfazer a equação + respeitar o domínio do problema"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-equa-o-do-segundo-grau": {
+      "introducao": "Equações quadráticas exigem reconhecer os coeficientes, escolher fatoração ou fórmula resolutiva, interpretar o discriminante e validar raízes em problemas de área.",
+      "capitulos": [
+        {
+          "titulo": "Identificar a equação quadrática",
+          "definicao": "Uma equação de segundo grau pode ser escrita como ax²+bx+c=0, com a ≠ 0. O termo x² diferencia esse caso da equação linear.",
+          "formula": "ax² + bx + c = 0, com a ≠ 0",
+          "simbolos": "a: coeficiente quadrático; b: coeficiente linear; c: termo constante.",
+          "problema": "Quais são a, b, c em 2x² − 7x + 3 = 0?",
+          "passos": [
+            "Comparar com ax²+bx+c=0.",
+            "Coeficiente de x²: a = 2; de x: b = −7.",
+            "Termo independente: c = 3."
+          ],
+          "resposta": "a=2, b=−7, c=3.",
+          "conferencia": "Reescrevendo 2x² + (−7)x + 3 = 0, os coeficientes ficam claros.",
+          "atencao": "O sinal de b faz parte do coeficiente; não o descarte."
+        },
+        {
+          "titulo": "Discriminante e número de raízes",
+          "definicao": "O discriminante indica se a equação possui duas raízes reais distintas, uma dupla ou nenhuma real.",
+          "formula": "Δ = b² − 4ac",
+          "simbolos": "Δ>0: duas raízes reais distintas; Δ=0: uma raiz real dupla; Δ<0: nenhuma raiz real.",
+          "problema": "Calcule Δ de x² − 5x + 6 = 0.",
+          "passos": [
+            "Coeficientes: a=1, b=−5, c=6.",
+            "Substituir: Δ = (−5)² − 4×1×6.",
+            "Calcular 25 − 24 = 1."
+          ],
+          "resposta": "Δ = 1; há duas raízes reais distintas.",
+          "conferencia": "Como Δ é positivo, é possível extrair √Δ real e obter duas raízes diferentes.",
+          "atencao": "(−5)² vale +25, não −25."
+        },
+        {
+          "titulo": "Fórmula resolutiva passo a passo",
+          "definicao": "Para a≠0, a fórmula dá as soluções reais quando Δ≥0. Calcule Δ primeiro, depois substitua atentamente os sinais.",
+          "formula": "x = (−b ± √Δ)/(2a)",
+          "simbolos": "O denominador é 2a INTEIRO; não apenas o termo √Δ.",
+          "problema": "Resolva x² − 5x + 6 = 0.",
+          "passos": [
+            "a=1, b=−5, c=6; Δ=1.",
+            "Substituir: x = (5 ± √1)/2 = (5 ± 1)/2.",
+            "Raízes: x₁=(5+1)/2=3; x₂=(5−1)/2=2."
+          ],
+          "resposta": "x = 2 ou x = 3.",
+          "conferencia": "2²−5×2+6 = 0; 3²−5×3+6 = 0.",
+          "atencao": "Coloque parênteses em −b para não inverter o sinal erroneamente."
+        },
+        {
+          "titulo": "Fatoração e produto nulo",
+          "definicao": "Se um produto é zero, pelo menos um dos fatores é zero. Fatorar pode evitar cálculos desnecessários.",
+          "formula": "(x − r₁)(x − r₂) = 0 ⇒ x = r₁ ou x = r₂",
+          "simbolos": "Método se aplica quando a expressão pode ser fatorada com facilidade.",
+          "problema": "Resolva x² − 9 = 0.",
+          "passos": [
+            "Reconhecer diferença de quadrados: x² − 3².",
+            "Fatorar: (x−3)(x+3)=0.",
+            "Igualar cada fator a zero: x−3=0 ou x+3=0."
+          ],
+          "resposta": "x=3 ou x=−3.",
+          "conferencia": "Ambos têm quadrado 9 e satisfazem a igualdade.",
+          "atencao": "Não descarte raiz negativa de uma equação abstrata; somente o contexto pode restringi-la."
+        },
+        {
+          "titulo": "Problema geométrico com raiz válida",
+          "definicao": "Em problemas de dimensões, resolva a equação e elimine raízes impossíveis para medidas físicas.",
+          "formula": "área retangular = base × altura",
+          "simbolos": "Lados de retângulos devem ser positivos.",
+          "problema": "Um retângulo mede x e x+2 metros, com área de 48 m². Determine os lados.",
+          "passos": [
+            "Montar x(x+2)=48 → x²+2x−48=0.",
+            "Fatorar: (x+8)(x−6)=0.",
+            "Raízes x=−8 ou x=6; a medida positiva válida é 6."
+          ],
+          "resposta": "6 m e 8 m.",
+          "conferencia": "6 × 8 = 48 m².",
+          "atencao": "A raiz −8 satisfaz a equação, mas produziria dimensão negativa."
+        }
+      ],
+      "resumo": [
+        "ax² + bx + c = 0, com a ≠ 0",
+        "Δ = b² − 4ac",
+        "x = (−b ± √Δ)/(2a)",
+        "(x − r₁)(x − r₂) = 0 ⇒ x = r₁ ou x = r₂",
+        "área retangular = base × altura"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-sistemas-de-equa-es-lineares": {
+      "introducao": "Sistemas reúnem duas ou mais condições que precisam valer simultaneamente. Escolha substituição ou adição, resolva e teste em ambas as equações.",
+      "capitulos": [
+        {
+          "titulo": "Montar duas equações para duas incógnitas",
+          "definicao": "Cada frase do problema fornece uma relação. A solução é o par ordenado que satisfaz todas elas.",
+          "formula": "{ x + y = total; ax + by = outro total }",
+          "simbolos": "x e y devem representar grandezas definidas com clareza.",
+          "problema": "Um caderno e uma caneta custam R$ 18; dois cadernos e uma caneta custam R$ 31. Qual o preço de cada item?",
+          "passos": [
+            "Defina x = preço do caderno; y = preço da caneta.",
+            "Montar x+y=18 e 2x+y=31.",
+            "Subtrair a primeira da segunda: x=13; logo y=18−13=5."
+          ],
+          "resposta": "Caderno R$ 13; caneta R$ 5.",
+          "conferencia": "13+5=18; 2×13+5=31.",
+          "atencao": "Não use duas variáveis para o mesmo item sem definir seu significado."
+        },
+        {
+          "titulo": "Método da substituição",
+          "definicao": "Isole uma incógnita em uma equação e substitua essa expressão na outra. Funciona especialmente bem quando uma variável já aparece com coeficiente 1.",
+          "formula": "x + y = T ⇒ y = T − x",
+          "simbolos": "Substituir a expressão COMPLETA no outro membro.",
+          "problema": "Resolva x+y=14 e x−y=4 por substituição.",
+          "passos": [
+            "Isolar y na primeira: y=14−x.",
+            "Substituir na segunda: x−(14−x)=4 → 2x−14=4.",
+            "2x=18 → x=9; y=14−9=5."
+          ],
+          "resposta": "x=9; y=5.",
+          "conferencia": "9+5=14 e 9−5=4.",
+          "atencao": "Cuidado com sinal: −(14−x) = −14+x."
+        },
+        {
+          "titulo": "Método da adição ou eliminação",
+          "definicao": "Multiplique as equações, quando necessário, para obter coeficientes opostos. A soma elimina uma incógnita.",
+          "formula": "ax + by = c; dx − by = e → (a+d)x = c+e",
+          "simbolos": "A eliminação exige coeficientes opostos na variável escolhida.",
+          "problema": "Resolva 2x+y=11 e 3x−y=14.",
+          "passos": [
+            "Somar as equações: 5x=25.",
+            "Dividir por 5: x=5.",
+            "Substituir na primeira: 2×5+y=11 → y=1."
+          ],
+          "resposta": "x=5; y=1.",
+          "conferencia": "2×5+1=11; 3×5−1=14.",
+          "atencao": "Não some apenas o lado esquerdo e esqueça os termos do lado direito."
+        },
+        {
+          "titulo": "Quando um sistema não tem solução única",
+          "definicao": "Duas equações podem representar retas que se cruzam (solução única), paralelas distintas (sem solução) ou coincidentes (infinitas soluções).",
+          "formula": "para ax+by=c e kax+kby=d: se d≠kc, não há solução",
+          "simbolos": "Compare a proporcionalidade dos coeficientes e termos independentes.",
+          "problema": "Existe solução para x+y=5 e 2x+2y=13?",
+          "passos": [
+            "Multiplicar primeira por 2: 2x+2y=10.",
+            "Comparar com segunda: 2x+2y=13.",
+            "A mesma soma não pode ser 10 e 13 ao mesmo tempo."
+          ],
+          "resposta": "Não existe solução.",
+          "conferencia": "A igualdade exigiria 10=13, impossível.",
+          "atencao": "Não tente inventar um par (x,y) quando o sistema é contraditório."
+        },
+        {
+          "titulo": "Problemas de quantidades e preços",
+          "definicao": "O segredo é montar expressões correspondentes ao mesmo tipo de situação. Depois de achar as incógnitas, teste cada condição.",
+          "formula": "quantidade x + quantidade y = total; preço₁x + preço₂y = arrecadação",
+          "simbolos": "A unidade de preço deve ser por item para multiplicar pela quantidade.",
+          "problema": "Foram vendidos 20 ingressos, alguns de R$ 10 e outros de R$ 15, totalizando R$ 250. Quantos de cada?",
+          "passos": [
+            "Definir x = ingressos de R$10 e y = de R$15.",
+            "Montar x+y=20; 10x+15y=250.",
+            "Substituir x=20−y: 200−10y+15y=250 → 5y=50 → y=10; x=10."
+          ],
+          "resposta": "10 ingressos de cada tipo.",
+          "conferencia": "10+10=20; 10×10+15×10=250.",
+          "atencao": "A soma das quantidades e a soma dos valores são equações diferentes."
+        }
+      ],
+      "resumo": [
+        "{ x + y = total; ax + by = outro total }",
+        "x + y = T ⇒ y = T − x",
+        "ax + by = c; dx − by = e → (a+d)x = c+e",
+        "para ax+by=c e kax+kby=d: se d≠kc, não há solução",
+        "quantidade x + quantidade y = total; preço₁x + preço₂y = arrecadação"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-grandezas-e-unidades": {
+      "introducao": "Conversões devem respeitar dimensão. Não basta multiplicar por 1000 em qualquer situação: distância, área, volume, tempo e velocidade têm regras diferentes.",
+      "capitulos": [
+        {
+          "titulo": "Comprimento e escalas decimais",
+          "definicao": "O sistema métrico decimal troca unidades de comprimento por potências de 10. Primeiro identifique a unidade inicial e a desejada.",
+          "formula": "1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm",
+          "simbolos": "Cada passo entre unidades consecutivas de comprimento multiplica ou divide por 10.",
+          "problema": "Uma caminhada tem 2,35 km. Quantos metros?",
+          "passos": [
+            "Saber que 1 km = 1000 m.",
+            "Multiplicar: 2,35 × 1000.",
+            "Mover a vírgula três casas para a direita: 2350."
+          ],
+          "resposta": "2350 metros.",
+          "conferencia": "2350 ÷ 1000 = 2,35 km.",
+          "atencao": "Não use fator 100 para quilômetros → metros."
+        },
+        {
+          "titulo": "Tempo e velocidade",
+          "definicao": "Velocidade média relaciona deslocamento e intervalo de tempo. Para converter km/h em m/s, divida por 3,6.",
+          "formula": "v = distância/tempo; km/h ÷ 3,6 = m/s",
+          "simbolos": "Distância em km com tempo em horas gera km/h.",
+          "problema": "Um carro percorre 150 km em 2,5 h. Qual a velocidade média?",
+          "passos": [
+            "Dados: d=150 km, t=2,5 horas.",
+            "Fórmula v=d/t.",
+            "Substituir v=150/2,5=60 km/h."
+          ],
+          "resposta": "60 km/h.",
+          "conferencia": "60 × 2,5 = 150 km.",
+          "atencao": "Distância percorrida dividida por horas não é sempre velocidade instantânea: é média."
+        },
+        {
+          "titulo": "Conversão entre km/h e m/s",
+          "definicao": "A conversão usa equivalências: 1 km = 1000 m e 1 h = 3600 s. Assim 1 km/h = 1/3,6 m/s.",
+          "formula": "v(m/s) = v(km/h)/3,6; v(km/h) = v(m/s) × 3,6",
+          "simbolos": "Use multiplicação ou divisão no sentido correto.",
+          "problema": "Converta 72 km/h para m/s.",
+          "passos": [
+            "Escrever 72 × (1000/3600).",
+            "Simplificar 1000/3600 = 1/3,6.",
+            "Calcular 72 ÷ 3,6 = 20."
+          ],
+          "resposta": "20 m/s.",
+          "conferencia": "20 × 3,6 = 72 km/h.",
+          "atencao": "Não converta 72 km/h em 72 m/s: a unidade mudou."
+        },
+        {
+          "titulo": "Área e volume são dimensões diferentes",
+          "definicao": "Área mede superfície e usa unidades quadradas; volume mede espaço tridimensional e usa unidades cúbicas. Os fatores de conversão ficam ao quadrado ou ao cubo.",
+          "formula": "1 m² = 10 000 cm²; 1 m³ = 1 000 000 cm³",
+          "simbolos": "Pois (100 cm)² = 10 000 cm² e (100 cm)³ = 1 000 000 cm³.",
+          "problema": "Converta 2,5 m² em cm².",
+          "passos": [
+            "Lembrar que 1 m = 100 cm.",
+            "Para área, elevar o fator: 100² = 10 000.",
+            "Multiplicar 2,5 × 10 000 = 25 000."
+          ],
+          "resposta": "25 000 cm².",
+          "conferencia": "25 000/10 000 = 2,5 m².",
+          "atencao": "Não multiplique área em m² apenas por 100."
+        },
+        {
+          "titulo": "Escala de mapas",
+          "definicao": "Escala numérica compara o comprimento no desenho ao comprimento real nas mesmas unidades. É uma proporção de comprimentos, não de áreas.",
+          "formula": "1:n ⇒ distância real = distância desenhada × n",
+          "simbolos": "Converter o resultado para metros ou quilômetros depois de aplicar a escala.",
+          "problema": "No mapa 1:50 000, duas cidades estão a 4 cm. Qual a distância real?",
+          "passos": [
+            "Montar 4 × 50 000 = 200 000 cm.",
+            "Converter: 200 000 cm/100 = 2000 m.",
+            "Converter: 2000/1000=2 km."
+          ],
+          "resposta": "2 km.",
+          "conferencia": "2 km = 200 000 cm; 4/200000 = 1/50000.",
+          "atencao": "Não leia 1:50 000 como 1 cm igual a 50 000 metros."
+        }
+      ],
+      "resumo": [
+        "1 km = 1000 m; 1 m = 100 cm; 1 cm = 10 mm",
+        "v = distância/tempo; km/h ÷ 3,6 = m/s",
+        "v(m/s) = v(km/h)/3,6; v(km/h) = v(m/s) × 3,6",
+        "1 m² = 10 000 cm²; 1 m³ = 1 000 000 cm³",
+        "1:n ⇒ distância real = distância desenhada × n"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-geometria-plana": {
+      "introducao": "Desenhe a figura, escreva as unidades e decida se o problema pede contorno (perímetro), superfície (área) ou comprimento desconhecido (Pitágoras).",
+      "capitulos": [
+        {
+          "titulo": "Perímetro de retângulos",
+          "definicao": "Perímetro é a soma dos lados do contorno. Em um retângulo, os lados opostos têm a mesma medida.",
+          "formula": "P = 2 × (comprimento + largura)",
+          "simbolos": "P em unidade de comprimento (m, cm), não quadrada.",
+          "problema": "Um jardim retangular mede 12 m por 7 m. Quantos metros de cerca para uma volta completa?",
+          "passos": [
+            "Dados: comprimento 12, largura 7.",
+            "Montar P = 2(12+7).",
+            "Somar dentro dos parênteses: 19; multiplicar por 2: P=38."
+          ],
+          "resposta": "38 metros de cerca.",
+          "conferencia": "12+7+12+7=38.",
+          "atencao": "Não use área 12×7 para calcular a cerca."
+        },
+        {
+          "titulo": "Área de retângulo e quadrado",
+          "definicao": "Área é a quantidade de unidades quadradas que cobrem uma superfície. Para retângulo, multiplique os lados perpendiculares.",
+          "formula": "A_retângulo = base × altura; A_quadrado = lado²",
+          "simbolos": "Se os lados estão em metros, a área sai em m².",
+          "problema": "Uma sala de 6 m por 4,5 m receberá piso. Qual sua área?",
+          "passos": [
+            "Identificar dimensões perpendiculares: 6 e 4,5.",
+            "Montar A = 6 × 4,5.",
+            "Calcular 6 × 4,5 = 27."
+          ],
+          "resposta": "27 m².",
+          "conferencia": "Um retângulo de 6 × 4,5 ocupa 27 quadrados de 1 m².",
+          "atencao": "Não some as dimensões: isso serviria para perímetro, não área."
+        },
+        {
+          "titulo": "Área de triângulo",
+          "definicao": "Um triângulo com base e altura dadas ocupa metade de um retângulo com as mesmas medidas. A altura deve ser perpendicular à base.",
+          "formula": "A = (base × altura)/2",
+          "simbolos": "Base e altura em unidades de comprimento iguais.",
+          "problema": "Uma placa triangular tem base 10 cm e altura 6 cm. Qual a área?",
+          "passos": [
+            "Substituir A = (10 × 6)/2.",
+            "Multiplicar 10×6=60.",
+            "Dividir por 2: A=30."
+          ],
+          "resposta": "30 cm².",
+          "conferencia": "Duas placas iguais formariam retângulo de 60 cm².",
+          "atencao": "Não use automaticamente o lado inclinado como altura."
+        },
+        {
+          "titulo": "Área do círculo e comprimento da circunferência",
+          "definicao": "Circunferência é o contorno do círculo; área é a superfície interna. Use π≈3,14 apenas se solicitado ou necessário para aproximação.",
+          "formula": "C = 2πr; A = πr²",
+          "simbolos": "r é raio; diâmetro = 2r.",
+          "problema": "Uma praça circular tem raio 5 m. Determine a área em função de π.",
+          "passos": [
+            "Identificar r=5 m.",
+            "Montar A=π×5².",
+            "Calcular 5²=25, logo A=25π."
+          ],
+          "resposta": "25π m² (aprox. 78,5 m² se π≈3,14).",
+          "conferencia": "Como diâmetro é 10 m, o contorno seria 10π m, unidade linear.",
+          "atencao": "Não confunda circunferência 2πr com área πr²."
+        },
+        {
+          "titulo": "Teorema de Pitágoras",
+          "definicao": "Em triângulo retângulo, a soma dos quadrados dos catetos equivale ao quadrado da hipotenusa (lado oposto ao ângulo reto).",
+          "formula": "c² = a² + b²",
+          "simbolos": "c: hipotenusa; a e b: catetos; exige ângulo de 90°.",
+          "problema": "Uma escada forma triângulo retângulo com catetos 3 m e 4 m. Qual o comprimento da escada?",
+          "passos": [
+            "Identificar hipotenusa c.",
+            "Montar c²=3²+4²=9+16=25.",
+            "Extrair raiz principal: c=√25=5."
+          ],
+          "resposta": "5 metros.",
+          "conferencia": "5²=3²+4².",
+          "atencao": "Não aplique Pitágoras a triângulo sem ângulo reto."
+        },
+        {
+          "titulo": "Área de trapézio",
+          "definicao": "Um trapézio possui um par de lados paralelos chamados bases. Sua área depende da soma das bases e da altura perpendicular.",
+          "formula": "A = ((base maior + base menor) × altura)/2",
+          "simbolos": "A altura não é necessariamente a medida do lado inclinado.",
+          "problema": "Um trapézio tem bases 12 cm e 8 cm e altura 5 cm. Qual a área?",
+          "passos": [
+            "Somar as bases: 12+8=20.",
+            "Multiplicar pela altura: 20×5=100.",
+            "Dividir por dois: 100/2=50."
+          ],
+          "resposta": "50 cm².",
+          "conferencia": "A base média é (12+8)/2=10; 10×5=50.",
+          "atencao": "Não use somente a base maior ao calcular a área."
+        }
+      ],
+      "resumo": [
+        "P = 2 × (comprimento + largura)",
+        "A_retângulo = base × altura; A_quadrado = lado²",
+        "A = (base × altura)/2",
+        "C = 2πr; A = πr²",
+        "c² = a² + b²",
+        "A = ((base maior + base menor) × altura)/2"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    },
+    "Matemática-tabelas-e-gr-ficos": {
+      "introducao": "Para interpretar tabelas e gráficos, leia títulos, eixos, legendas, unidades e escalas. Depois transforme os dados em comparação, diferença, média ou variação percentual.",
+      "capitulos": [
+        {
+          "titulo": "Ler eixos, títulos e escala",
+          "definicao": "O eixo horizontal costuma indicar categorias ou períodos, enquanto o vertical mostra valores. A escala pode começar acima de zero; isso muda o impacto visual, não os números.",
+          "formula": "valor lido = marcação do eixo correspondente à categoria",
+          "simbolos": "Confira unidade e intervalo entre marcas do eixo.",
+          "problema": "Em gráfico de atendimentos: segunda 40, terça 55, quarta 50. Qual dia teve mais?",
+          "passos": [
+            "Identificar cada valor: seg=40, ter=55, qua=50.",
+            "Comparar os três números: 55 é o maior.",
+            "Associar 55 à terça-feira."
+          ],
+          "resposta": "Terça-feira, com 55 atendimentos.",
+          "conferencia": "55 > 50 e 55 > 40.",
+          "atencao": "Barras visualmente altas não substituem conferir a escala."
+        },
+        {
+          "titulo": "Diferença absoluta entre categorias",
+          "definicao": "Para comparar dois valores, a diferença absoluta é o maior menos o menor. Mantenha a unidade original.",
+          "formula": "diferença = valor maior − valor menor",
+          "simbolos": "Não transforme automaticamente essa diferença em percentual.",
+          "problema": "Uma unidade registrou 145 atendimentos e outra 98. Qual a diferença?",
+          "passos": [
+            "Identificar números: 145 e 98.",
+            "Subtrair 145−98.",
+            "Efetuar: 145−100+2 = 47."
+          ],
+          "resposta": "47 atendimentos.",
+          "conferencia": "98+47=145.",
+          "atencao": "A diferença numérica não é a mesma coisa que variação percentual."
+        },
+        {
+          "titulo": "Percentual de participação numa tabela",
+          "definicao": "Quando há categorias que formam um total, a participação de cada categoria é a razão parte/total.",
+          "formula": "participação % = categoria/total × 100",
+          "simbolos": "Só some categorias não sobrepostas se a tabela representar partes do mesmo total.",
+          "problema": "Uma tabela mostra 30 processos físicos e 70 digitais. Qual a participação dos digitais?",
+          "passos": [
+            "Somar total: 30+70=100 processos.",
+            "Dividir parte pelo total: 70/100=0,70.",
+            "Converter para porcentagem: 70%."
+          ],
+          "resposta": "70% digitais.",
+          "conferencia": "70%+30%=100%.",
+          "atencao": "Se as categorias se sobrepõem, não some valores como se fossem exclusivos."
+        },
+        {
+          "titulo": "Taxa de crescimento ou queda",
+          "definicao": "Crescimento percentual compara a diferença com o valor inicial; o denominador é sempre a referência de partida.",
+          "formula": "variação % = (novo−antigo)/antigo × 100",
+          "simbolos": "Valor inicial diferente de zero.",
+          "problema": "Um serviço passou de 80 para 100 atendimentos. Qual o aumento percentual?",
+          "passos": [
+            "Calcular diferença: 100−80=20.",
+            "Dividir pelo inicial: 20/80=0,25.",
+            "Converter: 0,25×100=25%."
+          ],
+          "resposta": "Aumento de 25%.",
+          "conferencia": "80×1,25=100.",
+          "atencao": "Não use valor final 100 como denominador; isso daria 20%."
+        },
+        {
+          "titulo": "Média de valores de um gráfico",
+          "definicao": "Quando as barras representam observações de mesma natureza e período, a média é a soma dividida pela quantidade de observações.",
+          "formula": "média = soma dos valores/quantidade de categorias",
+          "simbolos": "Se as categorias têm pesos, o cálculo pode precisar ser ponderado.",
+          "problema": "Quatro semanas registraram 12, 16, 20 e 24 processos. Qual a média semanal?",
+          "passos": [
+            "Somar: 12+16+20+24=72.",
+            "Contar quatro semanas.",
+            "Dividir: 72/4=18."
+          ],
+          "resposta": "18 processos por semana.",
+          "conferencia": "18 está no ponto médio entre 12 e 24 e também entre 16 e 20.",
+          "atencao": "Não divida por 7 dias se o enunciado pede média semanal."
+        },
+        {
+          "titulo": "Tabela de dupla entrada",
+          "definicao": "Em tabelas com linhas e colunas, escolha a interseção correta para não misturar categorias. Um total de linha não é necessariamente o total geral.",
+          "formula": "soma de uma linha = total da categoria da linha",
+          "simbolos": "Conferir se os totais de linha e coluna batem com o total geral.",
+          "problema": "Uma tabela registra: manhã 12 presenciais e 18 digitais; tarde 10 presenciais e 20 digitais. Quantos digitais houve?",
+          "passos": [
+            "Identificar coluna “digitais”: 18 e 20.",
+            "Somar os turnos: 18+20.",
+            "Total de digitais = 38."
+          ],
+          "resposta": "38 atendimentos digitais.",
+          "conferencia": "Total geral = 12+18+10+20=60; digitais 38 e presenciais 22 somam 60.",
+          "atencao": "Não some apenas a linha da manhã se a pergunta pede os dois turnos."
+        }
+      ],
+      "resumo": [
+        "valor lido = marcação do eixo correspondente à categoria",
+        "diferença = valor maior − valor menor",
+        "participação % = categoria/total × 100",
+        "variação % = (novo−antigo)/antigo × 100",
+        "média = soma dos valores/quantidade de categorias",
+        "soma de uma linha = total da categoria da linha"
+      ],
+      "fontes": [
+        [
+          "Portal da Matemática — OBMEP",
+          "https://portaldaobmep.impa.br/index.php/modulo/index"
+        ],
+        [
+          "Clubes de Matemática — OBMEP",
+          "https://clubes.obmep.org.br/blog/regras-de-tres/"
+        ]
+      ]
+    }
+  }
+}

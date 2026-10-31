@@ -157,3 +157,43 @@ html,body{max-width:100%;overflow-x:clip}
  .pt-course .pt-explain p,.pt-course .pt-analysis p{font-size:16px!important;line-height:1.75}
  #lessonBody .checkOpt{font-size:16px!important;line-height:1.55!important;padding:13px!important}
 }
+
+
+/* V19 — Matemática explicada do zero: fórmulas, contas e checagens. */
+.math-course,.math-course *{box-sizing:border-box;min-width:0;max-width:100%}
+.math-course{color:#17191f;font-size:clamp(15px,1.2vw,17px);line-height:1.75;overflow-wrap:anywhere}
+.math-intro,.math-toc,.math-summary{padding:clamp(17px,3vw,27px);border-radius:15px;border:1px solid #dfe0e4;background:#fff;margin:0 0 22px}
+.math-intro{border-left:5px solid #b50913;background:#fafafa}
+.math-intro h2{margin:5px 0 10px;font-size:clamp(22px,2.5vw,29px)}
+.math-intro p,.math-summary p{margin:0 0 12px;line-height:1.8}
+.math-method{padding:12px 14px;border-radius:9px;border:1px solid #dedee2;background:#fff;color:#303039}
+.math-toc strong{display:block;margin-bottom:9px}
+.math-toc ol{margin:0;padding-left:22px;columns:2;column-gap:30px}
+.math-toc li{break-inside:avoid;padding:3px 0}
+.math-toc a,.math-course .pt-sources a{color:#a80010;text-decoration:underline;text-underline-offset:3px}
+.math-unit{border:1px solid #dedfe3;background:#fff;border-radius:16px;overflow:hidden;margin-bottom:22px;box-shadow:0 5px 16px #17191f0a;scroll-margin-top:20px}
+.math-unit-head{padding:17px clamp(17px,3vw,25px);background:#f7f7f8;border-bottom:1px solid #e4e4e7}
+.math-unit-head span{color:#a70012;font-size:11px;font-weight:900;letter-spacing:.06em}
+.math-unit-head h2{color:#17191f;font-size:clamp(20px,2.5vw,25px);line-height:1.3;margin:5px 0 0}
+.math-unit-body{padding:clamp(15px,3vw,25px);display:grid;gap:17px}
+.math-def,.math-formula,.math-example,.math-warning{padding:clamp(14px,2vw,21px);border-radius:12px;max-width:100%;overflow-wrap:anywhere}
+.math-def{border:1px solid #dfe1e6;border-left:4px solid #b50913;background:#fff}
+.math-formula{border:1px solid #d5d6dc;border-left:4px solid #373b44;background:#f7f7f8}
+.math-example{border:1px solid #dfe1e6;background:#fff}
+.math-warning{background:#fff3f4;border:1px solid #e3b6bb;border-left:4px solid #b50913}
+.math-def h3,.math-formula h3,.math-example h3{font-size:clamp(16px,2vw,19px);margin:0 0 10px;color:#17191f;line-height:1.4}
+.math-def p,.math-formula p,.math-example p,.math-warning p{margin:0;line-height:1.8;max-width:none}
+.math-expression{background:#fff;border:1px solid #d4d7de;border-radius:9px;padding:15px 17px;margin:10px 0;font-size:clamp(17px,2.5vw,22px);line-height:1.7;font-weight:800;color:#9b0011;overflow-wrap:anywhere;white-space:normal;font-variant-numeric:tabular-nums}
+.math-problem{font-weight:700;background:#f6f6f7;padding:13px;border-radius:9px;border-left:3px solid #b50913}
+.math-steps{margin:17px 0 15px!important;padding:0!important;list-style:none!important;display:grid;gap:10px}
+.math-steps li{display:grid;grid-template-columns:32px minmax(0,1fr);align-items:start;gap:10px;padding:11px 12px;margin:0;background:#f8f8f9;border:1px solid #e7e7ea;border-radius:9px;overflow-wrap:anywhere;line-height:1.7}
+.math-step-num{width:30px;height:30px;border-radius:7px;background:#b50913;color:#fff;display:inline-grid;place-items:center;font-size:13px;font-weight:850}
+.math-answer,.math-check{padding:11px 13px;border-radius:9px;margin:10px 0 0!important;background:#f2f2f3}
+.math-answer{border-left:4px solid #b50913;font-weight:700}
+.math-check{border-left:4px solid #50555e}
+.math-warning strong{display:block;color:#8c0815;margin-bottom:4px}
+.math-summary{background:#f8f8f9;border-left:5px solid #b50913}
+.math-summary h2{font-size:clamp(20px,2.2vw,25px)}
+.math-summary ul{margin:12px 0 0;padding-left:20px;display:grid;gap:9px}
+.math-summary li{overflow-wrap:anywhere}
+@media(max-width:690px){.math-toc ol{columns:1}.math-course{font-size:16px}.math-unit-body{gap:13px}.math-def,.math-formula,.math-example,.math-warning{padding:15px}.math-expression{font-size:17px}.math-steps li{grid-template-columns:27px minmax(0,1fr);padding:10px}.math-step-num{width:26px;height:26px}}

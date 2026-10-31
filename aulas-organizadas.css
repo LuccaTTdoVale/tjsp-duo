@@ -100,3 +100,44 @@ html,body{max-width:100%;overflow-x:clip}
 /* A paleta final é exclusivamente vermelha, branca, preta e cinza. */
 .tj-focus.tj-blue,.tj-legend-dot.tj-blue{background:#d6d8de!important;border-bottom:2px solid #565b65!important}
 .tj-focus.tj-amber,.tj-legend-dot.tj-amber{background:#ececef!important;border-bottom:2px solid #777c85!important}
+
+
+/* V17: Curso integral de Português, leitura progressiva e mobile sem truncamentos */
+#lesson,#lessonBody,#lessonSections,.pt-course,.pt-chapter,.pt-chapter-content{min-width:0!important;max-width:100%!important;box-sizing:border-box!important;overflow-wrap:anywhere;word-break:normal}
+.pt-course{font-family:inherit;color:#17191f;line-height:1.78;font-size:clamp(15px,1.25vw,18px)}
+.pt-intro{background:#fafafa;border:1px solid #dedfe4;border-left:5px solid #b50913;padding:clamp(18px,3vw,30px);border-radius:14px;margin:0 0 22px}
+.pt-intro h2{margin:5px 0 12px;font-size:clamp(21px,2.3vw,28px)}
+.pt-intro p,.pt-chapter p{line-height:1.78;margin:0 0 12px;max-width:75ch}
+.pt-kicker,.pt-chapter-head>span{font-weight:900;font-size:11px;letter-spacing:.1em;color:#b50913}
+.pt-orientacao{padding-top:12px;border-top:1px solid #e3e6eb;color:#4b4e57}
+.pt-chapter-nav{border:1px solid #e3e6eb;padding:18px 22px;border-radius:14px;background:#fff;margin:0 0 26px}
+.pt-chapter-nav ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:5px 30px;padding-left:20px;margin:10px 0 0}
+.pt-chapter-nav a{color:#9e101b;text-decoration:underline;text-underline-offset:3px}
+.pt-chapter{border:1px solid #dfe2e7;border-radius:16px;overflow:hidden;margin:0 0 27px;background:white;box-shadow:0 3px 12px rgba(16,20,30,.04)}
+.pt-chapter-head{padding:18px clamp(16px,2.5vw,28px);background:#fafafa;border-bottom:1px solid #e3e6eb}
+.pt-chapter-head h2{font-size:clamp(20px,2vw,26px)!important;color:#17191f;margin:5px 0 0!important;line-height:1.27}
+.pt-chapter-content{padding:clamp(15px,2.5vw,26px);display:grid;grid-template-columns:minmax(0,1fr);gap:13px}
+.pt-explain{border:1px solid #e0e2e8;border-left:4px solid #b50913;border-radius:11px;padding:18px 20px;background:#fff;min-width:0}
+.pt-application{border-left-color:#454b54;background:#f9f9fa}
+.pt-explain h3{font-size:clamp(16px,1.4vw,19px)!important;margin:0 0 13px;color:#17191f!important;display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.pt-explain h3 small{font-size:12px;font-weight:500;color:#656972;margin-left:auto}
+.pt-step{font-size:12px;line-height:1;background:#b50913;border-radius:6px;padding:7px 8px;color:white;flex:none}
+.pt-application .pt-step{background:#454b54}
+.pt-analysis{padding:17px 20px;border:1px solid #e3e6eb;background:white;border-radius:12px}
+.pt-analysis h3{margin:0 0 10px;font-size:17px!important;color:#9c0d16!important}
+.pt-trap{border-left:4px solid #b50913;background:#fff4f5;padding:15px 20px;border-radius:6px;color:#262930}
+.pt-trap strong{color:#9c0d16}
+.pt-trap p{margin:6px 0 0}
+.pt-figure{margin:5px 0!important;max-width:100%;min-width:0;text-align:center}
+.pt-figure img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;border:1px solid #e3e6eb;border-radius:10px;background:#fff}
+.pt-figure figcaption{font-size:12px;color:#606671;line-height:1.5;margin:7px 4px 0}
+.pt-sources{margin:30px 0;padding:16px;border:1px solid #e3e6eb;border-radius:12px;background:#fff}
+.pt-sources summary{font-size:15px;font-weight:800;cursor:pointer}
+.pt-sources a{color:#a10813}
+/* Desativa apenas o diagrama antigo quebrado nas aulas de Português; o novo curso traz esquemas responsivos. */
+#lesson .readingSteps{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;align-items:stretch;gap:8px!important}
+#lesson .readingSteps span{display:block!important;writing-mode:horizontal-tb!important;transform:none!important;white-space:normal!important;min-width:0!important;text-align:center!important;max-width:100%!important;overflow-wrap:anywhere!important}
+#lesson .checkOpt,#lesson .checkQuestion,#lesson .feedbackBox{max-width:100%!important;min-width:0!important;white-space:normal!important;overflow-wrap:anywhere!important;text-overflow:clip!important}
+@media(max-width:660px){.pt-course{font-size:16px}.pt-chapter-content{padding:12px;gap:12px}.pt-explain,.pt-analysis,.pt-trap{padding:14px}.pt-explain h3 small{display:block;width:100%;margin:0 0 0 42px}.pt-intro{padding:16px}.pt-chapter-nav{padding:14px}.pt-chapter-nav ol{grid-template-columns:1fr}.pt-chapter{margin-bottom:16px}.pt-figure figcaption{font-size:11px}#lesson .readingSteps{grid-template-columns:1fr}#lesson .checkOpt{font-size:16px!important;line-height:1.55!important;padding:14px!important}#lesson .feedbackBox{font-size:15px!important;line-height:1.55!important}}
+
+.pt-figure figcaption a{color:#a10813;font-weight:800;text-decoration:underline;text-underline-offset:2px}

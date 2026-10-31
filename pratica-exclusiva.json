@@ -1234,6 +1234,63 @@
         "authorial": true,
         "id": "pt-rev2026-01-10",
         "group": "Português-interpretacao-portugues-revisado"
+      },
+      {
+        "id": "Português-interpretacao-editorial-e7180fd877",
+        "q": "“Alguns candidatos retomaram o estudo depois da publicação do edital.” Qual conclusão o texto permite?",
+        "options": [
+          "Todos interromperam os estudos anteriormente.",
+          "Houve candidatos que passaram a estudar novamente.",
+          "Ninguém estudava antes do edital.",
+          "A publicação obrigou todos a retomar os estudos."
+        ],
+        "answer": 1,
+        "why": "“Alguns” afirma a existência de parte do grupo; “retomaram” sugere estudo anterior. O texto não universaliza a situação nem fala em obrigação.",
+        "wrong": [
+          "“Todos” ultrapassa o quantificador “alguns”.",
+          "",
+          "O verbo “retomar” contradiz a ideia de que ninguém havia estudado.",
+          "Não há verbo de obrigação e a frase não fala de todos."
+        ],
+        "group": "editorial-Português-interpretacao"
+      },
+      {
+        "id": "Português-interpretacao-editorial-453955479a",
+        "q": "“O atendimento foi reorganizado para reduzir a espera, embora a demanda continuasse alta.” O papel de “embora” é:",
+        "options": [
+          "Introduzir finalidade da reorganização.",
+          "Indicar que a demanda causou o fim da espera.",
+          "Apresentar uma concessão: demanda alta não impede a reorganização.",
+          "Confirmar que a espera foi totalmente eliminada."
+        ],
+        "answer": 2,
+        "why": "“Embora” é concessivo: reconhece uma circunstância contrária à expectativa, mantendo o fato principal. O objetivo aparece em “para reduzir”.",
+        "wrong": [
+          "A finalidade está em “para reduzir”, não em “embora”.",
+          "Demanda alta não é apresentada como causa do fim da espera.",
+          "",
+          "O texto menciona intenção de reduzir, não eliminação comprovada."
+        ],
+        "group": "editorial-Português-interpretacao"
+      },
+      {
+        "id": "Português-interpretacao-editorial-75a665a2a7",
+        "q": "“O setor passou a atender também aos sábados.” Qual pressuposição decorre do uso de “passou a”?",
+        "options": [
+          "A mudança de rotina ocorreu em relação a uma situação anterior.",
+          "O atendimento aos domingos foi encerrado.",
+          "O serviço tinha mais usuários aos sábados.",
+          "O atendimento era gratuito antes da mudança."
+        ],
+        "answer": 0,
+        "why": "A expressão “passou a” marca início de uma nova situação: antes, a rotina era diferente quanto a esse atendimento. Nenhuma outra circunstância foi informada.",
+        "wrong": [
+          "",
+          "Não foi mencionada rotina dominical.",
+          "Quantidade de usuários não aparece no enunciado.",
+          "Preço do serviço não foi informado."
+        ],
+        "group": "editorial-Português-interpretacao"
       }
     ],
     "Português-sintaxe": [
@@ -1322,6 +1379,44 @@
         "authorial": true,
         "id": "pt-rev2026-02-04",
         "group": "Português-sintaxe-portugues-revisado"
+      },
+      {
+        "id": "Português-sintaxe-editorial-57789fc867",
+        "q": "Em “Foram recebidas ontem as solicitações de revisão”, qual é o sujeito?",
+        "options": [
+          "Ontem.",
+          "As solicitações de revisão.",
+          "De revisão.",
+          "Foram recebidas."
+        ],
+        "answer": 1,
+        "why": "Na voz passiva, “as solicitações de revisão” é sujeito paciente e motiva a forma plural feminina “recebidas”. O adjunto “ontem” só indica tempo.",
+        "wrong": [
+          "É um adjunto adverbial de tempo.",
+          "",
+          "É complemento do nome “solicitações”, não sujeito isolado.",
+          "Trata-se do predicado, não do sujeito."
+        ],
+        "group": "editorial-Português-sintaxe"
+      },
+      {
+        "id": "Português-sintaxe-editorial-4a41659cc2",
+        "q": "Em “Os avaliadores julgaram o recurso improcedente”, “improcedente” é:",
+        "options": [
+          "Adjunto adverbial de modo.",
+          "Predicativo do sujeito.",
+          "Predicativo do objeto.",
+          "Objeto indireto."
+        ],
+        "answer": 2,
+        "why": "“O recurso” é objeto de “julgaram”; “improcedente” exprime qualidade atribuída a esse objeto por meio do verbo de julgamento.",
+        "wrong": [
+          "Não modifica o modo de julgar, mas caracteriza o recurso.",
+          "O sujeito é “os avaliadores”; a qualidade recai sobre o recurso.",
+          "",
+          "Não é complemento preposicionado."
+        ],
+        "group": "editorial-Português-sintaxe"
       }
     ],
     "Português-crase": [
@@ -1470,6 +1565,44 @@
         "authorial": true,
         "id": "pt-rev2026-03-07",
         "group": "Português-crase-portugues-revisado"
+      },
+      {
+        "id": "Português-crase-editorial-893d508a83",
+        "q": "Em qual opção a ausência de crase é adequada?",
+        "options": [
+          "Referiu-se à esta norma.",
+          "Assistiu à palestra.",
+          "Respondeu a ela.",
+          "Foi à diretora."
+        ],
+        "answer": 2,
+        "why": "O pronome pessoal “ela” não admite artigo feminino nessa construção; há apenas a preposição exigida por “responder”.",
+        "wrong": [
+          "Antes de “esta”, usa-se “a esta”; “à esta” é indevido.",
+          "“Assistir” no sentido de presenciar rege “a”, que se funde ao artigo de “palestra”.",
+          "",
+          "Em “ir à diretora” (dirigir-se à pessoa) há preposição e artigo."
+        ],
+        "group": "editorial-Português-crase"
+      },
+      {
+        "id": "Português-crase-editorial-b456e5911d",
+        "q": "Compare “O servidor retornou ___ Bahia” e “O servidor retornou ___ Brasília”. No uso comum dos topônimos sem determinante, escolha:",
+        "options": [
+          "à / a",
+          "a / à",
+          "à / à",
+          "a / a"
+        ],
+        "answer": 0,
+        "why": "“Bahia” costuma admitir artigo (“voltar da Bahia”): retornou à Bahia. “Brasília”, no uso comum, não (“voltar de Brasília”): retornou a Brasília.",
+        "wrong": [
+          "",
+          "A distribuição dos artigos está invertida.",
+          "Brasília não recebe artigo nesse uso comum.",
+          "Bahia recebe artigo no uso usual."
+        ],
+        "group": "editorial-Português-crase"
       }
     ],
     "Raciocínio Lógico-proposicoes": [
@@ -4288,6 +4421,44 @@
         "authorial": true,
         "id": "pt-rev2026-04-04",
         "group": "Português-coes-o-e-coer-ncia-portugues-revisado"
+      },
+      {
+        "id": "Português-coes-o-e-coer-ncia-editorial-4ea0033cdf",
+        "q": "“O portal ficou instável; por isso, a consulta foi prorrogada.” O conector expressa:",
+        "options": [
+          "Concessão.",
+          "Consequência.",
+          "Condição.",
+          "Comparação."
+        ],
+        "answer": 1,
+        "why": "“Por isso” apresenta a prorrogação como resultado da instabilidade do portal; não há hipótese nem concessão.",
+        "wrong": [
+          "“Apesar de” seria indicativo de concessão, não “por isso”.",
+          "",
+          "Não aparece uma condição como “se”.",
+          "Não se comparam duas entidades."
+        ],
+        "group": "editorial-Português-coes-o-e-coer-ncia"
+      },
+      {
+        "id": "Português-coes-o-e-coer-ncia-editorial-322545e9c4",
+        "q": "“Ana avisou Beatriz de que sua inscrição estava pendente.” Qual reescrita elimina a ambiguidade escolhendo a inscrição de Beatriz?",
+        "options": [
+          "Ana avisou Beatriz de que a inscrição dela estava pendente.",
+          "Ana avisou a Beatriz que a inscrição de Beatriz estava pendente.",
+          "Ana avisou Beatriz de que a inscrição estava pendente.",
+          "Ana avisou Beatriz de que sua própria inscrição estava pendente."
+        ],
+        "answer": 1,
+        "why": "Nomear “Beatriz” explicitamente como titular da inscrição elimina a possível referência a Ana, que “sua” e “dela” poderiam manter.",
+        "wrong": [
+          "“Dela” ainda depende do referente no contexto.",
+          "",
+          "A omissão do possuidor não identifica de quem é a inscrição.",
+          "“Sua própria” pode se referir a Ana; não garante o referente exigido."
+        ],
+        "group": "editorial-Português-coes-o-e-coer-ncia"
       }
     ],
     "Português-sin-nimos-ant-nimos-e-polissemia": [
@@ -4376,6 +4547,44 @@
         "authorial": true,
         "id": "pt-rev2026-05-04",
         "group": "Português-sin-nimos-ant-nimos-e-polissemia-portugues-revisado"
+      },
+      {
+        "id": "Português-sin-nimos-ant-nimos-e-polissemia-editorial-9a77cd7791",
+        "q": "Na frase “A comissão apresentou justificativa concisa”, a substituição que conserva melhor o sentido é:",
+        "options": [
+          "Apresada.",
+          "Breve e objetiva.",
+          "Superficial.",
+          "Indecisa."
+        ],
+        "answer": 1,
+        "why": "“Concisa” caracteriza economia de palavras e clareza; não significa falta de fundamentos nem pressa na elaboração.",
+        "wrong": [
+          "“Apresada” indica pressa, não concisão.",
+          "",
+          "“Superficial” julga a profundidade do conteúdo.",
+          "“Indecisa” descreve incerteza, não extensão do texto."
+        ],
+        "group": "editorial-Português-sin-nimos-ant-nimos-e-polissemia"
+      },
+      {
+        "id": "Português-sin-nimos-ant-nimos-e-polissemia-editorial-a9c70cf402",
+        "q": "Em “A chave para compreender o edital é ler seus anexos”, “chave” significa:",
+        "options": [
+          "Instrumento metálico de fechadura.",
+          "Senha eletrônica obrigatória.",
+          "Elemento decisivo para compreender.",
+          "Objeto usado para abrir um arquivo físico."
+        ],
+        "answer": 2,
+        "why": "O contexto ativa a acepção figurada: os anexos são apresentados como o recurso essencial à compreensão, não um objeto material.",
+        "wrong": [
+          "A frase não trata de fechadura.",
+          "Não há menção a senha nem a autenticação.",
+          "",
+          "Não há referência a objeto físico ou armário."
+        ],
+        "group": "editorial-Português-sin-nimos-ant-nimos-e-polissemia"
       }
     ],
     "Português-sentido-literal-e-figurado": [
@@ -4464,6 +4673,44 @@
         "authorial": true,
         "id": "pt-rev2026-06-04",
         "group": "Português-sentido-literal-e-figurado-portugues-revisado"
+      },
+      {
+        "id": "Português-sentido-literal-e-figurado-editorial-72da3809d4",
+        "q": "“A mudança abriu portas para o diálogo.” A expressão produz principalmente:",
+        "options": [
+          "Relato de abertura de salas.",
+          "Imagem de criação de oportunidades.",
+          "Ideia de fechamento de negociações.",
+          "Notícia de reforma do edifício."
+        ],
+        "answer": 1,
+        "why": "A metáfora transfere a ideia de passagem física para a possibilidade de negociação, sem depender da existência de portas materiais.",
+        "wrong": [
+          "O contexto é negociação, não infraestrutura.",
+          "",
+          "O efeito é facilitar, não encerrar o diálogo.",
+          "Não se menciona reforma ou construção."
+        ],
+        "group": "editorial-Português-sentido-literal-e-figurado"
+      },
+      {
+        "id": "Português-sentido-literal-e-figurado-editorial-9c8201b74f",
+        "q": "Em “O setor leu Drummond na reunião”, a expressão “leu Drummond” constitui:",
+        "options": [
+          "Personificação do escritor.",
+          "Metonímia: autor pelas obras.",
+          "Comparação explícita.",
+          "Hipérbole de duração."
+        ],
+        "answer": 1,
+        "why": "O nome do autor substitui as obras que escreveu por associação direta entre escritor e textos.",
+        "wrong": [
+          "Não se atribuem características humanas a algo não humano.",
+          "",
+          "Não há estrutura comparativa.",
+          "Não há exagero de duração."
+        ],
+        "group": "editorial-Português-sentido-literal-e-figurado"
       }
     ],
     "Português-classes-de-palavras-i-nomes-e-determinantes": [
@@ -4552,6 +4799,44 @@
         "authorial": true,
         "id": "pt-rev2026-07-04",
         "group": "Português-classes-de-palavras-i-nomes-e-determinantes-portugues-revisado"
+      },
+      {
+        "id": "Português-classes-de-palavras-i-nomes-e-determinantes-editorial-d3b1783355",
+        "q": "“Uma servidora chegou. A servidora iniciou o atendimento.” O segundo artigo definido indica:",
+        "options": [
+          "Introdução de pessoa totalmente nova.",
+          "Retomada de referente já mencionado.",
+          "Quantidade exata de duas servidoras.",
+          "Oposição entre duas personagens."
+        ],
+        "answer": 1,
+        "why": "O artigo definido “a” torna identificável a mesma servidora introduzida anteriormente pelo indefinido “uma”.",
+        "wrong": [
+          "O referente já havia aparecido.",
+          "",
+          "O artigo definido não acrescenta quantidade.",
+          "Não há indicação de outra personagem."
+        ],
+        "group": "editorial-Português-classes-de-palavras-i-nomes-e-determinantes"
+      },
+      {
+        "id": "Português-classes-de-palavras-i-nomes-e-determinantes-editorial-c3a6f722a5",
+        "q": "“Meia hora bastou para revisar o edital.” A palavra “meia” é:",
+        "options": [
+          "Advérbio de intensidade invariável.",
+          "Numeral fracionário que concorda com “hora”.",
+          "Pronome relativo.",
+          "Preposição de tempo."
+        ],
+        "answer": 1,
+        "why": "“Meia” indica metade de uma unidade e concorda com o substantivo feminino “hora”. Compare “meio cansada”, em que é advérbio.",
+        "wrong": [
+          "Em “meia hora” não intensifica adjetivo; expressa fração.",
+          "",
+          "Não retoma nenhum antecedente.",
+          "Não estabelece regência."
+        ],
+        "group": "editorial-Português-classes-de-palavras-i-nomes-e-determinantes"
       }
     ],
     "Português-classes-de-palavras-ii-verbos-e-adv-rbios": [
@@ -4640,6 +4925,44 @@
         "authorial": true,
         "id": "pt-rev2026-08-04",
         "group": "Português-classes-de-palavras-ii-verbos-e-adv-rbios-portugues-revisado"
+      },
+      {
+        "id": "Português-classes-de-palavras-ii-verbos-e-adv-rbios-editorial-663b2dfd74",
+        "q": "O contraste entre “A comissão avaliou os recursos” e “A comissão avaliava os recursos” é de:",
+        "options": [
+          "Mudança do sujeito da ação.",
+          "Mudança de voz ativa para passiva.",
+          "Aspecto verbal: evento global e processo passado em curso/habitual.",
+          "Transformação de avaliação em obrigação."
+        ],
+        "answer": 2,
+        "why": "Pretérito perfeito apresenta o evento passado de modo global; imperfeito focaliza andamento, repetição ou hábito. Sujeito e complementos permanecem.",
+        "wrong": [
+          "O sujeito é “a comissão” em ambas.",
+          "As duas orações estão na voz ativa.",
+          "",
+          "Não aparece verbo modal ou dever."
+        ],
+        "group": "editorial-Português-classes-de-palavras-ii-verbos-e-adv-rbios"
+      },
+      {
+        "id": "Português-classes-de-palavras-ii-verbos-e-adv-rbios-editorial-ac0368690a",
+        "q": "Em “Talvez a comissão publique a relação amanhã”, “talvez” contribui para:",
+        "options": [
+          "Marcar certeza absoluta.",
+          "Indicar dúvida ou possibilidade.",
+          "Negar a futura publicação.",
+          "Transformar a oração em imperativo."
+        ],
+        "answer": 1,
+        "why": "“Talvez” altera o grau de certeza e favorece o uso do subjuntivo “publique”; não equivale a “certamente”.",
+        "wrong": [
+          "A presença de “talvez” limita a certeza.",
+          "",
+          "A possibilidade não é uma negação.",
+          "Não há ordem dirigida à comissão."
+        ],
+        "group": "editorial-Português-classes-de-palavras-ii-verbos-e-adv-rbios"
       }
     ],
     "Português-pronomes-e-referencia-o": [
@@ -4728,6 +5051,44 @@
         "authorial": true,
         "id": "pt-rev2026-09-04",
         "group": "Português-pronomes-e-referencia-o-portugues-revisado"
+      },
+      {
+        "id": "Português-pronomes-e-referencia-o-editorial-9f96275e4a",
+        "q": "“O prazo foi encerrado. Isso surpreendeu os candidatos.” O demonstrativo “isso” retoma:",
+        "options": [
+          "Apenas a palavra “prazo”.",
+          "A ideia de que o prazo foi encerrado.",
+          "A identidade dos candidatos.",
+          "Um documento ainda não mencionado."
+        ],
+        "answer": 1,
+        "why": "“Isso” sintetiza a informação da primeira oração: o encerramento do prazo é o fato que provoca surpresa.",
+        "wrong": [
+          "O pronome resume o fato, não só o nome.",
+          "",
+          "“Candidatos” aparece após “isso” como objeto afetado.",
+          "Não há outro documento como antecedente."
+        ],
+        "group": "editorial-Português-pronomes-e-referencia-o"
+      },
+      {
+        "id": "Português-pronomes-e-referencia-o-editorial-d2a838f261",
+        "q": "Qual frase respeita a regência na oração relativa?",
+        "options": [
+          "O processo que me referi foi arquivado.",
+          "O processo a que me referi foi arquivado.",
+          "O processo cujo me referi foi arquivado.",
+          "O processo onde me referi foi arquivado."
+        ],
+        "answer": 1,
+        "why": "“Referir-se” exige preposição “a”; o relativo “que” retoma “processo” e deve ser precedido da preposição.",
+        "wrong": [
+          "Falta a preposição “a” exigida por “referir-se”.",
+          "",
+          "“Cujo” estabelece posse e não funciona dessa forma.",
+          "“Onde” é relativo locativo e não substitui “a que” aqui."
+        ],
+        "group": "editorial-Português-pronomes-e-referencia-o"
       }
     ],
     "Português-concord-ncia-verbal": [
@@ -4836,6 +5197,44 @@
         "authorial": true,
         "id": "pt-rev2026-10-05",
         "group": "Português-concord-ncia-verbal-portugues-revisado"
+      },
+      {
+        "id": "Português-concord-ncia-verbal-editorial-d9dfc4ce5c",
+        "q": "Qual opção apresenta concordância adequada no sentido de existir?",
+        "options": [
+          "Haviam muitos requerimentos.",
+          "Devem haver documentos.",
+          "Havia muitos requerimentos.",
+          "Fazem três anos que não ocorre."
+        ],
+        "answer": 2,
+        "why": "“Haver” com sentido existencial é impessoal; a forma permanece singular, assim como “fazer” indicando tempo decorrido.",
+        "wrong": [
+          "“Haver” existencial não varia no plural.",
+          "Auxiliar de impessoal também tende a ficar singular: “deve haver”.",
+          "",
+          "“Faz três anos” expressa tempo decorrido impessoal."
+        ],
+        "group": "editorial-Português-concord-ncia-verbal"
+      },
+      {
+        "id": "Português-concord-ncia-verbal-editorial-bcae77e3db",
+        "q": "Em “Vendem-se livros, mas precisa-se de vendedores”, a análise correta é:",
+        "options": [
+          "Ambos os verbos deveriam ficar no plural.",
+          "“Livros” é sujeito paciente; “de vendedores” é complemento de verbo transitivo indireto.",
+          "“Vendedores” é sujeito de “precisa-se”.",
+          "As duas orações apresentam sujeito simples expresso."
+        ],
+        "answer": 1,
+        "why": "Na primeira há passiva sintética com concordância plural; na segunda, “precisar de” é indireto e o “se” indetermina o sujeito, mantendo singular.",
+        "wrong": [
+          "“Precisa-se” deve ficar no singular nessa estrutura.",
+          "",
+          "“De vendedores” não concorda com o verbo por ser complemento preposicionado.",
+          "A segunda oração tem sujeito indeterminado."
+        ],
+        "group": "editorial-Português-concord-ncia-verbal"
       }
     ],
     "Português-concord-ncia-nominal": [
@@ -4924,6 +5323,44 @@
         "authorial": true,
         "id": "pt-rev2026-11-04",
         "group": "Português-concord-ncia-nominal-portugues-revisado"
+      },
+      {
+        "id": "Português-concord-ncia-nominal-editorial-95b3867a83",
+        "q": "Complete: “As cópias seguem ___ ao processo.”",
+        "options": [
+          "anexo",
+          "anexas",
+          "anexado",
+          "anexa"
+        ],
+        "answer": 1,
+        "why": "“Anexas” funciona como adjetivo predicativo de “cópias”, devendo concordar no feminino plural. A expressão “em anexo” seria outra construção.",
+        "wrong": [
+          "O singular masculino não concorda com “cópias”.",
+          "",
+          "“Anexado” masculino singular não concorda.",
+          "“Anexa” está no singular."
+        ],
+        "group": "editorial-Português-concord-ncia-nominal"
+      },
+      {
+        "id": "Português-concord-ncia-nominal-editorial-e6a940823c",
+        "q": "Na frase “As professoras ficaram bastante satisfeitas”, “bastante” é:",
+        "options": [
+          "Adjetivo variável concordando com professoras.",
+          "Numeral fracionário.",
+          "Advérbio de intensidade invariável.",
+          "Substantivo coletivo."
+        ],
+        "answer": 2,
+        "why": "“Bastante” modifica o adjetivo “satisfeitas” e equivale a “muito”; como advérbio não varia.",
+        "wrong": [
+          "Não caracteriza diretamente o nome, mas intensifica outro adjetivo.",
+          "Não expressa fração.",
+          "",
+          "Não nomeia conjunto de pessoas."
+        ],
+        "group": "editorial-Português-concord-ncia-nominal"
       }
     ],
     "Português-reg-ncia-verbal-e-nominal": [
@@ -5012,6 +5449,44 @@
         "authorial": true,
         "id": "pt-rev2026-12-04",
         "group": "Português-reg-ncia-verbal-e-nominal-portugues-revisado"
+      },
+      {
+        "id": "Português-reg-ncia-verbal-e-nominal-editorial-e9343f78c2",
+        "q": "Na norma-padrão formal, qual construção é adequada?",
+        "options": [
+          "Prefiro mais revisar do que improvisar.",
+          "Prefiro revisar a improvisar.",
+          "Prefiro revisar de improvisar.",
+          "Prefiro mais revisar a improvisar."
+        ],
+        "answer": 1,
+        "why": "“Preferir X a Y” estabelece comparação por “a”, sem necessidade de intensificador “mais”.",
+        "wrong": [
+          "Acrescenta “mais” e usa “do que” em estrutura evitada pela norma tradicional.",
+          "",
+          "A preposição comparativa exigida no padrão é “a”.",
+          "A construção introduz “mais” desnecessariamente."
+        ],
+        "group": "editorial-Português-reg-ncia-verbal-e-nominal"
+      },
+      {
+        "id": "Português-reg-ncia-verbal-e-nominal-editorial-6acbb04588",
+        "q": "Na frase “A proposta é favorável à atualização”, a preposição “a” é exigida:",
+        "options": [
+          "Pelo substantivo “proposta”.",
+          "Pelo adjetivo “favorável”.",
+          "Pelo verbo “ser” exclusivamente.",
+          "Pelo substantivo “atualização”."
+        ],
+        "answer": 1,
+        "why": "“Favorável” é o nome regente e seleciona o complemento com preposição “a”; “atualização” admite artigo feminino, produzindo “à”.",
+        "wrong": [
+          "“Proposta” é sujeito, não rege o complemento.",
+          "",
+          "O verbo de ligação conecta sujeito ao predicativo e não explica a preposição.",
+          "“Atualização” recebe artigo, mas não exige a preposição."
+        ],
+        "group": "editorial-Português-reg-ncia-verbal-e-nominal"
       }
     ],
     "Português-crase-uso-e-proibi-es": [
@@ -5100,6 +5575,44 @@
         "authorial": true,
         "id": "pt-rev2026-13-04",
         "group": "Português-crase-uso-e-proibi-es-portugues-revisado"
+      },
+      {
+        "id": "Português-crase-uso-e-proibi-es-editorial-be7461fb9e",
+        "q": "Qual preenchimento é adequado? “O atendimento começou ___ 8h e se estende desde ___ 9h.”",
+        "options": [
+          "as / às",
+          "às / as",
+          "à / à",
+          "às / às"
+        ],
+        "answer": 1,
+        "why": "“Começou às 8h” contém a preposição a com artigo plural; “desde as 9h” usa a preposição “desde”, sem fusão a+as.",
+        "wrong": [
+          "Primeira posição exige fusão antes da hora determinada.",
+          "",
+          "Hora determinada requer plural “às” na primeira e “as” na segunda.",
+          "“Desde” já é preposição; “desde às” não é padrão."
+        ],
+        "group": "editorial-Português-crase-uso-e-proibi-es"
+      },
+      {
+        "id": "Português-crase-uso-e-proibi-es-editorial-797ef284ef",
+        "q": "No uso comum, “voltei ___ Bahia” e “voltei ___ Brasília” ajuda a decidir crase. Qual relação correta?",
+        "options": [
+          "da / de",
+          "de / da",
+          "de / de",
+          "da / da"
+        ],
+        "answer": 0,
+        "why": "“Voltar da Bahia” indica artigo feminino, apoiando “ir à Bahia”; “voltar de Brasília” indica ausência habitual do artigo, apoiando “ir a Brasília”.",
+        "wrong": [
+          "",
+          "A relação usual de artigo foi invertida.",
+          "“Bahia” costuma admitir artigo.",
+          "“Brasília” não costuma receber artigo nesse uso."
+        ],
+        "group": "editorial-Português-crase-uso-e-proibi-es"
       }
     ],
     "Português-pontua-o-e-sentido": [
@@ -5188,6 +5701,44 @@
         "authorial": true,
         "id": "pt-rev2026-14-04",
         "group": "Português-pontua-o-e-sentido-portugues-revisado"
+      },
+      {
+        "id": "Português-pontua-o-e-sentido-editorial-0e616e4507",
+        "q": "“Os servidores que concluíram o treinamento receberam certificado.” A ausência de vírgulas indica que:",
+        "options": [
+          "Todos os servidores necessariamente concluíram o curso.",
+          "A oração seleciona um grupo dentre os servidores.",
+          "A oração é comentário sobre todos os servidores.",
+          "O texto está incompleto por falta de vírgulas."
+        ],
+        "answer": 1,
+        "why": "A relativa restritiva “que concluíram o treinamento” delimita quais servidores foram certificados. Com vírgulas, a leitura tende a ser explicativa.",
+        "wrong": [
+          "A oração delimita o conjunto e não autoriza universalização.",
+          "",
+          "Essa seria uma leitura explicativa marcada por vírgulas.",
+          "A oração restritiva não exige vírgulas."
+        ],
+        "group": "editorial-Português-pontua-o-e-sentido"
+      },
+      {
+        "id": "Português-pontua-o-e-sentido-editorial-b306668085",
+        "q": "“Marina, envie o documento amanhã.” A função de “Marina” é:",
+        "options": [
+          "Sujeito expresso do imperativo.",
+          "Objeto direto.",
+          "Vocativo.",
+          "Aposto explicativo."
+        ],
+        "answer": 2,
+        "why": "“Marina” chama a interlocutora e fica isolada por vírgula. O sujeito do imperativo afirmativo é “você”, recuperável no contexto.",
+        "wrong": [
+          "Não é sujeito sintático do imperativo.",
+          "Não recebe a ação de enviar.",
+          "",
+          "Não explica outro termo nominal."
+        ],
+        "group": "editorial-Português-pontua-o-e-sentido"
       }
     ],
     "Português-coloca-o-pronominal": [
@@ -5276,6 +5827,44 @@
         "authorial": true,
         "id": "pt-rev2026-15-04",
         "group": "Português-coloca-o-pronominal-portugues-revisado"
+      },
+      {
+        "id": "Português-coloca-o-pronominal-editorial-052f49154c",
+        "q": "Qual redação atende ao padrão formal diante de negação?",
+        "options": [
+          "Não entregaram-me a cópia.",
+          "Não me entregaram a cópia.",
+          "Não entregaram a cópia-me.",
+          "Não entregar-me-ão a cópia."
+        ],
+        "answer": 1,
+        "why": "A palavra negativa “não” atrai o pronome átono “me” para antes do verbo: próclise.",
+        "wrong": [
+          "A negação exige próclise na estrutura normativa.",
+          "",
+          "Pronome enclítico não se prende ao objeto.",
+          "A mesóclise não se usa após atrativo e a forma está inadequada."
+        ],
+        "group": "editorial-Português-coloca-o-pronominal"
+      },
+      {
+        "id": "Português-coloca-o-pronominal-editorial-e83a6538a4",
+        "q": "Sem fator de atração e no início da oração formal, a forma preferível é:",
+        "options": [
+          "Me informaram a data.",
+          "Informaram-me a data.",
+          "Informaram a data-me.",
+          "Me a data informaram."
+        ],
+        "answer": 1,
+        "why": "No início da oração e no registro formal tradicional, a ênclise “informaram-me” evita iniciar com pronome átono.",
+        "wrong": [
+          "É frequente na fala brasileira, mas não é a forma tradicional do padrão formal cobrado.",
+          "",
+          "O pronome não se liga ao objeto direto dessa maneira.",
+          "A ordem proposta não atende à sintaxe da oração."
+        ],
+        "group": "editorial-Português-coloca-o-pronominal"
       }
     ],
     "Matemática-n-meros-reais-e-opera-es": [

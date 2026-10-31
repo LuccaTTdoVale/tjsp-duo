@@ -1,0 +1,554 @@
+{
+  "versao": "TJSP DUO Português — aula integral editorial 2026-10-31",
+  "originalidade": "Textos e casos hipotéticos autorais. Organização inspirada em recursos didáticos de cursos de concursos; não reproduz material proprietário.",
+  "fontes": [
+    {
+      "nome": "Qconcursos — organização do conteúdo de Português",
+      "url": "https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues"
+    },
+    {
+      "nome": "Qconcursos — interpretação de textos e questões",
+      "url": "https://www.qconcursos.com/questoes-de-concursos/disciplinas/letras-portugues/interpreta%C3%A7%C3%A3o-de-textos"
+    },
+    {
+      "nome": "Academia Brasileira de Letras — VOLP",
+      "url": "https://www.academia.org.br/nossa-lingua/busca-no-vocabulario"
+    },
+    {
+      "nome": "VUNESP — edital TJSP",
+      "url": "https://www.vunesp.com.br/TJSP2607"
+    }
+  ],
+  "lessons": {
+    "Português-interpretacao": {
+      "introducao": "Nesta aula você aprenderá a usar o próprio texto como prova das suas respostas. O objetivo é distinguir o que foi dito, o que pode ser concluído e o que a alternativa inventou. Leia os exemplos com calma: acertar por reconhecer a última frase da teoria não é interpretar.",
+      "capitulos": [
+        {
+          "titulo": "Leitura literal, compreensão e interpretação",
+          "definicao": "Compreender começa por reconhecer o que as frases declaram: quem realizou uma ação, quando, em que condições e com qual resultado. Interpretar exige conectar essas informações ao contexto e à intenção comunicativa. A inferência é uma etapa específica: concluir algo não escrito literalmente, mas sustentado pelas pistas disponíveis. Essas três operações trabalham juntas; não são sinônimos perfeitos.",
+          "aplicacao": "Leia: “O atendimento começou às 8h, mas a fila só diminuiu depois das 10h.” Literalmente, sabemos dois horários e que a fila diminuiu após o segundo. Para interpretar a oposição introduzida por “mas”, percebemos que abrir o atendimento não produziu redução imediata da fila. Não sabemos, porém, quantas pessoas aguardavam.",
+          "aprofundamento": "Faça duas leituras: na primeira, identifique o assunto geral; na segunda, marque fatos, conectores, referências e limites como “apenas”, “alguns” e “poderia”. Construa uma resposta mental antes de comparar com as alternativas. Um fato plausível fora do texto não vira evidência.",
+          "erro_comum": "Achar que interpretar é dar opinião sobre o tema. Na prova, a resposta deve ser justificada por palavras ou relações do texto, mesmo que você discorde do autor."
+        },
+        {
+          "titulo": "Assunto, tema, ideia central e tese",
+          "definicao": "Assunto é o campo amplo abordado; tema é o recorte específico; ideia central é o ponto predominante do texto. Tese é uma posição defendida mediante argumentos, típica de textos argumentativos. Uma notícia meramente informativa pode ter ideia central sem defender uma tese. Distinguir essas noções ajuda a responder comandos como “o texto trata sobretudo de” e “o autor defende que”.",
+          "aplicacao": "Leia: “Para reduzir filas nos postos, a prefeitura ampliou horários. A medida é útil, mas precisa vir acompanhada de mais profissionais.” Assunto: atendimento público. Tema: ampliação do horário dos postos. Ideia central: a ampliação ajuda, mas não basta isoladamente. Tese: a medida precisa ser acompanhada de reforço de pessoal. O termo “precisa” é pista de avaliação.",
+          "aprofundamento": "Observe a progressão dos parágrafos: introdução do problema, dados, exemplos, contrapontos e conclusão. A tese pode aparecer no início ou somente ao final. Uma frase muito específica não resume necessariamente o texto inteiro; um título muito vago também pode perder o recorte temático.",
+          "erro_comum": "Escolher como ideia central um detalhe verdadeiro, porém periférico; ou atribuir tese ao autor quando ele apenas apresenta opiniões de terceiros."
+        },
+        {
+          "titulo": "Informações explícitas e restrições",
+          "definicao": "A informação explícita é declarada diretamente. Ela não se resume ao núcleo verbal: inclui quantificadores, exceções, negações, locais, prazos e condições. Em provas, trocar “alguns” por “todos” ou “pode” por “deve” é suficiente para tornar incorreta uma alternativa que parece próxima do texto.",
+          "aplicacao": "Leia: “As inscrições serão aceitas até sexta-feira, exceto nos dias de manutenção.” Está afirmado o limite de sexta-feira e uma exceção durante a manutenção. A alternativa “as inscrições serão aceitas durante toda a semana, sem interrupções” não respeita a ressalva. Agora compare “até sexta” com “a partir de sexta”: um marca limite final e outro, marco inicial.",
+          "aprofundamento": "Ao corrigir uma questão, circule o elemento exato que mudou: tempo, quantidade, obrigação, negação ou exceção. Uma alternativa pode preservar nomes e verbos do trecho e, ainda assim, alterar sua validade pela troca de uma palavra curta.",
+          "erro_comum": "Ler apenas o começo da frase e ignorar “salvo”, “exceto”, “somente”, “desde que” ou “não”. São essas palavras que frequentemente definem o gabarito."
+        },
+        {
+          "titulo": "Inferência apoiada e inferência indevida",
+          "definicao": "Inferir é elaborar uma conclusão implícita que decorre razoavelmente das informações expressas. Não é inventar causas, emoções ou acontecimentos não informados. A conclusão deve ser mais modesta do que as pistas: se o texto afirma que uma mudança reduziu filas, você não pode concluir automaticamente que zerou a espera.",
+          "aplicacao": "Texto: “Mesmo com a chuva, os estudantes chegaram à biblioteca.” Inferência apoiada: a chuva não impediu a chegada. Inferência indevida: todos chegaram no horário. A frase confirma a chegada, não a pontualidade de cada estudante. No exemplo “Joana saiu cedo para evitar trânsito”, há intenção de escapar de congestionamento, mas não se confirma que as vias ficaram livres.",
+          "aprofundamento": "A banca pode cobrar inferência por relações causais, por contraste, por retomadas pronominais ou pelo tom. Pergunte: qual expressão no texto torna esta conclusão defensável? Se você não encontra respaldo, a resposta talvez esteja trazendo conhecimento externo ou certeza exagerada.",
+          "erro_comum": "Confundir possibilidade com certeza. “Pode indicar” não significa “comprova”; “houve esforço para melhorar” não prova que o problema foi totalmente resolvido."
+        },
+        {
+          "titulo": "Pressupostos e subentendidos",
+          "definicao": "Pressuposto é uma informação implícita incorporada por uma expressão, muitas vezes mantida quando a frase é negada. “Voltou a estudar” pressupõe estudo anterior; “não voltou a estudar” também. Subentendido é uma mensagem indireta reconstruída pela situação, cuja interpretação depende de quem fala, do contexto e da finalidade.",
+          "aplicacao": "Se uma pessoa diz diante de uma janela aberta “Está frio aqui”, a mensagem literal é sobre a temperatura; dependendo da situação, pode subentender um pedido para fechar a janela. Já “Maria deixou de faltar às reuniões” pressupõe que faltava anteriormente. A palavra “deixou” é o gatilho que autoriza essa conclusão.",
+          "aprofundamento": "Testes úteis: negue a oração e observe se a informação permanece; procure verbos como “continuar”, “parar”, “retomar” e advérbios como “ainda” e “também”. Para subentendidos, considere a relação entre interlocutores e evite tratar uma sugestão como ordem expressa sem indícios.",
+          "erro_comum": "Atribuir como fato literal o que é apenas pedido sugerido ou pressuposição. O examinador pode perguntar especificamente pela informação implícita, não pela explícita."
+        },
+        {
+          "titulo": "Voz do autor, citação e ponto de vista",
+          "definicao": "Textos apresentam diferentes vozes: a do narrador ou autor, a de personagens, a de fontes citadas e a de especialistas. Concordar com a fala de alguém não é consequência automática de citá-la. Verbos como “afirmou”, “alegou”, “questionou” e expressões como “segundo” indicam atribuição de fala.",
+          "aplicacao": "“Segundo os comerciantes, o novo horário melhorou as vendas. A prefeitura ainda avalia os resultados.” O ganho econômico é opinião atribuída aos comerciantes; o texto não o confirma como conclusão oficial. Se a questão diz “a prefeitura comprovou que as vendas cresceram”, ela troca a fonte da afirmação e eleva uma avaliação à condição de prova.",
+          "aprofundamento": "Observe o tom: ironia, crítica, aprovação ou neutralidade costumam aparecer em escolhas lexicais, adjetivos avaliativos e oposições. Uma opinião explícita do autor costuma conter marcas de julgamento; mas um texto narrativo pode criar efeitos sem declarar uma tese.",
+          "erro_comum": "Confundir a opinião de personagem ou entrevistado com a posição do autor; desconsiderar aspas e verbos de dizer."
+        },
+        {
+          "titulo": "Conectivos e relações de sentido",
+          "definicao": "Conectivos indicam como as orações se relacionam. “Porque” pode introduzir uma causa; “portanto”, uma conclusão; “embora”, concessão; “se”, condição; “mas”, oposição; “para que”, finalidade. A interpretação correta depende da construção completa, não apenas de memorizar uma lista de palavras.",
+          "aplicacao": "Compare: “O setor ampliou o horário porque aumentou a demanda” (aumento da demanda é causa). “A demanda aumentou; portanto, o setor ampliou o horário” (ampliação é apresentada como conclusão). “Embora a demanda tenha aumentado, o horário não mudou” (o resultado contraria a expectativa). Trocar conectivos pode alterar a lógica, ainda que as palavras principais permaneçam.",
+          "aprofundamento": "Para identificar uma relação, traduza o período em duas proposições: fato A e fato B. Pergunte se uma explica a outra, a contradiz, condiciona ou apenas acrescenta informação. Às vezes o conectivo tem nuance contextual; não substitua mecanicamente um termo por outro sem ler a frase.",
+          "erro_comum": "Tratar “embora” como causa ou “se” como certeza; inverter a ordem de causa e consequência nas alternativas."
+        },
+        {
+          "titulo": "Como eliminar alternativas parecidas",
+          "definicao": "Questões difíceis não apresentam necessariamente absurdos evidentes. Elas variam pequenas partes de uma afirmação verdadeira: negam uma exceção, invertem sujeito e objeto, transformam possibilidade em obrigação, trocam causa por consequência ou ampliam “parte” para “totalidade”. A resposta correta é a mais fiel ao conjunto do texto.",
+          "aplicacao": "Texto: “Parte dos usuários usa o aplicativo, enquanto outros mantêm atendimento presencial.” A alternativa “todos preferem aplicativos” exagera a quantidade; “ninguém usa o aplicativo” contradiz o início; “os canais coexistem” respeita as duas partes. Repare que não é necessário saber o que costuma ocorrer nos órgãos públicos: basta comparar a informação com as opções.",
+          "aprofundamento": "Faça uma tabela mental com quatro colunas: trecho de apoio, sujeito, afirmação da alternativa e alteração suspeita. Quando houver duas opções plausíveis, compare o grau de certeza e o alcance das palavras. Se o comando pede a INCORRETA, destaque o negativo antes de responder.",
+          "erro_comum": "Selecionar a alternativa mais bonita ou mais longa, sem verificar se o texto realmente autoriza cada expressão."
+        }
+      ]
+    },
+    "Português-sintaxe": {
+      "introducao": "Aqui você vai analisar a estrutura das orações: não basta decorar nomes, é necessário identificar as relações entre o verbo e seus termos.",
+      "capitulos": [
+        {
+          "titulo": "Oração, verbo e estrutura da frase",
+          "definicao": "Oração é um enunciado organizado em torno de um verbo ou locução verbal. Período simples tem uma oração; período composto, duas ou mais. Antes de achar o sujeito, localize o verbo e pergunte se ele expressa ação, estado, fenômeno ou outra relação. Frases sem verbo podem comunicar sentido, mas não são orações.",
+          "aplicacao": "Em “Os servidores concluíram os relatórios”, o verbo é “concluíram”; “os servidores” concorda com ele e “os relatórios” recebe a ação. Já “Os servidores chegaram e organizaram a sala” contém duas formas verbais que estruturam duas orações coordenadas com o mesmo sujeito.",
+          "aprofundamento": "A estrutura sintática se esclarece quando testamos relações, não só a posição das palavras. Em “Chegaram os autos”, o sujeito está depois do verbo. Em “Há autos na secretaria”, “haver” com sentido de existir é impessoal e não apresenta sujeito.",
+          "erro_comum": "Chamar de sujeito a primeira expressão da frase ou confundir o objeto que vem depois do verbo com sujeito posposto."
+        },
+        {
+          "titulo": "Sujeito e tipos de sujeito",
+          "definicao": "Sujeito é o termo a respeito do qual o predicado faz uma declaração; seu núcleo determina, em regra, a concordância verbal. Pode ser simples (um núcleo), composto (dois ou mais), desinencial/oculto (identificável pela forma verbal ou contexto) ou indeterminado (não identificado). Orações sem sujeito ocorrem com verbos impessoais.",
+          "aplicacao": "“Os processos antigos chegaram” tem sujeito simples, núcleo “processos”. “A equipe e a chefia chegaram” tem composto. “Precisamos estudar” tem sujeito oculto “nós”. “Precisa-se de colaboradores” apresenta indeterminação com verbo transitivo indireto; “Havia reclamações” é oração sem sujeito, pois “haver” existencial é impessoal.",
+          "aprofundamento": "Não confunda sujeito indeterminado com sujeito omitido recuperável: em “Estudamos hoje”, a desinência mostra “nós”. Para “se”, observe a transitividade: “Vendem-se casas” admite passiva sintética, “casas” é sujeito paciente e o verbo vai ao plural.",
+          "erro_comum": "Concluir que a palavra logo antes do verbo é sujeito, ou usar “haviam” com sentido de existência na norma-padrão."
+        },
+        {
+          "titulo": "Predicado e predicativo",
+          "definicao": "Predicado é o que se declara sobre o sujeito e contém o verbo, exceto quando a oração não tem sujeito, caso em que se analisa a predicação verbal. Predicado verbal tem verbo significativo como núcleo; nominal tem predicativo do sujeito ligado por verbo de ligação; verbo-nominal reúne ação e característica atribuída a sujeito ou objeto.",
+          "aplicacao": "“A servidora protocolou a petição” tem predicado verbal. “A servidora estava tranquila” tem predicado nominal: “tranquila” é predicativo do sujeito. “A servidora saiu tranquila” tem verbo-nominal: saiu (ação) e tranquila (estado). “A chefia considerou o plano viável” possui predicativo do objeto (“viável”).",
+          "aprofundamento": "Verbos como “ficar”, “andar” e “permanecer” podem atuar como ligação dependendo do contexto: “João anda preocupado” descreve estado; “João anda pela cidade” expressa deslocamento. Analise o sentido do predicado.",
+          "erro_comum": "Achar que todo adjetivo é adjunto adnominal. No predicativo, ele atribui estado/qualidade numa relação mediada pelo verbo."
+        },
+        {
+          "titulo": "Complementos: objeto direto, indireto e complemento nominal",
+          "definicao": "Verbo transitivo precisa de complemento para integrar o sentido. Objeto direto normalmente não exige preposição selecionada pelo verbo; objeto indireto exige. Complemento nominal completa o sentido de nome (substantivo abstrato, adjetivo ou advérbio) e é preposicionado. É importante identificar que termo está sendo completado.",
+          "aplicacao": "“O setor enviou a resposta aos candidatos”: “a resposta” é objeto direto; “aos candidatos” é objeto indireto. “A resposta aos candidatos foi rápida”: “aos candidatos” agora completa o nome “resposta”, podendo ser analisado como complemento nominal nesse contexto. “Ela é favorável à proposta”: a expressão preposicionada completa o adjetivo “favorável”.",
+          "aprofundamento": "Pergunte primeiro: complemento de qual palavra? Se do verbo, objeto; se de nome, complemento nominal ou adjunto adnominal conforme a relação de sentido. A distinção exige examinar agente, paciente e características semânticas em casos delicados.",
+          "erro_comum": "Determinar a função sintática somente pela presença de preposição. Nem todo termo preposicionado é objeto indireto."
+        },
+        {
+          "titulo": "Adjuntos, aposto, vocativo e ordem dos termos",
+          "definicao": "Adjunto adverbial acrescenta circunstâncias de tempo, lugar, modo e outras; adjunto adnominal determina ou caracteriza substantivo. Aposto explica, especifica ou resume outro termo; vocativo chama o interlocutor, sem exercer função de sujeito. A ordem dos termos pode mudar sem alterar a relação sintática essencial.",
+          "aplicacao": "“Ontem, a servidora entregou o relatório ao diretor”: “ontem” marca tempo. Em “o relatório urgente”, “urgente” caracteriza o substantivo. “Ana, coordenadora do setor, assinou”: o segmento entre vírgulas funciona como aposto explicativo. “Ana, assine o relatório”: “Ana” é vocativo, e o sujeito do imperativo é “você”, implícito.",
+          "aprofundamento": "Troque a ordem da frase para testar: “Chegaram três ofícios” pode ser reordenada para “Três ofícios chegaram”. Já um vocativo não participa dessa concordância. Em sentenças longas, encontre o núcleo antes de classificar termos acessórios.",
+          "erro_comum": "Chamar o vocativo de sujeito ou separar sujeito e verbo por vírgula sem motivo sintático."
+        }
+      ]
+    },
+    "Português-crase": {
+      "introducao": "Crase é um fenômeno de regência e determinação: você aprenderá a encontrar os dois elementos que se fundem, e não a decorar somente palavras “que levam acento”.",
+      "capitulos": [
+        {
+          "titulo": "Quando há crase",
+          "definicao": "Crase é a fusão de dois sons vocálicos iguais, especialmente da preposição “a” com o artigo feminino “a/as”, marcada na escrita por à/às. A presença da preposição depende do termo regente; a do artigo depende do termo seguinte e de sua determinação. Acentuar um “a” isolado sem verificar ambas as condições produz erro.",
+          "aplicacao": "“O servidor se referiu à norma”: “referir-se” exige a preposição “a”; “a norma” admite artigo feminino. A sequência preposição + artigo resulta em “à norma”. Em “A norma foi publicada”, há apenas artigo antes de sujeito, portanto não ocorre crase.",
+          "aprofundamento": "Faça o teste do masculino quando a substituição for natural: “referiu-se ao regulamento” indica que “referiu-se à norma” admite fusão. O teste é auxiliar; não substitui a análise de casos com pronomes e expressões especiais.",
+          "erro_comum": "Colocar crase sempre que aparece palavra feminina, mesmo quando o “a” é apenas artigo ou quando o verbo exige outra preposição."
+        },
+        {
+          "titulo": "Casos obrigatórios mais frequentes",
+          "definicao": "Além das construções preposição + artigo, costumam apresentar acento as locuções adverbiais femininas consagradas, como “à noite”, “às vezes” e “à disposição”, e locuções prepositivas como “à procura de”. Também ocorre com pronomes demonstrativos iniciados em “a” quando o termo regente exige a preposição: àquele, àquela, àquilo.",
+          "aplicacao": "“O ofício foi entregue àquela servidora” combina “entregue a” com “aquela”. “O setor atende à noite” emprega locução adverbial feminina. Já “O documento se refere a esta decisão” não recebe crase antes de “esta”, pois não há artigo feminino a ser fundido com a preposição.",
+          "aprofundamento": "Lembre que uma locução pode ter forma fixada pela norma mesmo quando o teste da troca por masculino não é adequado. Observe também “à medida que” (locução conjuntiva) e “à proporção que”.",
+          "erro_comum": "Achar que a crase depende unicamente do plural ou de estar no fim da frase; as relações de regência e a natureza da expressão são decisivas."
+        },
+        {
+          "titulo": "Quando a crase é proibida",
+          "definicao": "Em regra, não há crase antes de verbos no infinitivo, pronomes pessoais, palavras masculinas e artigos indefinidos sem contexto especial. Também não se usa o acento quando o termo anterior não pede preposição, quando há somente artigo ou quando não existe artigo feminino.",
+          "aplicacao": "“Começou a estudar” traz preposição antes do infinitivo, sem artigo. “Entregou o documento a ela”: pronome pessoal não recebe artigo. “Foi a pé”: expressão masculina sem fusão. “A análise começou”: o artigo feminino integra o sujeito e não é preposição exigida por termo anterior.",
+          "aprofundamento": "Há expressões como “à moda de” (inclusive elíptica) que exigem atenção, e nomes próprios ou possessivos femininos que podem admitir artigo em certas construções. Por isso, a fórmula “nunca antes de masculino” precisa ser entendida com as exceções consagradas.",
+          "erro_comum": "Usar uma lista de proibições sem considerar a estrutura: “bife à milanesa” traz a locução subentendida “à moda de” e não contradiz a regra geral."
+        },
+        {
+          "titulo": "Crase facultativa e casos dependentes do contexto",
+          "definicao": "Em algumas construções, o artigo feminino é opcional e a crase pode ser facultativa, como diante de determinados nomes femininos próprios e possessivos femininos singulares, conforme uso e contexto. Diante de “até”, certas construções admitem análise com ou sem preposição “a”. O importante é identificar por que existem duas formas possíveis.",
+          "aplicacao": "“Entreguei a carta a minha supervisora” e “Entreguei a carta à minha supervisora” são construções registradas na tradição gramatical quando há opcionalidade do artigo diante do possessivo. Com expressões que têm artigo obrigatório no contexto, a escolha deixa de ser facultativa.",
+          "aprofundamento": "Em prova, a alternativa pode pedir o uso obrigatório, facultativo ou proibido: não resolva a questão apenas por “soar bonito”. Examine primeiro o termo regente e depois o termo que vem após “a”; por último, confira locuções e exceções.",
+          "erro_comum": "Confundir “facultativo” com “errado”: nem todas as situações são de uso obrigatório, mas a facultatividade exige análise gramatical específica."
+        }
+      ]
+    },
+    "Português-coes-o-e-coer-ncia": {
+      "introducao": "Nesta aula, a pergunta central é como as frases se conectam formalmente e como o texto mantém um sentido consistente de uma parte à outra.",
+      "capitulos": [
+        {
+          "titulo": "Coesão textual: mecanismos de ligação",
+          "definicao": "Coesão é o conjunto de recursos linguísticos que estabelecem ligações entre frases e parágrafos: pronomes, repetições estratégicas, substituições por sinônimos adequados, elipses e conectores. Esses recursos ajudam o leitor a acompanhar a continuidade dos referentes e das ideias. Um texto coeso, contudo, ainda pode apresentar contradições.",
+          "aplicacao": "“A equipe recebeu os documentos. Eles serão conferidos amanhã.” O pronome “eles” deve retomar “documentos”, não “equipe”, porque a concordância e a ação descrita orientam essa leitura. Se o texto usasse “ela”, poderia retomar “equipe”.",
+          "aprofundamento": "A coesão não exige evitar toda repetição: repetir uma palavra pode garantir precisão técnica. A substituição só é boa se não alterar o referente ou criar ambiguidade. Observe os pronomes demonstrativos “este”, “esse” e “aquele” na organização temporal e espacial das referências.",
+          "erro_comum": "Trocar uma palavra por sinônimo apenas para evitar repetição e acabar mudando o sentido técnico que o autor pretendia preservar."
+        },
+        {
+          "titulo": "Coerência e progressão das ideias",
+          "definicao": "Coerência é a organização consistente do sentido: as informações devem ser compatíveis entre si e apropriadas ao contexto e ao conhecimento compartilhado. Progressão textual é o avanço ordenado das informações, acrescentando algo novo a partir do que já foi introduzido. Um texto pode ter conectivos e ainda ser incoerente.",
+          "aplicacao": "“O atendimento ocorrerá exclusivamente pelo aplicativo. Entretanto, todas as solicitações serão feitas apenas presencialmente.” Sem explicação adicional, as proposições entram em conflito. O conectivo “entretanto” marca oposição, mas não resolve a incompatibilidade entre duas exclusividades.",
+          "aprofundamento": "Em revisão de textos, examine se há contradição de prazo, pessoa, lugar, número ou finalidade. Quando o enunciado pede “manutenção de sentido”, confira também se a reescrita não altera a progressão: deslocar uma oração pode mudar o foco do argumento.",
+          "erro_comum": "Confundir coerência com “frases bonitas”: um texto gramaticalmente correto pode ser incoerente quando suas informações se anulam."
+        },
+        {
+          "titulo": "Conectivos e operadores argumentativos",
+          "definicao": "Os conectores indicam adição, oposição, consequência, explicação, causa, finalidade e condição. Operadores como “até”, “apenas”, “também” e “ainda” influenciam o alcance da argumentação. Em questões de substituição, é indispensável preservar a relação lógico-semântica do contexto.",
+          "aplicacao": "“O portal ficou indisponível; por isso, o atendimento foi prorrogado” expressa consequência. “Embora o portal estivesse indisponível, o prazo não foi prorrogado” contém concessão. “Caso o portal fique indisponível, o prazo será prorrogado” apresenta condição. Nenhuma dessas estruturas é automaticamente equivalente às outras.",
+          "aprofundamento": "Depois de identificar um conector, traduza as duas orações em proposições e pergunte qual relação foi estabelecida. Se a expressão de substituição introduzir conclusão onde havia causa, pode comprometer a coerência local.",
+          "erro_comum": "Memorizar listas e afirmar que “pois” tem sempre a mesma função, sem observar posição e contexto."
+        },
+        {
+          "titulo": "Referência, ambiguidade e reescrita",
+          "definicao": "Referência é o processo pelo qual uma expressão recupera ou apresenta um elemento do discurso. Quando um pronome possui mais de um antecedente plausível, pode surgir ambiguidade. Reescrever uma frase exige conservar o referente e a intenção do enunciado, não apenas trocar palavras por outras do mesmo gênero e número.",
+          "aplicacao": "“Ana avisou Beatriz de que sua inscrição estava pendente” pode ser ambígua: de quem é a inscrição? “Ana avisou a Beatriz que a inscrição de Beatriz estava pendente” elimina a dúvida. A repetição, nesse caso, é útil porque torna o enunciado inequívoco.",
+          "aprofundamento": "Concentre-se em pronomes relativos e demonstrativos: eles articulam períodos e podem recuperar ideias inteiras, não apenas nomes. Na prova, compare se uma reescrita preserva o mesmo antecedente e a mesma relação temporal.",
+          "erro_comum": "Supor que o pronome só possa retomar o substantivo mais próximo; concordância, sentido e estrutura também importam."
+        }
+      ]
+    },
+    "Português-sin-nimos-ant-nimos-e-polissemia": {
+      "introducao": "Aqui o foco é significado em contexto. A mesma palavra pode se aproximar de outras em um enunciado e deixar de ser equivalente em outro.",
+      "capitulos": [
+        {
+          "titulo": "Sinônimos e equivalência contextual",
+          "definicao": "Sinônimos são palavras de sentido semelhante; equivalência total em todos os contextos é rara. A banca costuma pedir uma substituição que preserve a ideia, o grau de intensidade, o registro e a estrutura da frase. Por isso, o melhor sinônimo não é necessariamente o mais comum no dicionário.",
+          "aplicacao": "“O relatório apresentou uma explicação sucinta”: “sucinta” pode ser substituída por “concisa” mantendo a noção de brevidade. Substituir por “superficial” altera o julgamento sobre a qualidade da explicação: algo breve pode ser bem fundamentado.",
+          "aprofundamento": "Observe a palavra no período inteiro. Compare se o termo escolhido é mais forte ou mais fraco: “probabilidade” não é sempre igual a “certeza”; “recomendação” não é ordem. Preste atenção também à regência na troca de palavras, que pode exigir mudança de preposição.",
+          "erro_comum": "Acreditar que basta existir uma acepção parecida no dicionário, mesmo quando o contexto seleciona outro sentido."
+        },
+        {
+          "titulo": "Antônimos, oposição e escala",
+          "definicao": "Antônimos estabelecem relações de oposição, mas há diferenças: “vivo/morto” tende a oposição complementar; “quente/frio” forma escala gradual; “comprar/vender” apresenta papéis relacionais. Em questões contextualizadas, a oposição deve preservar a categoria e a ideia pertinente ao texto.",
+          "aplicacao": "“Uma decisão provisória foi substituída pela definitiva”: “definitiva” se opõe ao caráter temporário da decisão. Já a oposição contextual de “sucinto” pode ser “extenso”, não necessariamente “confuso”, pois os termos tratam de dimensões diferentes.",
+          "aprofundamento": "Verifique qual característica está em jogo antes de escolher. Se o texto fala da duração de uma medida, a oposição deverá envolver duração; se fala de intensidade, deverá envolver intensidade. Uma palavra pode possuir mais de um antônimo em usos distintos.",
+          "erro_comum": "Escolher o oposto de uma acepção que não é a utilizada naquele trecho."
+        },
+        {
+          "titulo": "Polissemia e sentidos distintos de uma palavra",
+          "definicao": "Polissemia ocorre quando uma palavra apresenta sentidos relacionados entre si. A escolha da acepção depende da situação, do campo temático e das palavras vizinhas. Em textos jurídicos e administrativos, palavras comuns frequentemente recebem sentido técnico, que precisa ser identificado.",
+          "aplicacao": "“A chave da sala sumiu”; “a chave do problema é verificar os prazos”. Na primeira frase, trata-se de objeto físico; na segunda, de elemento decisivo para resolver uma questão. A semelhança de função ajuda a compreender como o sentido se expandiu.",
+          "aprofundamento": "Releia as frases anteriores e posteriores, identifique expressões que selecionam a acepção e evite impor um significado do dia a dia a um termo técnico. Se a questão pergunta por “sentido da palavra no contexto”, é esse uso que deve ser examinado.",
+          "erro_comum": "Responder pela definição mais conhecida da palavra ignorando a frase em que ela apareceu."
+        },
+        {
+          "titulo": "Denotação e conotação na escolha lexical",
+          "definicao": "Denotação é o uso referencial mais direto; conotação envolve associações e sentidos figurados. Uma mesma expressão pode assumir leitura literal ou figurada conforme o texto. Conotação não é sinônimo de “erro” ou “opinião”: é recurso legítimo de expressividade.",
+          "aplicacao": "“O projeto abriu caminho para um acordo” emprega uma imagem de percurso para expressar possibilidade de entendimento. “O caminhão abriu caminho na estrada” descreve uma ação física. O contexto seleciona qual leitura é pertinente.",
+          "aprofundamento": "Ao substituir uma expressão figurada, prefira paráfrase que preserve sua função comunicativa, não uma tradução palavra por palavra. Observe se a metáfora intensifica crítica, elogio, humor ou contraste.",
+          "erro_comum": "Interpretar literalmente expressões idiomáticas ou achar que toda palavra figurada representa ironia."
+        }
+      ]
+    },
+    "Português-sentido-literal-e-figurado": {
+      "introducao": "Entender figuras de linguagem exige observar o contexto. A mesma expressão pode descrever uma ação concreta ou construir uma imagem para transmitir outra ideia.",
+      "capitulos": [
+        {
+          "titulo": "Sentido literal e sentido figurado",
+          "definicao": "Sentido literal ocorre quando as palavras descrevem o referente sem transferência expressiva; sentido figurado emprega relações de semelhança, proximidade, contraste ou exagero para produzir outro efeito. Não existe “uma palavra sempre figurada”: é a construção em contexto que determina a leitura.",
+          "aplicacao": "“O servidor abriu a porta” descreve uma ação concreta. “A decisão abriu portas para novas soluções” emprega o espaço físico como imagem de oportunidade. O verbo “abrir” mantém relação semântica entre os usos, mas o segundo não exige porta material.",
+          "aprofundamento": "A banca pode perguntar pelo efeito da expressão, não só pedir o nome da figura. Ao explicar, diga o que a imagem acrescenta ao argumento: facilidade, obstáculo, rapidez, fragilidade ou intensidade.",
+          "erro_comum": "Trocar uma metáfora por expressão literal que perca o tom de crítica ou elogio do texto."
+        },
+        {
+          "titulo": "Metáfora e comparação",
+          "definicao": "Metáfora é uma aproximação de sentidos por semelhança implícita; a comparação costuma explicitar a relação com “como”, “tal qual” e outras estruturas. Ambas ajudam a destacar alguma característica, e seu efeito depende de quais traços do referente são selecionados.",
+          "aplicacao": "“A burocracia é um labirinto” não afirma que há corredores físicos: sugere percursos confusos e dificuldade de encontrar a saída. “A burocracia funciona como um labirinto” exprime a mesma imagem por comparação explícita.",
+          "aprofundamento": "Uma imagem não autoriza qualquer associação: “labirinto” pode sugerir complexidade ou perda de orientação, mas não prova que todos os funcionários agem deliberadamente para dificultar o serviço. Na alternativa, prefira interpretação coerente com o contexto.",
+          "erro_comum": "Interpretar literalmente a metáfora ou transformar sugestão expressiva em afirmação factual não feita pelo autor."
+        },
+        {
+          "titulo": "Metonímia e substituição por contiguidade",
+          "definicao": "Metonímia ocorre quando um termo designa outro por associação relevante, como autor pela obra, instituição por seus representantes, parte pelo todo em certos casos, ou continente pelo conteúdo. Diferentemente da metáfora, a relação costuma envolver proximidade ou vínculo efetivo entre os elementos.",
+          "aplicacao": "Em “A turma leu Machado de Assis”, entende-se que leu obras do escritor, não a pessoa. “O tribunal decidiu” pode designar uma decisão de seus órgãos competentes, conforme o contexto jurídico. A substituição comprime o enunciado sem necessariamente modificar o referente pretendido.",
+          "aprofundamento": "Pergunte qual objeto, pessoa ou instituição é realmente mencionado por associação. Quando uma questão pede substituir a expressão, explicite a relação: “ler Machado de Assis” = “ler textos de Machado de Assis”.",
+          "erro_comum": "Confundir toda referência indireta com metáfora: usar o nome do autor pelas obras é uma associação, não comparação de semelhança."
+        },
+        {
+          "titulo": "Ironia, hipérbole e efeito argumentativo",
+          "definicao": "Ironia pode indicar distância entre o que é dito e a intenção comunicativa, geralmente revelada por contexto ou contradição. Hipérbole usa exagero expressivo. Nenhuma delas deve ser identificada só porque aparece palavra intensa ou negativa.",
+          "aplicacao": "Se, após uma falha grave de sistema, alguém escreve “Que serviço impecável!”, o contexto torna plausível uma leitura irônica. “Esperei uma eternidade” é exagero de duração, não relato de tempo infinito.",
+          "aprofundamento": "Para reconhecer ironia, confronte o enunciado com a situação narrada e com o tom. Para hipérbole, identifique o exagero e sua finalidade: enfatizar demora, cansaço, surpresa ou indignação.",
+          "erro_comum": "Classificar como ironia toda crítica direta ou entender uma hipérbole como dado estatístico literal."
+        }
+      ]
+    },
+    "Português-classes-de-palavras-i-nomes-e-determinantes": {
+      "introducao": "Nesta parte, vamos reconhecer como substantivos e determinantes constroem referências e como a função de uma palavra pode mudar na frase.",
+      "capitulos": [
+        {
+          "titulo": "Substantivos e nominalização",
+          "definicao": "Substantivos nomeiam seres, lugares, objetos, eventos, sentimentos e conceitos. Podem ser concretos ou abstratos, comuns ou próprios, simples ou compostos e coletivos, conforme diferentes critérios. Uma palavra de outra classe pode funcionar como substantivo ao ser nominalizada por um determinante.",
+          "aplicacao": "“O relatório ficou pronto” tem o substantivo “relatório”. Em “O essencial foi informado”, “essencial”, normalmente adjetivo, funciona como termo substantivado por “o”. A função deve ser identificada na frase, não só pela forma isolada.",
+          "aprofundamento": "Para distinguir classe e função, pergunte qual termo recebe modificadores e exerce papel nominal: sujeito, complemento ou predicativo. A mudança de classe pode alterar concordância e sentido no enunciado.",
+          "erro_comum": "Achar que toda palavra terminada em “-ção” é automaticamente sujeito; classe gramatical não determina a função sintática."
+        },
+        {
+          "titulo": "Artigos e determinação do referente",
+          "definicao": "Artigos definidos (“o”, “a”, “os”, “as”) apresentam referentes identificáveis no contexto; indefinidos (“um”, “uma” etc.) introduzem referentes menos determinados. Esse contraste participa da coesão e influencia a interpretação de textos, sobretudo em narrativas e notícias.",
+          "aplicacao": "“Uma candidata apresentou recurso. A candidata anexou documentos.” O primeiro artigo introduz a pessoa; o segundo permite identificá-la como a mesma mencionada anteriormente. “O candidato” no início de um texto pode remeter a pessoa conhecida pelo contexto, sem antecedente explícito na frase.",
+          "aprofundamento": "Nem todo artigo definido remete a algo apresentado antes: pode referir-se a entidade única, familiar ou recuperável pela situação. Observe ainda artigos em locuções e sua presença em casos de crase.",
+          "erro_comum": "Interpretar “um” sempre como numeral exato: às vezes é artigo e introduz um referente, não enfatiza quantidade."
+        },
+        {
+          "titulo": "Adjetivos e locuções adjetivas",
+          "definicao": "Adjetivos caracterizam ou classificam substantivos e normalmente concordam em gênero e número. Uma locução adjetiva pode exercer papel parecido com grupo preposicionado, como “documento de urgência”. A posição do adjetivo pode modificar a interpretação, especialmente em combinações cristalizadas.",
+          "aplicacao": "“Um grande homem” tende a avaliar qualidades; “um homem grande” pode destacar tamanho. Em “parecer técnico”, “técnico” classifica o parecer. Em “as peças importantes”, “importantes” qualifica o nome “peças” e concorda com ele.",
+          "aprofundamento": "Há adjetivos que se aproximam de advérbios em usos específicos; classifique pela relação que mantêm na frase. Em questões de reescrita, compare a posição do adjetivo e se ela altera a informação ou a ênfase.",
+          "erro_comum": "Assumir que deslocar qualquer adjetivo não muda sentido, ou confundir atributo do sujeito com adjunto adnominal."
+        },
+        {
+          "titulo": "Numerais, quantificadores e efeitos de sentido",
+          "definicao": "Numerais exprimem quantidade, ordem, multiplicação e fração. Quantificadores como “alguns”, “muitos”, “todos” e “nenhum” modulam o alcance da afirmação. Em interpretação, esses elementos podem ser mais importantes que nomes e verbos, pois marcam precisão e generalização.",
+          "aplicacao": "“Três candidatos recorreram” indica quantidade determinada. “Alguns candidatos recorreram” afirma participação de parte não especificada. “Todos recorreram” é afirmação universal. Trocar uma dessas expressões altera o conteúdo e pode invalidar uma alternativa.",
+          "aprofundamento": "Observe “primeiro” como ordinal e “meio” em sentidos distintos: “meia hora” expressa fração com concordância; “estou meio cansado” usa advérbio de intensidade invariável.",
+          "erro_comum": "Tratar expressões como “a maioria” e “todos” como equivalentes, ou ignorar a diferença entre quantidade exata e indefinida."
+        }
+      ]
+    },
+    "Português-classes-de-palavras-ii-verbos-e-adv-rbios": {
+      "introducao": "Verbos organizam o tempo e o modo do enunciado; advérbios modificam ações, qualidades e até o grau de certeza. Essas escolhas mudam o que o texto afirma.",
+      "capitulos": [
+        {
+          "titulo": "Verbos: pessoa, número, tempo e modo",
+          "definicao": "Verbos expressam processos, estados, ações e fenômenos e variam, em regra, segundo pessoa, número, tempo, modo e voz. Indicativo costuma apresentar o conteúdo como fato, previsão ou certeza relativa; subjuntivo frequentemente marca hipótese, possibilidade, desejo ou condição; imperativo solicita ou determina comportamentos.",
+          "aplicacao": "“A comissão divulgará o resultado” situa a divulgação no futuro do presente, enquanto “Se a comissão divulgasse o resultado” apresenta hipótese no pretérito imperfeito do subjuntivo. “Divulgue o resultado” tem força de ordem ou pedido.",
+          "aprofundamento": "Em provas, verbos podem expressar nuances de intenção: “poderá” não equivale a “deverá”; “seria” pode revelar hipótese ou polidez. Para interpretar, pergunte quanto compromisso o enunciador assume com a realização do fato.",
+          "erro_comum": "Confundir futuro com obrigação. Uma previsão não funciona automaticamente como comando normativo."
+        },
+        {
+          "titulo": "Aspecto verbal: ação concluída, habitual e em curso",
+          "definicao": "Tempo verbal situa eventos; aspecto indica como o desenvolvimento é apresentado, por exemplo como concluído, contínuo, repetido ou em andamento. Pretérito perfeito e imperfeito frequentemente criam contrastes relevantes.",
+          "aplicacao": "“A equipe analisou os recursos” apresenta o evento passado de forma global, com leitura de conclusão no contexto. “A equipe analisava os recursos” pode mostrar processo em curso ou hábito num período passado. A troca afeta a perspectiva temporal mesmo quando sujeito e objeto são iguais.",
+          "aprofundamento": "Compare também “começou a analisar”, “continuou analisando” e “deixou de analisar”: expressões aspectuais introduzem início, permanência ou cessação e podem pressupor um estágio anterior. Em interpretação, isso sustenta inferências específicas.",
+          "erro_comum": "Trocar “não analisou” por “deixou de analisar”: a segunda construção sugere a interrupção de prática anterior, algo não contido necessariamente na primeira."
+        },
+        {
+          "titulo": "Advérbios e locuções adverbiais",
+          "definicao": "Advérbios modificam verbos, adjetivos, outros advérbios ou a oração, exprimindo circunstâncias como tempo, lugar, intensidade, dúvida e modo. Em regra são invariáveis. Locuções adverbiais têm duas ou mais palavras com função equivalente.",
+          "aplicacao": "“A equipe respondeu rapidamente”: “rapidamente” modifica o verbo. “O parecer ficou muito claro”: “muito” intensifica o adjetivo “claro”. “Talvez o prazo seja ampliado”: “talvez” sinaliza incerteza e influencia a escolha do subjuntivo.",
+          "aprofundamento": "Observe o escopo: “Ela não enviou o relatório ontem” pode gerar dúvida sobre a abrangência da negação conforme o contexto e a entonação. Reescrever exige preservar qual parte da frase foi modificada.",
+          "erro_comum": "Tratar “bastante” sempre como variável: em “bastante satisfeitos” é advérbio invariável; em “bastantes relatórios” acompanha substantivo e varia."
+        },
+        {
+          "titulo": "Voz ativa, passiva e preservação dos participantes",
+          "definicao": "Na voz ativa, o sujeito costuma realizar a ação; na passiva, o sujeito recebe a ação, quando o verbo e a construção admitem passivização. A mudança pode preservar um mesmo evento, mas alterar foco informativo e ordem de apresentação.",
+          "aplicacao": "“A comissão examinou os pedidos” (ativa) pode virar “Os pedidos foram examinados pela comissão” (passiva analítica). A ação, os participantes e o tempo essencial permanecem; o sujeito agora é “os pedidos”. “Examinaram-se os pedidos” é passiva sintética com concordância no plural.",
+          "aprofundamento": "Nem todo verbo admite a mesma transformação, e a voz passiva sintética exige análise de transitividade. Compare com “precisa-se de apoio”, que apresenta indeterminação do sujeito e não passiva com “apoio” como sujeito.",
+          "erro_comum": "Interpretar sujeito gramatical como autor da ação em toda frase, inclusive na voz passiva."
+        }
+      ]
+    },
+    "Português-pronomes-e-referencia-o": {
+      "introducao": "Pronomes são ferramentas centrais da coesão: reconhecê-los exige identificar que termo representam e como se relacionam ao verbo.",
+      "capitulos": [
+        {
+          "titulo": "Pronomes pessoais e referência",
+          "definicao": "Pronomes pessoais identificam participantes do discurso ou recuperam referentes. As formas retas costumam exercer papel de sujeito; as oblíquas, de complemento ou outras funções previstas na construção. A análise depende do verbo e da relação sintática, não somente da forma pronome.",
+          "aplicacao": "“Ela entregou os documentos a ele”: “ela” é sujeito; “ele”, antecedido de preposição, integra complemento preposicionado. “Entregou-os ontem”: “os” retoma documentos e funciona como objeto direto.",
+          "aprofundamento": "Em textos longos, registre o antecedente de cada pronome: número e gênero ajudam, mas o sentido também decide. Um pronome pode retomar uma ideia inteira, por exemplo “isso” em “O prazo terminou; isso surpreendeu os candidatos”.",
+          "erro_comum": "Associar automaticamente um pronome à palavra mais próxima quando o sentido da oração aponta para outra referência."
+        },
+        {
+          "titulo": "Relativos e ligação entre orações",
+          "definicao": "Pronomes relativos retomam termo antecedente e exercem uma função sintática na oração que introduzem. “Que” é muito frequente; “quem”, “o qual”, “cujo” e “onde” possuem usos e restrições que precisam ser observados em conjunto com a regência.",
+          "aplicacao": "“A norma a que me referi foi publicada”: “que” retoma “norma”, mas aparece precedido de “a” porque “referir-se” exige essa preposição. “O documento cujo prazo expirou” seria inadequado se “cujo” relacionar documento a prazo sem a relação possessiva plausível pretendida; verifique sempre a relação de posse.",
+          "aprofundamento": "Com “cujo”, o artigo não aparece depois do relativo: “o órgão cujas decisões foram publicadas”, e não “cujas as decisões”. “Onde” retoma lugar; para referências temporais ou abstratas, muitas vezes é preferível “em que”.",
+          "erro_comum": "Omitir a preposição exigida pelo verbo na oração relativa, produzindo desvio da norma-padrão."
+        },
+        {
+          "titulo": "Demonstrativos e articulação do texto",
+          "definicao": "Pronomes demonstrativos podem localizar pessoas e objetos no espaço, no tempo e no próprio discurso. Em textos escritos, também orientam a retomada e a antecipação de ideias: “isso” frequentemente resume informação anterior; “isto” pode anunciar algo que será detalhado.",
+          "aplicacao": "“O atendimento ficou suspenso por duas horas. Isso afetou os usuários.” “Isso” resume o acontecimento anterior, não apenas “duas horas”. Em “Há um problema: este é o prazo”, a interpretação depende da formulação; não há regra mecânica capaz de resolver todas as ocorrências sem contexto.",
+          "aprofundamento": "Ao explicar a referência, substitua o demonstrativo pelo segmento retomado. Se a frase fica coerente e preserva sentido, a identificação provavelmente é adequada. Cuidado ao deslocá-lo numa reescrita: o alcance pode mudar.",
+          "erro_comum": "Decidir o antecedente apenas por proximidade de palavras, sem perceber que um demonstrativo pode retomar uma proposição inteira."
+        },
+        {
+          "titulo": "Pronomes indefinidos e limites de generalização",
+          "definicao": "Pronomes indefinidos expressam quantidade ou identidade indeterminada: alguém, ninguém, vários, alguns, todos, qualquer etc. Eles não significam a mesma coisa; marcam relações lógicas importantes e podem determinar a validade de uma conclusão textual.",
+          "aplicacao": "“Alguns servidores receberam treinamento” não permite afirmar que todos receberam; tampouco prova que os demais não receberam. “Nenhum servidor recebeu treinamento” é uma negação universal, enquanto “nem todos receberam” afirma apenas que pelo menos um ficou de fora.",
+          "aprofundamento": "Em problemas de interpretação, traduza quantificadores para relações lógicas simples. “Todos” universaliza; “alguns” assegura a existência de parte; “somente” restringe o conjunto. Não intensifique a frase na alternativa.",
+          "erro_comum": "Confundir “alguns” com “somente alguns”; o primeiro não exclui automaticamente os demais."
+        }
+      ]
+    },
+    "Português-concord-ncia-verbal": {
+      "introducao": "O objetivo não é decorar uma tabela: é encontrar o núcleo do sujeito e entender por que o verbo fica no singular ou plural.",
+      "capitulos": [
+        {
+          "titulo": "Regra geral: localizar o núcleo do sujeito",
+          "definicao": "Na norma-padrão, o verbo geralmente concorda em número e pessoa com o núcleo do sujeito. Elementos entre sujeito e verbo podem distrair: complementos preposicionados e apostos não assumem automaticamente o controle da concordância.",
+          "aplicacao": "“A entrega dos documentos foi concluída”: o núcleo do sujeito é “entrega”, singular; “dos documentos” é complemento do nome. Portanto, “foram concluída” seria incorreto. Já “Os documentos da entrega foram conferidos” tem núcleo “documentos”, plural.",
+          "aprofundamento": "Inverta a ordem para encontrar o sujeito em frases complexas: “Chegaram à secretaria os ofícios” = “Os ofícios chegaram à secretaria”. O verbo concorda com “ofícios”, não com “secretaria”.",
+          "erro_comum": "Concordar com o substantivo mais próximo do verbo sem verificar sua função sintática."
+        },
+        {
+          "titulo": "Haver, fazer e construções impessoais",
+          "definicao": "Com sentido de existir, ocorrer ou acontecer, “haver” é impessoal e fica na terceira pessoa do singular. “Fazer” indicando tempo decorrido também costuma ser impessoal. O verbo principal de locução com essas construções deve preservar a impessoalidade.",
+          "aplicacao": "“Havia muitos pedidos pendentes” está na norma-padrão. “Deve haver muitos pedidos” também mantém singular em “deve”. “Faz dois anos” e “Vai fazer dois anos” usam verbo impessoal. Mas em “Os alunos haviam estudado”, “haver” é auxiliar e concorda com o sujeito.",
+          "aprofundamento": "Compare com “existir”: “Existiam muitos pedidos pendentes” concorda no plural porque há sujeito. Não generalize a impessoalidade de “haver” auxiliar para todo uso desse verbo.",
+          "erro_comum": "Escrever “haviam muitos pedidos” quando “haver” significa existir; confundir com “existiam muitos pedidos”, que é construção correta."
+        },
+        {
+          "titulo": "Partícula se: passiva ou indeterminação",
+          "definicao": "Com verbo transitivo direto em construção compatível, o “se” pode ser partícula apassivadora e o verbo concorda com o sujeito paciente: “vendem-se imóveis”. Com verbos transitivos indiretos, intransitivos ou de ligação em construções de indeterminação, o verbo costuma ficar no singular: “precisa-se de servidores”.",
+          "aplicacao": "“Alugam-se salas”: “salas” é sujeito paciente, por isso “alugam-se”. “Necessita-se de respostas”: “de respostas” é complemento preposicionado, não sujeito; o verbo permanece singular. A simples presença de “se” não resolve o caso.",
+          "aprofundamento": "Teste a transformação para passiva analítica nos casos apropriados: “Salas são alugadas”. Se essa passagem preserva a relação e há objeto direto da forma ativa, é indício de passiva sintética.",
+          "erro_comum": "Tratar todas as ocorrências de “se” como passivas e escrever “precisam-se de funcionários”."
+        },
+        {
+          "titulo": "Sujeito composto e expressões quantitativas",
+          "definicao": "Sujeito composto anteposto geralmente leva o verbo ao plural: “a chefe e a equipe chegaram”. Sujeito composto posposto pode admitir variações normativas em certas construções. Expressões como “a maioria de”, “parte dos” e porcentagens exigem atenção ao núcleo, ao especificador e ao efeito de sentido.",
+          "aplicacao": "“A chefia e os servidores participaram” pede plural. “A maioria dos candidatos compareceu” concorda com o núcleo “maioria”; em alguns contextos, a concordância com o termo plural é admitida e depende da construção. Para provas, observe a formulação exata e a norma cobrada.",
+          "aprofundamento": "Evite decorar uma única resposta para todas as estruturas partitivas. O padrão de concordância, a posição do sujeito e o contexto são determinantes. Em dúvida, privilegie construções inequívocas na escrita formal.",
+          "erro_comum": "Afirmar que toda expressão com numeral ou coletivo deve obrigatoriamente levar o verbo ao plural."
+        }
+      ]
+    },
+    "Português-concord-ncia-nominal": {
+      "introducao": "Concordância nominal é a relação de gênero e número entre substantivos e as palavras que os determinam ou caracterizam.",
+      "capitulos": [
+        {
+          "titulo": "Regra geral entre nome, artigo e adjetivo",
+          "definicao": "Artigos, numerais e adjetivos, de modo geral, concordam em gênero e número com o substantivo a que se ligam. Essa concordância pode se tornar mais complexa quando um adjetivo se refere a vários substantivos ou aparece antes deles.",
+          "aplicacao": "“As servidoras responsáveis assinaram os documentos”: artigo “as” e adjetivo “responsáveis” acompanham “servidoras”. “Os relatórios atualizados” mantém plural no adjetivo porque o nome está no plural.",
+          "aprofundamento": "Para revisar, primeiro encontre o substantivo e seus determinantes; depois confira gênero e número de cada termo. A concordância nominal não depende do gênero de quem fala, mas do nome ao qual a palavra se refere.",
+          "erro_comum": "Concordar um adjetivo com outro substantivo da frase apenas por estar mais próximo."
+        },
+        {
+          "titulo": "Adjetivo referido a dois substantivos",
+          "definicao": "Quando um adjetivo caracteriza dois ou mais substantivos, as possibilidades de concordância variam com a posição e a relação de sentido. Um adjetivo posposto pode ir ao plural, normalmente masculino quando os nomes têm gêneros diferentes; o adjetivo anteposto admite, em muitas construções, concordância com o termo mais próximo.",
+          "aplicacao": "“O relatório e a planilha atualizados” usa masculino plural para os dois nomes. “A nova planilha e relatório” precisa ser analisada pelo alcance de “nova”: a redação pode sugerir que o adjetivo modifica apenas “planilha”. Reescrever pode eliminar ambiguidades.",
+          "aprofundamento": "Em prova, examine se a alternativa apresenta concordância prevista pela norma e se a mudança preserva o significado. Às vezes duas construções são possíveis, mas produzem leitura diferente quanto ao alcance do adjetivo.",
+          "erro_comum": "Tratar concordância de adjetivos compostos ou de um adjetivo anteposto como se tivesse sempre uma regra única."
+        },
+        {
+          "titulo": "Anexo, incluso, obrigado e outras palavras variáveis",
+          "definicao": "Palavras como “anexo”, “incluso” e “obrigado” podem funcionar como adjetivos e, nessa função, variam conforme o referente. Já expressões como “em anexo” são locuções e não variam internamente da mesma forma.",
+          "aplicacao": "“As cópias seguem anexas” concorda com “cópias”. “Os documentos seguem inclusos” concorda com “documentos”. “Muito obrigada”, dito por uma mulher, flexiona o adjetivo de agradecimento segundo o referente que agradece.",
+          "aprofundamento": "Identifique a função exercida na frase. Em “Os anexos estão em anexo”, a primeira forma é substantivo no plural; a segunda integra uma locução adverbial invariável. O mesmo vocábulo pode ter comportamento diferente conforme sua classe.",
+          "erro_comum": "Afirmar que “anexo” é sempre invariável por aparecer em documentos administrativos."
+        },
+        {
+          "titulo": "Meio, bastante, só e funções diferentes",
+          "definicao": "Certas palavras variam como adjetivos, pronomes ou numerais, mas não como advérbios. “Meio”, “bastante” e “só” são comuns em questões porque mudam de classe conforme o termo que acompanham.",
+          "aplicacao": "“Meia hora” contém numeral fracionário concordando com “hora”; “meio cansados” tem advérbio que equivale a “um pouco”. “Bastantes arquivos” traz quantificador variável, mas “bastante preocupados” contém advérbio invariável. “Eles ficaram sós” pode significar sozinhos; “eles só estudaram” equivale a apenas.",
+          "aprofundamento": "Faça o teste de substituição: se “bastante” puder ser trocado por “muito” modificando adjetivo, é advérbio; se equivaler a “muitos” antes de substantivo, tende a variar.",
+          "erro_comum": "Decorar que uma palavra é invariável sem verificar a função que exerce no enunciado."
+        }
+      ]
+    },
+    "Português-reg-ncia-verbal-e-nominal": {
+      "introducao": "Regência explica qual relação um verbo ou nome estabelece com seu complemento. Isso também prepara a compreensão da crase.",
+      "capitulos": [
+        {
+          "titulo": "Regência verbal e transitividade",
+          "definicao": "Regência verbal é a relação entre um verbo e seus complementos, incluindo a exigência ou não de preposição. A transitividade pode variar com o sentido empregado. Por isso, uma mesma forma verbal pode apresentar construções diferentes, e a norma-padrão pode selecionar preposições específicas.",
+          "aplicacao": "“O servidor entregou o requerimento ao setor”: “o requerimento” é objeto direto, e “ao setor” exprime destinatário. Em “O candidato obedeceu às regras”, “obedecer” rege “a”; a crase resulta da preposição com o artigo feminino plural.",
+          "aprofundamento": "Observe a acepção do verbo antes de aplicar a regra. Em “assistir ao julgamento”, “assistir” tem sentido de presenciar e, na tradição normativa formal, rege “a”; em “assistir o paciente”, com sentido de prestar assistência, pode ser transitivo direto.",
+          "erro_comum": "Escolher preposição por hábito informal sem conferir o sentido cobrado e a norma-padrão da questão."
+        },
+        {
+          "titulo": "Regência nominal",
+          "definicao": "Substantivos abstratos, adjetivos e advérbios também podem selecionar preposições para completar seu sentido. A relação é chamada de regência nominal. Identificar o nome regente permite perceber por que certas preposições são necessárias em estruturas com “favorável”, “contrário”, “necessidade” e “referência”.",
+          "aplicacao": "“O parecer é favorável à proposta”: o adjetivo “favorável” rege “a”; “proposta” admite artigo feminino, originando “à”. “A necessidade de informações aumentou”: o substantivo “necessidade” se completa por “de informações”.",
+          "aprofundamento": "A mesma palavra pode combinar com complementos diferentes conforme a construção e o sentido. Para revisar, pergunte: qual elemento fica sem sentido completo sem esse complemento? É o verbo ou um nome que pede a preposição?",
+          "erro_comum": "Analisar uma expressão preposicionada como objeto indireto quando ela completa, na verdade, um substantivo ou adjetivo."
+        },
+        {
+          "titulo": "Verbos recorrentes em concursos",
+          "definicao": "Alguns verbos são examinados repetidamente por permitirem construções distintas: “preferir X a Y”, “visar” (no sentido de objetivar) com “a” na norma formal tradicional, “aspirar” (desejar) com “a”, “implicar” (acarretar) sem “em” no padrão normativo mais cobrado, e “chegar” com “a” para destino no registro formal.",
+          "aplicacao": "“Prefiro revisar o texto a decorar frases” evita “prefiro mais ... do que”. “O candidato aspira ao cargo” usa “a” porque “aspirar” significa desejar; em “aspirou o perfume” o sentido é inalar e a transitividade muda.",
+          "aprofundamento": "Consulte a acepção indicada pelo enunciado; provas podem aceitar usos consolidados da língua contemporânea, mas perguntas que mencionam “norma-padrão” tendem a privilegiar a regência tradicional. Em qualquer reescrita, preserve simultaneamente sentido e construção.",
+          "erro_comum": "Reduzir a regência a uma tabela sem identificar o sentido do verbo ou tratar variação de uso como se fosse sempre a mesma obrigação."
+        },
+        {
+          "titulo": "Regência e crase funcionando juntas",
+          "definicao": "A preposição exigida pelo termo regente é um dos dois fatores da crase. Quando um verbo ou adjetivo rege “a” e o termo seguinte admite artigo feminino “a/as”, a fusão se marca por à/às. Se falta um desses elementos, não se justifica o acento grave.",
+          "aplicacao": "“A equipe respondeu à solicitação”: “responder a” + “a solicitação”. Compare “A solicitação recebeu resposta”: antes de “solicitação” aparece apenas artigo, pois ela é sujeito. Compare também “respondeu a você”: pronome pessoal não admite o artigo feminino nessa construção.",
+          "aprofundamento": "Faça duas perguntas separadas: “o termo anterior pede a?” e “o termo seguinte admite artigo a?”. Ao transformar uma frase ativa em passiva, a regência pode se reorganizar e o acento da frase original desaparecer.",
+          "erro_comum": "Inserir crase apenas porque a palavra seguinte é feminina sem testar a preposição e a presença de artigo."
+        }
+      ]
+    },
+    "Português-crase-uso-e-proibi-es": {
+      "introducao": "Esta aula aprofunda decisões de crase em construções reais, inclusive expressões fixas e casos especiais.",
+      "capitulos": [
+        {
+          "titulo": "Locuções femininas que pedem atenção",
+          "definicao": "A tradição normativa registra crase em várias locuções adverbiais, prepositivas e conjuntivas femininas: “à noite”, “às pressas”, “à disposição de”, “à medida que”, “à procura de”. A análise é da expressão completa, não apenas da palavra isolada.",
+          "aplicacao": "“A equipe trabalhou à noite” indica circunstância de tempo por locução. “À medida que surgiam pedidos, o setor reorganizava a triagem” expressa proporcionalidade. “O servidor ficou à disposição da chefia” tem locução prepositiva estabelecida.",
+          "aprofundamento": "Na comparação com “de manhã”, observe que nem toda expressão de tempo recebe crase. Cada locução tem estrutura própria. Reescrever exige conservar a relação: “à medida que” não é automaticamente substituível por “na medida em que”, que tende a expressar justificativa ou proporção conforme uso.",
+          "erro_comum": "Aplicar o acento em toda expressão que contém substantivo feminino, mesmo quando não há locução ou fusão adequadas."
+        },
+        {
+          "titulo": "Antes de pronomes e demonstrativos",
+          "definicao": "Pronomes pessoais, muitos indefinidos e demonstrativos como “esta” não costumam aceitar artigo feminino, impedindo a fusão com a preposição. Já “aquele”, “aquela”, “aquilo” admitem a combinação com “a” inicial que recebe acento: “àquele”, “àquela”, “àquilo”.",
+          "aplicacao": "“Referiu-se a esta norma”: há preposição “a”, mas não artigo feminino antes de “esta”. “Referiu-se àquela norma”: preposição “a” + pronome demonstrativo “aquela”. “Entregou o documento a ela”: pronome pessoal sem artigo feminino.",
+          "aprofundamento": "Ao usar “aquele”, faça o teste: “dirigiu-se a aquele órgão” é representado por “dirigiu-se àquele órgão” na escrita culta. O gênero do substantivo implícito nem sempre resolve a questão: “àquilo” é neutro demonstrativo com fusão da preposição.",
+          "erro_comum": "Achar que a presença do “a” inicial em qualquer pronome basta para aplicar o acento."
+        },
+        {
+          "titulo": "Topônimos, nomes próprios e artigo",
+          "definicao": "O nome de lugar pode admitir ou não artigo, e isso interfere na crase após preposição “a”. O comportamento varia segundo o topônimo e seu uso: “voltar da” indica artigo; “voltar de” pode indicar ausência dele. Nomes próprios femininos de pessoa e certos possessivos podem permitir facultatividade do artigo conforme a tradição gramatical.",
+          "aplicacao": "“Cheguei à Bahia” relaciona-se a “voltei da Bahia”; “cheguei a Brasília” relaciona-se a “voltei de Brasília”, no uso mais comum sem artigo. Em “Fui a Roma”, a preposição não se funde a artigo ausente.",
+          "aprofundamento": "Topônimos com determinantes podem mudar: uma expressão como “à Brasília de outros tempos” admite artigo pela determinação introduzida. Em prova, a forma completa do nome e as palavras que o acompanham são decisivas.",
+          "erro_comum": "Aprender que toda cidade brasileira exige crase e aplicar a regra sem considerar uso do artigo."
+        },
+        {
+          "titulo": "Horas, distância e expressões especiais",
+          "definicao": "Indicação de horas determinadas tende a levar crase quando a construção contém a preposição “a” e artigo: “às 9h”. Em “desde as 9h”, há a preposição “desde”, e o “as” é artigo, sem fusão a+a. Expressões com “à moda de” podem aparecer elípticas, inclusive diante de nome masculino.",
+          "aplicacao": "“A reunião começará às 14h”; “A reunião ocorre desde as 14h”. “Bife à milanesa” pode ser explicado pela expressão “à moda milanesa”. Compare “Trabalho das 8h às 17h”, em que existe marcação de intervalo e a construção exige cuidado.",
+          "aprofundamento": "Evite simplificações como “sempre há crase antes de horas”, pois a preposição que vem antes altera o resultado. Leia a oração inteira e identifique se há fusão efetiva.",
+          "erro_comum": "Escrever “desde às 9h” por imitação de “às 9h”, sem considerar a preposição “desde”."
+        }
+      ]
+    },
+    "Português-pontua-o-e-sentido": {
+      "introducao": "Pontuação organiza estruturas e pode mudar a informação transmitida. Vamos entender seu efeito sintático e semântico em frases reais.",
+      "capitulos": [
+        {
+          "titulo": "Vírgula e organização da oração",
+          "definicao": "A vírgula marca certos limites sintáticos e informativos. Não deve ser usada, em regra, para separar sujeito do predicado nem verbo do complemento essencial, ainda que a frase seja longa. Também pode isolar vocativos, apostos, adjuntos deslocados e orações com determinadas funções.",
+          "aplicacao": "“Os documentos do concurso foram publicados” não leva vírgula entre sujeito e verbo. “Marina, confira os autos” usa vocativo separado por vírgula. “Ontem, o setor publicou a lista” traz adjunto adverbial deslocado que pode ser destacado.",
+          "aprofundamento": "A leitura em voz alta pode ajudar, mas pausa respiratória não é regra suficiente. Identifique primeiro a estrutura sintática; depois verifique quais termos estão deslocados, intercalados ou coordenados.",
+          "erro_comum": "Inserir vírgula após um sujeito comprido apenas para “dar fôlego” à frase."
+        },
+        {
+          "titulo": "Orações adjetivas restritivas e explicativas",
+          "definicao": "A oração adjetiva restritiva delimita um subconjunto e geralmente não é isolada por vírgulas. A explicativa acrescenta informação sobre referente já identificado ou sobre o conjunto considerado, sendo marcada por vírgulas. A mudança pode alterar quem está incluído no enunciado.",
+          "aplicacao": "“Os candidatos que estudaram foram aprovados” sugere recorte entre os candidatos. “Os candidatos, que estudaram, foram aprovados” apresenta o estudo como informação adicional sobre o conjunto mencionado. São leituras diferentes e a segunda só será adequada se o contexto justificar.",
+          "aprofundamento": "Em concursos, compare a referência antes e depois da vírgula: ela restringe o grupo ou apenas oferece explicação sobre ele? Observe a presença de orações intercaladas e relações com o antecedente.",
+          "erro_comum": "Achar que colocar vírgulas é apenas mudança de estilo sem efeito de sentido."
+        },
+        {
+          "titulo": "Ponto e vírgula, dois-pontos e travessão",
+          "definicao": "Dois-pontos introduzem explicação, enumeração, conclusão anunciada ou fala, conforme contexto. Ponto e vírgula costuma separar membros mais extensos, sobretudo quando já contêm vírgulas; travessão pode marcar discurso, inciso ou destaque. Esses sinais organizam relações, mas não são equivalentes em todas as frases.",
+          "aplicacao": "“A equipe apresentou três propostas: ampliar horários, simplificar etapas e reforçar equipes” usa dois-pontos para introduzir enumeração. “O sistema falhou; o atendimento foi suspenso” apresenta orações justapostas cuja relação é inferida.",
+          "aprofundamento": "Verifique se o sinal conserva encadeamento lógico: trocar vírgula por dois-pontos pode tornar mais explícita uma explicação, mas também pode ser inadequado em certas estruturas sintáticas. A questão deve ser resolvida pela relação das orações, não por impressão estética.",
+          "erro_comum": "Substituir todos os sinais por vírgulas sem observar a hierarquia de informações e a pontuação interna de cada segmento."
+        },
+        {
+          "titulo": "Pontuação e efeitos expressivos",
+          "definicao": "Interrogação, exclamação, reticências e aspas podem sinalizar perguntas, emoção, interrupção, distanciamento ou citação. Seus efeitos não são automáticos: aspas podem indicar fala literal, termo técnico, palavra estrangeira ou ironia, dependendo do contexto.",
+          "aplicacao": "No trecho “O serviço foi ‘perfeito’: ficou três horas fora do ar”, aspas podem indicar ironia associada à contradição explícita. Em “Segundo o servidor, ‘o sistema voltou às 14h’”, aspas delimitam declaração atribuída a outra voz.",
+          "aprofundamento": "Para identificar o efeito, considere autor, situação e palavras próximas. Se a pergunta pede finalidade das aspas, explique a função específica naquele trecho; não liste todas as possíveis funções do sinal.",
+          "erro_comum": "Afirmar que reticências sempre representam dúvida ou que aspas sempre indicam ironia, ignorando o contexto."
+        }
+      ]
+    },
+    "Português-coloca-o-pronominal": {
+      "introducao": "Aqui você aprende a decidir a posição do pronome átono em relação ao verbo na norma-padrão, considerando palavras atrativas e formas verbais.",
+      "capitulos": [
+        {
+          "titulo": "Próclise, ênclise e mesóclise",
+          "definicao": "Próclise é a colocação do pronome antes do verbo (“me avisou”); ênclise, depois (“avisou-me”); mesóclise, no interior de certas formas do futuro (“avisar-me-á”). A escolha depende da estrutura sintática, de fatores de atração e do registro. No português brasileiro falado, há usos diferentes da norma formal tradicional exigida em provas.",
+          "aplicacao": "“Não me avisaram” apresenta próclise por atração da negação. “Entregue-me os documentos”, em imperativo afirmativo sem palavra atrativa, usa ênclise formal. “Informar-lhe-ei” exemplifica mesóclise, hoje rara na linguagem corrente, mas contemplada em questões de norma-padrão.",
+          "aprofundamento": "Ao responder, identifique primeiro as palavras que antecedem o verbo e as formas verbais. Também verifique se há infinitivo, particípio ou locução verbal, que possuem particularidades.",
+          "erro_comum": "Tratar o modo mais comum da fala como regra obrigatória do padrão escrito formal de concursos."
+        },
+        {
+          "titulo": "Palavras atrativas da próclise",
+          "definicao": "Palavras negativas, certos pronomes relativos, indefinidos e interrogativos, conjunções subordinativas e advérbios sem pausa podem favorecer ou exigir próclise na norma tradicional. Não basta memorizar uma lista: importa que a palavra esteja relacionada ao verbo e que não exista elemento que quebre essa relação.",
+          "aplicacao": "“Ninguém me explicou a regra”; “Quando me chamarem, responderei”; “O documento que se perdeu foi encontrado”. Em todas, há elemento anterior que atrai o pronome. Compare “Ontem, entregaram-me o ofício”, em que a pausa após advérbio muda a configuração.",
+          "aprofundamento": "Em uma frase, grife primeiro a palavra atrativa, depois o verbo e, por último, o pronome. Isso evita escolher mecanicamente entre próclise e ênclise sem observar a estrutura.",
+          "erro_comum": "Pôr pronome depois do verbo em “não avisaram-me” no padrão formal, ignorando a palavra negativa."
+        },
+        {
+          "titulo": "Ênclise e início de oração",
+          "definicao": "Na norma tradicional, evita-se começar oração com pronome oblíquo átono isolado. Por isso, em frases iniciadas por verbo sem fator de atração, a ênclise é solução formal esperada: “Entregaram-me a resposta”. No português brasileiro real, “Me entregaram” é frequente, mas a questão pode exigir a norma-padrão.",
+          "aplicacao": "“Disseram-me o resultado” é construção formal de início de oração. “Jamais me disseram o resultado” passa à próclise pela negação. “Entregue-lhe o documento” usa ênclise com imperativo afirmativo.",
+          "aprofundamento": "Observe o comando: algumas questões cobram adequação ao registro formal; outras discutem usos efetivos da língua. O valor social da variante brasileira não torna desnecessária a análise do padrão solicitado no concurso.",
+          "erro_comum": "Responder qualquer questão como se o uso informal estivesse proibido em toda situação comunicativa; ou ignorar que a banca explicitou a norma-padrão."
+        },
+        {
+          "titulo": "Locuções verbais e estruturas especiais",
+          "definicao": "Locuções com auxiliar e verbo principal aceitam configurações de colocação que dependem de fatores de atração, tempo verbal e forma nominal. O particípio, na norma tradicional, não recebe pronome enclítico. Com infinitivo e gerúndio, há possibilidades específicas.",
+          "aplicacao": "“Vou entregar-lhe o documento” coloca o pronome junto do infinitivo. “Não lhe vou entregar o documento” traz atração pela negação. “Tinham-lhe entregue a resposta” associa o pronome ao auxiliar; “tinham entregue-lhe” não atende à regra normativa tradicional.",
+          "aprofundamento": "Em vez de decorar uma posição para toda locução, identifique: há palavra atrativa? Qual é o verbo auxiliar? O principal está em infinitivo, gerúndio ou particípio? A resposta muda com essas condições.",
+          "erro_comum": "Encaixar pronome depois de particípio em qualquer construção, apenas por analogia com infinitivo."
+        }
+      ]
+    }
+  }
+}
